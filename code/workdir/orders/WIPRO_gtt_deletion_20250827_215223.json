@@ -1,0 +1,41 @@
+{
+  "company_symbol": "WIPRO",
+  "operation": "GTT Order Deletion",
+  "timestamp": "2025-08-27T21:52:23.197049",
+  "results": {
+    "total_orders": 4,
+    "successful_deletions": 4,
+    "failed_deletions": 0,
+    "deleted_orders": [
+      {
+        "trigger_id": 285329917,
+        "symbol": null,
+        "quantity": null,
+        "price": null,
+        "timestamp": "2025-08-27T21:52:22.748883"
+      },
+      {
+        "trigger_id": 285329916,
+        "symbol": null,
+        "quantity": null,
+        "price": null,
+        "timestamp": "2025-08-27T21:52:22.888944"
+      },
+      {
+        "trigger_id": 285329915,
+        "symbol": null,
+        "quantity": null,
+        "price": null,
+        "timestamp": "2025-08-27T21:52:23.040828"
+      },
+      {
+        "trigger_id": 285329914,
+        "symbol": null,
+        "quantity": null,
+        "price": null,
+        "timestamp": "2025-08-27T21:52:23.197049"
+      }
+    ],
+    "failed_orders": []
+  }
+}

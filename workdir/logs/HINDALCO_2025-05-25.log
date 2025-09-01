@@ -1,0 +1,26 @@
+2025-05-25 22:38:37,823 - __main__ - INFO - Successfully initialized Breeze API
+2025-05-25 22:38:37,980 - fall_buy - INFO - Successfully initialized and connected to Kite API
+2025-05-25 22:38:37,980 - fall_buy - INFO - {'kite_connect': {'access_token': 'W867dKOJkf8t0lOJt1MSyrzufUD2FZnc', 'api_key': 'ldhfjwk4z3wn9v9d', 'api_secret': 'k8ri5fj6wtn404iqq3bmt5ntdplubua1', 'redirect_url': 'http://localhost:8000/login', 'request_token': '0qU2Xu8mIVBB1Crfob8SpvH7qPBFmzLJ'}, 'breeze_api': {'api_token': '3088X_y892P%7c#516`r8i9kx2K485&8', 'secret_token': '530zM488$968889l8rD9a7S35(2984w1', 'session_id': 51609215}, 'stratergy': {'buy': 1, 'sell': 1, 'start_buy': 1, 'linear_from': 1}}
+2025-05-25 22:38:37,991 - fall_buy - INFO - Initialized FallBuy strategy for HINDALCO on NSE
+2025-05-25 22:38:37,991 - __main__ - INFO - Successfully initialized FallBuy strategy
+2025-05-25 22:38:38,591 - __main__ - INFO - Kite account details retrieved successfully
+2025-05-25 22:38:39,457 - breeze_sdk_api - INFO - Successfully initialized Breeze API with credentials
+2025-05-25 22:38:39,576 - __main__ - INFO - trading_symbol = {'Success': {'exg_trade_date': {'NSE': '26-May-2025', 'BSE': '26-May-2025', 'FNO': '26-May-2025', 'NDX': '19-May-2025'}, 'exg_status': {'NSE': 'C', 'BSE': 'C', 'FNO': 'Y', 'NDX': 'X'}, 'segments_allowed': {'Trading': 'Y', 'Equity': 'Y', 'Derivatives': 'Y', 'Currency': 'Z'}, 'idirect_userid': 'W1676281', 'idirect_user_name': 'KUDITHI PRUTHVI RAJ', 'idirect_ORD_TYP': 'N', 'idirect_lastlogin_time': '25-May-2025 22:38:39', 'mf_holding_mode_popup_flg': 'Y', 'commodity_exchange_status': 'Y', 'commodity_trade_date': '26-May-2025', 'commodity_allowed': 'C'}, 'Status': 200, 'Error': None}
+2025-05-25 22:38:39,710 - breeze_sdk_api - INFO - Setting on_ticks function: <bound method BreezeApi.on_ticks of <breeze_sdk_api.BreezeApi object at 0x0000021B732E0CA0>>
+2025-05-25 22:38:39,710 - breeze_sdk_api - INFO - Successfully connected to WebSocket
+2025-05-25 22:38:39,711 - __main__ - INFO - Connected to Breeze WebSocket for live data
+2025-05-25 22:38:39,814 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'HINDALCO', 'isec_stock_code': 'HINDAL', 'isec_token': '1363', 'company name': 'HINDALCO INDUSTRIES LIMITED', 'isec_token_level1': '4.1!1363', 'isec_token_level2': '4.2!1363'}
+2025-05-25 22:38:39,815 - breeze_sdk_api - INFO - Got token name for HINDALCO: 4.1!1363
+2025-05-25 22:38:39,815 - __main__ - INFO - Stock token: 4.1!1363
+2025-05-25 22:38:39,815 - breeze_sdk_api - INFO - Setting on_ticks function: <bound method FallBuy.get_tick of <fall_buy.FallBuy object at 0x0000021B732E0CD0>>
+2025-05-25 22:38:39,816 - __main__ - INFO - Successfully set up tick handler
+2025-05-25 22:38:39,816 - __main__ - INFO - Subscribing to feed for token: 4.1!1363
+2025-05-25 22:38:39,816 - breeze_sdk_api - INFO - Successfully subscribed to OHLC feed for token: 4.1!1363
+2025-05-25 22:38:39,817 - __main__ - INFO - Successfully subscribed to stock feed
+2025-05-25 22:38:39,817 - __main__ - INFO - Starting to receive market data...
+2025-05-25 22:38:43,897 - __main__ - INFO - Market hours ended, cleaning up...
+2025-05-25 22:38:43,897 - fall_buy - INFO - No pending orders to clean up
+2025-05-25 22:38:43,899 - breeze_sdk_api - INFO - Successfully unsubscribed from feed for token: 4.1!1363
+2025-05-25 22:38:43,899 - breeze_sdk_api - INFO - Successfully disconnected from WebSocket
+2025-05-25 22:38:43,900 - __main__ - INFO - Successfully disconnected from Breeze WebSocket
+2025-05-25 22:38:43,903 - fall_buy - INFO - Stock history saved to workdir\orders\HINDALCO_history.json

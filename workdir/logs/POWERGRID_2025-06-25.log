@@ -1,0 +1,375 @@
+2025-06-25 18:23:35,175 - __main__ - INFO - Starting GTT Fall Buy strategy for POWERGRID on NSE
+2025-06-25 18:23:36,569 - breeze_sdk_api - INFO - Successfully initialized Breeze API with credentials
+2025-06-25 18:23:36,570 - __main__ - INFO - Successfully initialized Breeze API
+2025-06-25 18:23:36,689 - __main__ - INFO - Successfully initialized Kite API
+2025-06-25 18:23:36,690 - __main__ - INFO - Will place 5 GTT orders
+2025-06-25 18:23:36,690 - __main__ - INFO - No GTT history file found at workdir\orders\POWERGRID_gtt_history.json. Starting fresh.
+2025-06-25 18:23:36,690 - __main__ - INFO - Found 0 existing GTT orders
+2025-06-25 18:23:36,846 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'POWERGRID', 'isec_stock_code': 'POWGRI', 'isec_token': '14977', 'company name': 'POWER GRID CORPORATION OF INDI', 'isec_token_level1': '4.1!14977', 'isec_token_level2': '4.2!14977'}
+2025-06-25 18:23:36,846 - breeze_sdk_api - INFO - Got token name for POWERGRID: 4.1!14977
+2025-06-25 18:23:37,115 - __main__ - INFO - Current price for POWERGRID: 290.45
+2025-06-25 18:23:37,116 - __main__ - INFO - Found 0 actually active orders on exchange
+2025-06-25 18:23:37,117 - __main__ - INFO - Starting fresh fall buy strategy from current price: 290.45
+2025-06-25 18:23:37,117 - __main__ - INFO - DEBUG: existing_order_count=0, i=1, order_number=1
+2025-06-25 18:23:37,117 - __main__ - INFO - DEBUG: Attempting to place order 1/5
+2025-06-25 18:23:37,122 - __main__ - INFO - Placing GTT order 1: 1 shares @ 289.67 (trigger: 289.57) - 1% drop from entry
+2025-06-25 18:23:37,123 - __main__ - INFO - DEBUG: Price validation - Order: 289.67, Trigger: 289.57, Tick size: 0.01
+2025-06-25 18:23:37,123 - __main__ - INFO - DEBUG: Checking if price 289.67 is similar to existing orders...
+2025-06-25 18:23:37,123 - __main__ - INFO - DEBUG: Price check passed, proceeding with order placement...
+2025-06-25 18:23:37,248 - __main__ - INFO - Successfully placed GTT order 1: 277956589
+2025-06-25 18:23:37,248 - __main__ - INFO - DEBUG: Order 1 placed successfully. Total placed: 1
+2025-06-25 18:23:37,249 - __main__ - INFO - DEBUG: Updated previous_order_price to 289.67
+2025-06-25 18:23:37,249 - __main__ - INFO - DEBUG: existing_order_count=0, i=2, order_number=2
+2025-06-25 18:23:37,249 - __main__ - INFO - DEBUG: Attempting to place order 2/5
+2025-06-25 18:23:37,252 - __main__ - INFO - Placing GTT order 2: 2 shares @ 286.77 (trigger: 286.67) - 2% drop from entry
+2025-06-25 18:23:37,252 - __main__ - INFO - DEBUG: Price validation - Order: 286.77, Trigger: 286.67, Tick size: 0.01
+2025-06-25 18:23:37,253 - __main__ - INFO - DEBUG: Checking if price 286.77 is similar to existing orders...
+2025-06-25 18:23:37,253 - __main__ - INFO - DEBUG: Price check passed, proceeding with order placement...
+2025-06-25 18:23:37,391 - __main__ - INFO - Successfully placed GTT order 2: 277956590
+2025-06-25 18:23:37,391 - __main__ - INFO - DEBUG: Order 2 placed successfully. Total placed: 2
+2025-06-25 18:23:37,392 - __main__ - INFO - DEBUG: Updated previous_order_price to 286.77
+2025-06-25 18:23:37,392 - __main__ - INFO - DEBUG: existing_order_count=0, i=3, order_number=3
+2025-06-25 18:23:37,393 - __main__ - INFO - DEBUG: Attempting to place order 3/5
+2025-06-25 18:23:37,396 - __main__ - INFO - Placing GTT order 3: 3 shares @ 283.90 (trigger: 283.80) - 3% drop from entry
+2025-06-25 18:23:37,396 - __main__ - INFO - DEBUG: Price validation - Order: 283.90, Trigger: 283.80, Tick size: 0.01
+2025-06-25 18:23:37,396 - __main__ - INFO - DEBUG: Checking if price 283.90 is similar to existing orders...
+2025-06-25 18:23:37,396 - __main__ - INFO - DEBUG: Price check passed, proceeding with order placement...
+2025-06-25 18:23:37,517 - __main__ - INFO - Successfully placed GTT order 3: 277956591
+2025-06-25 18:23:37,518 - __main__ - INFO - DEBUG: Order 3 placed successfully. Total placed: 3
+2025-06-25 18:23:37,518 - __main__ - INFO - DEBUG: Updated previous_order_price to 283.9
+2025-06-25 18:23:37,518 - __main__ - INFO - DEBUG: existing_order_count=0, i=4, order_number=4
+2025-06-25 18:23:37,519 - __main__ - INFO - DEBUG: Attempting to place order 4/5
+2025-06-25 18:23:37,521 - __main__ - INFO - Placing GTT order 4: 4 shares @ 281.06 (trigger: 280.96) - 4% drop from entry
+2025-06-25 18:23:37,521 - __main__ - INFO - DEBUG: Price validation - Order: 281.06, Trigger: 280.96, Tick size: 0.01
+2025-06-25 18:23:37,522 - __main__ - INFO - DEBUG: Checking if price 281.06 is similar to existing orders...
+2025-06-25 18:23:37,522 - __main__ - INFO - DEBUG: Price check passed, proceeding with order placement...
+2025-06-25 18:23:37,633 - __main__ - INFO - Successfully placed GTT order 4: 277956592
+2025-06-25 18:23:37,633 - __main__ - INFO - DEBUG: Order 4 placed successfully. Total placed: 4
+2025-06-25 18:23:37,634 - __main__ - INFO - DEBUG: Updated previous_order_price to 281.06
+2025-06-25 18:23:37,634 - __main__ - INFO - DEBUG: existing_order_count=0, i=5, order_number=5
+2025-06-25 18:23:37,634 - __main__ - INFO - DEBUG: Attempting to place order 5/5
+2025-06-25 18:23:37,637 - __main__ - INFO - Placing GTT order 5: 5 shares @ 278.25 (trigger: 278.15) - 5% drop from entry
+2025-06-25 18:23:37,637 - __main__ - INFO - DEBUG: Price validation - Order: 278.25, Trigger: 278.15, Tick size: 0.01
+2025-06-25 18:23:37,638 - __main__ - INFO - DEBUG: Checking if price 278.25 is similar to existing orders...
+2025-06-25 18:23:37,638 - __main__ - INFO - DEBUG: Price check passed, proceeding with order placement...
+2025-06-25 18:23:37,841 - __main__ - INFO - Successfully placed GTT order 5: 277956593
+2025-06-25 18:23:37,841 - __main__ - INFO - DEBUG: Order 5 placed successfully. Total placed: 5
+2025-06-25 18:23:37,842 - __main__ - INFO - DEBUG: Updated previous_order_price to 278.25
+2025-06-25 18:23:37,842 - __main__ - INFO - DEBUG: Order placement loop completed. orders_placed=5, num_orders=5
+2025-06-25 18:23:37,842 - __main__ - INFO - Total GTT orders placed: 5/5
+2025-06-25 18:23:37,843 - __main__ - INFO - SUCCESS: All 5 orders were placed successfully!
+2025-06-25 18:23:37,843 - __main__ - INFO - DEBUG: existing_gtt_orders count: 0
+2025-06-25 18:23:37,843 - __main__ - INFO - DEBUG: new_gtt_orders count: 5
+2025-06-25 18:23:37,843 - __main__ - INFO - DEBUG: all_gtt_orders count: 5
+2025-06-25 18:23:37,844 - __main__ - INFO - DEBUG: Attempting to save GTT history with 5 orders...
+2025-06-25 18:23:37,844 - __main__ - INFO - DEBUG: save_gtt_history called with 5 orders for POWERGRID
+2025-06-25 18:23:37,845 - __main__ - INFO - DEBUG: Orders directory ensured: workdir\orders
+2025-06-25 18:23:37,845 - __main__ - INFO - DEBUG: History data prepared with 5 orders
+2025-06-25 18:23:37,845 - __main__ - INFO - DEBUG: Saving to file: workdir\orders\POWERGRID_gtt_history.json
+2025-06-25 18:23:37,847 - __main__ - INFO - GTT history saved to workdir\orders\POWERGRID_gtt_history.json
+2025-06-25 18:23:37,847 - __main__ - INFO - DEBUG: File saved successfully. File size: 2773 bytes
+2025-06-25 18:23:37,847 - __main__ - INFO - DEBUG: GTT history save completed
+2025-06-25 18:23:37,848 - __main__ - INFO - Total GTT orders in account: 0
+2025-06-25 18:23:37,850 - __main__ - INFO - Starting GTT order monitoring thread
+2025-06-25 18:23:37,850 - __main__ - INFO - Setting up real-time tick data monitoring...
+2025-06-25 18:23:37,850 - __main__ - INFO - === GTT Order Monitoring Cycle ===
+2025-06-25 18:23:38,011 - __main__ - INFO - Market hours: CLOSED
+2025-06-25 18:23:38,011 - __main__ - INFO - Market closed cycle 1/12
+2025-06-25 18:23:38,186 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'POWERGRID', 'isec_stock_code': 'POWGRI', 'isec_token': '14977', 'company name': 'POWER GRID CORPORATION OF INDI', 'isec_token_level1': '4.1!14977', 'isec_token_level2': '4.2!14977'}
+2025-06-25 18:23:38,187 - breeze_sdk_api - INFO - Got token name for POWERGRID: 4.1!14977
+2025-06-25 18:23:38,205 - breeze_sdk_api - INFO - Setting on_ticks function: <bound method BreezeApi.on_ticks of <breeze_sdk_api.BreezeApi object at 0x000001650C6E3BE0>>
+2025-06-25 18:23:38,206 - breeze_sdk_api - INFO - Successfully connected to WebSocket
+2025-06-25 18:23:38,207 - __main__ - INFO - Connected to Breeze WebSocket for real-time data
+2025-06-25 18:23:38,558 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'POWERGRID', 'isec_stock_code': 'POWGRI', 'isec_token': '14977', 'company name': 'POWER GRID CORPORATION OF INDI', 'isec_token_level1': '4.1!14977', 'isec_token_level2': '4.2!14977'}
+2025-06-25 18:23:38,559 - breeze_sdk_api - INFO - Got token name for POWERGRID: 4.1!14977
+2025-06-25 18:23:38,559 - __main__ - INFO - Stock token for tick data: 4.1!14977
+2025-06-25 18:23:38,560 - breeze_sdk_api - INFO - Setting on_ticks function: <function main.<locals>.tick_handler at 0x00000165095E2170>
+2025-06-25 18:23:38,560 - __main__ - INFO - Tick handler set up successfully
+2025-06-25 18:23:38,561 - breeze_sdk_api - INFO - Successfully subscribed to OHLC feed for token: 4.1!14977
+2025-06-25 18:23:38,562 - __main__ - INFO - Subscribed to real-time feed for POWERGRID
+2025-06-25 18:23:38,562 - __main__ - INFO - Real-time tick data monitoring is now active!
+2025-06-25 18:23:38,563 - __main__ - INFO - The system will now respond to price changes in real-time
+2025-06-25 18:23:38,563 - __main__ - INFO - GTT order monitoring started.
+2025-06-25 18:23:38,563 - __main__ - INFO - Monitoring will automatically stop when market closes for 1 hour.
+2025-06-25 18:23:38,564 - __main__ - INFO - Press Ctrl+C to stop manually.
+2025-06-25 18:23:38,616 - __main__ - INFO - Current GTT orders in account: 0
+2025-06-25 18:23:38,616 - __main__ - INFO - Active buy orders for POWERGRID: 0
+2025-06-25 18:23:38,617 - __main__ - INFO - Need to place 5 more buy orders to maintain 5 active orders
+2025-06-25 18:23:38,617 - __main__ - INFO - Current active orders: 0/5
+2025-06-25 18:23:38,618 - __main__ - WARNING - No active buy orders found, cannot determine price for new orders
+2025-06-25 18:23:38,618 - __main__ - INFO - No shares available for selling
+2025-06-25 18:23:38,618 - __main__ - INFO - === End Monitoring Cycle ===
+2025-06-25 18:25:38,625 - __main__ - INFO - === GTT Order Monitoring Cycle ===
+2025-06-25 18:25:38,625 - __main__ - INFO - Market hours: CLOSED
+2025-06-25 18:25:38,625 - __main__ - INFO - Market closed cycle 2/12
+2025-06-25 18:25:38,757 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'POWERGRID', 'isec_stock_code': 'POWGRI', 'isec_token': '14977', 'company name': 'POWER GRID CORPORATION OF INDI', 'isec_token_level1': '4.1!14977', 'isec_token_level2': '4.2!14977'}
+2025-06-25 18:25:38,758 - breeze_sdk_api - INFO - Got token name for POWERGRID: 4.1!14977
+2025-06-25 18:25:39,006 - __main__ - INFO - Current GTT orders in account: 0
+2025-06-25 18:25:39,007 - __main__ - INFO - Active buy orders for POWERGRID: 0
+2025-06-25 18:25:39,007 - __main__ - INFO - Need to place 5 more buy orders to maintain 5 active orders
+2025-06-25 18:25:39,007 - __main__ - INFO - Current active orders: 0/5
+2025-06-25 18:25:39,007 - __main__ - WARNING - No active buy orders found, cannot determine price for new orders
+2025-06-25 18:25:39,008 - __main__ - INFO - No shares available for selling
+2025-06-25 18:25:39,008 - __main__ - INFO - === End Monitoring Cycle ===
+2025-06-25 18:27:39,019 - __main__ - INFO - === GTT Order Monitoring Cycle ===
+2025-06-25 18:27:39,019 - __main__ - INFO - Market hours: CLOSED
+2025-06-25 18:27:39,020 - __main__ - INFO - Market closed cycle 3/12
+2025-06-25 18:27:39,124 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'POWERGRID', 'isec_stock_code': 'POWGRI', 'isec_token': '14977', 'company name': 'POWER GRID CORPORATION OF INDI', 'isec_token_level1': '4.1!14977', 'isec_token_level2': '4.2!14977'}
+2025-06-25 18:27:39,125 - breeze_sdk_api - INFO - Got token name for POWERGRID: 4.1!14977
+2025-06-25 18:27:39,415 - __main__ - INFO - Current GTT orders in account: 0
+2025-06-25 18:27:39,416 - __main__ - INFO - Active buy orders for POWERGRID: 0
+2025-06-25 18:27:39,416 - __main__ - INFO - Need to place 5 more buy orders to maintain 5 active orders
+2025-06-25 18:27:39,416 - __main__ - INFO - Current active orders: 0/5
+2025-06-25 18:27:39,417 - __main__ - WARNING - No active buy orders found, cannot determine price for new orders
+2025-06-25 18:27:39,417 - __main__ - INFO - No shares available for selling
+2025-06-25 18:27:39,417 - __main__ - INFO - === End Monitoring Cycle ===
+2025-06-25 18:29:39,431 - __main__ - INFO - === GTT Order Monitoring Cycle ===
+2025-06-25 18:29:39,432 - __main__ - INFO - Market hours: CLOSED
+2025-06-25 18:29:39,432 - __main__ - INFO - Market closed cycle 4/12
+2025-06-25 18:29:39,522 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'POWERGRID', 'isec_stock_code': 'POWGRI', 'isec_token': '14977', 'company name': 'POWER GRID CORPORATION OF INDI', 'isec_token_level1': '4.1!14977', 'isec_token_level2': '4.2!14977'}
+2025-06-25 18:29:39,523 - breeze_sdk_api - INFO - Got token name for POWERGRID: 4.1!14977
+2025-06-25 18:29:39,749 - __main__ - INFO - Current GTT orders in account: 0
+2025-06-25 18:29:39,749 - __main__ - INFO - Active buy orders for POWERGRID: 0
+2025-06-25 18:29:39,749 - __main__ - INFO - Need to place 5 more buy orders to maintain 5 active orders
+2025-06-25 18:29:39,750 - __main__ - INFO - Current active orders: 0/5
+2025-06-25 18:29:39,750 - __main__ - WARNING - No active buy orders found, cannot determine price for new orders
+2025-06-25 18:29:39,750 - __main__ - INFO - No shares available for selling
+2025-06-25 18:29:39,750 - __main__ - INFO - === End Monitoring Cycle ===
+2025-06-25 18:30:36,210 - __main__ - INFO - Received interrupt signal. Stopping monitoring...
+2025-06-25 18:30:46,224 - __main__ - INFO - Monitoring stopped by user.
+2025-06-25 18:30:46,224 - __main__ - INFO - Waiting for monitoring thread to finish...
+2025-06-25 18:31:16,230 - __main__ - INFO - Cleaning up WebSocket connection...
+2025-06-25 18:31:16,230 - __main__ - INFO - WebSocket not initialized, skipping cleanup
+2025-06-25 18:31:16,231 - __main__ - INFO - GTT Fall Buy strategy completed.
+2025-06-25 18:31:16,231 - __main__ - INFO - Stop monitoring signal set
+2025-06-25 18:48:35,271 - __main__ - INFO - Starting GTT Fall Buy strategy for POWERGRID on NSE
+2025-06-25 18:48:36,374 - breeze_sdk_api - INFO - Successfully initialized Breeze API with credentials
+2025-06-25 18:48:36,374 - __main__ - INFO - Successfully initialized Breeze API
+2025-06-25 18:48:36,482 - __main__ - INFO - Successfully initialized Kite API
+2025-06-25 18:48:36,483 - __main__ - INFO - Will place 5 GTT orders
+2025-06-25 18:48:36,483 - __main__ - INFO - GTT history file exists but is empty: workdir\orders\POWERGRID_gtt_history.json
+2025-06-25 18:48:36,483 - __main__ - INFO - Found 0 existing GTT orders
+2025-06-25 18:48:36,608 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'POWERGRID', 'isec_stock_code': 'POWGRI', 'isec_token': '14977', 'company name': 'POWER GRID CORPORATION OF INDI', 'isec_token_level1': '4.1!14977', 'isec_token_level2': '4.2!14977'}
+2025-06-25 18:48:36,609 - breeze_sdk_api - INFO - Got token name for POWERGRID: 4.1!14977
+2025-06-25 18:48:36,884 - __main__ - INFO - Current price for POWERGRID: 290.45
+2025-06-25 18:48:36,885 - __main__ - INFO - Found 0 actually active buy orders on exchange
+2025-06-25 18:48:36,886 - __main__ - INFO - Starting fresh fall buy strategy from current price: 290.45
+2025-06-25 18:48:36,886 - __main__ - INFO - DEBUG: existing_order_count=0, i=1, order_number=1
+2025-06-25 18:48:36,886 - __main__ - INFO - DEBUG: Attempting to place order 1/5
+2025-06-25 18:48:36,891 - __main__ - INFO - Placing GTT order 1: 1 shares @ 289.67 (trigger: 289.57) - 1% drop from entry
+2025-06-25 18:48:36,891 - __main__ - INFO - DEBUG: Price validation - Order: 289.67, Trigger: 289.57, Tick size: 0.01
+2025-06-25 18:48:36,891 - __main__ - INFO - DEBUG: Checking if price 289.67 is similar to existing orders...
+2025-06-25 18:48:36,892 - __main__ - INFO - DEBUG: Price check passed, proceeding with order placement...
+2025-06-25 18:48:36,993 - __main__ - INFO - Successfully placed GTT order 1: 277957581
+2025-06-25 18:48:36,994 - __main__ - INFO - DEBUG: Order 1 placed successfully. Total placed: 1
+2025-06-25 18:48:36,994 - __main__ - INFO - DEBUG: Updated previous_order_price to 289.67
+2025-06-25 18:48:36,994 - __main__ - INFO - DEBUG: existing_order_count=0, i=2, order_number=2
+2025-06-25 18:48:36,994 - __main__ - INFO - DEBUG: Attempting to place order 2/5
+2025-06-25 18:48:36,997 - __main__ - INFO - Placing GTT order 2: 2 shares @ 286.77 (trigger: 286.67) - 2% drop from entry
+2025-06-25 18:48:36,997 - __main__ - INFO - DEBUG: Price validation - Order: 286.77, Trigger: 286.67, Tick size: 0.01
+2025-06-25 18:48:36,997 - __main__ - INFO - DEBUG: Checking if price 286.77 is similar to existing orders...
+2025-06-25 18:48:36,997 - __main__ - INFO - DEBUG: Price check passed, proceeding with order placement...
+2025-06-25 18:48:37,116 - __main__ - INFO - Successfully placed GTT order 2: 277957582
+2025-06-25 18:48:37,116 - __main__ - INFO - DEBUG: Order 2 placed successfully. Total placed: 2
+2025-06-25 18:48:37,117 - __main__ - INFO - DEBUG: Updated previous_order_price to 286.77
+2025-06-25 18:48:37,117 - __main__ - INFO - DEBUG: existing_order_count=0, i=3, order_number=3
+2025-06-25 18:48:37,117 - __main__ - INFO - DEBUG: Attempting to place order 3/5
+2025-06-25 18:48:37,120 - __main__ - INFO - Placing GTT order 3: 3 shares @ 283.90 (trigger: 283.80) - 3% drop from entry
+2025-06-25 18:48:37,120 - __main__ - INFO - DEBUG: Price validation - Order: 283.90, Trigger: 283.80, Tick size: 0.01
+2025-06-25 18:48:37,120 - __main__ - INFO - DEBUG: Checking if price 283.90 is similar to existing orders...
+2025-06-25 18:48:37,121 - __main__ - INFO - DEBUG: Price check passed, proceeding with order placement...
+2025-06-25 18:48:37,279 - __main__ - INFO - Successfully placed GTT order 3: 277957583
+2025-06-25 18:48:37,279 - __main__ - INFO - DEBUG: Order 3 placed successfully. Total placed: 3
+2025-06-25 18:48:37,280 - __main__ - INFO - DEBUG: Updated previous_order_price to 283.9
+2025-06-25 18:48:37,280 - __main__ - INFO - DEBUG: existing_order_count=0, i=4, order_number=4
+2025-06-25 18:48:37,280 - __main__ - INFO - DEBUG: Attempting to place order 4/5
+2025-06-25 18:48:37,282 - __main__ - INFO - Placing GTT order 4: 4 shares @ 281.06 (trigger: 280.96) - 4% drop from entry
+2025-06-25 18:48:37,282 - __main__ - INFO - DEBUG: Price validation - Order: 281.06, Trigger: 280.96, Tick size: 0.01
+2025-06-25 18:48:37,283 - __main__ - INFO - DEBUG: Checking if price 281.06 is similar to existing orders...
+2025-06-25 18:48:37,283 - __main__ - INFO - DEBUG: Price check passed, proceeding with order placement...
+2025-06-25 18:48:37,414 - __main__ - INFO - Successfully placed GTT order 4: 277957584
+2025-06-25 18:48:37,414 - __main__ - INFO - DEBUG: Order 4 placed successfully. Total placed: 4
+2025-06-25 18:48:37,414 - __main__ - INFO - DEBUG: Updated previous_order_price to 281.06
+2025-06-25 18:48:37,415 - __main__ - INFO - DEBUG: existing_order_count=0, i=5, order_number=5
+2025-06-25 18:48:37,415 - __main__ - INFO - DEBUG: Attempting to place order 5/5
+2025-06-25 18:48:37,417 - __main__ - INFO - Placing GTT order 5: 5 shares @ 278.25 (trigger: 278.15) - 5% drop from entry
+2025-06-25 18:48:37,417 - __main__ - INFO - DEBUG: Price validation - Order: 278.25, Trigger: 278.15, Tick size: 0.01
+2025-06-25 18:48:37,418 - __main__ - INFO - DEBUG: Checking if price 278.25 is similar to existing orders...
+2025-06-25 18:48:37,418 - __main__ - INFO - DEBUG: Price check passed, proceeding with order placement...
+2025-06-25 18:48:37,554 - __main__ - INFO - Successfully placed GTT order 5: 277957585
+2025-06-25 18:48:37,554 - __main__ - INFO - DEBUG: Order 5 placed successfully. Total placed: 5
+2025-06-25 18:48:37,554 - __main__ - INFO - DEBUG: Updated previous_order_price to 278.25
+2025-06-25 18:48:37,555 - __main__ - INFO - DEBUG: Order placement loop completed. orders_placed=5, num_orders=5
+2025-06-25 18:48:37,555 - __main__ - INFO - Total GTT orders placed: 5/5
+2025-06-25 18:48:37,555 - __main__ - INFO - SUCCESS: All 5 orders were placed successfully!
+2025-06-25 18:48:37,555 - __main__ - INFO - DEBUG: existing_gtt_orders count: 0
+2025-06-25 18:48:37,556 - __main__ - INFO - DEBUG: new_gtt_orders count: 5
+2025-06-25 18:48:37,556 - __main__ - INFO - DEBUG: all_gtt_orders count: 5
+2025-06-25 18:48:37,556 - __main__ - INFO - DEBUG: Attempting to save GTT history with 5 orders...
+2025-06-25 18:48:37,557 - __main__ - INFO - DEBUG: save_gtt_history called with 5 orders for POWERGRID
+2025-06-25 18:48:37,557 - __main__ - INFO - DEBUG: Orders directory ensured: workdir\orders
+2025-06-25 18:48:37,557 - __main__ - INFO - DEBUG: History data prepared with 5 orders
+2025-06-25 18:48:37,558 - __main__ - INFO - DEBUG: Saving to file: workdir\orders\POWERGRID_gtt_history.json
+2025-06-25 18:48:37,559 - __main__ - INFO - GTT history saved to workdir\orders\POWERGRID_gtt_history.json
+2025-06-25 18:48:37,559 - __main__ - INFO - DEBUG: File saved successfully. File size: 2773 bytes
+2025-06-25 18:48:37,559 - __main__ - INFO - DEBUG: GTT history save completed
+2025-06-25 18:48:37,560 - __main__ - INFO - Total GTT orders in account: 0
+2025-06-25 18:48:37,561 - __main__ - INFO - Starting GTT order monitoring thread
+2025-06-25 18:48:37,561 - __main__ - INFO - Setting up real-time tick data monitoring...
+2025-06-25 18:48:37,561 - __main__ - INFO - === GTT Order Monitoring Cycle ===
+2025-06-25 18:48:37,696 - __main__ - INFO - Market hours: CLOSED
+2025-06-25 18:48:37,697 - __main__ - INFO - Market closed cycle 1/12
+2025-06-25 18:48:37,721 - breeze_sdk_api - INFO - Setting on_ticks function: <bound method BreezeApi.on_ticks of <breeze_sdk_api.BreezeApi object at 0x000001FE5AA63BB0>>
+2025-06-25 18:48:37,722 - breeze_sdk_api - INFO - Successfully connected to WebSocket
+2025-06-25 18:48:37,723 - __main__ - INFO - Connected to Breeze WebSocket for real-time data
+2025-06-25 18:48:37,825 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'POWERGRID', 'isec_stock_code': 'POWGRI', 'isec_token': '14977', 'company name': 'POWER GRID CORPORATION OF INDI', 'isec_token_level1': '4.1!14977', 'isec_token_level2': '4.2!14977'}
+2025-06-25 18:48:37,825 - breeze_sdk_api - INFO - Got token name for POWERGRID: 4.1!14977
+2025-06-25 18:48:37,960 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'POWERGRID', 'isec_stock_code': 'POWGRI', 'isec_token': '14977', 'company name': 'POWER GRID CORPORATION OF INDI', 'isec_token_level1': '4.1!14977', 'isec_token_level2': '4.2!14977'}
+2025-06-25 18:48:37,961 - breeze_sdk_api - INFO - Got token name for POWERGRID: 4.1!14977
+2025-06-25 18:48:37,961 - __main__ - INFO - Stock token for tick data: 4.1!14977
+2025-06-25 18:48:37,962 - breeze_sdk_api - INFO - Setting on_ticks function: <function main.<locals>.tick_handler at 0x000001FE578B1E10>
+2025-06-25 18:48:37,963 - __main__ - INFO - Tick handler set up successfully
+2025-06-25 18:48:37,963 - breeze_sdk_api - INFO - Successfully subscribed to OHLC feed for token: 4.1!14977
+2025-06-25 18:48:37,964 - __main__ - INFO - Subscribed to real-time feed for POWERGRID
+2025-06-25 18:48:37,964 - __main__ - INFO - Real-time tick data monitoring is now active!
+2025-06-25 18:48:37,965 - __main__ - INFO - The system will now respond to price changes in real-time
+2025-06-25 18:48:37,965 - __main__ - INFO - GTT order monitoring started.
+2025-06-25 18:48:37,967 - __main__ - INFO - Monitoring will automatically stop when market closes for 1 hour.
+2025-06-25 18:48:38,023 - __main__ - INFO - Press Ctrl+C to stop manually.
+2025-06-25 18:48:38,213 - __main__ - INFO - Current GTT orders in account: 0
+2025-06-25 18:48:38,213 - __main__ - INFO - Active buy orders for POWERGRID: 0
+2025-06-25 18:48:38,213 - __main__ - INFO - Need to place 5 more buy orders to maintain 5 active orders
+2025-06-25 18:48:38,213 - __main__ - INFO - Current active orders: 0/5
+2025-06-25 18:48:38,214 - __main__ - WARNING - No active buy orders found, cannot determine price for new orders
+2025-06-25 18:48:38,214 - __main__ - INFO - No shares available for selling
+2025-06-25 18:48:38,214 - __main__ - INFO - === End Monitoring Cycle ===
+2025-06-25 18:50:38,229 - __main__ - INFO - === GTT Order Monitoring Cycle ===
+2025-06-25 18:50:38,229 - __main__ - INFO - Market hours: CLOSED
+2025-06-25 18:50:38,230 - __main__ - INFO - Market closed cycle 2/12
+2025-06-25 18:50:38,358 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'POWERGRID', 'isec_stock_code': 'POWGRI', 'isec_token': '14977', 'company name': 'POWER GRID CORPORATION OF INDI', 'isec_token_level1': '4.1!14977', 'isec_token_level2': '4.2!14977'}
+2025-06-25 18:50:38,358 - breeze_sdk_api - INFO - Got token name for POWERGRID: 4.1!14977
+2025-06-25 18:50:38,589 - __main__ - INFO - Current GTT orders in account: 0
+2025-06-25 18:50:38,590 - __main__ - INFO - Active buy orders for POWERGRID: 0
+2025-06-25 18:50:38,590 - __main__ - INFO - Need to place 5 more buy orders to maintain 5 active orders
+2025-06-25 18:50:38,590 - __main__ - INFO - Current active orders: 0/5
+2025-06-25 18:50:38,590 - __main__ - WARNING - No active buy orders found, cannot determine price for new orders
+2025-06-25 18:50:38,591 - __main__ - INFO - No shares available for selling
+2025-06-25 18:50:38,591 - __main__ - INFO - === End Monitoring Cycle ===
+2025-06-25 18:52:38,605 - __main__ - INFO - === GTT Order Monitoring Cycle ===
+2025-06-25 18:52:38,605 - __main__ - INFO - Market hours: CLOSED
+2025-06-25 18:52:38,605 - __main__ - INFO - Market closed cycle 3/12
+2025-06-25 18:52:38,709 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'POWERGRID', 'isec_stock_code': 'POWGRI', 'isec_token': '14977', 'company name': 'POWER GRID CORPORATION OF INDI', 'isec_token_level1': '4.1!14977', 'isec_token_level2': '4.2!14977'}
+2025-06-25 18:52:38,710 - breeze_sdk_api - INFO - Got token name for POWERGRID: 4.1!14977
+2025-06-25 18:52:39,529 - __main__ - INFO - Current GTT orders in account: 0
+2025-06-25 18:52:39,529 - __main__ - INFO - Active buy orders for POWERGRID: 0
+2025-06-25 18:52:39,529 - __main__ - INFO - Need to place 5 more buy orders to maintain 5 active orders
+2025-06-25 18:52:39,529 - __main__ - INFO - Current active orders: 0/5
+2025-06-25 18:52:39,530 - __main__ - WARNING - No active buy orders found, cannot determine price for new orders
+2025-06-25 18:52:39,530 - __main__ - INFO - No shares available for selling
+2025-06-25 18:52:39,530 - __main__ - INFO - === End Monitoring Cycle ===
+2025-06-25 18:54:39,536 - __main__ - INFO - === GTT Order Monitoring Cycle ===
+2025-06-25 18:54:39,536 - __main__ - INFO - Market hours: CLOSED
+2025-06-25 18:54:39,537 - __main__ - INFO - Market closed cycle 4/12
+2025-06-25 18:54:39,689 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'POWERGRID', 'isec_stock_code': 'POWGRI', 'isec_token': '14977', 'company name': 'POWER GRID CORPORATION OF INDI', 'isec_token_level1': '4.1!14977', 'isec_token_level2': '4.2!14977'}
+2025-06-25 18:54:39,690 - breeze_sdk_api - INFO - Got token name for POWERGRID: 4.1!14977
+2025-06-25 18:54:39,969 - __main__ - INFO - Current GTT orders in account: 0
+2025-06-25 18:54:39,970 - __main__ - INFO - Active buy orders for POWERGRID: 0
+2025-06-25 18:54:39,970 - __main__ - INFO - Need to place 5 more buy orders to maintain 5 active orders
+2025-06-25 18:54:39,970 - __main__ - INFO - Current active orders: 0/5
+2025-06-25 18:54:39,970 - __main__ - WARNING - No active buy orders found, cannot determine price for new orders
+2025-06-25 18:54:39,971 - __main__ - INFO - No shares available for selling
+2025-06-25 18:54:39,971 - __main__ - INFO - === End Monitoring Cycle ===
+2025-06-25 18:56:39,980 - __main__ - INFO - === GTT Order Monitoring Cycle ===
+2025-06-25 18:56:39,980 - __main__ - INFO - Market hours: CLOSED
+2025-06-25 18:56:39,981 - __main__ - INFO - Market closed cycle 5/12
+2025-06-25 18:56:40,097 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'POWERGRID', 'isec_stock_code': 'POWGRI', 'isec_token': '14977', 'company name': 'POWER GRID CORPORATION OF INDI', 'isec_token_level1': '4.1!14977', 'isec_token_level2': '4.2!14977'}
+2025-06-25 18:56:40,098 - breeze_sdk_api - INFO - Got token name for POWERGRID: 4.1!14977
+2025-06-25 18:56:40,343 - __main__ - INFO - Current GTT orders in account: 0
+2025-06-25 18:56:40,343 - __main__ - INFO - Active buy orders for POWERGRID: 0
+2025-06-25 18:56:40,343 - __main__ - INFO - Need to place 5 more buy orders to maintain 5 active orders
+2025-06-25 18:56:40,343 - __main__ - INFO - Current active orders: 0/5
+2025-06-25 18:56:40,344 - __main__ - WARNING - No active buy orders found, cannot determine price for new orders
+2025-06-25 18:56:40,344 - __main__ - INFO - No shares available for selling
+2025-06-25 18:56:40,344 - __main__ - INFO - === End Monitoring Cycle ===
+2025-06-25 18:58:40,359 - __main__ - INFO - === GTT Order Monitoring Cycle ===
+2025-06-25 18:58:40,359 - __main__ - INFO - Market hours: CLOSED
+2025-06-25 18:58:40,360 - __main__ - INFO - Market closed cycle 6/12
+2025-06-25 18:58:40,460 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'POWERGRID', 'isec_stock_code': 'POWGRI', 'isec_token': '14977', 'company name': 'POWER GRID CORPORATION OF INDI', 'isec_token_level1': '4.1!14977', 'isec_token_level2': '4.2!14977'}
+2025-06-25 18:58:40,461 - breeze_sdk_api - INFO - Got token name for POWERGRID: 4.1!14977
+2025-06-25 18:58:40,705 - __main__ - INFO - Current GTT orders in account: 0
+2025-06-25 18:58:40,705 - __main__ - INFO - Active buy orders for POWERGRID: 0
+2025-06-25 18:58:40,705 - __main__ - INFO - Need to place 5 more buy orders to maintain 5 active orders
+2025-06-25 18:58:40,705 - __main__ - INFO - Current active orders: 0/5
+2025-06-25 18:58:40,705 - __main__ - WARNING - No active buy orders found, cannot determine price for new orders
+2025-06-25 18:58:40,706 - __main__ - INFO - No shares available for selling
+2025-06-25 18:58:40,706 - __main__ - INFO - === End Monitoring Cycle ===
+2025-06-25 19:00:40,716 - __main__ - INFO - === GTT Order Monitoring Cycle ===
+2025-06-25 19:00:40,717 - __main__ - INFO - Market hours: CLOSED
+2025-06-25 19:00:40,717 - __main__ - INFO - Market closed cycle 7/12
+2025-06-25 19:00:40,800 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'POWERGRID', 'isec_stock_code': 'POWGRI', 'isec_token': '14977', 'company name': 'POWER GRID CORPORATION OF INDI', 'isec_token_level1': '4.1!14977', 'isec_token_level2': '4.2!14977'}
+2025-06-25 19:00:40,801 - breeze_sdk_api - INFO - Got token name for POWERGRID: 4.1!14977
+2025-06-25 19:00:41,029 - __main__ - INFO - Current GTT orders in account: 0
+2025-06-25 19:00:41,030 - __main__ - INFO - Active buy orders for POWERGRID: 0
+2025-06-25 19:00:41,030 - __main__ - INFO - Need to place 5 more buy orders to maintain 5 active orders
+2025-06-25 19:00:41,030 - __main__ - INFO - Current active orders: 0/5
+2025-06-25 19:00:41,030 - __main__ - WARNING - No active buy orders found, cannot determine price for new orders
+2025-06-25 19:00:41,031 - __main__ - INFO - No shares available for selling
+2025-06-25 19:00:41,031 - __main__ - INFO - === End Monitoring Cycle ===
+2025-06-25 19:02:41,033 - __main__ - INFO - === GTT Order Monitoring Cycle ===
+2025-06-25 19:02:41,033 - __main__ - INFO - Market hours: CLOSED
+2025-06-25 19:02:41,034 - __main__ - INFO - Market closed cycle 8/12
+2025-06-25 19:02:41,139 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'POWERGRID', 'isec_stock_code': 'POWGRI', 'isec_token': '14977', 'company name': 'POWER GRID CORPORATION OF INDI', 'isec_token_level1': '4.1!14977', 'isec_token_level2': '4.2!14977'}
+2025-06-25 19:02:41,139 - breeze_sdk_api - INFO - Got token name for POWERGRID: 4.1!14977
+2025-06-25 19:02:41,392 - __main__ - INFO - Current GTT orders in account: 0
+2025-06-25 19:02:41,392 - __main__ - INFO - Active buy orders for POWERGRID: 0
+2025-06-25 19:02:41,392 - __main__ - INFO - Need to place 5 more buy orders to maintain 5 active orders
+2025-06-25 19:02:41,392 - __main__ - INFO - Current active orders: 0/5
+2025-06-25 19:02:41,393 - __main__ - WARNING - No active buy orders found, cannot determine price for new orders
+2025-06-25 19:02:41,393 - __main__ - INFO - No shares available for selling
+2025-06-25 19:02:41,393 - __main__ - INFO - === End Monitoring Cycle ===
+2025-06-25 19:04:41,406 - __main__ - INFO - === GTT Order Monitoring Cycle ===
+2025-06-25 19:04:41,406 - __main__ - INFO - Market hours: CLOSED
+2025-06-25 19:04:41,407 - __main__ - INFO - Market closed cycle 9/12
+2025-06-25 19:04:41,527 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'POWERGRID', 'isec_stock_code': 'POWGRI', 'isec_token': '14977', 'company name': 'POWER GRID CORPORATION OF INDI', 'isec_token_level1': '4.1!14977', 'isec_token_level2': '4.2!14977'}
+2025-06-25 19:04:41,527 - breeze_sdk_api - INFO - Got token name for POWERGRID: 4.1!14977
+2025-06-25 19:04:41,769 - __main__ - INFO - Current GTT orders in account: 0
+2025-06-25 19:04:41,769 - __main__ - INFO - Active buy orders for POWERGRID: 0
+2025-06-25 19:04:41,769 - __main__ - INFO - Need to place 5 more buy orders to maintain 5 active orders
+2025-06-25 19:04:41,770 - __main__ - INFO - Current active orders: 0/5
+2025-06-25 19:04:41,770 - __main__ - WARNING - No active buy orders found, cannot determine price for new orders
+2025-06-25 19:04:41,770 - __main__ - INFO - No shares available for selling
+2025-06-25 19:04:41,770 - __main__ - INFO - === End Monitoring Cycle ===
+2025-06-25 19:06:41,785 - __main__ - INFO - === GTT Order Monitoring Cycle ===
+2025-06-25 19:06:41,785 - __main__ - INFO - Market hours: CLOSED
+2025-06-25 19:06:41,785 - __main__ - INFO - Market closed cycle 10/12
+2025-06-25 19:06:41,887 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'POWERGRID', 'isec_stock_code': 'POWGRI', 'isec_token': '14977', 'company name': 'POWER GRID CORPORATION OF INDI', 'isec_token_level1': '4.1!14977', 'isec_token_level2': '4.2!14977'}
+2025-06-25 19:06:41,887 - breeze_sdk_api - INFO - Got token name for POWERGRID: 4.1!14977
+2025-06-25 19:06:42,108 - __main__ - INFO - Current GTT orders in account: 0
+2025-06-25 19:06:42,108 - __main__ - INFO - Active buy orders for POWERGRID: 0
+2025-06-25 19:06:42,109 - __main__ - INFO - Need to place 5 more buy orders to maintain 5 active orders
+2025-06-25 19:06:42,109 - __main__ - INFO - Current active orders: 0/5
+2025-06-25 19:06:42,109 - __main__ - WARNING - No active buy orders found, cannot determine price for new orders
+2025-06-25 19:06:42,109 - __main__ - INFO - No shares available for selling
+2025-06-25 19:06:42,110 - __main__ - INFO - === End Monitoring Cycle ===
+2025-06-25 19:08:42,117 - __main__ - INFO - === GTT Order Monitoring Cycle ===
+2025-06-25 19:08:42,117 - __main__ - INFO - Market hours: CLOSED
+2025-06-25 19:08:42,117 - __main__ - INFO - Market closed cycle 11/12
+2025-06-25 19:08:42,220 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'POWERGRID', 'isec_stock_code': 'POWGRI', 'isec_token': '14977', 'company name': 'POWER GRID CORPORATION OF INDI', 'isec_token_level1': '4.1!14977', 'isec_token_level2': '4.2!14977'}
+2025-06-25 19:08:42,220 - breeze_sdk_api - INFO - Got token name for POWERGRID: 4.1!14977
+2025-06-25 19:08:42,444 - __main__ - INFO - Current GTT orders in account: 0
+2025-06-25 19:08:42,444 - __main__ - INFO - Active buy orders for POWERGRID: 0
+2025-06-25 19:08:42,444 - __main__ - INFO - Need to place 5 more buy orders to maintain 5 active orders
+2025-06-25 19:08:42,445 - __main__ - INFO - Current active orders: 0/5
+2025-06-25 19:08:42,445 - __main__ - WARNING - No active buy orders found, cannot determine price for new orders
+2025-06-25 19:08:42,445 - __main__ - INFO - No shares available for selling
+2025-06-25 19:08:42,445 - __main__ - INFO - === End Monitoring Cycle ===
+2025-06-25 19:10:42,452 - __main__ - INFO - === GTT Order Monitoring Cycle ===
+2025-06-25 19:10:42,452 - __main__ - INFO - Market hours: CLOSED
+2025-06-25 19:10:42,452 - __main__ - INFO - Market closed cycle 12/12
+2025-06-25 19:10:42,453 - __main__ - INFO - Market has been closed for 1 hour. Stopping monitoring.
+2025-06-25 19:10:42,453 - __main__ - INFO - GTT order monitoring stopped
+2025-06-25 19:11:08,385 - __main__ - INFO - Monitoring thread has stopped. Exiting main thread.
+2025-06-25 19:11:08,385 - __main__ - INFO - Cleaning up WebSocket connection...
+2025-06-25 19:11:08,386 - __main__ - INFO - WebSocket not initialized, skipping cleanup
+2025-06-25 19:11:08,386 - __main__ - INFO - GTT Fall Buy strategy completed.
+2025-06-25 19:11:08,386 - __main__ - INFO - Stop monitoring signal set

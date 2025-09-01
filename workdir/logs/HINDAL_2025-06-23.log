@@ -1,0 +1,224 @@
+2025-06-23 16:26:47,228 - __main__ - INFO - Starting GTT Fall Buy strategy for HINDAL on NSE
+2025-06-23 16:26:48,014 - breeze_sdk_api - INFO - Successfully initialized Breeze API with credentials
+2025-06-23 16:26:48,015 - __main__ - INFO - Successfully initialized Breeze API
+2025-06-23 16:26:48,168 - __main__ - INFO - Successfully initialized Kite API
+2025-06-23 16:26:48,275 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'HINDALCO', 'isec_stock_code': 'HINDAL', 'isec_token': '1363', 'company name': 'HINDALCO INDUSTRIES LIMITED', 'isec_token_level1': '4.1!1363', 'isec_token_level2': '4.2!1363'}
+2025-06-23 16:26:48,285 - breeze_sdk_api - INFO - Got token name for HINDAL: 4.1!1363
+2025-06-23 16:26:48,391 - __main__ - ERROR - Could not get current price. Exiting.
+2025-06-23 16:28:44,524 - __main__ - INFO - Starting GTT Fall Buy strategy for HINDAL on NSE
+2025-06-23 16:28:45,586 - breeze_sdk_api - INFO - Successfully initialized Breeze API with credentials
+2025-06-23 16:28:45,586 - __main__ - INFO - Successfully initialized Breeze API
+2025-06-23 16:28:45,767 - __main__ - INFO - Successfully initialized Kite API
+2025-06-23 16:28:45,892 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'HINDALCO', 'isec_stock_code': 'HINDAL', 'isec_token': '1363', 'company name': 'HINDALCO INDUSTRIES LIMITED', 'isec_token_level1': '4.1!1363', 'isec_token_level2': '4.2!1363'}
+2025-06-23 16:28:45,892 - breeze_sdk_api - INFO - Got token name for HINDAL: 4.1!1363
+2025-06-23 16:28:46,065 - __main__ - ERROR - Could not get current price. Exiting.
+2025-06-23 16:29:24,018 - __main__ - INFO - Starting GTT Fall Buy strategy for HINDAL on NSE
+2025-06-23 16:29:25,109 - breeze_sdk_api - INFO - Successfully initialized Breeze API with credentials
+2025-06-23 16:29:25,109 - __main__ - INFO - Successfully initialized Breeze API
+2025-06-23 16:29:25,264 - __main__ - INFO - Successfully initialized Kite API
+2025-06-23 16:29:25,553 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'HINDALCO', 'isec_stock_code': 'HINDAL', 'isec_token': '1363', 'company name': 'HINDALCO INDUSTRIES LIMITED', 'isec_token_level1': '4.1!1363', 'isec_token_level2': '4.2!1363'}
+2025-06-23 16:29:25,554 - breeze_sdk_api - INFO - Got token name for HINDAL: 4.1!1363
+2025-06-23 16:29:25,693 - __main__ - ERROR - Could not get current price. Exiting.
+2025-06-23 16:31:31,443 - __main__ - INFO - Starting GTT Fall Buy strategy for HINDAL on NSE
+2025-06-23 16:31:32,275 - breeze_sdk_api - INFO - Successfully initialized Breeze API with credentials
+2025-06-23 16:31:32,275 - __main__ - INFO - Successfully initialized Breeze API
+2025-06-23 16:31:32,423 - __main__ - INFO - Successfully initialized Kite API
+2025-06-23 16:31:32,532 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'HINDALCO', 'isec_stock_code': 'HINDAL', 'isec_token': '1363', 'company name': 'HINDALCO INDUSTRIES LIMITED', 'isec_token_level1': '4.1!1363', 'isec_token_level2': '4.2!1363'}
+2025-06-23 16:31:32,532 - breeze_sdk_api - INFO - Got token name for HINDAL: 4.1!1363
+2025-06-23 16:31:32,640 - __main__ - ERROR - Could not get current price. Exiting.
+2025-06-23 16:33:15,992 - __main__ - INFO - Starting GTT Fall Buy strategy for HINDAL on NSE
+2025-06-23 16:33:16,913 - breeze_sdk_api - INFO - Successfully initialized Breeze API with credentials
+2025-06-23 16:33:16,913 - __main__ - INFO - Successfully initialized Breeze API
+2025-06-23 16:33:17,020 - __main__ - INFO - Successfully initialized Kite API
+2025-06-23 16:33:17,175 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'HINDALCO', 'isec_stock_code': 'HINDAL', 'isec_token': '1363', 'company name': 'HINDALCO INDUSTRIES LIMITED', 'isec_token_level1': '4.1!1363', 'isec_token_level2': '4.2!1363'}
+2025-06-23 16:33:17,175 - breeze_sdk_api - INFO - Got token name for HINDAL: 4.1!1363
+2025-06-23 16:33:17,312 - __main__ - ERROR - Could not get current price. Exiting.
+2025-06-23 16:33:59,162 - __main__ - INFO - Starting GTT Fall Buy strategy for HINDAL on NSE
+2025-06-23 16:34:01,992 - breeze_sdk_api - INFO - Successfully initialized Breeze API with credentials
+2025-06-23 16:34:01,992 - __main__ - INFO - Successfully initialized Breeze API
+2025-06-23 16:34:02,258 - __main__ - INFO - Successfully initialized Kite API
+2025-06-23 16:34:02,464 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'HINDALCO', 'isec_stock_code': 'HINDAL', 'isec_token': '1363', 'company name': 'HINDALCO INDUSTRIES LIMITED', 'isec_token_level1': '4.1!1363', 'isec_token_level2': '4.2!1363'}
+2025-06-23 16:34:02,465 - breeze_sdk_api - INFO - Got token name for HINDAL: 4.1!1363
+2025-06-23 16:34:03,183 - __main__ - INFO - Current price for HINDAL: 661.4
+2025-06-23 16:34:03,183 - __main__ - INFO - Placing GTT order 1: 1 shares @ 654.79 (trigger: 648.24)
+2025-06-23 16:34:03,199 - __main__ - ERROR - Failed to place GTT order 1
+2025-06-23 16:34:03,199 - __main__ - INFO - Placing GTT order 2: 2 shares @ 648.17 (trigger: 641.69)
+2025-06-23 16:34:03,201 - __main__ - ERROR - Failed to place GTT order 2
+2025-06-23 16:34:03,201 - __main__ - INFO - Placing GTT order 3: 3 shares @ 641.56 (trigger: 635.14)
+2025-06-23 16:34:03,202 - __main__ - ERROR - Failed to place GTT order 3
+2025-06-23 16:34:03,202 - __main__ - INFO - Placing GTT order 4: 4 shares @ 634.94 (trigger: 628.59)
+2025-06-23 16:34:03,203 - __main__ - ERROR - Failed to place GTT order 4
+2025-06-23 16:34:03,204 - __main__ - INFO - Placing GTT order 5: 5 shares @ 628.33 (trigger: 622.05)
+2025-06-23 16:34:03,205 - __main__ - ERROR - Failed to place GTT order 5
+2025-06-23 16:34:03,205 - __main__ - INFO - Total GTT orders placed: 0/5
+2025-06-23 16:34:03,205 - __main__ - ERROR - No GTT orders were placed successfully
+2025-06-23 16:34:03,206 - __main__ - INFO - GTT Fall Buy strategy completed
+2025-06-23 16:35:28,522 - __main__ - INFO - Starting GTT Fall Buy strategy for HINDAL on NSE
+2025-06-23 16:35:29,803 - breeze_sdk_api - INFO - Successfully initialized Breeze API with credentials
+2025-06-23 16:35:29,803 - __main__ - INFO - Successfully initialized Breeze API
+2025-06-23 16:35:29,940 - __main__ - INFO - Successfully initialized Kite API
+2025-06-23 16:35:30,083 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'HINDALCO', 'isec_stock_code': 'HINDAL', 'isec_token': '1363', 'company name': 'HINDALCO INDUSTRIES LIMITED', 'isec_token_level1': '4.1!1363', 'isec_token_level2': '4.2!1363'}
+2025-06-23 16:35:30,084 - breeze_sdk_api - INFO - Got token name for HINDAL: 4.1!1363
+2025-06-23 16:35:30,777 - __main__ - INFO - Current price for HINDAL: 661.4
+2025-06-23 16:35:30,778 - __main__ - INFO - Placing GTT order 1: 1 shares @ 654.79 (trigger: 648.24)
+2025-06-23 16:35:30,779 - __main__ - ERROR - Failed to place GTT order 1
+2025-06-23 16:35:30,780 - __main__ - INFO - Placing GTT order 2: 2 shares @ 648.17 (trigger: 641.69)
+2025-06-23 16:35:30,781 - __main__ - ERROR - Failed to place GTT order 2
+2025-06-23 16:35:30,781 - __main__ - INFO - Placing GTT order 3: 3 shares @ 641.56 (trigger: 635.14)
+2025-06-23 16:35:30,782 - __main__ - ERROR - Failed to place GTT order 3
+2025-06-23 16:35:30,782 - __main__ - INFO - Placing GTT order 4: 4 shares @ 634.94 (trigger: 628.59)
+2025-06-23 16:35:30,783 - __main__ - ERROR - Failed to place GTT order 4
+2025-06-23 16:35:30,783 - __main__ - INFO - Placing GTT order 5: 5 shares @ 628.33 (trigger: 622.05)
+2025-06-23 16:35:30,784 - __main__ - ERROR - Failed to place GTT order 5
+2025-06-23 16:35:30,784 - __main__ - INFO - Total GTT orders placed: 0/5
+2025-06-23 16:35:30,784 - __main__ - ERROR - No GTT orders were placed successfully
+2025-06-23 16:35:30,784 - __main__ - INFO - GTT Fall Buy strategy completed
+2025-06-23 16:38:12,964 - __main__ - INFO - Starting GTT Fall Buy strategy for HINDAL on NSE
+2025-06-23 16:38:14,114 - breeze_sdk_api - INFO - Successfully initialized Breeze API with credentials
+2025-06-23 16:38:14,115 - __main__ - INFO - Successfully initialized Breeze API
+2025-06-23 16:38:14,294 - __main__ - INFO - Successfully initialized Kite API
+2025-06-23 16:38:14,513 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'HINDALCO', 'isec_stock_code': 'HINDAL', 'isec_token': '1363', 'company name': 'HINDALCO INDUSTRIES LIMITED', 'isec_token_level1': '4.1!1363', 'isec_token_level2': '4.2!1363'}
+2025-06-23 16:38:14,513 - breeze_sdk_api - INFO - Got token name for HINDAL: 4.1!1363
+2025-06-23 16:38:14,650 - __main__ - INFO - Current price for HINDAL: 661.4
+2025-06-23 16:38:14,651 - __main__ - INFO - Placing GTT order 1: 1 shares @ 654.79 (trigger: 648.24)
+2025-06-23 16:38:14,653 - __main__ - ERROR - Failed to place GTT order 1
+2025-06-23 16:38:14,653 - __main__ - INFO - Placing GTT order 2: 2 shares @ 648.17 (trigger: 641.69)
+2025-06-23 16:38:14,655 - __main__ - ERROR - Failed to place GTT order 2
+2025-06-23 16:38:14,655 - __main__ - INFO - Placing GTT order 3: 3 shares @ 641.56 (trigger: 635.14)
+2025-06-23 16:38:14,657 - __main__ - ERROR - Failed to place GTT order 3
+2025-06-23 16:38:14,657 - __main__ - INFO - Placing GTT order 4: 4 shares @ 634.94 (trigger: 628.59)
+2025-06-23 16:38:14,659 - __main__ - ERROR - Failed to place GTT order 4
+2025-06-23 16:38:14,659 - __main__ - INFO - Placing GTT order 5: 5 shares @ 628.33 (trigger: 622.05)
+2025-06-23 16:38:14,661 - __main__ - ERROR - Failed to place GTT order 5
+2025-06-23 16:38:14,661 - __main__ - INFO - Total GTT orders placed: 0/5
+2025-06-23 16:38:14,661 - __main__ - ERROR - No GTT orders were placed successfully
+2025-06-23 16:38:14,662 - __main__ - INFO - GTT Fall Buy strategy completed
+2025-06-23 16:43:32,865 - __main__ - INFO - Starting GTT Fall Buy strategy for HINDAL on NSE
+2025-06-23 16:43:34,441 - breeze_sdk_api - INFO - Successfully initialized Breeze API with credentials
+2025-06-23 16:43:34,442 - __main__ - INFO - Successfully initialized Breeze API
+2025-06-23 16:43:34,666 - __main__ - INFO - Successfully initialized Kite API
+2025-06-23 16:43:34,872 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'HINDALCO', 'isec_stock_code': 'HINDAL', 'isec_token': '1363', 'company name': 'HINDALCO INDUSTRIES LIMITED', 'isec_token_level1': '4.1!1363', 'isec_token_level2': '4.2!1363'}
+2025-06-23 16:43:34,873 - breeze_sdk_api - INFO - Got token name for HINDAL: 4.1!1363
+2025-06-23 16:43:35,021 - __main__ - INFO - Current price for HINDAL: 661.4
+2025-06-23 16:43:35,021 - __main__ - INFO - Placing GTT order 1: 1 shares @ 654.79 (trigger: 648.24)
+2025-06-23 16:43:35,157 - __main__ - ERROR - Failed to place GTT order 1
+2025-06-23 16:43:35,158 - __main__ - INFO - Placing GTT order 2: 2 shares @ 648.17 (trigger: 641.69)
+2025-06-23 16:43:35,295 - __main__ - ERROR - Failed to place GTT order 2
+2025-06-23 16:43:35,296 - __main__ - INFO - Placing GTT order 3: 3 shares @ 641.56 (trigger: 635.14)
+2025-06-23 16:43:35,409 - __main__ - ERROR - Failed to place GTT order 3
+2025-06-23 16:43:35,410 - __main__ - INFO - Placing GTT order 4: 4 shares @ 634.94 (trigger: 628.59)
+2025-06-23 16:43:35,589 - __main__ - ERROR - Failed to place GTT order 4
+2025-06-23 16:43:35,590 - __main__ - INFO - Placing GTT order 5: 5 shares @ 628.33 (trigger: 622.05)
+2025-06-23 16:43:35,738 - __main__ - ERROR - Failed to place GTT order 5
+2025-06-23 16:43:35,738 - __main__ - INFO - Total GTT orders placed: 0/5
+2025-06-23 16:43:35,738 - __main__ - ERROR - No GTT orders were placed successfully
+2025-06-23 16:43:35,739 - __main__ - INFO - GTT Fall Buy strategy completed
+2025-06-23 16:47:07,418 - __main__ - INFO - Starting GTT Fall Buy strategy for HINDAL on NSE
+2025-06-23 16:47:08,595 - breeze_sdk_api - INFO - Successfully initialized Breeze API with credentials
+2025-06-23 16:47:08,595 - __main__ - INFO - Successfully initialized Breeze API
+2025-06-23 16:47:08,718 - __main__ - INFO - Successfully initialized Kite API
+2025-06-23 16:47:08,866 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'HINDALCO', 'isec_stock_code': 'HINDAL', 'isec_token': '1363', 'company name': 'HINDALCO INDUSTRIES LIMITED', 'isec_token_level1': '4.1!1363', 'isec_token_level2': '4.2!1363'}
+2025-06-23 16:47:08,867 - breeze_sdk_api - INFO - Got token name for HINDAL: 4.1!1363
+2025-06-23 16:47:08,992 - __main__ - INFO - Current price for HINDAL: 661.4
+2025-06-23 16:47:08,993 - __main__ - INFO - Placing GTT order 1: 1 shares @ 654.79 (trigger: 648.24)
+2025-06-23 16:47:09,202 - __main__ - ERROR - Failed to place GTT order 1
+2025-06-23 16:47:09,202 - __main__ - INFO - Placing GTT order 2: 2 shares @ 648.17 (trigger: 641.69)
+2025-06-23 16:47:09,419 - __main__ - ERROR - Failed to place GTT order 2
+2025-06-23 16:47:09,419 - __main__ - INFO - Placing GTT order 3: 3 shares @ 641.56 (trigger: 635.14)
+2025-06-23 16:47:09,682 - __main__ - ERROR - Failed to place GTT order 3
+2025-06-23 16:47:09,683 - __main__ - INFO - Placing GTT order 4: 4 shares @ 634.94 (trigger: 628.59)
+2025-06-23 16:47:09,896 - __main__ - ERROR - Failed to place GTT order 4
+2025-06-23 16:47:09,897 - __main__ - INFO - Placing GTT order 5: 5 shares @ 628.33 (trigger: 622.05)
+2025-06-23 16:47:10,100 - __main__ - ERROR - Failed to place GTT order 5
+2025-06-23 16:47:10,101 - __main__ - INFO - Total GTT orders placed: 0/5
+2025-06-23 16:47:10,101 - __main__ - ERROR - No GTT orders were placed successfully
+2025-06-23 16:47:10,101 - __main__ - INFO - GTT Fall Buy strategy completed
+2025-06-23 16:51:12,288 - __main__ - INFO - Starting GTT Fall Buy strategy for HINDAL on NSE
+2025-06-23 16:51:13,429 - breeze_sdk_api - INFO - Successfully initialized Breeze API with credentials
+2025-06-23 16:51:13,430 - __main__ - INFO - Successfully initialized Breeze API
+2025-06-23 16:51:13,669 - __main__ - INFO - Successfully initialized Kite API
+2025-06-23 16:51:13,796 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'HINDALCO', 'isec_stock_code': 'HINDAL', 'isec_token': '1363', 'company name': 'HINDALCO INDUSTRIES LIMITED', 'isec_token_level1': '4.1!1363', 'isec_token_level2': '4.2!1363'}
+2025-06-23 16:51:13,796 - breeze_sdk_api - INFO - Got token name for HINDAL: 4.1!1363
+2025-06-23 16:51:13,924 - __main__ - INFO - Current price for HINDAL: 661.4
+2025-06-23 16:51:13,924 - __main__ - INFO - Placing GTT order 1: 1 shares @ 654.79 (trigger: 648.24)
+2025-06-23 16:51:14,154 - __main__ - ERROR - Failed to place GTT order 1
+2025-06-23 16:51:14,154 - __main__ - INFO - Placing GTT order 2: 2 shares @ 648.17 (trigger: 641.69)
+2025-06-23 16:51:14,351 - __main__ - ERROR - Failed to place GTT order 2
+2025-06-23 16:51:14,352 - __main__ - INFO - Placing GTT order 3: 3 shares @ 641.56 (trigger: 635.14)
+2025-06-23 16:51:14,617 - __main__ - ERROR - Failed to place GTT order 3
+2025-06-23 16:51:14,618 - __main__ - INFO - Placing GTT order 4: 4 shares @ 634.94 (trigger: 628.59)
+2025-06-23 16:51:14,875 - __main__ - ERROR - Failed to place GTT order 4
+2025-06-23 16:51:14,876 - __main__ - INFO - Placing GTT order 5: 5 shares @ 628.33 (trigger: 622.05)
+2025-06-23 16:51:15,071 - __main__ - ERROR - Failed to place GTT order 5
+2025-06-23 16:51:15,071 - __main__ - INFO - Total GTT orders placed: 0/5
+2025-06-23 16:51:15,071 - __main__ - ERROR - No GTT orders were placed successfully
+2025-06-23 16:51:15,071 - __main__ - INFO - GTT Fall Buy strategy completed
+2025-06-23 16:54:28,673 - __main__ - INFO - Starting GTT Fall Buy strategy for HINDAL on NSE
+2025-06-23 16:54:29,821 - breeze_sdk_api - INFO - Successfully initialized Breeze API with credentials
+2025-06-23 16:54:29,821 - __main__ - INFO - Successfully initialized Breeze API
+2025-06-23 16:54:29,991 - __main__ - INFO - Successfully initialized Kite API
+2025-06-23 16:54:30,116 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'HINDALCO', 'isec_stock_code': 'HINDAL', 'isec_token': '1363', 'company name': 'HINDALCO INDUSTRIES LIMITED', 'isec_token_level1': '4.1!1363', 'isec_token_level2': '4.2!1363'}
+2025-06-23 16:54:30,117 - breeze_sdk_api - INFO - Got token name for HINDALCO: 4.1!1363
+2025-06-23 16:54:30,344 - __main__ - ERROR - Could not get current price. Exiting.
+2025-06-23 16:55:19,758 - __main__ - INFO - Starting GTT Fall Buy strategy for HINDAL on NSE
+2025-06-23 16:55:20,600 - breeze_sdk_api - INFO - Successfully initialized Breeze API with credentials
+2025-06-23 16:55:20,601 - __main__ - INFO - Successfully initialized Breeze API
+2025-06-23 16:55:20,717 - __main__ - INFO - Successfully initialized Kite API
+2025-06-23 16:55:20,846 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'HINDALCO', 'isec_stock_code': 'HINDAL', 'isec_token': '1363', 'company name': 'HINDALCO INDUSTRIES LIMITED', 'isec_token_level1': '4.1!1363', 'isec_token_level2': '4.2!1363'}
+2025-06-23 16:55:20,846 - breeze_sdk_api - INFO - Got token name for HINDAL: 4.1!1363
+2025-06-23 16:55:20,971 - __main__ - INFO - Current price for HINDAL: 661.4
+2025-06-23 16:55:20,972 - __main__ - INFO - Placing GTT order 1: 1 shares @ 654.79 (trigger: 648.24)
+2025-06-23 16:55:21,160 - __main__ - INFO - Successfully placed GTT order 1: 277625109
+2025-06-23 16:55:21,160 - __main__ - INFO - Placing GTT order 2: 2 shares @ 648.17 (trigger: 641.69)
+2025-06-23 16:55:21,387 - __main__ - INFO - Successfully placed GTT order 2: 277625110
+2025-06-23 16:55:21,387 - __main__ - INFO - Placing GTT order 3: 3 shares @ 641.56 (trigger: 635.14)
+2025-06-23 16:55:21,588 - __main__ - INFO - Successfully placed GTT order 3: 277625111
+2025-06-23 16:55:21,589 - __main__ - INFO - Placing GTT order 4: 4 shares @ 634.94 (trigger: 628.59)
+2025-06-23 16:55:21,779 - __main__ - INFO - Successfully placed GTT order 4: 277625112
+2025-06-23 16:55:21,780 - __main__ - INFO - Placing GTT order 5: 5 shares @ 628.33 (trigger: 622.05)
+2025-06-23 16:55:22,024 - __main__ - INFO - Successfully placed GTT order 5: 277625113
+2025-06-23 16:55:22,024 - __main__ - INFO - Total GTT orders placed: 5/5
+2025-06-23 16:55:22,025 - __main__ - ERROR - Error getting GTT orders: 'KiteConnect' object has no attribute 'gtt_orders'
+2025-06-23 16:55:22,026 - __main__ - INFO - GTT Fall Buy strategy completed
+2025-06-23 17:11:15,267 - __main__ - INFO - Starting GTT Fall Buy strategy for HINDAL on NSE
+2025-06-23 17:11:15,268 - __main__ - INFO - Will place 10 GTT orders
+2025-06-23 17:11:15,268 - __main__ - INFO - No GTT history file found at workdir\orders\HINDAL_gtt_history.json. Starting fresh.
+2025-06-23 17:11:15,268 - __main__ - INFO - Found 0 existing GTT orders
+2025-06-23 17:11:16,490 - breeze_sdk_api - INFO - Successfully initialized Breeze API with credentials
+2025-06-23 17:11:16,490 - __main__ - INFO - Successfully initialized Breeze API
+2025-06-23 17:11:16,678 - __main__ - INFO - Successfully initialized Kite API
+2025-06-23 17:11:16,830 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'HINDALCO', 'isec_stock_code': 'HINDAL', 'isec_token': '1363', 'company name': 'HINDALCO INDUSTRIES LIMITED', 'isec_token_level1': '4.1!1363', 'isec_token_level2': '4.2!1363'}
+2025-06-23 17:11:16,831 - breeze_sdk_api - INFO - Got token name for HINDAL: 4.1!1363
+2025-06-23 17:11:16,989 - __main__ - INFO - Current price for HINDAL: 661.4
+2025-06-23 17:11:16,990 - __main__ - INFO - Placing GTT order 1: 1 shares @ 654.79 (trigger: 648.24)
+2025-06-23 17:11:17,314 - __main__ - INFO - Successfully placed GTT order 1: 277625755
+2025-06-23 17:11:17,314 - __main__ - INFO - Placing GTT order 2: 2 shares @ 648.17 (trigger: 641.69)
+2025-06-23 17:11:17,591 - __main__ - INFO - Successfully placed GTT order 2: 277625756
+2025-06-23 17:11:17,591 - __main__ - INFO - Placing GTT order 3: 3 shares @ 641.56 (trigger: 635.14)
+2025-06-23 17:11:17,867 - __main__ - INFO - Successfully placed GTT order 3: 277625758
+2025-06-23 17:11:17,868 - __main__ - INFO - Placing GTT order 4: 4 shares @ 634.94 (trigger: 628.59)
+2025-06-23 17:11:18,139 - __main__ - INFO - Successfully placed GTT order 4: 277625760
+2025-06-23 17:11:18,140 - __main__ - INFO - Placing GTT order 5: 5 shares @ 628.33 (trigger: 622.05)
+2025-06-23 17:11:18,419 - __main__ - INFO - Successfully placed GTT order 5: 277625761
+2025-06-23 17:11:18,420 - __main__ - INFO - Placing GTT order 6: 6 shares @ 621.72 (trigger: 615.50)
+2025-06-23 17:11:18,681 - __main__ - INFO - Successfully placed GTT order 6: 277625763
+2025-06-23 17:11:18,682 - __main__ - INFO - Placing GTT order 7: 7 shares @ 615.10 (trigger: 608.95)
+2025-06-23 17:11:18,893 - __main__ - INFO - Successfully placed GTT order 7: 277625764
+2025-06-23 17:11:18,893 - __main__ - INFO - Placing GTT order 8: 8 shares @ 608.49 (trigger: 602.40)
+2025-06-23 17:11:19,147 - __main__ - INFO - Successfully placed GTT order 8: 277625765
+2025-06-23 17:11:19,147 - __main__ - INFO - Placing GTT order 9: 9 shares @ 601.87 (trigger: 595.86)
+2025-06-23 17:11:19,439 - __main__ - INFO - Successfully placed GTT order 9: 277625766
+2025-06-23 17:11:19,439 - __main__ - INFO - Placing GTT order 10: 10 shares @ 595.26 (trigger: 589.31)
+2025-06-23 17:11:19,743 - __main__ - INFO - Successfully placed GTT order 10: 277625767
+2025-06-23 17:11:19,743 - __main__ - INFO - Total GTT orders placed: 10/10
+2025-06-23 17:11:19,746 - __main__ - INFO - GTT history saved to workdir\orders\HINDAL_gtt_history.json
+2025-06-23 17:11:19,746 - __main__ - ERROR - Error getting GTT orders: 'KiteConnect' object has no attribute 'gtt_orders'
+2025-06-23 17:11:19,748 - __main__ - INFO - Starting GTT order monitoring thread
+2025-06-23 17:11:19,748 - __main__ - INFO - GTT order monitoring started. Press Ctrl+C to stop.
+2025-06-23 17:11:19,748 - __main__ - INFO - === GTT Order Monitoring Cycle ===
+2025-06-23 17:11:22,936 - __main__ - INFO - Market hours: CLOSED
+2025-06-23 17:11:23,054 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'HINDALCO', 'isec_stock_code': 'HINDAL', 'isec_token': '1363', 'company name': 'HINDALCO INDUSTRIES LIMITED', 'isec_token_level1': '4.1!1363', 'isec_token_level2': '4.2!1363'}
+2025-06-23 17:11:23,055 - breeze_sdk_api - INFO - Got token name for HINDAL: 4.1!1363
+2025-06-23 17:11:23,181 - __main__ - ERROR - Error getting current GTT orders: 'KiteConnect' object has no attribute 'gtt_orders'
+2025-06-23 17:15:13,546 - __main__ - INFO - Received interrupt signal. Stopping monitoring...
+2025-06-23 17:15:23,559 - __main__ - INFO - Program terminated by user

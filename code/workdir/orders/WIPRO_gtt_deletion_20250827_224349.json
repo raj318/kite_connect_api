@@ -1,0 +1,139 @@
+{
+  "company_symbol": "WIPRO",
+  "operation": "GTT Order Deletion",
+  "timestamp": "2025-08-27T22:43:49.609449",
+  "results": {
+    "total_orders": 18,
+    "successful_deletions": 18,
+    "failed_deletions": 0,
+    "deleted_orders": [
+      {
+        "trigger_id": 285332716,
+        "symbol": "WIPRO",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2025-08-27T22:43:47.260950"
+      },
+      {
+        "trigger_id": 285332715,
+        "symbol": "WIPRO",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2025-08-27T22:43:47.409890"
+      },
+      {
+        "trigger_id": 285332714,
+        "symbol": "WIPRO",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2025-08-27T22:43:47.569714"
+      },
+      {
+        "trigger_id": 285332713,
+        "symbol": "WIPRO",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2025-08-27T22:43:47.716094"
+      },
+      {
+        "trigger_id": 285332712,
+        "symbol": "WIPRO",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2025-08-27T22:43:47.862957"
+      },
+      {
+        "trigger_id": 285332711,
+        "symbol": "WIPRO",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2025-08-27T22:43:48.004881"
+      },
+      {
+        "trigger_id": 285332710,
+        "symbol": "WIPRO",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2025-08-27T22:43:48.133899"
+      },
+      {
+        "trigger_id": 285332709,
+        "symbol": "WIPRO",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2025-08-27T22:43:48.274361"
+      },
+      {
+        "trigger_id": 285332708,
+        "symbol": "WIPRO",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2025-08-27T22:43:48.401000"
+      },
+      {
+        "trigger_id": 285332688,
+        "symbol": "WIPRO",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2025-08-27T22:43:48.560675"
+      },
+      {
+        "trigger_id": 285332687,
+        "symbol": "WIPRO",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2025-08-27T22:43:48.681862"
+      },
+      {
+        "trigger_id": 285332686,
+        "symbol": "WIPRO",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2025-08-27T22:43:48.821831"
+      },
+      {
+        "trigger_id": 285332685,
+        "symbol": "WIPRO",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2025-08-27T22:43:48.957054"
+      },
+      {
+        "trigger_id": 285332684,
+        "symbol": "WIPRO",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2025-08-27T22:43:49.091164"
+      },
+      {
+        "trigger_id": 285332683,
+        "symbol": "WIPRO",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2025-08-27T22:43:49.209166"
+      },
+      {
+        "trigger_id": 285332681,
+        "symbol": "WIPRO",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2025-08-27T22:43:49.340755"
+      },
+      {
+        "trigger_id": 285332680,
+        "symbol": "WIPRO",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2025-08-27T22:43:49.472350"
+      },
+      {
+        "trigger_id": 285332679,
+        "symbol": "WIPRO",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2025-08-27T22:43:49.609449"
+      }
+    ],
+    "failed_orders": []
+  }
+}

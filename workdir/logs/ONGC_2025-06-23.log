@@ -1,0 +1,211 @@
+2025-06-23 22:36:54,250 - __main__ - INFO - Starting GTT Fall Buy strategy for ONGC on NSE
+2025-06-23 22:36:58,833 - breeze_sdk_api - INFO - Successfully initialized Breeze API with credentials
+2025-06-23 22:36:58,833 - __main__ - INFO - Successfully initialized Breeze API
+2025-06-23 22:36:59,051 - __main__ - INFO - Successfully initialized Kite API
+2025-06-23 22:36:59,051 - __main__ - INFO - Will place 5 GTT orders
+2025-06-23 22:36:59,052 - __main__ - INFO - No GTT history file found at workdir\orders\ONGC_gtt_history.json. Starting fresh.
+2025-06-23 22:36:59,052 - __main__ - INFO - Found 0 existing GTT orders
+2025-06-23 22:36:59,155 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'ONGC', 'isec_stock_code': 'ONGC', 'isec_token': '2475', 'company name': 'OIL AND NATURAL GAS CORPORATIO', 'isec_token_level1': '4.1!2475', 'isec_token_level2': '4.2!2475'}
+2025-06-23 22:36:59,155 - breeze_sdk_api - INFO - Got token name for ONGC: 4.1!2475
+2025-06-23 22:36:59,412 - __main__ - INFO - Current price for ONGC: 251.38
+2025-06-23 22:36:59,413 - __main__ - INFO - Found 0 actually active orders on exchange
+2025-06-23 22:36:59,413 - __main__ - INFO - Starting fresh fall buy strategy from current price: 251.38
+2025-06-23 22:36:59,414 - __main__ - INFO - DEBUG: existing_order_count=0, i=1, order_number=1
+2025-06-23 22:36:59,414 - __main__ - INFO - DEBUG: Attempting to place order 1/5
+2025-06-23 22:36:59,414 - __main__ - INFO - DEBUG: First order - using 0.27% below current price: 251.38 * 0.9973 = 250.70127399999998
+2025-06-23 22:36:59,415 - __main__ - INFO - Placing GTT order 1: 1 shares @ 250.70 (trigger: 250.60) - 1% drop from entry
+2025-06-23 22:36:59,415 - __main__ - INFO - DEBUG: Checking if price 250.70 is similar to existing orders...
+2025-06-23 22:36:59,415 - __main__ - INFO - DEBUG: Price check passed, proceeding with order placement...
+2025-06-23 22:36:59,563 - __main__ - INFO - Successfully placed GTT order 1: 277641151
+2025-06-23 22:36:59,563 - __main__ - INFO - DEBUG: Order 1 placed successfully. Total placed: 1
+2025-06-23 22:36:59,564 - __main__ - INFO - DEBUG: Updated previous_order_price to 250.70127399999998
+2025-06-23 22:36:59,564 - __main__ - INFO - DEBUG: existing_order_count=0, i=2, order_number=2
+2025-06-23 22:36:59,564 - __main__ - INFO - DEBUG: Attempting to place order 2/5
+2025-06-23 22:36:59,564 - __main__ - INFO - DEBUG: Subsequent order - using 1% below previous price: 250.70127399999998 * 0.99 = 248.19426126
+2025-06-23 22:36:59,565 - __main__ - INFO - Placing GTT order 2: 2 shares @ 248.19 (trigger: 248.09) - 2% drop from entry
+2025-06-23 22:36:59,565 - __main__ - INFO - DEBUG: Checking if price 248.19 is similar to existing orders...
+2025-06-23 22:36:59,565 - __main__ - INFO - DEBUG: Price check passed, proceeding with order placement...
+2025-06-23 22:36:59,711 - __main__ - INFO - Successfully placed GTT order 2: 277641152
+2025-06-23 22:36:59,712 - __main__ - INFO - DEBUG: Order 2 placed successfully. Total placed: 2
+2025-06-23 22:36:59,713 - __main__ - INFO - DEBUG: Updated previous_order_price to 248.19426126
+2025-06-23 22:36:59,714 - __main__ - INFO - DEBUG: existing_order_count=0, i=3, order_number=3
+2025-06-23 22:36:59,714 - __main__ - INFO - DEBUG: Attempting to place order 3/5
+2025-06-23 22:36:59,714 - __main__ - INFO - DEBUG: Subsequent order - using 1% below previous price: 248.19426126 * 0.99 = 245.7123186474
+2025-06-23 22:36:59,715 - __main__ - INFO - Placing GTT order 3: 3 shares @ 245.71 (trigger: 245.61) - 3% drop from entry
+2025-06-23 22:36:59,715 - __main__ - INFO - DEBUG: Checking if price 245.71 is similar to existing orders...
+2025-06-23 22:36:59,715 - __main__ - INFO - DEBUG: Price check passed, proceeding with order placement...
+2025-06-23 22:36:59,881 - __main__ - INFO - Successfully placed GTT order 3: 277641154
+2025-06-23 22:36:59,882 - __main__ - INFO - DEBUG: Order 3 placed successfully. Total placed: 3
+2025-06-23 22:36:59,884 - __main__ - INFO - DEBUG: Updated previous_order_price to 245.7123186474
+2025-06-23 22:36:59,885 - __main__ - INFO - DEBUG: existing_order_count=0, i=4, order_number=4
+2025-06-23 22:36:59,886 - __main__ - INFO - DEBUG: Attempting to place order 4/5
+2025-06-23 22:36:59,887 - __main__ - INFO - DEBUG: Subsequent order - using 1% below previous price: 245.7123186474 * 0.99 = 243.255195460926
+2025-06-23 22:36:59,887 - __main__ - INFO - Placing GTT order 4: 4 shares @ 243.26 (trigger: 243.16) - 4% drop from entry
+2025-06-23 22:36:59,888 - __main__ - INFO - DEBUG: Checking if price 243.26 is similar to existing orders...
+2025-06-23 22:36:59,889 - __main__ - INFO - DEBUG: Price check passed, proceeding with order placement...
+2025-06-23 22:37:00,018 - __main__ - INFO - Successfully placed GTT order 4: 277641155
+2025-06-23 22:37:00,018 - __main__ - INFO - DEBUG: Order 4 placed successfully. Total placed: 4
+2025-06-23 22:37:00,019 - __main__ - INFO - DEBUG: Updated previous_order_price to 243.255195460926
+2025-06-23 22:37:00,019 - __main__ - INFO - DEBUG: existing_order_count=0, i=5, order_number=5
+2025-06-23 22:37:00,019 - __main__ - INFO - DEBUG: Attempting to place order 5/5
+2025-06-23 22:37:00,019 - __main__ - INFO - DEBUG: Subsequent order - using 1% below previous price: 243.255195460926 * 0.99 = 240.82264350631672
+2025-06-23 22:37:00,020 - __main__ - INFO - Placing GTT order 5: 5 shares @ 240.82 (trigger: 240.72) - 5% drop from entry
+2025-06-23 22:37:00,020 - __main__ - INFO - DEBUG: Checking if price 240.82 is similar to existing orders...
+2025-06-23 22:37:00,020 - __main__ - INFO - DEBUG: Price check passed, proceeding with order placement...
+2025-06-23 22:37:00,197 - __main__ - INFO - Successfully placed GTT order 5: 277641157
+2025-06-23 22:37:00,197 - __main__ - INFO - DEBUG: Order 5 placed successfully. Total placed: 5
+2025-06-23 22:37:00,197 - __main__ - INFO - DEBUG: Updated previous_order_price to 240.82264350631672
+2025-06-23 22:37:00,198 - __main__ - INFO - DEBUG: Order placement loop completed. orders_placed=5, num_orders=5
+2025-06-23 22:37:00,198 - __main__ - INFO - Total GTT orders placed: 5/5
+2025-06-23 22:37:00,198 - __main__ - INFO - SUCCESS: All 5 orders were placed successfully!
+2025-06-23 22:37:00,198 - __main__ - INFO - DEBUG: existing_gtt_orders count: 0
+2025-06-23 22:37:00,198 - __main__ - INFO - DEBUG: new_gtt_orders count: 5
+2025-06-23 22:37:00,198 - __main__ - INFO - DEBUG: all_gtt_orders count: 5
+2025-06-23 22:37:00,199 - __main__ - INFO - DEBUG: Attempting to save GTT history with 5 orders...
+2025-06-23 22:37:00,199 - __main__ - INFO - DEBUG: save_gtt_history called with 5 orders for ONGC
+2025-06-23 22:37:00,199 - __main__ - INFO - DEBUG: Orders directory ensured: workdir\orders
+2025-06-23 22:37:00,199 - __main__ - INFO - DEBUG: History data prepared with 5 orders
+2025-06-23 22:37:00,199 - __main__ - INFO - DEBUG: Saving to file: workdir\orders\ONGC_gtt_history.json
+2025-06-23 22:37:00,200 - __main__ - INFO - GTT history saved to workdir\orders\ONGC_gtt_history.json
+2025-06-23 22:37:00,201 - __main__ - INFO - DEBUG: File saved successfully. File size: 2833 bytes
+2025-06-23 22:37:00,201 - __main__ - INFO - DEBUG: GTT history save completed
+2025-06-23 22:37:00,201 - __main__ - INFO - Total GTT orders in account: 0
+2025-06-23 22:37:00,202 - __main__ - INFO - Starting GTT order monitoring thread
+2025-06-23 22:37:00,202 - __main__ - INFO - Setting up real-time tick data monitoring...
+2025-06-23 22:37:00,203 - __main__ - INFO - === GTT Order Monitoring Cycle ===
+2025-06-23 22:37:00,471 - breeze_sdk_api - INFO - Setting on_ticks function: <bound method BreezeApi.on_ticks of <breeze_sdk_api.BreezeApi object at 0x000001A707C7B520>>
+2025-06-23 22:37:00,472 - breeze_sdk_api - INFO - Successfully connected to WebSocket
+2025-06-23 22:37:00,472 - __main__ - INFO - Connected to Breeze WebSocket for real-time data
+2025-06-23 22:37:00,591 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'ONGC', 'isec_stock_code': 'ONGC', 'isec_token': '2475', 'company name': 'OIL AND NATURAL GAS CORPORATIO', 'isec_token_level1': '4.1!2475', 'isec_token_level2': '4.2!2475'}
+2025-06-23 22:37:00,592 - breeze_sdk_api - INFO - Got token name for ONGC: 4.1!2475
+2025-06-23 22:37:00,592 - __main__ - INFO - Stock token for tick data: 4.1!2475
+2025-06-23 22:37:00,592 - breeze_sdk_api - INFO - Setting on_ticks function: <function main.<locals>.tick_handler at 0x000001A707C97010>
+2025-06-23 22:37:00,593 - __main__ - INFO - Tick handler set up successfully
+2025-06-23 22:37:00,593 - breeze_sdk_api - INFO - Successfully subscribed to OHLC feed for token: 4.1!2475
+2025-06-23 22:37:00,593 - __main__ - INFO - Subscribed to real-time feed for ONGC
+2025-06-23 22:37:00,594 - __main__ - INFO - Real-time tick data monitoring is now active!
+2025-06-23 22:37:00,594 - __main__ - INFO - The system will now respond to price changes in real-time
+2025-06-23 22:37:00,594 - __main__ - INFO - GTT order monitoring started.
+2025-06-23 22:37:00,595 - __main__ - INFO - Monitoring will automatically stop when market closes for 1 hour.
+2025-06-23 22:37:00,595 - __main__ - INFO - Press Ctrl+C to stop manually.
+2025-06-23 22:37:03,247 - __main__ - INFO - Market hours: CLOSED
+2025-06-23 22:37:03,247 - __main__ - INFO - Market closed cycle 1/12
+2025-06-23 22:37:03,370 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'ONGC', 'isec_stock_code': 'ONGC', 'isec_token': '2475', 'company name': 'OIL AND NATURAL GAS CORPORATIO', 'isec_token_level1': '4.1!2475', 'isec_token_level2': '4.2!2475'}
+2025-06-23 22:37:03,371 - breeze_sdk_api - INFO - Got token name for ONGC: 4.1!2475
+2025-06-23 22:37:03,646 - __main__ - INFO - Current GTT orders in account: 0
+2025-06-23 22:37:03,646 - __main__ - INFO - Active buy orders for ONGC: 0
+2025-06-23 22:37:03,646 - __main__ - INFO - Need to place 5 more buy orders to maintain 5 active orders
+2025-06-23 22:37:03,646 - __main__ - INFO - Current active orders: 0/5
+2025-06-23 22:37:03,647 - __main__ - WARNING - No active buy orders found, cannot determine price for new orders
+2025-06-23 22:37:03,647 - __main__ - INFO - No shares available for selling
+2025-06-23 22:37:03,647 - __main__ - INFO - === End Monitoring Cycle ===
+2025-06-23 22:37:14,271 - __main__ - INFO - Received interrupt signal. Stopping monitoring...
+2025-06-23 22:37:24,285 - __main__ - INFO - Monitoring stopped by user.
+2025-06-23 22:37:24,286 - __main__ - INFO - Waiting for monitoring thread to finish...
+2025-06-23 22:37:54,299 - __main__ - INFO - Cleaning up WebSocket connection...
+2025-06-23 22:37:54,300 - __main__ - INFO - WebSocket not initialized, skipping cleanup
+2025-06-23 22:37:54,300 - __main__ - INFO - GTT Fall Buy strategy completed.
+2025-06-23 22:37:54,300 - __main__ - INFO - Stop monitoring signal set
+2025-06-23 22:38:55,280 - __main__ - INFO - Starting GTT Fall Buy strategy for ONGC on NSE
+2025-06-23 22:38:57,801 - breeze_sdk_api - INFO - Successfully initialized Breeze API with credentials
+2025-06-23 22:38:57,802 - __main__ - INFO - Successfully initialized Breeze API
+2025-06-23 22:38:57,929 - __main__ - INFO - Successfully initialized Kite API
+2025-06-23 22:38:57,929 - __main__ - INFO - Will place 5 GTT orders
+2025-06-23 22:38:57,930 - __main__ - INFO - Loaded GTT history from workdir\orders\ONGC_gtt_history.json: 5 orders
+2025-06-23 22:38:57,931 - __main__ - INFO - Found 5 existing GTT orders
+2025-06-23 22:38:58,053 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'ONGC', 'isec_stock_code': 'ONGC', 'isec_token': '2475', 'company name': 'OIL AND NATURAL GAS CORPORATIO', 'isec_token_level1': '4.1!2475', 'isec_token_level2': '4.2!2475'}
+2025-06-23 22:38:58,054 - breeze_sdk_api - INFO - Got token name for ONGC: 4.1!2475
+2025-06-23 22:38:58,297 - __main__ - INFO - Current price for ONGC: 251.38
+2025-06-23 22:38:58,298 - __main__ - INFO - Found 0 actually active orders on exchange
+2025-06-23 22:38:58,298 - __main__ - INFO - Starting fresh fall buy strategy from current price: 251.38
+2025-06-23 22:38:58,298 - __main__ - INFO - DEBUG: existing_order_count=0, i=1, order_number=1
+2025-06-23 22:38:58,299 - __main__ - INFO - DEBUG: Attempting to place order 1/5
+2025-06-23 22:38:58,299 - __main__ - INFO - DEBUG: First order - using 0.27% below current price: 251.38 * 0.9973 = 250.70127399999998
+2025-06-23 22:38:58,299 - __main__ - INFO - Placing GTT order 1: 1 shares @ 250.70 (trigger: 250.60) - 1% drop from entry
+2025-06-23 22:38:58,299 - __main__ - INFO - DEBUG: Checking if price 250.70 is similar to existing orders...
+2025-06-23 22:38:58,300 - __main__ - INFO - New price 250.70 is similar to existing orders. Skipping this order.
+2025-06-23 22:38:58,300 - __main__ - INFO - DEBUG: Order 1 skipped due to similar price
+2025-06-23 22:38:58,300 - __main__ - INFO - DEBUG: existing_order_count=0, i=2, order_number=2
+2025-06-23 22:38:58,300 - __main__ - INFO - DEBUG: Attempting to place order 2/5
+2025-06-23 22:38:58,301 - __main__ - INFO - DEBUG: Subsequent order - using 1% below previous price: 251.38 * 0.99 = 248.8662
+2025-06-23 22:38:58,301 - __main__ - INFO - Placing GTT order 2: 2 shares @ 248.87 (trigger: 248.77) - 2% drop from entry
+2025-06-23 22:38:58,301 - __main__ - INFO - DEBUG: Checking if price 248.87 is similar to existing orders...
+2025-06-23 22:38:58,301 - __main__ - INFO - New price 248.87 is similar to existing orders. Skipping this order.
+2025-06-23 22:38:58,302 - __main__ - INFO - DEBUG: Order 2 skipped due to similar price
+2025-06-23 22:38:58,302 - __main__ - INFO - DEBUG: existing_order_count=0, i=3, order_number=3
+2025-06-23 22:38:58,302 - __main__ - INFO - DEBUG: Attempting to place order 3/5
+2025-06-23 22:38:58,302 - __main__ - INFO - DEBUG: Subsequent order - using 1% below previous price: 251.38 * 0.99 = 248.8662
+2025-06-23 22:38:58,303 - __main__ - INFO - Placing GTT order 3: 3 shares @ 248.87 (trigger: 248.77) - 3% drop from entry
+2025-06-23 22:38:58,303 - __main__ - INFO - DEBUG: Checking if price 248.87 is similar to existing orders...
+2025-06-23 22:38:58,303 - __main__ - INFO - New price 248.87 is similar to existing orders. Skipping this order.
+2025-06-23 22:38:58,303 - __main__ - INFO - DEBUG: Order 3 skipped due to similar price
+2025-06-23 22:38:58,304 - __main__ - INFO - DEBUG: existing_order_count=0, i=4, order_number=4
+2025-06-23 22:38:58,304 - __main__ - INFO - DEBUG: Attempting to place order 4/5
+2025-06-23 22:38:58,304 - __main__ - INFO - DEBUG: Subsequent order - using 1% below previous price: 251.38 * 0.99 = 248.8662
+2025-06-23 22:38:58,304 - __main__ - INFO - Placing GTT order 4: 4 shares @ 248.87 (trigger: 248.77) - 4% drop from entry
+2025-06-23 22:38:58,304 - __main__ - INFO - DEBUG: Checking if price 248.87 is similar to existing orders...
+2025-06-23 22:38:58,305 - __main__ - INFO - New price 248.87 is similar to existing orders. Skipping this order.
+2025-06-23 22:38:58,305 - __main__ - INFO - DEBUG: Order 4 skipped due to similar price
+2025-06-23 22:38:58,305 - __main__ - INFO - DEBUG: existing_order_count=0, i=5, order_number=5
+2025-06-23 22:38:58,305 - __main__ - INFO - DEBUG: Attempting to place order 5/5
+2025-06-23 22:38:58,306 - __main__ - INFO - DEBUG: Subsequent order - using 1% below previous price: 251.38 * 0.99 = 248.8662
+2025-06-23 22:38:58,306 - __main__ - INFO - Placing GTT order 5: 5 shares @ 248.87 (trigger: 248.77) - 5% drop from entry
+2025-06-23 22:38:58,306 - __main__ - INFO - DEBUG: Checking if price 248.87 is similar to existing orders...
+2025-06-23 22:38:58,306 - __main__ - INFO - New price 248.87 is similar to existing orders. Skipping this order.
+2025-06-23 22:38:58,307 - __main__ - INFO - DEBUG: Order 5 skipped due to similar price
+2025-06-23 22:38:58,307 - __main__ - INFO - DEBUG: Order placement loop completed. orders_placed=0, num_orders=5
+2025-06-23 22:38:58,307 - __main__ - INFO - Total GTT orders placed: 0/5
+2025-06-23 22:38:58,307 - __main__ - WARNING - WARNING: Only 0 out of 5 orders were placed successfully!
+2025-06-23 22:38:58,307 - __main__ - WARNING - This could be due to:
+2025-06-23 22:38:58,308 - __main__ - WARNING - 1. Order placement failures
+2025-06-23 22:38:58,308 - __main__ - WARNING - 2. Similar price checks preventing orders
+2025-06-23 22:38:58,308 - __main__ - WARNING - 3. API errors during order placement
+2025-06-23 22:38:58,308 - __main__ - INFO - DEBUG: existing_gtt_orders count: 5
+2025-06-23 22:38:58,309 - __main__ - INFO - DEBUG: new_gtt_orders count: 0
+2025-06-23 22:38:58,309 - __main__ - INFO - DEBUG: all_gtt_orders count: 5
+2025-06-23 22:38:58,309 - __main__ - INFO - DEBUG: Attempting to save GTT history with 5 orders...
+2025-06-23 22:38:58,309 - __main__ - INFO - DEBUG: save_gtt_history called with 5 orders for ONGC
+2025-06-23 22:38:58,310 - __main__ - INFO - DEBUG: Orders directory ensured: workdir\orders
+2025-06-23 22:38:58,310 - __main__ - INFO - DEBUG: History data prepared with 5 orders
+2025-06-23 22:38:58,311 - __main__ - INFO - DEBUG: Saving to file: workdir\orders\ONGC_gtt_history.json
+2025-06-23 22:38:58,312 - __main__ - INFO - GTT history saved to workdir\orders\ONGC_gtt_history.json
+2025-06-23 22:38:58,312 - __main__ - INFO - DEBUG: File saved successfully. File size: 2833 bytes
+2025-06-23 22:38:58,312 - __main__ - INFO - DEBUG: GTT history save completed
+2025-06-23 22:38:58,313 - __main__ - ERROR - No GTT orders were placed successfully
+2025-06-23 22:38:58,314 - __main__ - INFO - Starting GTT order monitoring thread
+2025-06-23 22:38:58,314 - __main__ - INFO - Setting up real-time tick data monitoring...
+2025-06-23 22:38:58,314 - __main__ - INFO - === GTT Order Monitoring Cycle ===
+2025-06-23 22:38:58,455 - __main__ - INFO - Market hours: CLOSED
+2025-06-23 22:38:58,456 - __main__ - INFO - Market closed cycle 1/12
+2025-06-23 22:38:58,565 - breeze_sdk_api - INFO - Setting on_ticks function: <bound method BreezeApi.on_ticks of <breeze_sdk_api.BreezeApi object at 0x000001CB58F1B7F0>>
+2025-06-23 22:38:58,566 - breeze_sdk_api - INFO - Successfully connected to WebSocket
+2025-06-23 22:38:58,566 - __main__ - INFO - Connected to Breeze WebSocket for real-time data
+2025-06-23 22:38:58,580 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'ONGC', 'isec_stock_code': 'ONGC', 'isec_token': '2475', 'company name': 'OIL AND NATURAL GAS CORPORATIO', 'isec_token_level1': '4.1!2475', 'isec_token_level2': '4.2!2475'}
+2025-06-23 22:38:58,581 - breeze_sdk_api - INFO - Got token name for ONGC: 4.1!2475
+2025-06-23 22:38:58,795 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'ONGC', 'isec_stock_code': 'ONGC', 'isec_token': '2475', 'company name': 'OIL AND NATURAL GAS CORPORATIO', 'isec_token_level1': '4.1!2475', 'isec_token_level2': '4.2!2475'}
+2025-06-23 22:38:58,796 - breeze_sdk_api - INFO - Got token name for ONGC: 4.1!2475
+2025-06-23 22:38:58,802 - __main__ - INFO - Stock token for tick data: 4.1!2475
+2025-06-23 22:38:58,804 - breeze_sdk_api - INFO - Setting on_ticks function: <function main.<locals>.tick_handler at 0x000001CB3547DCF0>
+2025-06-23 22:38:58,804 - __main__ - INFO - Tick handler set up successfully
+2025-06-23 22:38:58,805 - breeze_sdk_api - INFO - Successfully subscribed to OHLC feed for token: 4.1!2475
+2025-06-23 22:38:58,805 - __main__ - INFO - Subscribed to real-time feed for ONGC
+2025-06-23 22:38:58,806 - __main__ - INFO - Real-time tick data monitoring is now active!
+2025-06-23 22:38:58,806 - __main__ - INFO - The system will now respond to price changes in real-time
+2025-06-23 22:38:58,806 - __main__ - INFO - GTT order monitoring started.
+2025-06-23 22:38:58,807 - __main__ - INFO - Monitoring will automatically stop when market closes for 1 hour.
+2025-06-23 22:38:58,807 - __main__ - INFO - Press Ctrl+C to stop manually.
+2025-06-23 22:38:58,915 - __main__ - INFO - Current GTT orders in account: 0
+2025-06-23 22:38:58,915 - __main__ - INFO - Active buy orders for ONGC: 0
+2025-06-23 22:38:58,915 - __main__ - INFO - Need to place 5 more buy orders to maintain 5 active orders
+2025-06-23 22:38:58,915 - __main__ - INFO - Current active orders: 0/5
+2025-06-23 22:38:58,916 - __main__ - WARNING - No active buy orders found, cannot determine price for new orders
+2025-06-23 22:38:58,916 - __main__ - INFO - No shares available for selling
+2025-06-23 22:38:58,916 - __main__ - INFO - === End Monitoring Cycle ===
+2025-06-23 22:40:22,663 - __main__ - INFO - Received interrupt signal. Stopping monitoring...
+2025-06-23 22:40:32,668 - __main__ - INFO - Monitoring stopped by user.
+2025-06-23 22:40:32,669 - __main__ - INFO - Waiting for monitoring thread to finish...
+2025-06-23 22:40:58,917 - __main__ - INFO - GTT order monitoring stopped
+2025-06-23 22:40:58,917 - __main__ - INFO - Cleaning up WebSocket connection...
+2025-06-23 22:40:58,918 - __main__ - INFO - WebSocket not initialized, skipping cleanup
+2025-06-23 22:40:58,918 - __main__ - INFO - GTT Fall Buy strategy completed.
+2025-06-23 22:40:58,918 - __main__ - INFO - Stop monitoring signal set

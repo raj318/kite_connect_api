@@ -1,0 +1,48 @@
+2025-05-25 18:08:55,431 - __main__ - INFO - Starting Kite API interaction
+2025-05-25 18:08:55,445 - __main__ - INFO - Initialized Kite API
+2025-05-25 18:08:55,677 - __main__ - ERROR - Error: Incorrect `api_key` or `access_token`.
+2025-05-25 18:08:55,677 - __main__ - INFO - Kite API interaction completed
+2025-05-25 18:11:40,736 - __main__ - INFO - Starting Kite API interaction
+2025-05-25 18:11:40,738 - __main__ - INFO - Initialized Kite API
+2025-05-25 18:11:40,892 - __main__ - ERROR - KiteConnect TokenException: Incorrect `api_key` or `access_token`.
+2025-05-25 18:11:40,895 - __main__ - INFO - Kite API interaction completed
+2025-05-25 18:12:19,818 - __main__ - INFO - Starting Kite API interaction
+2025-05-25 18:12:19,820 - __main__ - INFO - Initialized Kite API
+2025-05-25 18:12:19,954 - __main__ - ERROR - KiteConnect TokenException: Incorrect `api_key` or `access_token`.
+2025-05-25 18:12:19,958 - __main__ - INFO - Kite API interaction completed
+2025-05-25 18:12:39,641 - __main__ - INFO - Starting Kite API interaction
+2025-05-25 18:12:39,644 - __main__ - INFO - Initialized Kite API
+2025-05-25 18:12:39,649 - __main__ - ERROR - Error: Please update your request_token in config.yaml
+2025-05-25 18:12:39,650 - __main__ - INFO - Kite API interaction completed
+2025-05-25 18:18:05,927 - __main__ - INFO - Starting Kite API interaction
+2025-05-25 18:18:05,931 - __main__ - INFO - Initialized Kite API
+2025-05-25 18:18:05,945 - __main__ - ERROR - Error: Please update your request_token in config.yaml
+2025-05-25 18:18:05,949 - __main__ - INFO - Kite API interaction completed
+2025-05-25 18:19:07,214 - __main__ - INFO - Starting Kite API interaction
+2025-05-25 18:19:07,218 - __main__ - INFO - Initialized Kite API
+2025-05-25 18:19:07,413 - __main__ - INFO - Connected to Kite
+2025-05-25 18:19:07,413 - __main__ - INFO - 
+=== Getting Margin Details ===
+2025-05-25 18:19:07,603 - __main__ - INFO - 
+=== Getting Account Details ===
+2025-05-25 18:19:08,063 - __main__ - INFO - 
+=== Getting Live Market Data ===
+2025-05-25 18:19:08,382 - __main__ - ERROR - Error: Insufficient permission for that call.
+2025-05-25 18:19:08,386 - __main__ - INFO - Kite API interaction completed
+2025-05-25 18:19:14,699 - __main__ - INFO - Starting Kite API interaction
+2025-05-25 18:19:14,702 - __main__ - INFO - Initialized Kite API
+2025-05-25 18:19:14,795 - __main__ - INFO - Connected to Kite
+2025-05-25 18:19:14,796 - __main__ - INFO - 
+=== Getting Margin Details ===
+2025-05-25 18:19:14,878 - __main__ - INFO - 
+=== Getting Account Details ===
+2025-05-25 18:19:15,191 - __main__ - INFO - 
+=== Getting Live Market Data ===
+2025-05-25 18:19:15,494 - __main__ - ERROR - Error: Insufficient permission for that call.
+2025-05-25 18:19:15,507 - __main__ - INFO - Kite API interaction completed
+2025-05-25 18:57:53,351 - __main__ - INFO - Starting Kite API interaction
+2025-05-25 18:57:53,361 - __main__ - INFO - Initialized Kite API
+2025-05-25 18:57:53,528 - __main__ - INFO - Connected to Kite
+2025-05-25 18:57:53,529 - __main__ - INFO - Starting API tests...
+2025-05-25 18:57:56,107 - __main__ - INFO - Market hours ended, test completed
+2025-05-25 18:57:56,108 - __main__ - INFO - Kite API interaction completed

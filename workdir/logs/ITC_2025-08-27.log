@@ -1,0 +1,155 @@
+2025-08-27 19:15:19,945 - __main__ - INFO - Initializing GTT Order Scheduler for ITC
+2025-08-27 19:15:19,946 - __main__ - INFO - Order count: 2, Quantity per order: 10
+2025-08-27 19:15:19,949 - __main__ - INFO - Configuration loaded successfully
+2025-08-27 19:15:19,950 - __main__ - INFO - Starting GTT order scheduling process
+2025-08-27 19:15:20,112 - __main__ - INFO - Successfully connected to Kite Connect
+2025-08-27 19:15:20,486 - __main__ - ERROR - Failed to get current price: Insufficient permission for that call.
+2025-08-27 19:15:20,486 - __main__ - ERROR - GTT order scheduling failed: Insufficient permission for that call.
+2025-08-27 19:20:52,246 - __main__ - INFO - Initializing GTT Order Scheduler for ITC
+2025-08-27 19:20:52,291 - __main__ - INFO - Configuration loaded successfully
+2025-08-27 19:20:52,294 - __main__ - INFO - Starting GTT order scheduling process
+2025-08-27 19:20:52,510 - __main__ - INFO - Successfully connected to Kite Connect
+2025-08-27 19:20:52,516 - __main__ - ERROR - GTT order scheduling failed: 'status'
+2025-08-27 19:21:51,406 - __main__ - INFO - Initializing GTT Order Scheduler for ITC
+2025-08-27 19:21:51,411 - __main__ - INFO - Configuration loaded successfully
+2025-08-27 19:21:51,415 - __main__ - INFO - Starting GTT order scheduling process
+2025-08-27 19:21:51,574 - __main__ - INFO - Successfully connected to Kite Connect
+2025-08-27 19:21:51,574 - __main__ - INFO - Using provided current price as base: Rs.450.00
+2025-08-27 19:21:51,574 - __main__ - INFO - Order 1: Price: Rs.450.00, Trigger: Rs.452.25, Value: Rs.4500.00
+2025-08-27 19:21:51,574 - __main__ - INFO - Order 2: Price: Rs.445.50, Trigger: Rs.447.73, Value: Rs.4455.00
+2025-08-27 19:22:48,032 - __main__ - INFO - Order placement cancelled by user
+2025-08-27 19:29:43,352 - __main__ - INFO - Initializing GTT Order Scheduler for ITC
+2025-08-27 19:29:43,352 - __main__ - INFO - Order count: 3, Current price: Rs.450.00, Max quantity: 5
+2025-08-27 19:29:43,362 - __main__ - INFO - Configuration loaded successfully
+2025-08-27 19:29:43,365 - __main__ - INFO - Starting GTT order scheduling process
+2025-08-27 19:29:43,695 - __main__ - INFO - Successfully connected to Kite Connect
+2025-08-27 19:29:43,696 - __main__ - INFO - Using provided current price as base: Rs.450.00
+2025-08-27 19:29:43,697 - __main__ - INFO - Order 1: Price: Rs.450.00, Trigger: Rs.452.25, Quantity: 1, Value: Rs.450.00
+2025-08-27 19:29:43,697 - __main__ - INFO - Order 2: Price: Rs.445.50, Trigger: Rs.447.73, Quantity: 2, Value: Rs.891.00
+2025-08-27 19:29:43,699 - __main__ - INFO - Order 3: Price: Rs.441.00, Trigger: Rs.443.20, Quantity: 3, Value: Rs.1323.00
+2025-08-27 19:31:42,104 - __main__ - INFO - Order placement cancelled by user
+2025-08-27 19:40:05,599 - __main__ - INFO - Initializing Hybrid Order Scheduler for ITC
+2025-08-27 19:40:05,599 - __main__ - INFO - Order count: 3, Current price: Rs.450.00, Max quantity: 5
+2025-08-27 19:40:05,601 - __main__ - INFO - Configuration loaded successfully
+2025-08-27 19:40:05,603 - __main__ - INFO - Starting hybrid order scheduling process
+2025-08-27 19:40:05,842 - __main__ - INFO - Successfully connected to Kite Connect
+2025-08-27 19:40:05,842 - __main__ - INFO - Using provided current price as base: Rs.450.00
+2025-08-27 19:40:05,842 - __main__ - INFO - Order 1: Price: Rs.450.00, Type: MARKET ORDER, Quantity: 1, Value: Rs.450.00
+2025-08-27 19:40:05,842 - __main__ - INFO - Order 2: Price: Rs.445.50, Trigger: Rs.447.73, Type: GTT ORDER, Quantity: 2, Value: Rs.891.00
+2025-08-27 19:40:05,842 - __main__ - INFO - Order 3: Price: Rs.441.00, Trigger: Rs.443.20, Type: GTT ORDER, Quantity: 3, Value: Rs.1323.00
+2025-08-27 19:41:41,787 - __main__ - INFO - Order placement cancelled by user
+2025-08-27 19:42:49,286 - __main__ - INFO - Initializing Hybrid Order Scheduler for ITC
+2025-08-27 19:42:49,287 - __main__ - INFO - Order count: 3, Current price: Rs.450.00, Max quantity: 5
+2025-08-27 19:42:49,289 - __main__ - INFO - Configuration loaded successfully
+2025-08-27 19:42:49,292 - __main__ - INFO - Starting hybrid order scheduling process
+2025-08-27 19:42:49,453 - __main__ - INFO - Successfully connected to Kite Connect
+2025-08-27 19:42:49,453 - __main__ - INFO - Using provided current price as base: Rs.450.00
+2025-08-27 19:42:49,453 - __main__ - INFO - Order 1: Price: Rs.450.00, Type: MARKET ORDER, Quantity: 1, Value: Rs.450.00
+2025-08-27 19:42:49,454 - __main__ - INFO - Order 2: Price: Rs.445.50, Trigger: Rs.447.73, Type: GTT ORDER, Quantity: 2, Value: Rs.891.00
+2025-08-27 19:42:49,454 - __main__ - INFO - Order 3: Price: Rs.441.00, Trigger: Rs.443.20, Type: GTT ORDER, Quantity: 3, Value: Rs.1323.00
+2025-08-27 19:43:13,760 - __main__ - INFO - Placing orders...
+2025-08-27 19:43:13,761 - __main__ - INFO - Placing MARKET order 1 for ITC
+2025-08-27 19:43:14,131 - __main__ - ERROR - Failed to place order 1: Your order could not be converted to a After Market Order (AMO).
+2025-08-27 19:43:14,133 - __main__ - INFO - Placing GTT order 2 for ITC
+2025-08-27 19:43:14,441 - __main__ - ERROR - Failed to place order 2: Trigger already met.
+2025-08-27 19:43:14,443 - __main__ - INFO - Placing GTT order 3 for ITC
+2025-08-27 19:43:14,716 - __main__ - ERROR - Failed to place order 3: Trigger already met.
+2025-08-27 19:43:14,718 - __main__ - INFO - Order summary saved to workdir\orders\ITC_gtt_orders_20250827_194314.json
+2025-08-27 19:43:14,721 - __main__ - INFO - Hybrid order scheduling process completed successfully
+2025-08-27 19:45:21,387 - __main__ - INFO - Initializing Hybrid Order Scheduler for ITC
+2025-08-27 19:45:21,387 - __main__ - INFO - Order count: 3, Current price: Rs.450.00, Max quantity: 5
+2025-08-27 19:45:21,390 - __main__ - INFO - Configuration loaded successfully
+2025-08-27 19:45:21,393 - __main__ - INFO - Starting hybrid order scheduling process
+2025-08-27 19:45:21,657 - __main__ - INFO - Successfully connected to Kite Connect
+2025-08-27 19:45:21,657 - __main__ - INFO - Using provided current price as base: Rs.450.00
+2025-08-27 19:45:21,658 - __main__ - INFO - Order 1: Price: Rs.450.00, Type: MARKET ORDER, Quantity: 1, Value: Rs.450.00
+2025-08-27 19:45:21,658 - __main__ - INFO - Order 2: Price: Rs.445.50, Trigger: Rs.447.73, Type: GTT ORDER, Quantity: 2, Value: Rs.891.00
+2025-08-27 19:45:21,658 - __main__ - INFO - Order 3: Price: Rs.441.00, Trigger: Rs.443.20, Type: GTT ORDER, Quantity: 3, Value: Rs.1323.00
+2025-08-27 19:45:35,199 - __main__ - INFO - Order placement cancelled by user
+2025-08-27 19:49:01,443 - __main__ - INFO - Initializing Hybrid Order Scheduler for ITC
+2025-08-27 19:49:01,443 - __main__ - INFO - Order count: 3, Current price: Rs.450.00, Max quantity: 5
+2025-08-27 19:49:01,446 - __main__ - INFO - Configuration loaded successfully
+2025-08-27 19:49:01,450 - __main__ - INFO - Starting hybrid order scheduling process
+2025-08-27 19:49:01,693 - __main__ - INFO - Successfully connected to Kite Connect
+2025-08-27 19:49:06,362 - __main__ - INFO - Market is closed (outside trading hours) - will use LIMIT order for first order
+2025-08-27 19:49:06,363 - __main__ - INFO - Using provided current price as base: Rs.450.00
+2025-08-27 19:49:06,363 - __main__ - INFO - Order 1: Price: Rs.450.00, Type: LIMIT ORDER, Quantity: 1, Value: Rs.450.00
+2025-08-27 19:49:06,363 - __main__ - INFO - Order 2: Price: Rs.445.50, Trigger: Rs.447.73, Type: GTT ORDER, Quantity: 2, Value: Rs.891.00
+2025-08-27 19:49:06,364 - __main__ - INFO - Order 3: Price: Rs.441.00, Trigger: Rs.443.20, Type: GTT ORDER, Quantity: 3, Value: Rs.1323.00
+2025-08-27 19:49:26,073 - __main__ - INFO - Order placement cancelled by user
+2025-08-27 19:53:27,454 - __main__ - INFO - Initializing Hybrid Order Scheduler for ITC
+2025-08-27 19:53:27,455 - __main__ - INFO - Order count: 3, Current price: Rs.450.00, Max quantity: 5
+2025-08-27 19:53:27,458 - __main__ - INFO - Configuration loaded successfully
+2025-08-27 19:53:27,460 - __main__ - INFO - Starting hybrid order scheduling process
+2025-08-27 19:53:27,632 - __main__ - INFO - Successfully connected to Kite Connect
+2025-08-27 19:53:27,723 - __main__ - INFO - Market is closed (outside trading hours) - will use LIMIT order for first order
+2025-08-27 19:53:27,724 - __main__ - INFO - Using provided current price as base: Rs.450.00
+2025-08-27 19:53:27,724 - __main__ - INFO - Order 1: Price: Rs.450.00, Type: LIMIT ORDER, Quantity: 1, Value: Rs.450.00
+2025-08-27 19:53:27,724 - __main__ - INFO - Order 2: Price: Rs.445.50, Trigger: Rs.447.73, Type: GTT ORDER, Quantity: 2, Value: Rs.891.00
+2025-08-27 19:53:27,725 - __main__ - INFO - Order 3: Price: Rs.441.00, Trigger: Rs.443.20, Type: GTT ORDER, Quantity: 3, Value: Rs.1323.00
+2025-08-27 19:53:57,699 - __main__ - INFO - Placing orders...
+2025-08-27 19:53:57,699 - __main__ - INFO - Placing LIMIT order 1 for ITC
+2025-08-27 19:53:57,699 - __main__ - ERROR - Failed to place order 1 (LIMIT): KiteConnectAPI.place_order() got an unexpected keyword argument 'price'
+2025-08-27 19:53:57,700 - __main__ - ERROR - Order details: Price: Rs.450.00, Quantity: 1
+2025-08-27 19:53:57,700 - __main__ - INFO - Placing GTT order 2 for ITC
+2025-08-27 19:53:58,002 - __main__ - ERROR - Failed to place order 2 (GTT): Trigger already met.
+2025-08-27 19:53:58,003 - __main__ - ERROR - Order details: Price: Rs.445.50, Quantity: 2
+2025-08-27 19:53:58,008 - __main__ - INFO - Placing GTT order 3 for ITC
+2025-08-27 19:53:58,317 - __main__ - ERROR - Failed to place order 3 (GTT): Trigger already met.
+2025-08-27 19:53:58,318 - __main__ - ERROR - Order details: Price: Rs.441.00, Quantity: 3
+2025-08-27 19:53:58,322 - __main__ - INFO - Order summary saved to workdir\orders\ITC_gtt_orders_20250827_195358.json
+2025-08-27 19:53:58,331 - __main__ - INFO - Hybrid order scheduling process completed successfully
+2025-08-27 19:54:46,350 - __main__ - INFO - Initializing Hybrid Order Scheduler for ITC
+2025-08-27 19:54:46,350 - __main__ - INFO - Order count: 3, Current price: Rs.450.00, Max quantity: 5
+2025-08-27 19:54:46,353 - __main__ - INFO - Configuration loaded successfully
+2025-08-27 19:54:46,355 - __main__ - INFO - Starting hybrid order scheduling process
+2025-08-27 19:54:46,587 - __main__ - INFO - Successfully connected to Kite Connect
+2025-08-27 19:54:46,672 - __main__ - INFO - Market is closed (outside trading hours) - will use LIMIT order for first order
+2025-08-27 19:54:46,672 - __main__ - INFO - Using provided current price as base: Rs.450.00
+2025-08-27 19:54:46,672 - __main__ - INFO - Order 1: Price: Rs.450.00, Type: LIMIT ORDER, Quantity: 1, Value: Rs.450.00
+2025-08-27 19:54:46,673 - __main__ - INFO - Order 2: Price: Rs.445.50, Trigger: Rs.454.41, Type: GTT ORDER, Quantity: 2, Value: Rs.891.00
+2025-08-27 19:54:46,673 - __main__ - INFO - Order 3: Price: Rs.441.00, Trigger: Rs.449.82, Type: GTT ORDER, Quantity: 3, Value: Rs.1323.00
+2025-08-27 19:54:52,254 - __main__ - INFO - Placing orders...
+2025-08-27 19:54:52,254 - __main__ - INFO - Placing LIMIT order 1 for ITC
+2025-08-27 19:54:52,380 - __main__ - ERROR - Failed to place order 1 (LIMIT): Your order price is higher than the current [upper circuit limit](https://support.zerodha.com/category/trading-and-markets/trading-faqs/articles/what-does-circuit-limits-i-e-price-bands-mean) of 443.65. You can place an order within the range or [use GTT](https://support.zerodha.com/category/trading-and-markets/gtt/articles/what-is-the-good-till-triggered-gtt-feature) for long-standing orders.
+2025-08-27 19:54:52,380 - __main__ - ERROR - Order details: Price: Rs.450.00, Quantity: 1
+2025-08-27 19:54:52,381 - __main__ - INFO - Placing GTT order 2 for ITC
+2025-08-27 19:54:52,650 - __main__ - ERROR - Failed to place order 2 (GTT): Trigger already met.
+2025-08-27 19:54:52,652 - __main__ - ERROR - Order details: Price: Rs.445.50, Quantity: 2
+2025-08-27 19:54:52,653 - __main__ - INFO - Placing GTT order 3 for ITC
+2025-08-27 19:54:52,924 - __main__ - ERROR - Failed to place order 3 (GTT): Trigger already met.
+2025-08-27 19:54:52,924 - __main__ - ERROR - Order details: Price: Rs.441.00, Quantity: 3
+2025-08-27 19:54:52,927 - __main__ - INFO - Order summary saved to workdir\orders\ITC_gtt_orders_20250827_195452.json
+2025-08-27 19:54:52,932 - __main__ - INFO - Hybrid order scheduling process completed successfully
+2025-08-27 19:56:18,363 - __main__ - INFO - Initializing Hybrid Order Scheduler for ITC
+2025-08-27 19:56:18,363 - __main__ - INFO - Order count: 3, Current price: Rs.403.00, Max quantity: 5
+2025-08-27 19:56:18,376 - __main__ - INFO - Configuration loaded successfully
+2025-08-27 19:56:18,379 - __main__ - INFO - Starting hybrid order scheduling process
+2025-08-27 19:56:18,546 - __main__ - INFO - Successfully connected to Kite Connect
+2025-08-27 19:56:21,736 - __main__ - INFO - Market is closed (outside trading hours) - will use LIMIT order for first order
+2025-08-27 19:56:21,737 - __main__ - INFO - Using provided current price as base: Rs.403.00
+2025-08-27 19:56:21,737 - __main__ - INFO - Order 1: Price: Rs.403.00, Type: LIMIT ORDER, Quantity: 1, Value: Rs.403.00
+2025-08-27 19:56:21,738 - __main__ - INFO - Order 2: Price: Rs.398.97, Trigger: Rs.406.95, Type: GTT ORDER, Quantity: 2, Value: Rs.797.94
+2025-08-27 19:56:21,738 - __main__ - INFO - Order 3: Price: Rs.394.94, Trigger: Rs.402.84, Type: GTT ORDER, Quantity: 3, Value: Rs.1184.82
+2025-08-27 19:56:24,624 - __main__ - INFO - Placing orders...
+2025-08-27 19:56:24,624 - __main__ - INFO - Placing LIMIT order 1 for ITC
+2025-08-27 19:56:24,769 - __main__ - ERROR - Failed to place order 1 (LIMIT): Your order could not be converted to a After Market Order (AMO).
+2025-08-27 19:56:24,769 - __main__ - ERROR - Order details: Price: Rs.403.00, Quantity: 1
+2025-08-27 19:56:24,772 - __main__ - INFO - Placing GTT order 2 for ITC
+2025-08-27 19:56:25,030 - __main__ - ERROR - Failed to place order 2 (GTT): Trigger already met.
+2025-08-27 19:56:25,030 - __main__ - ERROR - Order details: Price: Rs.398.97, Quantity: 2
+2025-08-27 19:56:25,031 - __main__ - INFO - Placing GTT order 3 for ITC
+2025-08-27 19:56:25,323 - __main__ - INFO - GTT order 3 placed successfully with trigger ID: 285327688
+2025-08-27 19:56:25,324 - __main__ - INFO - Order summary saved to workdir\orders\ITC_gtt_orders_20250827_195625.json
+2025-08-27 19:56:25,329 - __main__ - INFO - Hybrid order scheduling process completed successfully
+2025-08-27 19:58:19,020 - __main__ - INFO - Initializing Hybrid Order Scheduler for ITC
+2025-08-27 19:58:19,021 - __main__ - INFO - Order count: 3, Current price: Rs.403.00, Max quantity: 5
+2025-08-27 19:58:19,023 - __main__ - INFO - Configuration loaded successfully
+2025-08-27 19:58:19,025 - __main__ - INFO - Starting hybrid order scheduling process
+2025-08-27 19:58:19,172 - __main__ - INFO - Successfully connected to Kite Connect
+2025-08-27 19:58:19,269 - __main__ - INFO - Market is closed (outside trading hours) - will use LIMIT order for first order
+2025-08-27 19:58:19,269 - __main__ - INFO - Using provided current price as base: Rs.403.00
+2025-08-27 19:58:19,269 - __main__ - INFO - Order 1: Price: Rs.403.00, Trigger: Rs.423.15, Type: GTT ORDER (market closed), Quantity: 1, Value: Rs.403.00
+2025-08-27 19:58:19,269 - __main__ - INFO - Order 2: Price: Rs.398.97, Trigger: Rs.418.92, Type: GTT ORDER, Quantity: 2, Value: Rs.797.94
+2025-08-27 19:58:19,271 - __main__ - INFO - Order 3: Price: Rs.394.94, Trigger: Rs.414.69, Type: GTT ORDER, Quantity: 3, Value: Rs.1184.82
+2025-08-27 20:00:32,923 - __main__ - INFO - Order placement cancelled by user

@@ -1,0 +1,17 @@
+2025-08-27 19:06:18,906 - __main__ - INFO - Initializing GTT Order Scheduler for ITC
+2025-08-27 19:06:18,907 - __main__ - INFO - Order count: 5, Quantity per order: 100
+2025-08-27 19:14:02,284 - __main__ - INFO - Initializing GTT Order Scheduler for ITC
+2025-08-27 19:14:02,284 - __main__ - INFO - Order count: 5, Quantity per order: 100
+2025-08-27 19:14:02,296 - __main__ - INFO - Configuration loaded successfully
+2025-08-27 19:14:02,298 - __main__ - INFO - Starting GTT order scheduling process
+2025-08-27 19:14:40,318 - __main__ - INFO - Initializing GTT Order Scheduler for ITC
+2025-08-27 19:14:40,319 - __main__ - INFO - Order count: 5, Quantity per order: 100
+2025-08-27 19:14:40,335 - __main__ - INFO - Configuration loaded successfully
+2025-08-27 19:14:40,338 - __main__ - INFO - Starting GTT order scheduling process
+2025-08-27 19:14:56,162 - __main__ - INFO - Initializing GTT Order Scheduler for ITC
+2025-08-27 19:14:56,163 - __main__ - INFO - Order count: 5, Quantity per order: 100
+2025-08-27 19:14:56,166 - __main__ - INFO - Configuration loaded successfully
+2025-08-27 19:14:56,168 - __main__ - INFO - Starting GTT order scheduling process
+2025-08-27 19:14:56,355 - __main__ - INFO - Successfully connected to Kite Connect
+2025-08-27 19:14:56,736 - __main__ - ERROR - Failed to get current price: Insufficient permission for that call.
+2025-08-27 19:14:56,736 - __main__ - ERROR - GTT order scheduling failed: Insufficient permission for that call.

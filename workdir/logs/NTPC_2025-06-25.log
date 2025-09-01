@@ -1,0 +1,387 @@
+2025-06-25 18:21:55,077 - __main__ - INFO - Starting GTT Fall Buy strategy for NTPC on NSE
+2025-06-25 18:21:56,343 - breeze_sdk_api - INFO - Successfully initialized Breeze API with credentials
+2025-06-25 18:21:56,343 - __main__ - INFO - Successfully initialized Breeze API
+2025-06-25 18:21:56,443 - __main__ - INFO - Successfully initialized Kite API
+2025-06-25 18:21:56,443 - __main__ - INFO - Will place 5 GTT orders
+2025-06-25 18:21:56,444 - __main__ - INFO - No GTT history file found at workdir\orders\NTPC_gtt_history.json. Starting fresh.
+2025-06-25 18:21:56,444 - __main__ - INFO - Found 0 existing GTT orders
+2025-06-25 18:21:56,557 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'NTPC', 'isec_stock_code': 'NTPC', 'isec_token': '11630', 'company name': 'NTPC LIMITED', 'isec_token_level1': '4.1!11630', 'isec_token_level2': '4.2!11630'}
+2025-06-25 18:21:56,558 - breeze_sdk_api - INFO - Got token name for NTPC: 4.1!11630
+2025-06-25 18:21:56,777 - __main__ - INFO - Current price for NTPC: 330.85
+2025-06-25 18:21:56,778 - __main__ - INFO - Found 0 actually active orders on exchange
+2025-06-25 18:21:56,778 - __main__ - INFO - Starting fresh fall buy strategy from current price: 330.85
+2025-06-25 18:21:56,778 - __main__ - INFO - DEBUG: existing_order_count=0, i=1, order_number=1
+2025-06-25 18:21:56,779 - __main__ - INFO - DEBUG: Attempting to place order 1/5
+2025-06-25 18:21:56,783 - __main__ - INFO - Placing GTT order 1: 1 shares @ 329.96 (trigger: 329.86) - 1% drop from entry
+2025-06-25 18:21:56,783 - __main__ - INFO - DEBUG: Price validation - Order: 329.96, Trigger: 329.86, Tick size: 0.01
+2025-06-25 18:21:56,783 - __main__ - INFO - DEBUG: Checking if price 329.96 is similar to existing orders...
+2025-06-25 18:21:56,784 - __main__ - INFO - DEBUG: Price check passed, proceeding with order placement...
+2025-06-25 18:21:56,903 - __main__ - INFO - Successfully placed GTT order 1: 277956517
+2025-06-25 18:21:56,904 - __main__ - INFO - DEBUG: Order 1 placed successfully. Total placed: 1
+2025-06-25 18:21:56,904 - __main__ - INFO - DEBUG: Updated previous_order_price to 329.96
+2025-06-25 18:21:56,904 - __main__ - INFO - DEBUG: existing_order_count=0, i=2, order_number=2
+2025-06-25 18:21:56,905 - __main__ - INFO - DEBUG: Attempting to place order 2/5
+2025-06-25 18:21:56,907 - __main__ - INFO - Placing GTT order 2: 2 shares @ 326.66 (trigger: 326.56) - 2% drop from entry
+2025-06-25 18:21:56,907 - __main__ - INFO - DEBUG: Price validation - Order: 326.66, Trigger: 326.56, Tick size: 0.01
+2025-06-25 18:21:56,907 - __main__ - INFO - DEBUG: Checking if price 326.66 is similar to existing orders...
+2025-06-25 18:21:56,907 - __main__ - INFO - DEBUG: Price check passed, proceeding with order placement...
+2025-06-25 18:21:57,035 - __main__ - INFO - Successfully placed GTT order 2: 277956519
+2025-06-25 18:21:57,035 - __main__ - INFO - DEBUG: Order 2 placed successfully. Total placed: 2
+2025-06-25 18:21:57,036 - __main__ - INFO - DEBUG: Updated previous_order_price to 326.66
+2025-06-25 18:21:57,036 - __main__ - INFO - DEBUG: existing_order_count=0, i=3, order_number=3
+2025-06-25 18:21:57,036 - __main__ - INFO - DEBUG: Attempting to place order 3/5
+2025-06-25 18:21:57,038 - __main__ - INFO - Placing GTT order 3: 3 shares @ 323.39 (trigger: 323.29) - 3% drop from entry
+2025-06-25 18:21:57,038 - __main__ - INFO - DEBUG: Price validation - Order: 323.39, Trigger: 323.29, Tick size: 0.01
+2025-06-25 18:21:57,039 - __main__ - INFO - DEBUG: Checking if price 323.39 is similar to existing orders...
+2025-06-25 18:21:57,039 - __main__ - INFO - DEBUG: Price check passed, proceeding with order placement...
+2025-06-25 18:21:57,141 - __main__ - INFO - Successfully placed GTT order 3: 277956520
+2025-06-25 18:21:57,141 - __main__ - INFO - DEBUG: Order 3 placed successfully. Total placed: 3
+2025-06-25 18:21:57,142 - __main__ - INFO - DEBUG: Updated previous_order_price to 323.39
+2025-06-25 18:21:57,142 - __main__ - INFO - DEBUG: existing_order_count=0, i=4, order_number=4
+2025-06-25 18:21:57,142 - __main__ - INFO - DEBUG: Attempting to place order 4/5
+2025-06-25 18:21:57,144 - __main__ - INFO - Placing GTT order 4: 4 shares @ 320.16 (trigger: 320.06) - 4% drop from entry
+2025-06-25 18:21:57,145 - __main__ - INFO - DEBUG: Price validation - Order: 320.16, Trigger: 320.06, Tick size: 0.01
+2025-06-25 18:21:57,145 - __main__ - INFO - DEBUG: Checking if price 320.16 is similar to existing orders...
+2025-06-25 18:21:57,145 - __main__ - INFO - DEBUG: Price check passed, proceeding with order placement...
+2025-06-25 18:21:57,273 - __main__ - INFO - Successfully placed GTT order 4: 277956521
+2025-06-25 18:21:57,273 - __main__ - INFO - DEBUG: Order 4 placed successfully. Total placed: 4
+2025-06-25 18:21:57,274 - __main__ - INFO - DEBUG: Updated previous_order_price to 320.16
+2025-06-25 18:21:57,274 - __main__ - INFO - DEBUG: existing_order_count=0, i=5, order_number=5
+2025-06-25 18:21:57,274 - __main__ - INFO - DEBUG: Attempting to place order 5/5
+2025-06-25 18:21:57,276 - __main__ - INFO - Placing GTT order 5: 5 shares @ 316.96 (trigger: 316.86) - 5% drop from entry
+2025-06-25 18:21:57,276 - __main__ - INFO - DEBUG: Price validation - Order: 316.96, Trigger: 316.86, Tick size: 0.01
+2025-06-25 18:21:57,276 - __main__ - INFO - DEBUG: Checking if price 316.96 is similar to existing orders...
+2025-06-25 18:21:57,277 - __main__ - INFO - DEBUG: Price check passed, proceeding with order placement...
+2025-06-25 18:21:57,395 - __main__ - INFO - Successfully placed GTT order 5: 277956522
+2025-06-25 18:21:57,396 - __main__ - INFO - DEBUG: Order 5 placed successfully. Total placed: 5
+2025-06-25 18:21:57,397 - __main__ - INFO - DEBUG: Updated previous_order_price to 316.96
+2025-06-25 18:21:57,397 - __main__ - INFO - DEBUG: Order placement loop completed. orders_placed=5, num_orders=5
+2025-06-25 18:21:57,399 - __main__ - INFO - Total GTT orders placed: 5/5
+2025-06-25 18:21:57,400 - __main__ - INFO - SUCCESS: All 5 orders were placed successfully!
+2025-06-25 18:21:57,401 - __main__ - INFO - DEBUG: existing_gtt_orders count: 0
+2025-06-25 18:21:57,401 - __main__ - INFO - DEBUG: new_gtt_orders count: 5
+2025-06-25 18:21:57,402 - __main__ - INFO - DEBUG: all_gtt_orders count: 5
+2025-06-25 18:21:57,402 - __main__ - INFO - DEBUG: Attempting to save GTT history with 5 orders...
+2025-06-25 18:21:57,403 - __main__ - INFO - DEBUG: save_gtt_history called with 5 orders for NTPC
+2025-06-25 18:21:57,403 - __main__ - INFO - DEBUG: Orders directory ensured: workdir\orders
+2025-06-25 18:21:57,404 - __main__ - INFO - DEBUG: History data prepared with 5 orders
+2025-06-25 18:21:57,404 - __main__ - INFO - DEBUG: Saving to file: workdir\orders\NTPC_gtt_history.json
+2025-06-25 18:21:57,405 - __main__ - INFO - GTT history saved to workdir\orders\NTPC_gtt_history.json
+2025-06-25 18:21:57,405 - __main__ - INFO - DEBUG: File saved successfully. File size: 2745 bytes
+2025-06-25 18:21:57,406 - __main__ - INFO - DEBUG: GTT history save completed
+2025-06-25 18:21:57,406 - __main__ - INFO - Total GTT orders in account: 0
+2025-06-25 18:21:57,408 - __main__ - INFO - Starting GTT order monitoring thread
+2025-06-25 18:21:57,408 - __main__ - INFO - Setting up real-time tick data monitoring...
+2025-06-25 18:21:57,408 - __main__ - INFO - === GTT Order Monitoring Cycle ===
+2025-06-25 18:21:57,531 - __main__ - INFO - Market hours: CLOSED
+2025-06-25 18:21:57,531 - __main__ - INFO - Market closed cycle 1/12
+2025-06-25 18:21:57,628 - breeze_sdk_api - INFO - Setting on_ticks function: <bound method BreezeApi.on_ticks of <breeze_sdk_api.BreezeApi object at 0x0000028E0A88FBE0>>
+2025-06-25 18:21:57,629 - breeze_sdk_api - INFO - Successfully connected to WebSocket
+2025-06-25 18:21:57,629 - __main__ - INFO - Connected to Breeze WebSocket for real-time data
+2025-06-25 18:21:57,643 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'NTPC', 'isec_stock_code': 'NTPC', 'isec_token': '11630', 'company name': 'NTPC LIMITED', 'isec_token_level1': '4.1!11630', 'isec_token_level2': '4.2!11630'}
+2025-06-25 18:21:57,644 - breeze_sdk_api - INFO - Got token name for NTPC: 4.1!11630
+2025-06-25 18:21:57,867 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'NTPC', 'isec_stock_code': 'NTPC', 'isec_token': '11630', 'company name': 'NTPC LIMITED', 'isec_token_level1': '4.1!11630', 'isec_token_level2': '4.2!11630'}
+2025-06-25 18:21:57,869 - breeze_sdk_api - INFO - Got token name for NTPC: 4.1!11630
+2025-06-25 18:21:57,869 - __main__ - INFO - Stock token for tick data: 4.1!11630
+2025-06-25 18:21:57,870 - breeze_sdk_api - INFO - Setting on_ticks function: <function main.<locals>.tick_handler at 0x0000028E07771CF0>
+2025-06-25 18:21:57,870 - __main__ - INFO - Tick handler set up successfully
+2025-06-25 18:21:57,871 - breeze_sdk_api - INFO - Successfully subscribed to OHLC feed for token: 4.1!11630
+2025-06-25 18:21:57,871 - __main__ - INFO - Subscribed to real-time feed for NTPC
+2025-06-25 18:21:57,871 - __main__ - INFO - Real-time tick data monitoring is now active!
+2025-06-25 18:21:57,872 - __main__ - INFO - The system will now respond to price changes in real-time
+2025-06-25 18:21:57,872 - __main__ - INFO - GTT order monitoring started.
+2025-06-25 18:21:57,872 - __main__ - INFO - Monitoring will automatically stop when market closes for 1 hour.
+2025-06-25 18:21:57,872 - __main__ - INFO - Press Ctrl+C to stop manually.
+2025-06-25 18:21:57,986 - __main__ - INFO - Current GTT orders in account: 0
+2025-06-25 18:21:57,986 - __main__ - INFO - Active buy orders for NTPC: 0
+2025-06-25 18:21:57,987 - __main__ - INFO - Need to place 5 more buy orders to maintain 5 active orders
+2025-06-25 18:21:57,987 - __main__ - INFO - Current active orders: 0/5
+2025-06-25 18:21:57,987 - __main__ - WARNING - No active buy orders found, cannot determine price for new orders
+2025-06-25 18:21:57,987 - __main__ - INFO - No shares available for selling
+2025-06-25 18:21:57,988 - __main__ - INFO - === End Monitoring Cycle ===
+2025-06-25 18:23:57,994 - __main__ - INFO - === GTT Order Monitoring Cycle ===
+2025-06-25 18:23:57,994 - __main__ - INFO - Market hours: CLOSED
+2025-06-25 18:23:57,994 - __main__ - INFO - Market closed cycle 2/12
+2025-06-25 18:23:58,160 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'NTPC', 'isec_stock_code': 'NTPC', 'isec_token': '11630', 'company name': 'NTPC LIMITED', 'isec_token_level1': '4.1!11630', 'isec_token_level2': '4.2!11630'}
+2025-06-25 18:23:58,160 - breeze_sdk_api - INFO - Got token name for NTPC: 4.1!11630
+2025-06-25 18:23:58,446 - __main__ - INFO - Current GTT orders in account: 0
+2025-06-25 18:23:58,446 - __main__ - INFO - Active buy orders for NTPC: 0
+2025-06-25 18:23:58,446 - __main__ - INFO - Need to place 5 more buy orders to maintain 5 active orders
+2025-06-25 18:23:58,447 - __main__ - INFO - Current active orders: 0/5
+2025-06-25 18:23:58,447 - __main__ - WARNING - No active buy orders found, cannot determine price for new orders
+2025-06-25 18:23:58,447 - __main__ - INFO - No shares available for selling
+2025-06-25 18:23:58,448 - __main__ - INFO - === End Monitoring Cycle ===
+2025-06-25 18:25:58,462 - __main__ - INFO - === GTT Order Monitoring Cycle ===
+2025-06-25 18:25:58,462 - __main__ - INFO - Market hours: CLOSED
+2025-06-25 18:25:58,463 - __main__ - INFO - Market closed cycle 3/12
+2025-06-25 18:25:58,566 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'NTPC', 'isec_stock_code': 'NTPC', 'isec_token': '11630', 'company name': 'NTPC LIMITED', 'isec_token_level1': '4.1!11630', 'isec_token_level2': '4.2!11630'}
+2025-06-25 18:25:58,566 - breeze_sdk_api - INFO - Got token name for NTPC: 4.1!11630
+2025-06-25 18:25:58,780 - __main__ - INFO - Current GTT orders in account: 0
+2025-06-25 18:25:58,781 - __main__ - INFO - Active buy orders for NTPC: 0
+2025-06-25 18:25:58,781 - __main__ - INFO - Need to place 5 more buy orders to maintain 5 active orders
+2025-06-25 18:25:58,781 - __main__ - INFO - Current active orders: 0/5
+2025-06-25 18:25:58,781 - __main__ - WARNING - No active buy orders found, cannot determine price for new orders
+2025-06-25 18:25:58,782 - __main__ - INFO - No shares available for selling
+2025-06-25 18:25:58,782 - __main__ - INFO - === End Monitoring Cycle ===
+2025-06-25 18:27:58,782 - __main__ - INFO - === GTT Order Monitoring Cycle ===
+2025-06-25 18:27:58,782 - __main__ - INFO - Market hours: CLOSED
+2025-06-25 18:27:58,783 - __main__ - INFO - Market closed cycle 4/12
+2025-06-25 18:27:58,953 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'NTPC', 'isec_stock_code': 'NTPC', 'isec_token': '11630', 'company name': 'NTPC LIMITED', 'isec_token_level1': '4.1!11630', 'isec_token_level2': '4.2!11630'}
+2025-06-25 18:27:58,954 - breeze_sdk_api - INFO - Got token name for NTPC: 4.1!11630
+2025-06-25 18:27:59,229 - __main__ - INFO - Current GTT orders in account: 0
+2025-06-25 18:27:59,229 - __main__ - INFO - Active buy orders for NTPC: 0
+2025-06-25 18:27:59,229 - __main__ - INFO - Need to place 5 more buy orders to maintain 5 active orders
+2025-06-25 18:27:59,230 - __main__ - INFO - Current active orders: 0/5
+2025-06-25 18:27:59,230 - __main__ - WARNING - No active buy orders found, cannot determine price for new orders
+2025-06-25 18:27:59,230 - __main__ - INFO - No shares available for selling
+2025-06-25 18:27:59,230 - __main__ - INFO - === End Monitoring Cycle ===
+2025-06-25 18:29:59,245 - __main__ - INFO - === GTT Order Monitoring Cycle ===
+2025-06-25 18:29:59,245 - __main__ - INFO - Market hours: CLOSED
+2025-06-25 18:29:59,245 - __main__ - INFO - Market closed cycle 5/12
+2025-06-25 18:29:59,336 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'NTPC', 'isec_stock_code': 'NTPC', 'isec_token': '11630', 'company name': 'NTPC LIMITED', 'isec_token_level1': '4.1!11630', 'isec_token_level2': '4.2!11630'}
+2025-06-25 18:29:59,337 - breeze_sdk_api - INFO - Got token name for NTPC: 4.1!11630
+2025-06-25 18:29:59,562 - __main__ - INFO - Current GTT orders in account: 0
+2025-06-25 18:29:59,563 - __main__ - INFO - Active buy orders for NTPC: 0
+2025-06-25 18:29:59,564 - __main__ - INFO - Need to place 5 more buy orders to maintain 5 active orders
+2025-06-25 18:29:59,565 - __main__ - INFO - Current active orders: 0/5
+2025-06-25 18:29:59,566 - __main__ - WARNING - No active buy orders found, cannot determine price for new orders
+2025-06-25 18:29:59,567 - __main__ - INFO - No shares available for selling
+2025-06-25 18:29:59,568 - __main__ - INFO - === End Monitoring Cycle ===
+2025-06-25 18:30:37,968 - __main__ - INFO - Received interrupt signal. Stopping monitoring...
+2025-06-25 18:30:47,982 - __main__ - INFO - Monitoring stopped by user.
+2025-06-25 18:30:47,982 - __main__ - INFO - Waiting for monitoring thread to finish...
+2025-06-25 18:31:17,995 - __main__ - INFO - Cleaning up WebSocket connection...
+2025-06-25 18:31:17,995 - __main__ - INFO - WebSocket not initialized, skipping cleanup
+2025-06-25 18:31:17,996 - __main__ - INFO - GTT Fall Buy strategy completed.
+2025-06-25 18:31:17,996 - __main__ - INFO - Stop monitoring signal set
+2025-06-25 18:48:17,354 - __main__ - INFO - Starting GTT Fall Buy strategy for NTPC on NSE
+2025-06-25 18:48:18,462 - breeze_sdk_api - INFO - Successfully initialized Breeze API with credentials
+2025-06-25 18:48:18,463 - __main__ - INFO - Successfully initialized Breeze API
+2025-06-25 18:48:18,593 - __main__ - INFO - Successfully initialized Kite API
+2025-06-25 18:48:18,593 - __main__ - INFO - Will place 5 GTT orders
+2025-06-25 18:48:18,594 - __main__ - INFO - GTT history file exists but is empty: workdir\orders\NTPC_gtt_history.json
+2025-06-25 18:48:18,594 - __main__ - INFO - Found 0 existing GTT orders
+2025-06-25 18:48:18,742 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'NTPC', 'isec_stock_code': 'NTPC', 'isec_token': '11630', 'company name': 'NTPC LIMITED', 'isec_token_level1': '4.1!11630', 'isec_token_level2': '4.2!11630'}
+2025-06-25 18:48:18,743 - breeze_sdk_api - INFO - Got token name for NTPC: 4.1!11630
+2025-06-25 18:48:19,091 - __main__ - INFO - Current price for NTPC: 330.85
+2025-06-25 18:48:19,092 - __main__ - INFO - Found 0 actually active buy orders on exchange
+2025-06-25 18:48:19,093 - __main__ - INFO - Starting fresh fall buy strategy from current price: 330.85
+2025-06-25 18:48:19,093 - __main__ - INFO - DEBUG: existing_order_count=0, i=1, order_number=1
+2025-06-25 18:48:19,093 - __main__ - INFO - DEBUG: Attempting to place order 1/5
+2025-06-25 18:48:19,156 - __main__ - INFO - Placing GTT order 1: 1 shares @ 329.96 (trigger: 329.86) - 1% drop from entry
+2025-06-25 18:48:19,156 - __main__ - INFO - DEBUG: Price validation - Order: 329.96, Trigger: 329.86, Tick size: 0.01
+2025-06-25 18:48:19,157 - __main__ - INFO - DEBUG: Checking if price 329.96 is similar to existing orders...
+2025-06-25 18:48:19,157 - __main__ - INFO - DEBUG: Price check passed, proceeding with order placement...
+2025-06-25 18:48:19,293 - __main__ - INFO - Successfully placed GTT order 1: 277957558
+2025-06-25 18:48:19,294 - __main__ - INFO - DEBUG: Order 1 placed successfully. Total placed: 1
+2025-06-25 18:48:19,294 - __main__ - INFO - DEBUG: Updated previous_order_price to 329.96
+2025-06-25 18:48:19,295 - __main__ - INFO - DEBUG: existing_order_count=0, i=2, order_number=2
+2025-06-25 18:48:19,295 - __main__ - INFO - DEBUG: Attempting to place order 2/5
+2025-06-25 18:48:19,299 - __main__ - INFO - Placing GTT order 2: 2 shares @ 326.66 (trigger: 326.56) - 2% drop from entry
+2025-06-25 18:48:19,299 - __main__ - INFO - DEBUG: Price validation - Order: 326.66, Trigger: 326.56, Tick size: 0.01
+2025-06-25 18:48:19,300 - __main__ - INFO - DEBUG: Checking if price 326.66 is similar to existing orders...
+2025-06-25 18:48:19,300 - __main__ - INFO - DEBUG: Price check passed, proceeding with order placement...
+2025-06-25 18:48:19,434 - __main__ - INFO - Successfully placed GTT order 2: 277957560
+2025-06-25 18:48:19,435 - __main__ - INFO - DEBUG: Order 2 placed successfully. Total placed: 2
+2025-06-25 18:48:19,435 - __main__ - INFO - DEBUG: Updated previous_order_price to 326.66
+2025-06-25 18:48:19,436 - __main__ - INFO - DEBUG: existing_order_count=0, i=3, order_number=3
+2025-06-25 18:48:19,436 - __main__ - INFO - DEBUG: Attempting to place order 3/5
+2025-06-25 18:48:19,440 - __main__ - INFO - Placing GTT order 3: 3 shares @ 323.39 (trigger: 323.29) - 3% drop from entry
+2025-06-25 18:48:19,441 - __main__ - INFO - DEBUG: Price validation - Order: 323.39, Trigger: 323.29, Tick size: 0.01
+2025-06-25 18:48:19,441 - __main__ - INFO - DEBUG: Checking if price 323.39 is similar to existing orders...
+2025-06-25 18:48:19,442 - __main__ - INFO - DEBUG: Price check passed, proceeding with order placement...
+2025-06-25 18:48:19,593 - __main__ - INFO - Successfully placed GTT order 3: 277957561
+2025-06-25 18:48:19,594 - __main__ - INFO - DEBUG: Order 3 placed successfully. Total placed: 3
+2025-06-25 18:48:19,594 - __main__ - INFO - DEBUG: Updated previous_order_price to 323.39
+2025-06-25 18:48:19,595 - __main__ - INFO - DEBUG: existing_order_count=0, i=4, order_number=4
+2025-06-25 18:48:19,595 - __main__ - INFO - DEBUG: Attempting to place order 4/5
+2025-06-25 18:48:19,599 - __main__ - INFO - Placing GTT order 4: 4 shares @ 320.16 (trigger: 320.06) - 4% drop from entry
+2025-06-25 18:48:19,600 - __main__ - INFO - DEBUG: Price validation - Order: 320.16, Trigger: 320.06, Tick size: 0.01
+2025-06-25 18:48:19,601 - __main__ - INFO - DEBUG: Checking if price 320.16 is similar to existing orders...
+2025-06-25 18:48:19,601 - __main__ - INFO - DEBUG: Price check passed, proceeding with order placement...
+2025-06-25 18:48:19,735 - __main__ - INFO - Successfully placed GTT order 4: 277957562
+2025-06-25 18:48:19,735 - __main__ - INFO - DEBUG: Order 4 placed successfully. Total placed: 4
+2025-06-25 18:48:19,735 - __main__ - INFO - DEBUG: Updated previous_order_price to 320.16
+2025-06-25 18:48:19,736 - __main__ - INFO - DEBUG: existing_order_count=0, i=5, order_number=5
+2025-06-25 18:48:19,736 - __main__ - INFO - DEBUG: Attempting to place order 5/5
+2025-06-25 18:48:19,739 - __main__ - INFO - Placing GTT order 5: 5 shares @ 316.96 (trigger: 316.86) - 5% drop from entry
+2025-06-25 18:48:19,740 - __main__ - INFO - DEBUG: Price validation - Order: 316.96, Trigger: 316.86, Tick size: 0.01
+2025-06-25 18:48:19,740 - __main__ - INFO - DEBUG: Checking if price 316.96 is similar to existing orders...
+2025-06-25 18:48:19,741 - __main__ - INFO - DEBUG: Price check passed, proceeding with order placement...
+2025-06-25 18:48:19,886 - __main__ - INFO - Successfully placed GTT order 5: 277957563
+2025-06-25 18:48:19,887 - __main__ - INFO - DEBUG: Order 5 placed successfully. Total placed: 5
+2025-06-25 18:48:19,887 - __main__ - INFO - DEBUG: Updated previous_order_price to 316.96
+2025-06-25 18:48:19,888 - __main__ - INFO - DEBUG: Order placement loop completed. orders_placed=5, num_orders=5
+2025-06-25 18:48:19,888 - __main__ - INFO - Total GTT orders placed: 5/5
+2025-06-25 18:48:19,888 - __main__ - INFO - SUCCESS: All 5 orders were placed successfully!
+2025-06-25 18:48:19,889 - __main__ - INFO - DEBUG: existing_gtt_orders count: 0
+2025-06-25 18:48:19,889 - __main__ - INFO - DEBUG: new_gtt_orders count: 5
+2025-06-25 18:48:19,890 - __main__ - INFO - DEBUG: all_gtt_orders count: 5
+2025-06-25 18:48:19,890 - __main__ - INFO - DEBUG: Attempting to save GTT history with 5 orders...
+2025-06-25 18:48:19,890 - __main__ - INFO - DEBUG: save_gtt_history called with 5 orders for NTPC
+2025-06-25 18:48:19,891 - __main__ - INFO - DEBUG: Orders directory ensured: workdir\orders
+2025-06-25 18:48:19,892 - __main__ - INFO - DEBUG: History data prepared with 5 orders
+2025-06-25 18:48:19,892 - __main__ - INFO - DEBUG: Saving to file: workdir\orders\NTPC_gtt_history.json
+2025-06-25 18:48:19,894 - __main__ - INFO - GTT history saved to workdir\orders\NTPC_gtt_history.json
+2025-06-25 18:48:19,895 - __main__ - INFO - DEBUG: File saved successfully. File size: 2745 bytes
+2025-06-25 18:48:19,896 - __main__ - INFO - DEBUG: GTT history save completed
+2025-06-25 18:48:19,898 - __main__ - INFO - Total GTT orders in account: 0
+2025-06-25 18:48:19,918 - __main__ - INFO - Starting GTT order monitoring thread
+2025-06-25 18:48:19,918 - __main__ - INFO - Setting up real-time tick data monitoring...
+2025-06-25 18:48:19,951 - __main__ - INFO - === GTT Order Monitoring Cycle ===
+2025-06-25 18:48:20,253 - breeze_sdk_api - INFO - Setting on_ticks function: <bound method BreezeApi.on_ticks of <breeze_sdk_api.BreezeApi object at 0x000001F9EF70FB50>>
+2025-06-25 18:48:20,254 - breeze_sdk_api - INFO - Successfully connected to WebSocket
+2025-06-25 18:48:20,255 - __main__ - INFO - Connected to Breeze WebSocket for real-time data
+2025-06-25 18:48:20,618 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'NTPC', 'isec_stock_code': 'NTPC', 'isec_token': '11630', 'company name': 'NTPC LIMITED', 'isec_token_level1': '4.1!11630', 'isec_token_level2': '4.2!11630'}
+2025-06-25 18:48:20,619 - breeze_sdk_api - INFO - Got token name for NTPC: 4.1!11630
+2025-06-25 18:48:20,620 - __main__ - INFO - Stock token for tick data: 4.1!11630
+2025-06-25 18:48:20,620 - breeze_sdk_api - INFO - Setting on_ticks function: <function main.<locals>.tick_handler at 0x000001F992142CB0>
+2025-06-25 18:48:20,621 - __main__ - INFO - Tick handler set up successfully
+2025-06-25 18:48:20,621 - breeze_sdk_api - INFO - Successfully subscribed to OHLC feed for token: 4.1!11630
+2025-06-25 18:48:20,622 - __main__ - INFO - Subscribed to real-time feed for NTPC
+2025-06-25 18:48:20,623 - __main__ - INFO - Real-time tick data monitoring is now active!
+2025-06-25 18:48:20,623 - __main__ - INFO - The system will now respond to price changes in real-time
+2025-06-25 18:48:20,624 - __main__ - INFO - GTT order monitoring started.
+2025-06-25 18:48:20,625 - __main__ - INFO - Monitoring will automatically stop when market closes for 1 hour.
+2025-06-25 18:48:20,625 - __main__ - INFO - Press Ctrl+C to stop manually.
+2025-06-25 18:48:25,790 - __main__ - INFO - Market hours: CLOSED
+2025-06-25 18:48:25,791 - __main__ - INFO - Market closed cycle 1/12
+2025-06-25 18:48:25,917 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'NTPC', 'isec_stock_code': 'NTPC', 'isec_token': '11630', 'company name': 'NTPC LIMITED', 'isec_token_level1': '4.1!11630', 'isec_token_level2': '4.2!11630'}
+2025-06-25 18:48:25,917 - breeze_sdk_api - INFO - Got token name for NTPC: 4.1!11630
+2025-06-25 18:48:26,168 - __main__ - INFO - Current GTT orders in account: 0
+2025-06-25 18:48:26,168 - __main__ - INFO - Active buy orders for NTPC: 0
+2025-06-25 18:48:26,169 - __main__ - INFO - Need to place 5 more buy orders to maintain 5 active orders
+2025-06-25 18:48:26,169 - __main__ - INFO - Current active orders: 0/5
+2025-06-25 18:48:26,169 - __main__ - WARNING - No active buy orders found, cannot determine price for new orders
+2025-06-25 18:48:26,170 - __main__ - INFO - No shares available for selling
+2025-06-25 18:48:26,170 - __main__ - INFO - === End Monitoring Cycle ===
+2025-06-25 18:50:26,182 - __main__ - INFO - === GTT Order Monitoring Cycle ===
+2025-06-25 18:50:26,182 - __main__ - INFO - Market hours: CLOSED
+2025-06-25 18:50:26,183 - __main__ - INFO - Market closed cycle 2/12
+2025-06-25 18:50:26,312 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'NTPC', 'isec_stock_code': 'NTPC', 'isec_token': '11630', 'company name': 'NTPC LIMITED', 'isec_token_level1': '4.1!11630', 'isec_token_level2': '4.2!11630'}
+2025-06-25 18:50:26,312 - breeze_sdk_api - INFO - Got token name for NTPC: 4.1!11630
+2025-06-25 18:50:26,541 - __main__ - INFO - Current GTT orders in account: 0
+2025-06-25 18:50:26,541 - __main__ - INFO - Active buy orders for NTPC: 0
+2025-06-25 18:50:26,541 - __main__ - INFO - Need to place 5 more buy orders to maintain 5 active orders
+2025-06-25 18:50:26,542 - __main__ - INFO - Current active orders: 0/5
+2025-06-25 18:50:26,542 - __main__ - WARNING - No active buy orders found, cannot determine price for new orders
+2025-06-25 18:50:26,542 - __main__ - INFO - No shares available for selling
+2025-06-25 18:50:26,542 - __main__ - INFO - === End Monitoring Cycle ===
+2025-06-25 18:52:26,550 - __main__ - INFO - === GTT Order Monitoring Cycle ===
+2025-06-25 18:52:26,550 - __main__ - INFO - Market hours: CLOSED
+2025-06-25 18:52:26,551 - __main__ - INFO - Market closed cycle 3/12
+2025-06-25 18:52:26,648 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'NTPC', 'isec_stock_code': 'NTPC', 'isec_token': '11630', 'company name': 'NTPC LIMITED', 'isec_token_level1': '4.1!11630', 'isec_token_level2': '4.2!11630'}
+2025-06-25 18:52:26,649 - breeze_sdk_api - INFO - Got token name for NTPC: 4.1!11630
+2025-06-25 18:52:26,885 - __main__ - INFO - Current GTT orders in account: 0
+2025-06-25 18:52:26,885 - __main__ - INFO - Active buy orders for NTPC: 0
+2025-06-25 18:52:26,885 - __main__ - INFO - Need to place 5 more buy orders to maintain 5 active orders
+2025-06-25 18:52:26,886 - __main__ - INFO - Current active orders: 0/5
+2025-06-25 18:52:26,886 - __main__ - WARNING - No active buy orders found, cannot determine price for new orders
+2025-06-25 18:52:26,886 - __main__ - INFO - No shares available for selling
+2025-06-25 18:52:26,886 - __main__ - INFO - === End Monitoring Cycle ===
+2025-06-25 18:54:26,890 - __main__ - INFO - === GTT Order Monitoring Cycle ===
+2025-06-25 18:54:26,890 - __main__ - INFO - Market hours: CLOSED
+2025-06-25 18:54:26,891 - __main__ - INFO - Market closed cycle 4/12
+2025-06-25 18:54:26,987 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'NTPC', 'isec_stock_code': 'NTPC', 'isec_token': '11630', 'company name': 'NTPC LIMITED', 'isec_token_level1': '4.1!11630', 'isec_token_level2': '4.2!11630'}
+2025-06-25 18:54:26,988 - breeze_sdk_api - INFO - Got token name for NTPC: 4.1!11630
+2025-06-25 18:54:27,216 - __main__ - INFO - Current GTT orders in account: 0
+2025-06-25 18:54:27,216 - __main__ - INFO - Active buy orders for NTPC: 0
+2025-06-25 18:54:27,216 - __main__ - INFO - Need to place 5 more buy orders to maintain 5 active orders
+2025-06-25 18:54:27,217 - __main__ - INFO - Current active orders: 0/5
+2025-06-25 18:54:27,217 - __main__ - WARNING - No active buy orders found, cannot determine price for new orders
+2025-06-25 18:54:27,217 - __main__ - INFO - No shares available for selling
+2025-06-25 18:54:27,217 - __main__ - INFO - === End Monitoring Cycle ===
+2025-06-25 18:56:27,234 - __main__ - INFO - === GTT Order Monitoring Cycle ===
+2025-06-25 18:56:27,234 - __main__ - INFO - Market hours: CLOSED
+2025-06-25 18:56:27,235 - __main__ - INFO - Market closed cycle 5/12
+2025-06-25 18:56:27,327 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'NTPC', 'isec_stock_code': 'NTPC', 'isec_token': '11630', 'company name': 'NTPC LIMITED', 'isec_token_level1': '4.1!11630', 'isec_token_level2': '4.2!11630'}
+2025-06-25 18:56:27,327 - breeze_sdk_api - INFO - Got token name for NTPC: 4.1!11630
+2025-06-25 18:56:27,568 - __main__ - INFO - Current GTT orders in account: 0
+2025-06-25 18:56:27,568 - __main__ - INFO - Active buy orders for NTPC: 0
+2025-06-25 18:56:27,569 - __main__ - INFO - Need to place 5 more buy orders to maintain 5 active orders
+2025-06-25 18:56:27,569 - __main__ - INFO - Current active orders: 0/5
+2025-06-25 18:56:27,569 - __main__ - WARNING - No active buy orders found, cannot determine price for new orders
+2025-06-25 18:56:27,569 - __main__ - INFO - No shares available for selling
+2025-06-25 18:56:27,569 - __main__ - INFO - === End Monitoring Cycle ===
+2025-06-25 18:58:27,575 - __main__ - INFO - === GTT Order Monitoring Cycle ===
+2025-06-25 18:58:27,575 - __main__ - INFO - Market hours: CLOSED
+2025-06-25 18:58:27,576 - __main__ - INFO - Market closed cycle 6/12
+2025-06-25 18:58:27,673 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'NTPC', 'isec_stock_code': 'NTPC', 'isec_token': '11630', 'company name': 'NTPC LIMITED', 'isec_token_level1': '4.1!11630', 'isec_token_level2': '4.2!11630'}
+2025-06-25 18:58:27,673 - breeze_sdk_api - INFO - Got token name for NTPC: 4.1!11630
+2025-06-25 18:58:27,911 - __main__ - INFO - Current GTT orders in account: 0
+2025-06-25 18:58:27,912 - __main__ - INFO - Active buy orders for NTPC: 0
+2025-06-25 18:58:27,913 - __main__ - INFO - Need to place 5 more buy orders to maintain 5 active orders
+2025-06-25 18:58:27,914 - __main__ - INFO - Current active orders: 0/5
+2025-06-25 18:58:27,915 - __main__ - WARNING - No active buy orders found, cannot determine price for new orders
+2025-06-25 18:58:27,916 - __main__ - INFO - No shares available for selling
+2025-06-25 18:58:27,916 - __main__ - INFO - === End Monitoring Cycle ===
+2025-06-25 19:00:27,926 - __main__ - INFO - === GTT Order Monitoring Cycle ===
+2025-06-25 19:00:27,926 - __main__ - INFO - Market hours: CLOSED
+2025-06-25 19:00:27,927 - __main__ - INFO - Market closed cycle 7/12
+2025-06-25 19:00:28,016 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'NTPC', 'isec_stock_code': 'NTPC', 'isec_token': '11630', 'company name': 'NTPC LIMITED', 'isec_token_level1': '4.1!11630', 'isec_token_level2': '4.2!11630'}
+2025-06-25 19:00:28,017 - breeze_sdk_api - INFO - Got token name for NTPC: 4.1!11630
+2025-06-25 19:00:28,236 - __main__ - INFO - Current GTT orders in account: 0
+2025-06-25 19:00:28,236 - __main__ - INFO - Active buy orders for NTPC: 0
+2025-06-25 19:00:28,236 - __main__ - INFO - Need to place 5 more buy orders to maintain 5 active orders
+2025-06-25 19:00:28,237 - __main__ - INFO - Current active orders: 0/5
+2025-06-25 19:00:28,237 - __main__ - WARNING - No active buy orders found, cannot determine price for new orders
+2025-06-25 19:00:28,237 - __main__ - INFO - No shares available for selling
+2025-06-25 19:00:28,237 - __main__ - INFO - === End Monitoring Cycle ===
+2025-06-25 19:02:28,248 - __main__ - INFO - === GTT Order Monitoring Cycle ===
+2025-06-25 19:02:28,250 - __main__ - INFO - Market hours: CLOSED
+2025-06-25 19:02:28,251 - __main__ - INFO - Market closed cycle 8/12
+2025-06-25 19:02:28,346 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'NTPC', 'isec_stock_code': 'NTPC', 'isec_token': '11630', 'company name': 'NTPC LIMITED', 'isec_token_level1': '4.1!11630', 'isec_token_level2': '4.2!11630'}
+2025-06-25 19:02:28,347 - breeze_sdk_api - INFO - Got token name for NTPC: 4.1!11630
+2025-06-25 19:02:28,576 - __main__ - INFO - Current GTT orders in account: 0
+2025-06-25 19:02:28,576 - __main__ - INFO - Active buy orders for NTPC: 0
+2025-06-25 19:02:28,577 - __main__ - INFO - Need to place 5 more buy orders to maintain 5 active orders
+2025-06-25 19:02:28,577 - __main__ - INFO - Current active orders: 0/5
+2025-06-25 19:02:28,577 - __main__ - WARNING - No active buy orders found, cannot determine price for new orders
+2025-06-25 19:02:28,577 - __main__ - INFO - No shares available for selling
+2025-06-25 19:02:28,578 - __main__ - INFO - === End Monitoring Cycle ===
+2025-06-25 19:04:28,588 - __main__ - INFO - === GTT Order Monitoring Cycle ===
+2025-06-25 19:04:28,588 - __main__ - INFO - Market hours: CLOSED
+2025-06-25 19:04:28,588 - __main__ - INFO - Market closed cycle 9/12
+2025-06-25 19:04:28,712 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'NTPC', 'isec_stock_code': 'NTPC', 'isec_token': '11630', 'company name': 'NTPC LIMITED', 'isec_token_level1': '4.1!11630', 'isec_token_level2': '4.2!11630'}
+2025-06-25 19:04:28,712 - breeze_sdk_api - INFO - Got token name for NTPC: 4.1!11630
+2025-06-25 19:04:29,521 - __main__ - INFO - Current GTT orders in account: 0
+2025-06-25 19:04:29,521 - __main__ - INFO - Active buy orders for NTPC: 0
+2025-06-25 19:04:29,522 - __main__ - INFO - Need to place 5 more buy orders to maintain 5 active orders
+2025-06-25 19:04:29,522 - __main__ - INFO - Current active orders: 0/5
+2025-06-25 19:04:29,522 - __main__ - WARNING - No active buy orders found, cannot determine price for new orders
+2025-06-25 19:04:29,522 - __main__ - INFO - No shares available for selling
+2025-06-25 19:04:29,522 - __main__ - INFO - === End Monitoring Cycle ===
+2025-06-25 19:06:29,527 - __main__ - INFO - === GTT Order Monitoring Cycle ===
+2025-06-25 19:06:29,527 - __main__ - INFO - Market hours: CLOSED
+2025-06-25 19:06:29,528 - __main__ - INFO - Market closed cycle 10/12
+2025-06-25 19:06:29,615 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'NTPC', 'isec_stock_code': 'NTPC', 'isec_token': '11630', 'company name': 'NTPC LIMITED', 'isec_token_level1': '4.1!11630', 'isec_token_level2': '4.2!11630'}
+2025-06-25 19:06:29,615 - breeze_sdk_api - INFO - Got token name for NTPC: 4.1!11630
+2025-06-25 19:06:29,848 - __main__ - INFO - Current GTT orders in account: 0
+2025-06-25 19:06:29,848 - __main__ - INFO - Active buy orders for NTPC: 0
+2025-06-25 19:06:29,848 - __main__ - INFO - Need to place 5 more buy orders to maintain 5 active orders
+2025-06-25 19:06:29,848 - __main__ - INFO - Current active orders: 0/5
+2025-06-25 19:06:29,849 - __main__ - WARNING - No active buy orders found, cannot determine price for new orders
+2025-06-25 19:06:29,849 - __main__ - INFO - No shares available for selling
+2025-06-25 19:06:29,849 - __main__ - INFO - === End Monitoring Cycle ===
+2025-06-25 19:08:29,858 - __main__ - INFO - === GTT Order Monitoring Cycle ===
+2025-06-25 19:08:29,858 - __main__ - INFO - Market hours: CLOSED
+2025-06-25 19:08:29,858 - __main__ - INFO - Market closed cycle 11/12
+2025-06-25 19:08:29,957 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'NTPC', 'isec_stock_code': 'NTPC', 'isec_token': '11630', 'company name': 'NTPC LIMITED', 'isec_token_level1': '4.1!11630', 'isec_token_level2': '4.2!11630'}
+2025-06-25 19:08:29,957 - breeze_sdk_api - INFO - Got token name for NTPC: 4.1!11630
+2025-06-25 19:08:30,183 - __main__ - INFO - Current GTT orders in account: 0
+2025-06-25 19:08:30,183 - __main__ - INFO - Active buy orders for NTPC: 0
+2025-06-25 19:08:30,183 - __main__ - INFO - Need to place 5 more buy orders to maintain 5 active orders
+2025-06-25 19:08:30,183 - __main__ - INFO - Current active orders: 0/5
+2025-06-25 19:08:30,184 - __main__ - WARNING - No active buy orders found, cannot determine price for new orders
+2025-06-25 19:08:30,184 - __main__ - INFO - No shares available for selling
+2025-06-25 19:08:30,184 - __main__ - INFO - === End Monitoring Cycle ===
+2025-06-25 19:10:30,198 - __main__ - INFO - === GTT Order Monitoring Cycle ===
+2025-06-25 19:10:30,198 - __main__ - INFO - Market hours: CLOSED
+2025-06-25 19:10:30,199 - __main__ - INFO - Market closed cycle 12/12
+2025-06-25 19:10:30,199 - __main__ - INFO - Market has been closed for 1 hour. Stopping monitoring.
+2025-06-25 19:10:30,199 - __main__ - INFO - GTT order monitoring stopped
+2025-06-25 19:10:51,017 - __main__ - INFO - Monitoring thread has stopped. Exiting main thread.
+2025-06-25 19:10:51,017 - __main__ - INFO - Cleaning up WebSocket connection...
+2025-06-25 19:10:51,018 - __main__ - INFO - WebSocket not initialized, skipping cleanup
+2025-06-25 19:10:51,018 - __main__ - INFO - GTT Fall Buy strategy completed.
+2025-06-25 19:10:51,018 - __main__ - INFO - Stop monitoring signal set

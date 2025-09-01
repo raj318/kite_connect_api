@@ -1,0 +1,503 @@
+2025-06-26 08:13:26,101 - __main__ - INFO - Starting GTT Fall Buy strategy for NTPC on NSE
+2025-06-26 08:13:27,343 - breeze_sdk_api - INFO - Successfully initialized Breeze API with credentials
+2025-06-26 08:13:27,343 - __main__ - INFO - Successfully initialized Breeze API
+2025-06-26 08:13:27,481 - __main__ - INFO - Successfully initialized Kite API
+2025-06-26 08:13:27,482 - __main__ - INFO - Will place 5 GTT orders
+2025-06-26 08:13:27,482 - __main__ - INFO - GTT history file exists but is empty: workdir\orders\NTPC_gtt_history.json
+2025-06-26 08:13:27,483 - __main__ - INFO - Found 0 existing GTT orders
+2025-06-26 08:13:27,594 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'NTPC', 'isec_stock_code': 'NTPC', 'isec_token': '11630', 'company name': 'NTPC LIMITED', 'isec_token_level1': '4.1!11630', 'isec_token_level2': '4.2!11630'}
+2025-06-26 08:13:27,595 - breeze_sdk_api - INFO - Got token name for NTPC: 4.1!11630
+2025-06-26 08:13:27,831 - __main__ - INFO - Current price for NTPC: 330.85
+2025-06-26 08:13:27,834 - __main__ - INFO - Found 0 actually active buy orders on exchange
+2025-06-26 08:13:27,835 - __main__ - INFO - Starting fresh fall buy strategy from current price: 330.85
+2025-06-26 08:13:27,836 - __main__ - INFO - DEBUG: existing_order_count=0, i=1, order_number=1
+2025-06-26 08:13:27,837 - __main__ - INFO - DEBUG: Attempting to place order 1/5
+2025-06-26 08:13:28,038 - __main__ - INFO - Placing GTT order 1: 1 shares @ 329.95 (trigger: 329.85) - 1% drop from entry
+2025-06-26 08:13:28,039 - __main__ - INFO - DEBUG: Price validation - Order: 329.95, Trigger: 329.85, Tick size: 0.05
+2025-06-26 08:13:28,039 - __main__ - INFO - DEBUG: Checking if price 329.95 is similar to existing orders...
+2025-06-26 08:13:28,039 - __main__ - INFO - DEBUG: Price check passed, proceeding with order placement...
+2025-06-26 08:13:28,158 - __main__ - INFO - Successfully placed GTT order 1: 277983647
+2025-06-26 08:13:28,158 - __main__ - INFO - DEBUG: Order 1 placed successfully. Total placed: 1
+2025-06-26 08:13:28,159 - __main__ - INFO - DEBUG: Updated previous_order_price to 329.95
+2025-06-26 08:13:28,159 - __main__ - INFO - DEBUG: existing_order_count=0, i=2, order_number=2
+2025-06-26 08:13:28,159 - __main__ - INFO - DEBUG: Attempting to place order 2/5
+2025-06-26 08:13:28,348 - __main__ - INFO - Placing GTT order 2: 2 shares @ 326.65 (trigger: 326.55) - 2% drop from entry
+2025-06-26 08:13:28,348 - __main__ - INFO - DEBUG: Price validation - Order: 326.65, Trigger: 326.55, Tick size: 0.05
+2025-06-26 08:13:28,348 - __main__ - INFO - DEBUG: Checking if price 326.65 is similar to existing orders...
+2025-06-26 08:13:28,349 - __main__ - INFO - DEBUG: Price check passed, proceeding with order placement...
+2025-06-26 08:13:28,470 - __main__ - INFO - Successfully placed GTT order 2: 277983648
+2025-06-26 08:13:28,471 - __main__ - INFO - DEBUG: Order 2 placed successfully. Total placed: 2
+2025-06-26 08:13:28,471 - __main__ - INFO - DEBUG: Updated previous_order_price to 326.65
+2025-06-26 08:13:28,471 - __main__ - INFO - DEBUG: existing_order_count=0, i=3, order_number=3
+2025-06-26 08:13:28,472 - __main__ - INFO - DEBUG: Attempting to place order 3/5
+2025-06-26 08:13:28,736 - __main__ - INFO - Placing GTT order 3: 3 shares @ 323.40 (trigger: 323.30) - 3% drop from entry
+2025-06-26 08:13:28,736 - __main__ - INFO - DEBUG: Price validation - Order: 323.40, Trigger: 323.30, Tick size: 0.05
+2025-06-26 08:13:28,736 - __main__ - INFO - DEBUG: Checking if price 323.40 is similar to existing orders...
+2025-06-26 08:13:28,737 - __main__ - INFO - DEBUG: Price check passed, proceeding with order placement...
+2025-06-26 08:13:28,899 - __main__ - INFO - Successfully placed GTT order 3: 277983649
+2025-06-26 08:13:28,899 - __main__ - INFO - DEBUG: Order 3 placed successfully. Total placed: 3
+2025-06-26 08:13:28,899 - __main__ - INFO - DEBUG: Updated previous_order_price to 323.4
+2025-06-26 08:13:28,899 - __main__ - INFO - DEBUG: existing_order_count=0, i=4, order_number=4
+2025-06-26 08:13:28,900 - __main__ - INFO - DEBUG: Attempting to place order 4/5
+2025-06-26 08:13:29,108 - __main__ - INFO - Placing GTT order 4: 4 shares @ 320.15 (trigger: 320.05) - 4% drop from entry
+2025-06-26 08:13:29,109 - __main__ - INFO - DEBUG: Price validation - Order: 320.15, Trigger: 320.05, Tick size: 0.05
+2025-06-26 08:13:29,109 - __main__ - INFO - DEBUG: Checking if price 320.15 is similar to existing orders...
+2025-06-26 08:13:29,109 - __main__ - INFO - DEBUG: Price check passed, proceeding with order placement...
+2025-06-26 08:13:29,230 - __main__ - INFO - Successfully placed GTT order 4: 277983650
+2025-06-26 08:13:29,231 - __main__ - INFO - DEBUG: Order 4 placed successfully. Total placed: 4
+2025-06-26 08:13:29,231 - __main__ - INFO - DEBUG: Updated previous_order_price to 320.15
+2025-06-26 08:13:29,231 - __main__ - INFO - DEBUG: existing_order_count=0, i=5, order_number=5
+2025-06-26 08:13:29,232 - __main__ - INFO - DEBUG: Attempting to place order 5/5
+2025-06-26 08:13:29,472 - __main__ - INFO - Placing GTT order 5: 5 shares @ 316.95 (trigger: 316.85) - 5% drop from entry
+2025-06-26 08:13:29,472 - __main__ - INFO - DEBUG: Price validation - Order: 316.95, Trigger: 316.85, Tick size: 0.05
+2025-06-26 08:13:29,472 - __main__ - INFO - DEBUG: Checking if price 316.95 is similar to existing orders...
+2025-06-26 08:13:29,473 - __main__ - INFO - DEBUG: Price check passed, proceeding with order placement...
+2025-06-26 08:13:29,584 - __main__ - INFO - Successfully placed GTT order 5: 277983651
+2025-06-26 08:13:29,585 - __main__ - INFO - DEBUG: Order 5 placed successfully. Total placed: 5
+2025-06-26 08:13:29,586 - __main__ - INFO - DEBUG: Updated previous_order_price to 316.95
+2025-06-26 08:13:29,586 - __main__ - INFO - DEBUG: Order placement loop completed. orders_placed=5, num_orders=5
+2025-06-26 08:13:29,586 - __main__ - INFO - Total GTT orders placed: 5/5
+2025-06-26 08:13:29,587 - __main__ - INFO - SUCCESS: All 5 orders were placed successfully!
+2025-06-26 08:13:29,587 - __main__ - INFO - DEBUG: existing_gtt_orders count: 0
+2025-06-26 08:13:29,587 - __main__ - INFO - DEBUG: new_gtt_orders count: 5
+2025-06-26 08:13:29,587 - __main__ - INFO - DEBUG: all_gtt_orders count: 5
+2025-06-26 08:13:29,588 - __main__ - INFO - DEBUG: Attempting to save GTT history with 5 orders...
+2025-06-26 08:13:29,588 - __main__ - INFO - DEBUG: save_gtt_history called with 5 orders for NTPC
+2025-06-26 08:13:29,588 - __main__ - INFO - DEBUG: Orders directory ensured: workdir\orders
+2025-06-26 08:13:29,589 - __main__ - INFO - DEBUG: History data prepared with 5 orders
+2025-06-26 08:13:29,589 - __main__ - INFO - DEBUG: Saving to file: workdir\orders\NTPC_gtt_history.json
+2025-06-26 08:13:29,591 - __main__ - INFO - GTT history saved to workdir\orders\NTPC_gtt_history.json
+2025-06-26 08:13:29,591 - __main__ - INFO - DEBUG: File saved successfully. File size: 2743 bytes
+2025-06-26 08:13:29,591 - __main__ - INFO - DEBUG: GTT history save completed
+2025-06-26 08:13:29,592 - __main__ - INFO - Total GTT orders in account: 0
+2025-06-26 08:13:29,593 - __main__ - INFO - Starting GTT order monitoring thread
+2025-06-26 08:13:29,593 - __main__ - INFO - Setting up real-time tick data monitoring...
+2025-06-26 08:13:29,594 - __main__ - INFO - === GTT Order Monitoring Cycle ===
+2025-06-26 08:13:29,867 - breeze_sdk_api - INFO - Setting on_ticks function: <bound method BreezeApi.on_ticks of <breeze_sdk_api.BreezeApi object at 0x000001DE561F5450>>
+2025-06-26 08:13:29,867 - breeze_sdk_api - INFO - Successfully connected to WebSocket
+2025-06-26 08:13:29,868 - __main__ - INFO - Connected to Breeze WebSocket for real-time data
+2025-06-26 08:13:29,984 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'NTPC', 'isec_stock_code': 'NTPC', 'isec_token': '11630', 'company name': 'NTPC LIMITED', 'isec_token_level1': '4.1!11630', 'isec_token_level2': '4.2!11630'}
+2025-06-26 08:13:29,984 - breeze_sdk_api - INFO - Got token name for NTPC: 4.1!11630
+2025-06-26 08:13:29,985 - __main__ - INFO - Stock token for tick data: 4.1!11630
+2025-06-26 08:13:29,985 - breeze_sdk_api - INFO - Setting on_ticks function: <function main.<locals>.tick_handler at 0x000001DE78E5AC20>
+2025-06-26 08:13:29,985 - __main__ - INFO - Tick handler set up successfully
+2025-06-26 08:13:29,986 - breeze_sdk_api - INFO - Successfully subscribed to OHLC feed for token: 4.1!11630
+2025-06-26 08:13:29,986 - __main__ - INFO - Subscribed to real-time feed for NTPC
+2025-06-26 08:13:29,986 - __main__ - INFO - Real-time tick data monitoring is now active!
+2025-06-26 08:13:29,987 - __main__ - INFO - The system will now respond to price changes in real-time
+2025-06-26 08:13:29,987 - __main__ - INFO - GTT order monitoring started.
+2025-06-26 08:13:29,987 - __main__ - INFO - Monitoring will automatically stop when market closes for 1 hour.
+2025-06-26 08:13:29,987 - __main__ - INFO - Press Ctrl+C to stop manually.
+2025-06-26 08:13:32,449 - __main__ - INFO - Market hours: CLOSED
+2025-06-26 08:13:32,450 - __main__ - INFO - Market closed cycle 1/12
+2025-06-26 08:13:32,548 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'NTPC', 'isec_stock_code': 'NTPC', 'isec_token': '11630', 'company name': 'NTPC LIMITED', 'isec_token_level1': '4.1!11630', 'isec_token_level2': '4.2!11630'}
+2025-06-26 08:13:32,548 - breeze_sdk_api - INFO - Got token name for NTPC: 4.1!11630
+2025-06-26 08:13:32,772 - __main__ - INFO - Current GTT orders in account: 0
+2025-06-26 08:13:32,772 - __main__ - INFO - Active buy orders for NTPC: 0
+2025-06-26 08:13:32,773 - __main__ - INFO - Need to place 5 more buy orders to maintain 5 active orders
+2025-06-26 08:13:32,773 - __main__ - INFO - Current active orders: 0/5
+2025-06-26 08:13:32,773 - __main__ - WARNING - No active buy orders found, cannot determine price for new orders
+2025-06-26 08:13:32,774 - __main__ - INFO - No shares available for selling
+2025-06-26 08:13:32,774 - __main__ - INFO - === End Monitoring Cycle ===
+2025-06-26 08:15:32,783 - __main__ - INFO - === GTT Order Monitoring Cycle ===
+2025-06-26 08:15:32,783 - __main__ - INFO - Market hours: CLOSED
+2025-06-26 08:15:32,783 - __main__ - INFO - Market closed cycle 2/12
+2025-06-26 08:15:32,967 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'NTPC', 'isec_stock_code': 'NTPC', 'isec_token': '11630', 'company name': 'NTPC LIMITED', 'isec_token_level1': '4.1!11630', 'isec_token_level2': '4.2!11630'}
+2025-06-26 08:15:32,968 - breeze_sdk_api - INFO - Got token name for NTPC: 4.1!11630
+2025-06-26 08:15:33,229 - __main__ - INFO - Current GTT orders in account: 0
+2025-06-26 08:15:33,230 - __main__ - INFO - Active buy orders for NTPC: 0
+2025-06-26 08:15:33,230 - __main__ - INFO - Need to place 5 more buy orders to maintain 5 active orders
+2025-06-26 08:15:33,230 - __main__ - INFO - Current active orders: 0/5
+2025-06-26 08:15:33,231 - __main__ - WARNING - No active buy orders found, cannot determine price for new orders
+2025-06-26 08:15:33,231 - __main__ - INFO - No shares available for selling
+2025-06-26 08:15:33,232 - __main__ - INFO - === End Monitoring Cycle ===
+2025-06-26 08:17:33,234 - __main__ - INFO - === GTT Order Monitoring Cycle ===
+2025-06-26 08:17:33,234 - __main__ - INFO - Market hours: CLOSED
+2025-06-26 08:17:33,234 - __main__ - INFO - Market closed cycle 3/12
+2025-06-26 08:17:33,328 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'NTPC', 'isec_stock_code': 'NTPC', 'isec_token': '11630', 'company name': 'NTPC LIMITED', 'isec_token_level1': '4.1!11630', 'isec_token_level2': '4.2!11630'}
+2025-06-26 08:17:33,329 - breeze_sdk_api - INFO - Got token name for NTPC: 4.1!11630
+2025-06-26 08:17:33,558 - __main__ - INFO - Current GTT orders in account: 0
+2025-06-26 08:17:33,559 - __main__ - INFO - Active buy orders for NTPC: 0
+2025-06-26 08:17:33,559 - __main__ - INFO - Need to place 5 more buy orders to maintain 5 active orders
+2025-06-26 08:17:33,559 - __main__ - INFO - Current active orders: 0/5
+2025-06-26 08:17:33,559 - __main__ - WARNING - No active buy orders found, cannot determine price for new orders
+2025-06-26 08:17:33,560 - __main__ - INFO - No shares available for selling
+2025-06-26 08:17:33,560 - __main__ - INFO - === End Monitoring Cycle ===
+2025-06-26 08:19:33,571 - __main__ - INFO - === GTT Order Monitoring Cycle ===
+2025-06-26 08:19:33,572 - __main__ - INFO - Market hours: CLOSED
+2025-06-26 08:19:33,572 - __main__ - INFO - Market closed cycle 4/12
+2025-06-26 08:19:33,683 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'NTPC', 'isec_stock_code': 'NTPC', 'isec_token': '11630', 'company name': 'NTPC LIMITED', 'isec_token_level1': '4.1!11630', 'isec_token_level2': '4.2!11630'}
+2025-06-26 08:19:33,683 - breeze_sdk_api - INFO - Got token name for NTPC: 4.1!11630
+2025-06-26 08:19:33,944 - __main__ - INFO - Current GTT orders in account: 0
+2025-06-26 08:19:33,944 - __main__ - INFO - Active buy orders for NTPC: 0
+2025-06-26 08:19:33,944 - __main__ - INFO - Need to place 5 more buy orders to maintain 5 active orders
+2025-06-26 08:19:33,945 - __main__ - INFO - Current active orders: 0/5
+2025-06-26 08:19:33,945 - __main__ - WARNING - No active buy orders found, cannot determine price for new orders
+2025-06-26 08:19:33,945 - __main__ - INFO - No shares available for selling
+2025-06-26 08:19:33,945 - __main__ - INFO - === End Monitoring Cycle ===
+2025-06-26 08:21:33,959 - __main__ - INFO - === GTT Order Monitoring Cycle ===
+2025-06-26 08:21:33,959 - __main__ - INFO - Market hours: CLOSED
+2025-06-26 08:21:33,959 - __main__ - INFO - Market closed cycle 5/12
+2025-06-26 08:21:34,062 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'NTPC', 'isec_stock_code': 'NTPC', 'isec_token': '11630', 'company name': 'NTPC LIMITED', 'isec_token_level1': '4.1!11630', 'isec_token_level2': '4.2!11630'}
+2025-06-26 08:21:34,062 - breeze_sdk_api - INFO - Got token name for NTPC: 4.1!11630
+2025-06-26 08:21:34,294 - __main__ - INFO - Current GTT orders in account: 0
+2025-06-26 08:21:34,294 - __main__ - INFO - Active buy orders for NTPC: 0
+2025-06-26 08:21:34,295 - __main__ - INFO - Need to place 5 more buy orders to maintain 5 active orders
+2025-06-26 08:21:34,295 - __main__ - INFO - Current active orders: 0/5
+2025-06-26 08:21:34,296 - __main__ - WARNING - No active buy orders found, cannot determine price for new orders
+2025-06-26 08:21:34,296 - __main__ - INFO - No shares available for selling
+2025-06-26 08:21:34,296 - __main__ - INFO - === End Monitoring Cycle ===
+2025-06-26 08:23:34,298 - __main__ - INFO - === GTT Order Monitoring Cycle ===
+2025-06-26 08:23:34,298 - __main__ - INFO - Market hours: CLOSED
+2025-06-26 08:23:34,299 - __main__ - INFO - Market closed cycle 6/12
+2025-06-26 08:23:34,419 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'NTPC', 'isec_stock_code': 'NTPC', 'isec_token': '11630', 'company name': 'NTPC LIMITED', 'isec_token_level1': '4.1!11630', 'isec_token_level2': '4.2!11630'}
+2025-06-26 08:23:34,419 - breeze_sdk_api - INFO - Got token name for NTPC: 4.1!11630
+2025-06-26 08:23:34,693 - __main__ - INFO - Current GTT orders in account: 0
+2025-06-26 08:23:34,693 - __main__ - INFO - Active buy orders for NTPC: 0
+2025-06-26 08:23:34,693 - __main__ - INFO - Need to place 5 more buy orders to maintain 5 active orders
+2025-06-26 08:23:34,694 - __main__ - INFO - Current active orders: 0/5
+2025-06-26 08:23:34,694 - __main__ - WARNING - No active buy orders found, cannot determine price for new orders
+2025-06-26 08:23:34,694 - __main__ - INFO - No shares available for selling
+2025-06-26 08:23:34,694 - __main__ - INFO - === End Monitoring Cycle ===
+2025-06-26 08:25:34,699 - __main__ - INFO - === GTT Order Monitoring Cycle ===
+2025-06-26 08:25:34,699 - __main__ - INFO - Market hours: CLOSED
+2025-06-26 08:25:34,700 - __main__ - INFO - Market closed cycle 7/12
+2025-06-26 08:25:34,804 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'NTPC', 'isec_stock_code': 'NTPC', 'isec_token': '11630', 'company name': 'NTPC LIMITED', 'isec_token_level1': '4.1!11630', 'isec_token_level2': '4.2!11630'}
+2025-06-26 08:25:34,805 - breeze_sdk_api - INFO - Got token name for NTPC: 4.1!11630
+2025-06-26 08:25:35,104 - __main__ - INFO - Current GTT orders in account: 0
+2025-06-26 08:25:35,105 - __main__ - INFO - Active buy orders for NTPC: 0
+2025-06-26 08:25:35,105 - __main__ - INFO - Need to place 5 more buy orders to maintain 5 active orders
+2025-06-26 08:25:35,105 - __main__ - INFO - Current active orders: 0/5
+2025-06-26 08:25:35,106 - __main__ - WARNING - No active buy orders found, cannot determine price for new orders
+2025-06-26 08:25:35,106 - __main__ - INFO - No shares available for selling
+2025-06-26 08:25:35,106 - __main__ - INFO - === End Monitoring Cycle ===
+2025-06-26 08:27:35,117 - __main__ - INFO - === GTT Order Monitoring Cycle ===
+2025-06-26 08:27:35,117 - __main__ - INFO - Market hours: CLOSED
+2025-06-26 08:27:35,118 - __main__ - INFO - Market closed cycle 8/12
+2025-06-26 08:27:35,223 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'NTPC', 'isec_stock_code': 'NTPC', 'isec_token': '11630', 'company name': 'NTPC LIMITED', 'isec_token_level1': '4.1!11630', 'isec_token_level2': '4.2!11630'}
+2025-06-26 08:27:35,224 - breeze_sdk_api - INFO - Got token name for NTPC: 4.1!11630
+2025-06-26 08:27:35,482 - __main__ - INFO - Current GTT orders in account: 0
+2025-06-26 08:27:35,483 - __main__ - INFO - Active buy orders for NTPC: 0
+2025-06-26 08:27:35,483 - __main__ - INFO - Need to place 5 more buy orders to maintain 5 active orders
+2025-06-26 08:27:35,483 - __main__ - INFO - Current active orders: 0/5
+2025-06-26 08:27:35,483 - __main__ - WARNING - No active buy orders found, cannot determine price for new orders
+2025-06-26 08:27:35,484 - __main__ - INFO - No shares available for selling
+2025-06-26 08:27:35,484 - __main__ - INFO - === End Monitoring Cycle ===
+2025-06-26 08:29:35,487 - __main__ - INFO - === GTT Order Monitoring Cycle ===
+2025-06-26 08:29:35,487 - __main__ - INFO - Market hours: CLOSED
+2025-06-26 08:29:35,488 - __main__ - INFO - Market closed cycle 9/12
+2025-06-26 08:29:35,643 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'NTPC', 'isec_stock_code': 'NTPC', 'isec_token': '11630', 'company name': 'NTPC LIMITED', 'isec_token_level1': '4.1!11630', 'isec_token_level2': '4.2!11630'}
+2025-06-26 08:29:35,643 - breeze_sdk_api - INFO - Got token name for NTPC: 4.1!11630
+2025-06-26 08:29:35,959 - __main__ - INFO - Current GTT orders in account: 0
+2025-06-26 08:29:35,959 - __main__ - INFO - Active buy orders for NTPC: 0
+2025-06-26 08:29:35,959 - __main__ - INFO - Need to place 5 more buy orders to maintain 5 active orders
+2025-06-26 08:29:35,959 - __main__ - INFO - Current active orders: 0/5
+2025-06-26 08:29:35,961 - __main__ - WARNING - No active buy orders found, cannot determine price for new orders
+2025-06-26 08:29:35,961 - __main__ - INFO - No shares available for selling
+2025-06-26 08:29:35,961 - __main__ - INFO - === End Monitoring Cycle ===
+2025-06-26 08:31:35,974 - __main__ - INFO - === GTT Order Monitoring Cycle ===
+2025-06-26 08:31:35,974 - __main__ - INFO - Market hours: CLOSED
+2025-06-26 08:31:35,975 - __main__ - INFO - Market closed cycle 10/12
+2025-06-26 08:31:36,064 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'NTPC', 'isec_stock_code': 'NTPC', 'isec_token': '11630', 'company name': 'NTPC LIMITED', 'isec_token_level1': '4.1!11630', 'isec_token_level2': '4.2!11630'}
+2025-06-26 08:31:36,064 - breeze_sdk_api - INFO - Got token name for NTPC: 4.1!11630
+2025-06-26 08:31:36,360 - __main__ - INFO - Current GTT orders in account: 0
+2025-06-26 08:31:36,360 - __main__ - INFO - Active buy orders for NTPC: 0
+2025-06-26 08:31:36,360 - __main__ - INFO - Need to place 5 more buy orders to maintain 5 active orders
+2025-06-26 08:31:36,361 - __main__ - INFO - Current active orders: 0/5
+2025-06-26 08:31:36,361 - __main__ - WARNING - No active buy orders found, cannot determine price for new orders
+2025-06-26 08:31:36,361 - __main__ - INFO - No shares available for selling
+2025-06-26 08:31:36,361 - __main__ - INFO - === End Monitoring Cycle ===
+2025-06-26 08:33:36,366 - __main__ - INFO - === GTT Order Monitoring Cycle ===
+2025-06-26 08:33:36,366 - __main__ - INFO - Market hours: CLOSED
+2025-06-26 08:33:36,367 - __main__ - INFO - Market closed cycle 11/12
+2025-06-26 08:33:36,484 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'NTPC', 'isec_stock_code': 'NTPC', 'isec_token': '11630', 'company name': 'NTPC LIMITED', 'isec_token_level1': '4.1!11630', 'isec_token_level2': '4.2!11630'}
+2025-06-26 08:33:36,484 - breeze_sdk_api - INFO - Got token name for NTPC: 4.1!11630
+2025-06-26 08:33:36,802 - __main__ - INFO - Current GTT orders in account: 0
+2025-06-26 08:33:36,802 - __main__ - INFO - Active buy orders for NTPC: 0
+2025-06-26 08:33:36,802 - __main__ - INFO - Need to place 5 more buy orders to maintain 5 active orders
+2025-06-26 08:33:36,802 - __main__ - INFO - Current active orders: 0/5
+2025-06-26 08:33:36,803 - __main__ - WARNING - No active buy orders found, cannot determine price for new orders
+2025-06-26 08:33:36,803 - __main__ - INFO - No shares available for selling
+2025-06-26 08:33:36,803 - __main__ - INFO - === End Monitoring Cycle ===
+2025-06-26 08:35:36,804 - __main__ - INFO - === GTT Order Monitoring Cycle ===
+2025-06-26 08:35:36,804 - __main__ - INFO - Market hours: CLOSED
+2025-06-26 08:35:36,805 - __main__ - INFO - Market closed cycle 12/12
+2025-06-26 08:35:36,805 - __main__ - INFO - Market has been closed for 1 hour. Stopping monitoring.
+2025-06-26 08:35:36,805 - __main__ - INFO - GTT order monitoring stopped
+2025-06-26 08:36:00,371 - __main__ - INFO - Monitoring thread has stopped. Exiting main thread.
+2025-06-26 08:36:00,371 - __main__ - INFO - Cleaning up WebSocket connection...
+2025-06-26 08:36:00,372 - __main__ - INFO - WebSocket not initialized, skipping cleanup
+2025-06-26 08:36:00,372 - __main__ - INFO - GTT Fall Buy strategy completed.
+2025-06-26 08:36:00,373 - __main__ - INFO - Stop monitoring signal set
+2025-06-26 14:48:51,827 - __main__ - INFO - Starting GTT Fall Buy strategy for NTPC on NSE
+2025-06-26 14:48:55,114 - breeze_sdk_api - INFO - Successfully initialized Breeze API with credentials
+2025-06-26 14:48:55,116 - __main__ - INFO - Successfully initialized Breeze API
+2025-06-26 14:48:55,280 - __main__ - INFO - Successfully initialized Kite API
+2025-06-26 14:48:55,281 - __main__ - INFO - Will place 5 GTT orders
+2025-06-26 14:48:55,282 - __main__ - INFO - GTT history file is empty: workdir\orders\NTPC_gtt_history.json
+2025-06-26 14:48:55,282 - __main__ - INFO - Found 0 existing GTT orders in history file
+2025-06-26 14:48:55,405 - __main__ - INFO - Found 7 current GTT orders in Kite API
+2025-06-26 14:48:55,406 - __main__ - INFO - API Order 1: ID=278097454, Symbol=ONGC, Type=SELL, Status=active
+2025-06-26 14:48:55,406 - __main__ - INFO - API Order 2: ID=278075503, Symbol=ONGC, Type=BUY, Status=active
+2025-06-26 14:48:55,407 - __main__ - INFO - API Order 3: ID=278021230, Symbol=ONGC, Type=BUY, Status=active
+2025-06-26 14:48:55,407 - __main__ - INFO - API Order 4: ID=278021229, Symbol=ONGC, Type=BUY, Status=active
+2025-06-26 14:48:55,408 - __main__ - INFO - API Order 5: ID=278021228, Symbol=ONGC, Type=BUY, Status=active
+2025-06-26 14:48:55,408 - __main__ - INFO - API Order 6: ID=278021226, Symbol=ONGC, Type=BUY, Status=active
+2025-06-26 14:48:55,408 - __main__ - INFO - API Order 7: ID=278021225, Symbol=ONGC, Type=BUY, Status=triggered
+2025-06-26 14:48:55,409 - __main__ - INFO - Found 0 active NTPC buy orders in Kite API
+2025-06-26 14:48:55,715 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'NTPC', 'isec_stock_code': 'NTPC', 'isec_token': '11630', 'company name': 'NTPC LIMITED', 'isec_token_level1': '4.1!11630', 'isec_token_level2': '4.2!11630'}
+2025-06-26 14:48:55,715 - breeze_sdk_api - INFO - Got token name for NTPC: 4.1!11630
+2025-06-26 14:48:55,991 - __main__ - INFO - Current price for NTPC: 336.75
+2025-06-26 14:48:56,095 - __main__ - INFO - Found 0 actually active buy orders on exchange
+2025-06-26 14:48:56,095 - __main__ - INFO - Starting fresh fall buy strategy from current price: 336.75
+2025-06-26 14:48:56,294 - __main__ - INFO - Placing REGULAR MARKET ORDER 1: 1 shares @ LTP (336.75)
+2025-06-26 14:48:56,630 - __main__ - INFO - Successfully placed REGULAR MARKET ORDER 1: 250626121190383
+2025-06-26 14:48:56,632 - __main__ - INFO - GTT history saved: 1 orders
+2025-06-26 14:48:56,633 - __main__ - INFO - Placing GTT order 2: 2 shares @ 333.50 (trigger: 333.40)
+2025-06-26 14:48:56,761 - __main__ - INFO - Successfully placed GTT order 2: 278110153
+2025-06-26 14:48:56,764 - __main__ - INFO - GTT history saved: 2 orders
+2025-06-26 14:48:56,766 - __main__ - INFO - Placing GTT order 3: 3 shares @ 330.25 (trigger: 330.15)
+2025-06-26 14:48:56,919 - __main__ - INFO - Successfully placed GTT order 3: 278110154
+2025-06-26 14:48:56,925 - __main__ - INFO - GTT history saved: 3 orders
+2025-06-26 14:48:56,928 - __main__ - INFO - Placing GTT order 4: 4 shares @ 327.05 (trigger: 326.95)
+2025-06-26 14:48:57,095 - __main__ - INFO - Successfully placed GTT order 4: 278110157
+2025-06-26 14:48:57,097 - __main__ - INFO - GTT history saved: 4 orders
+2025-06-26 14:48:57,100 - __main__ - INFO - Placing GTT order 5: 5 shares @ 323.90 (trigger: 323.80)
+2025-06-26 14:48:57,246 - __main__ - INFO - Successfully placed GTT order 5: 278110159
+2025-06-26 14:48:57,249 - __main__ - INFO - GTT history saved: 5 orders
+2025-06-26 14:48:57,249 - __main__ - INFO - Total GTT orders placed: 5/5
+2025-06-26 14:48:57,249 - __main__ - INFO - SUCCESS: All 5 orders were placed successfully!
+2025-06-26 14:48:57,252 - __main__ - INFO - GTT history saved: 5 orders
+2025-06-26 14:48:57,269 - __main__ - INFO - Loaded GTT history: 5 orders
+2025-06-26 14:48:57,411 - __main__ - INFO - Total GTT orders in account: 11
+2025-06-26 14:48:57,411 - __main__ - INFO - GTT Order: {'id': 278110159, 'user_id': 'OVF854', 'parent_trigger': None, 'type': 'single', 'created_at': '2025-06-26 14:48:57', 'updated_at': '2025-06-26 14:48:57', 'expires_at': '2026-06-26 14:48:57', 'status': 'active', 'condition': {'exchange': 'NSE', 'last_price': 336.75, 'tradingsymbol': 'NTPC', 'trigger_values': [323.8], 'instrument_token': 2977281}, 'orders': [{'exchange': 'NSE', 'tradingsymbol': 'NTPC', 'product': 'CNC', 'order_type': 'LIMIT', 'transaction_type': 'BUY', 'quantity': 5, 'price': 323.9, 'result': None}], 'meta': {}}
+2025-06-26 14:48:57,412 - __main__ - INFO - GTT Order: {'id': 278110157, 'user_id': 'OVF854', 'parent_trigger': None, 'type': 'single', 'created_at': '2025-06-26 14:48:57', 'updated_at': '2025-06-26 14:48:57', 'expires_at': '2026-06-26 14:48:57', 'status': 'active', 'condition': {'exchange': 'NSE', 'last_price': 336.75, 'tradingsymbol': 'NTPC', 'trigger_values': [326.95], 'instrument_token': 2977281}, 'orders': [{'exchange': 'NSE', 'tradingsymbol': 'NTPC', 'product': 'CNC', 'order_type': 'LIMIT', 'transaction_type': 'BUY', 'quantity': 4, 'price': 327.05, 'result': None}], 'meta': {}}
+2025-06-26 14:48:57,412 - __main__ - INFO - GTT Order: {'id': 278110154, 'user_id': 'OVF854', 'parent_trigger': None, 'type': 'single', 'created_at': '2025-06-26 14:48:56', 'updated_at': '2025-06-26 14:48:56', 'expires_at': '2026-06-26 14:48:56', 'status': 'active', 'condition': {'exchange': 'NSE', 'last_price': 336.75, 'tradingsymbol': 'NTPC', 'trigger_values': [330.15], 'instrument_token': 2977281}, 'orders': [{'exchange': 'NSE', 'tradingsymbol': 'NTPC', 'product': 'CNC', 'order_type': 'LIMIT', 'transaction_type': 'BUY', 'quantity': 3, 'price': 330.25, 'result': None}], 'meta': {}}
+2025-06-26 14:48:57,413 - __main__ - INFO - GTT Order: {'id': 278110153, 'user_id': 'OVF854', 'parent_trigger': None, 'type': 'single', 'created_at': '2025-06-26 14:48:56', 'updated_at': '2025-06-26 14:48:56', 'expires_at': '2026-06-26 14:48:56', 'status': 'active', 'condition': {'exchange': 'NSE', 'last_price': 336.75, 'tradingsymbol': 'NTPC', 'trigger_values': [333.4], 'instrument_token': 2977281}, 'orders': [{'exchange': 'NSE', 'tradingsymbol': 'NTPC', 'product': 'CNC', 'order_type': 'LIMIT', 'transaction_type': 'BUY', 'quantity': 2, 'price': 333.5, 'result': None}], 'meta': {}}
+2025-06-26 14:48:57,413 - __main__ - INFO - GTT Order: {'id': 278097454, 'user_id': 'OVF854', 'parent_trigger': None, 'type': 'single', 'created_at': '2025-06-26 14:04:55', 'updated_at': '2025-06-26 14:04:55', 'expires_at': '2026-06-26 14:04:55', 'status': 'active', 'condition': {'exchange': 'NSE', 'last_price': 243.7, 'tradingsymbol': 'ONGC', 'trigger_values': [246.36], 'instrument_token': 633601}, 'orders': [{'exchange': 'NSE', 'tradingsymbol': 'ONGC', 'product': 'CNC', 'order_type': 'LIMIT', 'transaction_type': 'SELL', 'quantity': 1, 'price': 249.35, 'result': None}], 'meta': {}}
+2025-06-26 14:48:57,414 - __main__ - INFO - GTT Order: {'id': 278075503, 'user_id': 'OVF854', 'parent_trigger': None, 'type': 'single', 'created_at': '2025-06-26 12:45:34', 'updated_at': '2025-06-26 12:45:34', 'expires_at': '2026-06-26 12:45:34', 'status': 'active', 'condition': {'exchange': 'NSE', 'last_price': 243.23, 'tradingsymbol': 'ONGC', 'trigger_values': [230.3], 'instrument_token': 633601}, 'orders': [{'exchange': 'NSE', 'tradingsymbol': 'ONGC', 'product': 'CNC', 'order_type': 'LIMIT', 'transaction_type': 'BUY', 'quantity': 6, 'price': 228, 'result': None}], 'meta': {}}
+2025-06-26 14:48:57,414 - __main__ - INFO - GTT Order: {'id': 278021230, 'user_id': 'OVF854', 'parent_trigger': None, 'type': 'single', 'created_at': '2025-06-26 09:56:38', 'updated_at': '2025-06-26 09:56:38', 'expires_at': '2026-06-26 09:56:38', 'status': 'active', 'condition': {'exchange': 'NSE', 'last_price': 242.73, 'tradingsymbol': 'ONGC', 'trigger_values': [232.61], 'instrument_token': 633601}, 'orders': [{'exchange': 'NSE', 'tradingsymbol': 'ONGC', 'product': 'CNC', 'order_type': 'LIMIT', 'transaction_type': 'BUY', 'quantity': 5, 'price': 232.63, 'result': None}], 'meta': {}}
+2025-06-26 14:48:57,414 - __main__ - INFO - GTT Order: {'id': 278021229, 'user_id': 'OVF854', 'parent_trigger': None, 'type': 'single', 'created_at': '2025-06-26 09:56:38', 'updated_at': '2025-06-26 09:56:38', 'expires_at': '2026-06-26 09:56:38', 'status': 'active', 'condition': {'exchange': 'NSE', 'last_price': 242.73, 'tradingsymbol': 'ONGC', 'trigger_values': [234.94], 'instrument_token': 633601}, 'orders': [{'exchange': 'NSE', 'tradingsymbol': 'ONGC', 'product': 'CNC', 'order_type': 'LIMIT', 'transaction_type': 'BUY', 'quantity': 4, 'price': 234.96, 'result': None}], 'meta': {}}
+2025-06-26 14:48:57,415 - __main__ - INFO - GTT Order: {'id': 278021228, 'user_id': 'OVF854', 'parent_trigger': None, 'type': 'single', 'created_at': '2025-06-26 09:56:38', 'updated_at': '2025-06-26 09:56:38', 'expires_at': '2026-06-26 09:56:38', 'status': 'active', 'condition': {'exchange': 'NSE', 'last_price': 242.73, 'tradingsymbol': 'ONGC', 'trigger_values': [237.29], 'instrument_token': 633601}, 'orders': [{'exchange': 'NSE', 'tradingsymbol': 'ONGC', 'product': 'CNC', 'order_type': 'LIMIT', 'transaction_type': 'BUY', 'quantity': 3, 'price': 237.31, 'result': None}], 'meta': {}}
+2025-06-26 14:48:57,415 - __main__ - INFO - GTT Order: {'id': 278021226, 'user_id': 'OVF854', 'parent_trigger': None, 'type': 'single', 'created_at': '2025-06-26 09:56:38', 'updated_at': '2025-06-26 09:56:38', 'expires_at': '2026-06-26 09:56:38', 'status': 'active', 'condition': {'exchange': 'NSE', 'last_price': 242.73, 'tradingsymbol': 'ONGC', 'trigger_values': [239.67], 'instrument_token': 633601}, 'orders': [{'exchange': 'NSE', 'tradingsymbol': 'ONGC', 'product': 'CNC', 'order_type': 'LIMIT', 'transaction_type': 'BUY', 'quantity': 2, 'price': 239.69, 'result': None}], 'meta': {}}
+2025-06-26 14:48:57,415 - __main__ - INFO - GTT Order: {'id': 278021225, 'user_id': 'OVF854', 'parent_trigger': None, 'type': 'single', 'created_at': '2025-06-26 09:56:37', 'updated_at': '2025-06-26 10:44:32', 'expires_at': '2026-06-26 09:56:37', 'status': 'triggered', 'condition': {'exchange': 'NSE', 'last_price': 242.73, 'tradingsymbol': 'ONGC', 'trigger_values': [242.07]}, 'orders': [{'exchange': 'NSE', 'tradingsymbol': 'ONGC', 'product': 'CNC', 'order_type': 'LIMIT', 'transaction_type': 'BUY', 'quantity': 1, 'price': 242.09, 'result': {'account_id': 'OVF854', 'exchange': 'NSE', 'tradingsymbol': 'ONGC', 'validity': 'DAY', 'product': 'CNC', 'order_type': 'LIMIT', 'transaction_type': 'BUY', 'quantity': 1, 'price': 242.09, 'ltp_atp': 'LTP', 'squareoff_abs_tick': 'absolute', 'stoploss_abs_tick': 'absolute', 'timestamp': '2025-06-26 10:44:32', 'triggered_at': 241.93, 'order_result': {'status': 'success', 'order_id': '250626120540819', 'rejection_reason': ''}}}], 'meta': None}
+2025-06-26 14:48:57,416 - __main__ - INFO - Setting up real-time tick data monitoring...
+2025-06-26 14:48:57,651 - breeze_sdk_api - INFO - Setting on_ticks function: <bound method BreezeApi.on_ticks of <breeze_sdk_api.BreezeApi object at 0x0000022A1052F760>>
+2025-06-26 14:48:57,651 - breeze_sdk_api - INFO - Successfully connected to WebSocket
+2025-06-26 14:48:57,652 - __main__ - INFO - Connected to Breeze WebSocket for real-time data
+2025-06-26 14:48:57,812 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'NTPC', 'isec_stock_code': 'NTPC', 'isec_token': '11630', 'company name': 'NTPC LIMITED', 'isec_token_level1': '4.1!11630', 'isec_token_level2': '4.2!11630'}
+2025-06-26 14:48:57,813 - breeze_sdk_api - INFO - Got token name for NTPC: 4.1!11630
+2025-06-26 14:48:57,814 - __main__ - INFO - Stock token for tick data: 4.1!11630
+2025-06-26 14:48:57,814 - breeze_sdk_api - INFO - Setting on_ticks function: <function main.<locals>.tick_handler at 0x0000022A104FE3B0>
+2025-06-26 14:48:57,814 - __main__ - INFO - Tick handler set up successfully
+2025-06-26 14:48:57,815 - breeze_sdk_api - INFO - Successfully subscribed to OHLC feed for token: 4.1!11630
+2025-06-26 14:48:57,816 - __main__ - INFO - Subscribed to real-time feed for NTPC
+2025-06-26 14:48:57,816 - __main__ - INFO - Real-time tick data monitoring is now active!
+2025-06-26 14:48:57,816 - __main__ - INFO - The system will now respond to price changes in real-time
+2025-06-26 14:48:57,817 - __main__ - INFO - GTT order monitoring started.
+2025-06-26 14:48:57,817 - __main__ - INFO - Press Ctrl+C to stop manually.
+2025-06-26 15:28:31,927 - __main__ - INFO - Received interrupt signal. Stopping monitoring...
+2025-06-26 15:28:31,927 - __main__ - INFO - Monitoring stopped by user.
+2025-06-26 15:28:31,927 - __main__ - INFO - Cleaning up WebSocket connection...
+2025-06-26 15:28:31,928 - __main__ - INFO - WebSocket not initialized, skipping cleanup
+2025-06-26 15:28:31,928 - __main__ - INFO - GTT Fall Buy strategy completed.
+2025-06-26 15:28:35,986 - __main__ - INFO - Starting GTT Fall Buy strategy for NTPC on NSE
+2025-06-26 15:28:37,130 - breeze_sdk_api - INFO - Successfully initialized Breeze API with credentials
+2025-06-26 15:28:37,131 - __main__ - INFO - Successfully initialized Breeze API
+2025-06-26 15:28:37,226 - __main__ - INFO - Successfully initialized Kite API
+2025-06-26 15:28:37,226 - __main__ - INFO - Will place 5 GTT orders
+2025-06-26 15:28:37,237 - __main__ - INFO - Loaded GTT history: 5 orders
+2025-06-26 15:28:37,238 - __main__ - INFO - Found 5 existing GTT orders in history file
+2025-06-26 15:28:37,343 - __main__ - INFO - Found 15 current GTT orders in Kite API
+2025-06-26 15:28:37,343 - __main__ - INFO - API Order 1: ID=278121329, Symbol=POWERGRID, Type=BUY, Status=active
+2025-06-26 15:28:37,344 - __main__ - INFO - API Order 2: ID=278121327, Symbol=POWERGRID, Type=BUY, Status=active
+2025-06-26 15:28:37,344 - __main__ - INFO - API Order 3: ID=278121325, Symbol=POWERGRID, Type=BUY, Status=active
+2025-06-26 15:28:37,345 - __main__ - INFO - API Order 4: ID=278121324, Symbol=POWERGRID, Type=BUY, Status=active
+2025-06-26 15:28:37,345 - __main__ - INFO - API Order 5: ID=278097454, Symbol=ONGC, Type=SELL, Status=active
+2025-06-26 15:28:37,345 - __main__ - INFO - API Order 6: ID=278110159, Symbol=NTPC, Type=BUY, Status=active
+2025-06-26 15:28:37,345 - __main__ - INFO - API Order 7: ID=278110157, Symbol=NTPC, Type=BUY, Status=active
+2025-06-26 15:28:37,345 - __main__ - INFO - API Order 8: ID=278110154, Symbol=NTPC, Type=BUY, Status=active
+2025-06-26 15:28:37,345 - __main__ - INFO - API Order 9: ID=278110153, Symbol=NTPC, Type=BUY, Status=active
+2025-06-26 15:28:37,345 - __main__ - INFO - API Order 10: ID=278075503, Symbol=ONGC, Type=BUY, Status=active
+2025-06-26 15:28:37,347 - __main__ - INFO - API Order 11: ID=278021230, Symbol=ONGC, Type=BUY, Status=active
+2025-06-26 15:28:37,347 - __main__ - INFO - API Order 12: ID=278021229, Symbol=ONGC, Type=BUY, Status=active
+2025-06-26 15:28:37,347 - __main__ - INFO - API Order 13: ID=278021228, Symbol=ONGC, Type=BUY, Status=active
+2025-06-26 15:28:37,347 - __main__ - INFO - API Order 14: ID=278021226, Symbol=ONGC, Type=BUY, Status=active
+2025-06-26 15:28:37,347 - __main__ - INFO - API Order 15: ID=278021225, Symbol=ONGC, Type=BUY, Status=triggered
+2025-06-26 15:28:37,347 - __main__ - INFO - Found 4 active NTPC buy orders in Kite API
+2025-06-26 15:28:37,578 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'NTPC', 'isec_stock_code': 'NTPC', 'isec_token': '11630', 'company name': 'NTPC LIMITED', 'isec_token_level1': '4.1!11630', 'isec_token_level2': '4.2!11630'}
+2025-06-26 15:28:37,578 - breeze_sdk_api - INFO - Got token name for NTPC: 4.1!11630
+2025-06-26 15:28:37,814 - __main__ - INFO - Current price for NTPC: 337.2
+2025-06-26 15:28:37,934 - __main__ - INFO - Found 0 actually active buy orders on exchange
+2025-06-26 15:28:37,934 - __main__ - INFO - Starting fresh fall buy strategy from current price: 337.2
+2025-06-26 15:28:38,078 - __main__ - INFO - Placing MARKET order 1: 1 shares @ LTP (337.20)
+2025-06-26 15:28:38,421 - __main__ - INFO - Successfully placed MARKET order 1: 250626121340622
+2025-06-26 15:28:38,423 - __main__ - INFO - GTT history saved: 6 orders
+2025-06-26 15:28:38,425 - __main__ - INFO - Placing GTT order 2: 2 shares @ 333.95 (trigger: 333.85)
+2025-06-26 15:28:38,535 - __main__ - INFO - Successfully placed GTT order 2: 278121657
+2025-06-26 15:28:38,537 - __main__ - INFO - GTT history saved: 7 orders
+2025-06-26 15:28:38,539 - __main__ - INFO - Placing GTT order 3: 3 shares @ 330.70 (trigger: 330.60)
+2025-06-26 15:28:38,636 - __main__ - INFO - Successfully placed GTT order 3: 278121659
+2025-06-26 15:28:38,637 - __main__ - INFO - GTT history saved: 8 orders
+2025-06-26 15:28:38,639 - __main__ - INFO - Placing GTT order 4: 4 shares @ 327.50 (trigger: 327.40)
+2025-06-26 15:28:38,739 - __main__ - INFO - Successfully placed GTT order 4: 278121662
+2025-06-26 15:28:38,741 - __main__ - INFO - GTT history saved: 9 orders
+2025-06-26 15:28:38,743 - __main__ - INFO - Placing GTT order 5: 5 shares @ 324.30 (trigger: 324.20)
+2025-06-26 15:28:38,861 - __main__ - INFO - Successfully placed GTT order 5: 278121663
+2025-06-26 15:28:38,863 - __main__ - INFO - GTT history saved: 10 orders
+2025-06-26 15:28:38,864 - __main__ - INFO - Total GTT orders placed: 5/5
+2025-06-26 15:28:38,864 - __main__ - INFO - SUCCESS: All 5 orders were placed successfully!
+2025-06-26 15:28:38,866 - __main__ - INFO - GTT history saved: 10 orders
+2025-06-26 15:28:38,879 - __main__ - INFO - Loaded GTT history: 10 orders
+2025-06-26 15:28:38,996 - __main__ - INFO - Total GTT orders in account: 19
+2025-06-26 15:28:38,996 - __main__ - INFO - GTT Order: {'id': 278121663, 'user_id': 'OVF854', 'parent_trigger': None, 'type': 'single', 'created_at': '2025-06-26 15:28:38', 'updated_at': '2025-06-26 15:28:38', 'expires_at': '2026-06-26 15:28:38', 'status': 'active', 'condition': {'exchange': 'NSE', 'last_price': 337.2, 'tradingsymbol': 'NTPC', 'trigger_values': [324.2], 'instrument_token': 2977281}, 'orders': [{'exchange': 'NSE', 'tradingsymbol': 'NTPC', 'product': 'CNC', 'order_type': 'LIMIT', 'transaction_type': 'BUY', 'quantity': 5, 'price': 324.3, 'result': None}], 'meta': {}}
+2025-06-26 15:28:38,997 - __main__ - INFO - GTT Order: {'id': 278121662, 'user_id': 'OVF854', 'parent_trigger': None, 'type': 'single', 'created_at': '2025-06-26 15:28:38', 'updated_at': '2025-06-26 15:28:38', 'expires_at': '2026-06-26 15:28:38', 'status': 'active', 'condition': {'exchange': 'NSE', 'last_price': 337.2, 'tradingsymbol': 'NTPC', 'trigger_values': [327.4], 'instrument_token': 2977281}, 'orders': [{'exchange': 'NSE', 'tradingsymbol': 'NTPC', 'product': 'CNC', 'order_type': 'LIMIT', 'transaction_type': 'BUY', 'quantity': 4, 'price': 327.5, 'result': None}], 'meta': {}}
+2025-06-26 15:28:38,997 - __main__ - INFO - GTT Order: {'id': 278121659, 'user_id': 'OVF854', 'parent_trigger': None, 'type': 'single', 'created_at': '2025-06-26 15:28:38', 'updated_at': '2025-06-26 15:28:38', 'expires_at': '2026-06-26 15:28:38', 'status': 'active', 'condition': {'exchange': 'NSE', 'last_price': 337.2, 'tradingsymbol': 'NTPC', 'trigger_values': [330.6], 'instrument_token': 2977281}, 'orders': [{'exchange': 'NSE', 'tradingsymbol': 'NTPC', 'product': 'CNC', 'order_type': 'LIMIT', 'transaction_type': 'BUY', 'quantity': 3, 'price': 330.7, 'result': None}], 'meta': {}}
+2025-06-26 15:28:38,997 - __main__ - INFO - GTT Order: {'id': 278121657, 'user_id': 'OVF854', 'parent_trigger': None, 'type': 'single', 'created_at': '2025-06-26 15:28:38', 'updated_at': '2025-06-26 15:28:38', 'expires_at': '2026-06-26 15:28:38', 'status': 'active', 'condition': {'exchange': 'NSE', 'last_price': 337.2, 'tradingsymbol': 'NTPC', 'trigger_values': [333.85], 'instrument_token': 2977281}, 'orders': [{'exchange': 'NSE', 'tradingsymbol': 'NTPC', 'product': 'CNC', 'order_type': 'LIMIT', 'transaction_type': 'BUY', 'quantity': 2, 'price': 333.95, 'result': None}], 'meta': {}}
+2025-06-26 15:28:38,998 - __main__ - INFO - GTT Order: {'id': 278121329, 'user_id': 'OVF854', 'parent_trigger': None, 'type': 'single', 'created_at': '2025-06-26 15:27:30', 'updated_at': '2025-06-26 15:27:30', 'expires_at': '2026-06-26 15:27:30', 'status': 'active', 'condition': {'exchange': 'NSE', 'last_price': 293.75, 'tradingsymbol': 'POWERGRID', 'trigger_values': [282.45], 'instrument_token': 3834113}, 'orders': [{'exchange': 'NSE', 'tradingsymbol': 'POWERGRID', 'product': 'CNC', 'order_type': 'LIMIT', 'transaction_type': 'BUY', 'quantity': 5, 'price': 282.55, 'result': None}], 'meta': {}}
+2025-06-26 15:28:38,998 - __main__ - INFO - GTT Order: {'id': 278121327, 'user_id': 'OVF854', 'parent_trigger': None, 'type': 'single', 'created_at': '2025-06-26 15:27:30', 'updated_at': '2025-06-26 15:27:30', 'expires_at': '2026-06-26 15:27:30', 'status': 'active', 'condition': {'exchange': 'NSE', 'last_price': 293.75, 'tradingsymbol': 'POWERGRID', 'trigger_values': [285.2], 'instrument_token': 3834113}, 'orders': [{'exchange': 'NSE', 'tradingsymbol': 'POWERGRID', 'product': 'CNC', 'order_type': 'LIMIT', 'transaction_type': 'BUY', 'quantity': 4, 'price': 285.3, 'result': None}], 'meta': {}}
+2025-06-26 15:28:38,999 - __main__ - INFO - GTT Order: {'id': 278121325, 'user_id': 'OVF854', 'parent_trigger': None, 'type': 'single', 'created_at': '2025-06-26 15:27:30', 'updated_at': '2025-06-26 15:27:30', 'expires_at': '2026-06-26 15:27:30', 'status': 'active', 'condition': {'exchange': 'NSE', 'last_price': 293.75, 'tradingsymbol': 'POWERGRID', 'trigger_values': [288], 'instrument_token': 3834113}, 'orders': [{'exchange': 'NSE', 'tradingsymbol': 'POWERGRID', 'product': 'CNC', 'order_type': 'LIMIT', 'transaction_type': 'BUY', 'quantity': 3, 'price': 288.1, 'result': None}], 'meta': {}}
+2025-06-26 15:28:38,999 - __main__ - INFO - GTT Order: {'id': 278121324, 'user_id': 'OVF854', 'parent_trigger': None, 'type': 'single', 'created_at': '2025-06-26 15:27:30', 'updated_at': '2025-06-26 15:27:30', 'expires_at': '2026-06-26 15:27:30', 'status': 'active', 'condition': {'exchange': 'NSE', 'last_price': 293.75, 'tradingsymbol': 'POWERGRID', 'trigger_values': [290.8], 'instrument_token': 3834113}, 'orders': [{'exchange': 'NSE', 'tradingsymbol': 'POWERGRID', 'product': 'CNC', 'order_type': 'LIMIT', 'transaction_type': 'BUY', 'quantity': 2, 'price': 290.9, 'result': None}], 'meta': {}}
+2025-06-26 15:28:38,999 - __main__ - INFO - GTT Order: {'id': 278097454, 'user_id': 'OVF854', 'parent_trigger': None, 'type': 'single', 'created_at': '2025-06-26 14:04:55', 'updated_at': '2025-06-26 15:05:28', 'expires_at': '2026-06-26 14:04:55', 'status': 'active', 'condition': {'exchange': 'NSE', 'last_price': 244.68, 'tradingsymbol': 'ONGC', 'trigger_values': [261], 'instrument_token': 633601}, 'orders': [{'exchange': 'NSE', 'tradingsymbol': 'ONGC', 'product': 'CNC', 'order_type': 'LIMIT', 'transaction_type': 'SELL', 'quantity': 1, 'price': 260.55, 'result': None}], 'meta': {}}
+2025-06-26 15:28:39,000 - __main__ - INFO - GTT Order: {'id': 278110159, 'user_id': 'OVF854', 'parent_trigger': None, 'type': 'single', 'created_at': '2025-06-26 14:48:57', 'updated_at': '2025-06-26 14:48:57', 'expires_at': '2026-06-26 14:48:57', 'status': 'active', 'condition': {'exchange': 'NSE', 'last_price': 336.75, 'tradingsymbol': 'NTPC', 'trigger_values': [323.8], 'instrument_token': 2977281}, 'orders': [{'exchange': 'NSE', 'tradingsymbol': 'NTPC', 'product': 'CNC', 'order_type': 'LIMIT', 'transaction_type': 'BUY', 'quantity': 5, 'price': 323.9, 'result': None}], 'meta': {}}
+2025-06-26 15:28:39,000 - __main__ - INFO - GTT Order: {'id': 278110157, 'user_id': 'OVF854', 'parent_trigger': None, 'type': 'single', 'created_at': '2025-06-26 14:48:57', 'updated_at': '2025-06-26 14:48:57', 'expires_at': '2026-06-26 14:48:57', 'status': 'active', 'condition': {'exchange': 'NSE', 'last_price': 336.75, 'tradingsymbol': 'NTPC', 'trigger_values': [326.95], 'instrument_token': 2977281}, 'orders': [{'exchange': 'NSE', 'tradingsymbol': 'NTPC', 'product': 'CNC', 'order_type': 'LIMIT', 'transaction_type': 'BUY', 'quantity': 4, 'price': 327.05, 'result': None}], 'meta': {}}
+2025-06-26 15:28:39,000 - __main__ - INFO - GTT Order: {'id': 278110154, 'user_id': 'OVF854', 'parent_trigger': None, 'type': 'single', 'created_at': '2025-06-26 14:48:56', 'updated_at': '2025-06-26 14:48:56', 'expires_at': '2026-06-26 14:48:56', 'status': 'active', 'condition': {'exchange': 'NSE', 'last_price': 336.75, 'tradingsymbol': 'NTPC', 'trigger_values': [330.15], 'instrument_token': 2977281}, 'orders': [{'exchange': 'NSE', 'tradingsymbol': 'NTPC', 'product': 'CNC', 'order_type': 'LIMIT', 'transaction_type': 'BUY', 'quantity': 3, 'price': 330.25, 'result': None}], 'meta': {}}
+2025-06-26 15:28:39,001 - __main__ - INFO - GTT Order: {'id': 278110153, 'user_id': 'OVF854', 'parent_trigger': None, 'type': 'single', 'created_at': '2025-06-26 14:48:56', 'updated_at': '2025-06-26 14:48:56', 'expires_at': '2026-06-26 14:48:56', 'status': 'active', 'condition': {'exchange': 'NSE', 'last_price': 336.75, 'tradingsymbol': 'NTPC', 'trigger_values': [333.4], 'instrument_token': 2977281}, 'orders': [{'exchange': 'NSE', 'tradingsymbol': 'NTPC', 'product': 'CNC', 'order_type': 'LIMIT', 'transaction_type': 'BUY', 'quantity': 2, 'price': 333.5, 'result': None}], 'meta': {}}
+2025-06-26 15:28:39,001 - __main__ - INFO - GTT Order: {'id': 278075503, 'user_id': 'OVF854', 'parent_trigger': None, 'type': 'single', 'created_at': '2025-06-26 12:45:34', 'updated_at': '2025-06-26 12:45:34', 'expires_at': '2026-06-26 12:45:34', 'status': 'active', 'condition': {'exchange': 'NSE', 'last_price': 243.23, 'tradingsymbol': 'ONGC', 'trigger_values': [230.3], 'instrument_token': 633601}, 'orders': [{'exchange': 'NSE', 'tradingsymbol': 'ONGC', 'product': 'CNC', 'order_type': 'LIMIT', 'transaction_type': 'BUY', 'quantity': 6, 'price': 228, 'result': None}], 'meta': {}}
+2025-06-26 15:28:39,001 - __main__ - INFO - GTT Order: {'id': 278021230, 'user_id': 'OVF854', 'parent_trigger': None, 'type': 'single', 'created_at': '2025-06-26 09:56:38', 'updated_at': '2025-06-26 09:56:38', 'expires_at': '2026-06-26 09:56:38', 'status': 'active', 'condition': {'exchange': 'NSE', 'last_price': 242.73, 'tradingsymbol': 'ONGC', 'trigger_values': [232.61], 'instrument_token': 633601}, 'orders': [{'exchange': 'NSE', 'tradingsymbol': 'ONGC', 'product': 'CNC', 'order_type': 'LIMIT', 'transaction_type': 'BUY', 'quantity': 5, 'price': 232.63, 'result': None}], 'meta': {}}
+2025-06-26 15:28:39,002 - __main__ - INFO - GTT Order: {'id': 278021229, 'user_id': 'OVF854', 'parent_trigger': None, 'type': 'single', 'created_at': '2025-06-26 09:56:38', 'updated_at': '2025-06-26 09:56:38', 'expires_at': '2026-06-26 09:56:38', 'status': 'active', 'condition': {'exchange': 'NSE', 'last_price': 242.73, 'tradingsymbol': 'ONGC', 'trigger_values': [234.94], 'instrument_token': 633601}, 'orders': [{'exchange': 'NSE', 'tradingsymbol': 'ONGC', 'product': 'CNC', 'order_type': 'LIMIT', 'transaction_type': 'BUY', 'quantity': 4, 'price': 234.96, 'result': None}], 'meta': {}}
+2025-06-26 15:28:39,002 - __main__ - INFO - GTT Order: {'id': 278021228, 'user_id': 'OVF854', 'parent_trigger': None, 'type': 'single', 'created_at': '2025-06-26 09:56:38', 'updated_at': '2025-06-26 09:56:38', 'expires_at': '2026-06-26 09:56:38', 'status': 'active', 'condition': {'exchange': 'NSE', 'last_price': 242.73, 'tradingsymbol': 'ONGC', 'trigger_values': [237.29], 'instrument_token': 633601}, 'orders': [{'exchange': 'NSE', 'tradingsymbol': 'ONGC', 'product': 'CNC', 'order_type': 'LIMIT', 'transaction_type': 'BUY', 'quantity': 3, 'price': 237.31, 'result': None}], 'meta': {}}
+2025-06-26 15:28:39,002 - __main__ - INFO - GTT Order: {'id': 278021226, 'user_id': 'OVF854', 'parent_trigger': None, 'type': 'single', 'created_at': '2025-06-26 09:56:38', 'updated_at': '2025-06-26 09:56:38', 'expires_at': '2026-06-26 09:56:38', 'status': 'active', 'condition': {'exchange': 'NSE', 'last_price': 242.73, 'tradingsymbol': 'ONGC', 'trigger_values': [239.67], 'instrument_token': 633601}, 'orders': [{'exchange': 'NSE', 'tradingsymbol': 'ONGC', 'product': 'CNC', 'order_type': 'LIMIT', 'transaction_type': 'BUY', 'quantity': 2, 'price': 239.69, 'result': None}], 'meta': {}}
+2025-06-26 15:28:39,003 - __main__ - INFO - GTT Order: {'id': 278021225, 'user_id': 'OVF854', 'parent_trigger': None, 'type': 'single', 'created_at': '2025-06-26 09:56:37', 'updated_at': '2025-06-26 10:44:32', 'expires_at': '2026-06-26 09:56:37', 'status': 'triggered', 'condition': {'exchange': 'NSE', 'last_price': 242.73, 'tradingsymbol': 'ONGC', 'trigger_values': [242.07]}, 'orders': [{'exchange': 'NSE', 'tradingsymbol': 'ONGC', 'product': 'CNC', 'order_type': 'LIMIT', 'transaction_type': 'BUY', 'quantity': 1, 'price': 242.09, 'result': {'account_id': 'OVF854', 'exchange': 'NSE', 'tradingsymbol': 'ONGC', 'validity': 'DAY', 'product': 'CNC', 'order_type': 'LIMIT', 'transaction_type': 'BUY', 'quantity': 1, 'price': 242.09, 'ltp_atp': 'LTP', 'squareoff_abs_tick': 'absolute', 'stoploss_abs_tick': 'absolute', 'timestamp': '2025-06-26 10:44:32', 'triggered_at': 241.93, 'order_result': {'status': 'success', 'order_id': '250626120540819', 'rejection_reason': ''}}}], 'meta': None}
+2025-06-26 15:28:39,003 - __main__ - INFO - Setting up real-time tick data monitoring...
+2025-06-26 15:28:39,261 - breeze_sdk_api - INFO - Setting on_ticks function: <bound method BreezeApi.on_ticks of <breeze_sdk_api.BreezeApi object at 0x000002C6987D7EE0>>
+2025-06-26 15:28:39,262 - breeze_sdk_api - INFO - Successfully connected to WebSocket
+2025-06-26 15:28:39,262 - __main__ - INFO - Connected to Breeze WebSocket for real-time data
+2025-06-26 15:28:39,386 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'NTPC', 'isec_stock_code': 'NTPC', 'isec_token': '11630', 'company name': 'NTPC LIMITED', 'isec_token_level1': '4.1!11630', 'isec_token_level2': '4.2!11630'}
+2025-06-26 15:28:39,386 - breeze_sdk_api - INFO - Got token name for NTPC: 4.1!11630
+2025-06-26 15:28:39,387 - __main__ - INFO - Stock token for tick data: 4.1!11630
+2025-06-26 15:28:39,387 - breeze_sdk_api - INFO - Setting on_ticks function: <function main.<locals>.tick_handler at 0x000002C698802EF0>
+2025-06-26 15:28:39,387 - __main__ - INFO - Tick handler set up successfully
+2025-06-26 15:28:39,388 - breeze_sdk_api - INFO - Successfully subscribed to OHLC feed for token: 4.1!11630
+2025-06-26 15:28:39,388 - __main__ - INFO - Subscribed to real-time feed for NTPC
+2025-06-26 15:28:39,388 - __main__ - INFO - Real-time tick data monitoring is now active!
+2025-06-26 15:28:39,389 - __main__ - INFO - The system will now respond to price changes in real-time
+2025-06-26 15:28:39,390 - __main__ - INFO - GTT order monitoring started.
+2025-06-26 15:28:39,390 - __main__ - INFO - Press Ctrl+C to stop manually.
+2025-06-26 15:29:39,535 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'NTPC', 'isec_stock_code': 'NTPC', 'isec_token': '11630', 'company name': 'NTPC LIMITED', 'isec_token_level1': '4.1!11630', 'isec_token_level2': '4.2!11630'}
+2025-06-26 15:29:39,535 - breeze_sdk_api - INFO - Got token name for NTPC: 4.1!11630
+2025-06-26 15:29:39,764 - __main__ - INFO - Periodic monitoring check at price: 337.45
+2025-06-26 15:29:39,764 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-06-26 15:30:09,890 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'NTPC', 'isec_stock_code': 'NTPC', 'isec_token': '11630', 'company name': 'NTPC LIMITED', 'isec_token_level1': '4.1!11630', 'isec_token_level2': '4.2!11630'}
+2025-06-26 15:30:09,890 - breeze_sdk_api - INFO - Got token name for NTPC: 4.1!11630
+2025-06-26 15:30:10,166 - __main__ - INFO - Periodic monitoring check at price: 337.10
+2025-06-26 15:30:10,166 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-06-26 15:30:40,290 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'NTPC', 'isec_stock_code': 'NTPC', 'isec_token': '11630', 'company name': 'NTPC LIMITED', 'isec_token_level1': '4.1!11630', 'isec_token_level2': '4.2!11630'}
+2025-06-26 15:30:40,291 - breeze_sdk_api - INFO - Got token name for NTPC: 4.1!11630
+2025-06-26 15:30:40,523 - __main__ - INFO - Periodic monitoring check at price: 337.10
+2025-06-26 15:30:40,524 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-06-26 15:31:10,618 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'NTPC', 'isec_stock_code': 'NTPC', 'isec_token': '11630', 'company name': 'NTPC LIMITED', 'isec_token_level1': '4.1!11630', 'isec_token_level2': '4.2!11630'}
+2025-06-26 15:31:10,619 - breeze_sdk_api - INFO - Got token name for NTPC: 4.1!11630
+2025-06-26 15:31:10,836 - __main__ - INFO - Periodic monitoring check at price: 337.10
+2025-06-26 15:31:10,837 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-06-26 15:31:40,939 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'NTPC', 'isec_stock_code': 'NTPC', 'isec_token': '11630', 'company name': 'NTPC LIMITED', 'isec_token_level1': '4.1!11630', 'isec_token_level2': '4.2!11630'}
+2025-06-26 15:31:40,939 - breeze_sdk_api - INFO - Got token name for NTPC: 4.1!11630
+2025-06-26 15:31:41,159 - __main__ - INFO - Periodic monitoring check at price: 337.15
+2025-06-26 15:31:41,160 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-06-26 15:32:11,294 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'NTPC', 'isec_stock_code': 'NTPC', 'isec_token': '11630', 'company name': 'NTPC LIMITED', 'isec_token_level1': '4.1!11630', 'isec_token_level2': '4.2!11630'}
+2025-06-26 15:32:11,295 - breeze_sdk_api - INFO - Got token name for NTPC: 4.1!11630
+2025-06-26 15:32:11,543 - __main__ - INFO - Periodic monitoring check at price: 337.15
+2025-06-26 15:32:11,543 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-06-26 15:32:41,731 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'NTPC', 'isec_stock_code': 'NTPC', 'isec_token': '11630', 'company name': 'NTPC LIMITED', 'isec_token_level1': '4.1!11630', 'isec_token_level2': '4.2!11630'}
+2025-06-26 15:32:41,732 - breeze_sdk_api - INFO - Got token name for NTPC: 4.1!11630
+2025-06-26 15:32:42,173 - __main__ - INFO - Periodic monitoring check at price: 337.15
+2025-06-26 15:32:42,173 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-06-26 15:33:12,274 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'NTPC', 'isec_stock_code': 'NTPC', 'isec_token': '11630', 'company name': 'NTPC LIMITED', 'isec_token_level1': '4.1!11630', 'isec_token_level2': '4.2!11630'}
+2025-06-26 15:33:12,274 - breeze_sdk_api - INFO - Got token name for NTPC: 4.1!11630
+2025-06-26 15:33:12,487 - __main__ - INFO - Periodic monitoring check at price: 337.15
+2025-06-26 15:33:12,487 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-06-26 15:33:42,615 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'NTPC', 'isec_stock_code': 'NTPC', 'isec_token': '11630', 'company name': 'NTPC LIMITED', 'isec_token_level1': '4.1!11630', 'isec_token_level2': '4.2!11630'}
+2025-06-26 15:33:42,615 - breeze_sdk_api - INFO - Got token name for NTPC: 4.1!11630
+2025-06-26 15:33:42,927 - __main__ - INFO - Periodic monitoring check at price: 337.15
+2025-06-26 15:33:42,927 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-06-26 15:34:13,062 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'NTPC', 'isec_stock_code': 'NTPC', 'isec_token': '11630', 'company name': 'NTPC LIMITED', 'isec_token_level1': '4.1!11630', 'isec_token_level2': '4.2!11630'}
+2025-06-26 15:34:13,062 - breeze_sdk_api - INFO - Got token name for NTPC: 4.1!11630
+2025-06-26 15:34:13,326 - __main__ - INFO - Periodic monitoring check at price: 337.15
+2025-06-26 15:34:13,326 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-06-26 15:34:43,431 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'NTPC', 'isec_stock_code': 'NTPC', 'isec_token': '11630', 'company name': 'NTPC LIMITED', 'isec_token_level1': '4.1!11630', 'isec_token_level2': '4.2!11630'}
+2025-06-26 15:34:43,431 - breeze_sdk_api - INFO - Got token name for NTPC: 4.1!11630
+2025-06-26 15:34:43,652 - __main__ - INFO - Periodic monitoring check at price: 337.15
+2025-06-26 15:34:43,652 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-06-26 15:35:13,835 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'NTPC', 'isec_stock_code': 'NTPC', 'isec_token': '11630', 'company name': 'NTPC LIMITED', 'isec_token_level1': '4.1!11630', 'isec_token_level2': '4.2!11630'}
+2025-06-26 15:35:13,835 - breeze_sdk_api - INFO - Got token name for NTPC: 4.1!11630
+2025-06-26 15:35:14,137 - __main__ - INFO - Periodic monitoring check at price: 337.15
+2025-06-26 15:35:14,137 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-06-26 15:35:44,263 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'NTPC', 'isec_stock_code': 'NTPC', 'isec_token': '11630', 'company name': 'NTPC LIMITED', 'isec_token_level1': '4.1!11630', 'isec_token_level2': '4.2!11630'}
+2025-06-26 15:35:44,264 - breeze_sdk_api - INFO - Got token name for NTPC: 4.1!11630
+2025-06-26 15:35:44,502 - __main__ - INFO - Periodic monitoring check at price: 337.15
+2025-06-26 15:35:44,502 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-06-26 15:36:14,628 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'NTPC', 'isec_stock_code': 'NTPC', 'isec_token': '11630', 'company name': 'NTPC LIMITED', 'isec_token_level1': '4.1!11630', 'isec_token_level2': '4.2!11630'}
+2025-06-26 15:36:14,628 - breeze_sdk_api - INFO - Got token name for NTPC: 4.1!11630
+2025-06-26 15:36:14,925 - __main__ - INFO - Periodic monitoring check at price: 337.15
+2025-06-26 15:36:14,925 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-06-26 15:36:45,049 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'NTPC', 'isec_stock_code': 'NTPC', 'isec_token': '11630', 'company name': 'NTPC LIMITED', 'isec_token_level1': '4.1!11630', 'isec_token_level2': '4.2!11630'}
+2025-06-26 15:36:45,049 - breeze_sdk_api - INFO - Got token name for NTPC: 4.1!11630
+2025-06-26 15:36:45,329 - __main__ - INFO - Periodic monitoring check at price: 337.15
+2025-06-26 15:36:45,330 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-06-26 15:37:15,441 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'NTPC', 'isec_stock_code': 'NTPC', 'isec_token': '11630', 'company name': 'NTPC LIMITED', 'isec_token_level1': '4.1!11630', 'isec_token_level2': '4.2!11630'}
+2025-06-26 15:37:15,441 - breeze_sdk_api - INFO - Got token name for NTPC: 4.1!11630
+2025-06-26 15:37:15,692 - __main__ - INFO - Periodic monitoring check at price: 337.15
+2025-06-26 15:37:15,692 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-06-26 15:37:45,796 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'NTPC', 'isec_stock_code': 'NTPC', 'isec_token': '11630', 'company name': 'NTPC LIMITED', 'isec_token_level1': '4.1!11630', 'isec_token_level2': '4.2!11630'}
+2025-06-26 15:37:45,796 - breeze_sdk_api - INFO - Got token name for NTPC: 4.1!11630
+2025-06-26 15:37:46,022 - __main__ - INFO - Periodic monitoring check at price: 337.15
+2025-06-26 15:37:46,022 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-06-26 15:38:16,129 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'NTPC', 'isec_stock_code': 'NTPC', 'isec_token': '11630', 'company name': 'NTPC LIMITED', 'isec_token_level1': '4.1!11630', 'isec_token_level2': '4.2!11630'}
+2025-06-26 15:38:16,129 - breeze_sdk_api - INFO - Got token name for NTPC: 4.1!11630
+2025-06-26 15:38:16,348 - __main__ - INFO - Periodic monitoring check at price: 337.15
+2025-06-26 15:38:16,348 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-06-26 15:38:46,514 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'NTPC', 'isec_stock_code': 'NTPC', 'isec_token': '11630', 'company name': 'NTPC LIMITED', 'isec_token_level1': '4.1!11630', 'isec_token_level2': '4.2!11630'}
+2025-06-26 15:38:46,514 - breeze_sdk_api - INFO - Got token name for NTPC: 4.1!11630
+2025-06-26 15:38:46,783 - __main__ - INFO - Periodic monitoring check at price: 337.15
+2025-06-26 15:38:46,783 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-06-26 15:39:16,986 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'NTPC', 'isec_stock_code': 'NTPC', 'isec_token': '11630', 'company name': 'NTPC LIMITED', 'isec_token_level1': '4.1!11630', 'isec_token_level2': '4.2!11630'}
+2025-06-26 15:39:16,987 - breeze_sdk_api - INFO - Got token name for NTPC: 4.1!11630
+2025-06-26 15:39:17,327 - __main__ - INFO - Periodic monitoring check at price: 337.15
+2025-06-26 15:39:17,328 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-06-26 15:39:47,465 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'NTPC', 'isec_stock_code': 'NTPC', 'isec_token': '11630', 'company name': 'NTPC LIMITED', 'isec_token_level1': '4.1!11630', 'isec_token_level2': '4.2!11630'}
+2025-06-26 15:39:47,466 - breeze_sdk_api - INFO - Got token name for NTPC: 4.1!11630
+2025-06-26 15:39:47,734 - __main__ - INFO - Periodic monitoring check at price: 337.15
+2025-06-26 15:39:47,734 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-06-26 15:40:17,868 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'NTPC', 'isec_stock_code': 'NTPC', 'isec_token': '11630', 'company name': 'NTPC LIMITED', 'isec_token_level1': '4.1!11630', 'isec_token_level2': '4.2!11630'}
+2025-06-26 15:40:17,869 - breeze_sdk_api - INFO - Got token name for NTPC: 4.1!11630
+2025-06-26 15:40:18,111 - __main__ - INFO - Periodic monitoring check at price: 337.15
+2025-06-26 15:40:18,112 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-06-26 15:40:48,375 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'NTPC', 'isec_stock_code': 'NTPC', 'isec_token': '11630', 'company name': 'NTPC LIMITED', 'isec_token_level1': '4.1!11630', 'isec_token_level2': '4.2!11630'}
+2025-06-26 15:40:48,376 - breeze_sdk_api - INFO - Got token name for NTPC: 4.1!11630
+2025-06-26 15:40:48,741 - __main__ - INFO - Periodic monitoring check at price: 337.15
+2025-06-26 15:40:48,741 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-06-26 15:41:18,868 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'NTPC', 'isec_stock_code': 'NTPC', 'isec_token': '11630', 'company name': 'NTPC LIMITED', 'isec_token_level1': '4.1!11630', 'isec_token_level2': '4.2!11630'}
+2025-06-26 15:41:18,868 - breeze_sdk_api - INFO - Got token name for NTPC: 4.1!11630
+2025-06-26 15:41:19,134 - __main__ - INFO - Periodic monitoring check at price: 337.15
+2025-06-26 15:41:19,134 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-06-26 15:41:49,321 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'NTPC', 'isec_stock_code': 'NTPC', 'isec_token': '11630', 'company name': 'NTPC LIMITED', 'isec_token_level1': '4.1!11630', 'isec_token_level2': '4.2!11630'}
+2025-06-26 15:41:49,321 - breeze_sdk_api - INFO - Got token name for NTPC: 4.1!11630
+2025-06-26 15:41:49,596 - __main__ - INFO - Periodic monitoring check at price: 337.15
+2025-06-26 15:41:49,596 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-06-26 15:42:19,721 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'NTPC', 'isec_stock_code': 'NTPC', 'isec_token': '11630', 'company name': 'NTPC LIMITED', 'isec_token_level1': '4.1!11630', 'isec_token_level2': '4.2!11630'}
+2025-06-26 15:42:19,722 - breeze_sdk_api - INFO - Got token name for NTPC: 4.1!11630
+2025-06-26 15:42:20,023 - __main__ - INFO - Periodic monitoring check at price: 337.15
+2025-06-26 15:42:20,023 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-06-26 15:42:50,166 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'NTPC', 'isec_stock_code': 'NTPC', 'isec_token': '11630', 'company name': 'NTPC LIMITED', 'isec_token_level1': '4.1!11630', 'isec_token_level2': '4.2!11630'}
+2025-06-26 15:42:50,167 - breeze_sdk_api - INFO - Got token name for NTPC: 4.1!11630
+2025-06-26 15:42:50,438 - __main__ - INFO - Periodic monitoring check at price: 337.15
+2025-06-26 15:42:50,438 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-06-26 15:43:20,619 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'NTPC', 'isec_stock_code': 'NTPC', 'isec_token': '11630', 'company name': 'NTPC LIMITED', 'isec_token_level1': '4.1!11630', 'isec_token_level2': '4.2!11630'}
+2025-06-26 15:43:20,620 - breeze_sdk_api - INFO - Got token name for NTPC: 4.1!11630
+2025-06-26 15:43:20,916 - __main__ - INFO - Periodic monitoring check at price: 337.15
+2025-06-26 15:43:20,917 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-06-26 15:43:33,001 - __main__ - INFO - Received interrupt signal. Stopping monitoring...
+2025-06-26 15:43:33,001 - __main__ - INFO - Monitoring stopped by user.
+2025-06-26 15:43:33,001 - __main__ - INFO - Cleaning up WebSocket connection...
+2025-06-26 15:43:33,002 - __main__ - INFO - WebSocket not initialized, skipping cleanup
+2025-06-26 15:43:33,002 - __main__ - INFO - GTT Fall Buy strategy completed.

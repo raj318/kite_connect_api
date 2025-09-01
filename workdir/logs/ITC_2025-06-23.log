@@ -1,0 +1,1229 @@
+2025-06-23 19:05:36,366 - __main__ - INFO - Starting GTT Fall Buy strategy for ITC on NSE
+2025-06-23 19:05:37,591 - breeze_sdk_api - INFO - Successfully initialized Breeze API with credentials
+2025-06-23 19:05:37,591 - __main__ - INFO - Successfully initialized Breeze API
+2025-06-23 19:05:37,730 - __main__ - INFO - Successfully initialized Kite API
+2025-06-23 19:05:37,731 - __main__ - INFO - Will place 1 GTT orders
+2025-06-23 19:05:37,731 - __main__ - INFO - No GTT history file found at workdir\orders\ITC_gtt_history.json. Starting fresh.
+2025-06-23 19:05:37,732 - __main__ - INFO - Found 0 existing GTT orders
+2025-06-23 19:05:37,886 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'ITC', 'isec_stock_code': 'ITC', 'isec_token': '1660', 'company name': 'ITC LIMITED', 'isec_token_level1': '4.1!1660', 'isec_token_level2': '4.2!1660'}
+2025-06-23 19:05:37,887 - breeze_sdk_api - INFO - Got token name for ITC: 4.1!1660
+2025-06-23 19:05:38,173 - __main__ - INFO - Current price for ITC: 413.9
+2025-06-23 19:05:38,173 - __main__ - INFO - Placing GTT order 1: 1 shares @ 409.76 (trigger: 409.66) - 1% drop from entry price
+2025-06-23 19:05:38,407 - __main__ - INFO - Successfully placed GTT order 1: 277630188
+2025-06-23 19:05:38,408 - __main__ - INFO - Total GTT orders placed: 1/1
+2025-06-23 19:05:38,410 - __main__ - INFO - GTT history saved to workdir\orders\ITC_gtt_history.json
+2025-06-23 19:05:38,410 - __main__ - INFO - Total GTT orders in account: 0
+2025-06-23 19:05:38,412 - __main__ - INFO - Starting GTT order monitoring thread
+2025-06-23 19:05:38,413 - __main__ - INFO - GTT order monitoring started.
+2025-06-23 19:05:38,413 - __main__ - INFO - === GTT Order Monitoring Cycle ===
+2025-06-23 19:05:38,413 - __main__ - INFO - Monitoring will automatically stop when market closes for 1 hour.
+2025-06-23 19:05:38,414 - __main__ - INFO - Press Ctrl+C to stop manually.
+2025-06-23 19:05:43,990 - __main__ - INFO - Market hours: CLOSED
+2025-06-23 19:05:43,991 - __main__ - INFO - Market closed cycle 1/12
+2025-06-23 19:05:44,127 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'ITC', 'isec_stock_code': 'ITC', 'isec_token': '1660', 'company name': 'ITC LIMITED', 'isec_token_level1': '4.1!1660', 'isec_token_level2': '4.2!1660'}
+2025-06-23 19:05:44,128 - breeze_sdk_api - INFO - Got token name for ITC: 4.1!1660
+2025-06-23 19:05:44,428 - __main__ - INFO - Current GTT orders in account: 0
+2025-06-23 19:05:44,428 - __main__ - INFO - No shares available for selling
+2025-06-23 19:05:44,429 - __main__ - INFO - === End Monitoring Cycle ===
+2025-06-23 19:07:25,277 - __main__ - INFO - Received interrupt signal. Stopping monitoring...
+2025-06-23 19:07:35,280 - __main__ - INFO - Program terminated by user
+2025-06-23 19:07:40,330 - __main__ - INFO - Starting GTT Fall Buy strategy for ITC on NSE
+2025-06-23 19:07:41,253 - breeze_sdk_api - INFO - Successfully initialized Breeze API with credentials
+2025-06-23 19:07:41,254 - __main__ - INFO - Successfully initialized Breeze API
+2025-06-23 19:07:41,373 - __main__ - INFO - Successfully initialized Kite API
+2025-06-23 19:07:41,373 - __main__ - INFO - Will place 1 GTT orders
+2025-06-23 19:07:41,415 - __main__ - ERROR - Error loading GTT history: Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "c:\Users\pkudithi\OneDrive - NVIDIA Corporation\Documents\GitHub\kiteconnect\code\gtt_fall_buy.py", line 81, in load_gtt_history
+    history_data = json.load(f)
+  File "C:\Users\pkudithi\AppData\Local\Programs\Python\Python310\lib\json\__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "C:\Users\pkudithi\AppData\Local\Programs\Python\Python310\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\pkudithi\AppData\Local\Programs\Python\Python310\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\pkudithi\AppData\Local\Programs\Python\Python310\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+2025-06-23 19:07:41,416 - __main__ - INFO - Found 0 existing GTT orders
+2025-06-23 19:07:41,523 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'ITC', 'isec_stock_code': 'ITC', 'isec_token': '1660', 'company name': 'ITC LIMITED', 'isec_token_level1': '4.1!1660', 'isec_token_level2': '4.2!1660'}
+2025-06-23 19:07:41,523 - breeze_sdk_api - INFO - Got token name for ITC: 4.1!1660
+2025-06-23 19:07:41,746 - __main__ - INFO - Current price for ITC: 413.9
+2025-06-23 19:07:41,746 - __main__ - INFO - Placing GTT order 1: 1 shares @ 409.76 (trigger: 409.66) - 1% drop from entry price
+2025-06-23 19:07:41,980 - __main__ - INFO - Successfully placed GTT order 1: 277630275
+2025-06-23 19:07:41,980 - __main__ - INFO - Total GTT orders placed: 1/1
+2025-06-23 19:07:41,982 - __main__ - INFO - GTT history saved to workdir\orders\ITC_gtt_history.json
+2025-06-23 19:07:41,982 - __main__ - INFO - Total GTT orders in account: 0
+2025-06-23 19:07:41,984 - __main__ - INFO - Starting GTT order monitoring thread
+2025-06-23 19:07:41,984 - __main__ - INFO - GTT order monitoring started.
+2025-06-23 19:07:41,984 - __main__ - INFO - === GTT Order Monitoring Cycle ===
+2025-06-23 19:07:41,984 - __main__ - INFO - Monitoring will automatically stop when market closes for 1 hour.
+2025-06-23 19:07:41,985 - __main__ - INFO - Press Ctrl+C to stop manually.
+2025-06-23 19:07:42,077 - __main__ - INFO - Market hours: CLOSED
+2025-06-23 19:07:42,077 - __main__ - INFO - Market closed cycle 1/12
+2025-06-23 19:07:42,199 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'ITC', 'isec_stock_code': 'ITC', 'isec_token': '1660', 'company name': 'ITC LIMITED', 'isec_token_level1': '4.1!1660', 'isec_token_level2': '4.2!1660'}
+2025-06-23 19:07:42,200 - breeze_sdk_api - INFO - Got token name for ITC: 4.1!1660
+2025-06-23 19:07:42,445 - __main__ - INFO - Current GTT orders in account: 0
+2025-06-23 19:07:42,445 - __main__ - INFO - No shares available for selling
+2025-06-23 19:07:42,446 - __main__ - INFO - === End Monitoring Cycle ===
+2025-06-23 19:07:55,119 - __main__ - INFO - Received interrupt signal. Stopping monitoring...
+2025-06-23 19:08:05,121 - __main__ - INFO - Monitoring stopped by user.
+2025-06-23 19:08:05,121 - __main__ - INFO - Waiting for monitoring thread to finish...
+2025-06-23 19:08:35,129 - __main__ - INFO - GTT Fall Buy strategy completed.
+2025-06-23 19:08:40,398 - __main__ - INFO - Starting GTT Fall Buy strategy for ITC on NSE
+2025-06-23 19:08:41,946 - breeze_sdk_api - INFO - Successfully initialized Breeze API with credentials
+2025-06-23 19:08:41,946 - __main__ - INFO - Successfully initialized Breeze API
+2025-06-23 19:08:42,056 - __main__ - INFO - Successfully initialized Kite API
+2025-06-23 19:08:42,057 - __main__ - INFO - Will place 1 GTT orders
+2025-06-23 19:08:42,058 - __main__ - INFO - Loaded GTT history from workdir\orders\ITC_gtt_history.json: 1 orders
+2025-06-23 19:08:42,059 - __main__ - INFO - Found 1 existing GTT orders
+2025-06-23 19:08:42,178 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'ITC', 'isec_stock_code': 'ITC', 'isec_token': '1660', 'company name': 'ITC LIMITED', 'isec_token_level1': '4.1!1660', 'isec_token_level2': '4.2!1660'}
+2025-06-23 19:08:42,179 - breeze_sdk_api - INFO - Got token name for ITC: 4.1!1660
+2025-06-23 19:08:42,428 - __main__ - INFO - Current price for ITC: 413.9
+2025-06-23 19:08:42,429 - __main__ - INFO - Placing GTT order 1: 1 shares @ 409.76 (trigger: 409.66) - 1% drop from entry price
+2025-06-23 19:08:42,430 - __main__ - INFO - New price 409.76 is similar to existing orders. Skipping this order.
+2025-06-23 19:08:42,430 - __main__ - INFO - Total GTT orders placed: 0/1
+2025-06-23 19:08:42,433 - __main__ - INFO - GTT history saved to workdir\orders\ITC_gtt_history.json
+2025-06-23 19:08:42,433 - __main__ - ERROR - No GTT orders were placed successfully
+2025-06-23 19:08:42,435 - __main__ - INFO - Starting GTT order monitoring thread
+2025-06-23 19:08:42,435 - __main__ - INFO - GTT order monitoring started.
+2025-06-23 19:08:42,436 - __main__ - INFO - === GTT Order Monitoring Cycle ===
+2025-06-23 19:08:42,436 - __main__ - INFO - Monitoring will automatically stop when market closes for 1 hour.
+2025-06-23 19:08:42,437 - __main__ - INFO - Press Ctrl+C to stop manually.
+2025-06-23 19:08:42,539 - __main__ - INFO - Market hours: CLOSED
+2025-06-23 19:08:42,540 - __main__ - INFO - Market closed cycle 1/12
+2025-06-23 19:08:42,666 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'ITC', 'isec_stock_code': 'ITC', 'isec_token': '1660', 'company name': 'ITC LIMITED', 'isec_token_level1': '4.1!1660', 'isec_token_level2': '4.2!1660'}
+2025-06-23 19:08:42,666 - breeze_sdk_api - INFO - Got token name for ITC: 4.1!1660
+2025-06-23 19:08:43,494 - __main__ - INFO - Current GTT orders in account: 0
+2025-06-23 19:08:43,494 - __main__ - INFO - No shares available for selling
+2025-06-23 19:08:43,494 - __main__ - INFO - === End Monitoring Cycle ===
+2025-06-23 19:09:31,397 - __main__ - INFO - Received interrupt signal. Stopping monitoring...
+2025-06-23 19:09:41,409 - __main__ - INFO - Monitoring stopped by user.
+2025-06-23 19:09:41,409 - __main__ - INFO - Waiting for monitoring thread to finish...
+2025-06-23 19:10:11,412 - __main__ - INFO - GTT Fall Buy strategy completed.
+2025-06-23 19:20:31,087 - __main__ - INFO - Starting GTT Fall Buy strategy for ITC on NSE
+2025-06-23 19:20:33,370 - breeze_sdk_api - INFO - Successfully initialized Breeze API with credentials
+2025-06-23 19:20:33,371 - __main__ - INFO - Successfully initialized Breeze API
+2025-06-23 19:20:33,513 - __main__ - INFO - Successfully initialized Kite API
+2025-06-23 19:20:33,514 - __main__ - INFO - Will place 1 GTT orders
+2025-06-23 19:20:33,528 - __main__ - INFO - Loaded GTT history from workdir\orders\ITC_gtt_history.json: 1 orders
+2025-06-23 19:20:33,529 - __main__ - INFO - Found 1 existing GTT orders
+2025-06-23 19:20:33,662 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'ITC', 'isec_stock_code': 'ITC', 'isec_token': '1660', 'company name': 'ITC LIMITED', 'isec_token_level1': '4.1!1660', 'isec_token_level2': '4.2!1660'}
+2025-06-23 19:20:33,663 - breeze_sdk_api - INFO - Got token name for ITC: 4.1!1660
+2025-06-23 19:20:33,909 - __main__ - INFO - Current price for ITC: 413.9
+2025-06-23 19:20:33,909 - __main__ - INFO - Placing GTT order 1: 1 shares @ 413.69 (trigger: 413.59) - 1% drop from entry
+2025-06-23 19:20:33,910 - __main__ - INFO - New price 413.69 is similar to existing orders. Skipping this order.
+2025-06-23 19:20:33,910 - __main__ - INFO - Total GTT orders placed: 0/1
+2025-06-23 19:20:33,912 - __main__ - INFO - GTT history saved to workdir\orders\ITC_gtt_history.json
+2025-06-23 19:20:33,912 - __main__ - ERROR - No GTT orders were placed successfully
+2025-06-23 19:20:33,914 - __main__ - INFO - Starting GTT order monitoring thread
+2025-06-23 19:20:33,914 - __main__ - INFO - GTT order monitoring started.
+2025-06-23 19:20:33,914 - __main__ - INFO - === GTT Order Monitoring Cycle ===
+2025-06-23 19:20:33,915 - __main__ - INFO - Monitoring will automatically stop when market closes for 1 hour.
+2025-06-23 19:20:33,915 - __main__ - INFO - Press Ctrl+C to stop manually.
+2025-06-23 19:20:36,699 - __main__ - INFO - Market hours: CLOSED
+2025-06-23 19:20:36,699 - __main__ - INFO - Market closed cycle 1/12
+2025-06-23 19:20:36,793 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'ITC', 'isec_stock_code': 'ITC', 'isec_token': '1660', 'company name': 'ITC LIMITED', 'isec_token_level1': '4.1!1660', 'isec_token_level2': '4.2!1660'}
+2025-06-23 19:20:36,794 - breeze_sdk_api - INFO - Got token name for ITC: 4.1!1660
+2025-06-23 19:20:37,028 - __main__ - INFO - Current GTT orders in account: 0
+2025-06-23 19:20:37,028 - __main__ - INFO - Active buy orders for ITC: 0
+2025-06-23 19:20:37,029 - __main__ - INFO - Need to place 5 more buy orders to maintain 5 active orders
+2025-06-23 19:20:37,029 - __main__ - WARNING - No active buy orders found, cannot determine price for new orders
+2025-06-23 19:20:37,029 - __main__ - INFO - No shares available for selling
+2025-06-23 19:20:37,030 - __main__ - INFO - === End Monitoring Cycle ===
+2025-06-23 19:21:18,767 - __main__ - INFO - Received interrupt signal. Stopping monitoring...
+2025-06-23 19:21:28,780 - __main__ - INFO - Monitoring stopped by user.
+2025-06-23 19:21:28,780 - __main__ - INFO - Waiting for monitoring thread to finish...
+2025-06-23 19:21:58,790 - __main__ - INFO - GTT Fall Buy strategy completed.
+2025-06-23 20:19:36,258 - __main__ - INFO - Starting GTT Fall Buy strategy for ITC on NSE
+2025-06-23 20:19:38,067 - breeze_sdk_api - INFO - Successfully initialized Breeze API with credentials
+2025-06-23 20:19:38,068 - __main__ - INFO - Successfully initialized Breeze API
+2025-06-23 20:19:38,236 - __main__ - INFO - Successfully initialized Kite API
+2025-06-23 20:19:38,237 - __main__ - INFO - Will place 1 GTT orders
+2025-06-23 20:19:38,249 - __main__ - INFO - Loaded GTT history from workdir\orders\ITC_gtt_history.json: 1 orders
+2025-06-23 20:19:38,250 - __main__ - INFO - Found 1 existing GTT orders
+2025-06-23 20:19:38,440 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'ITC', 'isec_stock_code': 'ITC', 'isec_token': '1660', 'company name': 'ITC LIMITED', 'isec_token_level1': '4.1!1660', 'isec_token_level2': '4.2!1660'}
+2025-06-23 20:19:38,441 - breeze_sdk_api - INFO - Got token name for ITC: 4.1!1660
+2025-06-23 20:19:38,758 - __main__ - INFO - Current price for ITC: 413.9
+2025-06-23 20:19:38,759 - __main__ - INFO - Found existing orders. Lowest active order price: 409.76099999999997
+2025-06-23 20:19:38,759 - __main__ - INFO - Continuing fall buy strategy from existing order price: 409.76099999999997
+2025-06-23 20:19:38,760 - __main__ - INFO - Placing GTT order 1: 1 shares @ 405.66 (trigger: 405.56) - 1% drop from entry
+2025-06-23 20:19:38,760 - __main__ - INFO - New price 405.66 is similar to existing orders. Skipping this order.
+2025-06-23 20:19:38,760 - __main__ - INFO - Total GTT orders placed: 0/1
+2025-06-23 20:19:38,762 - __main__ - INFO - GTT history saved to workdir\orders\ITC_gtt_history.json
+2025-06-23 20:19:38,763 - __main__ - ERROR - No GTT orders were placed successfully
+2025-06-23 20:19:38,765 - __main__ - INFO - Starting GTT order monitoring thread
+2025-06-23 20:19:38,765 - __main__ - INFO - GTT order monitoring started.
+2025-06-23 20:19:38,765 - __main__ - INFO - === GTT Order Monitoring Cycle ===
+2025-06-23 20:19:38,766 - __main__ - INFO - Monitoring will automatically stop when market closes for 1 hour.
+2025-06-23 20:19:38,767 - __main__ - INFO - Press Ctrl+C to stop manually.
+2025-06-23 20:19:41,472 - __main__ - INFO - Market hours: CLOSED
+2025-06-23 20:19:41,473 - __main__ - INFO - Market closed cycle 1/12
+2025-06-23 20:19:41,580 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'ITC', 'isec_stock_code': 'ITC', 'isec_token': '1660', 'company name': 'ITC LIMITED', 'isec_token_level1': '4.1!1660', 'isec_token_level2': '4.2!1660'}
+2025-06-23 20:19:41,580 - breeze_sdk_api - INFO - Got token name for ITC: 4.1!1660
+2025-06-23 20:19:41,828 - __main__ - INFO - Current GTT orders in account: 0
+2025-06-23 20:19:41,828 - __main__ - INFO - Active buy orders for ITC: 0
+2025-06-23 20:19:41,828 - __main__ - INFO - Need to place 5 more buy orders to maintain 5 active orders
+2025-06-23 20:19:41,829 - __main__ - WARNING - No active buy orders found, cannot determine price for new orders
+2025-06-23 20:19:41,829 - __main__ - INFO - No shares available for selling
+2025-06-23 20:19:41,829 - __main__ - INFO - === End Monitoring Cycle ===
+2025-06-23 20:21:04,645 - __main__ - INFO - Received interrupt signal. Stopping monitoring...
+2025-06-23 20:21:14,656 - __main__ - INFO - Monitoring stopped by user.
+2025-06-23 20:21:14,656 - __main__ - INFO - Waiting for monitoring thread to finish...
+2025-06-23 20:21:44,665 - __main__ - INFO - GTT Fall Buy strategy completed.
+2025-06-23 20:26:08,108 - __main__ - INFO - Starting GTT Fall Buy strategy for ITC on NSE
+2025-06-23 20:26:09,090 - breeze_sdk_api - INFO - Successfully initialized Breeze API with credentials
+2025-06-23 20:26:09,091 - __main__ - INFO - Successfully initialized Breeze API
+2025-06-23 20:26:09,223 - __main__ - INFO - Successfully initialized Kite API
+2025-06-23 20:26:09,223 - __main__ - INFO - Will place 1 GTT orders
+2025-06-23 20:26:09,225 - __main__ - INFO - Loaded GTT history from workdir\orders\ITC_gtt_history.json: 1 orders
+2025-06-23 20:26:09,226 - __main__ - INFO - Found 1 existing GTT orders
+2025-06-23 20:26:09,366 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'ITC', 'isec_stock_code': 'ITC', 'isec_token': '1660', 'company name': 'ITC LIMITED', 'isec_token_level1': '4.1!1660', 'isec_token_level2': '4.2!1660'}
+2025-06-23 20:26:09,366 - breeze_sdk_api - INFO - Got token name for ITC: 4.1!1660
+2025-06-23 20:26:09,613 - __main__ - INFO - Current price for ITC: 413.9
+2025-06-23 20:26:09,613 - __main__ - INFO - Found existing orders. Lowest active order price: 409.76099999999997
+2025-06-23 20:26:09,614 - __main__ - INFO - Continuing fall buy strategy from existing order price: 409.76099999999997
+2025-06-23 20:26:09,614 - __main__ - INFO - Placing GTT order 1: 1 shares @ 405.66 (trigger: 405.56) - 1% drop from entry
+2025-06-23 20:26:09,892 - __main__ - INFO - Successfully placed GTT order 1: 277633908
+2025-06-23 20:26:09,892 - __main__ - INFO - Total GTT orders placed: 1/1
+2025-06-23 20:26:09,894 - __main__ - INFO - GTT history saved to workdir\orders\ITC_gtt_history.json
+2025-06-23 20:26:09,895 - __main__ - INFO - Total GTT orders in account: 0
+2025-06-23 20:26:09,896 - __main__ - INFO - Starting GTT order monitoring thread
+2025-06-23 20:26:09,896 - __main__ - INFO - GTT order monitoring started.
+2025-06-23 20:26:09,896 - __main__ - INFO - === GTT Order Monitoring Cycle ===
+2025-06-23 20:26:09,897 - __main__ - INFO - Monitoring will automatically stop when market closes for 1 hour.
+2025-06-23 20:26:09,898 - __main__ - INFO - Press Ctrl+C to stop manually.
+2025-06-23 20:26:10,013 - __main__ - INFO - Market hours: CLOSED
+2025-06-23 20:26:10,013 - __main__ - INFO - Market closed cycle 1/12
+2025-06-23 20:26:10,134 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'ITC', 'isec_stock_code': 'ITC', 'isec_token': '1660', 'company name': 'ITC LIMITED', 'isec_token_level1': '4.1!1660', 'isec_token_level2': '4.2!1660'}
+2025-06-23 20:26:10,134 - breeze_sdk_api - INFO - Got token name for ITC: 4.1!1660
+2025-06-23 20:26:10,366 - __main__ - INFO - Current GTT orders in account: 0
+2025-06-23 20:26:10,367 - __main__ - INFO - Active buy orders for ITC: 0
+2025-06-23 20:26:10,367 - __main__ - INFO - Need to place 5 more buy orders to maintain 5 active orders
+2025-06-23 20:26:10,367 - __main__ - WARNING - No active buy orders found, cannot determine price for new orders
+2025-06-23 20:26:10,368 - __main__ - INFO - No shares available for selling
+2025-06-23 20:26:10,368 - __main__ - INFO - === End Monitoring Cycle ===
+2025-06-23 20:28:12,026 - __main__ - INFO - Received interrupt signal. Stopping monitoring...
+2025-06-23 20:28:22,039 - __main__ - INFO - Monitoring stopped by user.
+2025-06-23 20:28:22,039 - __main__ - INFO - Waiting for monitoring thread to finish...
+2025-06-23 20:28:52,042 - __main__ - INFO - GTT Fall Buy strategy completed.
+2025-06-23 20:39:14,573 - __main__ - INFO - Starting GTT Fall Buy strategy for ITC on NSE
+2025-06-23 20:39:16,235 - breeze_sdk_api - INFO - Successfully initialized Breeze API with credentials
+2025-06-23 20:39:16,235 - __main__ - INFO - Successfully initialized Breeze API
+2025-06-23 20:39:16,396 - __main__ - INFO - Successfully initialized Kite API
+2025-06-23 20:39:16,397 - __main__ - INFO - Will place 1 GTT orders
+2025-06-23 20:39:16,399 - __main__ - INFO - Loaded GTT history from workdir\orders\ITC_gtt_history.json: 1 orders
+2025-06-23 20:39:16,399 - __main__ - INFO - Found 1 existing GTT orders
+2025-06-23 20:39:16,542 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'ITC', 'isec_stock_code': 'ITC', 'isec_token': '1660', 'company name': 'ITC LIMITED', 'isec_token_level1': '4.1!1660', 'isec_token_level2': '4.2!1660'}
+2025-06-23 20:39:16,542 - breeze_sdk_api - INFO - Got token name for ITC: 4.1!1660
+2025-06-23 20:39:16,816 - __main__ - INFO - Current price for ITC: 413.9
+2025-06-23 20:39:16,816 - __main__ - INFO - Found 1 existing orders. Lowest active order price: 409.76099999999997
+2025-06-23 20:39:16,817 - __main__ - INFO - Continuing fall buy strategy from existing order price: 409.76099999999997
+2025-06-23 20:39:16,817 - __main__ - INFO - Placing GTT order 2: 2 shares @ 405.66 (trigger: 405.56) - 2% drop from entry
+2025-06-23 20:39:17,019 - __main__ - INFO - Successfully placed GTT order 2: 277634700
+2025-06-23 20:39:17,020 - __main__ - INFO - Total GTT orders placed: 1/1
+2025-06-23 20:39:17,022 - __main__ - INFO - GTT history saved to workdir\orders\ITC_gtt_history.json
+2025-06-23 20:39:17,023 - __main__ - INFO - Total GTT orders in account: 0
+2025-06-23 20:39:17,025 - __main__ - INFO - Starting GTT order monitoring thread
+2025-06-23 20:39:17,025 - __main__ - INFO - GTT order monitoring started.
+2025-06-23 20:39:17,026 - __main__ - INFO - === GTT Order Monitoring Cycle ===
+2025-06-23 20:39:17,027 - __main__ - INFO - Monitoring will automatically stop when market closes for 1 hour.
+2025-06-23 20:39:17,028 - __main__ - INFO - Press Ctrl+C to stop manually.
+2025-06-23 20:39:21,837 - __main__ - INFO - Market hours: CLOSED
+2025-06-23 20:39:21,838 - __main__ - INFO - Market closed cycle 1/12
+2025-06-23 20:39:21,962 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'ITC', 'isec_stock_code': 'ITC', 'isec_token': '1660', 'company name': 'ITC LIMITED', 'isec_token_level1': '4.1!1660', 'isec_token_level2': '4.2!1660'}
+2025-06-23 20:39:21,962 - breeze_sdk_api - INFO - Got token name for ITC: 4.1!1660
+2025-06-23 20:39:22,235 - __main__ - INFO - Current GTT orders in account: 0
+2025-06-23 20:39:22,235 - __main__ - INFO - Active buy orders for ITC: 0
+2025-06-23 20:39:22,235 - __main__ - INFO - Need to place 5 more buy orders to maintain 5 active orders
+2025-06-23 20:39:22,236 - __main__ - WARNING - No active buy orders found, cannot determine price for new orders
+2025-06-23 20:39:22,236 - __main__ - INFO - No shares available for selling
+2025-06-23 20:39:22,236 - __main__ - INFO - === End Monitoring Cycle ===
+2025-06-23 20:39:47,686 - __main__ - INFO - Received interrupt signal. Stopping monitoring...
+2025-06-23 20:39:57,687 - __main__ - INFO - Program terminated by user
+2025-06-23 20:40:16,411 - __main__ - INFO - Starting GTT Fall Buy strategy for ITC on NSE
+2025-06-23 20:40:17,644 - breeze_sdk_api - INFO - Successfully initialized Breeze API with credentials
+2025-06-23 20:40:17,681 - __main__ - INFO - Successfully initialized Breeze API
+2025-06-23 20:40:18,114 - __main__ - INFO - Successfully initialized Kite API
+2025-06-23 20:40:18,115 - __main__ - INFO - Will place 1 GTT orders
+2025-06-23 20:40:18,119 - __main__ - INFO - Loaded GTT history from workdir\orders\ITC_gtt_history.json: 1 orders
+2025-06-23 20:40:18,120 - __main__ - INFO - Found 1 existing GTT orders
+2025-06-23 20:40:18,632 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'ITC', 'isec_stock_code': 'ITC', 'isec_token': '1660', 'company name': 'ITC LIMITED', 'isec_token_level1': '4.1!1660', 'isec_token_level2': '4.2!1660'}
+2025-06-23 20:40:18,633 - breeze_sdk_api - INFO - Got token name for ITC: 4.1!1660
+2025-06-23 20:40:19,114 - __main__ - INFO - Current price for ITC: 413.9
+2025-06-23 20:40:19,114 - __main__ - INFO - Found 1 existing orders. Lowest active order price: 409.76099999999997
+2025-06-23 20:40:19,115 - __main__ - INFO - Continuing fall buy strategy from existing order price: 409.76099999999997
+2025-06-23 20:40:19,115 - __main__ - INFO - Placing GTT order 2: 2 shares @ 405.66 (trigger: 405.56) - 2% drop from entry
+2025-06-23 20:40:19,381 - __main__ - INFO - Successfully placed GTT order 2: 277634761
+2025-06-23 20:40:19,382 - __main__ - INFO - Total GTT orders placed: 1/1
+2025-06-23 20:40:19,384 - __main__ - INFO - GTT history saved to workdir\orders\ITC_gtt_history.json
+2025-06-23 20:40:19,385 - __main__ - INFO - Total GTT orders in account: 0
+2025-06-23 20:40:19,388 - __main__ - INFO - Starting GTT order monitoring thread
+2025-06-23 20:40:19,388 - __main__ - INFO - GTT order monitoring started.
+2025-06-23 20:40:19,389 - __main__ - INFO - === GTT Order Monitoring Cycle ===
+2025-06-23 20:40:19,389 - __main__ - INFO - Monitoring will automatically stop when market closes for 1 hour.
+2025-06-23 20:40:19,390 - __main__ - INFO - Press Ctrl+C to stop manually.
+2025-06-23 20:40:19,657 - __main__ - INFO - Market hours: CLOSED
+2025-06-23 20:40:19,658 - __main__ - INFO - Market closed cycle 1/12
+2025-06-23 20:40:19,872 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'ITC', 'isec_stock_code': 'ITC', 'isec_token': '1660', 'company name': 'ITC LIMITED', 'isec_token_level1': '4.1!1660', 'isec_token_level2': '4.2!1660'}
+2025-06-23 20:40:19,873 - breeze_sdk_api - INFO - Got token name for ITC: 4.1!1660
+2025-06-23 20:40:20,226 - __main__ - INFO - Current GTT orders in account: 0
+2025-06-23 20:40:20,227 - __main__ - INFO - Active buy orders for ITC: 0
+2025-06-23 20:40:20,227 - __main__ - INFO - Need to place 5 more buy orders to maintain 5 active orders
+2025-06-23 20:40:20,228 - __main__ - WARNING - No active buy orders found, cannot determine price for new orders
+2025-06-23 20:40:20,228 - __main__ - INFO - No shares available for selling
+2025-06-23 20:40:20,229 - __main__ - INFO - === End Monitoring Cycle ===
+2025-06-23 20:41:00,916 - __main__ - INFO - Received interrupt signal. Stopping monitoring...
+2025-06-23 20:41:10,923 - __main__ - INFO - Monitoring stopped by user.
+2025-06-23 20:41:10,923 - __main__ - INFO - Waiting for monitoring thread to finish...
+2025-06-23 20:41:40,936 - __main__ - INFO - Program terminated by user
+2025-06-23 20:42:13,210 - __main__ - INFO - Starting GTT Fall Buy strategy for ITC on NSE
+2025-06-23 20:42:14,137 - breeze_sdk_api - INFO - Successfully initialized Breeze API with credentials
+2025-06-23 20:42:14,137 - __main__ - INFO - Successfully initialized Breeze API
+2025-06-23 20:42:14,259 - __main__ - INFO - Successfully initialized Kite API
+2025-06-23 20:42:14,259 - __main__ - INFO - Will place 1 GTT orders
+2025-06-23 20:42:14,292 - __main__ - ERROR - Error loading GTT history: Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "c:\Users\pkudithi\OneDrive - NVIDIA Corporation\Documents\GitHub\kiteconnect\code\gtt_fall_buy.py", line 81, in load_gtt_history
+    history_data = json.load(f)
+  File "C:\Users\pkudithi\AppData\Local\Programs\Python\Python310\lib\json\__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "C:\Users\pkudithi\AppData\Local\Programs\Python\Python310\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\pkudithi\AppData\Local\Programs\Python\Python310\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\pkudithi\AppData\Local\Programs\Python\Python310\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+2025-06-23 20:42:14,293 - __main__ - INFO - Found 0 existing GTT orders
+2025-06-23 20:42:14,414 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'ITC', 'isec_stock_code': 'ITC', 'isec_token': '1660', 'company name': 'ITC LIMITED', 'isec_token_level1': '4.1!1660', 'isec_token_level2': '4.2!1660'}
+2025-06-23 20:42:14,414 - breeze_sdk_api - INFO - Got token name for ITC: 4.1!1660
+2025-06-23 20:42:14,665 - __main__ - INFO - Current price for ITC: 413.9
+2025-06-23 20:42:14,666 - __main__ - INFO - Starting fresh fall buy strategy from current price: 413.9
+2025-06-23 20:42:14,666 - __main__ - INFO - Placing GTT order 1: 1 shares @ 413.69 (trigger: 413.59) - 1% drop from entry
+2025-06-23 20:42:14,881 - __main__ - INFO - Successfully placed GTT order 1: 277634870
+2025-06-23 20:42:14,881 - __main__ - INFO - Total GTT orders placed: 1/1
+2025-06-23 20:42:14,882 - __main__ - INFO - GTT history saved to workdir\orders\ITC_gtt_history.json
+2025-06-23 20:42:14,883 - __main__ - INFO - Total GTT orders in account: 0
+2025-06-23 20:42:14,884 - __main__ - INFO - Starting GTT order monitoring thread
+2025-06-23 20:42:14,884 - __main__ - INFO - GTT order monitoring started.
+2025-06-23 20:42:14,884 - __main__ - INFO - === GTT Order Monitoring Cycle ===
+2025-06-23 20:42:14,885 - __main__ - INFO - Monitoring will automatically stop when market closes for 1 hour.
+2025-06-23 20:42:14,885 - __main__ - INFO - Press Ctrl+C to stop manually.
+2025-06-23 20:42:14,978 - __main__ - INFO - Market hours: CLOSED
+2025-06-23 20:42:14,978 - __main__ - INFO - Market closed cycle 1/12
+2025-06-23 20:42:15,095 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'ITC', 'isec_stock_code': 'ITC', 'isec_token': '1660', 'company name': 'ITC LIMITED', 'isec_token_level1': '4.1!1660', 'isec_token_level2': '4.2!1660'}
+2025-06-23 20:42:15,096 - breeze_sdk_api - INFO - Got token name for ITC: 4.1!1660
+2025-06-23 20:42:15,368 - __main__ - WARNING - Could not get current price. Skipping this cycle.
+2025-06-23 20:42:31,412 - __main__ - INFO - Received interrupt signal. Stopping monitoring...
+2025-06-23 20:42:41,425 - __main__ - INFO - Program terminated by user
+2025-06-23 20:42:55,454 - __main__ - INFO - Starting GTT Fall Buy strategy for ITC on NSE
+2025-06-23 20:42:57,425 - breeze_sdk_api - INFO - Successfully initialized Breeze API with credentials
+2025-06-23 20:42:57,426 - __main__ - INFO - Successfully initialized Breeze API
+2025-06-23 20:42:57,559 - __main__ - INFO - Successfully initialized Kite API
+2025-06-23 20:42:57,560 - __main__ - INFO - Will place 1 GTT orders
+2025-06-23 20:42:57,564 - __main__ - ERROR - Error loading GTT history: Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "c:\Users\pkudithi\OneDrive - NVIDIA Corporation\Documents\GitHub\kiteconnect\code\gtt_fall_buy.py", line 81, in load_gtt_history
+    history_data = json.load(f)
+  File "C:\Users\pkudithi\AppData\Local\Programs\Python\Python310\lib\json\__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "C:\Users\pkudithi\AppData\Local\Programs\Python\Python310\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\pkudithi\AppData\Local\Programs\Python\Python310\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\pkudithi\AppData\Local\Programs\Python\Python310\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+2025-06-23 20:42:57,565 - __main__ - INFO - Found 0 existing GTT orders
+2025-06-23 20:42:57,740 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'ITC', 'isec_stock_code': 'ITC', 'isec_token': '1660', 'company name': 'ITC LIMITED', 'isec_token_level1': '4.1!1660', 'isec_token_level2': '4.2!1660'}
+2025-06-23 20:42:57,741 - breeze_sdk_api - INFO - Got token name for ITC: 4.1!1660
+2025-06-23 20:42:58,012 - __main__ - INFO - Current price for ITC: 413.9
+2025-06-23 20:42:58,013 - __main__ - INFO - Starting fresh fall buy strategy from current price: 413.9
+2025-06-23 20:42:58,013 - __main__ - INFO - Placing GTT order 1: 1 shares @ 413.69 (trigger: 413.59) - 1% drop from entry
+2025-06-23 20:42:58,279 - __main__ - INFO - Successfully placed GTT order 1: 277634911
+2025-06-23 20:42:58,280 - __main__ - INFO - Total GTT orders placed: 1/1
+2025-06-23 20:42:58,282 - __main__ - INFO - GTT history saved to workdir\orders\ITC_gtt_history.json
+2025-06-23 20:42:58,282 - __main__ - INFO - Total GTT orders in account: 0
+2025-06-23 20:42:58,285 - __main__ - INFO - Starting GTT order monitoring thread
+2025-06-23 20:42:58,285 - __main__ - INFO - GTT order monitoring started.
+2025-06-23 20:42:58,285 - __main__ - INFO - === GTT Order Monitoring Cycle ===
+2025-06-23 20:42:58,286 - __main__ - INFO - Monitoring will automatically stop when market closes for 1 hour.
+2025-06-23 20:42:58,287 - __main__ - INFO - Press Ctrl+C to stop manually.
+2025-06-23 20:42:58,412 - __main__ - INFO - Market hours: CLOSED
+2025-06-23 20:42:58,412 - __main__ - INFO - Market closed cycle 1/12
+2025-06-23 20:42:58,563 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'ITC', 'isec_stock_code': 'ITC', 'isec_token': '1660', 'company name': 'ITC LIMITED', 'isec_token_level1': '4.1!1660', 'isec_token_level2': '4.2!1660'}
+2025-06-23 20:42:58,564 - breeze_sdk_api - INFO - Got token name for ITC: 4.1!1660
+2025-06-23 20:42:59,425 - __main__ - INFO - Current GTT orders in account: 0
+2025-06-23 20:42:59,426 - __main__ - INFO - Active buy orders for ITC: 0
+2025-06-23 20:42:59,426 - __main__ - INFO - Need to place 5 more buy orders to maintain 5 active orders
+2025-06-23 20:42:59,427 - __main__ - WARNING - No active buy orders found, cannot determine price for new orders
+2025-06-23 20:42:59,427 - __main__ - INFO - No shares available for selling
+2025-06-23 20:42:59,427 - __main__ - INFO - === End Monitoring Cycle ===
+2025-06-23 20:47:59,437 - __main__ - INFO - === GTT Order Monitoring Cycle ===
+2025-06-23 20:47:59,437 - __main__ - INFO - Market hours: CLOSED
+2025-06-23 20:47:59,438 - __main__ - INFO - Market closed cycle 2/12
+2025-06-23 20:47:59,533 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'ITC', 'isec_stock_code': 'ITC', 'isec_token': '1660', 'company name': 'ITC LIMITED', 'isec_token_level1': '4.1!1660', 'isec_token_level2': '4.2!1660'}
+2025-06-23 20:47:59,533 - breeze_sdk_api - INFO - Got token name for ITC: 4.1!1660
+2025-06-23 20:47:59,779 - __main__ - INFO - Current GTT orders in account: 0
+2025-06-23 20:47:59,780 - __main__ - INFO - Active buy orders for ITC: 0
+2025-06-23 20:47:59,780 - __main__ - INFO - Need to place 5 more buy orders to maintain 5 active orders
+2025-06-23 20:47:59,780 - __main__ - WARNING - No active buy orders found, cannot determine price for new orders
+2025-06-23 20:47:59,780 - __main__ - INFO - No shares available for selling
+2025-06-23 20:47:59,781 - __main__ - INFO - === End Monitoring Cycle ===
+2025-06-23 20:52:59,786 - __main__ - INFO - === GTT Order Monitoring Cycle ===
+2025-06-23 20:52:59,786 - __main__ - INFO - Market hours: CLOSED
+2025-06-23 20:52:59,787 - __main__ - INFO - Market closed cycle 3/12
+2025-06-23 20:52:59,937 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'ITC', 'isec_stock_code': 'ITC', 'isec_token': '1660', 'company name': 'ITC LIMITED', 'isec_token_level1': '4.1!1660', 'isec_token_level2': '4.2!1660'}
+2025-06-23 20:52:59,938 - breeze_sdk_api - INFO - Got token name for ITC: 4.1!1660
+2025-06-23 20:53:00,230 - __main__ - INFO - Current GTT orders in account: 0
+2025-06-23 20:53:00,230 - __main__ - INFO - Active buy orders for ITC: 0
+2025-06-23 20:53:00,231 - __main__ - INFO - Need to place 5 more buy orders to maintain 5 active orders
+2025-06-23 20:53:00,231 - __main__ - WARNING - No active buy orders found, cannot determine price for new orders
+2025-06-23 20:53:00,231 - __main__ - INFO - No shares available for selling
+2025-06-23 20:53:00,231 - __main__ - INFO - === End Monitoring Cycle ===
+2025-06-23 20:58:00,246 - __main__ - INFO - === GTT Order Monitoring Cycle ===
+2025-06-23 20:58:00,246 - __main__ - INFO - Market hours: CLOSED
+2025-06-23 20:58:00,247 - __main__ - INFO - Market closed cycle 4/12
+2025-06-23 20:58:00,348 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'ITC', 'isec_stock_code': 'ITC', 'isec_token': '1660', 'company name': 'ITC LIMITED', 'isec_token_level1': '4.1!1660', 'isec_token_level2': '4.2!1660'}
+2025-06-23 20:58:00,349 - breeze_sdk_api - INFO - Got token name for ITC: 4.1!1660
+2025-06-23 20:58:00,597 - __main__ - INFO - Current GTT orders in account: 0
+2025-06-23 20:58:00,597 - __main__ - INFO - Active buy orders for ITC: 0
+2025-06-23 20:58:00,597 - __main__ - INFO - Need to place 5 more buy orders to maintain 5 active orders
+2025-06-23 20:58:00,598 - __main__ - WARNING - No active buy orders found, cannot determine price for new orders
+2025-06-23 20:58:00,598 - __main__ - INFO - No shares available for selling
+2025-06-23 20:58:00,598 - __main__ - INFO - === End Monitoring Cycle ===
+2025-06-23 21:03:00,605 - __main__ - INFO - === GTT Order Monitoring Cycle ===
+2025-06-23 21:03:00,605 - __main__ - INFO - Market hours: CLOSED
+2025-06-23 21:03:00,607 - __main__ - INFO - Market closed cycle 5/12
+2025-06-23 21:03:00,760 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'ITC', 'isec_stock_code': 'ITC', 'isec_token': '1660', 'company name': 'ITC LIMITED', 'isec_token_level1': '4.1!1660', 'isec_token_level2': '4.2!1660'}
+2025-06-23 21:03:00,761 - breeze_sdk_api - INFO - Got token name for ITC: 4.1!1660
+2025-06-23 21:03:01,908 - __main__ - INFO - Current GTT orders in account: 0
+2025-06-23 21:03:01,909 - __main__ - INFO - Active buy orders for ITC: 0
+2025-06-23 21:03:01,909 - __main__ - INFO - Need to place 5 more buy orders to maintain 5 active orders
+2025-06-23 21:03:01,909 - __main__ - WARNING - No active buy orders found, cannot determine price for new orders
+2025-06-23 21:03:01,910 - __main__ - INFO - No shares available for selling
+2025-06-23 21:03:01,910 - __main__ - INFO - === End Monitoring Cycle ===
+2025-06-23 21:08:01,916 - __main__ - INFO - === GTT Order Monitoring Cycle ===
+2025-06-23 21:08:01,917 - __main__ - INFO - Market hours: CLOSED
+2025-06-23 21:08:01,918 - __main__ - INFO - Market closed cycle 6/12
+2025-06-23 21:08:02,024 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'ITC', 'isec_stock_code': 'ITC', 'isec_token': '1660', 'company name': 'ITC LIMITED', 'isec_token_level1': '4.1!1660', 'isec_token_level2': '4.2!1660'}
+2025-06-23 21:08:02,025 - breeze_sdk_api - INFO - Got token name for ITC: 4.1!1660
+2025-06-23 21:08:02,269 - __main__ - INFO - Current GTT orders in account: 0
+2025-06-23 21:08:02,269 - __main__ - INFO - Active buy orders for ITC: 0
+2025-06-23 21:08:02,269 - __main__ - INFO - Need to place 5 more buy orders to maintain 5 active orders
+2025-06-23 21:08:02,269 - __main__ - WARNING - No active buy orders found, cannot determine price for new orders
+2025-06-23 21:08:02,270 - __main__ - INFO - No shares available for selling
+2025-06-23 21:08:02,270 - __main__ - INFO - === End Monitoring Cycle ===
+2025-06-23 21:10:50,121 - __main__ - INFO - Received interrupt signal. Stopping monitoring...
+2025-06-23 21:11:00,128 - __main__ - INFO - Monitoring stopped by user.
+2025-06-23 21:11:00,128 - __main__ - INFO - Waiting for monitoring thread to finish...
+2025-06-23 21:11:30,135 - __main__ - INFO - GTT Fall Buy strategy completed.
+2025-06-23 21:11:51,956 - __main__ - INFO - Starting GTT Fall Buy strategy for ITC on NSE
+2025-06-23 21:11:55,698 - breeze_sdk_api - INFO - Successfully initialized Breeze API with credentials
+2025-06-23 21:11:55,698 - __main__ - INFO - Successfully initialized Breeze API
+2025-06-23 21:11:55,883 - __main__ - INFO - Successfully initialized Kite API
+2025-06-23 21:11:55,883 - __main__ - INFO - Will place 5 GTT orders
+2025-06-23 21:11:55,884 - __main__ - INFO - GTT history file exists but is empty: workdir\orders\ITC_gtt_history.json
+2025-06-23 21:11:55,884 - __main__ - INFO - Found 0 existing GTT orders
+2025-06-23 21:11:55,998 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'ITC', 'isec_stock_code': 'ITC', 'isec_token': '1660', 'company name': 'ITC LIMITED', 'isec_token_level1': '4.1!1660', 'isec_token_level2': '4.2!1660'}
+2025-06-23 21:11:56,000 - breeze_sdk_api - INFO - Got token name for ITC: 4.1!1660
+2025-06-23 21:11:56,280 - __main__ - INFO - Current price for ITC: 413.9
+2025-06-23 21:11:56,281 - __main__ - INFO - Starting fresh fall buy strategy from current price: 413.9
+2025-06-23 21:11:56,282 - __main__ - INFO - Placing GTT order 1: 1 shares @ 413.69 (trigger: 413.59) - 1% drop from entry
+2025-06-23 21:11:56,447 - __main__ - ERROR - Failed to place GTT order 1
+2025-06-23 21:11:56,447 - __main__ - INFO - Placing GTT order 2: 2 shares @ 409.76 (trigger: 409.66) - 2% drop from entry
+2025-06-23 21:11:56,563 - __main__ - INFO - Successfully placed GTT order 2: 277636447
+2025-06-23 21:11:56,563 - __main__ - INFO - Placing GTT order 3: 3 shares @ 405.66 (trigger: 405.56) - 3% drop from entry
+2025-06-23 21:11:56,698 - __main__ - INFO - Successfully placed GTT order 3: 277636448
+2025-06-23 21:11:56,698 - __main__ - INFO - Placing GTT order 4: 4 shares @ 401.61 (trigger: 401.51) - 4% drop from entry
+2025-06-23 21:11:56,824 - __main__ - INFO - Successfully placed GTT order 4: 277636449
+2025-06-23 21:11:56,824 - __main__ - INFO - Placing GTT order 5: 5 shares @ 397.59 (trigger: 397.49) - 5% drop from entry
+2025-06-23 21:11:56,954 - __main__ - INFO - Successfully placed GTT order 5: 277636451
+2025-06-23 21:11:56,954 - __main__ - INFO - Total GTT orders placed: 4/5
+2025-06-23 21:11:56,955 - __main__ - INFO - GTT history saved to workdir\orders\ITC_gtt_history.json
+2025-06-23 21:11:56,956 - __main__ - INFO - Total GTT orders in account: 0
+2025-06-23 21:11:56,957 - __main__ - INFO - Starting GTT order monitoring thread
+2025-06-23 21:11:56,957 - __main__ - INFO - GTT order monitoring started.
+2025-06-23 21:11:56,958 - __main__ - INFO - === GTT Order Monitoring Cycle ===
+2025-06-23 21:11:56,958 - __main__ - INFO - Monitoring will automatically stop when market closes for 1 hour.
+2025-06-23 21:11:56,959 - __main__ - INFO - Press Ctrl+C to stop manually.
+2025-06-23 21:12:00,473 - __main__ - INFO - Market hours: CLOSED
+2025-06-23 21:12:00,473 - __main__ - INFO - Market closed cycle 1/12
+2025-06-23 21:12:00,590 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'ITC', 'isec_stock_code': 'ITC', 'isec_token': '1660', 'company name': 'ITC LIMITED', 'isec_token_level1': '4.1!1660', 'isec_token_level2': '4.2!1660'}
+2025-06-23 21:12:00,590 - breeze_sdk_api - INFO - Got token name for ITC: 4.1!1660
+2025-06-23 21:12:00,831 - __main__ - INFO - Current GTT orders in account: 0
+2025-06-23 21:12:00,832 - __main__ - INFO - Active buy orders for ITC: 0
+2025-06-23 21:12:00,832 - __main__ - INFO - Need to place 5 more buy orders to maintain 5 active orders
+2025-06-23 21:12:00,832 - __main__ - INFO - Current active orders: 0/5
+2025-06-23 21:12:00,832 - __main__ - WARNING - No active buy orders found, cannot determine price for new orders
+2025-06-23 21:12:00,833 - __main__ - INFO - No shares available for selling
+2025-06-23 21:12:00,833 - __main__ - INFO - === End Monitoring Cycle ===
+2025-06-23 21:16:32,740 - __main__ - INFO - Received interrupt signal. Stopping monitoring...
+2025-06-23 21:16:42,751 - __main__ - INFO - Monitoring stopped by user.
+2025-06-23 21:16:42,752 - __main__ - INFO - Waiting for monitoring thread to finish...
+2025-06-23 21:17:00,844 - __main__ - INFO - GTT order monitoring stopped
+2025-06-23 21:17:00,845 - __main__ - INFO - GTT Fall Buy strategy completed.
+2025-06-23 21:17:10,285 - __main__ - INFO - Starting GTT Fall Buy strategy for ITC on NSE
+2025-06-23 21:17:12,848 - breeze_sdk_api - INFO - Successfully initialized Breeze API with credentials
+2025-06-23 21:17:12,849 - __main__ - INFO - Successfully initialized Breeze API
+2025-06-23 21:17:13,003 - __main__ - INFO - Successfully initialized Kite API
+2025-06-23 21:17:13,003 - __main__ - INFO - Will place 5 GTT orders
+2025-06-23 21:17:13,004 - __main__ - INFO - Loaded GTT history from workdir\orders\ITC_gtt_history.json: 4 orders
+2025-06-23 21:17:13,005 - __main__ - INFO - Found 4 existing GTT orders
+2025-06-23 21:17:13,114 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'ITC', 'isec_stock_code': 'ITC', 'isec_token': '1660', 'company name': 'ITC LIMITED', 'isec_token_level1': '4.1!1660', 'isec_token_level2': '4.2!1660'}
+2025-06-23 21:17:13,114 - breeze_sdk_api - INFO - Got token name for ITC: 4.1!1660
+2025-06-23 21:17:13,381 - __main__ - INFO - Current price for ITC: 413.9
+2025-06-23 21:17:13,382 - __main__ - INFO - Found 0 actually active orders on exchange
+2025-06-23 21:17:13,382 - __main__ - INFO - Starting fresh fall buy strategy from current price: 413.9
+2025-06-23 21:17:13,382 - __main__ - INFO - Placing GTT order 1: 1 shares @ 413.49 (trigger: 413.39) - 1% drop from entry
+2025-06-23 21:17:13,531 - __main__ - ERROR - Failed to place GTT order 1
+2025-06-23 21:17:13,532 - __main__ - INFO - Placing GTT order 2: 2 shares @ 409.76 (trigger: 409.66) - 2% drop from entry
+2025-06-23 21:17:13,532 - __main__ - INFO - New price 409.76 is similar to existing orders. Skipping this order.
+2025-06-23 21:17:13,533 - __main__ - INFO - Placing GTT order 3: 3 shares @ 409.76 (trigger: 409.66) - 3% drop from entry
+2025-06-23 21:17:13,533 - __main__ - INFO - New price 409.76 is similar to existing orders. Skipping this order.
+2025-06-23 21:17:13,533 - __main__ - INFO - Placing GTT order 4: 4 shares @ 409.76 (trigger: 409.66) - 4% drop from entry
+2025-06-23 21:17:13,534 - __main__ - INFO - New price 409.76 is similar to existing orders. Skipping this order.
+2025-06-23 21:17:13,534 - __main__ - INFO - Placing GTT order 5: 5 shares @ 409.76 (trigger: 409.66) - 5% drop from entry
+2025-06-23 21:17:13,535 - __main__ - INFO - New price 409.76 is similar to existing orders. Skipping this order.
+2025-06-23 21:17:13,535 - __main__ - INFO - Total GTT orders placed: 0/5
+2025-06-23 21:17:13,536 - __main__ - INFO - GTT history saved to workdir\orders\ITC_gtt_history.json
+2025-06-23 21:17:13,536 - __main__ - ERROR - No GTT orders were placed successfully
+2025-06-23 21:17:13,537 - __main__ - INFO - Starting GTT order monitoring thread
+2025-06-23 21:17:13,537 - __main__ - INFO - GTT order monitoring started.
+2025-06-23 21:17:13,538 - __main__ - INFO - === GTT Order Monitoring Cycle ===
+2025-06-23 21:17:13,538 - __main__ - INFO - Monitoring will automatically stop when market closes for 1 hour.
+2025-06-23 21:17:13,539 - __main__ - INFO - Press Ctrl+C to stop manually.
+2025-06-23 21:17:13,630 - __main__ - INFO - Market hours: CLOSED
+2025-06-23 21:17:13,630 - __main__ - INFO - Market closed cycle 1/12
+2025-06-23 21:17:13,751 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'ITC', 'isec_stock_code': 'ITC', 'isec_token': '1660', 'company name': 'ITC LIMITED', 'isec_token_level1': '4.1!1660', 'isec_token_level2': '4.2!1660'}
+2025-06-23 21:17:13,752 - breeze_sdk_api - INFO - Got token name for ITC: 4.1!1660
+2025-06-23 21:17:14,045 - __main__ - INFO - Current GTT orders in account: 0
+2025-06-23 21:17:14,045 - __main__ - INFO - Active buy orders for ITC: 0
+2025-06-23 21:17:14,046 - __main__ - INFO - Need to place 5 more buy orders to maintain 5 active orders
+2025-06-23 21:17:14,046 - __main__ - INFO - Current active orders: 0/5
+2025-06-23 21:17:14,046 - __main__ - WARNING - No active buy orders found, cannot determine price for new orders
+2025-06-23 21:17:14,046 - __main__ - INFO - No shares available for selling
+2025-06-23 21:17:14,046 - __main__ - INFO - === End Monitoring Cycle ===
+2025-06-23 21:17:24,462 - __main__ - INFO - Received interrupt signal. Stopping monitoring...
+2025-06-23 21:17:34,478 - __main__ - INFO - Monitoring stopped by user.
+2025-06-23 21:17:34,479 - __main__ - INFO - Waiting for monitoring thread to finish...
+2025-06-23 21:18:04,492 - __main__ - INFO - Program terminated by user
+2025-06-23 21:19:03,781 - __main__ - INFO - Starting GTT Fall Buy strategy for ITC on NSE
+2025-06-23 21:19:08,200 - breeze_sdk_api - INFO - Successfully initialized Breeze API with credentials
+2025-06-23 21:19:08,200 - __main__ - INFO - Successfully initialized Breeze API
+2025-06-23 21:19:08,340 - __main__ - INFO - Successfully initialized Kite API
+2025-06-23 21:19:08,341 - __main__ - INFO - Will place 5 GTT orders
+2025-06-23 21:19:08,342 - __main__ - INFO - Loaded GTT history from workdir\orders\ITC_gtt_history.json: 4 orders
+2025-06-23 21:19:08,343 - __main__ - INFO - Found 4 existing GTT orders
+2025-06-23 21:19:08,461 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'ITC', 'isec_stock_code': 'ITC', 'isec_token': '1660', 'company name': 'ITC LIMITED', 'isec_token_level1': '4.1!1660', 'isec_token_level2': '4.2!1660'}
+2025-06-23 21:19:08,462 - breeze_sdk_api - INFO - Got token name for ITC: 4.1!1660
+2025-06-23 21:19:08,792 - __main__ - INFO - Current price for ITC: 413.9
+2025-06-23 21:19:08,794 - __main__ - INFO - Found 0 actually active orders on exchange
+2025-06-23 21:19:08,794 - __main__ - INFO - Starting fresh fall buy strategy from current price: 413.9
+2025-06-23 21:19:08,795 - __main__ - INFO - Placing GTT order 1: 1 shares @ 413.49 (trigger: 413.39) - 1% drop from entry
+2025-06-23 21:19:08,919 - __main__ - ERROR - Failed to place GTT order 1
+2025-06-23 21:19:08,919 - __main__ - INFO - Placing GTT order 2: 2 shares @ 409.76 (trigger: 409.66) - 2% drop from entry
+2025-06-23 21:19:08,919 - __main__ - INFO - New price 409.76 is similar to existing orders. Skipping this order.
+2025-06-23 21:19:08,919 - __main__ - INFO - Placing GTT order 3: 3 shares @ 409.76 (trigger: 409.66) - 3% drop from entry
+2025-06-23 21:19:08,921 - __main__ - INFO - New price 409.76 is similar to existing orders. Skipping this order.
+2025-06-23 21:19:08,921 - __main__ - INFO - Placing GTT order 4: 4 shares @ 409.76 (trigger: 409.66) - 4% drop from entry
+2025-06-23 21:19:08,922 - __main__ - INFO - New price 409.76 is similar to existing orders. Skipping this order.
+2025-06-23 21:19:08,922 - __main__ - INFO - Placing GTT order 5: 5 shares @ 409.76 (trigger: 409.66) - 5% drop from entry
+2025-06-23 21:19:08,923 - __main__ - INFO - New price 409.76 is similar to existing orders. Skipping this order.
+2025-06-23 21:19:08,923 - __main__ - INFO - Total GTT orders placed: 0/5
+2025-06-23 21:19:08,924 - __main__ - INFO - GTT history saved to workdir\orders\ITC_gtt_history.json
+2025-06-23 21:19:08,924 - __main__ - ERROR - No GTT orders were placed successfully
+2025-06-23 21:19:08,925 - __main__ - INFO - Starting GTT order monitoring thread
+2025-06-23 21:19:08,926 - __main__ - INFO - GTT order monitoring started.
+2025-06-23 21:19:08,926 - __main__ - INFO - === GTT Order Monitoring Cycle ===
+2025-06-23 21:19:08,926 - __main__ - INFO - Monitoring will automatically stop when market closes for 1 hour.
+2025-06-23 21:19:08,926 - __main__ - INFO - Press Ctrl+C to stop manually.
+2025-06-23 21:19:09,010 - __main__ - INFO - Market hours: CLOSED
+2025-06-23 21:19:09,010 - __main__ - INFO - Market closed cycle 1/12
+2025-06-23 21:19:09,147 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'ITC', 'isec_stock_code': 'ITC', 'isec_token': '1660', 'company name': 'ITC LIMITED', 'isec_token_level1': '4.1!1660', 'isec_token_level2': '4.2!1660'}
+2025-06-23 21:19:09,147 - breeze_sdk_api - INFO - Got token name for ITC: 4.1!1660
+2025-06-23 21:19:09,447 - __main__ - INFO - Current GTT orders in account: 0
+2025-06-23 21:19:09,447 - __main__ - INFO - Active buy orders for ITC: 0
+2025-06-23 21:19:09,447 - __main__ - INFO - Need to place 5 more buy orders to maintain 5 active orders
+2025-06-23 21:19:09,448 - __main__ - INFO - Current active orders: 0/5
+2025-06-23 21:19:09,448 - __main__ - WARNING - No active buy orders found, cannot determine price for new orders
+2025-06-23 21:19:09,449 - __main__ - INFO - No shares available for selling
+2025-06-23 21:19:09,449 - __main__ - INFO - === End Monitoring Cycle ===
+2025-06-23 21:20:12,384 - __main__ - INFO - Received interrupt signal. Stopping monitoring...
+2025-06-23 21:20:22,391 - __main__ - INFO - Monitoring stopped by user.
+2025-06-23 21:20:22,391 - __main__ - INFO - Waiting for monitoring thread to finish...
+2025-06-23 21:20:52,403 - __main__ - INFO - Program terminated by user
+2025-06-23 21:28:32,410 - __main__ - INFO - Starting GTT Fall Buy strategy for ITC on NSE
+2025-06-23 21:28:34,715 - breeze_sdk_api - INFO - Successfully initialized Breeze API with credentials
+2025-06-23 21:28:34,715 - __main__ - INFO - Successfully initialized Breeze API
+2025-06-23 21:28:34,873 - __main__ - INFO - Successfully initialized Kite API
+2025-06-23 21:28:34,873 - __main__ - INFO - Will place 5 GTT orders
+2025-06-23 21:28:34,874 - __main__ - INFO - GTT history file exists but is empty: workdir\orders\ITC_gtt_history.json
+2025-06-23 21:28:34,874 - __main__ - INFO - Found 0 existing GTT orders
+2025-06-23 21:28:35,001 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'ITC', 'isec_stock_code': 'ITC', 'isec_token': '1660', 'company name': 'ITC LIMITED', 'isec_token_level1': '4.1!1660', 'isec_token_level2': '4.2!1660'}
+2025-06-23 21:28:35,001 - breeze_sdk_api - INFO - Got token name for ITC: 4.1!1660
+2025-06-23 21:28:35,258 - __main__ - INFO - Current price for ITC: 413.9
+2025-06-23 21:28:35,259 - __main__ - INFO - Found 0 actually active orders on exchange
+2025-06-23 21:28:35,259 - __main__ - INFO - Starting fresh fall buy strategy from current price: 413.9
+2025-06-23 21:28:35,259 - __main__ - INFO - Placing GTT order 1: 1 shares @ 413.49 (trigger: 413.39) - 1% drop from entry
+2025-06-23 21:28:35,397 - __main__ - ERROR - Failed to place GTT order 1
+2025-06-23 21:28:35,397 - __main__ - INFO - Placing GTT order 2: 2 shares @ 409.76 (trigger: 409.66) - 2% drop from entry
+2025-06-23 21:28:35,523 - __main__ - INFO - Successfully placed GTT order 2: 277637350
+2025-06-23 21:28:35,523 - __main__ - INFO - Placing GTT order 3: 3 shares @ 405.66 (trigger: 405.56) - 3% drop from entry
+2025-06-23 21:28:35,648 - __main__ - INFO - Successfully placed GTT order 3: 277637352
+2025-06-23 21:28:35,648 - __main__ - INFO - Placing GTT order 4: 4 shares @ 401.61 (trigger: 401.51) - 4% drop from entry
+2025-06-23 21:28:35,779 - __main__ - INFO - Successfully placed GTT order 4: 277637354
+2025-06-23 21:28:35,780 - __main__ - INFO - Placing GTT order 5: 5 shares @ 397.59 (trigger: 397.49) - 5% drop from entry
+2025-06-23 21:28:35,959 - __main__ - INFO - Successfully placed GTT order 5: 277637355
+2025-06-23 21:28:35,959 - __main__ - INFO - Total GTT orders placed: 4/5
+2025-06-23 21:28:35,961 - __main__ - INFO - GTT history saved to workdir\orders\ITC_gtt_history.json
+2025-06-23 21:28:35,962 - __main__ - INFO - Total GTT orders in account: 0
+2025-06-23 21:28:35,963 - __main__ - INFO - Starting GTT order monitoring thread
+2025-06-23 21:28:35,964 - __main__ - INFO - GTT order monitoring started.
+2025-06-23 21:28:35,964 - __main__ - INFO - === GTT Order Monitoring Cycle ===
+2025-06-23 21:28:35,964 - __main__ - INFO - Monitoring will automatically stop when market closes for 1 hour.
+2025-06-23 21:28:35,965 - __main__ - INFO - Press Ctrl+C to stop manually.
+2025-06-23 21:28:36,094 - __main__ - INFO - Market hours: CLOSED
+2025-06-23 21:28:36,095 - __main__ - INFO - Market closed cycle 1/12
+2025-06-23 21:28:36,252 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'ITC', 'isec_stock_code': 'ITC', 'isec_token': '1660', 'company name': 'ITC LIMITED', 'isec_token_level1': '4.1!1660', 'isec_token_level2': '4.2!1660'}
+2025-06-23 21:28:36,253 - breeze_sdk_api - INFO - Got token name for ITC: 4.1!1660
+2025-06-23 21:28:36,553 - __main__ - INFO - Current GTT orders in account: 0
+2025-06-23 21:28:36,553 - __main__ - INFO - Active buy orders for ITC: 0
+2025-06-23 21:28:36,554 - __main__ - INFO - Need to place 5 more buy orders to maintain 5 active orders
+2025-06-23 21:28:36,554 - __main__ - INFO - Current active orders: 0/5
+2025-06-23 21:28:36,554 - __main__ - WARNING - No active buy orders found, cannot determine price for new orders
+2025-06-23 21:28:36,555 - __main__ - INFO - No shares available for selling
+2025-06-23 21:28:36,555 - __main__ - INFO - === End Monitoring Cycle ===
+2025-06-23 21:33:36,567 - __main__ - INFO - === GTT Order Monitoring Cycle ===
+2025-06-23 21:33:36,567 - __main__ - INFO - Market hours: CLOSED
+2025-06-23 21:33:36,567 - __main__ - INFO - Market closed cycle 2/12
+2025-06-23 21:33:36,652 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'ITC', 'isec_stock_code': 'ITC', 'isec_token': '1660', 'company name': 'ITC LIMITED', 'isec_token_level1': '4.1!1660', 'isec_token_level2': '4.2!1660'}
+2025-06-23 21:33:36,653 - breeze_sdk_api - INFO - Got token name for ITC: 4.1!1660
+2025-06-23 21:33:37,012 - __main__ - INFO - Current GTT orders in account: 0
+2025-06-23 21:33:37,013 - __main__ - INFO - Active buy orders for ITC: 0
+2025-06-23 21:33:37,013 - __main__ - INFO - Need to place 5 more buy orders to maintain 5 active orders
+2025-06-23 21:33:37,014 - __main__ - INFO - Current active orders: 0/5
+2025-06-23 21:33:37,014 - __main__ - WARNING - No active buy orders found, cannot determine price for new orders
+2025-06-23 21:33:37,014 - __main__ - INFO - No shares available for selling
+2025-06-23 21:33:37,014 - __main__ - INFO - === End Monitoring Cycle ===
+2025-06-23 21:34:19,163 - __main__ - INFO - Received interrupt signal. Stopping monitoring...
+2025-06-23 21:34:29,166 - __main__ - INFO - Monitoring stopped by user.
+2025-06-23 21:34:29,167 - __main__ - INFO - Waiting for monitoring thread to finish...
+2025-06-23 21:34:59,177 - __main__ - INFO - GTT Fall Buy strategy completed.
+2025-06-23 21:35:47,317 - __main__ - INFO - Starting GTT Fall Buy strategy for ITC on NSE
+2025-06-23 21:35:52,060 - breeze_sdk_api - INFO - Successfully initialized Breeze API with credentials
+2025-06-23 21:35:52,060 - __main__ - INFO - Successfully initialized Breeze API
+2025-06-23 21:35:52,267 - __main__ - INFO - Successfully initialized Kite API
+2025-06-23 21:35:52,267 - __main__ - INFO - Will place 5 GTT orders
+2025-06-23 21:35:52,268 - __main__ - INFO - GTT history file exists but is empty: workdir\orders\ITC_gtt_history.json
+2025-06-23 21:35:52,269 - __main__ - INFO - Found 0 existing GTT orders
+2025-06-23 21:35:52,370 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'ITC', 'isec_stock_code': 'ITC', 'isec_token': '1660', 'company name': 'ITC LIMITED', 'isec_token_level1': '4.1!1660', 'isec_token_level2': '4.2!1660'}
+2025-06-23 21:35:52,370 - breeze_sdk_api - INFO - Got token name for ITC: 4.1!1660
+2025-06-23 21:35:52,631 - __main__ - INFO - Current price for ITC: 413.9
+2025-06-23 21:35:52,632 - __main__ - INFO - Found 0 actually active orders on exchange
+2025-06-23 21:35:52,632 - __main__ - INFO - Starting fresh fall buy strategy from current price: 413.9
+2025-06-23 21:35:52,633 - __main__ - INFO - DEBUG: existing_order_count=0, i=1, order_number=1
+2025-06-23 21:35:52,633 - __main__ - INFO - DEBUG: Attempting to place order 1/5
+2025-06-23 21:35:52,633 - __main__ - INFO - DEBUG: First order - using 0.1% below current price: 413.9 * 0.999 = 413.48609999999996
+2025-06-23 21:35:52,634 - __main__ - INFO - Placing GTT order 1: 1 shares @ 413.49 (trigger: 413.39) - 1% drop from entry
+2025-06-23 21:35:52,634 - __main__ - INFO - DEBUG: Checking if price 413.49 is similar to existing orders...
+2025-06-23 21:35:52,634 - __main__ - INFO - DEBUG: Price check passed, proceeding with order placement...
+2025-06-23 21:35:52,819 - __main__ - ERROR - Failed to place GTT order 1
+2025-06-23 21:35:52,819 - __main__ - INFO - DEBUG: Order 1 failed to place. Total placed: 0
+2025-06-23 21:35:52,819 - __main__ - INFO - DEBUG: existing_order_count=0, i=2, order_number=2
+2025-06-23 21:35:52,820 - __main__ - INFO - DEBUG: Attempting to place order 2/5
+2025-06-23 21:35:52,820 - __main__ - INFO - DEBUG: Subsequent order - using 1% below previous price: 413.9 * 0.99 = 409.76099999999997
+2025-06-23 21:35:52,820 - __main__ - INFO - Placing GTT order 2: 2 shares @ 409.76 (trigger: 409.66) - 2% drop from entry
+2025-06-23 21:35:52,821 - __main__ - INFO - DEBUG: Checking if price 409.76 is similar to existing orders...
+2025-06-23 21:35:52,821 - __main__ - INFO - DEBUG: Price check passed, proceeding with order placement...
+2025-06-23 21:35:52,998 - __main__ - INFO - Successfully placed GTT order 2: 277637730
+2025-06-23 21:35:52,998 - __main__ - INFO - DEBUG: Order 2 placed successfully. Total placed: 1
+2025-06-23 21:35:52,998 - __main__ - INFO - DEBUG: Updated previous_order_price to 409.76099999999997
+2025-06-23 21:35:52,999 - __main__ - INFO - DEBUG: existing_order_count=0, i=3, order_number=3
+2025-06-23 21:35:52,999 - __main__ - INFO - DEBUG: Attempting to place order 3/5
+2025-06-23 21:35:52,999 - __main__ - INFO - DEBUG: Subsequent order - using 1% below previous price: 409.76099999999997 * 0.99 = 405.66338999999994
+2025-06-23 21:35:52,999 - __main__ - INFO - Placing GTT order 3: 3 shares @ 405.66 (trigger: 405.56) - 3% drop from entry
+2025-06-23 21:35:53,000 - __main__ - INFO - DEBUG: Checking if price 405.66 is similar to existing orders...
+2025-06-23 21:35:53,000 - __main__ - INFO - DEBUG: Price check passed, proceeding with order placement...
+2025-06-23 21:35:53,164 - __main__ - INFO - Successfully placed GTT order 3: 277637731
+2025-06-23 21:35:53,164 - __main__ - INFO - DEBUG: Order 3 placed successfully. Total placed: 2
+2025-06-23 21:35:53,165 - __main__ - INFO - DEBUG: Updated previous_order_price to 405.66338999999994
+2025-06-23 21:35:53,165 - __main__ - INFO - DEBUG: existing_order_count=0, i=4, order_number=4
+2025-06-23 21:35:53,165 - __main__ - INFO - DEBUG: Attempting to place order 4/5
+2025-06-23 21:35:53,165 - __main__ - INFO - DEBUG: Subsequent order - using 1% below previous price: 405.66338999999994 * 0.99 = 401.6067560999999
+2025-06-23 21:35:53,166 - __main__ - INFO - Placing GTT order 4: 4 shares @ 401.61 (trigger: 401.51) - 4% drop from entry
+2025-06-23 21:35:53,166 - __main__ - INFO - DEBUG: Checking if price 401.61 is similar to existing orders...
+2025-06-23 21:35:53,166 - __main__ - INFO - DEBUG: Price check passed, proceeding with order placement...
+2025-06-23 21:35:53,332 - __main__ - INFO - Successfully placed GTT order 4: 277637732
+2025-06-23 21:35:53,332 - __main__ - INFO - DEBUG: Order 4 placed successfully. Total placed: 3
+2025-06-23 21:35:53,333 - __main__ - INFO - DEBUG: Updated previous_order_price to 401.6067560999999
+2025-06-23 21:35:53,333 - __main__ - INFO - DEBUG: existing_order_count=0, i=5, order_number=5
+2025-06-23 21:35:53,333 - __main__ - INFO - DEBUG: Attempting to place order 5/5
+2025-06-23 21:35:53,334 - __main__ - INFO - DEBUG: Subsequent order - using 1% below previous price: 401.6067560999999 * 0.99 = 397.5906885389999
+2025-06-23 21:35:53,334 - __main__ - INFO - Placing GTT order 5: 5 shares @ 397.59 (trigger: 397.49) - 5% drop from entry
+2025-06-23 21:35:53,334 - __main__ - INFO - DEBUG: Checking if price 397.59 is similar to existing orders...
+2025-06-23 21:35:53,334 - __main__ - INFO - DEBUG: Price check passed, proceeding with order placement...
+2025-06-23 21:35:53,465 - __main__ - INFO - Successfully placed GTT order 5: 277637733
+2025-06-23 21:35:53,466 - __main__ - INFO - DEBUG: Order 5 placed successfully. Total placed: 4
+2025-06-23 21:35:53,466 - __main__ - INFO - DEBUG: Updated previous_order_price to 397.5906885389999
+2025-06-23 21:35:53,466 - __main__ - INFO - DEBUG: Order placement loop completed. orders_placed=4, num_orders=5
+2025-06-23 21:35:53,467 - __main__ - INFO - Total GTT orders placed: 4/5
+2025-06-23 21:35:53,467 - __main__ - WARNING - WARNING: Only 4 out of 5 orders were placed successfully!
+2025-06-23 21:35:53,467 - __main__ - WARNING - This could be due to:
+2025-06-23 21:35:53,467 - __main__ - WARNING - 1. Order placement failures
+2025-06-23 21:35:53,468 - __main__ - WARNING - 2. Similar price checks preventing orders
+2025-06-23 21:35:53,468 - __main__ - WARNING - 3. API errors during order placement
+2025-06-23 21:35:53,468 - __main__ - INFO - DEBUG: existing_gtt_orders count: 0
+2025-06-23 21:35:53,469 - __main__ - INFO - DEBUG: new_gtt_orders count: 4
+2025-06-23 21:35:53,469 - __main__ - INFO - DEBUG: all_gtt_orders count: 4
+2025-06-23 21:35:53,470 - __main__ - INFO - DEBUG: Attempting to save GTT history with 4 orders...
+2025-06-23 21:35:53,470 - __main__ - INFO - DEBUG: save_gtt_history called with 4 orders for ITC
+2025-06-23 21:35:53,471 - __main__ - INFO - DEBUG: Orders directory ensured: workdir\orders
+2025-06-23 21:35:53,471 - __main__ - INFO - DEBUG: History data prepared with 4 orders
+2025-06-23 21:35:53,471 - __main__ - INFO - DEBUG: Saving to file: workdir\orders\ITC_gtt_history.json
+2025-06-23 21:35:53,474 - __main__ - INFO - GTT history saved to workdir\orders\ITC_gtt_history.json
+2025-06-23 21:35:53,475 - __main__ - INFO - DEBUG: File saved successfully. File size: 2305 bytes
+2025-06-23 21:35:53,475 - __main__ - INFO - DEBUG: GTT history save completed
+2025-06-23 21:35:53,476 - __main__ - INFO - Total GTT orders in account: 0
+2025-06-23 21:35:53,478 - __main__ - INFO - Starting GTT order monitoring thread
+2025-06-23 21:35:53,478 - __main__ - INFO - GTT order monitoring started.
+2025-06-23 21:35:53,478 - __main__ - INFO - === GTT Order Monitoring Cycle ===
+2025-06-23 21:35:53,479 - __main__ - INFO - Monitoring will automatically stop when market closes for 1 hour.
+2025-06-23 21:35:53,479 - __main__ - INFO - Press Ctrl+C to stop manually.
+2025-06-23 21:35:57,832 - __main__ - INFO - Market hours: CLOSED
+2025-06-23 21:35:57,832 - __main__ - INFO - Market closed cycle 1/12
+2025-06-23 21:35:58,027 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'ITC', 'isec_stock_code': 'ITC', 'isec_token': '1660', 'company name': 'ITC LIMITED', 'isec_token_level1': '4.1!1660', 'isec_token_level2': '4.2!1660'}
+2025-06-23 21:35:58,027 - breeze_sdk_api - INFO - Got token name for ITC: 4.1!1660
+2025-06-23 21:35:58,382 - __main__ - INFO - Current GTT orders in account: 0
+2025-06-23 21:35:58,383 - __main__ - INFO - Active buy orders for ITC: 0
+2025-06-23 21:35:58,383 - __main__ - INFO - Need to place 5 more buy orders to maintain 5 active orders
+2025-06-23 21:35:58,384 - __main__ - INFO - Current active orders: 0/5
+2025-06-23 21:35:58,384 - __main__ - WARNING - No active buy orders found, cannot determine price for new orders
+2025-06-23 21:35:58,384 - __main__ - INFO - No shares available for selling
+2025-06-23 21:35:58,385 - __main__ - INFO - === End Monitoring Cycle ===
+2025-06-23 21:40:58,386 - __main__ - INFO - === GTT Order Monitoring Cycle ===
+2025-06-23 21:40:58,387 - __main__ - INFO - Market hours: CLOSED
+2025-06-23 21:40:58,387 - __main__ - INFO - Market closed cycle 2/12
+2025-06-23 21:40:58,579 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'ITC', 'isec_stock_code': 'ITC', 'isec_token': '1660', 'company name': 'ITC LIMITED', 'isec_token_level1': '4.1!1660', 'isec_token_level2': '4.2!1660'}
+2025-06-23 21:40:58,579 - breeze_sdk_api - INFO - Got token name for ITC: 4.1!1660
+2025-06-23 21:40:58,984 - __main__ - INFO - Current GTT orders in account: 0
+2025-06-23 21:40:58,984 - __main__ - INFO - Active buy orders for ITC: 0
+2025-06-23 21:40:58,985 - __main__ - INFO - Need to place 5 more buy orders to maintain 5 active orders
+2025-06-23 21:40:58,985 - __main__ - INFO - Current active orders: 0/5
+2025-06-23 21:40:58,986 - __main__ - WARNING - No active buy orders found, cannot determine price for new orders
+2025-06-23 21:40:58,986 - __main__ - INFO - No shares available for selling
+2025-06-23 21:40:58,986 - __main__ - INFO - === End Monitoring Cycle ===
+2025-06-23 21:41:01,961 - __main__ - INFO - Received interrupt signal. Stopping monitoring...
+2025-06-23 21:41:11,963 - __main__ - INFO - Monitoring stopped by user.
+2025-06-23 21:41:11,963 - __main__ - INFO - Waiting for monitoring thread to finish...
+2025-06-23 21:41:41,975 - __main__ - INFO - GTT Fall Buy strategy completed.
+2025-06-23 21:49:00,458 - __main__ - INFO - Starting GTT Fall Buy strategy for ITC on NSE
+2025-06-23 21:49:07,643 - breeze_sdk_api - INFO - Successfully initialized Breeze API with credentials
+2025-06-23 21:49:07,644 - __main__ - INFO - Successfully initialized Breeze API
+2025-06-23 21:49:07,901 - __main__ - INFO - Successfully initialized Kite API
+2025-06-23 21:49:07,901 - __main__ - INFO - Will place 5 GTT orders
+2025-06-23 21:49:07,902 - __main__ - INFO - GTT history file exists but is empty: workdir\orders\ITC_gtt_history.json
+2025-06-23 21:49:07,902 - __main__ - INFO - Found 0 existing GTT orders
+2025-06-23 21:49:08,001 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'ITC', 'isec_stock_code': 'ITC', 'isec_token': '1660', 'company name': 'ITC LIMITED', 'isec_token_level1': '4.1!1660', 'isec_token_level2': '4.2!1660'}
+2025-06-23 21:49:08,002 - breeze_sdk_api - INFO - Got token name for ITC: 4.1!1660
+2025-06-23 21:49:08,325 - __main__ - INFO - Current price for ITC: 413.9
+2025-06-23 21:49:08,326 - __main__ - INFO - Found 0 actually active orders on exchange
+2025-06-23 21:49:08,326 - __main__ - INFO - Starting fresh fall buy strategy from current price: 413.9
+2025-06-23 21:49:08,326 - __main__ - INFO - DEBUG: existing_order_count=0, i=1, order_number=1
+2025-06-23 21:49:08,326 - __main__ - INFO - DEBUG: Attempting to place order 1/5
+2025-06-23 21:49:08,327 - __main__ - INFO - DEBUG: First order - using 0.27% below current price: 413.9 * 0.9973 = 412.78247
+2025-06-23 21:49:08,327 - __main__ - INFO - Placing GTT order 1: 1 shares @ 412.78 (trigger: 412.68) - 1% drop from entry
+2025-06-23 21:49:08,327 - __main__ - INFO - DEBUG: Checking if price 412.78 is similar to existing orders...
+2025-06-23 21:49:08,327 - __main__ - INFO - DEBUG: Price check passed, proceeding with order placement...
+2025-06-23 21:49:08,540 - __main__ - INFO - Successfully placed GTT order 1: 277638438
+2025-06-23 21:49:08,540 - __main__ - INFO - DEBUG: Order 1 placed successfully. Total placed: 1
+2025-06-23 21:49:08,540 - __main__ - INFO - DEBUG: Updated previous_order_price to 412.78247
+2025-06-23 21:49:08,541 - __main__ - INFO - DEBUG: existing_order_count=0, i=2, order_number=2
+2025-06-23 21:49:08,541 - __main__ - INFO - DEBUG: Attempting to place order 2/5
+2025-06-23 21:49:08,542 - __main__ - INFO - DEBUG: Subsequent order - using 1% below previous price: 412.78247 * 0.99 = 408.65464529999997
+2025-06-23 21:49:08,542 - __main__ - INFO - Placing GTT order 2: 2 shares @ 408.65 (trigger: 408.55) - 2% drop from entry
+2025-06-23 21:49:08,542 - __main__ - INFO - DEBUG: Checking if price 408.65 is similar to existing orders...
+2025-06-23 21:49:08,542 - __main__ - INFO - DEBUG: Price check passed, proceeding with order placement...
+2025-06-23 21:49:08,747 - __main__ - INFO - Successfully placed GTT order 2: 277638439
+2025-06-23 21:49:08,748 - __main__ - INFO - DEBUG: Order 2 placed successfully. Total placed: 2
+2025-06-23 21:49:08,750 - __main__ - INFO - DEBUG: Updated previous_order_price to 408.65464529999997
+2025-06-23 21:49:08,750 - __main__ - INFO - DEBUG: existing_order_count=0, i=3, order_number=3
+2025-06-23 21:49:08,751 - __main__ - INFO - DEBUG: Attempting to place order 3/5
+2025-06-23 21:49:08,752 - __main__ - INFO - DEBUG: Subsequent order - using 1% below previous price: 408.65464529999997 * 0.99 = 404.568098847
+2025-06-23 21:49:08,753 - __main__ - INFO - Placing GTT order 3: 3 shares @ 404.57 (trigger: 404.47) - 3% drop from entry
+2025-06-23 21:49:08,753 - __main__ - INFO - DEBUG: Checking if price 404.57 is similar to existing orders...
+2025-06-23 21:49:08,755 - __main__ - INFO - DEBUG: Price check passed, proceeding with order placement...
+2025-06-23 21:49:08,921 - __main__ - INFO - Successfully placed GTT order 3: 277638440
+2025-06-23 21:49:08,921 - __main__ - INFO - DEBUG: Order 3 placed successfully. Total placed: 3
+2025-06-23 21:49:08,922 - __main__ - INFO - DEBUG: Updated previous_order_price to 404.568098847
+2025-06-23 21:49:08,922 - __main__ - INFO - DEBUG: existing_order_count=0, i=4, order_number=4
+2025-06-23 21:49:08,922 - __main__ - INFO - DEBUG: Attempting to place order 4/5
+2025-06-23 21:49:08,923 - __main__ - INFO - DEBUG: Subsequent order - using 1% below previous price: 404.568098847 * 0.99 = 400.52241785853
+2025-06-23 21:49:08,923 - __main__ - INFO - Placing GTT order 4: 4 shares @ 400.52 (trigger: 400.42) - 4% drop from entry
+2025-06-23 21:49:08,923 - __main__ - INFO - DEBUG: Checking if price 400.52 is similar to existing orders...
+2025-06-23 21:49:08,923 - __main__ - INFO - DEBUG: Price check passed, proceeding with order placement...
+2025-06-23 21:49:09,091 - __main__ - INFO - Successfully placed GTT order 4: 277638441
+2025-06-23 21:49:09,092 - __main__ - INFO - DEBUG: Order 4 placed successfully. Total placed: 4
+2025-06-23 21:49:09,092 - __main__ - INFO - DEBUG: Updated previous_order_price to 400.52241785853
+2025-06-23 21:49:09,092 - __main__ - INFO - DEBUG: existing_order_count=0, i=5, order_number=5
+2025-06-23 21:49:09,092 - __main__ - INFO - DEBUG: Attempting to place order 5/5
+2025-06-23 21:49:09,093 - __main__ - INFO - DEBUG: Subsequent order - using 1% below previous price: 400.52241785853 * 0.99 = 396.5171936799447
+2025-06-23 21:49:09,093 - __main__ - INFO - Placing GTT order 5: 5 shares @ 396.52 (trigger: 396.42) - 5% drop from entry
+2025-06-23 21:49:09,093 - __main__ - INFO - DEBUG: Checking if price 396.52 is similar to existing orders...
+2025-06-23 21:49:09,093 - __main__ - INFO - DEBUG: Price check passed, proceeding with order placement...
+2025-06-23 21:49:09,278 - __main__ - INFO - Successfully placed GTT order 5: 277638442
+2025-06-23 21:49:09,278 - __main__ - INFO - DEBUG: Order 5 placed successfully. Total placed: 5
+2025-06-23 21:49:09,280 - __main__ - INFO - DEBUG: Updated previous_order_price to 396.5171936799447
+2025-06-23 21:49:09,280 - __main__ - INFO - DEBUG: Order placement loop completed. orders_placed=5, num_orders=5
+2025-06-23 21:49:09,280 - __main__ - INFO - Total GTT orders placed: 5/5
+2025-06-23 21:49:09,280 - __main__ - INFO - SUCCESS: All 5 orders were placed successfully!
+2025-06-23 21:49:09,280 - __main__ - INFO - DEBUG: existing_gtt_orders count: 0
+2025-06-23 21:49:09,281 - __main__ - INFO - DEBUG: new_gtt_orders count: 5
+2025-06-23 21:49:09,281 - __main__ - INFO - DEBUG: all_gtt_orders count: 5
+2025-06-23 21:49:09,281 - __main__ - INFO - DEBUG: Attempting to save GTT history with 5 orders...
+2025-06-23 21:49:09,281 - __main__ - INFO - DEBUG: save_gtt_history called with 5 orders for ITC
+2025-06-23 21:49:09,282 - __main__ - INFO - DEBUG: Orders directory ensured: workdir\orders
+2025-06-23 21:49:09,282 - __main__ - INFO - DEBUG: History data prepared with 5 orders
+2025-06-23 21:49:09,282 - __main__ - INFO - DEBUG: Saving to file: workdir\orders\ITC_gtt_history.json
+2025-06-23 21:49:09,284 - __main__ - INFO - GTT history saved to workdir\orders\ITC_gtt_history.json
+2025-06-23 21:49:09,284 - __main__ - INFO - DEBUG: File saved successfully. File size: 2836 bytes
+2025-06-23 21:49:09,284 - __main__ - INFO - DEBUG: GTT history save completed
+2025-06-23 21:49:09,285 - __main__ - INFO - Total GTT orders in account: 0
+2025-06-23 21:49:09,286 - __main__ - INFO - Starting GTT order monitoring thread
+2025-06-23 21:49:09,286 - __main__ - INFO - GTT order monitoring started.
+2025-06-23 21:49:09,286 - __main__ - INFO - === GTT Order Monitoring Cycle ===
+2025-06-23 21:49:09,287 - __main__ - INFO - Monitoring will automatically stop when market closes for 1 hour.
+2025-06-23 21:49:09,287 - __main__ - INFO - Press Ctrl+C to stop manually.
+2025-06-23 21:49:09,404 - __main__ - INFO - Market hours: CLOSED
+2025-06-23 21:49:09,405 - __main__ - INFO - Market closed cycle 1/12
+2025-06-23 21:49:09,525 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'ITC', 'isec_stock_code': 'ITC', 'isec_token': '1660', 'company name': 'ITC LIMITED', 'isec_token_level1': '4.1!1660', 'isec_token_level2': '4.2!1660'}
+2025-06-23 21:49:09,526 - breeze_sdk_api - INFO - Got token name for ITC: 4.1!1660
+2025-06-23 21:49:09,863 - __main__ - INFO - Current GTT orders in account: 0
+2025-06-23 21:49:09,864 - __main__ - INFO - Active buy orders for ITC: 0
+2025-06-23 21:49:09,864 - __main__ - INFO - Need to place 5 more buy orders to maintain 5 active orders
+2025-06-23 21:49:09,864 - __main__ - INFO - Current active orders: 0/5
+2025-06-23 21:49:09,865 - __main__ - WARNING - No active buy orders found, cannot determine price for new orders
+2025-06-23 21:49:09,865 - __main__ - INFO - No shares available for selling
+2025-06-23 21:49:09,865 - __main__ - INFO - === End Monitoring Cycle ===
+2025-06-23 21:54:09,873 - __main__ - INFO - === GTT Order Monitoring Cycle ===
+2025-06-23 21:54:09,873 - __main__ - INFO - Market hours: CLOSED
+2025-06-23 21:54:09,874 - __main__ - INFO - Market closed cycle 2/12
+2025-06-23 21:54:09,959 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'ITC', 'isec_stock_code': 'ITC', 'isec_token': '1660', 'company name': 'ITC LIMITED', 'isec_token_level1': '4.1!1660', 'isec_token_level2': '4.2!1660'}
+2025-06-23 21:54:09,959 - breeze_sdk_api - INFO - Got token name for ITC: 4.1!1660
+2025-06-23 21:54:10,329 - __main__ - INFO - Current GTT orders in account: 0
+2025-06-23 21:54:10,329 - __main__ - INFO - Active buy orders for ITC: 0
+2025-06-23 21:54:10,330 - __main__ - INFO - Need to place 5 more buy orders to maintain 5 active orders
+2025-06-23 21:54:10,330 - __main__ - INFO - Current active orders: 0/5
+2025-06-23 21:54:10,330 - __main__ - WARNING - No active buy orders found, cannot determine price for new orders
+2025-06-23 21:54:10,330 - __main__ - INFO - No shares available for selling
+2025-06-23 21:54:10,331 - __main__ - INFO - === End Monitoring Cycle ===
+2025-06-23 21:59:10,338 - __main__ - INFO - === GTT Order Monitoring Cycle ===
+2025-06-23 21:59:10,339 - __main__ - INFO - Market hours: CLOSED
+2025-06-23 21:59:10,340 - __main__ - INFO - Market closed cycle 3/12
+2025-06-23 21:59:10,465 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'ITC', 'isec_stock_code': 'ITC', 'isec_token': '1660', 'company name': 'ITC LIMITED', 'isec_token_level1': '4.1!1660', 'isec_token_level2': '4.2!1660'}
+2025-06-23 21:59:10,465 - breeze_sdk_api - INFO - Got token name for ITC: 4.1!1660
+2025-06-23 21:59:10,828 - __main__ - INFO - Current GTT orders in account: 0
+2025-06-23 21:59:10,828 - __main__ - INFO - Active buy orders for ITC: 0
+2025-06-23 21:59:10,828 - __main__ - INFO - Need to place 5 more buy orders to maintain 5 active orders
+2025-06-23 21:59:10,829 - __main__ - INFO - Current active orders: 0/5
+2025-06-23 21:59:10,829 - __main__ - WARNING - No active buy orders found, cannot determine price for new orders
+2025-06-23 21:59:10,829 - __main__ - INFO - No shares available for selling
+2025-06-23 21:59:10,829 - __main__ - INFO - === End Monitoring Cycle ===
+2025-06-23 22:04:10,833 - __main__ - INFO - === GTT Order Monitoring Cycle ===
+2025-06-23 22:04:10,833 - __main__ - INFO - Market hours: CLOSED
+2025-06-23 22:04:10,834 - __main__ - INFO - Market closed cycle 4/12
+2025-06-23 22:04:10,926 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'ITC', 'isec_stock_code': 'ITC', 'isec_token': '1660', 'company name': 'ITC LIMITED', 'isec_token_level1': '4.1!1660', 'isec_token_level2': '4.2!1660'}
+2025-06-23 22:04:10,927 - breeze_sdk_api - INFO - Got token name for ITC: 4.1!1660
+2025-06-23 22:04:11,279 - __main__ - INFO - Current GTT orders in account: 0
+2025-06-23 22:04:11,279 - __main__ - INFO - Active buy orders for ITC: 0
+2025-06-23 22:04:11,279 - __main__ - INFO - Need to place 5 more buy orders to maintain 5 active orders
+2025-06-23 22:04:11,279 - __main__ - INFO - Current active orders: 0/5
+2025-06-23 22:04:11,280 - __main__ - WARNING - No active buy orders found, cannot determine price for new orders
+2025-06-23 22:04:11,280 - __main__ - INFO - No shares available for selling
+2025-06-23 22:04:11,280 - __main__ - INFO - === End Monitoring Cycle ===
+2025-06-23 22:09:11,281 - __main__ - INFO - === GTT Order Monitoring Cycle ===
+2025-06-23 22:09:11,281 - __main__ - INFO - Market hours: CLOSED
+2025-06-23 22:09:11,282 - __main__ - INFO - Market closed cycle 5/12
+2025-06-23 22:09:11,426 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'ITC', 'isec_stock_code': 'ITC', 'isec_token': '1660', 'company name': 'ITC LIMITED', 'isec_token_level1': '4.1!1660', 'isec_token_level2': '4.2!1660'}
+2025-06-23 22:09:11,427 - breeze_sdk_api - INFO - Got token name for ITC: 4.1!1660
+2025-06-23 22:09:11,889 - __main__ - INFO - Current GTT orders in account: 0
+2025-06-23 22:09:11,889 - __main__ - INFO - Active buy orders for ITC: 0
+2025-06-23 22:09:11,891 - __main__ - INFO - Need to place 5 more buy orders to maintain 5 active orders
+2025-06-23 22:09:11,891 - __main__ - INFO - Current active orders: 0/5
+2025-06-23 22:09:11,891 - __main__ - WARNING - No active buy orders found, cannot determine price for new orders
+2025-06-23 22:09:11,892 - __main__ - INFO - No shares available for selling
+2025-06-23 22:09:11,892 - __main__ - INFO - === End Monitoring Cycle ===
+2025-06-23 22:12:25,459 - __main__ - INFO - Received interrupt signal. Stopping monitoring...
+2025-06-23 22:12:35,474 - __main__ - INFO - Monitoring stopped by user.
+2025-06-23 22:12:35,474 - __main__ - INFO - Waiting for monitoring thread to finish...
+2025-06-23 22:13:05,488 - __main__ - INFO - GTT Fall Buy strategy completed.
+2025-06-23 22:14:55,680 - __main__ - INFO - Starting GTT Fall Buy strategy for ITC on NSE
+2025-06-23 22:15:01,144 - breeze_sdk_api - INFO - Successfully initialized Breeze API with credentials
+2025-06-23 22:15:01,144 - __main__ - INFO - Successfully initialized Breeze API
+2025-06-23 22:15:01,433 - __main__ - INFO - Successfully initialized Kite API
+2025-06-23 22:15:01,433 - __main__ - INFO - Will place 5 GTT orders
+2025-06-23 22:15:01,435 - __main__ - INFO - Loaded GTT history from workdir\orders\ITC_gtt_history.json: 5 orders
+2025-06-23 22:15:01,435 - __main__ - INFO - Found 5 existing GTT orders
+2025-06-23 22:15:01,539 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'ITC', 'isec_stock_code': 'ITC', 'isec_token': '1660', 'company name': 'ITC LIMITED', 'isec_token_level1': '4.1!1660', 'isec_token_level2': '4.2!1660'}
+2025-06-23 22:15:01,539 - breeze_sdk_api - INFO - Got token name for ITC: 4.1!1660
+2025-06-23 22:15:01,862 - __main__ - INFO - Current price for ITC: 413.9
+2025-06-23 22:15:01,863 - __main__ - INFO - Found 0 actually active orders on exchange
+2025-06-23 22:15:01,863 - __main__ - INFO - Starting fresh fall buy strategy from current price: 413.9
+2025-06-23 22:15:01,863 - __main__ - INFO - DEBUG: existing_order_count=0, i=1, order_number=1
+2025-06-23 22:15:01,864 - __main__ - INFO - DEBUG: Attempting to place order 1/5
+2025-06-23 22:15:01,864 - __main__ - INFO - DEBUG: First order - using 0.27% below current price: 413.9 * 0.9973 = 412.78247
+2025-06-23 22:15:01,864 - __main__ - INFO - Placing GTT order 1: 1 shares @ 412.78 (trigger: 412.68) - 1% drop from entry
+2025-06-23 22:15:01,864 - __main__ - INFO - DEBUG: Checking if price 412.78 is similar to existing orders...
+2025-06-23 22:15:01,865 - __main__ - INFO - New price 412.78 is similar to existing orders. Skipping this order.
+2025-06-23 22:15:01,865 - __main__ - INFO - DEBUG: Order 1 skipped due to similar price
+2025-06-23 22:15:01,865 - __main__ - INFO - DEBUG: existing_order_count=0, i=2, order_number=2
+2025-06-23 22:15:01,865 - __main__ - INFO - DEBUG: Attempting to place order 2/5
+2025-06-23 22:15:01,866 - __main__ - INFO - DEBUG: Subsequent order - using 1% below previous price: 413.9 * 0.99 = 409.76099999999997
+2025-06-23 22:15:01,866 - __main__ - INFO - Placing GTT order 2: 2 shares @ 409.76 (trigger: 409.66) - 2% drop from entry
+2025-06-23 22:15:01,866 - __main__ - INFO - DEBUG: Checking if price 409.76 is similar to existing orders...
+2025-06-23 22:15:01,867 - __main__ - INFO - New price 409.76 is similar to existing orders. Skipping this order.
+2025-06-23 22:15:01,867 - __main__ - INFO - DEBUG: Order 2 skipped due to similar price
+2025-06-23 22:15:01,867 - __main__ - INFO - DEBUG: existing_order_count=0, i=3, order_number=3
+2025-06-23 22:15:01,867 - __main__ - INFO - DEBUG: Attempting to place order 3/5
+2025-06-23 22:15:01,867 - __main__ - INFO - DEBUG: Subsequent order - using 1% below previous price: 413.9 * 0.99 = 409.76099999999997
+2025-06-23 22:15:01,868 - __main__ - INFO - Placing GTT order 3: 3 shares @ 409.76 (trigger: 409.66) - 3% drop from entry
+2025-06-23 22:15:01,868 - __main__ - INFO - DEBUG: Checking if price 409.76 is similar to existing orders...
+2025-06-23 22:15:01,868 - __main__ - INFO - New price 409.76 is similar to existing orders. Skipping this order.
+2025-06-23 22:15:01,868 - __main__ - INFO - DEBUG: Order 3 skipped due to similar price
+2025-06-23 22:15:01,869 - __main__ - INFO - DEBUG: existing_order_count=0, i=4, order_number=4
+2025-06-23 22:15:01,869 - __main__ - INFO - DEBUG: Attempting to place order 4/5
+2025-06-23 22:15:01,869 - __main__ - INFO - DEBUG: Subsequent order - using 1% below previous price: 413.9 * 0.99 = 409.76099999999997
+2025-06-23 22:15:01,869 - __main__ - INFO - Placing GTT order 4: 4 shares @ 409.76 (trigger: 409.66) - 4% drop from entry
+2025-06-23 22:15:01,869 - __main__ - INFO - DEBUG: Checking if price 409.76 is similar to existing orders...
+2025-06-23 22:15:01,870 - __main__ - INFO - New price 409.76 is similar to existing orders. Skipping this order.
+2025-06-23 22:15:01,870 - __main__ - INFO - DEBUG: Order 4 skipped due to similar price
+2025-06-23 22:15:01,870 - __main__ - INFO - DEBUG: existing_order_count=0, i=5, order_number=5
+2025-06-23 22:15:01,870 - __main__ - INFO - DEBUG: Attempting to place order 5/5
+2025-06-23 22:15:01,870 - __main__ - INFO - DEBUG: Subsequent order - using 1% below previous price: 413.9 * 0.99 = 409.76099999999997
+2025-06-23 22:15:01,871 - __main__ - INFO - Placing GTT order 5: 5 shares @ 409.76 (trigger: 409.66) - 5% drop from entry
+2025-06-23 22:15:01,871 - __main__ - INFO - DEBUG: Checking if price 409.76 is similar to existing orders...
+2025-06-23 22:15:01,871 - __main__ - INFO - New price 409.76 is similar to existing orders. Skipping this order.
+2025-06-23 22:15:01,871 - __main__ - INFO - DEBUG: Order 5 skipped due to similar price
+2025-06-23 22:15:01,872 - __main__ - INFO - DEBUG: Order placement loop completed. orders_placed=0, num_orders=5
+2025-06-23 22:15:01,872 - __main__ - INFO - Total GTT orders placed: 0/5
+2025-06-23 22:15:01,872 - __main__ - WARNING - WARNING: Only 0 out of 5 orders were placed successfully!
+2025-06-23 22:15:01,872 - __main__ - WARNING - This could be due to:
+2025-06-23 22:15:01,872 - __main__ - WARNING - 1. Order placement failures
+2025-06-23 22:15:01,872 - __main__ - WARNING - 2. Similar price checks preventing orders
+2025-06-23 22:15:01,874 - __main__ - WARNING - 3. API errors during order placement
+2025-06-23 22:15:01,874 - __main__ - INFO - DEBUG: existing_gtt_orders count: 5
+2025-06-23 22:15:01,874 - __main__ - INFO - DEBUG: new_gtt_orders count: 0
+2025-06-23 22:15:01,874 - __main__ - INFO - DEBUG: all_gtt_orders count: 5
+2025-06-23 22:15:01,874 - __main__ - INFO - DEBUG: Attempting to save GTT history with 5 orders...
+2025-06-23 22:15:01,875 - __main__ - INFO - DEBUG: save_gtt_history called with 5 orders for ITC
+2025-06-23 22:15:01,875 - __main__ - INFO - DEBUG: Orders directory ensured: workdir\orders
+2025-06-23 22:15:01,875 - __main__ - INFO - DEBUG: History data prepared with 5 orders
+2025-06-23 22:15:01,876 - __main__ - INFO - DEBUG: Saving to file: workdir\orders\ITC_gtt_history.json
+2025-06-23 22:15:01,877 - __main__ - INFO - GTT history saved to workdir\orders\ITC_gtt_history.json
+2025-06-23 22:15:01,877 - __main__ - INFO - DEBUG: File saved successfully. File size: 2836 bytes
+2025-06-23 22:15:01,877 - __main__ - INFO - DEBUG: GTT history save completed
+2025-06-23 22:15:01,878 - __main__ - ERROR - No GTT orders were placed successfully
+2025-06-23 22:15:01,879 - __main__ - INFO - Starting GTT order monitoring thread
+2025-06-23 22:15:01,879 - __main__ - INFO - Setting up real-time tick data monitoring...
+2025-06-23 22:15:01,879 - __main__ - INFO - === GTT Order Monitoring Cycle ===
+2025-06-23 22:15:02,609 - breeze_sdk_api - INFO - Setting on_ticks function: <bound method BreezeApi.on_ticks of <breeze_sdk_api.BreezeApi object at 0x000002A1497FA140>>
+2025-06-23 22:15:02,610 - breeze_sdk_api - INFO - Successfully connected to WebSocket
+2025-06-23 22:15:02,610 - __main__ - INFO - Connected to Breeze WebSocket for real-time data
+2025-06-23 22:15:02,732 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'ITC', 'isec_stock_code': 'ITC', 'isec_token': '1660', 'company name': 'ITC LIMITED', 'isec_token_level1': '4.1!1660', 'isec_token_level2': '4.2!1660'}
+2025-06-23 22:15:02,733 - breeze_sdk_api - INFO - Got token name for ITC: 4.1!1660
+2025-06-23 22:15:02,733 - __main__ - INFO - Stock token for tick data: 4.1!1660
+2025-06-23 22:15:02,733 - breeze_sdk_api - INFO - Setting on_ticks function: <function main.<locals>.tick_handler at 0x000002A128EFE950>
+2025-06-23 22:15:02,734 - __main__ - INFO - Tick handler set up successfully
+2025-06-23 22:15:02,734 - breeze_sdk_api - INFO - Successfully subscribed to OHLC feed for token: 4.1!1660
+2025-06-23 22:15:02,735 - __main__ - INFO - Subscribed to real-time feed for ITC
+2025-06-23 22:15:02,735 - __main__ - INFO - Real-time tick data monitoring is now active!
+2025-06-23 22:15:02,736 - __main__ - INFO - The system will now respond to price changes in real-time
+2025-06-23 22:15:02,736 - __main__ - INFO - GTT order monitoring started.
+2025-06-23 22:15:02,736 - __main__ - INFO - Monitoring will automatically stop when market closes for 1 hour.
+2025-06-23 22:15:02,736 - __main__ - INFO - Press Ctrl+C to stop manually.
+2025-06-23 22:15:05,651 - __main__ - INFO - Market hours: CLOSED
+2025-06-23 22:15:05,651 - __main__ - INFO - Market closed cycle 1/12
+2025-06-23 22:15:05,764 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'ITC', 'isec_stock_code': 'ITC', 'isec_token': '1660', 'company name': 'ITC LIMITED', 'isec_token_level1': '4.1!1660', 'isec_token_level2': '4.2!1660'}
+2025-06-23 22:15:05,764 - breeze_sdk_api - INFO - Got token name for ITC: 4.1!1660
+2025-06-23 22:15:06,088 - __main__ - INFO - Current GTT orders in account: 0
+2025-06-23 22:15:06,088 - __main__ - INFO - Active buy orders for ITC: 0
+2025-06-23 22:15:06,088 - __main__ - INFO - Need to place 5 more buy orders to maintain 5 active orders
+2025-06-23 22:15:06,089 - __main__ - INFO - Current active orders: 0/5
+2025-06-23 22:15:06,089 - __main__ - WARNING - No active buy orders found, cannot determine price for new orders
+2025-06-23 22:15:06,089 - __main__ - INFO - No shares available for selling
+2025-06-23 22:15:06,089 - __main__ - INFO - === End Monitoring Cycle ===
+2025-06-23 22:17:06,103 - __main__ - INFO - === GTT Order Monitoring Cycle ===
+2025-06-23 22:17:06,103 - __main__ - INFO - Market hours: CLOSED
+2025-06-23 22:17:06,103 - __main__ - INFO - Market closed cycle 2/12
+2025-06-23 22:17:06,197 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'ITC', 'isec_stock_code': 'ITC', 'isec_token': '1660', 'company name': 'ITC LIMITED', 'isec_token_level1': '4.1!1660', 'isec_token_level2': '4.2!1660'}
+2025-06-23 22:17:06,198 - breeze_sdk_api - INFO - Got token name for ITC: 4.1!1660
+2025-06-23 22:17:06,496 - __main__ - INFO - Current GTT orders in account: 0
+2025-06-23 22:17:06,496 - __main__ - INFO - Active buy orders for ITC: 0
+2025-06-23 22:17:06,497 - __main__ - INFO - Need to place 5 more buy orders to maintain 5 active orders
+2025-06-23 22:17:06,497 - __main__ - INFO - Current active orders: 0/5
+2025-06-23 22:17:06,497 - __main__ - WARNING - No active buy orders found, cannot determine price for new orders
+2025-06-23 22:17:06,497 - __main__ - INFO - No shares available for selling
+2025-06-23 22:17:06,498 - __main__ - INFO - === End Monitoring Cycle ===
+2025-06-23 22:19:06,512 - __main__ - INFO - === GTT Order Monitoring Cycle ===
+2025-06-23 22:19:06,513 - __main__ - INFO - Market hours: CLOSED
+2025-06-23 22:19:06,513 - __main__ - INFO - Market closed cycle 3/12
+2025-06-23 22:19:06,614 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'ITC', 'isec_stock_code': 'ITC', 'isec_token': '1660', 'company name': 'ITC LIMITED', 'isec_token_level1': '4.1!1660', 'isec_token_level2': '4.2!1660'}
+2025-06-23 22:19:06,615 - breeze_sdk_api - INFO - Got token name for ITC: 4.1!1660
+2025-06-23 22:19:06,912 - __main__ - INFO - Current GTT orders in account: 0
+2025-06-23 22:19:06,913 - __main__ - INFO - Active buy orders for ITC: 0
+2025-06-23 22:19:06,913 - __main__ - INFO - Need to place 5 more buy orders to maintain 5 active orders
+2025-06-23 22:19:06,913 - __main__ - INFO - Current active orders: 0/5
+2025-06-23 22:19:06,913 - __main__ - WARNING - No active buy orders found, cannot determine price for new orders
+2025-06-23 22:19:06,913 - __main__ - INFO - No shares available for selling
+2025-06-23 22:19:06,914 - __main__ - INFO - === End Monitoring Cycle ===
+2025-06-23 22:21:06,921 - __main__ - INFO - === GTT Order Monitoring Cycle ===
+2025-06-23 22:21:06,921 - __main__ - INFO - Market hours: CLOSED
+2025-06-23 22:21:06,921 - __main__ - INFO - Market closed cycle 4/12
+2025-06-23 22:21:07,039 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'ITC', 'isec_stock_code': 'ITC', 'isec_token': '1660', 'company name': 'ITC LIMITED', 'isec_token_level1': '4.1!1660', 'isec_token_level2': '4.2!1660'}
+2025-06-23 22:21:07,039 - breeze_sdk_api - INFO - Got token name for ITC: 4.1!1660
+2025-06-23 22:21:07,507 - __main__ - INFO - Current GTT orders in account: 0
+2025-06-23 22:21:07,508 - __main__ - INFO - Active buy orders for ITC: 0
+2025-06-23 22:21:07,508 - __main__ - INFO - Need to place 5 more buy orders to maintain 5 active orders
+2025-06-23 22:21:07,508 - __main__ - INFO - Current active orders: 0/5
+2025-06-23 22:21:07,510 - __main__ - WARNING - No active buy orders found, cannot determine price for new orders
+2025-06-23 22:21:07,510 - __main__ - INFO - No shares available for selling
+2025-06-23 22:21:07,510 - __main__ - INFO - === End Monitoring Cycle ===
+2025-06-23 22:23:07,524 - __main__ - INFO - === GTT Order Monitoring Cycle ===
+2025-06-23 22:23:07,524 - __main__ - INFO - Market hours: CLOSED
+2025-06-23 22:23:07,525 - __main__ - INFO - Market closed cycle 5/12
+2025-06-23 22:23:07,619 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'ITC', 'isec_stock_code': 'ITC', 'isec_token': '1660', 'company name': 'ITC LIMITED', 'isec_token_level1': '4.1!1660', 'isec_token_level2': '4.2!1660'}
+2025-06-23 22:23:07,620 - breeze_sdk_api - INFO - Got token name for ITC: 4.1!1660
+2025-06-23 22:23:07,892 - __main__ - INFO - Current GTT orders in account: 0
+2025-06-23 22:23:07,893 - __main__ - INFO - Active buy orders for ITC: 0
+2025-06-23 22:23:07,893 - __main__ - INFO - Need to place 5 more buy orders to maintain 5 active orders
+2025-06-23 22:23:07,893 - __main__ - INFO - Current active orders: 0/5
+2025-06-23 22:23:07,893 - __main__ - WARNING - No active buy orders found, cannot determine price for new orders
+2025-06-23 22:23:07,894 - __main__ - INFO - No shares available for selling
+2025-06-23 22:23:07,894 - __main__ - INFO - === End Monitoring Cycle ===
+2025-06-23 22:24:44,665 - __main__ - INFO - Received interrupt signal. Stopping monitoring...
+2025-06-23 22:24:54,667 - __main__ - INFO - Monitoring stopped by user.
+2025-06-23 22:24:54,667 - __main__ - INFO - Waiting for monitoring thread to finish...
+2025-06-23 22:25:07,895 - __main__ - INFO - GTT order monitoring stopped
+2025-06-23 22:25:07,895 - __main__ - INFO - Cleaning up WebSocket connection...
+2025-06-23 22:25:07,960 - breeze_sdk_api - ERROR - Error disconnecting from WebSocket: / is not a connected namespace.
+Traceback (most recent call last):
+  File "c:\Users\pkudithi\OneDrive - NVIDIA Corporation\Documents\GitHub\kiteconnect\code\breeze_sdk_api.py", line 293, in disconnect_socket
+    self.breeze.ws_disconnect()
+  File "C:\Users\pkudithi\AppData\Local\Programs\Python\Python310\lib\site-packages\breeze_connect\breeze_connect.py", line 196, in ws_disconnect
+    self.sio_rate_refresh_handler.on_disconnect()
+  File "C:\Users\pkudithi\AppData\Local\Programs\Python\Python310\lib\site-packages\breeze_connect\breeze_connect.py", line 68, in on_disconnect
+    self.sio.emit("disconnect", "transport close")
+  File "C:\Users\pkudithi\AppData\Local\Programs\Python\Python310\lib\site-packages\socketio\client.py", line 214, in emit
+    raise exceptions.BadNamespaceError(
+socketio.exceptions.BadNamespaceError: / is not a connected namespace.
+
+2025-06-23 22:25:07,960 - __main__ - WARNING - Error closing WebSocket connection: / is not a connected namespace.
+2025-06-23 22:25:07,961 - __main__ - INFO - GTT Fall Buy strategy completed.
+2025-06-23 22:31:09,856 - __main__ - INFO - Starting GTT Fall Buy strategy for ITC on NSE
+2025-06-23 22:31:13,742 - breeze_sdk_api - INFO - Successfully initialized Breeze API with credentials
+2025-06-23 22:31:13,743 - __main__ - INFO - Successfully initialized Breeze API
+2025-06-23 22:31:13,966 - __main__ - INFO - Successfully initialized Kite API
+2025-06-23 22:31:13,967 - __main__ - INFO - Will place 5 GTT orders
+2025-06-23 22:31:13,969 - __main__ - INFO - Loaded GTT history from workdir\orders\ITC_gtt_history.json: 5 orders
+2025-06-23 22:31:13,970 - __main__ - INFO - Found 5 existing GTT orders
+2025-06-23 22:31:14,253 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'ITC', 'isec_stock_code': 'ITC', 'isec_token': '1660', 'company name': 'ITC LIMITED', 'isec_token_level1': '4.1!1660', 'isec_token_level2': '4.2!1660'}
+2025-06-23 22:31:14,253 - breeze_sdk_api - INFO - Got token name for ITC: 4.1!1660
+2025-06-23 22:31:14,684 - __main__ - INFO - Current price for ITC: 413.9
+2025-06-23 22:31:14,687 - __main__ - INFO - Found 0 actually active orders on exchange
+2025-06-23 22:31:14,687 - __main__ - INFO - Starting fresh fall buy strategy from current price: 413.9
+2025-06-23 22:31:14,688 - __main__ - INFO - DEBUG: existing_order_count=0, i=1, order_number=1
+2025-06-23 22:31:14,688 - __main__ - INFO - DEBUG: Attempting to place order 1/5
+2025-06-23 22:31:14,689 - __main__ - INFO - DEBUG: First order - using 0.27% below current price: 413.9 * 0.9973 = 412.78247
+2025-06-23 22:31:14,689 - __main__ - INFO - Placing GTT order 1: 1 shares @ 412.78 (trigger: 412.68) - 1% drop from entry
+2025-06-23 22:31:14,689 - __main__ - INFO - DEBUG: Checking if price 412.78 is similar to existing orders...
+2025-06-23 22:31:14,691 - __main__ - INFO - New price 412.78 is similar to existing orders. Skipping this order.
+2025-06-23 22:31:14,691 - __main__ - INFO - DEBUG: Order 1 skipped due to similar price
+2025-06-23 22:31:14,692 - __main__ - INFO - DEBUG: existing_order_count=0, i=2, order_number=2
+2025-06-23 22:31:14,692 - __main__ - INFO - DEBUG: Attempting to place order 2/5
+2025-06-23 22:31:14,693 - __main__ - INFO - DEBUG: Subsequent order - using 1% below previous price: 413.9 * 0.99 = 409.76099999999997
+2025-06-23 22:31:14,693 - __main__ - INFO - Placing GTT order 2: 2 shares @ 409.76 (trigger: 409.66) - 2% drop from entry
+2025-06-23 22:31:14,694 - __main__ - INFO - DEBUG: Checking if price 409.76 is similar to existing orders...
+2025-06-23 22:31:14,694 - __main__ - INFO - New price 409.76 is similar to existing orders. Skipping this order.
+2025-06-23 22:31:14,695 - __main__ - INFO - DEBUG: Order 2 skipped due to similar price
+2025-06-23 22:31:14,695 - __main__ - INFO - DEBUG: existing_order_count=0, i=3, order_number=3
+2025-06-23 22:31:14,696 - __main__ - INFO - DEBUG: Attempting to place order 3/5
+2025-06-23 22:31:14,696 - __main__ - INFO - DEBUG: Subsequent order - using 1% below previous price: 413.9 * 0.99 = 409.76099999999997
+2025-06-23 22:31:14,697 - __main__ - INFO - Placing GTT order 3: 3 shares @ 409.76 (trigger: 409.66) - 3% drop from entry
+2025-06-23 22:31:14,697 - __main__ - INFO - DEBUG: Checking if price 409.76 is similar to existing orders...
+2025-06-23 22:31:14,698 - __main__ - INFO - New price 409.76 is similar to existing orders. Skipping this order.
+2025-06-23 22:31:14,699 - __main__ - INFO - DEBUG: Order 3 skipped due to similar price
+2025-06-23 22:31:14,699 - __main__ - INFO - DEBUG: existing_order_count=0, i=4, order_number=4
+2025-06-23 22:31:14,700 - __main__ - INFO - DEBUG: Attempting to place order 4/5
+2025-06-23 22:31:14,701 - __main__ - INFO - DEBUG: Subsequent order - using 1% below previous price: 413.9 * 0.99 = 409.76099999999997
+2025-06-23 22:31:14,701 - __main__ - INFO - Placing GTT order 4: 4 shares @ 409.76 (trigger: 409.66) - 4% drop from entry
+2025-06-23 22:31:14,702 - __main__ - INFO - DEBUG: Checking if price 409.76 is similar to existing orders...
+2025-06-23 22:31:14,703 - __main__ - INFO - New price 409.76 is similar to existing orders. Skipping this order.
+2025-06-23 22:31:14,703 - __main__ - INFO - DEBUG: Order 4 skipped due to similar price
+2025-06-23 22:31:14,704 - __main__ - INFO - DEBUG: existing_order_count=0, i=5, order_number=5
+2025-06-23 22:31:14,704 - __main__ - INFO - DEBUG: Attempting to place order 5/5
+2025-06-23 22:31:14,705 - __main__ - INFO - DEBUG: Subsequent order - using 1% below previous price: 413.9 * 0.99 = 409.76099999999997
+2025-06-23 22:31:14,705 - __main__ - INFO - Placing GTT order 5: 5 shares @ 409.76 (trigger: 409.66) - 5% drop from entry
+2025-06-23 22:31:14,706 - __main__ - INFO - DEBUG: Checking if price 409.76 is similar to existing orders...
+2025-06-23 22:31:14,706 - __main__ - INFO - New price 409.76 is similar to existing orders. Skipping this order.
+2025-06-23 22:31:14,707 - __main__ - INFO - DEBUG: Order 5 skipped due to similar price
+2025-06-23 22:31:14,707 - __main__ - INFO - DEBUG: Order placement loop completed. orders_placed=0, num_orders=5
+2025-06-23 22:31:14,708 - __main__ - INFO - Total GTT orders placed: 0/5
+2025-06-23 22:31:14,708 - __main__ - WARNING - WARNING: Only 0 out of 5 orders were placed successfully!
+2025-06-23 22:31:14,709 - __main__ - WARNING - This could be due to:
+2025-06-23 22:31:14,709 - __main__ - WARNING - 1. Order placement failures
+2025-06-23 22:31:14,710 - __main__ - WARNING - 2. Similar price checks preventing orders
+2025-06-23 22:31:14,711 - __main__ - WARNING - 3. API errors during order placement
+2025-06-23 22:31:14,711 - __main__ - INFO - DEBUG: existing_gtt_orders count: 5
+2025-06-23 22:31:14,712 - __main__ - INFO - DEBUG: new_gtt_orders count: 0
+2025-06-23 22:31:14,712 - __main__ - INFO - DEBUG: all_gtt_orders count: 5
+2025-06-23 22:31:14,713 - __main__ - INFO - DEBUG: Attempting to save GTT history with 5 orders...
+2025-06-23 22:31:14,713 - __main__ - INFO - DEBUG: save_gtt_history called with 5 orders for ITC
+2025-06-23 22:31:14,714 - __main__ - INFO - DEBUG: Orders directory ensured: workdir\orders
+2025-06-23 22:31:14,714 - __main__ - INFO - DEBUG: History data prepared with 5 orders
+2025-06-23 22:31:14,715 - __main__ - INFO - DEBUG: Saving to file: workdir\orders\ITC_gtt_history.json
+2025-06-23 22:31:14,718 - __main__ - INFO - GTT history saved to workdir\orders\ITC_gtt_history.json
+2025-06-23 22:31:14,718 - __main__ - INFO - DEBUG: File saved successfully. File size: 2836 bytes
+2025-06-23 22:31:14,719 - __main__ - INFO - DEBUG: GTT history save completed
+2025-06-23 22:31:14,719 - __main__ - ERROR - No GTT orders were placed successfully
+2025-06-23 22:31:14,721 - __main__ - INFO - Starting GTT order monitoring thread
+2025-06-23 22:31:14,722 - __main__ - INFO - Setting up real-time tick data monitoring...
+2025-06-23 22:31:14,722 - __main__ - INFO - === GTT Order Monitoring Cycle ===
+2025-06-23 22:31:15,058 - breeze_sdk_api - INFO - Setting on_ticks function: <bound method BreezeApi.on_ticks of <breeze_sdk_api.BreezeApi object at 0x000001F17FEAB700>>
+2025-06-23 22:31:15,058 - breeze_sdk_api - INFO - Successfully connected to WebSocket
+2025-06-23 22:31:15,059 - __main__ - INFO - Connected to Breeze WebSocket for real-time data
+2025-06-23 22:31:15,440 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'ITC', 'isec_stock_code': 'ITC', 'isec_token': '1660', 'company name': 'ITC LIMITED', 'isec_token_level1': '4.1!1660', 'isec_token_level2': '4.2!1660'}
+2025-06-23 22:31:15,440 - breeze_sdk_api - INFO - Got token name for ITC: 4.1!1660
+2025-06-23 22:31:15,440 - __main__ - INFO - Stock token for tick data: 4.1!1660
+2025-06-23 22:31:15,442 - breeze_sdk_api - INFO - Setting on_ticks function: <function main.<locals>.tick_handler at 0x000001F17FEC30A0>
+2025-06-23 22:31:15,442 - __main__ - INFO - Tick handler set up successfully
+2025-06-23 22:31:15,443 - breeze_sdk_api - INFO - Successfully subscribed to OHLC feed for token: 4.1!1660
+2025-06-23 22:31:15,444 - __main__ - INFO - Subscribed to real-time feed for ITC
+2025-06-23 22:31:15,444 - __main__ - INFO - Real-time tick data monitoring is now active!
+2025-06-23 22:31:15,444 - __main__ - INFO - The system will now respond to price changes in real-time
+2025-06-23 22:31:15,444 - __main__ - INFO - GTT order monitoring started.
+2025-06-23 22:31:15,444 - __main__ - INFO - Monitoring will automatically stop when market closes for 1 hour.
+2025-06-23 22:31:15,445 - __main__ - INFO - Press Ctrl+C to stop manually.
+2025-06-23 22:31:19,915 - __main__ - INFO - Market hours: CLOSED
+2025-06-23 22:31:19,916 - __main__ - INFO - Market closed cycle 1/12
+2025-06-23 22:31:20,032 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'ITC', 'isec_stock_code': 'ITC', 'isec_token': '1660', 'company name': 'ITC LIMITED', 'isec_token_level1': '4.1!1660', 'isec_token_level2': '4.2!1660'}
+2025-06-23 22:31:20,032 - breeze_sdk_api - INFO - Got token name for ITC: 4.1!1660
+2025-06-23 22:31:20,345 - __main__ - INFO - Current GTT orders in account: 0
+2025-06-23 22:31:20,346 - __main__ - INFO - Active buy orders for ITC: 0
+2025-06-23 22:31:20,346 - __main__ - INFO - Need to place 5 more buy orders to maintain 5 active orders
+2025-06-23 22:31:20,346 - __main__ - INFO - Current active orders: 0/5
+2025-06-23 22:31:20,347 - __main__ - WARNING - No active buy orders found, cannot determine price for new orders
+2025-06-23 22:31:20,347 - __main__ - INFO - No shares available for selling
+2025-06-23 22:31:20,348 - __main__ - INFO - === End Monitoring Cycle ===
+2025-06-23 22:31:22,529 - __main__ - INFO - Received interrupt signal. Stopping monitoring...
+2025-06-23 22:31:32,539 - __main__ - INFO - Monitoring stopped by user.
+2025-06-23 22:31:32,539 - __main__ - INFO - Waiting for monitoring thread to finish...
+2025-06-23 22:32:02,554 - __main__ - INFO - Cleaning up WebSocket connection...
+2025-06-23 22:32:02,555 - __main__ - INFO - WebSocket not initialized, skipping cleanup
+2025-06-23 22:32:02,555 - __main__ - INFO - GTT Fall Buy strategy completed.
+2025-06-23 22:32:02,555 - __main__ - INFO - Stop monitoring signal set
+2025-06-23 22:33:27,520 - __main__ - INFO - Starting GTT Fall Buy strategy for ITC on NSE
+2025-06-23 22:33:28,323 - breeze_sdk_api - INFO - Successfully initialized Breeze API with credentials
+2025-06-23 22:33:28,323 - __main__ - INFO - Successfully initialized Breeze API
+2025-06-23 22:33:28,521 - __main__ - INFO - Successfully initialized Kite API
+2025-06-23 22:33:28,521 - __main__ - INFO - Will place 5 GTT orders
+2025-06-23 22:33:28,523 - __main__ - INFO - Loaded GTT history from workdir\orders\ITC_gtt_history.json: 5 orders
+2025-06-23 22:33:28,523 - __main__ - INFO - Found 5 existing GTT orders
+2025-06-23 22:33:28,614 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'ITC', 'isec_stock_code': 'ITC', 'isec_token': '1660', 'company name': 'ITC LIMITED', 'isec_token_level1': '4.1!1660', 'isec_token_level2': '4.2!1660'}
+2025-06-23 22:33:28,614 - breeze_sdk_api - INFO - Got token name for ITC: 4.1!1660
+2025-06-23 22:33:29,433 - __main__ - INFO - Current price for ITC: 413.9
+2025-06-23 22:33:29,434 - __main__ - INFO - Found 0 actually active orders on exchange
+2025-06-23 22:33:29,434 - __main__ - INFO - Starting fresh fall buy strategy from current price: 413.9
+2025-06-23 22:33:29,434 - __main__ - INFO - DEBUG: existing_order_count=0, i=1, order_number=1
+2025-06-23 22:33:29,435 - __main__ - INFO - DEBUG: Attempting to place order 1/5
+2025-06-23 22:33:29,435 - __main__ - INFO - DEBUG: First order - using 0.27% below current price: 413.9 * 0.9973 = 412.78247
+2025-06-23 22:33:29,435 - __main__ - INFO - Placing GTT order 1: 1 shares @ 412.78 (trigger: 412.68) - 1% drop from entry
+2025-06-23 22:33:29,435 - __main__ - INFO - DEBUG: Checking if price 412.78 is similar to existing orders...
+2025-06-23 22:33:29,436 - __main__ - INFO - New price 412.78 is similar to existing orders. Skipping this order.
+2025-06-23 22:33:29,436 - __main__ - INFO - DEBUG: Order 1 skipped due to similar price
+2025-06-23 22:33:29,436 - __main__ - INFO - DEBUG: existing_order_count=0, i=2, order_number=2
+2025-06-23 22:33:29,436 - __main__ - INFO - DEBUG: Attempting to place order 2/5
+2025-06-23 22:33:29,437 - __main__ - INFO - DEBUG: Subsequent order - using 1% below previous price: 413.9 * 0.99 = 409.76099999999997
+2025-06-23 22:33:29,437 - __main__ - INFO - Placing GTT order 2: 2 shares @ 409.76 (trigger: 409.66) - 2% drop from entry
+2025-06-23 22:33:29,437 - __main__ - INFO - DEBUG: Checking if price 409.76 is similar to existing orders...
+2025-06-23 22:33:29,437 - __main__ - INFO - New price 409.76 is similar to existing orders. Skipping this order.
+2025-06-23 22:33:29,437 - __main__ - INFO - DEBUG: Order 2 skipped due to similar price
+2025-06-23 22:33:29,438 - __main__ - INFO - DEBUG: existing_order_count=0, i=3, order_number=3
+2025-06-23 22:33:29,438 - __main__ - INFO - DEBUG: Attempting to place order 3/5
+2025-06-23 22:33:29,438 - __main__ - INFO - DEBUG: Subsequent order - using 1% below previous price: 413.9 * 0.99 = 409.76099999999997
+2025-06-23 22:33:29,438 - __main__ - INFO - Placing GTT order 3: 3 shares @ 409.76 (trigger: 409.66) - 3% drop from entry
+2025-06-23 22:33:29,439 - __main__ - INFO - DEBUG: Checking if price 409.76 is similar to existing orders...
+2025-06-23 22:33:29,439 - __main__ - INFO - New price 409.76 is similar to existing orders. Skipping this order.
+2025-06-23 22:33:29,439 - __main__ - INFO - DEBUG: Order 3 skipped due to similar price
+2025-06-23 22:33:29,440 - __main__ - INFO - DEBUG: existing_order_count=0, i=4, order_number=4
+2025-06-23 22:33:29,440 - __main__ - INFO - DEBUG: Attempting to place order 4/5
+2025-06-23 22:33:29,440 - __main__ - INFO - DEBUG: Subsequent order - using 1% below previous price: 413.9 * 0.99 = 409.76099999999997
+2025-06-23 22:33:29,440 - __main__ - INFO - Placing GTT order 4: 4 shares @ 409.76 (trigger: 409.66) - 4% drop from entry
+2025-06-23 22:33:29,451 - __main__ - INFO - DEBUG: Checking if price 409.76 is similar to existing orders...
+2025-06-23 22:33:29,451 - __main__ - INFO - New price 409.76 is similar to existing orders. Skipping this order.
+2025-06-23 22:33:29,452 - __main__ - INFO - DEBUG: Order 4 skipped due to similar price
+2025-06-23 22:33:29,452 - __main__ - INFO - DEBUG: existing_order_count=0, i=5, order_number=5
+2025-06-23 22:33:29,452 - __main__ - INFO - DEBUG: Attempting to place order 5/5
+2025-06-23 22:33:29,453 - __main__ - INFO - DEBUG: Subsequent order - using 1% below previous price: 413.9 * 0.99 = 409.76099999999997
+2025-06-23 22:33:29,453 - __main__ - INFO - Placing GTT order 5: 5 shares @ 409.76 (trigger: 409.66) - 5% drop from entry
+2025-06-23 22:33:29,453 - __main__ - INFO - DEBUG: Checking if price 409.76 is similar to existing orders...
+2025-06-23 22:33:29,453 - __main__ - INFO - New price 409.76 is similar to existing orders. Skipping this order.
+2025-06-23 22:33:29,453 - __main__ - INFO - DEBUG: Order 5 skipped due to similar price
+2025-06-23 22:33:29,454 - __main__ - INFO - DEBUG: Order placement loop completed. orders_placed=0, num_orders=5
+2025-06-23 22:33:29,454 - __main__ - INFO - Total GTT orders placed: 0/5
+2025-06-23 22:33:29,454 - __main__ - WARNING - WARNING: Only 0 out of 5 orders were placed successfully!
+2025-06-23 22:33:29,454 - __main__ - WARNING - This could be due to:
+2025-06-23 22:33:29,454 - __main__ - WARNING - 1. Order placement failures
+2025-06-23 22:33:29,454 - __main__ - WARNING - 2. Similar price checks preventing orders
+2025-06-23 22:33:29,454 - __main__ - WARNING - 3. API errors during order placement
+2025-06-23 22:33:29,455 - __main__ - INFO - DEBUG: existing_gtt_orders count: 5
+2025-06-23 22:33:29,455 - __main__ - INFO - DEBUG: new_gtt_orders count: 0
+2025-06-23 22:33:29,455 - __main__ - INFO - DEBUG: all_gtt_orders count: 5
+2025-06-23 22:33:29,455 - __main__ - INFO - DEBUG: Attempting to save GTT history with 5 orders...
+2025-06-23 22:33:29,455 - __main__ - INFO - DEBUG: save_gtt_history called with 5 orders for ITC
+2025-06-23 22:33:29,456 - __main__ - INFO - DEBUG: Orders directory ensured: workdir\orders
+2025-06-23 22:33:29,456 - __main__ - INFO - DEBUG: History data prepared with 5 orders
+2025-06-23 22:33:29,456 - __main__ - INFO - DEBUG: Saving to file: workdir\orders\ITC_gtt_history.json
+2025-06-23 22:33:29,458 - __main__ - INFO - GTT history saved to workdir\orders\ITC_gtt_history.json
+2025-06-23 22:33:29,458 - __main__ - INFO - DEBUG: File saved successfully. File size: 2836 bytes
+2025-06-23 22:33:29,459 - __main__ - INFO - DEBUG: GTT history save completed
+2025-06-23 22:33:29,459 - __main__ - ERROR - No GTT orders were placed successfully
+2025-06-23 22:33:29,460 - __main__ - INFO - Starting GTT order monitoring thread
+2025-06-23 22:33:29,460 - __main__ - INFO - Setting up real-time tick data monitoring...
+2025-06-23 22:33:29,460 - __main__ - INFO - === GTT Order Monitoring Cycle ===
+2025-06-23 22:33:29,575 - __main__ - INFO - Market hours: CLOSED
+2025-06-23 22:33:29,576 - __main__ - INFO - Market closed cycle 1/12
+2025-06-23 22:33:29,666 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'ITC', 'isec_stock_code': 'ITC', 'isec_token': '1660', 'company name': 'ITC LIMITED', 'isec_token_level1': '4.1!1660', 'isec_token_level2': '4.2!1660'}
+2025-06-23 22:33:29,666 - breeze_sdk_api - INFO - Got token name for ITC: 4.1!1660
+2025-06-23 22:33:29,677 - breeze_sdk_api - INFO - Setting on_ticks function: <bound method BreezeApi.on_ticks of <breeze_sdk_api.BreezeApi object at 0x000001BDBE28C340>>
+2025-06-23 22:33:29,678 - breeze_sdk_api - INFO - Successfully connected to WebSocket
+2025-06-23 22:33:29,678 - __main__ - INFO - Connected to Breeze WebSocket for real-time data
+2025-06-23 22:33:29,841 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'ITC', 'isec_stock_code': 'ITC', 'isec_token': '1660', 'company name': 'ITC LIMITED', 'isec_token_level1': '4.1!1660', 'isec_token_level2': '4.2!1660'}
+2025-06-23 22:33:29,842 - breeze_sdk_api - INFO - Got token name for ITC: 4.1!1660
+2025-06-23 22:33:29,842 - __main__ - INFO - Stock token for tick data: 4.1!1660
+2025-06-23 22:33:29,842 - breeze_sdk_api - INFO - Setting on_ticks function: <function main.<locals>.tick_handler at 0x000001BD9A7DD990>
+2025-06-23 22:33:29,842 - __main__ - INFO - Tick handler set up successfully
+2025-06-23 22:33:29,842 - breeze_sdk_api - INFO - Successfully subscribed to OHLC feed for token: 4.1!1660
+2025-06-23 22:33:29,843 - __main__ - INFO - Subscribed to real-time feed for ITC
+2025-06-23 22:33:29,843 - __main__ - INFO - Real-time tick data monitoring is now active!
+2025-06-23 22:33:29,843 - __main__ - INFO - The system will now respond to price changes in real-time
+2025-06-23 22:33:29,844 - __main__ - INFO - GTT order monitoring started.
+2025-06-23 22:33:29,844 - __main__ - INFO - Monitoring will automatically stop when market closes for 1 hour.
+2025-06-23 22:33:29,844 - __main__ - INFO - Press Ctrl+C to stop manually.
+2025-06-23 22:33:29,958 - __main__ - INFO - Current GTT orders in account: 0
+2025-06-23 22:33:29,959 - __main__ - INFO - Active buy orders for ITC: 0
+2025-06-23 22:33:29,959 - __main__ - INFO - Need to place 5 more buy orders to maintain 5 active orders
+2025-06-23 22:33:29,960 - __main__ - INFO - Current active orders: 0/5
+2025-06-23 22:33:29,960 - __main__ - WARNING - No active buy orders found, cannot determine price for new orders
+2025-06-23 22:33:29,961 - __main__ - INFO - No shares available for selling
+2025-06-23 22:33:29,961 - __main__ - INFO - === End Monitoring Cycle ===
+2025-06-23 22:33:45,567 - __main__ - INFO - Received interrupt signal. Stopping monitoring...
+2025-06-23 22:33:55,574 - __main__ - INFO - Monitoring stopped by user.
+2025-06-23 22:33:55,575 - __main__ - INFO - Waiting for monitoring thread to finish...
+2025-06-23 22:34:25,578 - __main__ - INFO - Cleaning up WebSocket connection...
+2025-06-23 22:34:25,578 - __main__ - INFO - WebSocket not initialized, skipping cleanup
+2025-06-23 22:34:25,578 - __main__ - INFO - GTT Fall Buy strategy completed.
+2025-06-23 22:34:25,579 - __main__ - INFO - Stop monitoring signal set

@@ -1,0 +1,7 @@
+2025-05-25 18:08:55,676 - kite_utils - ERROR - Error initializing Kite Connect: Incorrect `api_key` or `access_token`.
+2025-05-25 18:11:40,891 - kite_utils - ERROR - Error initializing Kite Connect: Incorrect `api_key` or `access_token`.
+2025-05-25 18:12:19,953 - kite_utils - ERROR - Error initializing Kite Connect: Incorrect `api_key` or `access_token`.
+2025-05-25 18:12:39,649 - kite_utils - ERROR - Error initializing Kite Connect: Please update your request_token in config.yaml
+2025-05-25 18:18:05,935 - kite_utils - ERROR - Error initializing Kite Connect: Please update your request_token in config.yaml
+2025-05-25 18:19:08,381 - kite_utils - ERROR - Error getting live data for ITC: Insufficient permission for that call.
+2025-05-25 18:19:15,492 - kite_utils - ERROR - Error getting live data for ITC: Insufficient permission for that call.

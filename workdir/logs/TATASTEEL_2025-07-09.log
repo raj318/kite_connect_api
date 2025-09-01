@@ -1,0 +1,1186 @@
+2025-07-09 07:35:50,480 - __main__ - INFO - Starting GTT Fall Buy strategy for TATASTEEL on NSE
+2025-07-09 07:35:56,989 - breeze_sdk_api - WARNING - Session expired or invalid, attempting to regenerate token
+2025-07-09 07:35:56,989 - breeze_sdk_api - INFO - login_url = https://api.icicidirect.com/apiuser/login?api_key=3088X_y892P%257c%23516%60r8i9kx2K485%268
+2025-07-09 07:36:59,247 - __main__ - INFO - Starting GTT Fall Buy strategy for TATASTEEL on NSE
+2025-07-09 07:37:01,033 - breeze_sdk_api - INFO - Successfully initialized Breeze API with credentials
+2025-07-09 07:37:01,034 - __main__ - INFO - Successfully initialized Breeze API
+2025-07-09 07:37:42,679 - __main__ - INFO - Starting GTT Fall Buy strategy for TATASTEEL on NSE
+2025-07-09 07:37:43,943 - breeze_sdk_api - INFO - Successfully initialized Breeze API with credentials
+2025-07-09 07:37:43,944 - __main__ - INFO - Successfully initialized Breeze API
+2025-07-09 07:37:44,105 - __main__ - INFO - Successfully initialized Kite API
+2025-07-09 07:37:44,105 - __main__ - INFO - Will place 10 GTT orders
+2025-07-09 07:37:44,105 - __main__ - INFO - No GTT history file found. Starting fresh.
+2025-07-09 07:37:44,106 - __main__ - INFO - Found 0 existing GTT orders in history file
+2025-07-09 07:37:44,234 - __main__ - INFO - Found 12 current GTT orders in Kite API
+2025-07-09 07:37:44,235 - __main__ - INFO - API Order 1: ID=279416510, Symbol=POWERGRID, Type=SELL, Status=active
+2025-07-09 07:37:44,235 - __main__ - INFO - API Order 2: ID=278914782, Symbol=ONGC, Type=SELL, Status=active
+2025-07-09 07:37:44,235 - __main__ - INFO - API Order 3: ID=278858901, Symbol=POWERGRID, Type=BUY, Status=active
+2025-07-09 07:37:44,235 - __main__ - INFO - API Order 4: ID=278858660, Symbol=POWERGRID, Type=BUY, Status=active
+2025-07-09 07:37:44,236 - __main__ - INFO - API Order 5: ID=278170572, Symbol=POWERGRID, Type=BUY, Status=active
+2025-07-09 07:37:44,236 - __main__ - INFO - API Order 6: ID=278857294, Symbol=POWERGRID, Type=BUY, Status=active
+2025-07-09 07:37:44,236 - __main__ - INFO - API Order 7: ID=278170580, Symbol=POWERGRID, Type=BUY, Status=active
+2025-07-09 07:37:44,237 - __main__ - INFO - API Order 8: ID=278170575, Symbol=POWERGRID, Type=BUY, Status=active
+2025-07-09 07:37:44,237 - __main__ - INFO - API Order 9: ID=278075503, Symbol=ONGC, Type=BUY, Status=active
+2025-07-09 07:37:44,237 - __main__ - INFO - API Order 10: ID=278021230, Symbol=ONGC, Type=BUY, Status=active
+2025-07-09 07:37:44,237 - __main__ - INFO - API Order 11: ID=278021229, Symbol=ONGC, Type=BUY, Status=active
+2025-07-09 07:37:44,237 - __main__ - INFO - API Order 12: ID=278021228, Symbol=ONGC, Type=BUY, Status=active
+2025-07-09 07:37:44,238 - __main__ - INFO - Found 0 active TATASTEEL buy orders in Kite API
+2025-07-09 07:37:44,495 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 07:37:44,495 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 07:37:44,844 - __main__ - INFO - Current price for TATASTEEL: 161.97
+2025-07-09 07:37:44,983 - __main__ - INFO - Found 0 actually active buy orders on exchange
+2025-07-09 07:37:44,983 - __main__ - INFO - Starting fresh fall buy strategy from current price: 161.97
+2025-07-09 07:37:45,132 - __main__ - INFO - Placing MARKET order 1: 1 shares @ LTP (161.97)
+2025-07-09 07:37:45,523 - __main__ - ERROR - Failed to place MARKET order 1
+2025-07-09 07:37:45,523 - __main__ - INFO - Total GTT orders placed: 0/10
+2025-07-09 07:37:45,524 - __main__ - WARNING - WARNING: Only 0 out of 10 orders were placed successfully!
+2025-07-09 07:37:45,524 - __main__ - WARNING - This could be due to:
+2025-07-09 07:37:45,525 - __main__ - WARNING - 1. Order placement failures
+2025-07-09 07:37:45,526 - __main__ - WARNING - 2. Similar price checks preventing orders
+2025-07-09 07:37:45,526 - __main__ - WARNING - 3. API errors during order placement
+2025-07-09 07:37:45,528 - __main__ - INFO - GTT history saved: 0 orders
+2025-07-09 07:37:45,536 - __main__ - INFO - Loaded GTT history: 0 orders
+2025-07-09 07:37:45,536 - __main__ - ERROR - No GTT orders were placed successfully
+2025-07-09 07:37:45,536 - __main__ - INFO - Setting up real-time tick data monitoring...
+2025-07-09 07:37:46,133 - breeze_sdk_api - INFO - Setting on_ticks function: <bound method BreezeApi.on_ticks of <breeze_sdk_api.BreezeApi object at 0x000001801B9A7EB0>>
+2025-07-09 07:37:46,134 - breeze_sdk_api - INFO - Successfully connected to WebSocket
+2025-07-09 07:37:46,134 - __main__ - INFO - Connected to Breeze WebSocket for real-time data
+2025-07-09 07:37:46,229 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 07:37:46,230 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 07:37:46,230 - __main__ - INFO - Stock token for tick data: 4.1!3499
+2025-07-09 07:37:46,230 - breeze_sdk_api - INFO - Setting on_ticks function: <function main.<locals>.tick_handler at 0x000001801B9CE950>
+2025-07-09 07:37:46,231 - __main__ - INFO - Tick handler set up successfully
+2025-07-09 07:37:46,231 - breeze_sdk_api - INFO - Successfully subscribed to OHLC feed for token: 4.1!3499
+2025-07-09 07:37:46,231 - __main__ - INFO - Subscribed to real-time feed for TATASTEEL
+2025-07-09 07:37:46,232 - __main__ - INFO - Real-time tick data monitoring is now active!
+2025-07-09 07:37:46,232 - __main__ - INFO - The system will now respond to price changes in real-time
+2025-07-09 07:37:46,232 - __main__ - INFO - GTT order monitoring started.
+2025-07-09 07:37:46,232 - __main__ - INFO - Press Ctrl+C to stop manually.
+2025-07-09 07:38:46,323 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 07:38:46,324 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 07:38:46,664 - __main__ - INFO - Periodic monitoring check at price: 161.97
+2025-07-09 07:38:46,664 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 07:39:16,795 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 07:39:16,795 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 07:39:17,196 - __main__ - INFO - Periodic monitoring check at price: 161.97
+2025-07-09 07:39:17,196 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 07:39:47,320 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 07:39:47,321 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 07:39:47,761 - __main__ - INFO - Periodic monitoring check at price: 161.97
+2025-07-09 07:39:47,762 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 07:39:48,855 - __main__ - INFO - Received interrupt signal. Stopping monitoring...
+2025-07-09 07:39:48,855 - __main__ - INFO - Monitoring stopped by user.
+2025-07-09 07:39:48,856 - __main__ - INFO - Cleaning up WebSocket connection...
+2025-07-09 07:39:48,856 - __main__ - INFO - WebSocket not initialized, skipping cleanup
+2025-07-09 07:39:48,856 - __main__ - INFO - GTT Fall Buy strategy completed.
+2025-07-09 08:20:51,268 - __main__ - INFO - Starting GTT Fall Buy strategy for TATASTEEL on NSE
+2025-07-09 08:20:58,121 - breeze_sdk_api - INFO - Successfully initialized Breeze API with credentials
+2025-07-09 08:20:58,122 - __main__ - INFO - Successfully initialized Breeze API
+2025-07-09 08:20:58,393 - __main__ - INFO - Successfully initialized Kite API
+2025-07-09 08:20:58,394 - __main__ - INFO - Will place 10 GTT orders
+2025-07-09 08:20:58,411 - __main__ - INFO - Loaded GTT history: 0 orders
+2025-07-09 08:20:58,412 - __main__ - INFO - Found 0 existing GTT orders in history file
+2025-07-09 08:21:05,544 - __main__ - INFO - Found 12 current GTT orders in Kite API
+2025-07-09 08:21:05,544 - __main__ - INFO - API Order 1: ID=279416510, Symbol=POWERGRID, Type=SELL, Status=active
+2025-07-09 08:21:05,545 - __main__ - INFO - API Order 2: ID=278914782, Symbol=ONGC, Type=SELL, Status=active
+2025-07-09 08:21:05,545 - __main__ - INFO - API Order 3: ID=278858901, Symbol=POWERGRID, Type=BUY, Status=active
+2025-07-09 08:21:05,545 - __main__ - INFO - API Order 4: ID=278858660, Symbol=POWERGRID, Type=BUY, Status=active
+2025-07-09 08:21:05,546 - __main__ - INFO - API Order 5: ID=278170572, Symbol=POWERGRID, Type=BUY, Status=active
+2025-07-09 08:21:05,546 - __main__ - INFO - API Order 6: ID=278857294, Symbol=POWERGRID, Type=BUY, Status=active
+2025-07-09 08:21:05,546 - __main__ - INFO - API Order 7: ID=278170580, Symbol=POWERGRID, Type=BUY, Status=active
+2025-07-09 08:21:05,546 - __main__ - INFO - API Order 8: ID=278170575, Symbol=POWERGRID, Type=BUY, Status=active
+2025-07-09 08:21:05,547 - __main__ - INFO - API Order 9: ID=278075503, Symbol=ONGC, Type=BUY, Status=active
+2025-07-09 08:21:05,547 - __main__ - INFO - API Order 10: ID=278021230, Symbol=ONGC, Type=BUY, Status=active
+2025-07-09 08:21:05,547 - __main__ - INFO - API Order 11: ID=278021229, Symbol=ONGC, Type=BUY, Status=active
+2025-07-09 08:21:05,547 - __main__ - INFO - API Order 12: ID=278021228, Symbol=ONGC, Type=BUY, Status=active
+2025-07-09 08:21:05,548 - __main__ - INFO - Found 0 active TATASTEEL buy orders in Kite API
+2025-07-09 08:21:05,798 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 08:21:05,798 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 08:21:06,168 - __main__ - INFO - Current price for TATASTEEL: 161.97
+2025-07-09 08:21:06,283 - __main__ - INFO - Found 0 actually active buy orders on exchange
+2025-07-09 08:21:06,284 - __main__ - INFO - Starting fresh fall buy strategy from current price: 161.97
+2025-07-09 08:21:06,495 - __main__ - INFO - Placing MARKET order 1: 1 shares @ LTP (161.97)
+2025-07-09 08:21:06,854 - __main__ - ERROR - Failed to place MARKET order 1
+2025-07-09 08:21:06,854 - __main__ - INFO - Total GTT orders placed: 0/10
+2025-07-09 08:21:06,855 - __main__ - WARNING - WARNING: Only 0 out of 10 orders were placed successfully!
+2025-07-09 08:21:06,855 - __main__ - WARNING - This could be due to:
+2025-07-09 08:21:06,855 - __main__ - WARNING - 1. Order placement failures
+2025-07-09 08:21:06,856 - __main__ - WARNING - 2. Similar price checks preventing orders
+2025-07-09 08:21:06,856 - __main__ - WARNING - 3. API errors during order placement
+2025-07-09 08:21:06,857 - __main__ - INFO - GTT history saved: 0 orders
+2025-07-09 08:21:06,877 - __main__ - INFO - Loaded GTT history: 0 orders
+2025-07-09 08:21:06,878 - __main__ - ERROR - No GTT orders were placed successfully
+2025-07-09 08:21:06,878 - __main__ - INFO - Setting up real-time tick data monitoring...
+2025-07-09 08:21:07,278 - breeze_sdk_api - INFO - Setting on_ticks function: <bound method BreezeApi.on_ticks of <breeze_sdk_api.BreezeApi object at 0x0000023AA67C7F10>>
+2025-07-09 08:21:07,279 - breeze_sdk_api - INFO - Successfully connected to WebSocket
+2025-07-09 08:21:07,279 - __main__ - INFO - Connected to Breeze WebSocket for real-time data
+2025-07-09 08:21:07,493 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 08:21:07,494 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 08:21:07,495 - __main__ - INFO - Stock token for tick data: 4.1!3499
+2025-07-09 08:21:07,496 - breeze_sdk_api - INFO - Setting on_ticks function: <function main.<locals>.tick_handler at 0x0000023AA67F28C0>
+2025-07-09 08:21:07,496 - __main__ - INFO - Tick handler set up successfully
+2025-07-09 08:21:07,497 - breeze_sdk_api - INFO - Successfully subscribed to OHLC feed for token: 4.1!3499
+2025-07-09 08:21:07,497 - __main__ - INFO - Subscribed to real-time feed for TATASTEEL
+2025-07-09 08:21:07,498 - __main__ - INFO - Real-time tick data monitoring is now active!
+2025-07-09 08:21:07,498 - __main__ - INFO - The system will now respond to price changes in real-time
+2025-07-09 08:21:07,499 - __main__ - INFO - GTT order monitoring started.
+2025-07-09 08:21:07,499 - __main__ - INFO - Press Ctrl+C to stop manually.
+2025-07-09 08:21:17,273 - __main__ - INFO - Received interrupt signal. Stopping monitoring...
+2025-07-09 08:21:17,274 - __main__ - INFO - Monitoring stopped by user.
+2025-07-09 08:21:17,274 - __main__ - INFO - Cleaning up WebSocket connection...
+2025-07-09 08:21:17,274 - __main__ - INFO - WebSocket not initialized, skipping cleanup
+2025-07-09 08:21:17,275 - __main__ - INFO - GTT Fall Buy strategy completed.
+2025-07-09 08:57:57,878 - __main__ - INFO - Starting GTT Fall Buy strategy for TATASTEEL on NSE
+2025-07-09 08:58:00,158 - breeze_sdk_api - INFO - Successfully initialized Breeze API with credentials
+2025-07-09 08:58:00,159 - __main__ - INFO - Successfully initialized Breeze API
+2025-07-09 08:58:00,459 - __main__ - INFO - Successfully initialized Kite API
+2025-07-09 08:58:00,460 - __main__ - INFO - Will place 10 GTT orders
+2025-07-09 08:58:00,501 - __main__ - INFO - Loaded GTT history: 0 orders
+2025-07-09 08:58:00,502 - __main__ - INFO - Found 0 existing GTT orders in history file
+2025-07-09 08:58:00,657 - __main__ - INFO - Found 12 current GTT orders in Kite API
+2025-07-09 08:58:00,657 - __main__ - INFO - API Order 1: ID=279416510, Symbol=POWERGRID, Type=SELL, Status=active
+2025-07-09 08:58:00,658 - __main__ - INFO - API Order 2: ID=278914782, Symbol=ONGC, Type=SELL, Status=active
+2025-07-09 08:58:00,658 - __main__ - INFO - API Order 3: ID=278858901, Symbol=POWERGRID, Type=BUY, Status=active
+2025-07-09 08:58:00,659 - __main__ - INFO - API Order 4: ID=278858660, Symbol=POWERGRID, Type=BUY, Status=active
+2025-07-09 08:58:00,659 - __main__ - INFO - API Order 5: ID=278170572, Symbol=POWERGRID, Type=BUY, Status=active
+2025-07-09 08:58:00,660 - __main__ - INFO - API Order 6: ID=278857294, Symbol=POWERGRID, Type=BUY, Status=active
+2025-07-09 08:58:00,660 - __main__ - INFO - API Order 7: ID=278170580, Symbol=POWERGRID, Type=BUY, Status=active
+2025-07-09 08:58:00,660 - __main__ - INFO - API Order 8: ID=278170575, Symbol=POWERGRID, Type=BUY, Status=active
+2025-07-09 08:58:00,662 - __main__ - INFO - API Order 9: ID=278075503, Symbol=ONGC, Type=BUY, Status=active
+2025-07-09 08:58:00,662 - __main__ - INFO - API Order 10: ID=278021230, Symbol=ONGC, Type=BUY, Status=active
+2025-07-09 08:58:00,663 - __main__ - INFO - API Order 11: ID=278021229, Symbol=ONGC, Type=BUY, Status=active
+2025-07-09 08:58:00,663 - __main__ - INFO - API Order 12: ID=278021228, Symbol=ONGC, Type=BUY, Status=active
+2025-07-09 08:58:00,664 - __main__ - INFO - Found 0 active TATASTEEL buy orders in Kite API
+2025-07-09 08:58:01,072 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 08:58:01,072 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 08:58:01,639 - __main__ - INFO - Current price for TATASTEEL: 161.97
+2025-07-09 08:58:01,796 - __main__ - INFO - Found 0 actually active buy orders on exchange
+2025-07-09 08:58:01,796 - __main__ - INFO - Starting fresh fall buy strategy from current price: 161.97
+2025-07-09 08:58:02,179 - __main__ - INFO - Placing MARKET order 1: 1 shares @ LTP (161.97)
+2025-07-09 08:58:02,623 - __main__ - INFO - Successfully placed MARKET order 1: 250709120017535
+2025-07-09 08:58:02,625 - __main__ - INFO - GTT history saved: 1 orders
+2025-07-09 08:58:02,629 - __main__ - INFO - Placing GTT order 2: 2 shares @ 160.37 (trigger: 160.35)
+2025-07-09 08:58:02,804 - __main__ - INFO - Successfully placed GTT order 2: 279533680
+2025-07-09 08:58:02,809 - __main__ - INFO - GTT history saved: 2 orders
+2025-07-09 08:58:02,813 - __main__ - INFO - Placing GTT order 3: 3 shares @ 158.79 (trigger: 158.77)
+2025-07-09 08:58:02,970 - __main__ - INFO - Successfully placed GTT order 3: 279533681
+2025-07-09 08:58:02,974 - __main__ - INFO - GTT history saved: 3 orders
+2025-07-09 08:58:02,978 - __main__ - INFO - Placing GTT order 4: 4 shares @ 157.22 (trigger: 157.20)
+2025-07-09 08:58:03,139 - __main__ - INFO - Successfully placed GTT order 4: 279533683
+2025-07-09 08:58:03,142 - __main__ - INFO - GTT history saved: 4 orders
+2025-07-09 08:58:03,146 - __main__ - INFO - Placing GTT order 5: 5 shares @ 155.67 (trigger: 155.65)
+2025-07-09 08:58:03,328 - __main__ - INFO - Successfully placed GTT order 5: 279533684
+2025-07-09 08:58:03,348 - __main__ - INFO - GTT history saved: 5 orders
+2025-07-09 08:58:03,355 - __main__ - INFO - Placing GTT order 6: 6 shares @ 154.13 (trigger: 154.11)
+2025-07-09 08:58:03,567 - __main__ - INFO - Successfully placed GTT order 6: 279533685
+2025-07-09 08:58:03,572 - __main__ - INFO - GTT history saved: 6 orders
+2025-07-09 08:58:03,577 - __main__ - INFO - Placing GTT order 7: 7 shares @ 152.61 (trigger: 152.59)
+2025-07-09 08:58:03,752 - __main__ - INFO - Successfully placed GTT order 7: 279533687
+2025-07-09 08:58:03,756 - __main__ - INFO - GTT history saved: 7 orders
+2025-07-09 08:58:03,760 - __main__ - INFO - Placing GTT order 8: 8 shares @ 151.10 (trigger: 151.08)
+2025-07-09 08:58:03,936 - __main__ - INFO - Successfully placed GTT order 8: 279533689
+2025-07-09 08:58:03,939 - __main__ - INFO - GTT history saved: 8 orders
+2025-07-09 08:58:03,944 - __main__ - INFO - Placing GTT order 9: 9 shares @ 149.61 (trigger: 149.59)
+2025-07-09 08:58:04,111 - __main__ - INFO - Successfully placed GTT order 9: 279533690
+2025-07-09 08:58:04,114 - __main__ - INFO - GTT history saved: 9 orders
+2025-07-09 08:58:04,118 - __main__ - INFO - Placing GTT order 10: 10 shares @ 148.13 (trigger: 148.11)
+2025-07-09 08:58:04,294 - __main__ - INFO - Successfully placed GTT order 10: 279533691
+2025-07-09 08:58:04,298 - __main__ - INFO - GTT history saved: 10 orders
+2025-07-09 08:58:04,298 - __main__ - INFO - Total GTT orders placed: 10/10
+2025-07-09 08:58:04,299 - __main__ - INFO - SUCCESS: All 10 orders were placed successfully!
+2025-07-09 08:58:04,304 - __main__ - INFO - GTT history saved: 10 orders
+2025-07-09 08:58:04,329 - __main__ - INFO - Loaded GTT history: 10 orders
+2025-07-09 08:58:04,482 - __main__ - INFO - Total GTT orders in account: 21
+2025-07-09 08:58:04,483 - __main__ - INFO - GTT Order: {'id': 279533691, 'user_id': 'OVF854', 'parent_trigger': None, 'type': 'single', 'created_at': '2025-07-09 08:58:04', 'updated_at': '2025-07-09 08:58:04', 'expires_at': '2026-07-09 08:58:04', 'status': 'active', 'condition': {'exchange': 'NSE', 'last_price': 161.97, 'tradingsymbol': 'TATASTEEL', 'trigger_values': [148.11], 'instrument_token': 895745}, 'orders': [{'exchange': 'NSE', 'tradingsymbol': 'TATASTEEL', 'product': 'CNC', 'order_type': 'LIMIT', 'transaction_type': 'BUY', 'quantity': 10, 'price': 148.13, 'result': None}], 'meta': {}}
+2025-07-09 08:58:04,484 - __main__ - INFO - GTT Order: {'id': 279533690, 'user_id': 'OVF854', 'parent_trigger': None, 'type': 'single', 'created_at': '2025-07-09 08:58:04', 'updated_at': '2025-07-09 08:58:04', 'expires_at': '2026-07-09 08:58:04', 'status': 'active', 'condition': {'exchange': 'NSE', 'last_price': 161.97, 'tradingsymbol': 'TATASTEEL', 'trigger_values': [149.59], 'instrument_token': 895745}, 'orders': [{'exchange': 'NSE', 'tradingsymbol': 'TATASTEEL', 'product': 'CNC', 'order_type': 'LIMIT', 'transaction_type': 'BUY', 'quantity': 9, 'price': 149.61, 'result': None}], 'meta': {}}
+2025-07-09 08:58:04,485 - __main__ - INFO - GTT Order: {'id': 279533689, 'user_id': 'OVF854', 'parent_trigger': None, 'type': 'single', 'created_at': '2025-07-09 08:58:03', 'updated_at': '2025-07-09 08:58:03', 'expires_at': '2026-07-09 08:58:03', 'status': 'active', 'condition': {'exchange': 'NSE', 'last_price': 161.97, 'tradingsymbol': 'TATASTEEL', 'trigger_values': [151.08], 'instrument_token': 895745}, 'orders': [{'exchange': 'NSE', 'tradingsymbol': 'TATASTEEL', 'product': 'CNC', 'order_type': 'LIMIT', 'transaction_type': 'BUY', 'quantity': 8, 'price': 151.1, 'result': None}], 'meta': {}}
+2025-07-09 08:58:04,485 - __main__ - INFO - GTT Order: {'id': 279533687, 'user_id': 'OVF854', 'parent_trigger': None, 'type': 'single', 'created_at': '2025-07-09 08:58:03', 'updated_at': '2025-07-09 08:58:03', 'expires_at': '2026-07-09 08:58:03', 'status': 'active', 'condition': {'exchange': 'NSE', 'last_price': 161.97, 'tradingsymbol': 'TATASTEEL', 'trigger_values': [152.59], 'instrument_token': 895745}, 'orders': [{'exchange': 'NSE', 'tradingsymbol': 'TATASTEEL', 'product': 'CNC', 'order_type': 'LIMIT', 'transaction_type': 'BUY', 'quantity': 7, 'price': 152.61, 'result': None}], 'meta': {}}
+2025-07-09 08:58:04,486 - __main__ - INFO - GTT Order: {'id': 279533685, 'user_id': 'OVF854', 'parent_trigger': None, 'type': 'single', 'created_at': '2025-07-09 08:58:03', 'updated_at': '2025-07-09 08:58:03', 'expires_at': '2026-07-09 08:58:03', 'status': 'active', 'condition': {'exchange': 'NSE', 'last_price': 161.97, 'tradingsymbol': 'TATASTEEL', 'trigger_values': [154.11], 'instrument_token': 895745}, 'orders': [{'exchange': 'NSE', 'tradingsymbol': 'TATASTEEL', 'product': 'CNC', 'order_type': 'LIMIT', 'transaction_type': 'BUY', 'quantity': 6, 'price': 154.13, 'result': None}], 'meta': {}}
+2025-07-09 08:58:04,487 - __main__ - INFO - GTT Order: {'id': 279533684, 'user_id': 'OVF854', 'parent_trigger': None, 'type': 'single', 'created_at': '2025-07-09 08:58:03', 'updated_at': '2025-07-09 08:58:03', 'expires_at': '2026-07-09 08:58:03', 'status': 'active', 'condition': {'exchange': 'NSE', 'last_price': 161.97, 'tradingsymbol': 'TATASTEEL', 'trigger_values': [155.65], 'instrument_token': 895745}, 'orders': [{'exchange': 'NSE', 'tradingsymbol': 'TATASTEEL', 'product': 'CNC', 'order_type': 'LIMIT', 'transaction_type': 'BUY', 'quantity': 5, 'price': 155.67, 'result': None}], 'meta': {}}
+2025-07-09 08:58:04,487 - __main__ - INFO - GTT Order: {'id': 279533683, 'user_id': 'OVF854', 'parent_trigger': None, 'type': 'single', 'created_at': '2025-07-09 08:58:03', 'updated_at': '2025-07-09 08:58:03', 'expires_at': '2026-07-09 08:58:03', 'status': 'active', 'condition': {'exchange': 'NSE', 'last_price': 161.97, 'tradingsymbol': 'TATASTEEL', 'trigger_values': [157.2], 'instrument_token': 895745}, 'orders': [{'exchange': 'NSE', 'tradingsymbol': 'TATASTEEL', 'product': 'CNC', 'order_type': 'LIMIT', 'transaction_type': 'BUY', 'quantity': 4, 'price': 157.22, 'result': None}], 'meta': {}}
+2025-07-09 08:58:04,488 - __main__ - INFO - GTT Order: {'id': 279533681, 'user_id': 'OVF854', 'parent_trigger': None, 'type': 'single', 'created_at': '2025-07-09 08:58:02', 'updated_at': '2025-07-09 08:58:02', 'expires_at': '2026-07-09 08:58:02', 'status': 'active', 'condition': {'exchange': 'NSE', 'last_price': 161.97, 'tradingsymbol': 'TATASTEEL', 'trigger_values': [158.77], 'instrument_token': 895745}, 'orders': [{'exchange': 'NSE', 'tradingsymbol': 'TATASTEEL', 'product': 'CNC', 'order_type': 'LIMIT', 'transaction_type': 'BUY', 'quantity': 3, 'price': 158.79, 'result': None}], 'meta': {}}
+2025-07-09 08:58:04,488 - __main__ - INFO - GTT Order: {'id': 279533680, 'user_id': 'OVF854', 'parent_trigger': None, 'type': 'single', 'created_at': '2025-07-09 08:58:02', 'updated_at': '2025-07-09 08:58:02', 'expires_at': '2026-07-09 08:58:02', 'status': 'active', 'condition': {'exchange': 'NSE', 'last_price': 161.97, 'tradingsymbol': 'TATASTEEL', 'trigger_values': [160.35], 'instrument_token': 895745}, 'orders': [{'exchange': 'NSE', 'tradingsymbol': 'TATASTEEL', 'product': 'CNC', 'order_type': 'LIMIT', 'transaction_type': 'BUY', 'quantity': 2, 'price': 160.37, 'result': None}], 'meta': {}}
+2025-07-09 08:58:04,489 - __main__ - INFO - GTT Order: {'id': 279416510, 'user_id': 'OVF854', 'parent_trigger': None, 'type': 'single', 'created_at': '2025-07-08 10:05:19', 'updated_at': '2025-07-08 20:13:40', 'expires_at': '2026-07-08 10:05:19', 'status': 'active', 'condition': {'exchange': 'NSE', 'last_price': 298.25, 'tradingsymbol': 'POWERGRID', 'trigger_values': [299.05], 'instrument_token': 3834113}, 'orders': [{'exchange': 'NSE', 'tradingsymbol': 'POWERGRID', 'product': 'CNC', 'order_type': 'LIMIT', 'transaction_type': 'SELL', 'quantity': 7, 'price': 299, 'result': None}], 'meta': {}}
+2025-07-09 08:58:04,490 - __main__ - INFO - GTT Order: {'id': 278914782, 'user_id': 'OVF854', 'parent_trigger': None, 'type': 'single', 'created_at': '2025-07-03 10:09:27', 'updated_at': '2025-07-04 15:40:21', 'expires_at': '2026-07-03 10:09:27', 'status': 'active', 'condition': {'exchange': 'NSE', 'last_price': 245.24, 'tradingsymbol': 'ONGC', 'trigger_values': [247], 'instrument_token': 633601}, 'orders': [{'exchange': 'NSE', 'tradingsymbol': 'ONGC', 'product': 'CNC', 'order_type': 'LIMIT', 'transaction_type': 'SELL', 'quantity': 31, 'price': 246.95, 'result': None}], 'meta': {}}
+2025-07-09 08:58:04,490 - __main__ - INFO - GTT Order: {'id': 278858901, 'user_id': 'OVF854', 'parent_trigger': None, 'type': 'single', 'created_at': '2025-07-03 00:27:07', 'updated_at': '2025-07-03 00:27:07', 'expires_at': '2026-07-03 00:27:07', 'status': 'active', 'condition': {'exchange': 'NSE', 'last_price': 294.85, 'tradingsymbol': 'POWERGRID', 'trigger_values': [290.3], 'instrument_token': 3834113}, 'orders': [{'exchange': 'NSE', 'tradingsymbol': 'POWERGRID', 'product': 'CNC', 'order_type': 'LIMIT', 'transaction_type': 'BUY', 'quantity': 5, 'price': 290.4, 'result': None}], 'meta': {}}
+2025-07-09 08:58:04,491 - __main__ - INFO - GTT Order: {'id': 278858660, 'user_id': 'OVF854', 'parent_trigger': None, 'type': 'single', 'created_at': '2025-07-03 00:19:43', 'updated_at': '2025-07-03 00:20:52', 'expires_at': '2026-07-03 00:19:43', 'status': 'active', 'condition': {'exchange': 'NSE', 'last_price': 294.85, 'tradingsymbol': 'POWERGRID', 'trigger_values': [285.45], 'instrument_token': 3834113}, 'orders': [{'exchange': 'NSE', 'tradingsymbol': 'POWERGRID', 'product': 'CNC', 'order_type': 'LIMIT', 'transaction_type': 'BUY', 'quantity': 8, 'price': 285.5, 'result': None}], 'meta': {}}
+2025-07-09 08:58:04,491 - __main__ - INFO - GTT Order: {'id': 278170572, 'user_id': 'OVF854', 'parent_trigger': None, 'type': 'single', 'created_at': '2025-06-27 09:15:41', 'updated_at': '2025-07-03 00:18:11', 'expires_at': '2026-06-27 09:15:41', 'status': 'active', 'condition': {'exchange': 'NSE', 'last_price': 294.85, 'tradingsymbol': 'POWERGRID', 'trigger_values': [291.45], 'instrument_token': 3834113}, 'orders': [{'exchange': 'NSE', 'tradingsymbol': 'POWERGRID', 'product': 'CNC', 'order_type': 'LIMIT', 'transaction_type': 'BUY', 'quantity': 4, 'price': 291.55, 'result': None}], 'meta': {}}
+2025-07-09 08:58:04,492 - __main__ - INFO - GTT Order: {'id': 278857294, 'user_id': 'OVF854', 'parent_trigger': None, 'type': 'single', 'created_at': '2025-07-02 23:43:09', 'updated_at': '2025-07-02 23:58:41', 'expires_at': '2026-07-02 23:43:09', 'status': 'active', 'condition': {'exchange': 'NSE', 'last_price': 294.85, 'tradingsymbol': 'POWERGRID', 'trigger_values': [286.65], 'instrument_token': 3834113}, 'orders': [{'exchange': 'NSE', 'tradingsymbol': 'POWERGRID', 'product': 'CNC', 'order_type': 'LIMIT', 'transaction_type': 'BUY', 'quantity': 7, 'price': 286.75, 'result': None}], 'meta': {}}
+2025-07-09 08:58:04,492 - __main__ - INFO - GTT Order: {'id': 278170580, 'user_id': 'OVF854', 'parent_trigger': None, 'type': 'single', 'created_at': '2025-06-27 09:15:41', 'updated_at': '2025-07-02 23:58:30', 'expires_at': '2026-06-27 09:15:41', 'status': 'active', 'condition': {'exchange': 'NSE', 'last_price': 294.85, 'tradingsymbol': 'POWERGRID', 'trigger_values': [288.1], 'instrument_token': 3834113}, 'orders': [{'exchange': 'NSE', 'tradingsymbol': 'POWERGRID', 'product': 'CNC', 'order_type': 'LIMIT', 'transaction_type': 'BUY', 'quantity': 6, 'price': 288.15, 'result': None}], 'meta': {}}
+2025-07-09 08:58:04,492 - __main__ - INFO - GTT Order: {'id': 278170575, 'user_id': 'OVF854', 'parent_trigger': None, 'type': 'single', 'created_at': '2025-06-27 09:15:41', 'updated_at': '2025-07-02 23:58:15', 'expires_at': '2026-06-27 09:15:41', 'status': 'active', 'condition': {'exchange': 'NSE', 'last_price': 294.85, 'tradingsymbol': 'POWERGRID', 'trigger_values': [289.6], 'instrument_token': 3834113}, 'orders': [{'exchange': 'NSE', 'tradingsymbol': 'POWERGRID', 'product': 'CNC', 'order_type': 'LIMIT', 'transaction_type': 'BUY', 'quantity': 5, 'price': 289.65, 'result': None}], 'meta': {}}
+2025-07-09 08:58:04,493 - __main__ - INFO - GTT Order: {'id': 278075503, 'user_id': 'OVF854', 'parent_trigger': None, 'type': 'single', 'created_at': '2025-06-26 12:45:34', 'updated_at': '2025-07-02 23:28:32', 'expires_at': '2026-06-26 12:45:34', 'status': 'active', 'condition': {'exchange': 'NSE', 'last_price': 241.07, 'tradingsymbol': 'ONGC', 'trigger_values': [234.3], 'instrument_token': 633601}, 'orders': [{'exchange': 'NSE', 'tradingsymbol': 'ONGC', 'product': 'CNC', 'order_type': 'LIMIT', 'transaction_type': 'BUY', 'quantity': 60, 'price': 234.5, 'result': None}], 'meta': {}}
+2025-07-09 08:58:04,494 - __main__ - INFO - GTT Order: {'id': 278021230, 'user_id': 'OVF854', 'parent_trigger': None, 'type': 'single', 'created_at': '2025-06-26 09:56:38', 'updated_at': '2025-07-02 12:08:42', 'expires_at': '2026-06-26 09:56:38', 'status': 'active', 'condition': {'exchange': 'NSE', 'last_price': 241.92, 'tradingsymbol': 'ONGC', 'trigger_values': [236], 'instrument_token': 633601}, 'orders': [{'exchange': 'NSE', 'tradingsymbol': 'ONGC', 'product': 'CNC', 'order_type': 'LIMIT', 'transaction_type': 'BUY', 'quantity': 50, 'price': 235.2, 'result': None}], 'meta': {}}
+2025-07-09 08:58:04,494 - __main__ - INFO - GTT Order: {'id': 278021229, 'user_id': 'OVF854', 'parent_trigger': None, 'type': 'single', 'created_at': '2025-06-26 09:56:38', 'updated_at': '2025-07-02 12:07:00', 'expires_at': '2026-06-26 09:56:38', 'status': 'active', 'condition': {'exchange': 'NSE', 'last_price': 241.8, 'tradingsymbol': 'ONGC', 'trigger_values': [237.9], 'instrument_token': 633601}, 'orders': [{'exchange': 'NSE', 'tradingsymbol': 'ONGC', 'product': 'CNC', 'order_type': 'LIMIT', 'transaction_type': 'BUY', 'quantity': 40, 'price': 238, 'result': None}], 'meta': {}}
+2025-07-09 08:58:04,495 - __main__ - INFO - GTT Order: {'id': 278021228, 'user_id': 'OVF854', 'parent_trigger': None, 'type': 'single', 'created_at': '2025-06-26 09:56:38', 'updated_at': '2025-07-02 11:46:13', 'expires_at': '2026-06-26 09:56:38', 'status': 'active', 'condition': {'exchange': 'NSE', 'last_price': 242, 'tradingsymbol': 'ONGC', 'trigger_values': [239.3], 'instrument_token': 633601}, 'orders': [{'exchange': 'NSE', 'tradingsymbol': 'ONGC', 'product': 'CNC', 'order_type': 'LIMIT', 'transaction_type': 'BUY', 'quantity': 30, 'price': 239.5, 'result': None}], 'meta': {}}
+2025-07-09 08:58:04,495 - __main__ - INFO - Setting up real-time tick data monitoring...
+2025-07-09 08:58:04,920 - breeze_sdk_api - INFO - Setting on_ticks function: <bound method BreezeApi.on_ticks of <breeze_sdk_api.BreezeApi object at 0x00000221033A7E50>>
+2025-07-09 08:58:04,920 - breeze_sdk_api - INFO - Successfully connected to WebSocket
+2025-07-09 08:58:04,922 - __main__ - INFO - Connected to Breeze WebSocket for real-time data
+2025-07-09 08:58:05,152 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 08:58:05,153 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 08:58:05,154 - __main__ - INFO - Stock token for tick data: 4.1!3499
+2025-07-09 08:58:05,154 - breeze_sdk_api - INFO - Setting on_ticks function: <function main.<locals>.tick_handler at 0x00000221033D3AC0>
+2025-07-09 08:58:05,155 - __main__ - INFO - Tick handler set up successfully
+2025-07-09 08:58:05,155 - breeze_sdk_api - INFO - Successfully subscribed to OHLC feed for token: 4.1!3499
+2025-07-09 08:58:05,156 - __main__ - INFO - Subscribed to real-time feed for TATASTEEL
+2025-07-09 08:58:05,156 - __main__ - INFO - Real-time tick data monitoring is now active!
+2025-07-09 08:58:05,157 - __main__ - INFO - The system will now respond to price changes in real-time
+2025-07-09 08:58:05,157 - __main__ - INFO - GTT order monitoring started.
+2025-07-09 08:58:05,158 - __main__ - INFO - Press Ctrl+C to stop manually.
+2025-07-09 08:59:05,287 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 08:59:05,287 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 08:59:05,612 - __main__ - INFO - Periodic monitoring check at price: 161.97
+2025-07-09 08:59:05,612 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 08:59:35,767 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 08:59:35,767 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 08:59:36,143 - __main__ - INFO - Periodic monitoring check at price: 161.97
+2025-07-09 08:59:36,144 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 09:00:06,329 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 09:00:06,329 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 09:00:06,819 - __main__ - INFO - Periodic monitoring check at price: 161.90
+2025-07-09 09:00:06,820 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 09:00:36,966 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 09:00:36,967 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 09:00:37,365 - __main__ - INFO - Periodic monitoring check at price: 161.90
+2025-07-09 09:00:37,365 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 09:01:07,477 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 09:01:07,478 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 09:01:07,825 - __main__ - INFO - Periodic monitoring check at price: 161.90
+2025-07-09 09:01:07,825 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 09:01:37,939 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 09:01:37,939 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 09:01:38,271 - __main__ - INFO - Periodic monitoring check at price: 161.90
+2025-07-09 09:01:38,271 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 09:02:08,390 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 09:02:08,390 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 09:02:08,775 - __main__ - INFO - Periodic monitoring check at price: 161.90
+2025-07-09 09:02:08,775 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 09:02:38,914 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 09:02:38,915 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 09:02:39,316 - __main__ - INFO - Periodic monitoring check at price: 161.90
+2025-07-09 09:02:39,317 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 09:03:09,470 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 09:03:09,471 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 09:03:09,939 - __main__ - INFO - Periodic monitoring check at price: 161.90
+2025-07-09 09:03:09,939 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 09:03:40,047 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 09:03:40,048 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 09:03:40,401 - __main__ - INFO - Periodic monitoring check at price: 161.90
+2025-07-09 09:03:40,401 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 09:04:10,525 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 09:04:10,526 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 09:04:10,881 - __main__ - INFO - Periodic monitoring check at price: 161.90
+2025-07-09 09:04:10,882 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 09:04:40,989 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 09:04:40,989 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 09:04:41,296 - __main__ - INFO - Periodic monitoring check at price: 161.90
+2025-07-09 09:04:41,296 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 09:05:11,393 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 09:05:11,394 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 09:05:11,706 - __main__ - INFO - Periodic monitoring check at price: 161.90
+2025-07-09 09:05:11,707 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 09:05:41,820 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 09:05:41,821 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 09:05:42,136 - __main__ - INFO - Periodic monitoring check at price: 161.90
+2025-07-09 09:05:42,137 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 09:06:12,228 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 09:06:12,229 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 09:06:12,534 - __main__ - INFO - Periodic monitoring check at price: 161.90
+2025-07-09 09:06:12,534 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 09:06:42,635 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 09:06:42,636 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 09:06:42,959 - __main__ - INFO - Periodic monitoring check at price: 161.90
+2025-07-09 09:06:42,959 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 09:07:13,049 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 09:07:13,049 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 09:07:13,382 - __main__ - INFO - Periodic monitoring check at price: 161.90
+2025-07-09 09:07:13,382 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 09:07:43,467 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 09:07:43,467 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 09:07:43,795 - __main__ - INFO - Periodic monitoring check at price: 161.95
+2025-07-09 09:07:43,795 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 09:08:13,881 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 09:08:13,882 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 09:08:15,127 - __main__ - INFO - Periodic monitoring check at price: 161.95
+2025-07-09 09:08:15,128 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 09:08:45,220 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 09:08:45,220 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 09:08:45,540 - __main__ - INFO - Periodic monitoring check at price: 161.95
+2025-07-09 09:08:45,540 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 09:09:15,657 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 09:09:15,657 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 09:09:15,992 - __main__ - INFO - Periodic monitoring check at price: 161.95
+2025-07-09 09:09:15,993 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 09:09:46,080 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 09:09:46,080 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 09:09:46,406 - __main__ - INFO - Periodic monitoring check at price: 161.95
+2025-07-09 09:09:46,406 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 09:10:16,485 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 09:10:16,486 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 09:10:16,802 - __main__ - INFO - Periodic monitoring check at price: 161.95
+2025-07-09 09:10:16,802 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 09:10:46,896 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 09:10:46,896 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 09:10:47,202 - __main__ - INFO - Periodic monitoring check at price: 161.95
+2025-07-09 09:10:47,202 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 09:11:17,292 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 09:11:17,293 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 09:11:17,918 - __main__ - INFO - Periodic monitoring check at price: 161.95
+2025-07-09 09:11:17,918 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 09:11:48,038 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 09:11:48,038 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 09:11:48,383 - __main__ - INFO - Periodic monitoring check at price: 161.95
+2025-07-09 09:11:48,383 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 09:12:18,469 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 09:12:18,470 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 09:12:18,778 - __main__ - INFO - Periodic monitoring check at price: 161.95
+2025-07-09 09:12:18,778 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 09:12:48,938 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 09:12:48,938 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 09:12:49,293 - __main__ - INFO - Periodic monitoring check at price: 161.95
+2025-07-09 09:12:49,293 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 09:13:19,385 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 09:13:19,385 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 09:13:19,719 - __main__ - INFO - Periodic monitoring check at price: 161.95
+2025-07-09 09:13:19,719 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 09:13:49,815 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 09:13:49,816 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 09:13:50,162 - __main__ - INFO - Periodic monitoring check at price: 161.95
+2025-07-09 09:13:50,163 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 09:14:20,258 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 09:14:20,259 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 09:14:20,565 - __main__ - INFO - Periodic monitoring check at price: 161.95
+2025-07-09 09:14:20,565 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 09:14:50,658 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 09:14:50,658 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 09:14:50,981 - __main__ - INFO - Periodic monitoring check at price: 161.95
+2025-07-09 09:14:50,981 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 09:15:21,076 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 09:15:21,077 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 09:15:21,393 - __main__ - INFO - Periodic monitoring check at price: 161.25
+2025-07-09 09:15:21,394 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 09:15:51,488 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 09:15:51,489 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 09:15:51,810 - __main__ - INFO - Periodic monitoring check at price: 161.00
+2025-07-09 09:15:51,810 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 09:16:21,936 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 09:16:21,936 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 09:16:22,387 - __main__ - INFO - Periodic monitoring check at price: 161.02
+2025-07-09 09:16:22,388 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 09:16:52,516 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 09:16:52,517 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 09:16:52,870 - __main__ - INFO - Periodic monitoring check at price: 160.96
+2025-07-09 09:16:52,871 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 09:17:23,002 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 09:17:23,003 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 09:17:23,396 - __main__ - INFO - Periodic monitoring check at price: 160.81
+2025-07-09 09:17:23,396 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 09:17:53,513 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 09:17:53,514 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 09:17:53,834 - __main__ - INFO - Periodic monitoring check at price: 160.99
+2025-07-09 09:17:53,834 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 09:18:23,927 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 09:18:23,927 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 09:18:24,275 - __main__ - INFO - Periodic monitoring check at price: 160.96
+2025-07-09 09:18:24,275 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 09:18:54,365 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 09:18:54,366 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 09:18:54,707 - __main__ - INFO - Periodic monitoring check at price: 160.85
+2025-07-09 09:18:54,707 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 09:19:24,818 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 09:19:24,818 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 09:19:25,142 - __main__ - INFO - Periodic monitoring check at price: 160.53
+2025-07-09 09:19:25,142 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 09:19:55,246 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 09:19:55,247 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 09:19:55,619 - __main__ - INFO - Periodic monitoring check at price: 160.60
+2025-07-09 09:19:55,619 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 09:20:25,713 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 09:20:25,714 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 09:20:26,102 - __main__ - INFO - Periodic monitoring check at price: 160.52
+2025-07-09 09:20:26,103 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 09:20:56,190 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 09:20:56,191 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 09:20:56,504 - __main__ - INFO - Periodic monitoring check at price: 160.55
+2025-07-09 09:20:56,504 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 09:21:26,592 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 09:21:26,592 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 09:21:27,247 - __main__ - INFO - Periodic monitoring check at price: 160.56
+2025-07-09 09:21:27,247 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 09:21:57,343 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 09:21:57,343 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 09:21:57,665 - __main__ - INFO - Periodic monitoring check at price: 160.63
+2025-07-09 09:21:57,666 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 09:22:27,758 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 09:22:27,758 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 09:22:28,088 - __main__ - INFO - Periodic monitoring check at price: 160.66
+2025-07-09 09:22:28,088 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 09:22:58,196 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 09:22:58,196 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 09:22:58,541 - __main__ - INFO - Periodic monitoring check at price: 160.41
+2025-07-09 09:22:58,542 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 09:23:28,659 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 09:23:28,659 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 09:23:29,727 - __main__ - INFO - Periodic monitoring check at price: 160.54
+2025-07-09 09:23:29,727 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 09:23:59,851 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 09:23:59,851 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 09:24:00,167 - __main__ - INFO - Periodic monitoring check at price: 160.61
+2025-07-09 09:24:00,168 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 09:24:30,249 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 09:24:30,250 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 09:24:30,583 - __main__ - INFO - Periodic monitoring check at price: 160.61
+2025-07-09 09:24:30,583 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 09:25:00,685 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 09:25:00,685 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 09:25:01,009 - __main__ - INFO - Periodic monitoring check at price: 160.59
+2025-07-09 09:25:01,009 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 09:25:31,094 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 09:25:31,095 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 09:25:31,414 - __main__ - INFO - Periodic monitoring check at price: 160.74
+2025-07-09 09:25:31,415 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 09:26:01,517 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 09:26:01,518 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 09:26:01,853 - __main__ - INFO - Periodic monitoring check at price: 160.75
+2025-07-09 09:26:01,853 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 09:26:31,948 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 09:26:31,948 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 09:26:32,337 - __main__ - INFO - Periodic monitoring check at price: 160.70
+2025-07-09 09:26:32,338 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 09:27:02,420 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 09:27:02,420 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 09:27:03,451 - __main__ - INFO - Periodic monitoring check at price: 160.62
+2025-07-09 09:27:03,451 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 09:27:33,539 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 09:27:33,539 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 09:27:33,887 - __main__ - INFO - Periodic monitoring check at price: 160.62
+2025-07-09 09:27:33,888 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 09:28:03,975 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 09:28:03,975 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 09:28:04,281 - __main__ - INFO - Periodic monitoring check at price: 160.80
+2025-07-09 09:28:04,282 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 09:28:34,373 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 09:28:34,373 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 09:28:34,694 - __main__ - INFO - Periodic monitoring check at price: 160.62
+2025-07-09 09:28:34,694 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 09:29:04,779 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 09:29:04,780 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 09:29:05,100 - __main__ - INFO - Periodic monitoring check at price: 160.59
+2025-07-09 09:29:05,100 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 09:29:35,194 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 09:29:35,195 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 09:29:35,509 - __main__ - INFO - Periodic monitoring check at price: 160.53
+2025-07-09 09:29:35,509 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 09:30:05,616 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 09:30:05,617 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 09:30:06,024 - __main__ - INFO - Periodic monitoring check at price: 160.59
+2025-07-09 09:30:06,025 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 09:30:36,123 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 09:30:36,123 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 09:30:36,427 - __main__ - INFO - Periodic monitoring check at price: 160.59
+2025-07-09 09:30:36,428 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 09:31:06,517 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 09:31:06,518 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 09:31:06,863 - __main__ - INFO - Periodic monitoring check at price: 160.47
+2025-07-09 09:31:06,864 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 09:31:36,952 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 09:31:36,952 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 09:31:37,357 - __main__ - INFO - Periodic monitoring check at price: 160.25
+2025-07-09 09:31:37,357 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 09:32:07,439 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 09:32:07,439 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 09:32:07,767 - __main__ - INFO - Periodic monitoring check at price: 160.42
+2025-07-09 09:32:07,768 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 09:32:37,871 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 09:32:37,872 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 09:32:38,178 - __main__ - INFO - Periodic monitoring check at price: 160.64
+2025-07-09 09:32:38,178 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 09:33:08,254 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 09:33:08,255 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 09:33:08,581 - __main__ - INFO - Periodic monitoring check at price: 160.60
+2025-07-09 09:33:08,583 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 09:33:38,671 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 09:33:38,671 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 09:33:39,020 - __main__ - INFO - Periodic monitoring check at price: 160.61
+2025-07-09 09:33:39,021 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 09:34:09,100 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 09:34:09,100 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 09:34:09,412 - __main__ - INFO - Periodic monitoring check at price: 160.51
+2025-07-09 09:34:09,413 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 09:34:39,498 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 09:34:39,499 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 09:34:39,838 - __main__ - INFO - Periodic monitoring check at price: 160.58
+2025-07-09 09:34:39,838 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 09:35:09,925 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 09:35:09,926 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 09:35:10,231 - __main__ - INFO - Periodic monitoring check at price: 160.69
+2025-07-09 09:35:10,231 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 09:35:40,350 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 09:35:40,351 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 09:35:40,651 - __main__ - INFO - Periodic monitoring check at price: 160.63
+2025-07-09 09:35:40,651 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 09:36:10,777 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 09:36:10,778 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 09:36:11,079 - __main__ - INFO - Periodic monitoring check at price: 160.66
+2025-07-09 09:36:11,081 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 09:36:41,171 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 09:36:41,171 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 09:36:41,576 - __main__ - INFO - Periodic monitoring check at price: 160.65
+2025-07-09 09:36:41,576 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 09:37:11,671 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 09:37:11,672 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 09:37:11,979 - __main__ - INFO - Periodic monitoring check at price: 160.66
+2025-07-09 09:37:11,979 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 09:37:42,067 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 09:37:42,068 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 09:37:42,378 - __main__ - INFO - Periodic monitoring check at price: 160.62
+2025-07-09 09:37:42,379 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 09:38:12,473 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 09:38:12,473 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 09:38:12,787 - __main__ - INFO - Periodic monitoring check at price: 160.52
+2025-07-09 09:38:12,787 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 09:38:42,882 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 09:38:42,882 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 09:38:43,213 - __main__ - INFO - Periodic monitoring check at price: 160.53
+2025-07-09 09:38:43,214 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 09:39:13,306 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 09:39:13,307 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 09:39:13,623 - __main__ - INFO - Periodic monitoring check at price: 160.48
+2025-07-09 09:39:13,624 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 09:39:43,701 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 09:39:43,702 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 09:39:44,026 - __main__ - INFO - Periodic monitoring check at price: 160.50
+2025-07-09 09:39:44,027 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 09:40:14,109 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 09:40:14,109 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 09:40:14,451 - __main__ - INFO - Periodic monitoring check at price: 160.56
+2025-07-09 09:40:14,452 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 09:40:44,575 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 09:40:44,576 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 09:40:44,893 - __main__ - INFO - Periodic monitoring check at price: 160.43
+2025-07-09 09:40:44,894 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 09:41:14,983 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 09:41:14,984 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 09:41:15,333 - __main__ - INFO - Periodic monitoring check at price: 160.38
+2025-07-09 09:41:15,333 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 09:41:45,418 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 09:41:45,418 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 09:41:45,857 - __main__ - INFO - Periodic monitoring check at price: 160.41
+2025-07-09 09:41:45,858 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 09:42:15,967 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 09:42:15,968 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 09:42:16,269 - __main__ - INFO - Periodic monitoring check at price: 160.36
+2025-07-09 09:42:16,269 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 09:42:46,356 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 09:42:46,357 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 09:42:46,700 - __main__ - INFO - Periodic monitoring check at price: 160.34
+2025-07-09 09:42:46,701 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 09:43:16,786 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 09:43:16,786 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 09:43:17,106 - __main__ - INFO - Periodic monitoring check at price: 160.27
+2025-07-09 09:43:17,107 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 09:43:47,193 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 09:43:47,193 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 09:43:47,642 - __main__ - INFO - Periodic monitoring check at price: 160.13
+2025-07-09 09:43:47,643 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 09:44:17,721 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 09:44:17,722 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 09:44:18,056 - __main__ - INFO - Periodic monitoring check at price: 160.23
+2025-07-09 09:44:18,056 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 09:44:48,145 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 09:44:48,145 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 09:44:48,444 - __main__ - INFO - Periodic monitoring check at price: 160.24
+2025-07-09 09:44:48,444 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 09:45:18,536 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 09:45:18,537 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 09:45:18,866 - __main__ - INFO - Periodic monitoring check at price: 160.13
+2025-07-09 09:45:18,866 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 09:45:48,963 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 09:45:48,963 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 09:45:49,257 - __main__ - INFO - Periodic monitoring check at price: 160.14
+2025-07-09 09:45:49,257 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 09:46:19,368 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 09:46:19,369 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 09:46:19,708 - __main__ - INFO - Periodic monitoring check at price: 160.19
+2025-07-09 09:46:19,708 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 09:46:49,797 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 09:46:49,798 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 09:46:50,249 - __main__ - INFO - Periodic monitoring check at price: 160.21
+2025-07-09 09:46:50,249 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 09:47:20,341 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 09:47:20,342 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 09:47:20,703 - __main__ - INFO - Periodic monitoring check at price: 160.25
+2025-07-09 09:47:20,704 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 09:47:50,791 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 09:47:50,791 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 09:47:51,106 - __main__ - INFO - Periodic monitoring check at price: 160.32
+2025-07-09 09:47:51,107 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 09:48:21,219 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 09:48:21,220 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 09:48:21,551 - __main__ - INFO - Periodic monitoring check at price: 160.28
+2025-07-09 09:48:21,552 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 09:48:51,643 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 09:48:51,644 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 09:48:51,969 - __main__ - INFO - Periodic monitoring check at price: 160.31
+2025-07-09 09:48:51,969 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 09:49:22,064 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 09:49:22,065 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 09:49:22,378 - __main__ - INFO - Periodic monitoring check at price: 160.29
+2025-07-09 09:49:22,378 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 09:49:52,470 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 09:49:52,471 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 09:49:52,793 - __main__ - INFO - Periodic monitoring check at price: 160.25
+2025-07-09 09:49:52,793 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 09:50:22,882 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 09:50:22,883 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 09:50:23,223 - __main__ - INFO - Periodic monitoring check at price: 160.16
+2025-07-09 09:50:23,224 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 09:50:53,324 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 09:50:53,325 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 09:50:53,637 - __main__ - INFO - Periodic monitoring check at price: 160.18
+2025-07-09 09:50:53,637 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 09:51:23,736 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 09:51:23,736 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 09:51:24,039 - __main__ - INFO - Periodic monitoring check at price: 160.21
+2025-07-09 09:51:24,039 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 09:51:54,123 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 09:51:54,124 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 09:51:54,583 - __main__ - INFO - Periodic monitoring check at price: 160.28
+2025-07-09 09:51:54,584 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 09:52:24,675 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 09:52:24,676 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 09:52:24,999 - __main__ - INFO - Periodic monitoring check at price: 160.24
+2025-07-09 09:52:25,000 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 09:52:55,087 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 09:52:55,088 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 09:52:55,405 - __main__ - INFO - Periodic monitoring check at price: 160.20
+2025-07-09 09:52:55,405 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 09:53:25,491 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 09:53:25,492 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 09:53:25,811 - __main__ - INFO - Periodic monitoring check at price: 160.28
+2025-07-09 09:53:25,812 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 09:53:55,900 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 09:53:55,901 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 09:53:56,227 - __main__ - INFO - Periodic monitoring check at price: 160.32
+2025-07-09 09:53:56,227 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 09:54:26,343 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 09:54:26,344 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 09:54:26,659 - __main__ - INFO - Periodic monitoring check at price: 160.30
+2025-07-09 09:54:26,660 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 09:54:56,742 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 09:54:56,742 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 09:54:57,168 - __main__ - INFO - Periodic monitoring check at price: 160.30
+2025-07-09 09:54:57,168 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 09:55:27,274 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 09:55:27,274 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 09:55:27,599 - __main__ - INFO - Periodic monitoring check at price: 160.25
+2025-07-09 09:55:27,600 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 09:55:57,688 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 09:55:57,689 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 09:55:57,994 - __main__ - INFO - Periodic monitoring check at price: 160.25
+2025-07-09 09:55:57,994 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 09:56:28,072 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 09:56:28,073 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 09:56:28,411 - __main__ - INFO - Periodic monitoring check at price: 160.25
+2025-07-09 09:56:28,411 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 09:56:58,504 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 09:56:58,504 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 09:56:58,839 - __main__ - INFO - Periodic monitoring check at price: 160.31
+2025-07-09 09:56:58,839 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 09:57:28,926 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 09:57:28,926 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 09:57:29,272 - __main__ - INFO - Periodic monitoring check at price: 160.49
+2025-07-09 09:57:29,273 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 09:57:59,378 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 09:57:59,378 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 09:57:59,705 - __main__ - INFO - Periodic monitoring check at price: 160.43
+2025-07-09 09:57:59,705 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 09:58:29,796 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 09:58:29,797 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 09:58:30,115 - __main__ - INFO - Periodic monitoring check at price: 160.42
+2025-07-09 09:58:30,116 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 09:59:00,239 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 09:59:00,240 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 09:59:00,565 - __main__ - INFO - Periodic monitoring check at price: 160.41
+2025-07-09 09:59:00,566 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 09:59:30,655 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 09:59:30,655 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 09:59:30,982 - __main__ - INFO - Periodic monitoring check at price: 160.32
+2025-07-09 09:59:30,982 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 10:00:01,063 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 10:00:01,063 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 10:00:01,573 - __main__ - INFO - Periodic monitoring check at price: 160.28
+2025-07-09 10:00:01,573 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 10:00:31,704 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 10:00:31,704 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 10:00:32,078 - __main__ - INFO - Periodic monitoring check at price: 160.30
+2025-07-09 10:00:32,078 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 10:01:02,181 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 10:01:02,182 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 10:01:02,551 - __main__ - INFO - Periodic monitoring check at price: 160.07
+2025-07-09 10:01:02,551 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 10:01:32,645 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 10:01:32,646 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 10:01:32,969 - __main__ - INFO - Periodic monitoring check at price: 159.82
+2025-07-09 10:01:32,969 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 10:10:32,730 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 10:10:32,731 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 10:10:33,029 - __main__ - INFO - Periodic monitoring check at price: 159.26
+2025-07-09 10:10:33,029 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 10:11:03,127 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 10:11:03,128 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 10:11:03,343 - __main__ - INFO - Periodic monitoring check at price: 159.21
+2025-07-09 10:11:03,344 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 10:11:33,455 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 10:11:33,455 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 10:11:34,430 - __main__ - INFO - Periodic monitoring check at price: 159.25
+2025-07-09 10:11:34,430 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 10:12:04,525 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 10:12:04,525 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 10:12:04,728 - __main__ - INFO - Periodic monitoring check at price: 159.22
+2025-07-09 10:12:04,728 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 10:12:34,834 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 10:12:34,834 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 10:12:35,073 - __main__ - INFO - Periodic monitoring check at price: 159.20
+2025-07-09 10:12:35,073 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 10:13:05,182 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 10:13:05,182 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 10:13:05,399 - __main__ - INFO - Periodic monitoring check at price: 159.30
+2025-07-09 10:13:05,399 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 10:13:35,504 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 10:13:35,505 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 10:13:35,757 - __main__ - INFO - Periodic monitoring check at price: 159.32
+2025-07-09 10:13:35,757 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 10:14:05,852 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 10:14:05,853 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 10:14:06,071 - __main__ - INFO - Periodic monitoring check at price: 159.28
+2025-07-09 10:14:06,072 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 10:14:36,169 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 10:14:36,169 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 10:14:36,446 - __main__ - INFO - Periodic monitoring check at price: 159.25
+2025-07-09 10:14:36,446 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 10:15:06,528 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 10:15:06,528 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 10:15:07,382 - __main__ - INFO - Periodic monitoring check at price: 159.20
+2025-07-09 10:15:07,383 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 10:15:37,484 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 10:15:37,485 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 10:15:37,740 - __main__ - INFO - Periodic monitoring check at price: 159.20
+2025-07-09 10:15:37,741 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 10:16:07,869 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 10:16:07,870 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 10:16:08,083 - __main__ - INFO - Periodic monitoring check at price: 159.24
+2025-07-09 10:16:08,083 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 10:16:38,213 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 10:16:38,214 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 10:16:38,490 - __main__ - INFO - Periodic monitoring check at price: 159.21
+2025-07-09 10:16:38,491 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 10:17:08,576 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 10:17:08,577 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 10:17:08,781 - __main__ - INFO - Periodic monitoring check at price: 159.10
+2025-07-09 10:17:08,781 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 10:17:38,913 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 10:17:38,914 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 10:17:39,205 - __main__ - INFO - Periodic monitoring check at price: 159.15
+2025-07-09 10:17:39,206 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 10:18:09,337 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 10:18:09,338 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 10:18:09,628 - __main__ - INFO - Periodic monitoring check at price: 159.20
+2025-07-09 10:18:09,629 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 10:18:39,748 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 10:18:39,749 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 10:18:39,977 - __main__ - INFO - Periodic monitoring check at price: 159.15
+2025-07-09 10:18:39,977 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 10:19:10,114 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 10:19:10,114 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 10:19:10,438 - __main__ - INFO - Periodic monitoring check at price: 159.28
+2025-07-09 10:19:10,438 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 10:19:40,556 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 10:19:40,556 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 10:19:40,766 - __main__ - INFO - Periodic monitoring check at price: 159.28
+2025-07-09 10:19:40,767 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 10:20:10,864 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 10:20:10,864 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 10:20:11,072 - __main__ - INFO - Periodic monitoring check at price: 159.30
+2025-07-09 10:20:11,072 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 10:20:41,167 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 10:20:41,167 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 10:20:41,421 - __main__ - INFO - Periodic monitoring check at price: 159.26
+2025-07-09 10:20:41,421 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 10:21:11,505 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 10:21:11,505 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 10:21:11,712 - __main__ - INFO - Periodic monitoring check at price: 159.25
+2025-07-09 10:21:11,713 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 10:21:41,809 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 10:21:41,810 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 10:21:42,014 - __main__ - INFO - Periodic monitoring check at price: 159.25
+2025-07-09 10:21:42,014 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 10:22:12,123 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 10:22:12,124 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 10:22:12,346 - __main__ - INFO - Periodic monitoring check at price: 159.24
+2025-07-09 10:22:12,346 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 10:22:42,446 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 10:22:42,446 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 10:22:42,652 - __main__ - INFO - Periodic monitoring check at price: 159.20
+2025-07-09 10:22:42,652 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 10:23:12,744 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 10:23:12,744 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 10:23:13,021 - __main__ - INFO - Periodic monitoring check at price: 159.20
+2025-07-09 10:23:13,022 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 10:23:43,134 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 10:23:43,134 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 10:23:43,331 - __main__ - INFO - Periodic monitoring check at price: 159.30
+2025-07-09 10:23:43,331 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 10:24:13,421 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 10:24:13,422 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 10:24:13,619 - __main__ - INFO - Periodic monitoring check at price: 159.39
+2025-07-09 10:24:13,619 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 10:24:43,707 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 10:24:43,708 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 10:24:43,919 - __main__ - INFO - Periodic monitoring check at price: 159.32
+2025-07-09 10:24:43,919 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 10:25:14,004 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 10:25:14,004 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 10:25:14,200 - __main__ - INFO - Periodic monitoring check at price: 159.40
+2025-07-09 10:25:14,200 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 10:25:44,306 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 10:25:44,307 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 10:25:45,092 - __main__ - INFO - Periodic monitoring check at price: 159.45
+2025-07-09 10:25:45,092 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 10:26:15,206 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 10:26:15,206 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 10:26:15,766 - __main__ - INFO - Periodic monitoring check at price: 159.50
+2025-07-09 10:26:15,766 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 10:26:45,893 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 10:26:45,894 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 10:26:46,131 - __main__ - INFO - Periodic monitoring check at price: 159.41
+2025-07-09 10:26:46,132 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 10:27:16,227 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 10:27:16,228 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 10:27:16,427 - __main__ - INFO - Periodic monitoring check at price: 159.29
+2025-07-09 10:27:16,428 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 10:27:46,514 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 10:27:46,514 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 10:27:46,714 - __main__ - INFO - Periodic monitoring check at price: 159.40
+2025-07-09 10:27:46,714 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 10:28:16,802 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 10:28:16,803 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 10:28:17,035 - __main__ - INFO - Periodic monitoring check at price: 159.30
+2025-07-09 10:28:17,035 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 10:28:47,117 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 10:28:47,118 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 10:28:47,355 - __main__ - INFO - Periodic monitoring check at price: 159.28
+2025-07-09 10:28:47,357 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 10:29:17,443 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 10:29:17,444 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 10:29:17,740 - __main__ - INFO - Periodic monitoring check at price: 159.25
+2025-07-09 10:29:17,741 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 10:29:47,833 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 10:29:47,833 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 10:29:48,085 - __main__ - INFO - Periodic monitoring check at price: 159.23
+2025-07-09 10:29:48,086 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 10:30:18,176 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 10:30:18,177 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 10:30:18,435 - __main__ - INFO - Periodic monitoring check at price: 159.16
+2025-07-09 10:30:18,435 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 10:30:48,527 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 10:30:48,527 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 10:30:48,764 - __main__ - INFO - Periodic monitoring check at price: 159.15
+2025-07-09 10:30:48,764 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 10:31:18,880 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 10:31:18,881 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 10:31:19,122 - __main__ - INFO - Periodic monitoring check at price: 159.13
+2025-07-09 10:31:19,123 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 10:31:49,249 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 10:31:49,249 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 10:31:49,548 - __main__ - INFO - Periodic monitoring check at price: 159.15
+2025-07-09 10:31:49,549 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 10:32:19,661 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 10:32:19,662 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 10:32:19,896 - __main__ - INFO - Periodic monitoring check at price: 159.12
+2025-07-09 10:32:19,896 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 10:32:50,018 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 10:32:50,018 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 10:32:50,326 - __main__ - INFO - Periodic monitoring check at price: 159.29
+2025-07-09 10:32:50,326 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 10:33:20,425 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 10:33:20,426 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 10:33:20,725 - __main__ - INFO - Periodic monitoring check at price: 159.33
+2025-07-09 10:33:20,725 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 10:33:50,877 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 10:33:50,877 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 10:33:51,155 - __main__ - INFO - Periodic monitoring check at price: 159.30
+2025-07-09 10:33:51,155 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 10:34:21,254 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 10:34:21,255 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 10:34:21,473 - __main__ - INFO - Periodic monitoring check at price: 159.30
+2025-07-09 10:34:21,473 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 10:34:51,583 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 10:34:51,583 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 10:34:51,799 - __main__ - INFO - Periodic monitoring check at price: 159.29
+2025-07-09 10:34:51,799 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 10:35:21,888 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 10:35:21,889 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 10:35:22,104 - __main__ - INFO - Periodic monitoring check at price: 159.39
+2025-07-09 10:35:22,105 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 10:35:52,213 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 10:35:52,214 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 10:35:52,434 - __main__ - INFO - Periodic monitoring check at price: 159.35
+2025-07-09 10:35:52,435 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 10:36:22,538 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 10:36:22,539 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 10:36:22,756 - __main__ - INFO - Periodic monitoring check at price: 159.40
+2025-07-09 10:36:22,758 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 10:36:52,850 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 10:36:52,851 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 10:36:53,069 - __main__ - INFO - Periodic monitoring check at price: 159.43
+2025-07-09 10:36:53,069 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 10:37:23,155 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 10:37:23,155 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 10:37:23,356 - __main__ - INFO - Periodic monitoring check at price: 159.39
+2025-07-09 10:37:23,357 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 10:37:53,442 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 10:37:53,443 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 10:37:53,714 - __main__ - INFO - Periodic monitoring check at price: 159.31
+2025-07-09 10:37:53,715 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 10:38:23,817 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 10:38:23,818 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 10:38:24,123 - __main__ - INFO - Periodic monitoring check at price: 159.29
+2025-07-09 10:38:24,123 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 10:38:54,305 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 10:38:54,306 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 10:38:54,535 - __main__ - INFO - Periodic monitoring check at price: 159.30
+2025-07-09 10:38:54,535 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 10:39:24,642 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 10:39:24,643 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 10:39:24,881 - __main__ - INFO - Periodic monitoring check at price: 159.35
+2025-07-09 10:39:24,882 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 10:39:55,043 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 10:39:55,044 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 10:39:55,321 - __main__ - INFO - Periodic monitoring check at price: 159.31
+2025-07-09 10:39:55,321 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 10:40:25,444 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 10:40:25,445 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 10:40:25,694 - __main__ - INFO - Periodic monitoring check at price: 159.33
+2025-07-09 10:40:25,694 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 10:40:55,781 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 10:40:55,782 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 10:40:55,990 - __main__ - INFO - Periodic monitoring check at price: 159.29
+2025-07-09 10:40:55,990 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 10:41:26,085 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 10:41:26,085 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 10:41:26,276 - __main__ - INFO - Periodic monitoring check at price: 159.30
+2025-07-09 10:41:26,276 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 10:41:56,377 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 10:41:56,377 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 10:41:56,583 - __main__ - INFO - Periodic monitoring check at price: 159.26
+2025-07-09 10:41:56,584 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 10:42:26,683 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 10:42:26,683 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 10:42:26,884 - __main__ - INFO - Periodic monitoring check at price: 159.28
+2025-07-09 10:42:26,884 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 10:42:56,974 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 10:42:56,975 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 10:42:57,207 - __main__ - INFO - Periodic monitoring check at price: 159.35
+2025-07-09 10:42:57,207 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 10:43:27,306 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 10:43:27,307 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 10:43:27,603 - __main__ - INFO - Periodic monitoring check at price: 159.30
+2025-07-09 10:43:27,604 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 10:43:57,692 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 10:43:57,693 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 10:43:58,507 - __main__ - INFO - Periodic monitoring check at price: 159.30
+2025-07-09 10:43:58,507 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 10:44:28,597 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 10:44:28,598 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 10:44:29,087 - __main__ - INFO - Periodic monitoring check at price: 159.31
+2025-07-09 10:44:29,087 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 10:44:59,182 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 10:44:59,183 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 10:44:59,385 - __main__ - INFO - Periodic monitoring check at price: 159.33
+2025-07-09 10:44:59,385 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 10:45:29,480 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 10:45:29,481 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 10:45:29,731 - __main__ - INFO - Periodic monitoring check at price: 159.32
+2025-07-09 10:45:29,731 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 10:45:59,824 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 10:45:59,825 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 10:46:00,026 - __main__ - INFO - Periodic monitoring check at price: 159.33
+2025-07-09 10:46:00,027 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 10:46:30,157 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 10:46:30,157 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 10:46:30,373 - __main__ - INFO - Periodic monitoring check at price: 159.27
+2025-07-09 10:46:30,374 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 10:47:00,469 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 10:47:00,469 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 10:47:00,687 - __main__ - INFO - Periodic monitoring check at price: 159.27
+2025-07-09 10:47:00,687 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 10:47:30,795 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 10:47:30,795 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 10:47:31,001 - __main__ - INFO - Periodic monitoring check at price: 159.20
+2025-07-09 10:47:31,002 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 10:48:01,095 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 10:48:01,095 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 10:48:01,305 - __main__ - INFO - Periodic monitoring check at price: 159.10
+2025-07-09 10:48:01,305 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 10:48:31,415 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 10:48:31,416 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 10:48:31,860 - __main__ - INFO - Periodic monitoring check at price: 159.12
+2025-07-09 10:48:31,861 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 10:49:02,009 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 10:49:02,009 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 10:49:02,273 - __main__ - INFO - Periodic monitoring check at price: 159.18
+2025-07-09 10:49:02,273 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 10:49:32,366 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 10:49:32,367 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 10:49:32,592 - __main__ - INFO - Periodic monitoring check at price: 159.21
+2025-07-09 10:49:32,592 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 10:50:02,685 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 10:50:02,686 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 10:50:02,916 - __main__ - INFO - Periodic monitoring check at price: 159.21
+2025-07-09 10:50:02,916 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 10:50:33,010 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 10:50:33,011 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 10:50:33,223 - __main__ - INFO - Periodic monitoring check at price: 159.20
+2025-07-09 10:50:33,224 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 10:51:03,329 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 10:51:03,330 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 10:51:03,561 - __main__ - INFO - Periodic monitoring check at price: 159.21
+2025-07-09 10:51:03,561 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 10:51:33,661 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 10:51:33,662 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 10:51:33,886 - __main__ - INFO - Periodic monitoring check at price: 159.22
+2025-07-09 10:51:33,887 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 10:52:03,986 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 10:52:03,986 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 10:52:04,201 - __main__ - INFO - Periodic monitoring check at price: 159.21
+2025-07-09 10:52:04,201 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 10:52:34,362 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 10:52:34,362 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 10:52:34,649 - __main__ - INFO - Periodic monitoring check at price: 159.15
+2025-07-09 10:52:34,649 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 10:53:04,769 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 10:53:04,769 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 10:53:05,008 - __main__ - INFO - Periodic monitoring check at price: 159.27
+2025-07-09 10:53:05,008 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 10:53:35,122 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 10:53:35,123 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 10:53:35,576 - __main__ - INFO - Periodic monitoring check at price: 159.27
+2025-07-09 10:53:35,577 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 10:54:05,684 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 10:54:05,685 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 10:54:05,901 - __main__ - INFO - Periodic monitoring check at price: 159.33
+2025-07-09 10:54:05,902 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 10:54:36,015 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 10:54:36,015 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 10:54:36,226 - __main__ - INFO - Periodic monitoring check at price: 159.25
+2025-07-09 10:54:36,226 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 10:55:06,321 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 10:55:06,322 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 10:55:06,560 - __main__ - INFO - Periodic monitoring check at price: 159.26
+2025-07-09 10:55:06,560 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 10:55:36,651 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 10:55:36,652 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 10:55:36,864 - __main__ - INFO - Periodic monitoring check at price: 159.25
+2025-07-09 10:55:36,864 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 10:56:06,955 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 10:56:06,955 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 10:56:07,168 - __main__ - INFO - Periodic monitoring check at price: 159.26
+2025-07-09 10:56:07,168 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 10:56:37,274 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 10:56:37,275 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 10:56:37,501 - __main__ - INFO - Periodic monitoring check at price: 159.32
+2025-07-09 10:56:37,502 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 10:57:07,604 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 10:57:07,605 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 10:57:07,803 - __main__ - INFO - Periodic monitoring check at price: 159.26
+2025-07-09 10:57:07,803 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 10:57:37,905 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 10:57:37,906 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 10:57:38,111 - __main__ - INFO - Periodic monitoring check at price: 159.23
+2025-07-09 10:57:38,111 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 10:58:08,199 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 10:58:08,200 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 10:58:08,416 - __main__ - INFO - Periodic monitoring check at price: 159.25
+2025-07-09 10:58:08,416 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 10:58:38,519 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 10:58:38,520 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 10:58:38,887 - __main__ - INFO - Periodic monitoring check at price: 159.28
+2025-07-09 10:58:38,887 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 10:59:08,986 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 10:59:08,986 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 10:59:09,200 - __main__ - INFO - Periodic monitoring check at price: 159.26
+2025-07-09 10:59:09,200 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 10:59:39,331 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 10:59:39,332 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 10:59:39,573 - __main__ - INFO - Periodic monitoring check at price: 159.27
+2025-07-09 10:59:39,574 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 11:00:09,690 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 11:00:09,690 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 11:00:09,997 - __main__ - INFO - Periodic monitoring check at price: 159.27
+2025-07-09 11:00:09,997 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 11:00:40,094 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 11:00:40,095 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 11:00:40,384 - __main__ - INFO - Periodic monitoring check at price: 159.32
+2025-07-09 11:00:40,384 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 11:01:10,481 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 11:01:10,481 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 11:01:10,702 - __main__ - INFO - Periodic monitoring check at price: 159.31
+2025-07-09 11:01:10,703 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 11:01:40,837 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 11:01:40,837 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 11:01:41,143 - __main__ - INFO - Periodic monitoring check at price: 159.28
+2025-07-09 11:01:41,144 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 11:02:11,253 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 11:02:11,253 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 11:02:11,483 - __main__ - INFO - Periodic monitoring check at price: 159.19
+2025-07-09 11:02:11,483 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 11:02:41,587 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 11:02:41,588 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 11:02:41,803 - __main__ - INFO - Periodic monitoring check at price: 159.11
+2025-07-09 11:02:41,803 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 11:03:11,893 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 11:03:11,894 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 11:03:12,097 - __main__ - INFO - Periodic monitoring check at price: 159.10
+2025-07-09 11:03:12,097 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 11:03:42,189 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 11:03:42,190 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 11:03:42,393 - __main__ - INFO - Periodic monitoring check at price: 159.18
+2025-07-09 11:03:42,394 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 11:04:12,500 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 11:04:12,501 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 11:04:12,733 - __main__ - INFO - Periodic monitoring check at price: 159.17
+2025-07-09 11:04:12,733 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 11:04:42,842 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 11:04:42,843 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 11:04:43,084 - __main__ - INFO - Periodic monitoring check at price: 159.13
+2025-07-09 11:04:43,084 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 11:05:13,190 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 11:05:13,190 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 11:05:13,401 - __main__ - INFO - Periodic monitoring check at price: 159.13
+2025-07-09 11:05:13,401 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 11:05:43,629 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 11:05:43,630 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 11:05:44,056 - __main__ - INFO - Periodic monitoring check at price: 159.04
+2025-07-09 11:05:44,056 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 11:06:14,171 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 11:06:14,172 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 11:06:14,963 - __main__ - INFO - Periodic monitoring check at price: 159.08
+2025-07-09 11:06:14,964 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 11:06:45,102 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 11:06:45,103 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 11:06:45,473 - __main__ - INFO - Periodic monitoring check at price: 159.05
+2025-07-09 11:06:45,473 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 11:07:15,591 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 11:07:15,591 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 11:07:15,830 - __main__ - INFO - Periodic monitoring check at price: 159.08
+2025-07-09 11:07:15,830 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 11:07:45,993 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'TATASTEEL', 'isec_stock_code': 'TATSTE', 'isec_token': '3499', 'company name': 'TATA STEEL LIMITED', 'isec_token_level1': '4.1!3499', 'isec_token_level2': '4.2!3499'}
+2025-07-09 11:07:45,994 - breeze_sdk_api - INFO - Got token name for TATASTEEL: 4.1!3499
+2025-07-09 11:07:46,248 - __main__ - INFO - Periodic monitoring check at price: 159.03
+2025-07-09 11:07:46,248 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-09 11:08:12,757 - __main__ - INFO - Received interrupt signal. Stopping monitoring...
+2025-07-09 11:08:12,757 - __main__ - INFO - Monitoring stopped by user.
+2025-07-09 11:08:12,758 - __main__ - INFO - Cleaning up WebSocket connection...
+2025-07-09 11:08:12,759 - __main__ - INFO - WebSocket not initialized, skipping cleanup
+2025-07-09 11:08:12,759 - __main__ - INFO - GTT Fall Buy strategy completed.

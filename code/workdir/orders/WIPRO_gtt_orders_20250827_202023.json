@@ -1,0 +1,75 @@
+{
+  "company_symbol": "WIPRO",
+  "order_count": 5,
+  "quantity_strategy": "Progressive (1, 2, 3, 4, ...)",
+  "order_strategy": "First order SKIPPED (market closed), then GTT from 0.25% lower",
+  "market_status": "CLOSED",
+  "max_quantity": 100,
+  "base_price": 252.0,
+  "total_quantity": 11,
+  "total_value": 2715.3,
+  "orders": [
+    {
+      "order_number": 1,
+      "order_price": 252.0,
+      "trigger_price": null,
+      "quantity": 1,
+      "total_value": 252.0,
+      "order_type": "SKIPPED",
+      "skip_reason": "Market closed - AMO not supported",
+      "order_id": null,
+      "trigger_id": null,
+      "status": "SKIPPED",
+      "timestamp": "2025-08-27T20:20:22.589465"
+    },
+    {
+      "order_number": 2,
+      "order_price": 251.37,
+      "trigger_price": 251.62,
+      "quantity": 1,
+      "total_value": 251.37,
+      "order_type": "GTT",
+      "order_id": null,
+      "trigger_id": 285328294,
+      "status": "PLACED",
+      "timestamp": "2025-08-27T20:20:22.838855"
+    },
+    {
+      "order_number": 3,
+      "order_price": 248.85,
+      "trigger_price": 249.1,
+      "quantity": 2,
+      "total_value": 497.7,
+      "order_type": "GTT",
+      "order_id": null,
+      "trigger_id": 285328295,
+      "status": "PLACED",
+      "timestamp": "2025-08-27T20:20:23.117824"
+    },
+    {
+      "order_number": 4,
+      "order_price": 246.33,
+      "trigger_price": 246.58,
+      "quantity": 3,
+      "total_value": 738.99,
+      "order_type": "GTT",
+      "order_id": null,
+      "trigger_id": 285328296,
+      "status": "PLACED",
+      "timestamp": "2025-08-27T20:20:23.386909"
+    },
+    {
+      "order_number": 5,
+      "order_price": 243.81,
+      "trigger_price": 244.05,
+      "quantity": 4,
+      "total_value": 975.24,
+      "order_type": "GTT",
+      "order_id": null,
+      "trigger_id": 285328297,
+      "status": "PLACED",
+      "timestamp": "2025-08-27T20:20:23.651093"
+    }
+  ],
+  "timestamp": "2025-08-27T20:20:23.652031"
+}

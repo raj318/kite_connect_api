@@ -1,0 +1,76 @@
+{
+  "company_symbol": "WIPRO",
+  "order_count": 5,
+  "quantity_strategy": "Progressive (1, 2, 3, 4, ...)",
+  "price_difference_percent": 0.4,
+  "order_strategy": "First order SKIPPED (market closed), then GTT from 0.25% lower",
+  "market_status": "CLOSED",
+  "max_quantity": 100,
+  "base_price": 252.0,
+  "total_quantity": 11,
+  "total_value": 2749.33,
+  "orders": [
+    {
+      "order_number": 1,
+      "order_price": 252.0,
+      "trigger_price": null,
+      "quantity": 1,
+      "total_value": 252.0,
+      "order_type": "SKIPPED",
+      "skip_reason": "Market closed - AMO not supported",
+      "order_id": null,
+      "trigger_id": null,
+      "status": "SKIPPED",
+      "timestamp": "2025-08-27T21:20:11.747279"
+    },
+    {
+      "order_number": 2,
+      "order_price": 251.75,
+      "trigger_price": 252.0,
+      "quantity": 1,
+      "total_value": 251.75,
+      "order_type": "GTT",
+      "order_id": null,
+      "trigger_id": 285329914,
+      "status": "PLACED",
+      "timestamp": "2025-08-27T21:20:12.061582"
+    },
+    {
+      "order_number": 3,
+      "order_price": 250.74,
+      "trigger_price": 250.99,
+      "quantity": 2,
+      "total_value": 501.48,
+      "order_type": "GTT",
+      "order_id": null,
+      "trigger_id": 285329915,
+      "status": "PLACED",
+      "timestamp": "2025-08-27T21:20:12.398674"
+    },
+    {
+      "order_number": 4,
+      "order_price": 249.73,
+      "trigger_price": 249.98,
+      "quantity": 3,
+      "total_value": 749.2,
+      "order_type": "GTT",
+      "order_id": null,
+      "trigger_id": 285329916,
+      "status": "PLACED",
+      "timestamp": "2025-08-27T21:20:12.695158"
+    },
+    {
+      "order_number": 5,
+      "order_price": 248.72,
+      "trigger_price": 248.97,
+      "quantity": 4,
+      "total_value": 994.9,
+      "order_type": "GTT",
+      "order_id": null,
+      "trigger_id": 285329917,
+      "status": "PLACED",
+      "timestamp": "2025-08-27T21:20:13.019064"
+    }
+  ],
+  "timestamp": "2025-08-27T21:20:13.020629"
+}

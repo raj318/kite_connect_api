@@ -1,0 +1,427 @@
+{
+    "stock_name": "ITC",
+    "exchange": "NSE",
+    "last_updated": "2025-05-23T11:17:43.611814",
+    "first_share_price": 378.6,
+    "placed_orders": [
+        {
+            "order_id": {
+                "order_id": "DEMO_BUY_1",
+                "status": "COMPLETE",
+                "tradingsymbol": "ITC",
+                "quantity": 1,
+                "price": 378.6,
+                "timestamp": "2025-05-23T11:10:11.069919"
+            },
+            "quantity": 1,
+            "price": 378.6,
+            "date": "2025-05-23 11:10:11",
+            "type": "buy"
+        }
+    ],
+    "pending_orders": [],
+    "failed_orders": [],
+    "history": [
+        [
+            {
+                "order_id": {
+                    "order_id": "DEMO_BUY_1",
+                    "status": "COMPLETE",
+                    "tradingsymbol": "ITC",
+                    "quantity": 1,
+                    "price": 271.2,
+                    "timestamp": "2025-05-23T11:08:52.111621"
+                },
+                "quantity": 1,
+                "price": 271.2,
+                "date": "2025-05-23 11:08:52",
+                "type": "buy"
+            },
+            {
+                "order_id": {
+                    "order_id": "DEMO_BUY_1",
+                    "status": "COMPLETE",
+                    "tradingsymbol": "ITC",
+                    "quantity": 2,
+                    "price": 264.9,
+                    "timestamp": "2025-05-23T11:08:55.075041"
+                },
+                "quantity": 2,
+                "price": 264.9,
+                "date": "2025-05-23 11:08:55",
+                "type": "buy"
+            },
+            {
+                "order_id": "DEMO_SELL_1",
+                "quantity": 3,
+                "price": 284.75,
+                "date": "2025-05-23 11:08:58",
+                "type": "sell"
+            }
+        ],
+        [
+            {
+                "order_id": {
+                    "order_id": "DEMO_BUY_1",
+                    "status": "COMPLETE",
+                    "tradingsymbol": "ITC",
+                    "quantity": 1,
+                    "price": 284.75,
+                    "timestamp": "2025-05-23T11:08:58.258992"
+                },
+                "quantity": 1,
+                "price": 284.75,
+                "date": "2025-05-23 11:08:58",
+                "type": "buy"
+            },
+            {
+                "order_id": "DEMO_SELL_1",
+                "quantity": 1,
+                "price": 291.5,
+                "date": "2025-05-23 11:08:58",
+                "type": "sell"
+            }
+        ],
+        [
+            {
+                "order_id": {
+                    "order_id": "DEMO_BUY_1",
+                    "status": "COMPLETE",
+                    "tradingsymbol": "ITC",
+                    "quantity": 1,
+                    "price": 291.5,
+                    "timestamp": "2025-05-23T11:08:58.478954"
+                },
+                "quantity": 1,
+                "price": 291.5,
+                "date": "2025-05-23 11:08:58",
+                "type": "buy"
+            },
+            {
+                "order_id": "DEMO_SELL_1",
+                "quantity": 1,
+                "price": 297.8,
+                "date": "2025-05-23 11:09:01",
+                "type": "sell"
+            }
+        ],
+        [
+            {
+                "order_id": {
+                    "order_id": "DEMO_BUY_1",
+                    "status": "COMPLETE",
+                    "tradingsymbol": "ITC",
+                    "quantity": 1,
+                    "price": 297.8,
+                    "timestamp": "2025-05-23T11:09:01.113440"
+                },
+                "quantity": 1,
+                "price": 297.8,
+                "date": "2025-05-23 11:09:01",
+                "type": "buy"
+            },
+            {
+                "order_id": "DEMO_SELL_1",
+                "quantity": 1,
+                "price": 304.0,
+                "date": "2025-05-23 11:09:02",
+                "type": "sell"
+            }
+        ],
+        [
+            {
+                "order_id": {
+                    "order_id": "DEMO_BUY_1",
+                    "status": "COMPLETE",
+                    "tradingsymbol": "ITC",
+                    "quantity": 1,
+                    "price": 304.0,
+                    "timestamp": "2025-05-23T11:09:02.210595"
+                },
+                "quantity": 1,
+                "price": 304.0,
+                "date": "2025-05-23 11:09:02",
+                "type": "buy"
+            },
+            {
+                "order_id": {
+                    "order_id": "DEMO_BUY_1",
+                    "status": "COMPLETE",
+                    "tradingsymbol": "ITC",
+                    "quantity": 2,
+                    "price": 271.2,
+                    "timestamp": "2025-05-23T11:09:32.740447"
+                },
+                "quantity": 2,
+                "price": 271.2,
+                "date": "2025-05-23 11:09:32",
+                "type": "buy"
+            },
+            {
+                "order_id": {
+                    "order_id": "DEMO_BUY_1",
+                    "status": "COMPLETE",
+                    "tradingsymbol": "ITC",
+                    "quantity": 3,
+                    "price": 264.9,
+                    "timestamp": "2025-05-23T11:09:35.719254"
+                },
+                "quantity": 3,
+                "price": 264.9,
+                "date": "2025-05-23 11:09:35",
+                "type": "buy"
+            },
+            {
+                "order_id": "DEMO_SELL_1",
+                "quantity": 6,
+                "price": 311.1,
+                "date": "2025-05-23 11:09:44",
+                "type": "sell"
+            }
+        ],
+        [
+            {
+                "order_id": {
+                    "order_id": "DEMO_BUY_1",
+                    "status": "COMPLETE",
+                    "tradingsymbol": "ITC",
+                    "quantity": 1,
+                    "price": 311.1,
+                    "timestamp": "2025-05-23T11:09:44.388991"
+                },
+                "quantity": 1,
+                "price": 311.1,
+                "date": "2025-05-23 11:09:44",
+                "type": "buy"
+            },
+            {
+                "order_id": "DEMO_SELL_1",
+                "quantity": 1,
+                "price": 320.7,
+                "date": "2025-05-23 11:09:47",
+                "type": "sell"
+            }
+        ],
+        [
+            {
+                "order_id": {
+                    "order_id": "DEMO_BUY_1",
+                    "status": "COMPLETE",
+                    "tradingsymbol": "ITC",
+                    "quantity": 1,
+                    "price": 320.7,
+                    "timestamp": "2025-05-23T11:09:47.672610"
+                },
+                "quantity": 1,
+                "price": 320.7,
+                "date": "2025-05-23 11:09:47",
+                "type": "buy"
+            },
+            {
+                "order_id": "DEMO_SELL_1",
+                "quantity": 1,
+                "price": 328.75,
+                "date": "2025-05-23 11:09:48",
+                "type": "sell"
+            }
+        ],
+        [
+            {
+                "order_id": {
+                    "order_id": "DEMO_BUY_1",
+                    "status": "COMPLETE",
+                    "tradingsymbol": "ITC",
+                    "quantity": 1,
+                    "price": 328.75,
+                    "timestamp": "2025-05-23T11:09:48.329820"
+                },
+                "quantity": 1,
+                "price": 328.75,
+                "date": "2025-05-23 11:09:48",
+                "type": "buy"
+            },
+            {
+                "order_id": "DEMO_SELL_1",
+                "quantity": 1,
+                "price": 336.0,
+                "date": "2025-05-23 11:09:49",
+                "type": "sell"
+            }
+        ],
+        [
+            {
+                "order_id": {
+                    "order_id": "DEMO_BUY_1",
+                    "status": "COMPLETE",
+                    "tradingsymbol": "ITC",
+                    "quantity": 1,
+                    "price": 336.0,
+                    "timestamp": "2025-05-23T11:09:49.854889"
+                },
+                "quantity": 1,
+                "price": 336.0,
+                "date": "2025-05-23 11:09:49",
+                "type": "buy"
+            },
+            {
+                "order_id": "DEMO_SELL_1",
+                "quantity": 1,
+                "price": 345.75,
+                "date": "2025-05-23 11:09:51",
+                "type": "sell"
+            }
+        ],
+        [
+            {
+                "order_id": {
+                    "order_id": "DEMO_BUY_1",
+                    "status": "COMPLETE",
+                    "tradingsymbol": "ITC",
+                    "quantity": 1,
+                    "price": 345.75,
+                    "timestamp": "2025-05-23T11:09:51.163661"
+                },
+                "quantity": 1,
+                "price": 345.75,
+                "date": "2025-05-23 11:09:51",
+                "type": "buy"
+            },
+            {
+                "order_id": {
+                    "order_id": "DEMO_BUY_1",
+                    "status": "COMPLETE",
+                    "tradingsymbol": "ITC",
+                    "quantity": 2,
+                    "price": 332.55,
+                    "timestamp": "2025-05-23T11:09:51.493659"
+                },
+                "quantity": 2,
+                "price": 332.55,
+                "date": "2025-05-23 11:09:51",
+                "type": "buy"
+            },
+            {
+                "order_id": {
+                    "order_id": "DEMO_BUY_1",
+                    "status": "COMPLETE",
+                    "tradingsymbol": "ITC",
+                    "quantity": 3,
+                    "price": 324.5,
+                    "timestamp": "2025-05-23T11:09:51.938199"
+                },
+                "quantity": 3,
+                "price": 324.5,
+                "date": "2025-05-23 11:09:51",
+                "type": "buy"
+            },
+            {
+                "order_id": "DEMO_SELL_1",
+                "quantity": 6,
+                "price": 354.65,
+                "date": "2025-05-23 11:09:56",
+                "type": "sell"
+            }
+        ],
+        [
+            {
+                "order_id": {
+                    "order_id": "DEMO_BUY_1",
+                    "status": "COMPLETE",
+                    "tradingsymbol": "ITC",
+                    "quantity": 1,
+                    "price": 354.65,
+                    "timestamp": "2025-05-23T11:09:57.087525"
+                },
+                "quantity": 1,
+                "price": 354.65,
+                "date": "2025-05-23 11:09:57",
+                "type": "buy"
+            },
+            {
+                "order_id": {
+                    "order_id": "DEMO_BUY_1",
+                    "status": "COMPLETE",
+                    "tradingsymbol": "ITC",
+                    "quantity": 2,
+                    "price": 347.45,
+                    "timestamp": "2025-05-23T11:09:58.503638"
+                },
+                "quantity": 2,
+                "price": 347.45,
+                "date": "2025-05-23 11:09:58",
+                "type": "buy"
+            },
+            {
+                "order_id": {
+                    "order_id": "DEMO_BUY_1",
+                    "status": "COMPLETE",
+                    "tradingsymbol": "ITC",
+                    "quantity": 3,
+                    "price": 337.2,
+                    "timestamp": "2025-05-23T11:09:59.593919"
+                },
+                "quantity": 3,
+                "price": 337.2,
+                "date": "2025-05-23 11:09:59",
+                "type": "buy"
+            },
+            {
+                "order_id": {
+                    "order_id": "DEMO_BUY_1",
+                    "status": "COMPLETE",
+                    "tradingsymbol": "ITC",
+                    "quantity": 4,
+                    "price": 326.05,
+                    "timestamp": "2025-05-23T11:10:04.847304"
+                },
+                "quantity": 4,
+                "price": 326.05,
+                "date": "2025-05-23 11:10:04",
+                "type": "buy"
+            },
+            {
+                "order_id": "DEMO_SELL_1",
+                "quantity": 10,
+                "price": 378.6,
+                "date": "2025-05-23 11:10:10",
+                "type": "sell"
+            }
+        ]
+    ],
+    "positions": []
+}
+
+{
+    "stock_name": "ITC",
+    "exchange": "NSE",
+    "last_updated": "2025-05-23T14:04:12.229300",
+    "first_share_price": 431.5,
+    "placed_orders": [
+        {
+            "order_id": {
+                "order_id": "250523001382256",
+                "status": "COMPLETE",
+                "tradingsymbol": "ITC",
+                "quantity": 1,
+                "price": 431,
+                "timestamp": "2025-05-23T11:10:11.069919"
+            },
+            "quantity": 1,
+            "price": 431,
+            "date": "2025-05-23 11:10:11",
+            "type": "buy"
+        }
+    ],
+    "pending_orders": [
+        {
+            "order_id": "250523001463867",
+            "quantity": 1,
+            "price": 436.8,
+            "date": "2025-05-23 14:04:10",
+            "type": "sell"
+        }
+    ],
+    "failed_orders": [],
+    "history": [],
+    "positions": []
+}

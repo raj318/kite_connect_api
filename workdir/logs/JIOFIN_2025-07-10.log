@@ -1,0 +1,190 @@
+2025-07-10 09:19:16,438 - __main__ - INFO - Starting GTT Fall Buy strategy for JIOFIN on NSE
+2025-07-10 09:19:16,772 - breeze_sdk_api - WARNING - Session expired or invalid, attempting to regenerate token
+2025-07-10 09:19:16,774 - breeze_sdk_api - INFO - login_url = https://api.icicidirect.com/apiuser/login?api_key=3088X_y892P%257c%23516%60r8i9kx2K485%268
+2025-07-10 09:20:33,749 - __main__ - INFO - Starting GTT Fall Buy strategy for JIOFIN on NSE
+2025-07-10 09:20:36,370 - breeze_sdk_api - INFO - Successfully initialized Breeze API with credentials
+2025-07-10 09:20:36,371 - __main__ - INFO - Successfully initialized Breeze API
+2025-07-10 09:22:39,688 - __main__ - INFO - Starting GTT Fall Buy strategy for JIOFIN on NSE
+2025-07-10 09:22:41,697 - breeze_sdk_api - INFO - Successfully initialized Breeze API with credentials
+2025-07-10 09:22:41,697 - __main__ - INFO - Successfully initialized Breeze API
+2025-07-10 09:22:41,858 - __main__ - INFO - Successfully initialized Kite API
+2025-07-10 09:22:41,859 - __main__ - INFO - Will place 10 GTT orders
+2025-07-10 09:22:41,859 - __main__ - INFO - No GTT history file found. Starting fresh.
+2025-07-10 09:22:41,860 - __main__ - INFO - Found 0 existing GTT orders in history file
+2025-07-10 09:22:41,996 - __main__ - INFO - Found 11 current GTT orders in Kite API
+2025-07-10 09:22:41,996 - __main__ - INFO - API Order 1: ID=279533691, Symbol=TATASTEEL, Type=BUY, Status=active
+2025-07-10 09:22:41,997 - __main__ - INFO - API Order 2: ID=279533690, Symbol=TATASTEEL, Type=BUY, Status=active
+2025-07-10 09:22:41,997 - __main__ - INFO - API Order 3: ID=279533689, Symbol=TATASTEEL, Type=BUY, Status=active
+2025-07-10 09:22:41,998 - __main__ - INFO - API Order 4: ID=279533687, Symbol=TATASTEEL, Type=BUY, Status=active
+2025-07-10 09:22:41,998 - __main__ - INFO - API Order 5: ID=279533685, Symbol=TATASTEEL, Type=BUY, Status=active
+2025-07-10 09:22:41,998 - __main__ - INFO - API Order 6: ID=279533684, Symbol=TATASTEEL, Type=BUY, Status=active
+2025-07-10 09:22:41,999 - __main__ - INFO - API Order 7: ID=278914782, Symbol=ONGC, Type=SELL, Status=active
+2025-07-10 09:22:41,999 - __main__ - INFO - API Order 8: ID=278075503, Symbol=ONGC, Type=BUY, Status=active
+2025-07-10 09:22:41,999 - __main__ - INFO - API Order 9: ID=278021230, Symbol=ONGC, Type=BUY, Status=active
+2025-07-10 09:22:42,000 - __main__ - INFO - API Order 10: ID=278021229, Symbol=ONGC, Type=BUY, Status=active
+2025-07-10 09:22:42,000 - __main__ - INFO - API Order 11: ID=278021228, Symbol=ONGC, Type=BUY, Status=active
+2025-07-10 09:22:42,000 - __main__ - INFO - Found 0 active JIOFIN buy orders in Kite API
+2025-07-10 09:22:42,314 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'JIOFIN', 'isec_stock_code': 'JIOFIN', 'isec_token': '18143', 'company name': 'JIO FINANCIAL SERVICES LIMITED', 'isec_token_level1': '4.1!18143', 'isec_token_level2': '4.2!18143'}
+2025-07-10 09:22:42,314 - breeze_sdk_api - INFO - Got token name for JIOFIN: 4.1!18143
+2025-07-10 09:22:42,714 - __main__ - INFO - Current price for JIOFIN: 329.85
+2025-07-10 09:22:42,896 - __main__ - INFO - Found 0 actually active buy orders on exchange
+2025-07-10 09:22:42,897 - __main__ - INFO - Starting fresh fall buy strategy from current price: 329.85
+2025-07-10 09:22:43,139 - __main__ - INFO - Placing MARKET order 1: 1 shares @ LTP (329.85)
+2025-07-10 09:22:43,553 - __main__ - INFO - Successfully placed MARKET order 1: 250710120118166
+2025-07-10 09:22:43,555 - __main__ - INFO - GTT history saved: 1 orders
+2025-07-10 09:22:43,558 - __main__ - INFO - Placing GTT order 2: 2 shares @ 326.65 (trigger: 326.55)
+2025-07-10 09:22:43,708 - __main__ - INFO - Successfully placed GTT order 2: 279694656
+2025-07-10 09:22:43,711 - __main__ - INFO - GTT history saved: 2 orders
+2025-07-10 09:22:43,713 - __main__ - INFO - Placing GTT order 3: 3 shares @ 323.50 (trigger: 323.40)
+2025-07-10 09:22:43,855 - __main__ - INFO - Successfully placed GTT order 3: 279694657
+2025-07-10 09:22:43,858 - __main__ - INFO - GTT history saved: 3 orders
+2025-07-10 09:22:43,861 - __main__ - INFO - Placing GTT order 4: 4 shares @ 320.35 (trigger: 320.25)
+2025-07-10 09:22:44,021 - __main__ - INFO - Successfully placed GTT order 4: 279694660
+2025-07-10 09:22:44,023 - __main__ - INFO - GTT history saved: 4 orders
+2025-07-10 09:22:44,026 - __main__ - INFO - Placing GTT order 5: 5 shares @ 317.25 (trigger: 317.15)
+2025-07-10 09:22:44,151 - __main__ - INFO - Successfully placed GTT order 5: 279694662
+2025-07-10 09:22:44,153 - __main__ - INFO - GTT history saved: 5 orders
+2025-07-10 09:22:44,156 - __main__ - INFO - Placing GTT order 6: 6 shares @ 314.20 (trigger: 314.10)
+2025-07-10 09:22:44,299 - __main__ - INFO - Successfully placed GTT order 6: 279694667
+2025-07-10 09:22:44,301 - __main__ - INFO - GTT history saved: 6 orders
+2025-07-10 09:22:44,304 - __main__ - INFO - Placing GTT order 7: 7 shares @ 311.15 (trigger: 311.05)
+2025-07-10 09:22:44,447 - __main__ - INFO - Successfully placed GTT order 7: 279694668
+2025-07-10 09:22:44,450 - __main__ - INFO - GTT history saved: 7 orders
+2025-07-10 09:22:44,453 - __main__ - INFO - Placing GTT order 8: 8 shares @ 308.15 (trigger: 308.05)
+2025-07-10 09:22:44,598 - __main__ - INFO - Successfully placed GTT order 8: 279694671
+2025-07-10 09:22:44,601 - __main__ - INFO - GTT history saved: 8 orders
+2025-07-10 09:22:44,603 - __main__ - INFO - Placing GTT order 9: 9 shares @ 305.15 (trigger: 305.05)
+2025-07-10 09:22:44,758 - __main__ - INFO - Successfully placed GTT order 9: 279694674
+2025-07-10 09:22:44,760 - __main__ - INFO - GTT history saved: 9 orders
+2025-07-10 09:22:44,764 - __main__ - INFO - Placing GTT order 10: 10 shares @ 302.20 (trigger: 302.10)
+2025-07-10 09:22:44,908 - __main__ - INFO - Successfully placed GTT order 10: 279694677
+2025-07-10 09:22:44,911 - __main__ - INFO - GTT history saved: 10 orders
+2025-07-10 09:22:44,912 - __main__ - INFO - Total GTT orders placed: 10/10
+2025-07-10 09:22:44,912 - __main__ - INFO - SUCCESS: All 10 orders were placed successfully!
+2025-07-10 09:22:44,914 - __main__ - INFO - GTT history saved: 10 orders
+2025-07-10 09:22:44,930 - __main__ - INFO - Loaded GTT history: 10 orders
+2025-07-10 09:22:45,058 - __main__ - INFO - Total GTT orders in account: 20
+2025-07-10 09:22:45,059 - __main__ - INFO - GTT Order: {'id': 279694677, 'user_id': 'OVF854', 'parent_trigger': None, 'type': 'single', 'created_at': '2025-07-10 09:22:44', 'updated_at': '2025-07-10 09:22:44', 'expires_at': '2026-07-10 09:22:44', 'status': 'active', 'condition': {'exchange': 'NSE', 'last_price': 329.85, 'tradingsymbol': 'JIOFIN', 'trigger_values': [302.1], 'instrument_token': 4644609}, 'orders': [{'exchange': 'NSE', 'tradingsymbol': 'JIOFIN', 'product': 'CNC', 'order_type': 'LIMIT', 'transaction_type': 'BUY', 'quantity': 10, 'price': 302.2, 'result': None}], 'meta': {}}
+2025-07-10 09:22:45,059 - __main__ - INFO - GTT Order: {'id': 279694674, 'user_id': 'OVF854', 'parent_trigger': None, 'type': 'single', 'created_at': '2025-07-10 09:22:44', 'updated_at': '2025-07-10 09:22:44', 'expires_at': '2026-07-10 09:22:44', 'status': 'active', 'condition': {'exchange': 'NSE', 'last_price': 329.85, 'tradingsymbol': 'JIOFIN', 'trigger_values': [305.05], 'instrument_token': 4644609}, 'orders': [{'exchange': 'NSE', 'tradingsymbol': 'JIOFIN', 'product': 'CNC', 'order_type': 'LIMIT', 'transaction_type': 'BUY', 'quantity': 9, 'price': 305.15, 'result': None}], 'meta': {}}
+2025-07-10 09:22:45,060 - __main__ - INFO - GTT Order: {'id': 279694671, 'user_id': 'OVF854', 'parent_trigger': None, 'type': 'single', 'created_at': '2025-07-10 09:22:44', 'updated_at': '2025-07-10 09:22:44', 'expires_at': '2026-07-10 09:22:44', 'status': 'active', 'condition': {'exchange': 'NSE', 'last_price': 329.85, 'tradingsymbol': 'JIOFIN', 'trigger_values': [308.05], 'instrument_token': 4644609}, 'orders': [{'exchange': 'NSE', 'tradingsymbol': 'JIOFIN', 'product': 'CNC', 'order_type': 'LIMIT', 'transaction_type': 'BUY', 'quantity': 8, 'price': 308.15, 'result': None}], 'meta': {}}
+2025-07-10 09:22:45,060 - __main__ - INFO - GTT Order: {'id': 279694668, 'user_id': 'OVF854', 'parent_trigger': None, 'type': 'single', 'created_at': '2025-07-10 09:22:44', 'updated_at': '2025-07-10 09:22:44', 'expires_at': '2026-07-10 09:22:44', 'status': 'active', 'condition': {'exchange': 'NSE', 'last_price': 329.85, 'tradingsymbol': 'JIOFIN', 'trigger_values': [311.05], 'instrument_token': 4644609}, 'orders': [{'exchange': 'NSE', 'tradingsymbol': 'JIOFIN', 'product': 'CNC', 'order_type': 'LIMIT', 'transaction_type': 'BUY', 'quantity': 7, 'price': 311.15, 'result': None}], 'meta': {}}
+2025-07-10 09:22:45,062 - __main__ - INFO - GTT Order: {'id': 279694667, 'user_id': 'OVF854', 'parent_trigger': None, 'type': 'single', 'created_at': '2025-07-10 09:22:44', 'updated_at': '2025-07-10 09:22:44', 'expires_at': '2026-07-10 09:22:44', 'status': 'active', 'condition': {'exchange': 'NSE', 'last_price': 329.85, 'tradingsymbol': 'JIOFIN', 'trigger_values': [314.1], 'instrument_token': 4644609}, 'orders': [{'exchange': 'NSE', 'tradingsymbol': 'JIOFIN', 'product': 'CNC', 'order_type': 'LIMIT', 'transaction_type': 'BUY', 'quantity': 6, 'price': 314.2, 'result': None}], 'meta': {}}
+2025-07-10 09:22:45,062 - __main__ - INFO - GTT Order: {'id': 279694662, 'user_id': 'OVF854', 'parent_trigger': None, 'type': 'single', 'created_at': '2025-07-10 09:22:44', 'updated_at': '2025-07-10 09:22:44', 'expires_at': '2026-07-10 09:22:44', 'status': 'active', 'condition': {'exchange': 'NSE', 'last_price': 329.85, 'tradingsymbol': 'JIOFIN', 'trigger_values': [317.15], 'instrument_token': 4644609}, 'orders': [{'exchange': 'NSE', 'tradingsymbol': 'JIOFIN', 'product': 'CNC', 'order_type': 'LIMIT', 'transaction_type': 'BUY', 'quantity': 5, 'price': 317.25, 'result': None}], 'meta': {}}
+2025-07-10 09:22:45,063 - __main__ - INFO - GTT Order: {'id': 279694660, 'user_id': 'OVF854', 'parent_trigger': None, 'type': 'single', 'created_at': '2025-07-10 09:22:43', 'updated_at': '2025-07-10 09:22:43', 'expires_at': '2026-07-10 09:22:43', 'status': 'active', 'condition': {'exchange': 'NSE', 'last_price': 329.85, 'tradingsymbol': 'JIOFIN', 'trigger_values': [320.25], 'instrument_token': 4644609}, 'orders': [{'exchange': 'NSE', 'tradingsymbol': 'JIOFIN', 'product': 'CNC', 'order_type': 'LIMIT', 'transaction_type': 'BUY', 'quantity': 4, 'price': 320.35, 'result': None}], 'meta': {}}
+2025-07-10 09:22:45,063 - __main__ - INFO - GTT Order: {'id': 279694657, 'user_id': 'OVF854', 'parent_trigger': None, 'type': 'single', 'created_at': '2025-07-10 09:22:43', 'updated_at': '2025-07-10 09:22:43', 'expires_at': '2026-07-10 09:22:43', 'status': 'active', 'condition': {'exchange': 'NSE', 'last_price': 329.85, 'tradingsymbol': 'JIOFIN', 'trigger_values': [323.4], 'instrument_token': 4644609}, 'orders': [{'exchange': 'NSE', 'tradingsymbol': 'JIOFIN', 'product': 'CNC', 'order_type': 'LIMIT', 'transaction_type': 'BUY', 'quantity': 3, 'price': 323.5, 'result': None}], 'meta': {}}
+2025-07-10 09:22:45,063 - __main__ - INFO - GTT Order: {'id': 279694656, 'user_id': 'OVF854', 'parent_trigger': None, 'type': 'single', 'created_at': '2025-07-10 09:22:43', 'updated_at': '2025-07-10 09:22:43', 'expires_at': '2026-07-10 09:22:43', 'status': 'active', 'condition': {'exchange': 'NSE', 'last_price': 329.85, 'tradingsymbol': 'JIOFIN', 'trigger_values': [326.55], 'instrument_token': 4644609}, 'orders': [{'exchange': 'NSE', 'tradingsymbol': 'JIOFIN', 'product': 'CNC', 'order_type': 'LIMIT', 'transaction_type': 'BUY', 'quantity': 2, 'price': 326.65, 'result': None}], 'meta': {}}
+2025-07-10 09:22:45,064 - __main__ - INFO - GTT Order: {'id': 279533691, 'user_id': 'OVF854', 'parent_trigger': None, 'type': 'single', 'created_at': '2025-07-09 08:58:04', 'updated_at': '2025-07-09 10:47:09', 'expires_at': '2026-07-09 08:58:04', 'status': 'active', 'condition': {'exchange': 'NSE', 'last_price': 159.26, 'tradingsymbol': 'TATASTEEL', 'trigger_values': [154.31], 'instrument_token': 895745}, 'orders': [{'exchange': 'NSE', 'tradingsymbol': 'TATASTEEL', 'product': 'CNC', 'order_type': 'LIMIT', 'transaction_type': 'BUY', 'quantity': 10, 'price': 154.35, 'result': None}], 'meta': {}}
+2025-07-10 09:22:45,064 - __main__ - INFO - GTT Order: {'id': 279533690, 'user_id': 'OVF854', 'parent_trigger': None, 'type': 'single', 'created_at': '2025-07-09 08:58:04', 'updated_at': '2025-07-09 10:46:33', 'expires_at': '2026-07-09 08:58:04', 'status': 'active', 'condition': {'exchange': 'NSE', 'last_price': 159.26, 'tradingsymbol': 'TATASTEEL', 'trigger_values': [154.93], 'instrument_token': 895745}, 'orders': [{'exchange': 'NSE', 'tradingsymbol': 'TATASTEEL', 'product': 'CNC', 'order_type': 'LIMIT', 'transaction_type': 'BUY', 'quantity': 9, 'price': 154.97, 'result': None}], 'meta': {}}
+2025-07-10 09:22:45,066 - __main__ - INFO - GTT Order: {'id': 279533689, 'user_id': 'OVF854', 'parent_trigger': None, 'type': 'single', 'created_at': '2025-07-09 08:58:03', 'updated_at': '2025-07-09 10:46:01', 'expires_at': '2026-07-09 08:58:03', 'status': 'active', 'condition': {'exchange': 'NSE', 'last_price': 159.32, 'tradingsymbol': 'TATASTEEL', 'trigger_values': [155.55], 'instrument_token': 895745}, 'orders': [{'exchange': 'NSE', 'tradingsymbol': 'TATASTEEL', 'product': 'CNC', 'order_type': 'LIMIT', 'transaction_type': 'BUY', 'quantity': 8, 'price': 155.58, 'result': None}], 'meta': {}}
+2025-07-10 09:22:45,066 - __main__ - INFO - GTT Order: {'id': 279533687, 'user_id': 'OVF854', 'parent_trigger': None, 'type': 'single', 'created_at': '2025-07-09 08:58:03', 'updated_at': '2025-07-09 10:45:18', 'expires_at': '2026-07-09 08:58:03', 'status': 'active', 'condition': {'exchange': 'NSE', 'last_price': 159.31, 'tradingsymbol': 'TATASTEEL', 'trigger_values': [156.17], 'instrument_token': 895745}, 'orders': [{'exchange': 'NSE', 'tradingsymbol': 'TATASTEEL', 'product': 'CNC', 'order_type': 'LIMIT', 'transaction_type': 'BUY', 'quantity': 7, 'price': 156.19, 'result': None}], 'meta': {}}
+2025-07-10 09:22:45,067 - __main__ - INFO - GTT Order: {'id': 279533685, 'user_id': 'OVF854', 'parent_trigger': None, 'type': 'single', 'created_at': '2025-07-09 08:58:03', 'updated_at': '2025-07-09 10:44:55', 'expires_at': '2026-07-09 08:58:03', 'status': 'active', 'condition': {'exchange': 'NSE', 'last_price': 159.36, 'tradingsymbol': 'TATASTEEL', 'trigger_values': [156.8], 'instrument_token': 895745}, 'orders': [{'exchange': 'NSE', 'tradingsymbol': 'TATASTEEL', 'product': 'CNC', 'order_type': 'LIMIT', 'transaction_type': 'BUY', 'quantity': 6, 'price': 156.82, 'result': None}], 'meta': {}}
+2025-07-10 09:22:45,067 - __main__ - INFO - GTT Order: {'id': 279533684, 'user_id': 'OVF854', 'parent_trigger': None, 'type': 'single', 'created_at': '2025-07-09 08:58:03', 'updated_at': '2025-07-09 10:44:21', 'expires_at': '2026-07-09 08:58:03', 'status': 'active', 'condition': {'exchange': 'NSE', 'last_price': 159.31, 'tradingsymbol': 'TATASTEEL', 'trigger_values': [157.43], 'instrument_token': 895745}, 'orders': [{'exchange': 'NSE', 'tradingsymbol': 'TATASTEEL', 'product': 'CNC', 'order_type': 'LIMIT', 'transaction_type': 'BUY', 'quantity': 5, 'price': 157.46, 'result': None}], 'meta': {}}
+2025-07-10 09:22:45,068 - __main__ - INFO - GTT Order: {'id': 278914782, 'user_id': 'OVF854', 'parent_trigger': None, 'type': 'single', 'created_at': '2025-07-03 10:09:27', 'updated_at': '2025-07-04 15:40:21', 'expires_at': '2026-07-03 10:09:27', 'status': 'active', 'condition': {'exchange': 'NSE', 'last_price': 245.24, 'tradingsymbol': 'ONGC', 'trigger_values': [247], 'instrument_token': 633601}, 'orders': [{'exchange': 'NSE', 'tradingsymbol': 'ONGC', 'product': 'CNC', 'order_type': 'LIMIT', 'transaction_type': 'SELL', 'quantity': 31, 'price': 246.95, 'result': None}], 'meta': {}}
+2025-07-10 09:22:45,068 - __main__ - INFO - GTT Order: {'id': 278075503, 'user_id': 'OVF854', 'parent_trigger': None, 'type': 'single', 'created_at': '2025-06-26 12:45:34', 'updated_at': '2025-07-02 23:28:32', 'expires_at': '2026-06-26 12:45:34', 'status': 'active', 'condition': {'exchange': 'NSE', 'last_price': 241.07, 'tradingsymbol': 'ONGC', 'trigger_values': [234.3], 'instrument_token': 633601}, 'orders': [{'exchange': 'NSE', 'tradingsymbol': 'ONGC', 'product': 'CNC', 'order_type': 'LIMIT', 'transaction_type': 'BUY', 'quantity': 60, 'price': 234.5, 'result': None}], 'meta': {}}
+2025-07-10 09:22:45,069 - __main__ - INFO - GTT Order: {'id': 278021230, 'user_id': 'OVF854', 'parent_trigger': None, 'type': 'single', 'created_at': '2025-06-26 09:56:38', 'updated_at': '2025-07-02 12:08:42', 'expires_at': '2026-06-26 09:56:38', 'status': 'active', 'condition': {'exchange': 'NSE', 'last_price': 241.92, 'tradingsymbol': 'ONGC', 'trigger_values': [236], 'instrument_token': 633601}, 'orders': [{'exchange': 'NSE', 'tradingsymbol': 'ONGC', 'product': 'CNC', 'order_type': 'LIMIT', 'transaction_type': 'BUY', 'quantity': 50, 'price': 235.2, 'result': None}], 'meta': {}}
+2025-07-10 09:22:45,069 - __main__ - INFO - GTT Order: {'id': 278021229, 'user_id': 'OVF854', 'parent_trigger': None, 'type': 'single', 'created_at': '2025-06-26 09:56:38', 'updated_at': '2025-07-02 12:07:00', 'expires_at': '2026-06-26 09:56:38', 'status': 'active', 'condition': {'exchange': 'NSE', 'last_price': 241.8, 'tradingsymbol': 'ONGC', 'trigger_values': [237.9], 'instrument_token': 633601}, 'orders': [{'exchange': 'NSE', 'tradingsymbol': 'ONGC', 'product': 'CNC', 'order_type': 'LIMIT', 'transaction_type': 'BUY', 'quantity': 40, 'price': 238, 'result': None}], 'meta': {}}
+2025-07-10 09:22:45,069 - __main__ - INFO - GTT Order: {'id': 278021228, 'user_id': 'OVF854', 'parent_trigger': None, 'type': 'single', 'created_at': '2025-06-26 09:56:38', 'updated_at': '2025-07-02 11:46:13', 'expires_at': '2026-06-26 09:56:38', 'status': 'active', 'condition': {'exchange': 'NSE', 'last_price': 242, 'tradingsymbol': 'ONGC', 'trigger_values': [239.3], 'instrument_token': 633601}, 'orders': [{'exchange': 'NSE', 'tradingsymbol': 'ONGC', 'product': 'CNC', 'order_type': 'LIMIT', 'transaction_type': 'BUY', 'quantity': 30, 'price': 239.5, 'result': None}], 'meta': {}}
+2025-07-10 09:22:45,070 - __main__ - INFO - Setting up real-time tick data monitoring...
+2025-07-10 09:22:45,989 - breeze_sdk_api - INFO - Setting on_ticks function: <bound method BreezeApi.on_ticks of <breeze_sdk_api.BreezeApi object at 0x000002E418F0BB50>>
+2025-07-10 09:22:45,990 - breeze_sdk_api - INFO - Successfully connected to WebSocket
+2025-07-10 09:22:45,991 - __main__ - INFO - Connected to Breeze WebSocket for real-time data
+2025-07-10 09:22:46,299 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'JIOFIN', 'isec_stock_code': 'JIOFIN', 'isec_token': '18143', 'company name': 'JIO FINANCIAL SERVICES LIMITED', 'isec_token_level1': '4.1!18143', 'isec_token_level2': '4.2!18143'}
+2025-07-10 09:22:46,300 - breeze_sdk_api - INFO - Got token name for JIOFIN: 4.1!18143
+2025-07-10 09:22:46,301 - __main__ - INFO - Stock token for tick data: 4.1!18143
+2025-07-10 09:22:46,301 - breeze_sdk_api - INFO - Setting on_ticks function: <function main.<locals>.tick_handler at 0x000002E418F37B50>
+2025-07-10 09:22:46,303 - __main__ - INFO - Tick handler set up successfully
+2025-07-10 09:22:46,303 - breeze_sdk_api - INFO - Successfully subscribed to OHLC feed for token: 4.1!18143
+2025-07-10 09:22:46,304 - __main__ - INFO - Subscribed to real-time feed for JIOFIN
+2025-07-10 09:22:46,305 - __main__ - INFO - Real-time tick data monitoring is now active!
+2025-07-10 09:22:46,306 - __main__ - INFO - The system will now respond to price changes in real-time
+2025-07-10 09:22:46,307 - __main__ - INFO - GTT order monitoring started.
+2025-07-10 09:22:46,307 - __main__ - INFO - Press Ctrl+C to stop manually.
+2025-07-10 09:23:46,441 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'JIOFIN', 'isec_stock_code': 'JIOFIN', 'isec_token': '18143', 'company name': 'JIO FINANCIAL SERVICES LIMITED', 'isec_token_level1': '4.1!18143', 'isec_token_level2': '4.2!18143'}
+2025-07-10 09:23:46,441 - breeze_sdk_api - INFO - Got token name for JIOFIN: 4.1!18143
+2025-07-10 09:23:46,796 - __main__ - INFO - Periodic monitoring check at price: 330.10
+2025-07-10 09:23:46,796 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-10 09:24:17,095 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'JIOFIN', 'isec_stock_code': 'JIOFIN', 'isec_token': '18143', 'company name': 'JIO FINANCIAL SERVICES LIMITED', 'isec_token_level1': '4.1!18143', 'isec_token_level2': '4.2!18143'}
+2025-07-10 09:24:17,096 - breeze_sdk_api - INFO - Got token name for JIOFIN: 4.1!18143
+2025-07-10 09:24:18,471 - __main__ - INFO - Periodic monitoring check at price: 330.10
+2025-07-10 09:24:18,472 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-10 09:24:48,678 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'JIOFIN', 'isec_stock_code': 'JIOFIN', 'isec_token': '18143', 'company name': 'JIO FINANCIAL SERVICES LIMITED', 'isec_token_level1': '4.1!18143', 'isec_token_level2': '4.2!18143'}
+2025-07-10 09:24:48,679 - breeze_sdk_api - INFO - Got token name for JIOFIN: 4.1!18143
+2025-07-10 09:24:49,132 - __main__ - INFO - Periodic monitoring check at price: 330.25
+2025-07-10 09:24:49,134 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-10 09:25:19,264 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'JIOFIN', 'isec_stock_code': 'JIOFIN', 'isec_token': '18143', 'company name': 'JIO FINANCIAL SERVICES LIMITED', 'isec_token_level1': '4.1!18143', 'isec_token_level2': '4.2!18143'}
+2025-07-10 09:25:19,265 - breeze_sdk_api - INFO - Got token name for JIOFIN: 4.1!18143
+2025-07-10 09:25:19,656 - __main__ - INFO - Periodic monitoring check at price: 330.25
+2025-07-10 09:25:19,657 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-10 09:25:49,780 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'JIOFIN', 'isec_stock_code': 'JIOFIN', 'isec_token': '18143', 'company name': 'JIO FINANCIAL SERVICES LIMITED', 'isec_token_level1': '4.1!18143', 'isec_token_level2': '4.2!18143'}
+2025-07-10 09:25:49,781 - breeze_sdk_api - INFO - Got token name for JIOFIN: 4.1!18143
+2025-07-10 09:25:50,154 - __main__ - INFO - Periodic monitoring check at price: 330.30
+2025-07-10 09:25:50,154 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-10 09:26:20,294 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'JIOFIN', 'isec_stock_code': 'JIOFIN', 'isec_token': '18143', 'company name': 'JIO FINANCIAL SERVICES LIMITED', 'isec_token_level1': '4.1!18143', 'isec_token_level2': '4.2!18143'}
+2025-07-10 09:26:20,295 - breeze_sdk_api - INFO - Got token name for JIOFIN: 4.1!18143
+2025-07-10 09:26:20,629 - __main__ - INFO - Periodic monitoring check at price: 330.20
+2025-07-10 09:26:20,630 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-10 09:26:50,860 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'JIOFIN', 'isec_stock_code': 'JIOFIN', 'isec_token': '18143', 'company name': 'JIO FINANCIAL SERVICES LIMITED', 'isec_token_level1': '4.1!18143', 'isec_token_level2': '4.2!18143'}
+2025-07-10 09:26:50,861 - breeze_sdk_api - INFO - Got token name for JIOFIN: 4.1!18143
+2025-07-10 09:26:51,407 - __main__ - INFO - Periodic monitoring check at price: 330.20
+2025-07-10 09:26:51,408 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-10 09:27:21,531 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'JIOFIN', 'isec_stock_code': 'JIOFIN', 'isec_token': '18143', 'company name': 'JIO FINANCIAL SERVICES LIMITED', 'isec_token_level1': '4.1!18143', 'isec_token_level2': '4.2!18143'}
+2025-07-10 09:27:21,532 - breeze_sdk_api - INFO - Got token name for JIOFIN: 4.1!18143
+2025-07-10 09:27:21,994 - __main__ - INFO - Periodic monitoring check at price: 330.00
+2025-07-10 09:27:21,994 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-10 09:27:52,196 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'JIOFIN', 'isec_stock_code': 'JIOFIN', 'isec_token': '18143', 'company name': 'JIO FINANCIAL SERVICES LIMITED', 'isec_token_level1': '4.1!18143', 'isec_token_level2': '4.2!18143'}
+2025-07-10 09:27:52,196 - breeze_sdk_api - INFO - Got token name for JIOFIN: 4.1!18143
+2025-07-10 09:27:52,661 - __main__ - INFO - Periodic monitoring check at price: 330.05
+2025-07-10 09:27:52,663 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-10 09:28:22,878 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'JIOFIN', 'isec_stock_code': 'JIOFIN', 'isec_token': '18143', 'company name': 'JIO FINANCIAL SERVICES LIMITED', 'isec_token_level1': '4.1!18143', 'isec_token_level2': '4.2!18143'}
+2025-07-10 09:28:22,879 - breeze_sdk_api - INFO - Got token name for JIOFIN: 4.1!18143
+2025-07-10 09:28:23,429 - __main__ - INFO - Periodic monitoring check at price: 330.00
+2025-07-10 09:28:23,430 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-10 09:28:53,593 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'JIOFIN', 'isec_stock_code': 'JIOFIN', 'isec_token': '18143', 'company name': 'JIO FINANCIAL SERVICES LIMITED', 'isec_token_level1': '4.1!18143', 'isec_token_level2': '4.2!18143'}
+2025-07-10 09:28:53,593 - breeze_sdk_api - INFO - Got token name for JIOFIN: 4.1!18143
+2025-07-10 09:28:53,955 - __main__ - INFO - Periodic monitoring check at price: 330.05
+2025-07-10 09:28:53,956 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-10 09:29:24,249 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'JIOFIN', 'isec_stock_code': 'JIOFIN', 'isec_token': '18143', 'company name': 'JIO FINANCIAL SERVICES LIMITED', 'isec_token_level1': '4.1!18143', 'isec_token_level2': '4.2!18143'}
+2025-07-10 09:29:24,251 - breeze_sdk_api - INFO - Got token name for JIOFIN: 4.1!18143
+2025-07-10 09:29:24,761 - __main__ - INFO - Periodic monitoring check at price: 330.00
+2025-07-10 09:29:24,761 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-10 09:29:54,888 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'JIOFIN', 'isec_stock_code': 'JIOFIN', 'isec_token': '18143', 'company name': 'JIO FINANCIAL SERVICES LIMITED', 'isec_token_level1': '4.1!18143', 'isec_token_level2': '4.2!18143'}
+2025-07-10 09:29:54,888 - breeze_sdk_api - INFO - Got token name for JIOFIN: 4.1!18143
+2025-07-10 09:29:55,232 - __main__ - INFO - Periodic monitoring check at price: 330.45
+2025-07-10 09:29:55,233 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-10 09:30:25,643 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'JIOFIN', 'isec_stock_code': 'JIOFIN', 'isec_token': '18143', 'company name': 'JIO FINANCIAL SERVICES LIMITED', 'isec_token_level1': '4.1!18143', 'isec_token_level2': '4.2!18143'}
+2025-07-10 09:30:25,644 - breeze_sdk_api - INFO - Got token name for JIOFIN: 4.1!18143
+2025-07-10 09:30:26,127 - __main__ - INFO - Periodic monitoring check at price: 330.45
+2025-07-10 09:30:26,127 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-10 09:30:56,282 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'JIOFIN', 'isec_stock_code': 'JIOFIN', 'isec_token': '18143', 'company name': 'JIO FINANCIAL SERVICES LIMITED', 'isec_token_level1': '4.1!18143', 'isec_token_level2': '4.2!18143'}
+2025-07-10 09:30:56,283 - breeze_sdk_api - INFO - Got token name for JIOFIN: 4.1!18143
+2025-07-10 09:30:56,667 - __main__ - INFO - Periodic monitoring check at price: 330.80
+2025-07-10 09:30:56,668 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-10 09:31:26,898 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'JIOFIN', 'isec_stock_code': 'JIOFIN', 'isec_token': '18143', 'company name': 'JIO FINANCIAL SERVICES LIMITED', 'isec_token_level1': '4.1!18143', 'isec_token_level2': '4.2!18143'}
+2025-07-10 09:31:26,899 - breeze_sdk_api - INFO - Got token name for JIOFIN: 4.1!18143
+2025-07-10 09:31:27,324 - __main__ - INFO - Periodic monitoring check at price: 331.25
+2025-07-10 09:31:27,325 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-10 09:31:57,573 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'JIOFIN', 'isec_stock_code': 'JIOFIN', 'isec_token': '18143', 'company name': 'JIO FINANCIAL SERVICES LIMITED', 'isec_token_level1': '4.1!18143', 'isec_token_level2': '4.2!18143'}
+2025-07-10 09:31:57,574 - breeze_sdk_api - INFO - Got token name for JIOFIN: 4.1!18143
+2025-07-10 09:31:58,031 - __main__ - INFO - Periodic monitoring check at price: 331.00
+2025-07-10 09:31:58,032 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-10 09:32:28,200 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'JIOFIN', 'isec_stock_code': 'JIOFIN', 'isec_token': '18143', 'company name': 'JIO FINANCIAL SERVICES LIMITED', 'isec_token_level1': '4.1!18143', 'isec_token_level2': '4.2!18143'}
+2025-07-10 09:32:28,200 - breeze_sdk_api - INFO - Got token name for JIOFIN: 4.1!18143
+2025-07-10 09:32:28,846 - __main__ - INFO - Periodic monitoring check at price: 330.95
+2025-07-10 09:32:28,847 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-10 09:32:58,999 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'JIOFIN', 'isec_stock_code': 'JIOFIN', 'isec_token': '18143', 'company name': 'JIO FINANCIAL SERVICES LIMITED', 'isec_token_level1': '4.1!18143', 'isec_token_level2': '4.2!18143'}
+2025-07-10 09:32:59,000 - breeze_sdk_api - INFO - Got token name for JIOFIN: 4.1!18143
+2025-07-10 09:32:59,411 - __main__ - INFO - Periodic monitoring check at price: 330.85
+2025-07-10 09:32:59,412 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-10 09:33:29,555 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'JIOFIN', 'isec_stock_code': 'JIOFIN', 'isec_token': '18143', 'company name': 'JIO FINANCIAL SERVICES LIMITED', 'isec_token_level1': '4.1!18143', 'isec_token_level2': '4.2!18143'}
+2025-07-10 09:33:29,555 - breeze_sdk_api - INFO - Got token name for JIOFIN: 4.1!18143
+2025-07-10 09:33:29,952 - __main__ - INFO - Periodic monitoring check at price: 330.80
+2025-07-10 09:33:29,952 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-10 09:34:00,121 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'JIOFIN', 'isec_stock_code': 'JIOFIN', 'isec_token': '18143', 'company name': 'JIO FINANCIAL SERVICES LIMITED', 'isec_token_level1': '4.1!18143', 'isec_token_level2': '4.2!18143'}
+2025-07-10 09:34:00,121 - breeze_sdk_api - INFO - Got token name for JIOFIN: 4.1!18143
+2025-07-10 09:34:00,511 - __main__ - INFO - Periodic monitoring check at price: 330.60
+2025-07-10 09:34:00,512 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-10 09:34:02,493 - __main__ - INFO - Received interrupt signal. Stopping monitoring...
+2025-07-10 09:34:02,493 - __main__ - INFO - Monitoring stopped by user.
+2025-07-10 09:34:02,493 - __main__ - INFO - Cleaning up WebSocket connection...
+2025-07-10 09:34:02,494 - __main__ - INFO - WebSocket not initialized, skipping cleanup
+2025-07-10 09:34:02,494 - __main__ - INFO - GTT Fall Buy strategy completed.

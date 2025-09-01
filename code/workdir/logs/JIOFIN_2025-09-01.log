@@ -1,0 +1,305 @@
+2025-09-01 16:25:11,155 - __main__ - INFO - Price difference configured: 0.3%
+2025-09-01 16:25:11,155 - __main__ - INFO - Start quantity configured: 13
+2025-09-01 16:25:11,156 - __main__ - INFO - Initializing Hybrid Order Scheduler for JIOFIN
+2025-09-01 16:25:11,156 - __main__ - INFO - Order count: 5, Current price: Rs.314.50, Max quantity: 100
+2025-09-01 16:25:11,156 - __main__ - INFO - Price difference: 0.3%
+2025-09-01 16:25:11,158 - __main__ - INFO - Configuration loaded successfully
+2025-09-01 16:25:11,160 - __main__ - INFO - Starting hybrid order scheduling process
+2025-09-01 16:25:56,360 - __main__ - INFO - Price difference configured: 0.3%
+2025-09-01 16:25:56,371 - __main__ - INFO - Start quantity configured: 13
+2025-09-01 16:25:56,371 - __main__ - INFO - Initializing Hybrid Order Scheduler for JIOFIN
+2025-09-01 16:25:56,372 - __main__ - INFO - Order count: 5, Current price: Rs.314.50, Max quantity: 100
+2025-09-01 16:25:56,372 - __main__ - INFO - Price difference: 0.3%
+2025-09-01 16:25:56,375 - __main__ - INFO - Configuration loaded successfully
+2025-09-01 16:25:56,378 - __main__ - INFO - Starting hybrid order scheduling process
+2025-09-01 16:25:56,518 - __main__ - INFO - Successfully connected to Kite Connect
+2025-09-01 16:25:59,250 - __main__ - INFO - Market is closed (outside trading hours) - will use LIMIT order for first order
+2025-09-01 16:25:59,250 - __main__ - INFO - Using provided current price as base: Rs.314.50
+2025-09-01 16:25:59,250 - __main__ - INFO - Market is closed - skipping first order and starting with GTT orders
+2025-09-01 16:25:59,251 - __main__ - INFO - Order 1: SKIPPED (Market closed - AMO not supported)
+2025-09-01 16:25:59,251 - __main__ - INFO - Order 2: Price: Rs.314.26, Trigger: Rs.313.95, Type: GTT ORDER, Quantity: 13, Value: Rs.4085.43
+2025-09-01 16:25:59,251 - __main__ - INFO - Order 3: Price: Rs.313.32, Trigger: Rs.313.01, Type: GTT ORDER, Quantity: 14, Value: Rs.4386.49
+2025-09-01 16:25:59,251 - __main__ - INFO - Order 4: Price: Rs.312.38, Trigger: Rs.312.06, Type: GTT ORDER, Quantity: 15, Value: Rs.4685.66
+2025-09-01 16:25:59,251 - __main__ - INFO - Order 5: Price: Rs.311.43, Trigger: Rs.311.12, Type: GTT ORDER, Quantity: 16, Value: Rs.4982.94
+2025-09-01 16:26:29,978 - __main__ - INFO - Order placement cancelled by user
+2025-09-01 16:26:39,605 - __main__ - INFO - Price difference configured: 0.3%
+2025-09-01 16:26:39,605 - __main__ - INFO - Start quantity configured: 10
+2025-09-01 16:26:39,605 - __main__ - INFO - Initializing Hybrid Order Scheduler for JIOFIN
+2025-09-01 16:26:39,605 - __main__ - INFO - Order count: 5, Current price: Rs.314.50, Max quantity: 100
+2025-09-01 16:26:39,605 - __main__ - INFO - Price difference: 0.3%
+2025-09-01 16:26:39,607 - __main__ - INFO - Configuration loaded successfully
+2025-09-01 16:26:39,610 - __main__ - INFO - Starting hybrid order scheduling process
+2025-09-01 16:26:39,756 - __main__ - INFO - Successfully connected to Kite Connect
+2025-09-01 16:26:39,862 - __main__ - INFO - Market is closed (outside trading hours) - will use LIMIT order for first order
+2025-09-01 16:26:39,863 - __main__ - INFO - Using provided current price as base: Rs.314.50
+2025-09-01 16:26:39,863 - __main__ - INFO - Market is closed - skipping first order and starting with GTT orders
+2025-09-01 16:26:39,863 - __main__ - INFO - Order 1: SKIPPED (Market closed - AMO not supported)
+2025-09-01 16:26:39,864 - __main__ - INFO - Order 2: Price: Rs.314.26, Trigger: Rs.313.95, Type: GTT ORDER, Quantity: 10, Value: Rs.3142.64
+2025-09-01 16:26:39,864 - __main__ - INFO - Order 3: Price: Rs.313.32, Trigger: Rs.313.01, Type: GTT ORDER, Quantity: 11, Value: Rs.3446.53
+2025-09-01 16:26:39,864 - __main__ - INFO - Order 4: Price: Rs.312.38, Trigger: Rs.312.06, Type: GTT ORDER, Quantity: 12, Value: Rs.3748.53
+2025-09-01 16:26:39,864 - __main__ - INFO - Order 5: Price: Rs.311.43, Trigger: Rs.311.12, Type: GTT ORDER, Quantity: 13, Value: Rs.4048.64
+2025-09-01 16:26:50,007 - __main__ - INFO - Order placement cancelled by user
+2025-09-01 16:26:54,342 - __main__ - INFO - Price difference configured: 0.3%
+2025-09-01 16:26:54,342 - __main__ - INFO - Start quantity configured: 11
+2025-09-01 16:26:54,343 - __main__ - INFO - Initializing Hybrid Order Scheduler for JIOFIN
+2025-09-01 16:26:54,343 - __main__ - INFO - Order count: 5, Current price: Rs.314.50, Max quantity: 100
+2025-09-01 16:26:54,343 - __main__ - INFO - Price difference: 0.3%
+2025-09-01 16:26:54,345 - __main__ - INFO - Configuration loaded successfully
+2025-09-01 16:26:54,347 - __main__ - INFO - Starting hybrid order scheduling process
+2025-09-01 16:26:54,534 - __main__ - INFO - Successfully connected to Kite Connect
+2025-09-01 16:26:54,626 - __main__ - INFO - Market is closed (outside trading hours) - will use LIMIT order for first order
+2025-09-01 16:26:54,626 - __main__ - INFO - Using provided current price as base: Rs.314.50
+2025-09-01 16:26:54,626 - __main__ - INFO - Market is closed - skipping first order and starting with GTT orders
+2025-09-01 16:26:54,627 - __main__ - INFO - Order 1: SKIPPED (Market closed - AMO not supported)
+2025-09-01 16:26:54,627 - __main__ - INFO - Order 2: Price: Rs.314.26, Trigger: Rs.313.95, Type: GTT ORDER, Quantity: 11, Value: Rs.3456.91
+2025-09-01 16:26:54,627 - __main__ - INFO - Order 3: Price: Rs.313.32, Trigger: Rs.313.01, Type: GTT ORDER, Quantity: 12, Value: Rs.3759.85
+2025-09-01 16:26:54,627 - __main__ - INFO - Order 4: Price: Rs.312.38, Trigger: Rs.312.06, Type: GTT ORDER, Quantity: 13, Value: Rs.4060.90
+2025-09-01 16:26:54,627 - __main__ - INFO - Order 5: Price: Rs.311.43, Trigger: Rs.311.12, Type: GTT ORDER, Quantity: 14, Value: Rs.4360.07
+2025-09-01 16:27:08,973 - __main__ - INFO - Order placement cancelled by user
+2025-09-01 16:27:16,813 - __main__ - INFO - Price difference configured: 0.3%
+2025-09-01 16:27:16,813 - __main__ - INFO - Start quantity configured: 12
+2025-09-01 16:27:16,813 - __main__ - INFO - Initializing Hybrid Order Scheduler for JIOFIN
+2025-09-01 16:27:16,814 - __main__ - INFO - Order count: 5, Current price: Rs.314.50, Max quantity: 100
+2025-09-01 16:27:16,814 - __main__ - INFO - Price difference: 0.3%
+2025-09-01 16:27:16,816 - __main__ - INFO - Configuration loaded successfully
+2025-09-01 16:27:16,818 - __main__ - INFO - Starting hybrid order scheduling process
+2025-09-01 16:27:16,989 - __main__ - INFO - Successfully connected to Kite Connect
+2025-09-01 16:27:19,545 - __main__ - INFO - Market is closed (outside trading hours) - will use LIMIT order for first order
+2025-09-01 16:27:19,545 - __main__ - INFO - Using provided current price as base: Rs.314.50
+2025-09-01 16:27:19,545 - __main__ - INFO - Market is closed - skipping first order and starting with GTT orders
+2025-09-01 16:27:19,546 - __main__ - INFO - Order 1: SKIPPED (Market closed - AMO not supported)
+2025-09-01 16:27:19,546 - __main__ - INFO - Order 2: Price: Rs.314.26, Trigger: Rs.313.95, Type: GTT ORDER, Quantity: 12, Value: Rs.3771.17
+2025-09-01 16:27:19,546 - __main__ - INFO - Order 3: Price: Rs.313.32, Trigger: Rs.313.01, Type: GTT ORDER, Quantity: 13, Value: Rs.4073.17
+2025-09-01 16:27:19,546 - __main__ - INFO - Order 4: Price: Rs.312.38, Trigger: Rs.312.06, Type: GTT ORDER, Quantity: 14, Value: Rs.4373.28
+2025-09-01 16:27:19,546 - __main__ - INFO - Order 5: Price: Rs.311.43, Trigger: Rs.311.12, Type: GTT ORDER, Quantity: 15, Value: Rs.4671.50
+2025-09-01 16:27:30,586 - __main__ - INFO - Placing orders...
+2025-09-01 16:27:30,587 - __main__ - INFO - Skipping order 1 - Market closed, AMO not supported
+2025-09-01 16:27:30,587 - __main__ - INFO - Order 1 skipped successfully
+2025-09-01 16:27:30,587 - __main__ - INFO - Placing GTT order 2 for JIOFIN
+2025-09-01 16:27:30,802 - __main__ - INFO - GTT order 2 placed successfully with trigger ID: 285822517
+2025-09-01 16:27:30,802 - __main__ - INFO - Placing GTT order 3 for JIOFIN
+2025-09-01 16:27:31,092 - __main__ - INFO - GTT order 3 placed successfully with trigger ID: 285822518
+2025-09-01 16:27:31,093 - __main__ - INFO - Placing GTT order 4 for JIOFIN
+2025-09-01 16:27:31,330 - __main__ - INFO - GTT order 4 placed successfully with trigger ID: 285822519
+2025-09-01 16:27:31,331 - __main__ - INFO - Placing GTT order 5 for JIOFIN
+2025-09-01 16:27:31,627 - __main__ - INFO - GTT order 5 placed successfully with trigger ID: 285822520
+2025-09-01 16:27:31,629 - __main__ - INFO - Order summary saved to workdir\orders\JIOFIN_gtt_orders_20250901_162731.json
+2025-09-01 16:27:31,631 - __main__ - INFO - Hybrid order scheduling process completed successfully
+2025-09-01 16:31:04,165 - __main__ - INFO - Price difference configured: 0.1%
+2025-09-01 16:31:04,166 - __main__ - INFO - Start quantity configured: 6
+2025-09-01 16:31:04,166 - __main__ - INFO - Initializing Hybrid Order Scheduler for JIOFIN
+2025-09-01 16:31:04,166 - __main__ - INFO - Order count: 5, Current price: Rs.314.50, Max quantity: 100
+2025-09-01 16:31:04,166 - __main__ - INFO - Price difference: 0.1%
+2025-09-01 16:31:04,168 - __main__ - INFO - Configuration loaded successfully
+2025-09-01 16:31:04,171 - __main__ - INFO - Starting hybrid order scheduling process
+2025-09-01 16:31:04,339 - __main__ - INFO - Successfully connected to Kite Connect
+2025-09-01 16:31:04,428 - __main__ - INFO - Market is closed (outside trading hours) - will use LIMIT order for first order
+2025-09-01 16:31:04,428 - __main__ - INFO - Using provided current price as base: Rs.314.50
+2025-09-01 16:31:04,428 - __main__ - INFO - Market is closed - skipping first order and starting with GTT orders
+2025-09-01 16:31:04,428 - __main__ - INFO - Order 1: SKIPPED (Market closed - AMO not supported)
+2025-09-01 16:31:04,429 - __main__ - INFO - Order 2: Price: Rs.314.42, Trigger: Rs.314.11, Type: GTT ORDER, Quantity: 6, Value: Rs.1886.53
+2025-09-01 16:31:04,429 - __main__ - INFO - Order 3: Price: Rs.314.11, Trigger: Rs.313.79, Type: GTT ORDER, Quantity: 7, Value: Rs.2198.75
+2025-09-01 16:31:04,429 - __main__ - INFO - Order 4: Price: Rs.313.79, Trigger: Rs.313.48, Type: GTT ORDER, Quantity: 8, Value: Rs.2510.34
+2025-09-01 16:31:04,429 - __main__ - INFO - Order 5: Price: Rs.313.48, Trigger: Rs.313.16, Type: GTT ORDER, Quantity: 9, Value: Rs.2821.30
+2025-09-01 16:31:13,059 - __main__ - INFO - Order placement cancelled by user
+2025-09-01 16:31:27,741 - __main__ - INFO - Using order_count from config: 10
+2025-09-01 16:31:27,741 - __main__ - INFO - Price difference configured: 0.1%
+2025-09-01 16:31:27,741 - __main__ - INFO - Start quantity configured: 6
+2025-09-01 16:31:27,741 - __main__ - INFO - Initializing Hybrid Order Scheduler for JIOFIN
+2025-09-01 16:31:27,742 - __main__ - INFO - Order count: 10, Current price: Rs.314.50, Max quantity: 100
+2025-09-01 16:31:27,742 - __main__ - INFO - Price difference: 0.1%
+2025-09-01 16:31:27,743 - __main__ - INFO - Configuration loaded successfully
+2025-09-01 16:31:27,747 - __main__ - INFO - Starting hybrid order scheduling process
+2025-09-01 16:31:27,881 - __main__ - INFO - Successfully connected to Kite Connect
+2025-09-01 16:31:27,980 - __main__ - INFO - Market is closed (outside trading hours) - will use LIMIT order for first order
+2025-09-01 16:31:27,980 - __main__ - INFO - Using provided current price as base: Rs.314.50
+2025-09-01 16:31:27,981 - __main__ - INFO - Market is closed - skipping first order and starting with GTT orders
+2025-09-01 16:31:27,981 - __main__ - INFO - Order 1: SKIPPED (Market closed - AMO not supported)
+2025-09-01 16:31:27,981 - __main__ - INFO - Order 2: Price: Rs.314.42, Trigger: Rs.314.11, Type: GTT ORDER, Quantity: 6, Value: Rs.1886.53
+2025-09-01 16:31:27,981 - __main__ - INFO - Order 3: Price: Rs.314.11, Trigger: Rs.313.79, Type: GTT ORDER, Quantity: 7, Value: Rs.2198.75
+2025-09-01 16:31:27,982 - __main__ - INFO - Order 4: Price: Rs.313.79, Trigger: Rs.313.48, Type: GTT ORDER, Quantity: 8, Value: Rs.2510.34
+2025-09-01 16:31:27,982 - __main__ - INFO - Order 5: Price: Rs.313.48, Trigger: Rs.313.16, Type: GTT ORDER, Quantity: 9, Value: Rs.2821.30
+2025-09-01 16:31:27,982 - __main__ - INFO - Order 6: Price: Rs.313.16, Trigger: Rs.312.85, Type: GTT ORDER, Quantity: 10, Value: Rs.3131.63
+2025-09-01 16:31:27,982 - __main__ - INFO - Order 7: Price: Rs.312.85, Trigger: Rs.312.54, Type: GTT ORDER, Quantity: 11, Value: Rs.3441.34
+2025-09-01 16:31:27,982 - __main__ - INFO - Order 8: Price: Rs.312.53, Trigger: Rs.312.22, Type: GTT ORDER, Quantity: 12, Value: Rs.3750.41
+2025-09-01 16:31:27,983 - __main__ - INFO - Order 9: Price: Rs.312.22, Trigger: Rs.311.91, Type: GTT ORDER, Quantity: 13, Value: Rs.4058.86
+2025-09-01 16:31:27,983 - __main__ - INFO - Order 10: Price: Rs.311.91, Trigger: Rs.311.59, Type: GTT ORDER, Quantity: 14, Value: Rs.4366.68
+2025-09-01 16:31:48,124 - __main__ - INFO - Order placement cancelled by user
+2025-09-01 16:31:50,134 - __main__ - INFO - Using order_count from config: 10
+2025-09-01 16:31:50,134 - __main__ - INFO - Price difference configured: 0.2%
+2025-09-01 16:31:50,134 - __main__ - INFO - Start quantity configured: 6
+2025-09-01 16:31:50,134 - __main__ - INFO - Initializing Hybrid Order Scheduler for JIOFIN
+2025-09-01 16:31:50,134 - __main__ - INFO - Order count: 10, Current price: Rs.314.50, Max quantity: 100
+2025-09-01 16:31:50,135 - __main__ - INFO - Price difference: 0.2%
+2025-09-01 16:31:50,137 - __main__ - INFO - Configuration loaded successfully
+2025-09-01 16:31:50,140 - __main__ - INFO - Starting hybrid order scheduling process
+2025-09-01 16:31:50,280 - __main__ - INFO - Successfully connected to Kite Connect
+2025-09-01 16:31:50,386 - __main__ - INFO - Market is closed (outside trading hours) - will use LIMIT order for first order
+2025-09-01 16:31:50,386 - __main__ - INFO - Using provided current price as base: Rs.314.50
+2025-09-01 16:31:50,386 - __main__ - INFO - Market is closed - skipping first order and starting with GTT orders
+2025-09-01 16:31:50,387 - __main__ - INFO - Order 1: SKIPPED (Market closed - AMO not supported)
+2025-09-01 16:31:50,387 - __main__ - INFO - Order 2: Price: Rs.314.34, Trigger: Rs.314.03, Type: GTT ORDER, Quantity: 6, Value: Rs.1886.06
+2025-09-01 16:31:50,387 - __main__ - INFO - Order 3: Price: Rs.313.71, Trigger: Rs.313.40, Type: GTT ORDER, Quantity: 7, Value: Rs.2196.00
+2025-09-01 16:31:50,387 - __main__ - INFO - Order 4: Price: Rs.313.08, Trigger: Rs.312.77, Type: GTT ORDER, Quantity: 8, Value: Rs.2504.68
+2025-09-01 16:31:50,387 - __main__ - INFO - Order 5: Price: Rs.312.46, Trigger: Rs.312.14, Type: GTT ORDER, Quantity: 9, Value: Rs.2812.10
+2025-09-01 16:31:50,388 - __main__ - INFO - Order 6: Price: Rs.311.83, Trigger: Rs.311.51, Type: GTT ORDER, Quantity: 10, Value: Rs.3118.27
+2025-09-01 16:31:50,388 - __main__ - INFO - Order 7: Price: Rs.311.20, Trigger: Rs.310.89, Type: GTT ORDER, Quantity: 11, Value: Rs.3423.18
+2025-09-01 16:31:50,388 - __main__ - INFO - Order 8: Price: Rs.310.57, Trigger: Rs.310.26, Type: GTT ORDER, Quantity: 12, Value: Rs.3726.83
+2025-09-01 16:31:50,388 - __main__ - INFO - Order 9: Price: Rs.309.94, Trigger: Rs.309.63, Type: GTT ORDER, Quantity: 13, Value: Rs.4029.22
+2025-09-01 16:31:50,388 - __main__ - INFO - Order 10: Price: Rs.309.31, Trigger: Rs.309.00, Type: GTT ORDER, Quantity: 14, Value: Rs.4330.35
+2025-09-01 16:32:48,017 - __main__ - INFO - Order placement cancelled by user
+2025-09-01 16:32:49,522 - __main__ - INFO - Using order_count from config: 10
+2025-09-01 16:32:49,522 - __main__ - INFO - Price difference configured: 0.3%
+2025-09-01 16:32:49,522 - __main__ - INFO - Start quantity configured: 6
+2025-09-01 16:32:49,522 - __main__ - INFO - Initializing Hybrid Order Scheduler for JIOFIN
+2025-09-01 16:32:49,523 - __main__ - INFO - Order count: 10, Current price: Rs.314.50, Max quantity: 100
+2025-09-01 16:32:49,523 - __main__ - INFO - Price difference: 0.3%
+2025-09-01 16:32:49,525 - __main__ - INFO - Configuration loaded successfully
+2025-09-01 16:32:49,528 - __main__ - INFO - Starting hybrid order scheduling process
+2025-09-01 16:32:49,708 - __main__ - INFO - Successfully connected to Kite Connect
+2025-09-01 16:32:49,790 - __main__ - INFO - Market is closed (outside trading hours) - will use LIMIT order for first order
+2025-09-01 16:32:49,790 - __main__ - INFO - Using provided current price as base: Rs.314.50
+2025-09-01 16:32:49,791 - __main__ - INFO - Market is closed - skipping first order and starting with GTT orders
+2025-09-01 16:32:49,791 - __main__ - INFO - Order 1: SKIPPED (Market closed - AMO not supported)
+2025-09-01 16:32:49,791 - __main__ - INFO - Order 2: Price: Rs.314.26, Trigger: Rs.313.95, Type: GTT ORDER, Quantity: 6, Value: Rs.1885.58
+2025-09-01 16:32:49,792 - __main__ - INFO - Order 3: Price: Rs.313.32, Trigger: Rs.313.01, Type: GTT ORDER, Quantity: 7, Value: Rs.2193.24
+2025-09-01 16:32:49,792 - __main__ - INFO - Order 4: Price: Rs.312.38, Trigger: Rs.312.06, Type: GTT ORDER, Quantity: 8, Value: Rs.2499.02
+2025-09-01 16:32:49,792 - __main__ - INFO - Order 5: Price: Rs.311.43, Trigger: Rs.311.12, Type: GTT ORDER, Quantity: 9, Value: Rs.2802.90
+2025-09-01 16:32:49,792 - __main__ - INFO - Order 6: Price: Rs.310.49, Trigger: Rs.310.18, Type: GTT ORDER, Quantity: 10, Value: Rs.3104.90
+2025-09-01 16:32:49,792 - __main__ - INFO - Order 7: Price: Rs.309.55, Trigger: Rs.309.24, Type: GTT ORDER, Quantity: 11, Value: Rs.3405.01
+2025-09-01 16:32:49,793 - __main__ - INFO - Order 8: Price: Rs.308.60, Trigger: Rs.308.29, Type: GTT ORDER, Quantity: 12, Value: Rs.3703.24
+2025-09-01 16:32:49,793 - __main__ - INFO - Order 9: Price: Rs.307.66, Trigger: Rs.307.35, Type: GTT ORDER, Quantity: 13, Value: Rs.3999.58
+2025-09-01 16:32:49,793 - __main__ - INFO - Order 10: Price: Rs.306.72, Trigger: Rs.306.41, Type: GTT ORDER, Quantity: 14, Value: Rs.4294.03
+2025-09-01 16:33:55,556 - __main__ - INFO - Order placement cancelled by user
+2025-09-01 16:33:59,665 - __main__ - INFO - Price difference configured: 0.3%
+2025-09-01 16:33:59,665 - __main__ - INFO - Start quantity configured: 6
+2025-09-01 16:33:59,665 - __main__ - INFO - Initializing Hybrid Order Scheduler for JIOFIN
+2025-09-01 16:33:59,665 - __main__ - INFO - Order count: 6, Current price: Rs.314.50, Max quantity: 100
+2025-09-01 16:33:59,665 - __main__ - INFO - Price difference: 0.3%
+2025-09-01 16:33:59,667 - __main__ - INFO - Configuration loaded successfully
+2025-09-01 16:33:59,671 - __main__ - INFO - Starting hybrid order scheduling process
+2025-09-01 16:33:59,874 - __main__ - INFO - Successfully connected to Kite Connect
+2025-09-01 16:33:59,956 - __main__ - INFO - Market is closed (outside trading hours) - will use LIMIT order for first order
+2025-09-01 16:33:59,956 - __main__ - INFO - Using provided current price as base: Rs.314.50
+2025-09-01 16:33:59,956 - __main__ - INFO - Market is closed - skipping first order and starting with GTT orders
+2025-09-01 16:33:59,957 - __main__ - INFO - Order 1: SKIPPED (Market closed - AMO not supported)
+2025-09-01 16:33:59,957 - __main__ - INFO - Order 2: Price: Rs.314.26, Trigger: Rs.313.95, Type: GTT ORDER, Quantity: 6, Value: Rs.1885.58
+2025-09-01 16:33:59,957 - __main__ - INFO - Order 3: Price: Rs.313.32, Trigger: Rs.313.01, Type: GTT ORDER, Quantity: 7, Value: Rs.2193.24
+2025-09-01 16:33:59,958 - __main__ - INFO - Order 4: Price: Rs.312.38, Trigger: Rs.312.06, Type: GTT ORDER, Quantity: 8, Value: Rs.2499.02
+2025-09-01 16:33:59,958 - __main__ - INFO - Order 5: Price: Rs.311.43, Trigger: Rs.311.12, Type: GTT ORDER, Quantity: 9, Value: Rs.2802.90
+2025-09-01 16:33:59,958 - __main__ - INFO - Order 6: Price: Rs.310.49, Trigger: Rs.310.18, Type: GTT ORDER, Quantity: 10, Value: Rs.3104.90
+2025-09-01 16:34:04,570 - __main__ - INFO - Order placement cancelled by user
+2025-09-01 16:34:09,425 - __main__ - INFO - Price difference configured: 0.3%
+2025-09-01 16:34:09,425 - __main__ - INFO - Start quantity configured: 6
+2025-09-01 16:34:09,425 - __main__ - INFO - Initializing Hybrid Order Scheduler for JIOFIN
+2025-09-01 16:34:09,425 - __main__ - INFO - Order count: 4, Current price: Rs.314.50, Max quantity: 100
+2025-09-01 16:34:09,425 - __main__ - INFO - Price difference: 0.3%
+2025-09-01 16:34:09,427 - __main__ - INFO - Configuration loaded successfully
+2025-09-01 16:34:09,430 - __main__ - INFO - Starting hybrid order scheduling process
+2025-09-01 16:34:09,556 - __main__ - INFO - Successfully connected to Kite Connect
+2025-09-01 16:34:09,644 - __main__ - INFO - Market is closed (outside trading hours) - will use LIMIT order for first order
+2025-09-01 16:34:09,644 - __main__ - INFO - Using provided current price as base: Rs.314.50
+2025-09-01 16:34:09,644 - __main__ - INFO - Market is closed - skipping first order and starting with GTT orders
+2025-09-01 16:34:09,644 - __main__ - INFO - Order 1: SKIPPED (Market closed - AMO not supported)
+2025-09-01 16:34:09,644 - __main__ - INFO - Order 2: Price: Rs.314.26, Trigger: Rs.313.95, Type: GTT ORDER, Quantity: 6, Value: Rs.1885.58
+2025-09-01 16:34:09,644 - __main__ - INFO - Order 3: Price: Rs.313.32, Trigger: Rs.313.01, Type: GTT ORDER, Quantity: 7, Value: Rs.2193.24
+2025-09-01 16:34:09,645 - __main__ - INFO - Order 4: Price: Rs.312.38, Trigger: Rs.312.06, Type: GTT ORDER, Quantity: 8, Value: Rs.2499.02
+2025-09-01 16:34:14,539 - __main__ - INFO - Order placement cancelled by user
+2025-09-01 16:34:18,867 - __main__ - INFO - Price difference configured: 0.3%
+2025-09-01 16:34:18,868 - __main__ - INFO - Start quantity configured: 6
+2025-09-01 16:34:18,868 - __main__ - INFO - Initializing Hybrid Order Scheduler for JIOFIN
+2025-09-01 16:34:18,869 - __main__ - INFO - Order count: 5, Current price: Rs.314.50, Max quantity: 100
+2025-09-01 16:34:18,869 - __main__ - INFO - Price difference: 0.3%
+2025-09-01 16:34:18,870 - __main__ - INFO - Configuration loaded successfully
+2025-09-01 16:34:18,873 - __main__ - INFO - Starting hybrid order scheduling process
+2025-09-01 16:34:19,010 - __main__ - INFO - Successfully connected to Kite Connect
+2025-09-01 16:34:19,093 - __main__ - INFO - Market is closed (outside trading hours) - will use LIMIT order for first order
+2025-09-01 16:34:19,095 - __main__ - INFO - Using provided current price as base: Rs.314.50
+2025-09-01 16:34:19,095 - __main__ - INFO - Market is closed - skipping first order and starting with GTT orders
+2025-09-01 16:34:19,095 - __main__ - INFO - Order 1: SKIPPED (Market closed - AMO not supported)
+2025-09-01 16:34:19,096 - __main__ - INFO - Order 2: Price: Rs.314.26, Trigger: Rs.313.95, Type: GTT ORDER, Quantity: 6, Value: Rs.1885.58
+2025-09-01 16:34:19,096 - __main__ - INFO - Order 3: Price: Rs.313.32, Trigger: Rs.313.01, Type: GTT ORDER, Quantity: 7, Value: Rs.2193.24
+2025-09-01 16:34:19,096 - __main__ - INFO - Order 4: Price: Rs.312.38, Trigger: Rs.312.06, Type: GTT ORDER, Quantity: 8, Value: Rs.2499.02
+2025-09-01 16:34:19,096 - __main__ - INFO - Order 5: Price: Rs.311.43, Trigger: Rs.311.12, Type: GTT ORDER, Quantity: 9, Value: Rs.2802.90
+2025-09-01 16:34:25,998 - __main__ - INFO - Order placement cancelled by user
+2025-09-01 16:34:30,600 - __main__ - INFO - Price difference configured: 0.3%
+2025-09-01 16:34:30,600 - __main__ - INFO - Start quantity configured: 5
+2025-09-01 16:34:30,600 - __main__ - INFO - Initializing Hybrid Order Scheduler for JIOFIN
+2025-09-01 16:34:30,600 - __main__ - INFO - Order count: 5, Current price: Rs.314.50, Max quantity: 100
+2025-09-01 16:34:30,600 - __main__ - INFO - Price difference: 0.3%
+2025-09-01 16:34:30,602 - __main__ - INFO - Configuration loaded successfully
+2025-09-01 16:34:30,606 - __main__ - INFO - Starting hybrid order scheduling process
+2025-09-01 16:34:30,763 - __main__ - INFO - Successfully connected to Kite Connect
+2025-09-01 16:34:30,860 - __main__ - INFO - Market is closed (outside trading hours) - will use LIMIT order for first order
+2025-09-01 16:34:30,860 - __main__ - INFO - Using provided current price as base: Rs.314.50
+2025-09-01 16:34:30,861 - __main__ - INFO - Market is closed - skipping first order and starting with GTT orders
+2025-09-01 16:34:30,861 - __main__ - INFO - Order 1: SKIPPED (Market closed - AMO not supported)
+2025-09-01 16:34:30,861 - __main__ - INFO - Order 2: Price: Rs.314.26, Trigger: Rs.313.95, Type: GTT ORDER, Quantity: 5, Value: Rs.1571.32
+2025-09-01 16:34:30,861 - __main__ - INFO - Order 3: Price: Rs.313.32, Trigger: Rs.313.01, Type: GTT ORDER, Quantity: 6, Value: Rs.1879.92
+2025-09-01 16:34:30,862 - __main__ - INFO - Order 4: Price: Rs.312.38, Trigger: Rs.312.06, Type: GTT ORDER, Quantity: 7, Value: Rs.2186.64
+2025-09-01 16:34:30,862 - __main__ - INFO - Order 5: Price: Rs.311.43, Trigger: Rs.311.12, Type: GTT ORDER, Quantity: 8, Value: Rs.2491.47
+2025-09-01 16:34:49,399 - __main__ - INFO - Order placement cancelled by user
+2025-09-01 16:35:48,329 - __main__ - INFO - Price difference configured: 0.3%
+2025-09-01 16:35:48,330 - __main__ - INFO - Start quantity configured: 4
+2025-09-01 16:35:48,330 - __main__ - INFO - Initializing Hybrid Order Scheduler for JIOFIN
+2025-09-01 16:35:48,330 - __main__ - INFO - Order count: 5, Current price: Rs.314.50, Max quantity: 100
+2025-09-01 16:35:48,330 - __main__ - INFO - Price difference: 0.3%
+2025-09-01 16:35:48,331 - __main__ - INFO - Configuration loaded successfully
+2025-09-01 16:35:48,334 - __main__ - INFO - Starting hybrid order scheduling process
+2025-09-01 16:35:48,461 - __main__ - INFO - Successfully connected to Kite Connect
+2025-09-01 16:35:48,546 - __main__ - INFO - Market is closed (outside trading hours) - will use LIMIT order for first order
+2025-09-01 16:35:48,547 - __main__ - INFO - Using provided current price as base: Rs.314.50
+2025-09-01 16:35:48,547 - __main__ - INFO - Market is closed - skipping first order and starting with GTT orders
+2025-09-01 16:35:48,548 - __main__ - INFO - Order 1: SKIPPED (Market closed - AMO not supported)
+2025-09-01 16:35:48,548 - __main__ - INFO - Order 2: Price: Rs.314.26, Trigger: Rs.313.95, Type: GTT ORDER, Quantity: 4, Value: Rs.1257.06
+2025-09-01 16:35:48,548 - __main__ - INFO - Order 3: Price: Rs.313.32, Trigger: Rs.313.01, Type: GTT ORDER, Quantity: 5, Value: Rs.1566.60
+2025-09-01 16:35:48,548 - __main__ - INFO - Order 4: Price: Rs.312.38, Trigger: Rs.312.06, Type: GTT ORDER, Quantity: 6, Value: Rs.1874.26
+2025-09-01 16:35:48,548 - __main__ - INFO - Order 5: Price: Rs.311.43, Trigger: Rs.311.12, Type: GTT ORDER, Quantity: 7, Value: Rs.2180.04
+2025-09-01 16:35:53,830 - __main__ - INFO - Order placement cancelled by user
+2025-09-01 16:35:57,725 - __main__ - INFO - Price difference configured: 0.3%
+2025-09-01 16:35:57,725 - __main__ - INFO - Start quantity configured: 4
+2025-09-01 16:35:57,726 - __main__ - INFO - Initializing Hybrid Order Scheduler for JIOFIN
+2025-09-01 16:35:57,726 - __main__ - INFO - Order count: 6, Current price: Rs.314.50, Max quantity: 100
+2025-09-01 16:35:57,726 - __main__ - INFO - Price difference: 0.3%
+2025-09-01 16:35:57,728 - __main__ - INFO - Configuration loaded successfully
+2025-09-01 16:35:57,730 - __main__ - INFO - Starting hybrid order scheduling process
+2025-09-01 16:35:57,896 - __main__ - INFO - Successfully connected to Kite Connect
+2025-09-01 16:35:57,978 - __main__ - INFO - Market is closed (outside trading hours) - will use LIMIT order for first order
+2025-09-01 16:35:57,978 - __main__ - INFO - Using provided current price as base: Rs.314.50
+2025-09-01 16:35:57,978 - __main__ - INFO - Market is closed - skipping first order and starting with GTT orders
+2025-09-01 16:35:57,978 - __main__ - INFO - Order 1: SKIPPED (Market closed - AMO not supported)
+2025-09-01 16:35:57,979 - __main__ - INFO - Order 2: Price: Rs.314.26, Trigger: Rs.313.95, Type: GTT ORDER, Quantity: 4, Value: Rs.1257.06
+2025-09-01 16:35:57,979 - __main__ - INFO - Order 3: Price: Rs.313.32, Trigger: Rs.313.01, Type: GTT ORDER, Quantity: 5, Value: Rs.1566.60
+2025-09-01 16:35:57,979 - __main__ - INFO - Order 4: Price: Rs.312.38, Trigger: Rs.312.06, Type: GTT ORDER, Quantity: 6, Value: Rs.1874.26
+2025-09-01 16:35:57,979 - __main__ - INFO - Order 5: Price: Rs.311.43, Trigger: Rs.311.12, Type: GTT ORDER, Quantity: 7, Value: Rs.2180.04
+2025-09-01 16:35:57,979 - __main__ - INFO - Order 6: Price: Rs.310.49, Trigger: Rs.310.18, Type: GTT ORDER, Quantity: 8, Value: Rs.2483.92
+2025-09-01 16:36:03,265 - __main__ - INFO - Order placement cancelled by user
+2025-09-01 16:36:14,067 - __main__ - INFO - Price difference configured: 0.3%
+2025-09-01 16:36:14,067 - __main__ - INFO - Start quantity configured: 5
+2025-09-01 16:36:14,067 - __main__ - INFO - Initializing Hybrid Order Scheduler for JIOFIN
+2025-09-01 16:36:14,067 - __main__ - INFO - Order count: 5, Current price: Rs.314.50, Max quantity: 100
+2025-09-01 16:36:14,067 - __main__ - INFO - Price difference: 0.3%
+2025-09-01 16:36:14,069 - __main__ - INFO - Configuration loaded successfully
+2025-09-01 16:36:14,071 - __main__ - INFO - Starting hybrid order scheduling process
+2025-09-01 16:36:14,413 - __main__ - INFO - Successfully connected to Kite Connect
+2025-09-01 16:36:14,495 - __main__ - INFO - Market is closed (outside trading hours) - will use LIMIT order for first order
+2025-09-01 16:36:14,495 - __main__ - INFO - Using provided current price as base: Rs.314.50
+2025-09-01 16:36:14,495 - __main__ - INFO - Market is closed - skipping first order and starting with GTT orders
+2025-09-01 16:36:14,495 - __main__ - INFO - Order 1: SKIPPED (Market closed - AMO not supported)
+2025-09-01 16:36:14,495 - __main__ - INFO - Order 2: Price: Rs.314.26, Trigger: Rs.313.95, Type: GTT ORDER, Quantity: 5, Value: Rs.1571.32
+2025-09-01 16:36:14,497 - __main__ - INFO - Order 3: Price: Rs.313.32, Trigger: Rs.313.01, Type: GTT ORDER, Quantity: 6, Value: Rs.1879.92
+2025-09-01 16:36:14,497 - __main__ - INFO - Order 4: Price: Rs.312.38, Trigger: Rs.312.06, Type: GTT ORDER, Quantity: 7, Value: Rs.2186.64
+2025-09-01 16:36:14,497 - __main__ - INFO - Order 5: Price: Rs.311.43, Trigger: Rs.311.12, Type: GTT ORDER, Quantity: 8, Value: Rs.2491.47
+2025-09-01 16:36:56,731 - __main__ - INFO - Placing orders...
+2025-09-01 16:36:56,732 - __main__ - INFO - Skipping order 1 - Market closed, AMO not supported
+2025-09-01 16:36:56,732 - __main__ - INFO - Order 1 skipped successfully
+2025-09-01 16:36:56,732 - __main__ - INFO - Placing GTT order 2 for JIOFIN
+2025-09-01 16:36:56,975 - __main__ - INFO - GTT order 2 placed successfully with trigger ID: 285823025
+2025-09-01 16:36:56,976 - __main__ - INFO - Placing GTT order 3 for JIOFIN
+2025-09-01 16:36:57,190 - __main__ - INFO - GTT order 3 placed successfully with trigger ID: 285823026
+2025-09-01 16:36:57,190 - __main__ - INFO - Placing GTT order 4 for JIOFIN
+2025-09-01 16:36:57,432 - __main__ - INFO - GTT order 4 placed successfully with trigger ID: 285823027
+2025-09-01 16:36:57,432 - __main__ - INFO - Placing GTT order 5 for JIOFIN
+2025-09-01 16:36:57,656 - __main__ - INFO - GTT order 5 placed successfully with trigger ID: 285823028
+2025-09-01 16:36:57,658 - __main__ - INFO - Order summary saved to workdir\orders\JIOFIN_gtt_orders_20250901_163657.json
+2025-09-01 16:36:57,660 - __main__ - INFO - Hybrid order scheduling process completed successfully

@@ -1,0 +1,26 @@
+{
+    "stock_name": "ITC",
+    "exchange": "NSE",
+    "last_updated": "2025-05-25T21:58:59.960710",
+    "first_share_price": 436.7,
+    "placed_orders": [
+        {
+            "order_id": "250523001498800",
+            "quantity": 1,
+            "price": 436.7,
+            "date": "2025-05-23 14:15:52",
+            "type": "buy"
+        },
+        {
+            "order_id": "250523001498786",
+            "quantity": 1,
+            "price": 436.7,
+            "date": "2025-05-23 14:15:52",
+            "type": "buy"
+        }
+    ],
+    "pending_orders": [],
+    "failed_orders": [],
+    "history": [],
+    "positions": []
+}

@@ -1,0 +1,50 @@
+{
+  "company_symbol": "WIPRO",
+  "order_count": 3,
+  "quantity_strategy": "Progressive (1, 2, 3, 4, ...)",
+  "order_strategy": "First order as MARKET, subsequent as GTT",
+  "max_quantity": 100,
+  "base_price": 252.0,
+  "total_quantity": 6,
+  "total_value": 1491.8400000000001,
+  "orders": [
+    {
+      "order_number": 1,
+      "order_price": 252.0,
+      "trigger_price": null,
+      "quantity": 1,
+      "total_value": 252.0,
+      "order_type": "MARKET",
+      "order_id": null,
+      "trigger_id": null,
+      "status": "FAILED",
+      "error": "KiteConnectAPI.place_order() got an unexpected keyword argument 'trading_symbol'",
+      "timestamp": "2025-08-27T19:41:51.501001"
+    },
+    {
+      "order_number": 2,
+      "order_price": 249.48,
+      "trigger_price": 250.73,
+      "quantity": 2,
+      "total_value": 498.96,
+      "order_type": "GTT",
+      "order_id": null,
+      "trigger_id": 285327383,
+      "status": "PLACED",
+      "timestamp": "2025-08-27T19:41:53.276546"
+    },
+    {
+      "order_number": 3,
+      "order_price": 246.96,
+      "trigger_price": 248.19,
+      "quantity": 3,
+      "total_value": 740.88,
+      "order_type": "GTT",
+      "order_id": null,
+      "trigger_id": 285327384,
+      "status": "PLACED",
+      "timestamp": "2025-08-27T19:41:53.584541"
+    }
+  ],
+  "timestamp": "2025-08-27T19:41:53.586049"
+}

@@ -1,0 +1,83 @@
+{
+  "company_symbol": "WIPRO",
+  "order_count": 5,
+  "quantity_strategy": "Progressive (1, 2, 3, 4, ...)",
+  "order_strategy": "First order SKIPPED (market closed), then GTT from 0.25% lower",
+  "market_status": "CLOSED",
+  "max_quantity": 100,
+  "base_price": 252.0,
+  "total_quantity": 11,
+  "total_value": 2715.3,
+  "orders": [
+    {
+      "order_number": 1,
+      "order_price": 252.0,
+      "trigger_price": null,
+      "quantity": 1,
+      "total_value": 252.0,
+      "order_type": "SKIPPED",
+      "skip_reason": "Market closed - AMO not supported",
+      "order_id": null,
+      "trigger_id": null,
+      "status": "SKIPPED",
+      "timestamp": "2025-08-27T20:13:54.496832"
+    },
+    {
+      "order_number": 2,
+      "order_price": 251.37,
+      "trigger_price": 263.94,
+      "quantity": 1,
+      "total_value": 251.37,
+      "order_type": "GTT",
+      "order_id": null,
+      "trigger_id": null,
+      "status": "FAILED",
+      "error": "Trigger already met.",
+      "error_details": "Failed to place GTT order with price Rs.251.37 and quantity 1",
+      "timestamp": "2025-08-27T20:13:54.796193"
+    },
+    {
+      "order_number": 3,
+      "order_price": 248.85,
+      "trigger_price": 261.29,
+      "quantity": 2,
+      "total_value": 497.7,
+      "order_type": "GTT",
+      "order_id": null,
+      "trigger_id": null,
+      "status": "FAILED",
+      "error": "Trigger already met.",
+      "error_details": "Failed to place GTT order with price Rs.248.85 and quantity 2",
+      "timestamp": "2025-08-27T20:13:55.074736"
+    },
+    {
+      "order_number": 4,
+      "order_price": 246.33,
+      "trigger_price": 258.65,
+      "quantity": 3,
+      "total_value": 738.99,
+      "order_type": "GTT",
+      "order_id": null,
+      "trigger_id": null,
+      "status": "FAILED",
+      "error": "Trigger already met.",
+      "error_details": "Failed to place GTT order with price Rs.246.33 and quantity 3",
+      "timestamp": "2025-08-27T20:13:55.352762"
+    },
+    {
+      "order_number": 5,
+      "order_price": 243.81,
+      "trigger_price": 256.0,
+      "quantity": 4,
+      "total_value": 975.24,
+      "order_type": "GTT",
+      "order_id": null,
+      "trigger_id": null,
+      "status": "FAILED",
+      "error": "Trigger already met.",
+      "error_details": "Failed to place GTT order with price Rs.243.81 and quantity 4",
+      "timestamp": "2025-08-27T20:13:55.630413"
+    }
+  ],
+  "timestamp": "2025-08-27T20:13:55.632409"
+}

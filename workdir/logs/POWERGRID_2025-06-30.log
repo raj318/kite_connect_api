@@ -1,0 +1,46 @@
+2025-06-30 09:37:46,447 - __main__ - INFO - Starting GTT Fall Buy strategy for POWERGRID on NSE
+2025-06-30 09:37:46,693 - breeze_sdk_api - WARNING - Session expired or invalid, attempting to regenerate token
+2025-06-30 09:37:46,694 - breeze_sdk_api - INFO - login_url = https://api.icicidirect.com/apiuser/login?api_key=3088X_y892P%257c%23516%60r8i9kx2K485%268
+2025-06-30 09:38:44,387 - __main__ - INFO - Starting GTT Fall Buy strategy for POWERGRID on NSE
+2025-06-30 09:38:46,046 - breeze_sdk_api - INFO - Successfully initialized Breeze API with credentials
+2025-06-30 09:38:46,047 - __main__ - INFO - Successfully initialized Breeze API
+2025-06-30 09:39:18,306 - __main__ - INFO - Starting GTT Fall Buy strategy for POWERGRID on NSE
+2025-06-30 09:39:19,185 - breeze_sdk_api - INFO - Successfully initialized Breeze API with credentials
+2025-06-30 09:39:19,186 - __main__ - INFO - Successfully initialized Breeze API
+2025-06-30 09:39:19,355 - __main__ - INFO - Successfully initialized Kite API
+2025-06-30 09:39:19,355 - __main__ - INFO - Will place 5 GTT orders
+2025-06-30 09:39:19,357 - __main__ - INFO - Loaded GTT history: 5 orders
+2025-06-30 09:39:19,357 - __main__ - INFO - Found 5 existing GTT orders in history file
+2025-06-30 09:39:19,512 - __main__ - INFO - Found 14 current GTT orders in Kite API
+2025-06-30 09:39:19,513 - __main__ - INFO - API Order 1: ID=278170580, Symbol=POWERGRID, Type=BUY, Status=active
+2025-06-30 09:39:19,513 - __main__ - INFO - API Order 2: ID=278170575, Symbol=POWERGRID, Type=BUY, Status=active
+2025-06-30 09:39:19,514 - __main__ - INFO - API Order 3: ID=278170572, Symbol=POWERGRID, Type=BUY, Status=active
+2025-06-30 09:39:19,514 - __main__ - INFO - API Order 4: ID=278170569, Symbol=POWERGRID, Type=BUY, Status=active
+2025-06-30 09:39:19,514 - __main__ - INFO - API Order 5: ID=278097454, Symbol=ONGC, Type=SELL, Status=active
+2025-06-30 09:39:19,514 - __main__ - INFO - API Order 6: ID=278110159, Symbol=NTPC, Type=BUY, Status=active
+2025-06-30 09:39:19,515 - __main__ - INFO - API Order 7: ID=278110157, Symbol=NTPC, Type=BUY, Status=active
+2025-06-30 09:39:19,515 - __main__ - INFO - API Order 8: ID=278110154, Symbol=NTPC, Type=BUY, Status=active
+2025-06-30 09:39:19,515 - __main__ - INFO - API Order 9: ID=278110153, Symbol=NTPC, Type=BUY, Status=active
+2025-06-30 09:39:19,515 - __main__ - INFO - API Order 10: ID=278075503, Symbol=ONGC, Type=BUY, Status=active
+2025-06-30 09:39:19,516 - __main__ - INFO - API Order 11: ID=278021230, Symbol=ONGC, Type=BUY, Status=active
+2025-06-30 09:39:19,516 - __main__ - INFO - API Order 12: ID=278021229, Symbol=ONGC, Type=BUY, Status=active
+2025-06-30 09:39:19,516 - __main__ - INFO - API Order 13: ID=278021228, Symbol=ONGC, Type=BUY, Status=active
+2025-06-30 09:39:19,516 - __main__ - INFO - API Order 14: ID=278021226, Symbol=ONGC, Type=BUY, Status=active
+2025-06-30 09:39:19,516 - __main__ - INFO - Found 4 active POWERGRID buy orders in Kite API
+2025-06-30 09:39:19,516 - __main__ - INFO - Already have 5 active buy orders in history file. No need to place new orders.
+2025-06-30 09:39:19,517 - __main__ - INFO - If you want to place new orders, first cancel existing ones using --cancel_orders flag.
+2025-06-30 09:39:19,517 - __main__ - INFO - Using 5 existing orders for monitoring
+2025-06-30 09:39:19,517 - __main__ - INFO - Setting up real-time tick data monitoring...
+2025-06-30 09:39:20,066 - breeze_sdk_api - INFO - Setting on_ticks function: <bound method BreezeApi.on_ticks of <breeze_sdk_api.BreezeApi object at 0x0000029538EEBC10>>
+2025-06-30 09:39:20,066 - breeze_sdk_api - INFO - Successfully connected to WebSocket
+2025-06-30 09:39:20,067 - __main__ - INFO - Connected to Breeze WebSocket for real-time data
+2025-06-30 09:39:20,187 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'POWERGRID', 'isec_stock_code': 'POWGRI', 'isec_token': '14977', 'company name': 'POWER GRID CORPORATION OF INDI', 'isec_token_level1': '4.1!14977', 'isec_token_level2': '4.2!14977'}
+2025-06-30 09:39:20,187 - breeze_sdk_api - INFO - Got token name for POWERGRID: 4.1!14977
+2025-06-30 09:39:20,187 - __main__ - INFO - Stock token for tick data: 4.1!14977
+2025-06-30 09:39:20,188 - breeze_sdk_api - INFO - Setting on_ticks function: <function main.<locals>.tick_handler at 0x0000029538F163B0>
+2025-06-30 09:39:20,188 - __main__ - INFO - Tick handler set up successfully
+2025-06-30 09:39:20,188 - breeze_sdk_api - INFO - Successfully subscribed to OHLC feed for token: 4.1!14977
+2025-06-30 09:39:20,188 - __main__ - INFO - Subscribed to real-time feed for POWERGRID
+2025-06-30 09:39:20,189 - __main__ - INFO - Real-time tick data monitoring is now active!
+2025-06-30 09:39:20,189 - __main__ - INFO - The system will now respond to price changes in real-time
+2025-06-30 17:59:49,252 - __main__ - INFO - Program terminated by user

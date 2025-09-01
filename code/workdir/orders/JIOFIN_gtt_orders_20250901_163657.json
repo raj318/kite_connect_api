@@ -1,0 +1,68 @@
+{
+  "company_symbol": "JIOFIN",
+  "order_count": 5,
+  "actual_orders_placed": 4,
+  "quantity_strategy": "Progressive (5, 6, 7, 8, ...)",
+  "price_difference_percent": 0.3,
+  "order_strategy": "GTT orders starting from lower price (first order skipped due to market closed)",
+  "market_status": "CLOSED",
+  "max_quantity": 100,
+  "base_price": 314.26,
+  "total_quantity": 26,
+  "total_value": 8129.3499999999985,
+  "orders": [
+    {
+      "order_number": 1,
+      "order_price": 314.26,
+      "trigger_price": 313.95,
+      "quantity": 5,
+      "total_value": 1571.32,
+      "order_type": "GTT",
+      "order_id": null,
+      "trigger_id": 285823025,
+      "status": "PLACED",
+      "timestamp": "2025-09-01T16:36:56.975141",
+      "original_order_number": 2
+    },
+    {
+      "order_number": 2,
+      "order_price": 313.32,
+      "trigger_price": 313.01,
+      "quantity": 6,
+      "total_value": 1879.92,
+      "order_type": "GTT",
+      "order_id": null,
+      "trigger_id": 285823026,
+      "status": "PLACED",
+      "timestamp": "2025-09-01T16:36:57.190087",
+      "original_order_number": 3
+    },
+    {
+      "order_number": 3,
+      "order_price": 312.38,
+      "trigger_price": 312.06,
+      "quantity": 7,
+      "total_value": 2186.64,
+      "order_type": "GTT",
+      "order_id": null,
+      "trigger_id": 285823027,
+      "status": "PLACED",
+      "timestamp": "2025-09-01T16:36:57.432621",
+      "original_order_number": 4
+    },
+    {
+      "order_number": 4,
+      "order_price": 311.43,
+      "trigger_price": 311.12,
+      "quantity": 8,
+      "total_value": 2491.47,
+      "order_type": "GTT",
+      "order_id": null,
+      "trigger_id": 285823028,
+      "status": "PLACED",
+      "timestamp": "2025-09-01T16:36:57.656813",
+      "original_order_number": 5
+    }
+  ],
+  "timestamp": "2025-09-01T16:36:57.657827"
+}

@@ -1,0 +1,40 @@
+2025-06-27 09:17:14,944 - __main__ - INFO - Starting GTT Fall Buy strategy for NTPC on NSE
+2025-06-27 09:17:16,513 - breeze_sdk_api - INFO - Successfully initialized Breeze API with credentials
+2025-06-27 09:17:16,514 - __main__ - INFO - Successfully initialized Breeze API
+2025-06-27 09:17:16,662 - __main__ - INFO - Successfully initialized Kite API
+2025-06-27 09:17:16,663 - __main__ - INFO - Will place 5 GTT orders
+2025-06-27 09:17:16,683 - __main__ - INFO - Loaded GTT history: 6 orders
+2025-06-27 09:17:16,683 - __main__ - INFO - Found 6 existing GTT orders in history file
+2025-06-27 09:17:16,801 - __main__ - INFO - Found 14 current GTT orders in Kite API
+2025-06-27 09:17:16,802 - __main__ - INFO - API Order 1: ID=278170580, Symbol=POWERGRID, Type=BUY, Status=active
+2025-06-27 09:17:16,803 - __main__ - INFO - API Order 2: ID=278170575, Symbol=POWERGRID, Type=BUY, Status=active
+2025-06-27 09:17:16,803 - __main__ - INFO - API Order 3: ID=278170572, Symbol=POWERGRID, Type=BUY, Status=active
+2025-06-27 09:17:16,804 - __main__ - INFO - API Order 4: ID=278170569, Symbol=POWERGRID, Type=BUY, Status=active
+2025-06-27 09:17:16,804 - __main__ - INFO - API Order 5: ID=278097454, Symbol=ONGC, Type=SELL, Status=active
+2025-06-27 09:17:16,805 - __main__ - INFO - API Order 6: ID=278110159, Symbol=NTPC, Type=BUY, Status=active
+2025-06-27 09:17:16,805 - __main__ - INFO - API Order 7: ID=278110157, Symbol=NTPC, Type=BUY, Status=active
+2025-06-27 09:17:16,806 - __main__ - INFO - API Order 8: ID=278110154, Symbol=NTPC, Type=BUY, Status=active
+2025-06-27 09:17:16,806 - __main__ - INFO - API Order 9: ID=278110153, Symbol=NTPC, Type=BUY, Status=active
+2025-06-27 09:17:16,807 - __main__ - INFO - API Order 10: ID=278075503, Symbol=ONGC, Type=BUY, Status=active
+2025-06-27 09:17:16,807 - __main__ - INFO - API Order 11: ID=278021230, Symbol=ONGC, Type=BUY, Status=active
+2025-06-27 09:17:16,807 - __main__ - INFO - API Order 12: ID=278021229, Symbol=ONGC, Type=BUY, Status=active
+2025-06-27 09:17:16,808 - __main__ - INFO - API Order 13: ID=278021228, Symbol=ONGC, Type=BUY, Status=active
+2025-06-27 09:17:16,808 - __main__ - INFO - API Order 14: ID=278021226, Symbol=ONGC, Type=BUY, Status=active
+2025-06-27 09:17:16,809 - __main__ - INFO - Found 4 active NTPC buy orders in Kite API
+2025-06-27 09:17:16,810 - __main__ - INFO - Already have 5 active buy orders in history file. No need to place new orders.
+2025-06-27 09:17:16,810 - __main__ - INFO - If you want to place new orders, first cancel existing ones using --cancel_orders flag.
+2025-06-27 09:17:16,811 - __main__ - INFO - Using 6 existing orders for monitoring
+2025-06-27 09:17:16,812 - __main__ - INFO - Setting up real-time tick data monitoring...
+2025-06-27 09:17:17,046 - breeze_sdk_api - INFO - Setting on_ticks function: <bound method BreezeApi.on_ticks of <breeze_sdk_api.BreezeApi object at 0x000001C2199ABC40>>
+2025-06-27 09:17:17,046 - breeze_sdk_api - INFO - Successfully connected to WebSocket
+2025-06-27 09:17:17,047 - __main__ - INFO - Connected to Breeze WebSocket for real-time data
+2025-06-27 09:17:17,244 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'NTPC', 'isec_stock_code': 'NTPC', 'isec_token': '11630', 'company name': 'NTPC LIMITED', 'isec_token_level1': '4.1!11630', 'isec_token_level2': '4.2!11630'}
+2025-06-27 09:17:17,244 - breeze_sdk_api - INFO - Got token name for NTPC: 4.1!11630
+2025-06-27 09:17:17,245 - __main__ - INFO - Stock token for tick data: 4.1!11630
+2025-06-27 09:17:17,245 - breeze_sdk_api - INFO - Setting on_ticks function: <function main.<locals>.tick_handler at 0x000001C2199D6320>
+2025-06-27 09:17:17,246 - __main__ - INFO - Tick handler set up successfully
+2025-06-27 09:17:17,247 - breeze_sdk_api - INFO - Successfully subscribed to OHLC feed for token: 4.1!11630
+2025-06-27 09:17:17,247 - __main__ - INFO - Subscribed to real-time feed for NTPC
+2025-06-27 09:17:17,249 - __main__ - INFO - Real-time tick data monitoring is now active!
+2025-06-27 09:17:17,249 - __main__ - INFO - The system will now respond to price changes in real-time
+2025-06-27 20:00:48,537 - __main__ - INFO - Program terminated by user

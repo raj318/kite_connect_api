@@ -1,0 +1,518 @@
+2025-07-10 09:36:40,948 - __main__ - INFO - Starting GTT Fall Buy strategy for WIPRO on NSE
+2025-07-10 09:36:42,682 - breeze_sdk_api - INFO - Successfully initialized Breeze API with credentials
+2025-07-10 09:36:42,682 - __main__ - INFO - Successfully initialized Breeze API
+2025-07-10 09:36:42,866 - __main__ - INFO - Successfully initialized Kite API
+2025-07-10 09:36:42,867 - __main__ - INFO - Will place 10 GTT orders
+2025-07-10 09:36:42,867 - __main__ - INFO - No GTT history file found. Starting fresh.
+2025-07-10 09:36:42,868 - __main__ - INFO - Found 0 existing GTT orders in history file
+2025-07-10 09:36:43,013 - __main__ - INFO - Found 20 current GTT orders in Kite API
+2025-07-10 09:36:43,013 - __main__ - INFO - API Order 1: ID=279694671, Symbol=JIOFIN, Type=BUY, Status=active
+2025-07-10 09:36:43,014 - __main__ - INFO - API Order 2: ID=279694668, Symbol=JIOFIN, Type=BUY, Status=active
+2025-07-10 09:36:43,014 - __main__ - INFO - API Order 3: ID=279694667, Symbol=JIOFIN, Type=BUY, Status=active
+2025-07-10 09:36:43,015 - __main__ - INFO - API Order 4: ID=279694662, Symbol=JIOFIN, Type=BUY, Status=active
+2025-07-10 09:36:43,015 - __main__ - INFO - API Order 5: ID=279694660, Symbol=JIOFIN, Type=BUY, Status=active
+2025-07-10 09:36:43,015 - __main__ - INFO - API Order 6: ID=279694657, Symbol=JIOFIN, Type=BUY, Status=active
+2025-07-10 09:36:43,016 - __main__ - INFO - API Order 7: ID=279694656, Symbol=JIOFIN, Type=BUY, Status=active
+2025-07-10 09:36:43,016 - __main__ - INFO - API Order 8: ID=279694677, Symbol=JIOFIN, Type=BUY, Status=active
+2025-07-10 09:36:43,017 - __main__ - INFO - API Order 9: ID=279694674, Symbol=JIOFIN, Type=BUY, Status=active
+2025-07-10 09:36:43,017 - __main__ - INFO - API Order 10: ID=279533691, Symbol=TATASTEEL, Type=BUY, Status=active
+2025-07-10 09:36:43,018 - __main__ - INFO - API Order 11: ID=279533690, Symbol=TATASTEEL, Type=BUY, Status=active
+2025-07-10 09:36:43,018 - __main__ - INFO - API Order 12: ID=279533689, Symbol=TATASTEEL, Type=BUY, Status=active
+2025-07-10 09:36:43,018 - __main__ - INFO - API Order 13: ID=279533687, Symbol=TATASTEEL, Type=BUY, Status=active
+2025-07-10 09:36:43,019 - __main__ - INFO - API Order 14: ID=279533685, Symbol=TATASTEEL, Type=BUY, Status=active
+2025-07-10 09:36:43,019 - __main__ - INFO - API Order 15: ID=279533684, Symbol=TATASTEEL, Type=BUY, Status=active
+2025-07-10 09:36:43,020 - __main__ - INFO - API Order 16: ID=278914782, Symbol=ONGC, Type=SELL, Status=active
+2025-07-10 09:36:43,020 - __main__ - INFO - API Order 17: ID=278075503, Symbol=ONGC, Type=BUY, Status=active
+2025-07-10 09:36:43,021 - __main__ - INFO - API Order 18: ID=278021230, Symbol=ONGC, Type=BUY, Status=active
+2025-07-10 09:36:43,021 - __main__ - INFO - API Order 19: ID=278021229, Symbol=ONGC, Type=BUY, Status=active
+2025-07-10 09:36:43,022 - __main__ - INFO - API Order 20: ID=278021228, Symbol=ONGC, Type=BUY, Status=active
+2025-07-10 09:36:43,022 - __main__ - INFO - Found 0 active WIPRO buy orders in Kite API
+2025-07-10 09:36:43,380 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'WIPRO', 'isec_stock_code': 'WIPRO', 'isec_token': '3787', 'company name': 'WIPRO LTD', 'isec_token_level1': '4.1!3787', 'isec_token_level2': '4.2!3787'}
+2025-07-10 09:36:43,380 - breeze_sdk_api - INFO - Got token name for WIPRO: 4.1!3787
+2025-07-10 09:36:43,770 - __main__ - INFO - Current price for WIPRO: 266.75
+2025-07-10 09:36:43,874 - __main__ - INFO - Found 0 actually active buy orders on exchange
+2025-07-10 09:36:43,875 - __main__ - INFO - Starting fresh fall buy strategy from current price: 266.75
+2025-07-10 09:36:44,146 - __main__ - INFO - Placing MARKET order 1: 1 shares @ LTP (266.75)
+2025-07-10 09:36:44,536 - __main__ - INFO - Successfully placed MARKET order 1: 250710120208603
+2025-07-10 09:36:44,538 - __main__ - INFO - GTT history saved: 1 orders
+2025-07-10 09:36:44,541 - __main__ - INFO - Placing GTT order 2: 2 shares @ 264.10 (trigger: 264.08)
+2025-07-10 09:36:44,686 - __main__ - INFO - Successfully placed GTT order 2: 279703099
+2025-07-10 09:36:44,688 - __main__ - INFO - GTT history saved: 2 orders
+2025-07-10 09:36:44,691 - __main__ - INFO - Placing GTT order 3: 3 shares @ 261.48 (trigger: 261.46)
+2025-07-10 09:36:44,836 - __main__ - INFO - Successfully placed GTT order 3: 279703100
+2025-07-10 09:36:44,838 - __main__ - INFO - GTT history saved: 3 orders
+2025-07-10 09:36:44,841 - __main__ - INFO - Placing GTT order 4: 4 shares @ 258.89 (trigger: 258.87)
+2025-07-10 09:36:44,977 - __main__ - INFO - Successfully placed GTT order 4: 279703104
+2025-07-10 09:36:44,979 - __main__ - INFO - GTT history saved: 4 orders
+2025-07-10 09:36:44,981 - __main__ - INFO - Placing GTT order 5: 5 shares @ 256.32 (trigger: 256.30)
+2025-07-10 09:36:45,137 - __main__ - INFO - Successfully placed GTT order 5: 279703107
+2025-07-10 09:36:45,140 - __main__ - INFO - GTT history saved: 5 orders
+2025-07-10 09:36:45,143 - __main__ - INFO - Placing GTT order 6: 6 shares @ 253.78 (trigger: 253.76)
+2025-07-10 09:36:45,298 - __main__ - INFO - Successfully placed GTT order 6: 279703108
+2025-07-10 09:36:45,301 - __main__ - INFO - GTT history saved: 6 orders
+2025-07-10 09:36:45,304 - __main__ - INFO - Placing GTT order 7: 7 shares @ 251.26 (trigger: 251.24)
+2025-07-10 09:36:45,465 - __main__ - INFO - Successfully placed GTT order 7: 279703111
+2025-07-10 09:36:45,467 - __main__ - INFO - GTT history saved: 7 orders
+2025-07-10 09:36:45,469 - __main__ - INFO - Placing GTT order 8: 8 shares @ 248.77 (trigger: 248.75)
+2025-07-10 09:36:45,623 - __main__ - INFO - Successfully placed GTT order 8: 279703112
+2025-07-10 09:36:45,625 - __main__ - INFO - GTT history saved: 8 orders
+2025-07-10 09:36:45,627 - __main__ - INFO - Placing GTT order 9: 9 shares @ 246.30 (trigger: 246.28)
+2025-07-10 09:36:45,766 - __main__ - INFO - Successfully placed GTT order 9: 279703116
+2025-07-10 09:36:45,769 - __main__ - INFO - GTT history saved: 9 orders
+2025-07-10 09:36:45,772 - __main__ - INFO - Placing GTT order 10: 10 shares @ 243.86 (trigger: 243.84)
+2025-07-10 09:36:45,919 - __main__ - INFO - Successfully placed GTT order 10: 279703117
+2025-07-10 09:36:45,922 - __main__ - INFO - GTT history saved: 10 orders
+2025-07-10 09:36:45,923 - __main__ - INFO - Total GTT orders placed: 10/10
+2025-07-10 09:36:45,923 - __main__ - INFO - SUCCESS: All 10 orders were placed successfully!
+2025-07-10 09:36:45,927 - __main__ - INFO - GTT history saved: 10 orders
+2025-07-10 09:36:45,945 - __main__ - INFO - Loaded GTT history: 10 orders
+2025-07-10 09:36:46,073 - __main__ - INFO - Total GTT orders in account: 29
+2025-07-10 09:36:46,074 - __main__ - INFO - GTT Order: {'id': 279703117, 'user_id': 'OVF854', 'parent_trigger': None, 'type': 'single', 'created_at': '2025-07-10 09:36:45', 'updated_at': '2025-07-10 09:36:45', 'expires_at': '2026-07-10 09:36:45', 'status': 'active', 'condition': {'exchange': 'NSE', 'last_price': 266.75, 'tradingsymbol': 'WIPRO', 'trigger_values': [243.84], 'instrument_token': 969473}, 'orders': [{'exchange': 'NSE', 'tradingsymbol': 'WIPRO', 'product': 'CNC', 'order_type': 'LIMIT', 'transaction_type': 'BUY', 'quantity': 10, 'price': 243.86, 'result': None}], 'meta': {}}
+2025-07-10 09:36:46,074 - __main__ - INFO - GTT Order: {'id': 279703116, 'user_id': 'OVF854', 'parent_trigger': None, 'type': 'single', 'created_at': '2025-07-10 09:36:45', 'updated_at': '2025-07-10 09:36:45', 'expires_at': '2026-07-10 09:36:45', 'status': 'active', 'condition': {'exchange': 'NSE', 'last_price': 266.75, 'tradingsymbol': 'WIPRO', 'trigger_values': [246.28], 'instrument_token': 969473}, 'orders': [{'exchange': 'NSE', 'tradingsymbol': 'WIPRO', 'product': 'CNC', 'order_type': 'LIMIT', 'transaction_type': 'BUY', 'quantity': 9, 'price': 246.3, 'result': None}], 'meta': {}}
+2025-07-10 09:36:46,075 - __main__ - INFO - GTT Order: {'id': 279703112, 'user_id': 'OVF854', 'parent_trigger': None, 'type': 'single', 'created_at': '2025-07-10 09:36:45', 'updated_at': '2025-07-10 09:36:45', 'expires_at': '2026-07-10 09:36:45', 'status': 'active', 'condition': {'exchange': 'NSE', 'last_price': 266.75, 'tradingsymbol': 'WIPRO', 'trigger_values': [248.75], 'instrument_token': 969473}, 'orders': [{'exchange': 'NSE', 'tradingsymbol': 'WIPRO', 'product': 'CNC', 'order_type': 'LIMIT', 'transaction_type': 'BUY', 'quantity': 8, 'price': 248.77, 'result': None}], 'meta': {}}
+2025-07-10 09:36:46,075 - __main__ - INFO - GTT Order: {'id': 279703111, 'user_id': 'OVF854', 'parent_trigger': None, 'type': 'single', 'created_at': '2025-07-10 09:36:45', 'updated_at': '2025-07-10 09:36:45', 'expires_at': '2026-07-10 09:36:45', 'status': 'active', 'condition': {'exchange': 'NSE', 'last_price': 266.75, 'tradingsymbol': 'WIPRO', 'trigger_values': [251.24], 'instrument_token': 969473}, 'orders': [{'exchange': 'NSE', 'tradingsymbol': 'WIPRO', 'product': 'CNC', 'order_type': 'LIMIT', 'transaction_type': 'BUY', 'quantity': 7, 'price': 251.26, 'result': None}], 'meta': {}}
+2025-07-10 09:36:46,076 - __main__ - INFO - GTT Order: {'id': 279703108, 'user_id': 'OVF854', 'parent_trigger': None, 'type': 'single', 'created_at': '2025-07-10 09:36:45', 'updated_at': '2025-07-10 09:36:45', 'expires_at': '2026-07-10 09:36:45', 'status': 'active', 'condition': {'exchange': 'NSE', 'last_price': 266.75, 'tradingsymbol': 'WIPRO', 'trigger_values': [253.76], 'instrument_token': 969473}, 'orders': [{'exchange': 'NSE', 'tradingsymbol': 'WIPRO', 'product': 'CNC', 'order_type': 'LIMIT', 'transaction_type': 'BUY', 'quantity': 6, 'price': 253.78, 'result': None}], 'meta': {}}
+2025-07-10 09:36:46,076 - __main__ - INFO - GTT Order: {'id': 279703107, 'user_id': 'OVF854', 'parent_trigger': None, 'type': 'single', 'created_at': '2025-07-10 09:36:45', 'updated_at': '2025-07-10 09:36:45', 'expires_at': '2026-07-10 09:36:45', 'status': 'active', 'condition': {'exchange': 'NSE', 'last_price': 266.75, 'tradingsymbol': 'WIPRO', 'trigger_values': [256.3], 'instrument_token': 969473}, 'orders': [{'exchange': 'NSE', 'tradingsymbol': 'WIPRO', 'product': 'CNC', 'order_type': 'LIMIT', 'transaction_type': 'BUY', 'quantity': 5, 'price': 256.32, 'result': None}], 'meta': {}}
+2025-07-10 09:36:46,077 - __main__ - INFO - GTT Order: {'id': 279703104, 'user_id': 'OVF854', 'parent_trigger': None, 'type': 'single', 'created_at': '2025-07-10 09:36:44', 'updated_at': '2025-07-10 09:36:44', 'expires_at': '2026-07-10 09:36:44', 'status': 'active', 'condition': {'exchange': 'NSE', 'last_price': 266.75, 'tradingsymbol': 'WIPRO', 'trigger_values': [258.87], 'instrument_token': 969473}, 'orders': [{'exchange': 'NSE', 'tradingsymbol': 'WIPRO', 'product': 'CNC', 'order_type': 'LIMIT', 'transaction_type': 'BUY', 'quantity': 4, 'price': 258.89, 'result': None}], 'meta': {}}
+2025-07-10 09:36:46,077 - __main__ - INFO - GTT Order: {'id': 279703100, 'user_id': 'OVF854', 'parent_trigger': None, 'type': 'single', 'created_at': '2025-07-10 09:36:44', 'updated_at': '2025-07-10 09:36:44', 'expires_at': '2026-07-10 09:36:44', 'status': 'active', 'condition': {'exchange': 'NSE', 'last_price': 266.75, 'tradingsymbol': 'WIPRO', 'trigger_values': [261.46], 'instrument_token': 969473}, 'orders': [{'exchange': 'NSE', 'tradingsymbol': 'WIPRO', 'product': 'CNC', 'order_type': 'LIMIT', 'transaction_type': 'BUY', 'quantity': 3, 'price': 261.48, 'result': None}], 'meta': {}}
+2025-07-10 09:36:46,078 - __main__ - INFO - GTT Order: {'id': 279703099, 'user_id': 'OVF854', 'parent_trigger': None, 'type': 'single', 'created_at': '2025-07-10 09:36:44', 'updated_at': '2025-07-10 09:36:44', 'expires_at': '2026-07-10 09:36:44', 'status': 'active', 'condition': {'exchange': 'NSE', 'last_price': 266.75, 'tradingsymbol': 'WIPRO', 'trigger_values': [264.08], 'instrument_token': 969473}, 'orders': [{'exchange': 'NSE', 'tradingsymbol': 'WIPRO', 'product': 'CNC', 'order_type': 'LIMIT', 'transaction_type': 'BUY', 'quantity': 2, 'price': 264.1, 'result': None}], 'meta': {}}
+2025-07-10 09:36:46,078 - __main__ - INFO - GTT Order: {'id': 279694671, 'user_id': 'OVF854', 'parent_trigger': None, 'type': 'single', 'created_at': '2025-07-10 09:22:44', 'updated_at': '2025-07-10 09:30:53', 'expires_at': '2026-07-10 09:22:44', 'status': 'active', 'condition': {'exchange': 'NSE', 'last_price': 330.05, 'tradingsymbol': 'JIOFIN', 'trigger_values': [320.6], 'instrument_token': 4644609}, 'orders': [{'exchange': 'NSE', 'tradingsymbol': 'JIOFIN', 'product': 'CNC', 'order_type': 'LIMIT', 'transaction_type': 'BUY', 'quantity': 8, 'price': 320.65, 'result': None}], 'meta': {}}
+2025-07-10 09:36:46,079 - __main__ - INFO - GTT Order: {'id': 279694668, 'user_id': 'OVF854', 'parent_trigger': None, 'type': 'single', 'created_at': '2025-07-10 09:22:44', 'updated_at': '2025-07-10 09:30:37', 'expires_at': '2026-07-10 09:22:44', 'status': 'active', 'condition': {'exchange': 'NSE', 'last_price': 330.7, 'tradingsymbol': 'JIOFIN', 'trigger_values': [321.95], 'instrument_token': 4644609}, 'orders': [{'exchange': 'NSE', 'tradingsymbol': 'JIOFIN', 'product': 'CNC', 'order_type': 'LIMIT', 'transaction_type': 'BUY', 'quantity': 7, 'price': 322, 'result': None}], 'meta': {}}
+2025-07-10 09:36:46,079 - __main__ - INFO - GTT Order: {'id': 279694667, 'user_id': 'OVF854', 'parent_trigger': None, 'type': 'single', 'created_at': '2025-07-10 09:22:44', 'updated_at': '2025-07-10 09:30:18', 'expires_at': '2026-07-10 09:22:44', 'status': 'active', 'condition': {'exchange': 'NSE', 'last_price': 330.65, 'tradingsymbol': 'JIOFIN', 'trigger_values': [323.25], 'instrument_token': 4644609}, 'orders': [{'exchange': 'NSE', 'tradingsymbol': 'JIOFIN', 'product': 'CNC', 'order_type': 'LIMIT', 'transaction_type': 'BUY', 'quantity': 6, 'price': 323.3, 'result': None}], 'meta': {}}
+2025-07-10 09:36:46,080 - __main__ - INFO - GTT Order: {'id': 279694662, 'user_id': 'OVF854', 'parent_trigger': None, 'type': 'single', 'created_at': '2025-07-10 09:22:44', 'updated_at': '2025-07-10 09:30:08', 'expires_at': '2026-07-10 09:22:44', 'status': 'active', 'condition': {'exchange': 'NSE', 'last_price': 330.35, 'tradingsymbol': 'JIOFIN', 'trigger_values': [324.55], 'instrument_token': 4644609}, 'orders': [{'exchange': 'NSE', 'tradingsymbol': 'JIOFIN', 'product': 'CNC', 'order_type': 'LIMIT', 'transaction_type': 'BUY', 'quantity': 5, 'price': 324.6, 'result': None}], 'meta': {}}
+2025-07-10 09:36:46,081 - __main__ - INFO - GTT Order: {'id': 279694660, 'user_id': 'OVF854', 'parent_trigger': None, 'type': 'single', 'created_at': '2025-07-10 09:22:43', 'updated_at': '2025-07-10 09:29:57', 'expires_at': '2026-07-10 09:22:43', 'status': 'active', 'condition': {'exchange': 'NSE', 'last_price': 330.45, 'tradingsymbol': 'JIOFIN', 'trigger_values': [325.85], 'instrument_token': 4644609}, 'orders': [{'exchange': 'NSE', 'tradingsymbol': 'JIOFIN', 'product': 'CNC', 'order_type': 'LIMIT', 'transaction_type': 'BUY', 'quantity': 4, 'price': 325.9, 'result': None}], 'meta': {}}
+2025-07-10 09:36:46,081 - __main__ - INFO - GTT Order: {'id': 279694657, 'user_id': 'OVF854', 'parent_trigger': None, 'type': 'single', 'created_at': '2025-07-10 09:22:43', 'updated_at': '2025-07-10 09:29:45', 'expires_at': '2026-07-10 09:22:43', 'status': 'active', 'condition': {'exchange': 'NSE', 'last_price': 330.4, 'tradingsymbol': 'JIOFIN', 'trigger_values': [327.15], 'instrument_token': 4644609}, 'orders': [{'exchange': 'NSE', 'tradingsymbol': 'JIOFIN', 'product': 'CNC', 'order_type': 'LIMIT', 'transaction_type': 'BUY', 'quantity': 3, 'price': 327.2, 'result': None}], 'meta': {}}
+2025-07-10 09:36:46,082 - __main__ - INFO - GTT Order: {'id': 279694656, 'user_id': 'OVF854', 'parent_trigger': None, 'type': 'single', 'created_at': '2025-07-10 09:22:43', 'updated_at': '2025-07-10 09:29:34', 'expires_at': '2026-07-10 09:22:43', 'status': 'active', 'condition': {'exchange': 'NSE', 'last_price': 330.4, 'tradingsymbol': 'JIOFIN', 'trigger_values': [328.45], 'instrument_token': 4644609}, 'orders': [{'exchange': 'NSE', 'tradingsymbol': 'JIOFIN', 'product': 'CNC', 'order_type': 'LIMIT', 'transaction_type': 'BUY', 'quantity': 2, 'price': 328.5, 'result': None}], 'meta': {}}
+2025-07-10 09:36:46,082 - __main__ - INFO - GTT Order: {'id': 279694677, 'user_id': 'OVF854', 'parent_trigger': None, 'type': 'single', 'created_at': '2025-07-10 09:22:44', 'updated_at': '2025-07-10 09:29:21', 'expires_at': '2026-07-10 09:22:44', 'status': 'active', 'condition': {'exchange': 'NSE', 'last_price': 330, 'tradingsymbol': 'JIOFIN', 'trigger_values': [318.1], 'instrument_token': 4644609}, 'orders': [{'exchange': 'NSE', 'tradingsymbol': 'JIOFIN', 'product': 'CNC', 'order_type': 'LIMIT', 'transaction_type': 'BUY', 'quantity': 10, 'price': 318.05, 'result': None}], 'meta': {}}
+2025-07-10 09:36:46,083 - __main__ - INFO - GTT Order: {'id': 279694674, 'user_id': 'OVF854', 'parent_trigger': None, 'type': 'single', 'created_at': '2025-07-10 09:22:44', 'updated_at': '2025-07-10 09:28:54', 'expires_at': '2026-07-10 09:22:44', 'status': 'active', 'condition': {'exchange': 'NSE', 'last_price': 330, 'tradingsymbol': 'JIOFIN', 'trigger_values': [319.4], 'instrument_token': 4644609}, 'orders': [{'exchange': 'NSE', 'tradingsymbol': 'JIOFIN', 'product': 'CNC', 'order_type': 'LIMIT', 'transaction_type': 'BUY', 'quantity': 9, 'price': 319.45, 'result': None}], 'meta': {}}
+2025-07-10 09:36:46,083 - __main__ - INFO - GTT Order: {'id': 279533691, 'user_id': 'OVF854', 'parent_trigger': None, 'type': 'single', 'created_at': '2025-07-09 08:58:04', 'updated_at': '2025-07-09 10:47:09', 'expires_at': '2026-07-09 08:58:04', 'status': 'active', 'condition': {'exchange': 'NSE', 'last_price': 159.26, 'tradingsymbol': 'TATASTEEL', 'trigger_values': [154.31], 'instrument_token': 895745}, 'orders': [{'exchange': 'NSE', 'tradingsymbol': 'TATASTEEL', 'product': 'CNC', 'order_type': 'LIMIT', 'transaction_type': 'BUY', 'quantity': 10, 'price': 154.35, 'result': None}], 'meta': {}}
+2025-07-10 09:36:46,084 - __main__ - INFO - GTT Order: {'id': 279533690, 'user_id': 'OVF854', 'parent_trigger': None, 'type': 'single', 'created_at': '2025-07-09 08:58:04', 'updated_at': '2025-07-09 10:46:33', 'expires_at': '2026-07-09 08:58:04', 'status': 'active', 'condition': {'exchange': 'NSE', 'last_price': 159.26, 'tradingsymbol': 'TATASTEEL', 'trigger_values': [154.93], 'instrument_token': 895745}, 'orders': [{'exchange': 'NSE', 'tradingsymbol': 'TATASTEEL', 'product': 'CNC', 'order_type': 'LIMIT', 'transaction_type': 'BUY', 'quantity': 9, 'price': 154.97, 'result': None}], 'meta': {}}
+2025-07-10 09:36:46,085 - __main__ - INFO - GTT Order: {'id': 279533689, 'user_id': 'OVF854', 'parent_trigger': None, 'type': 'single', 'created_at': '2025-07-09 08:58:03', 'updated_at': '2025-07-09 10:46:01', 'expires_at': '2026-07-09 08:58:03', 'status': 'active', 'condition': {'exchange': 'NSE', 'last_price': 159.32, 'tradingsymbol': 'TATASTEEL', 'trigger_values': [155.55], 'instrument_token': 895745}, 'orders': [{'exchange': 'NSE', 'tradingsymbol': 'TATASTEEL', 'product': 'CNC', 'order_type': 'LIMIT', 'transaction_type': 'BUY', 'quantity': 8, 'price': 155.58, 'result': None}], 'meta': {}}
+2025-07-10 09:36:46,085 - __main__ - INFO - GTT Order: {'id': 279533687, 'user_id': 'OVF854', 'parent_trigger': None, 'type': 'single', 'created_at': '2025-07-09 08:58:03', 'updated_at': '2025-07-09 10:45:18', 'expires_at': '2026-07-09 08:58:03', 'status': 'active', 'condition': {'exchange': 'NSE', 'last_price': 159.31, 'tradingsymbol': 'TATASTEEL', 'trigger_values': [156.17], 'instrument_token': 895745}, 'orders': [{'exchange': 'NSE', 'tradingsymbol': 'TATASTEEL', 'product': 'CNC', 'order_type': 'LIMIT', 'transaction_type': 'BUY', 'quantity': 7, 'price': 156.19, 'result': None}], 'meta': {}}
+2025-07-10 09:36:46,086 - __main__ - INFO - GTT Order: {'id': 279533685, 'user_id': 'OVF854', 'parent_trigger': None, 'type': 'single', 'created_at': '2025-07-09 08:58:03', 'updated_at': '2025-07-09 10:44:55', 'expires_at': '2026-07-09 08:58:03', 'status': 'active', 'condition': {'exchange': 'NSE', 'last_price': 159.36, 'tradingsymbol': 'TATASTEEL', 'trigger_values': [156.8], 'instrument_token': 895745}, 'orders': [{'exchange': 'NSE', 'tradingsymbol': 'TATASTEEL', 'product': 'CNC', 'order_type': 'LIMIT', 'transaction_type': 'BUY', 'quantity': 6, 'price': 156.82, 'result': None}], 'meta': {}}
+2025-07-10 09:36:46,087 - __main__ - INFO - GTT Order: {'id': 279533684, 'user_id': 'OVF854', 'parent_trigger': None, 'type': 'single', 'created_at': '2025-07-09 08:58:03', 'updated_at': '2025-07-09 10:44:21', 'expires_at': '2026-07-09 08:58:03', 'status': 'active', 'condition': {'exchange': 'NSE', 'last_price': 159.31, 'tradingsymbol': 'TATASTEEL', 'trigger_values': [157.43], 'instrument_token': 895745}, 'orders': [{'exchange': 'NSE', 'tradingsymbol': 'TATASTEEL', 'product': 'CNC', 'order_type': 'LIMIT', 'transaction_type': 'BUY', 'quantity': 5, 'price': 157.46, 'result': None}], 'meta': {}}
+2025-07-10 09:36:46,088 - __main__ - INFO - GTT Order: {'id': 278914782, 'user_id': 'OVF854', 'parent_trigger': None, 'type': 'single', 'created_at': '2025-07-03 10:09:27', 'updated_at': '2025-07-04 15:40:21', 'expires_at': '2026-07-03 10:09:27', 'status': 'active', 'condition': {'exchange': 'NSE', 'last_price': 245.24, 'tradingsymbol': 'ONGC', 'trigger_values': [247], 'instrument_token': 633601}, 'orders': [{'exchange': 'NSE', 'tradingsymbol': 'ONGC', 'product': 'CNC', 'order_type': 'LIMIT', 'transaction_type': 'SELL', 'quantity': 31, 'price': 246.95, 'result': None}], 'meta': {}}
+2025-07-10 09:36:46,088 - __main__ - INFO - GTT Order: {'id': 278075503, 'user_id': 'OVF854', 'parent_trigger': None, 'type': 'single', 'created_at': '2025-06-26 12:45:34', 'updated_at': '2025-07-02 23:28:32', 'expires_at': '2026-06-26 12:45:34', 'status': 'active', 'condition': {'exchange': 'NSE', 'last_price': 241.07, 'tradingsymbol': 'ONGC', 'trigger_values': [234.3], 'instrument_token': 633601}, 'orders': [{'exchange': 'NSE', 'tradingsymbol': 'ONGC', 'product': 'CNC', 'order_type': 'LIMIT', 'transaction_type': 'BUY', 'quantity': 60, 'price': 234.5, 'result': None}], 'meta': {}}
+2025-07-10 09:36:46,089 - __main__ - INFO - GTT Order: {'id': 278021230, 'user_id': 'OVF854', 'parent_trigger': None, 'type': 'single', 'created_at': '2025-06-26 09:56:38', 'updated_at': '2025-07-02 12:08:42', 'expires_at': '2026-06-26 09:56:38', 'status': 'active', 'condition': {'exchange': 'NSE', 'last_price': 241.92, 'tradingsymbol': 'ONGC', 'trigger_values': [236], 'instrument_token': 633601}, 'orders': [{'exchange': 'NSE', 'tradingsymbol': 'ONGC', 'product': 'CNC', 'order_type': 'LIMIT', 'transaction_type': 'BUY', 'quantity': 50, 'price': 235.2, 'result': None}], 'meta': {}}
+2025-07-10 09:36:46,089 - __main__ - INFO - GTT Order: {'id': 278021229, 'user_id': 'OVF854', 'parent_trigger': None, 'type': 'single', 'created_at': '2025-06-26 09:56:38', 'updated_at': '2025-07-02 12:07:00', 'expires_at': '2026-06-26 09:56:38', 'status': 'active', 'condition': {'exchange': 'NSE', 'last_price': 241.8, 'tradingsymbol': 'ONGC', 'trigger_values': [237.9], 'instrument_token': 633601}, 'orders': [{'exchange': 'NSE', 'tradingsymbol': 'ONGC', 'product': 'CNC', 'order_type': 'LIMIT', 'transaction_type': 'BUY', 'quantity': 40, 'price': 238, 'result': None}], 'meta': {}}
+2025-07-10 09:36:46,090 - __main__ - INFO - GTT Order: {'id': 278021228, 'user_id': 'OVF854', 'parent_trigger': None, 'type': 'single', 'created_at': '2025-06-26 09:56:38', 'updated_at': '2025-07-02 11:46:13', 'expires_at': '2026-06-26 09:56:38', 'status': 'active', 'condition': {'exchange': 'NSE', 'last_price': 242, 'tradingsymbol': 'ONGC', 'trigger_values': [239.3], 'instrument_token': 633601}, 'orders': [{'exchange': 'NSE', 'tradingsymbol': 'ONGC', 'product': 'CNC', 'order_type': 'LIMIT', 'transaction_type': 'BUY', 'quantity': 30, 'price': 239.5, 'result': None}], 'meta': {}}
+2025-07-10 09:36:46,091 - __main__ - INFO - Setting up real-time tick data monitoring...
+2025-07-10 09:36:46,362 - breeze_sdk_api - INFO - Setting on_ticks function: <bound method BreezeApi.on_ticks of <breeze_sdk_api.BreezeApi object at 0x00000241142A7DF0>>
+2025-07-10 09:36:46,363 - breeze_sdk_api - INFO - Successfully connected to WebSocket
+2025-07-10 09:36:46,363 - __main__ - INFO - Connected to Breeze WebSocket for real-time data
+2025-07-10 09:36:46,608 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'WIPRO', 'isec_stock_code': 'WIPRO', 'isec_token': '3787', 'company name': 'WIPRO LTD', 'isec_token_level1': '4.1!3787', 'isec_token_level2': '4.2!3787'}
+2025-07-10 09:36:46,608 - breeze_sdk_api - INFO - Got token name for WIPRO: 4.1!3787
+2025-07-10 09:36:46,608 - __main__ - INFO - Stock token for tick data: 4.1!3787
+2025-07-10 09:36:46,609 - breeze_sdk_api - INFO - Setting on_ticks function: <function main.<locals>.tick_handler at 0x00000241142D3AC0>
+2025-07-10 09:36:46,609 - __main__ - INFO - Tick handler set up successfully
+2025-07-10 09:36:46,610 - breeze_sdk_api - INFO - Successfully subscribed to OHLC feed for token: 4.1!3787
+2025-07-10 09:36:46,610 - __main__ - INFO - Subscribed to real-time feed for WIPRO
+2025-07-10 09:36:46,610 - __main__ - INFO - Real-time tick data monitoring is now active!
+2025-07-10 09:36:46,611 - __main__ - INFO - The system will now respond to price changes in real-time
+2025-07-10 09:36:46,611 - __main__ - INFO - GTT order monitoring started.
+2025-07-10 09:36:46,611 - __main__ - INFO - Press Ctrl+C to stop manually.
+2025-07-10 09:37:46,766 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'WIPRO', 'isec_stock_code': 'WIPRO', 'isec_token': '3787', 'company name': 'WIPRO LTD', 'isec_token_level1': '4.1!3787', 'isec_token_level2': '4.2!3787'}
+2025-07-10 09:37:46,766 - breeze_sdk_api - INFO - Got token name for WIPRO: 4.1!3787
+2025-07-10 09:37:47,143 - __main__ - INFO - Periodic monitoring check at price: 266.70
+2025-07-10 09:37:47,143 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-10 09:38:17,275 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'WIPRO', 'isec_stock_code': 'WIPRO', 'isec_token': '3787', 'company name': 'WIPRO LTD', 'isec_token_level1': '4.1!3787', 'isec_token_level2': '4.2!3787'}
+2025-07-10 09:38:17,276 - breeze_sdk_api - INFO - Got token name for WIPRO: 4.1!3787
+2025-07-10 09:38:17,606 - __main__ - INFO - Periodic monitoring check at price: 266.90
+2025-07-10 09:38:17,607 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-10 09:38:47,758 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'WIPRO', 'isec_stock_code': 'WIPRO', 'isec_token': '3787', 'company name': 'WIPRO LTD', 'isec_token_level1': '4.1!3787', 'isec_token_level2': '4.2!3787'}
+2025-07-10 09:38:47,759 - breeze_sdk_api - INFO - Got token name for WIPRO: 4.1!3787
+2025-07-10 09:38:48,148 - __main__ - INFO - Periodic monitoring check at price: 266.75
+2025-07-10 09:38:48,148 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-10 09:39:18,246 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'WIPRO', 'isec_stock_code': 'WIPRO', 'isec_token': '3787', 'company name': 'WIPRO LTD', 'isec_token_level1': '4.1!3787', 'isec_token_level2': '4.2!3787'}
+2025-07-10 09:39:18,246 - breeze_sdk_api - INFO - Got token name for WIPRO: 4.1!3787
+2025-07-10 09:39:19,248 - __main__ - INFO - Periodic monitoring check at price: 266.65
+2025-07-10 09:39:19,249 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-10 09:39:49,342 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'WIPRO', 'isec_stock_code': 'WIPRO', 'isec_token': '3787', 'company name': 'WIPRO LTD', 'isec_token_level1': '4.1!3787', 'isec_token_level2': '4.2!3787'}
+2025-07-10 09:39:49,342 - breeze_sdk_api - INFO - Got token name for WIPRO: 4.1!3787
+2025-07-10 09:39:49,662 - __main__ - INFO - Periodic monitoring check at price: 266.10
+2025-07-10 09:39:49,662 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-10 09:40:19,764 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'WIPRO', 'isec_stock_code': 'WIPRO', 'isec_token': '3787', 'company name': 'WIPRO LTD', 'isec_token_level1': '4.1!3787', 'isec_token_level2': '4.2!3787'}
+2025-07-10 09:40:19,765 - breeze_sdk_api - INFO - Got token name for WIPRO: 4.1!3787
+2025-07-10 09:40:20,066 - __main__ - INFO - Periodic monitoring check at price: 266.10
+2025-07-10 09:40:20,067 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-10 09:40:50,153 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'WIPRO', 'isec_stock_code': 'WIPRO', 'isec_token': '3787', 'company name': 'WIPRO LTD', 'isec_token_level1': '4.1!3787', 'isec_token_level2': '4.2!3787'}
+2025-07-10 09:40:50,154 - breeze_sdk_api - INFO - Got token name for WIPRO: 4.1!3787
+2025-07-10 09:40:50,469 - __main__ - INFO - Periodic monitoring check at price: 266.05
+2025-07-10 09:40:50,469 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-10 09:41:20,575 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'WIPRO', 'isec_stock_code': 'WIPRO', 'isec_token': '3787', 'company name': 'WIPRO LTD', 'isec_token_level1': '4.1!3787', 'isec_token_level2': '4.2!3787'}
+2025-07-10 09:41:20,575 - breeze_sdk_api - INFO - Got token name for WIPRO: 4.1!3787
+2025-07-10 09:41:20,871 - __main__ - INFO - Periodic monitoring check at price: 266.10
+2025-07-10 09:41:20,878 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-10 09:41:50,965 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'WIPRO', 'isec_stock_code': 'WIPRO', 'isec_token': '3787', 'company name': 'WIPRO LTD', 'isec_token_level1': '4.1!3787', 'isec_token_level2': '4.2!3787'}
+2025-07-10 09:41:50,965 - breeze_sdk_api - INFO - Got token name for WIPRO: 4.1!3787
+2025-07-10 09:41:51,294 - __main__ - INFO - Periodic monitoring check at price: 265.90
+2025-07-10 09:41:51,295 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-10 09:42:21,390 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'WIPRO', 'isec_stock_code': 'WIPRO', 'isec_token': '3787', 'company name': 'WIPRO LTD', 'isec_token_level1': '4.1!3787', 'isec_token_level2': '4.2!3787'}
+2025-07-10 09:42:21,390 - breeze_sdk_api - INFO - Got token name for WIPRO: 4.1!3787
+2025-07-10 09:42:21,708 - __main__ - INFO - Periodic monitoring check at price: 266.20
+2025-07-10 09:42:21,708 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-10 09:42:51,814 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'WIPRO', 'isec_stock_code': 'WIPRO', 'isec_token': '3787', 'company name': 'WIPRO LTD', 'isec_token_level1': '4.1!3787', 'isec_token_level2': '4.2!3787'}
+2025-07-10 09:42:51,815 - breeze_sdk_api - INFO - Got token name for WIPRO: 4.1!3787
+2025-07-10 09:42:52,282 - __main__ - INFO - Periodic monitoring check at price: 265.95
+2025-07-10 09:42:52,283 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-10 09:43:22,371 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'WIPRO', 'isec_stock_code': 'WIPRO', 'isec_token': '3787', 'company name': 'WIPRO LTD', 'isec_token_level1': '4.1!3787', 'isec_token_level2': '4.2!3787'}
+2025-07-10 09:43:22,371 - breeze_sdk_api - INFO - Got token name for WIPRO: 4.1!3787
+2025-07-10 09:43:22,679 - __main__ - INFO - Periodic monitoring check at price: 266.00
+2025-07-10 09:43:22,680 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-10 09:43:52,787 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'WIPRO', 'isec_stock_code': 'WIPRO', 'isec_token': '3787', 'company name': 'WIPRO LTD', 'isec_token_level1': '4.1!3787', 'isec_token_level2': '4.2!3787'}
+2025-07-10 09:43:52,787 - breeze_sdk_api - INFO - Got token name for WIPRO: 4.1!3787
+2025-07-10 09:43:53,585 - __main__ - INFO - Periodic monitoring check at price: 266.05
+2025-07-10 09:43:53,585 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-10 09:44:23,688 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'WIPRO', 'isec_stock_code': 'WIPRO', 'isec_token': '3787', 'company name': 'WIPRO LTD', 'isec_token_level1': '4.1!3787', 'isec_token_level2': '4.2!3787'}
+2025-07-10 09:44:23,688 - breeze_sdk_api - INFO - Got token name for WIPRO: 4.1!3787
+2025-07-10 09:44:24,022 - __main__ - INFO - Periodic monitoring check at price: 266.00
+2025-07-10 09:44:24,023 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-10 09:44:54,116 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'WIPRO', 'isec_stock_code': 'WIPRO', 'isec_token': '3787', 'company name': 'WIPRO LTD', 'isec_token_level1': '4.1!3787', 'isec_token_level2': '4.2!3787'}
+2025-07-10 09:44:54,116 - breeze_sdk_api - INFO - Got token name for WIPRO: 4.1!3787
+2025-07-10 09:44:54,412 - __main__ - INFO - Periodic monitoring check at price: 266.05
+2025-07-10 09:44:54,412 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-10 09:45:24,508 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'WIPRO', 'isec_stock_code': 'WIPRO', 'isec_token': '3787', 'company name': 'WIPRO LTD', 'isec_token_level1': '4.1!3787', 'isec_token_level2': '4.2!3787'}
+2025-07-10 09:45:24,509 - breeze_sdk_api - INFO - Got token name for WIPRO: 4.1!3787
+2025-07-10 09:45:24,807 - __main__ - INFO - Periodic monitoring check at price: 265.90
+2025-07-10 09:45:24,807 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-10 09:45:54,901 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'WIPRO', 'isec_stock_code': 'WIPRO', 'isec_token': '3787', 'company name': 'WIPRO LTD', 'isec_token_level1': '4.1!3787', 'isec_token_level2': '4.2!3787'}
+2025-07-10 09:45:54,901 - breeze_sdk_api - INFO - Got token name for WIPRO: 4.1!3787
+2025-07-10 09:45:55,230 - __main__ - INFO - Periodic monitoring check at price: 265.85
+2025-07-10 09:45:55,231 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-10 09:46:25,329 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'WIPRO', 'isec_stock_code': 'WIPRO', 'isec_token': '3787', 'company name': 'WIPRO LTD', 'isec_token_level1': '4.1!3787', 'isec_token_level2': '4.2!3787'}
+2025-07-10 09:46:25,330 - breeze_sdk_api - INFO - Got token name for WIPRO: 4.1!3787
+2025-07-10 09:46:25,631 - __main__ - INFO - Periodic monitoring check at price: 265.85
+2025-07-10 09:46:25,632 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-10 09:46:55,728 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'WIPRO', 'isec_stock_code': 'WIPRO', 'isec_token': '3787', 'company name': 'WIPRO LTD', 'isec_token_level1': '4.1!3787', 'isec_token_level2': '4.2!3787'}
+2025-07-10 09:46:55,729 - breeze_sdk_api - INFO - Got token name for WIPRO: 4.1!3787
+2025-07-10 09:46:56,059 - __main__ - INFO - Periodic monitoring check at price: 265.90
+2025-07-10 09:46:56,059 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-10 09:47:26,178 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'WIPRO', 'isec_stock_code': 'WIPRO', 'isec_token': '3787', 'company name': 'WIPRO LTD', 'isec_token_level1': '4.1!3787', 'isec_token_level2': '4.2!3787'}
+2025-07-10 09:47:26,179 - breeze_sdk_api - INFO - Got token name for WIPRO: 4.1!3787
+2025-07-10 09:47:26,529 - __main__ - INFO - Periodic monitoring check at price: 265.85
+2025-07-10 09:47:26,529 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-10 09:47:56,638 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'WIPRO', 'isec_stock_code': 'WIPRO', 'isec_token': '3787', 'company name': 'WIPRO LTD', 'isec_token_level1': '4.1!3787', 'isec_token_level2': '4.2!3787'}
+2025-07-10 09:47:56,639 - breeze_sdk_api - INFO - Got token name for WIPRO: 4.1!3787
+2025-07-10 09:47:57,907 - __main__ - INFO - Periodic monitoring check at price: 266.05
+2025-07-10 09:47:57,907 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-10 09:48:28,014 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'WIPRO', 'isec_stock_code': 'WIPRO', 'isec_token': '3787', 'company name': 'WIPRO LTD', 'isec_token_level1': '4.1!3787', 'isec_token_level2': '4.2!3787'}
+2025-07-10 09:48:28,015 - breeze_sdk_api - INFO - Got token name for WIPRO: 4.1!3787
+2025-07-10 09:48:28,355 - __main__ - INFO - Periodic monitoring check at price: 265.95
+2025-07-10 09:48:28,355 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-10 09:48:58,440 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'WIPRO', 'isec_stock_code': 'WIPRO', 'isec_token': '3787', 'company name': 'WIPRO LTD', 'isec_token_level1': '4.1!3787', 'isec_token_level2': '4.2!3787'}
+2025-07-10 09:48:58,440 - breeze_sdk_api - INFO - Got token name for WIPRO: 4.1!3787
+2025-07-10 09:48:59,471 - __main__ - INFO - Periodic monitoring check at price: 265.95
+2025-07-10 09:48:59,472 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-10 09:49:29,598 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'WIPRO', 'isec_stock_code': 'WIPRO', 'isec_token': '3787', 'company name': 'WIPRO LTD', 'isec_token_level1': '4.1!3787', 'isec_token_level2': '4.2!3787'}
+2025-07-10 09:49:29,599 - breeze_sdk_api - INFO - Got token name for WIPRO: 4.1!3787
+2025-07-10 09:49:29,890 - __main__ - INFO - Periodic monitoring check at price: 265.90
+2025-07-10 09:49:29,890 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-10 09:49:59,982 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'WIPRO', 'isec_stock_code': 'WIPRO', 'isec_token': '3787', 'company name': 'WIPRO LTD', 'isec_token_level1': '4.1!3787', 'isec_token_level2': '4.2!3787'}
+2025-07-10 09:49:59,983 - breeze_sdk_api - INFO - Got token name for WIPRO: 4.1!3787
+2025-07-10 09:50:00,310 - __main__ - INFO - Periodic monitoring check at price: 266.30
+2025-07-10 09:50:00,310 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-10 09:50:30,399 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'WIPRO', 'isec_stock_code': 'WIPRO', 'isec_token': '3787', 'company name': 'WIPRO LTD', 'isec_token_level1': '4.1!3787', 'isec_token_level2': '4.2!3787'}
+2025-07-10 09:50:30,401 - breeze_sdk_api - INFO - Got token name for WIPRO: 4.1!3787
+2025-07-10 09:50:30,698 - __main__ - INFO - Periodic monitoring check at price: 266.20
+2025-07-10 09:50:30,698 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-10 09:51:00,784 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'WIPRO', 'isec_stock_code': 'WIPRO', 'isec_token': '3787', 'company name': 'WIPRO LTD', 'isec_token_level1': '4.1!3787', 'isec_token_level2': '4.2!3787'}
+2025-07-10 09:51:00,785 - breeze_sdk_api - INFO - Got token name for WIPRO: 4.1!3787
+2025-07-10 09:51:01,801 - __main__ - INFO - Periodic monitoring check at price: 266.10
+2025-07-10 09:51:01,802 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-10 09:51:31,913 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'WIPRO', 'isec_stock_code': 'WIPRO', 'isec_token': '3787', 'company name': 'WIPRO LTD', 'isec_token_level1': '4.1!3787', 'isec_token_level2': '4.2!3787'}
+2025-07-10 09:51:31,914 - breeze_sdk_api - INFO - Got token name for WIPRO: 4.1!3787
+2025-07-10 09:51:32,251 - __main__ - INFO - Periodic monitoring check at price: 266.05
+2025-07-10 09:51:32,252 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-10 09:52:02,358 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'WIPRO', 'isec_stock_code': 'WIPRO', 'isec_token': '3787', 'company name': 'WIPRO LTD', 'isec_token_level1': '4.1!3787', 'isec_token_level2': '4.2!3787'}
+2025-07-10 09:52:02,358 - breeze_sdk_api - INFO - Got token name for WIPRO: 4.1!3787
+2025-07-10 09:52:02,676 - __main__ - INFO - Periodic monitoring check at price: 265.95
+2025-07-10 09:52:02,676 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-10 09:52:32,797 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'WIPRO', 'isec_stock_code': 'WIPRO', 'isec_token': '3787', 'company name': 'WIPRO LTD', 'isec_token_level1': '4.1!3787', 'isec_token_level2': '4.2!3787'}
+2025-07-10 09:52:32,798 - breeze_sdk_api - INFO - Got token name for WIPRO: 4.1!3787
+2025-07-10 09:52:33,139 - __main__ - INFO - Periodic monitoring check at price: 265.85
+2025-07-10 09:52:33,139 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-10 09:53:03,220 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'WIPRO', 'isec_stock_code': 'WIPRO', 'isec_token': '3787', 'company name': 'WIPRO LTD', 'isec_token_level1': '4.1!3787', 'isec_token_level2': '4.2!3787'}
+2025-07-10 09:53:03,221 - breeze_sdk_api - INFO - Got token name for WIPRO: 4.1!3787
+2025-07-10 09:53:03,599 - __main__ - INFO - Periodic monitoring check at price: 265.90
+2025-07-10 09:53:03,599 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-10 09:53:33,683 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'WIPRO', 'isec_stock_code': 'WIPRO', 'isec_token': '3787', 'company name': 'WIPRO LTD', 'isec_token_level1': '4.1!3787', 'isec_token_level2': '4.2!3787'}
+2025-07-10 09:53:33,683 - breeze_sdk_api - INFO - Got token name for WIPRO: 4.1!3787
+2025-07-10 09:53:34,001 - __main__ - INFO - Periodic monitoring check at price: 265.85
+2025-07-10 09:53:34,001 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-10 09:54:04,155 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'WIPRO', 'isec_stock_code': 'WIPRO', 'isec_token': '3787', 'company name': 'WIPRO LTD', 'isec_token_level1': '4.1!3787', 'isec_token_level2': '4.2!3787'}
+2025-07-10 09:54:04,156 - breeze_sdk_api - INFO - Got token name for WIPRO: 4.1!3787
+2025-07-10 09:54:04,513 - __main__ - INFO - Periodic monitoring check at price: 265.75
+2025-07-10 09:54:04,515 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-10 09:54:34,600 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'WIPRO', 'isec_stock_code': 'WIPRO', 'isec_token': '3787', 'company name': 'WIPRO LTD', 'isec_token_level1': '4.1!3787', 'isec_token_level2': '4.2!3787'}
+2025-07-10 09:54:34,600 - breeze_sdk_api - INFO - Got token name for WIPRO: 4.1!3787
+2025-07-10 09:54:34,904 - __main__ - INFO - Periodic monitoring check at price: 265.70
+2025-07-10 09:54:34,905 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-10 09:55:04,993 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'WIPRO', 'isec_stock_code': 'WIPRO', 'isec_token': '3787', 'company name': 'WIPRO LTD', 'isec_token_level1': '4.1!3787', 'isec_token_level2': '4.2!3787'}
+2025-07-10 09:55:04,994 - breeze_sdk_api - INFO - Got token name for WIPRO: 4.1!3787
+2025-07-10 09:55:05,298 - __main__ - INFO - Periodic monitoring check at price: 265.75
+2025-07-10 09:55:05,298 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-10 09:55:35,394 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'WIPRO', 'isec_stock_code': 'WIPRO', 'isec_token': '3787', 'company name': 'WIPRO LTD', 'isec_token_level1': '4.1!3787', 'isec_token_level2': '4.2!3787'}
+2025-07-10 09:55:35,395 - breeze_sdk_api - INFO - Got token name for WIPRO: 4.1!3787
+2025-07-10 09:55:36,427 - __main__ - INFO - Periodic monitoring check at price: 265.65
+2025-07-10 09:55:36,427 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-10 09:56:06,516 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'WIPRO', 'isec_stock_code': 'WIPRO', 'isec_token': '3787', 'company name': 'WIPRO LTD', 'isec_token_level1': '4.1!3787', 'isec_token_level2': '4.2!3787'}
+2025-07-10 09:56:06,516 - breeze_sdk_api - INFO - Got token name for WIPRO: 4.1!3787
+2025-07-10 09:56:06,804 - __main__ - INFO - Periodic monitoring check at price: 265.55
+2025-07-10 09:56:06,804 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-10 09:56:36,927 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'WIPRO', 'isec_stock_code': 'WIPRO', 'isec_token': '3787', 'company name': 'WIPRO LTD', 'isec_token_level1': '4.1!3787', 'isec_token_level2': '4.2!3787'}
+2025-07-10 09:56:36,928 - breeze_sdk_api - INFO - Got token name for WIPRO: 4.1!3787
+2025-07-10 09:56:37,229 - __main__ - INFO - Periodic monitoring check at price: 265.60
+2025-07-10 09:56:37,229 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-10 09:57:07,325 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'WIPRO', 'isec_stock_code': 'WIPRO', 'isec_token': '3787', 'company name': 'WIPRO LTD', 'isec_token_level1': '4.1!3787', 'isec_token_level2': '4.2!3787'}
+2025-07-10 09:57:07,325 - breeze_sdk_api - INFO - Got token name for WIPRO: 4.1!3787
+2025-07-10 09:57:07,668 - __main__ - INFO - Periodic monitoring check at price: 265.65
+2025-07-10 09:57:07,669 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-10 09:57:37,767 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'WIPRO', 'isec_stock_code': 'WIPRO', 'isec_token': '3787', 'company name': 'WIPRO LTD', 'isec_token_level1': '4.1!3787', 'isec_token_level2': '4.2!3787'}
+2025-07-10 09:57:37,767 - breeze_sdk_api - INFO - Got token name for WIPRO: 4.1!3787
+2025-07-10 09:57:38,058 - __main__ - INFO - Periodic monitoring check at price: 265.60
+2025-07-10 09:57:38,059 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-10 09:58:08,162 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'WIPRO', 'isec_stock_code': 'WIPRO', 'isec_token': '3787', 'company name': 'WIPRO LTD', 'isec_token_level1': '4.1!3787', 'isec_token_level2': '4.2!3787'}
+2025-07-10 09:58:08,163 - breeze_sdk_api - INFO - Got token name for WIPRO: 4.1!3787
+2025-07-10 09:58:08,533 - __main__ - INFO - Periodic monitoring check at price: 265.65
+2025-07-10 09:58:08,533 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-10 09:58:38,650 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'WIPRO', 'isec_stock_code': 'WIPRO', 'isec_token': '3787', 'company name': 'WIPRO LTD', 'isec_token_level1': '4.1!3787', 'isec_token_level2': '4.2!3787'}
+2025-07-10 09:58:38,650 - breeze_sdk_api - INFO - Got token name for WIPRO: 4.1!3787
+2025-07-10 09:58:38,965 - __main__ - INFO - Periodic monitoring check at price: 265.85
+2025-07-10 09:58:38,965 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-10 09:59:09,054 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'WIPRO', 'isec_stock_code': 'WIPRO', 'isec_token': '3787', 'company name': 'WIPRO LTD', 'isec_token_level1': '4.1!3787', 'isec_token_level2': '4.2!3787'}
+2025-07-10 09:59:09,054 - breeze_sdk_api - INFO - Got token name for WIPRO: 4.1!3787
+2025-07-10 09:59:09,362 - __main__ - INFO - Periodic monitoring check at price: 265.85
+2025-07-10 09:59:09,362 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-10 09:59:39,454 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'WIPRO', 'isec_stock_code': 'WIPRO', 'isec_token': '3787', 'company name': 'WIPRO LTD', 'isec_token_level1': '4.1!3787', 'isec_token_level2': '4.2!3787'}
+2025-07-10 09:59:39,455 - breeze_sdk_api - INFO - Got token name for WIPRO: 4.1!3787
+2025-07-10 09:59:39,762 - __main__ - INFO - Periodic monitoring check at price: 265.70
+2025-07-10 09:59:39,763 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-10 10:00:09,852 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'WIPRO', 'isec_stock_code': 'WIPRO', 'isec_token': '3787', 'company name': 'WIPRO LTD', 'isec_token_level1': '4.1!3787', 'isec_token_level2': '4.2!3787'}
+2025-07-10 10:00:09,853 - breeze_sdk_api - INFO - Got token name for WIPRO: 4.1!3787
+2025-07-10 10:00:10,131 - __main__ - INFO - Periodic monitoring check at price: 265.65
+2025-07-10 10:00:10,131 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-10 10:00:40,254 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'WIPRO', 'isec_stock_code': 'WIPRO', 'isec_token': '3787', 'company name': 'WIPRO LTD', 'isec_token_level1': '4.1!3787', 'isec_token_level2': '4.2!3787'}
+2025-07-10 10:00:40,256 - breeze_sdk_api - INFO - Got token name for WIPRO: 4.1!3787
+2025-07-10 10:00:40,560 - __main__ - INFO - Periodic monitoring check at price: 265.70
+2025-07-10 10:00:40,560 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-10 10:01:10,660 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'WIPRO', 'isec_stock_code': 'WIPRO', 'isec_token': '3787', 'company name': 'WIPRO LTD', 'isec_token_level1': '4.1!3787', 'isec_token_level2': '4.2!3787'}
+2025-07-10 10:01:10,660 - breeze_sdk_api - INFO - Got token name for WIPRO: 4.1!3787
+2025-07-10 10:01:10,982 - __main__ - INFO - Periodic monitoring check at price: 265.65
+2025-07-10 10:01:10,982 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-10 10:01:41,080 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'WIPRO', 'isec_stock_code': 'WIPRO', 'isec_token': '3787', 'company name': 'WIPRO LTD', 'isec_token_level1': '4.1!3787', 'isec_token_level2': '4.2!3787'}
+2025-07-10 10:01:41,081 - breeze_sdk_api - INFO - Got token name for WIPRO: 4.1!3787
+2025-07-10 10:01:41,409 - __main__ - INFO - Periodic monitoring check at price: 265.65
+2025-07-10 10:01:41,409 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-10 10:02:11,511 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'WIPRO', 'isec_stock_code': 'WIPRO', 'isec_token': '3787', 'company name': 'WIPRO LTD', 'isec_token_level1': '4.1!3787', 'isec_token_level2': '4.2!3787'}
+2025-07-10 10:02:11,512 - breeze_sdk_api - INFO - Got token name for WIPRO: 4.1!3787
+2025-07-10 10:02:11,818 - __main__ - INFO - Periodic monitoring check at price: 265.65
+2025-07-10 10:02:11,819 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-10 10:02:41,931 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'WIPRO', 'isec_stock_code': 'WIPRO', 'isec_token': '3787', 'company name': 'WIPRO LTD', 'isec_token_level1': '4.1!3787', 'isec_token_level2': '4.2!3787'}
+2025-07-10 10:02:41,931 - breeze_sdk_api - INFO - Got token name for WIPRO: 4.1!3787
+2025-07-10 10:02:42,229 - __main__ - INFO - Periodic monitoring check at price: 265.65
+2025-07-10 10:02:42,230 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-10 10:03:12,336 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'WIPRO', 'isec_stock_code': 'WIPRO', 'isec_token': '3787', 'company name': 'WIPRO LTD', 'isec_token_level1': '4.1!3787', 'isec_token_level2': '4.2!3787'}
+2025-07-10 10:03:12,337 - breeze_sdk_api - INFO - Got token name for WIPRO: 4.1!3787
+2025-07-10 10:03:13,414 - __main__ - INFO - Periodic monitoring check at price: 265.50
+2025-07-10 10:03:13,415 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-10 10:03:43,526 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'WIPRO', 'isec_stock_code': 'WIPRO', 'isec_token': '3787', 'company name': 'WIPRO LTD', 'isec_token_level1': '4.1!3787', 'isec_token_level2': '4.2!3787'}
+2025-07-10 10:03:43,526 - breeze_sdk_api - INFO - Got token name for WIPRO: 4.1!3787
+2025-07-10 10:03:43,867 - __main__ - INFO - Periodic monitoring check at price: 265.60
+2025-07-10 10:03:43,868 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-10 10:04:13,995 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'WIPRO', 'isec_stock_code': 'WIPRO', 'isec_token': '3787', 'company name': 'WIPRO LTD', 'isec_token_level1': '4.1!3787', 'isec_token_level2': '4.2!3787'}
+2025-07-10 10:04:13,996 - breeze_sdk_api - INFO - Got token name for WIPRO: 4.1!3787
+2025-07-10 10:04:14,345 - __main__ - INFO - Periodic monitoring check at price: 265.60
+2025-07-10 10:04:14,345 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-10 10:04:44,468 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'WIPRO', 'isec_stock_code': 'WIPRO', 'isec_token': '3787', 'company name': 'WIPRO LTD', 'isec_token_level1': '4.1!3787', 'isec_token_level2': '4.2!3787'}
+2025-07-10 10:04:44,469 - breeze_sdk_api - INFO - Got token name for WIPRO: 4.1!3787
+2025-07-10 10:04:44,798 - __main__ - INFO - Periodic monitoring check at price: 265.50
+2025-07-10 10:04:44,798 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-10 10:05:14,927 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'WIPRO', 'isec_stock_code': 'WIPRO', 'isec_token': '3787', 'company name': 'WIPRO LTD', 'isec_token_level1': '4.1!3787', 'isec_token_level2': '4.2!3787'}
+2025-07-10 10:05:14,928 - breeze_sdk_api - INFO - Got token name for WIPRO: 4.1!3787
+2025-07-10 10:05:15,400 - __main__ - INFO - Periodic monitoring check at price: 265.50
+2025-07-10 10:05:15,400 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-10 10:05:45,532 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'WIPRO', 'isec_stock_code': 'WIPRO', 'isec_token': '3787', 'company name': 'WIPRO LTD', 'isec_token_level1': '4.1!3787', 'isec_token_level2': '4.2!3787'}
+2025-07-10 10:05:45,533 - breeze_sdk_api - INFO - Got token name for WIPRO: 4.1!3787
+2025-07-10 10:05:45,864 - __main__ - INFO - Periodic monitoring check at price: 265.60
+2025-07-10 10:05:45,865 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-10 10:06:15,995 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'WIPRO', 'isec_stock_code': 'WIPRO', 'isec_token': '3787', 'company name': 'WIPRO LTD', 'isec_token_level1': '4.1!3787', 'isec_token_level2': '4.2!3787'}
+2025-07-10 10:06:15,995 - breeze_sdk_api - INFO - Got token name for WIPRO: 4.1!3787
+2025-07-10 10:06:16,361 - __main__ - INFO - Periodic monitoring check at price: 265.70
+2025-07-10 10:06:16,362 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-10 10:06:46,460 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'WIPRO', 'isec_stock_code': 'WIPRO', 'isec_token': '3787', 'company name': 'WIPRO LTD', 'isec_token_level1': '4.1!3787', 'isec_token_level2': '4.2!3787'}
+2025-07-10 10:06:46,460 - breeze_sdk_api - INFO - Got token name for WIPRO: 4.1!3787
+2025-07-10 10:06:46,790 - __main__ - INFO - Periodic monitoring check at price: 265.65
+2025-07-10 10:06:46,790 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-10 10:07:16,917 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'WIPRO', 'isec_stock_code': 'WIPRO', 'isec_token': '3787', 'company name': 'WIPRO LTD', 'isec_token_level1': '4.1!3787', 'isec_token_level2': '4.2!3787'}
+2025-07-10 10:07:16,917 - breeze_sdk_api - INFO - Got token name for WIPRO: 4.1!3787
+2025-07-10 10:07:17,280 - __main__ - INFO - Periodic monitoring check at price: 265.40
+2025-07-10 10:07:17,280 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-10 10:07:47,403 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'WIPRO', 'isec_stock_code': 'WIPRO', 'isec_token': '3787', 'company name': 'WIPRO LTD', 'isec_token_level1': '4.1!3787', 'isec_token_level2': '4.2!3787'}
+2025-07-10 10:07:47,404 - breeze_sdk_api - INFO - Got token name for WIPRO: 4.1!3787
+2025-07-10 10:07:47,736 - __main__ - INFO - Periodic monitoring check at price: 265.35
+2025-07-10 10:07:47,737 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-10 10:08:17,848 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'WIPRO', 'isec_stock_code': 'WIPRO', 'isec_token': '3787', 'company name': 'WIPRO LTD', 'isec_token_level1': '4.1!3787', 'isec_token_level2': '4.2!3787'}
+2025-07-10 10:08:17,849 - breeze_sdk_api - INFO - Got token name for WIPRO: 4.1!3787
+2025-07-10 10:08:18,285 - __main__ - INFO - Periodic monitoring check at price: 265.30
+2025-07-10 10:08:18,286 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-10 10:08:48,526 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'WIPRO', 'isec_stock_code': 'WIPRO', 'isec_token': '3787', 'company name': 'WIPRO LTD', 'isec_token_level1': '4.1!3787', 'isec_token_level2': '4.2!3787'}
+2025-07-10 10:08:48,527 - breeze_sdk_api - INFO - Got token name for WIPRO: 4.1!3787
+2025-07-10 10:08:48,999 - __main__ - INFO - Periodic monitoring check at price: 265.35
+2025-07-10 10:08:48,999 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-10 10:09:19,094 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'WIPRO', 'isec_stock_code': 'WIPRO', 'isec_token': '3787', 'company name': 'WIPRO LTD', 'isec_token_level1': '4.1!3787', 'isec_token_level2': '4.2!3787'}
+2025-07-10 10:09:19,095 - breeze_sdk_api - INFO - Got token name for WIPRO: 4.1!3787
+2025-07-10 10:09:19,393 - __main__ - INFO - Periodic monitoring check at price: 265.10
+2025-07-10 10:09:19,394 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-10 10:09:49,499 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'WIPRO', 'isec_stock_code': 'WIPRO', 'isec_token': '3787', 'company name': 'WIPRO LTD', 'isec_token_level1': '4.1!3787', 'isec_token_level2': '4.2!3787'}
+2025-07-10 10:09:49,499 - breeze_sdk_api - INFO - Got token name for WIPRO: 4.1!3787
+2025-07-10 10:09:49,803 - __main__ - INFO - Periodic monitoring check at price: 265.05
+2025-07-10 10:09:49,803 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-10 10:10:19,915 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'WIPRO', 'isec_stock_code': 'WIPRO', 'isec_token': '3787', 'company name': 'WIPRO LTD', 'isec_token_level1': '4.1!3787', 'isec_token_level2': '4.2!3787'}
+2025-07-10 10:10:19,916 - breeze_sdk_api - INFO - Got token name for WIPRO: 4.1!3787
+2025-07-10 10:10:20,221 - __main__ - INFO - Periodic monitoring check at price: 264.90
+2025-07-10 10:10:20,221 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-10 10:10:50,338 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'WIPRO', 'isec_stock_code': 'WIPRO', 'isec_token': '3787', 'company name': 'WIPRO LTD', 'isec_token_level1': '4.1!3787', 'isec_token_level2': '4.2!3787'}
+2025-07-10 10:10:50,338 - breeze_sdk_api - INFO - Got token name for WIPRO: 4.1!3787
+2025-07-10 10:10:50,662 - __main__ - INFO - Periodic monitoring check at price: 264.80
+2025-07-10 10:10:50,663 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-10 10:11:20,767 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'WIPRO', 'isec_stock_code': 'WIPRO', 'isec_token': '3787', 'company name': 'WIPRO LTD', 'isec_token_level1': '4.1!3787', 'isec_token_level2': '4.2!3787'}
+2025-07-10 10:11:20,767 - breeze_sdk_api - INFO - Got token name for WIPRO: 4.1!3787
+2025-07-10 10:11:21,072 - __main__ - INFO - Periodic monitoring check at price: 264.50
+2025-07-10 10:11:21,072 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-10 10:11:51,215 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'WIPRO', 'isec_stock_code': 'WIPRO', 'isec_token': '3787', 'company name': 'WIPRO LTD', 'isec_token_level1': '4.1!3787', 'isec_token_level2': '4.2!3787'}
+2025-07-10 10:11:51,216 - breeze_sdk_api - INFO - Got token name for WIPRO: 4.1!3787
+2025-07-10 10:11:51,533 - __main__ - INFO - Periodic monitoring check at price: 264.70
+2025-07-10 10:11:51,534 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-10 10:12:21,648 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'WIPRO', 'isec_stock_code': 'WIPRO', 'isec_token': '3787', 'company name': 'WIPRO LTD', 'isec_token_level1': '4.1!3787', 'isec_token_level2': '4.2!3787'}
+2025-07-10 10:12:21,649 - breeze_sdk_api - INFO - Got token name for WIPRO: 4.1!3787
+2025-07-10 10:12:21,953 - __main__ - INFO - Periodic monitoring check at price: 264.95
+2025-07-10 10:12:21,953 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-10 10:12:52,051 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'WIPRO', 'isec_stock_code': 'WIPRO', 'isec_token': '3787', 'company name': 'WIPRO LTD', 'isec_token_level1': '4.1!3787', 'isec_token_level2': '4.2!3787'}
+2025-07-10 10:12:52,052 - breeze_sdk_api - INFO - Got token name for WIPRO: 4.1!3787
+2025-07-10 10:12:52,372 - __main__ - INFO - Periodic monitoring check at price: 265.00
+2025-07-10 10:12:52,373 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-10 10:13:22,484 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'WIPRO', 'isec_stock_code': 'WIPRO', 'isec_token': '3787', 'company name': 'WIPRO LTD', 'isec_token_level1': '4.1!3787', 'isec_token_level2': '4.2!3787'}
+2025-07-10 10:13:22,484 - breeze_sdk_api - INFO - Got token name for WIPRO: 4.1!3787
+2025-07-10 10:13:22,914 - __main__ - INFO - Periodic monitoring check at price: 264.85
+2025-07-10 10:13:22,914 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-10 10:13:53,022 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'WIPRO', 'isec_stock_code': 'WIPRO', 'isec_token': '3787', 'company name': 'WIPRO LTD', 'isec_token_level1': '4.1!3787', 'isec_token_level2': '4.2!3787'}
+2025-07-10 10:13:53,023 - breeze_sdk_api - INFO - Got token name for WIPRO: 4.1!3787
+2025-07-10 10:13:53,325 - __main__ - INFO - Periodic monitoring check at price: 264.90
+2025-07-10 10:13:53,325 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-10 10:14:23,463 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'WIPRO', 'isec_stock_code': 'WIPRO', 'isec_token': '3787', 'company name': 'WIPRO LTD', 'isec_token_level1': '4.1!3787', 'isec_token_level2': '4.2!3787'}
+2025-07-10 10:14:23,464 - breeze_sdk_api - INFO - Got token name for WIPRO: 4.1!3787
+2025-07-10 10:14:23,847 - __main__ - INFO - Periodic monitoring check at price: 264.95
+2025-07-10 10:14:23,847 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-10 10:14:53,949 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'WIPRO', 'isec_stock_code': 'WIPRO', 'isec_token': '3787', 'company name': 'WIPRO LTD', 'isec_token_level1': '4.1!3787', 'isec_token_level2': '4.2!3787'}
+2025-07-10 10:14:53,950 - breeze_sdk_api - INFO - Got token name for WIPRO: 4.1!3787
+2025-07-10 10:14:54,238 - __main__ - INFO - Periodic monitoring check at price: 265.10
+2025-07-10 10:14:54,238 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-10 10:15:24,354 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'WIPRO', 'isec_stock_code': 'WIPRO', 'isec_token': '3787', 'company name': 'WIPRO LTD', 'isec_token_level1': '4.1!3787', 'isec_token_level2': '4.2!3787'}
+2025-07-10 10:15:24,354 - breeze_sdk_api - INFO - Got token name for WIPRO: 4.1!3787
+2025-07-10 10:15:24,694 - __main__ - INFO - Periodic monitoring check at price: 265.10
+2025-07-10 10:15:24,694 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-10 10:15:54,795 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'WIPRO', 'isec_stock_code': 'WIPRO', 'isec_token': '3787', 'company name': 'WIPRO LTD', 'isec_token_level1': '4.1!3787', 'isec_token_level2': '4.2!3787'}
+2025-07-10 10:15:54,795 - breeze_sdk_api - INFO - Got token name for WIPRO: 4.1!3787
+2025-07-10 10:15:55,124 - __main__ - INFO - Periodic monitoring check at price: 265.05
+2025-07-10 10:15:55,124 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-10 10:16:25,240 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'WIPRO', 'isec_stock_code': 'WIPRO', 'isec_token': '3787', 'company name': 'WIPRO LTD', 'isec_token_level1': '4.1!3787', 'isec_token_level2': '4.2!3787'}
+2025-07-10 10:16:25,240 - breeze_sdk_api - INFO - Got token name for WIPRO: 4.1!3787
+2025-07-10 10:16:25,802 - __main__ - INFO - Periodic monitoring check at price: 264.95
+2025-07-10 10:16:25,803 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-10 10:16:55,904 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'WIPRO', 'isec_stock_code': 'WIPRO', 'isec_token': '3787', 'company name': 'WIPRO LTD', 'isec_token_level1': '4.1!3787', 'isec_token_level2': '4.2!3787'}
+2025-07-10 10:16:55,904 - breeze_sdk_api - INFO - Got token name for WIPRO: 4.1!3787
+2025-07-10 10:16:56,218 - __main__ - INFO - Periodic monitoring check at price: 265.00
+2025-07-10 10:16:56,218 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-10 10:17:26,333 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'WIPRO', 'isec_stock_code': 'WIPRO', 'isec_token': '3787', 'company name': 'WIPRO LTD', 'isec_token_level1': '4.1!3787', 'isec_token_level2': '4.2!3787'}
+2025-07-10 10:17:26,334 - breeze_sdk_api - INFO - Got token name for WIPRO: 4.1!3787
+2025-07-10 10:17:27,113 - __main__ - INFO - Periodic monitoring check at price: 264.80
+2025-07-10 10:17:27,114 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-10 10:17:57,229 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'WIPRO', 'isec_stock_code': 'WIPRO', 'isec_token': '3787', 'company name': 'WIPRO LTD', 'isec_token_level1': '4.1!3787', 'isec_token_level2': '4.2!3787'}
+2025-07-10 10:17:57,230 - breeze_sdk_api - INFO - Got token name for WIPRO: 4.1!3787
+2025-07-10 10:17:57,549 - __main__ - INFO - Periodic monitoring check at price: 264.80
+2025-07-10 10:17:57,549 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-10 10:18:27,655 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'WIPRO', 'isec_stock_code': 'WIPRO', 'isec_token': '3787', 'company name': 'WIPRO LTD', 'isec_token_level1': '4.1!3787', 'isec_token_level2': '4.2!3787'}
+2025-07-10 10:18:27,655 - breeze_sdk_api - INFO - Got token name for WIPRO: 4.1!3787
+2025-07-10 10:18:28,057 - __main__ - INFO - Periodic monitoring check at price: 264.75
+2025-07-10 10:18:28,058 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-10 10:18:58,166 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'WIPRO', 'isec_stock_code': 'WIPRO', 'isec_token': '3787', 'company name': 'WIPRO LTD', 'isec_token_level1': '4.1!3787', 'isec_token_level2': '4.2!3787'}
+2025-07-10 10:18:58,167 - breeze_sdk_api - INFO - Got token name for WIPRO: 4.1!3787
+2025-07-10 10:18:58,475 - __main__ - INFO - Periodic monitoring check at price: 264.65
+2025-07-10 10:18:58,475 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-10 10:19:28,579 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'WIPRO', 'isec_stock_code': 'WIPRO', 'isec_token': '3787', 'company name': 'WIPRO LTD', 'isec_token_level1': '4.1!3787', 'isec_token_level2': '4.2!3787'}
+2025-07-10 10:19:28,580 - breeze_sdk_api - INFO - Got token name for WIPRO: 4.1!3787
+2025-07-10 10:19:28,906 - __main__ - INFO - Periodic monitoring check at price: 264.70
+2025-07-10 10:19:28,907 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-10 10:19:59,035 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'WIPRO', 'isec_stock_code': 'WIPRO', 'isec_token': '3787', 'company name': 'WIPRO LTD', 'isec_token_level1': '4.1!3787', 'isec_token_level2': '4.2!3787'}
+2025-07-10 10:19:59,036 - breeze_sdk_api - INFO - Got token name for WIPRO: 4.1!3787
+2025-07-10 10:19:59,398 - __main__ - INFO - Periodic monitoring check at price: 264.80
+2025-07-10 10:19:59,398 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-10 10:20:29,502 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'WIPRO', 'isec_stock_code': 'WIPRO', 'isec_token': '3787', 'company name': 'WIPRO LTD', 'isec_token_level1': '4.1!3787', 'isec_token_level2': '4.2!3787'}
+2025-07-10 10:20:29,502 - breeze_sdk_api - INFO - Got token name for WIPRO: 4.1!3787
+2025-07-10 10:20:29,820 - __main__ - INFO - Periodic monitoring check at price: 264.90
+2025-07-10 10:20:29,821 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-10 10:20:59,953 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'WIPRO', 'isec_stock_code': 'WIPRO', 'isec_token': '3787', 'company name': 'WIPRO LTD', 'isec_token_level1': '4.1!3787', 'isec_token_level2': '4.2!3787'}
+2025-07-10 10:20:59,953 - breeze_sdk_api - INFO - Got token name for WIPRO: 4.1!3787
+2025-07-10 10:21:00,341 - __main__ - INFO - Periodic monitoring check at price: 265.00
+2025-07-10 10:21:00,341 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-10 10:21:30,467 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'WIPRO', 'isec_stock_code': 'WIPRO', 'isec_token': '3787', 'company name': 'WIPRO LTD', 'isec_token_level1': '4.1!3787', 'isec_token_level2': '4.2!3787'}
+2025-07-10 10:21:30,468 - breeze_sdk_api - INFO - Got token name for WIPRO: 4.1!3787
+2025-07-10 10:21:30,845 - __main__ - INFO - Periodic monitoring check at price: 264.95
+2025-07-10 10:21:30,845 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-10 10:22:00,978 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'WIPRO', 'isec_stock_code': 'WIPRO', 'isec_token': '3787', 'company name': 'WIPRO LTD', 'isec_token_level1': '4.1!3787', 'isec_token_level2': '4.2!3787'}
+2025-07-10 10:22:00,978 - breeze_sdk_api - INFO - Got token name for WIPRO: 4.1!3787
+2025-07-10 10:22:01,312 - __main__ - INFO - Periodic monitoring check at price: 265.00
+2025-07-10 10:22:01,313 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-10 10:22:31,416 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'WIPRO', 'isec_stock_code': 'WIPRO', 'isec_token': '3787', 'company name': 'WIPRO LTD', 'isec_token_level1': '4.1!3787', 'isec_token_level2': '4.2!3787'}
+2025-07-10 10:22:31,417 - breeze_sdk_api - INFO - Got token name for WIPRO: 4.1!3787
+2025-07-10 10:22:31,741 - __main__ - INFO - Periodic monitoring check at price: 264.70
+2025-07-10 10:22:31,741 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-10 10:23:01,930 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'WIPRO', 'isec_stock_code': 'WIPRO', 'isec_token': '3787', 'company name': 'WIPRO LTD', 'isec_token_level1': '4.1!3787', 'isec_token_level2': '4.2!3787'}
+2025-07-10 10:23:01,930 - breeze_sdk_api - INFO - Got token name for WIPRO: 4.1!3787
+2025-07-10 10:23:02,282 - __main__ - INFO - Periodic monitoring check at price: 264.70
+2025-07-10 10:23:02,282 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-10 10:23:32,385 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'WIPRO', 'isec_stock_code': 'WIPRO', 'isec_token': '3787', 'company name': 'WIPRO LTD', 'isec_token_level1': '4.1!3787', 'isec_token_level2': '4.2!3787'}
+2025-07-10 10:23:32,386 - breeze_sdk_api - INFO - Got token name for WIPRO: 4.1!3787
+2025-07-10 10:23:32,802 - __main__ - INFO - Periodic monitoring check at price: 264.60
+2025-07-10 10:23:32,803 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-10 10:24:02,933 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'WIPRO', 'isec_stock_code': 'WIPRO', 'isec_token': '3787', 'company name': 'WIPRO LTD', 'isec_token_level1': '4.1!3787', 'isec_token_level2': '4.2!3787'}
+2025-07-10 10:24:02,933 - breeze_sdk_api - INFO - Got token name for WIPRO: 4.1!3787
+2025-07-10 10:24:03,286 - __main__ - INFO - Periodic monitoring check at price: 264.65
+2025-07-10 10:24:03,286 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-10 10:24:33,393 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'WIPRO', 'isec_stock_code': 'WIPRO', 'isec_token': '3787', 'company name': 'WIPRO LTD', 'isec_token_level1': '4.1!3787', 'isec_token_level2': '4.2!3787'}
+2025-07-10 10:24:33,394 - breeze_sdk_api - INFO - Got token name for WIPRO: 4.1!3787
+2025-07-10 10:24:33,729 - __main__ - INFO - Periodic monitoring check at price: 264.45
+2025-07-10 10:24:33,729 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-10 10:25:03,816 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'WIPRO', 'isec_stock_code': 'WIPRO', 'isec_token': '3787', 'company name': 'WIPRO LTD', 'isec_token_level1': '4.1!3787', 'isec_token_level2': '4.2!3787'}
+2025-07-10 10:25:03,817 - breeze_sdk_api - INFO - Got token name for WIPRO: 4.1!3787
+2025-07-10 10:25:04,127 - __main__ - INFO - Periodic monitoring check at price: 264.50
+2025-07-10 10:25:04,127 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-10 10:25:34,343 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'WIPRO', 'isec_stock_code': 'WIPRO', 'isec_token': '3787', 'company name': 'WIPRO LTD', 'isec_token_level1': '4.1!3787', 'isec_token_level2': '4.2!3787'}
+2025-07-10 10:25:34,343 - breeze_sdk_api - INFO - Got token name for WIPRO: 4.1!3787
+2025-07-10 10:25:34,649 - __main__ - INFO - Periodic monitoring check at price: 264.50
+2025-07-10 10:25:34,649 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-10 10:26:04,812 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'WIPRO', 'isec_stock_code': 'WIPRO', 'isec_token': '3787', 'company name': 'WIPRO LTD', 'isec_token_level1': '4.1!3787', 'isec_token_level2': '4.2!3787'}
+2025-07-10 10:26:04,812 - breeze_sdk_api - INFO - Got token name for WIPRO: 4.1!3787
+2025-07-10 10:26:05,706 - __main__ - INFO - Periodic monitoring check at price: 264.50
+2025-07-10 10:26:05,706 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-10 10:26:35,850 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'WIPRO', 'isec_stock_code': 'WIPRO', 'isec_token': '3787', 'company name': 'WIPRO LTD', 'isec_token_level1': '4.1!3787', 'isec_token_level2': '4.2!3787'}
+2025-07-10 10:26:35,851 - breeze_sdk_api - INFO - Got token name for WIPRO: 4.1!3787
+2025-07-10 10:26:37,681 - __main__ - INFO - Periodic monitoring check at price: 264.50
+2025-07-10 10:26:37,681 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-10 10:27:07,828 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'WIPRO', 'isec_stock_code': 'WIPRO', 'isec_token': '3787', 'company name': 'WIPRO LTD', 'isec_token_level1': '4.1!3787', 'isec_token_level2': '4.2!3787'}
+2025-07-10 10:27:07,829 - breeze_sdk_api - INFO - Got token name for WIPRO: 4.1!3787
+2025-07-10 10:27:08,217 - __main__ - INFO - Periodic monitoring check at price: 264.45
+2025-07-10 10:27:08,217 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-10 10:27:38,331 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'WIPRO', 'isec_stock_code': 'WIPRO', 'isec_token': '3787', 'company name': 'WIPRO LTD', 'isec_token_level1': '4.1!3787', 'isec_token_level2': '4.2!3787'}
+2025-07-10 10:27:38,332 - breeze_sdk_api - INFO - Got token name for WIPRO: 4.1!3787
+2025-07-10 10:27:38,769 - __main__ - INFO - Periodic monitoring check at price: 264.35
+2025-07-10 10:27:38,770 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-10 10:28:08,873 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'WIPRO', 'isec_stock_code': 'WIPRO', 'isec_token': '3787', 'company name': 'WIPRO LTD', 'isec_token_level1': '4.1!3787', 'isec_token_level2': '4.2!3787'}
+2025-07-10 10:28:08,874 - breeze_sdk_api - INFO - Got token name for WIPRO: 4.1!3787
+2025-07-10 10:28:09,260 - __main__ - INFO - Periodic monitoring check at price: 264.40
+2025-07-10 10:28:09,260 - __main__ - WARNING - Error during periodic monitoring check: name 'logger' is not defined
+2025-07-10 10:28:22,290 - __main__ - INFO - Received interrupt signal. Stopping monitoring...
+2025-07-10 10:28:22,290 - __main__ - INFO - Monitoring stopped by user.
+2025-07-10 10:28:22,291 - __main__ - INFO - Cleaning up WebSocket connection...
+2025-07-10 10:28:22,291 - __main__ - INFO - WebSocket not initialized, skipping cleanup
+2025-07-10 10:28:22,291 - __main__ - INFO - GTT Fall Buy strategy completed.

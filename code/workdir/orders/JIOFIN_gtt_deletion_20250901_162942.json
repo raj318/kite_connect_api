@@ -1,0 +1,41 @@
+{
+  "company_symbol": "JIOFIN",
+  "operation": "GTT Order Deletion",
+  "timestamp": "2025-09-01T16:29:42.886014",
+  "results": {
+    "total_orders": 4,
+    "successful_deletions": 4,
+    "failed_deletions": 0,
+    "deleted_orders": [
+      {
+        "trigger_id": 285822520,
+        "symbol": "JIOFIN",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2025-09-01T16:29:42.517217"
+      },
+      {
+        "trigger_id": 285822519,
+        "symbol": "JIOFIN",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2025-09-01T16:29:42.645803"
+      },
+      {
+        "trigger_id": 285822518,
+        "symbol": "JIOFIN",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2025-09-01T16:29:42.763084"
+      },
+      {
+        "trigger_id": 285822517,
+        "symbol": "JIOFIN",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2025-09-01T16:29:42.886014"
+      }
+    ],
+    "failed_orders": []
+  }
+}

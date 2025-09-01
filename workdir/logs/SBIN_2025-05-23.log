@@ -1,0 +1,19 @@
+2025-05-23 09:26:29,001 - __main__ - INFO - Starting historical data fetch process...
+2025-05-23 09:26:29,002 - __main__ - INFO - Fetching ITC stock history...
+2025-05-23 09:26:29,002 - __main__ - INFO - Fetching data for SBIN.NS from 2020-05-24 to 2025-05-23
+2025-05-23 09:26:29,790 - __main__ - WARNING - Attempt 1 failed: No historical data found for SBIN.NS. Retrying...
+2025-05-23 09:26:32,151 - __main__ - WARNING - Attempt 2 failed: No historical data found for SBIN.NS. Retrying...
+2025-05-23 09:26:34,538 - __main__ - ERROR - Error fetching stock history: No historical data found for SBIN.NS
+Traceback (most recent call last):
+  File "c:\Users\pkudithi\OneDrive - NVIDIA Corporation\Documents\GitHub\kiteconnect\code\yfinance_history.py", line 40, in fetch_stock_history
+    raise ValueError(f"No historical data found for {symbol}")
+ValueError: No historical data found for SBIN.NS
+
+2025-05-23 09:26:34,539 - __main__ - ERROR - Error in main process: No historical data found for SBIN.NS
+Traceback (most recent call last):
+  File "c:\Users\pkudithi\OneDrive - NVIDIA Corporation\Documents\GitHub\kiteconnect\code\yfinance_history.py", line 120, in main
+    history_data = fetch_stock_history("SBIN.NS", years=5)
+  File "c:\Users\pkudithi\OneDrive - NVIDIA Corporation\Documents\GitHub\kiteconnect\code\yfinance_history.py", line 40, in fetch_stock_history
+    raise ValueError(f"No historical data found for {symbol}")
+ValueError: No historical data found for SBIN.NS
+

@@ -1,0 +1,441 @@
+2025-05-22 20:31:22,374 - __main__ - ERROR - Failed to initialize Breeze API: quote_from_bytes() expected bytes
+2025-05-22 20:40:35,811 - __main__ - ERROR - Failed to initialize Breeze API: quote_from_bytes() expected bytes
+2025-05-22 20:43:25,002 - __main__ - ERROR - Failed to initialize Breeze API: quote_from_bytes() expected bytes
+Traceback (most recent call last):
+  File "c:\Users\pkudithi\OneDrive - NVIDIA Corporation\Documents\GitHub\kiteconnect\code\test_one_company.py", line 17, in main
+    breeze_api = BreezeApi(symbol=trading_symbol)
+  File "c:\Users\pkudithi\OneDrive - NVIDIA Corporation\Documents\GitHub\kiteconnect\code\breeze_sdk_api.py", line 62, in __init__
+    self.get_session_token()
+  File "c:\Users\pkudithi\OneDrive - NVIDIA Corporation\Documents\GitHub\kiteconnect\code\breeze_sdk_api.py", line 102, in get_session_token
+    urllib.parse.quote_plus(self.app_key))
+  File "C:\Users\pkudithi\AppData\Local\Programs\Python\Python310\lib\urllib\parse.py", line 886, in quote_plus
+    string = quote(string, safe + space, encoding, errors)
+  File "C:\Users\pkudithi\AppData\Local\Programs\Python\Python310\lib\urllib\parse.py", line 870, in quote
+    return quote_from_bytes(string, safe)
+  File "C:\Users\pkudithi\AppData\Local\Programs\Python\Python310\lib\urllib\parse.py", line 895, in quote_from_bytes
+    raise TypeError("quote_from_bytes() expected bytes")
+TypeError: quote_from_bytes() expected bytes
+
+2025-05-22 20:52:14,455 - breeze_sdk_api - ERROR - Missing required Breeze API parameters: api_key, secret_key, session_id
+2025-05-22 20:52:14,457 - breeze_sdk_api - ERROR - Error initializing Breeze API: Missing required Breeze API parameters: api_key, secret_key, session_id
+Traceback (most recent call last):
+  File "c:\Users\pkudithi\OneDrive - NVIDIA Corporation\Documents\GitHub\kiteconnect\code\breeze_sdk_api.py", line 68, in __init__
+    raise ValueError(error_msg)
+ValueError: Missing required Breeze API parameters: api_key, secret_key, session_id
+
+2025-05-22 20:52:14,459 - __main__ - ERROR - Failed to initialize Breeze API: Missing required Breeze API parameters: api_key, secret_key, session_id
+Traceback (most recent call last):
+  File "c:\Users\pkudithi\OneDrive - NVIDIA Corporation\Documents\GitHub\kiteconnect\code\test_one_company.py", line 17, in main
+    breeze_api = BreezeApi(symbol=trading_symbol)
+  File "c:\Users\pkudithi\OneDrive - NVIDIA Corporation\Documents\GitHub\kiteconnect\code\breeze_sdk_api.py", line 68, in __init__
+    raise ValueError(error_msg)
+ValueError: Missing required Breeze API parameters: api_key, secret_key, session_id
+
+2025-05-22 20:52:59,782 - breeze_sdk_api - ERROR - Missing required Breeze API parameters: api_token, secret_token, session_id
+2025-05-22 20:52:59,783 - breeze_sdk_api - ERROR - Error initializing Breeze API: Missing required Breeze API parameters: api_token, secret_token, session_id
+Traceback (most recent call last):
+  File "c:\Users\pkudithi\OneDrive - NVIDIA Corporation\Documents\GitHub\kiteconnect\code\breeze_sdk_api.py", line 68, in __init__
+    raise ValueError(error_msg)
+ValueError: Missing required Breeze API parameters: api_token, secret_token, session_id
+
+2025-05-22 20:52:59,784 - __main__ - ERROR - Failed to initialize Breeze API: Missing required Breeze API parameters: api_token, secret_token, session_id
+Traceback (most recent call last):
+  File "c:\Users\pkudithi\OneDrive - NVIDIA Corporation\Documents\GitHub\kiteconnect\code\test_one_company.py", line 17, in main
+    breeze_api = BreezeApi(symbol=trading_symbol)
+  File "c:\Users\pkudithi\OneDrive - NVIDIA Corporation\Documents\GitHub\kiteconnect\code\breeze_sdk_api.py", line 68, in __init__
+    raise ValueError(error_msg)
+ValueError: Missing required Breeze API parameters: api_token, secret_token, session_id
+
+2025-05-22 20:54:29,093 - breeze_sdk_api - ERROR - Missing required Breeze API parameters: api_token, secret_token, session_id
+2025-05-22 20:54:29,095 - breeze_sdk_api - ERROR - Error initializing Breeze API: Missing required Breeze API parameters: api_token, secret_token, session_id
+Traceback (most recent call last):
+  File "c:\Users\pkudithi\OneDrive - NVIDIA Corporation\Documents\GitHub\kiteconnect\code\breeze_sdk_api.py", line 68, in __init__
+    raise ValueError(error_msg)
+ValueError: Missing required Breeze API parameters: api_token, secret_token, session_id
+
+2025-05-22 20:54:29,096 - __main__ - ERROR - Failed to initialize Breeze API: Missing required Breeze API parameters: api_token, secret_token, session_id
+Traceback (most recent call last):
+  File "c:\Users\pkudithi\OneDrive - NVIDIA Corporation\Documents\GitHub\kiteconnect\code\test_one_company.py", line 17, in main
+    breeze_api = BreezeApi(symbol=trading_symbol)
+  File "c:\Users\pkudithi\OneDrive - NVIDIA Corporation\Documents\GitHub\kiteconnect\code\breeze_sdk_api.py", line 68, in __init__
+    raise ValueError(error_msg)
+ValueError: Missing required Breeze API parameters: api_token, secret_token, session_id
+
+2025-05-22 20:55:12,208 - breeze_sdk_api - ERROR - Error initializing Breeze API: 'api_key'
+Traceback (most recent call last):
+  File "c:\Users\pkudithi\OneDrive - NVIDIA Corporation\Documents\GitHub\kiteconnect\code\breeze_sdk_api.py", line 71, in __init__
+    self.breeze = BreezeConnect(api_key=breeze_config['api_key'])
+KeyError: 'api_key'
+
+2025-05-22 20:55:12,210 - __main__ - ERROR - Failed to initialize Breeze API: 'api_key'
+Traceback (most recent call last):
+  File "c:\Users\pkudithi\OneDrive - NVIDIA Corporation\Documents\GitHub\kiteconnect\code\test_one_company.py", line 17, in main
+    breeze_api = BreezeApi(symbol=trading_symbol)
+  File "c:\Users\pkudithi\OneDrive - NVIDIA Corporation\Documents\GitHub\kiteconnect\code\breeze_sdk_api.py", line 71, in __init__
+    self.breeze = BreezeConnect(api_key=breeze_config['api_key'])
+KeyError: 'api_key'
+
+2025-05-22 20:56:28,501 - breeze_sdk_api - ERROR - Error initializing Breeze API: Unexpected error: Session key is expired.
+Traceback (most recent call last):
+  File "C:\Users\pkudithi\AppData\Local\Programs\Python\Python310\lib\site-packages\breeze_connect\breeze_connect.py", line 808, in api_util
+    raise Exception(except_message.SESSIONKEY_EXPIRED.value)
+Exception: Session key is expired.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\pkudithi\OneDrive - NVIDIA Corporation\Documents\GitHub\kiteconnect\code\breeze_sdk_api.py", line 72, in __init__
+    self.breeze.generate_session(
+  File "C:\Users\pkudithi\AppData\Local\Programs\Python\Python310\lib\site-packages\breeze_connect\breeze_connect.py", line 857, in generate_session
+    self.api_util()
+  File "C:\Users\pkudithi\AppData\Local\Programs\Python\Python310\lib\site-packages\breeze_connect\breeze_connect.py", line 821, in api_util
+    raise Exception(f"Unexpected error: {str(e)}")
+Exception: Unexpected error: Session key is expired.
+
+2025-05-22 20:56:28,503 - __main__ - ERROR - Failed to initialize Breeze API: Unexpected error: Session key is expired.
+Traceback (most recent call last):
+  File "C:\Users\pkudithi\AppData\Local\Programs\Python\Python310\lib\site-packages\breeze_connect\breeze_connect.py", line 808, in api_util
+    raise Exception(except_message.SESSIONKEY_EXPIRED.value)
+Exception: Session key is expired.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\pkudithi\OneDrive - NVIDIA Corporation\Documents\GitHub\kiteconnect\code\test_one_company.py", line 17, in main
+    breeze_api = BreezeApi(symbol=trading_symbol)
+  File "c:\Users\pkudithi\OneDrive - NVIDIA Corporation\Documents\GitHub\kiteconnect\code\breeze_sdk_api.py", line 72, in __init__
+    self.breeze.generate_session(
+  File "C:\Users\pkudithi\AppData\Local\Programs\Python\Python310\lib\site-packages\breeze_connect\breeze_connect.py", line 857, in generate_session
+    self.api_util()
+  File "C:\Users\pkudithi\AppData\Local\Programs\Python\Python310\lib\site-packages\breeze_connect\breeze_connect.py", line 821, in api_util
+    raise Exception(f"Unexpected error: {str(e)}")
+Exception: Unexpected error: Session key is expired.
+
+2025-05-22 21:03:14,435 - breeze_sdk_api - WARNING - Session expired, attempting to regenerate token
+2025-05-22 21:03:14,436 - breeze_sdk_api - INFO - Please login using the following URL to get a new session token: https://api.icicidirect.com/apiuser/login?api_key=3088X_y892P%257c%23516%60r8i9kx2K485%268
+2025-05-22 21:04:32,065 - breeze_sdk_api - WARNING - Session expired, attempting to regenerate token
+2025-05-22 21:04:32,066 - breeze_sdk_api - INFO - Please login using the following URL to get a new session token: https://api.icicidirect.com/apiuser/login?api_key=3088X_y892P%257c%23516%60r8i9kx2K485%268
+2025-05-22 21:05:39,663 - breeze_sdk_api - WARNING - Session expired, attempting to regenerate token
+2025-05-22 21:05:39,666 - breeze_sdk_api - INFO - Please login using the following URL to get a new session token: https://api.icicidirect.com/apiuser/login?api_key=3088X_y892P%257c%23516%60r8i9kx2K485%268
+2025-05-22 21:10:23,944 - breeze_sdk_api - WARNING - Session expired, attempting to regenerate token
+2025-05-22 21:10:23,945 - breeze_sdk_api - INFO - Please login using the following URL to get a new session token: https://api.icicidirect.com/apiuser/login?api_key=3088X_y892P%257c%23516%60r8i9kx2K485%268
+2025-05-22 21:10:33,758 - breeze_sdk_api - WARNING - Session expired, attempting to regenerate token
+2025-05-22 21:10:33,759 - breeze_sdk_api - INFO - Please login using the following URL to get a new session token: https://api.icicidirect.com/apiuser/login?api_key=3088X_y892P%257c%23516%60r8i9kx2K485%268
+Session expired, attempting to regenerate token
+Please login using the following URL to get a new session token: https://api.icicidirect.com/apiuser/login?api_key=3088X_y892P%257c%23516%60r8i9kx2K485%268
+2025-05-22 21:16:22,818 - breeze_sdk_api - WARNING - Session expired, attempting to regenerate token
+2025-05-22 21:16:22,818 - breeze_sdk_api - INFO - Please login using the following URL to get a new session token: https://api.icicidirect.com/apiuser/login?api_key=3088X_y892P%257c%23516%60r8i9kx2K485%268
+2025-05-22 21:16:33,901 - breeze_sdk_api - WARNING - Session expired, attempting to regenerate token
+2025-05-22 21:16:33,901 - breeze_sdk_api - INFO - Please login using the following URL to get a new session token: https://api.icicidirect.com/apiuser/login?api_key=3088X_y892P%257c%23516%60r8i9kx2K485%268
+2025-05-22 21:22:41,360 - breeze_sdk_api - INFO - Successfully initialized Breeze API with credentials
+2025-05-22 21:22:41,361 - __main__ - INFO - Successfully initialized Breeze API
+2025-05-22 21:22:41,399 - fall_buy - ERROR - Error initializing Kite API: 'api_key'
+Traceback (most recent call last):
+  File "c:\Users\pkudithi\OneDrive - NVIDIA Corporation\Documents\GitHub\kiteconnect\code\fall_buy.py", line 42, in __init__
+    self.kite_api.connect()
+  File "c:\Users\pkudithi\OneDrive - NVIDIA Corporation\Documents\GitHub\kiteconnect\code\kite_connect_api.py", line 59, in connect
+    self.kite = initialize_kite()
+  File "c:\Users\pkudithi\OneDrive - NVIDIA Corporation\Documents\GitHub\kiteconnect\code\kite_utils.py", line 115, in initialize_kite
+    kite = KiteConnect(api_key=config['api_key'])
+KeyError: 'api_key'
+
+2025-05-22 21:22:41,400 - __main__ - ERROR - Unexpected error: 'api_key'
+Traceback (most recent call last):
+  File "c:\Users\pkudithi\OneDrive - NVIDIA Corporation\Documents\GitHub\kiteconnect\code\test_one_company.py", line 25, in main
+    fall_buy = FallBuy(exchange="NSE", stock_name=trading_symbol)
+  File "c:\Users\pkudithi\OneDrive - NVIDIA Corporation\Documents\GitHub\kiteconnect\code\fall_buy.py", line 42, in __init__
+    self.kite_api.connect()
+  File "c:\Users\pkudithi\OneDrive - NVIDIA Corporation\Documents\GitHub\kiteconnect\code\kite_connect_api.py", line 59, in connect
+    self.kite = initialize_kite()
+  File "c:\Users\pkudithi\OneDrive - NVIDIA Corporation\Documents\GitHub\kiteconnect\code\kite_utils.py", line 115, in initialize_kite
+    kite = KiteConnect(api_key=config['api_key'])
+KeyError: 'api_key'
+
+2025-05-22 21:23:29,585 - breeze_sdk_api - INFO - Successfully initialized Breeze API with credentials
+2025-05-22 21:23:29,586 - __main__ - INFO - Successfully initialized Breeze API
+2025-05-22 21:23:29,595 - fall_buy - ERROR - Error initializing Kite API: 'api_key'
+Traceback (most recent call last):
+  File "c:\Users\pkudithi\OneDrive - NVIDIA Corporation\Documents\GitHub\kiteconnect\code\fall_buy.py", line 42, in __init__
+    self.kite_api.connect()
+  File "c:\Users\pkudithi\OneDrive - NVIDIA Corporation\Documents\GitHub\kiteconnect\code\kite_connect_api.py", line 59, in connect
+    self.kite = initialize_kite()
+  File "c:\Users\pkudithi\OneDrive - NVIDIA Corporation\Documents\GitHub\kiteconnect\code\kite_utils.py", line 115, in initialize_kite
+    kite = KiteConnect(api_key=config['api_key'])
+KeyError: 'api_key'
+
+2025-05-22 21:23:29,596 - __main__ - ERROR - Unexpected error: 'api_key'
+Traceback (most recent call last):
+  File "c:\Users\pkudithi\OneDrive - NVIDIA Corporation\Documents\GitHub\kiteconnect\code\test_one_company.py", line 25, in main
+    fall_buy = FallBuy(exchange="NSE", stock_name=trading_symbol)
+  File "c:\Users\pkudithi\OneDrive - NVIDIA Corporation\Documents\GitHub\kiteconnect\code\fall_buy.py", line 42, in __init__
+    self.kite_api.connect()
+  File "c:\Users\pkudithi\OneDrive - NVIDIA Corporation\Documents\GitHub\kiteconnect\code\kite_connect_api.py", line 59, in connect
+    self.kite = initialize_kite()
+  File "c:\Users\pkudithi\OneDrive - NVIDIA Corporation\Documents\GitHub\kiteconnect\code\kite_utils.py", line 115, in initialize_kite
+    kite = KiteConnect(api_key=config['api_key'])
+KeyError: 'api_key'
+
+2025-05-22 21:24:13,990 - breeze_sdk_api - INFO - Successfully initialized Breeze API with credentials
+2025-05-22 21:24:13,990 - __main__ - INFO - Successfully initialized Breeze API
+2025-05-22 21:24:14,000 - fall_buy - ERROR - Error initializing Kite API: 'api_key'
+Traceback (most recent call last):
+  File "c:\Users\pkudithi\OneDrive - NVIDIA Corporation\Documents\GitHub\kiteconnect\code\fall_buy.py", line 43, in __init__
+    self.kite_api.connect()
+  File "c:\Users\pkudithi\OneDrive - NVIDIA Corporation\Documents\GitHub\kiteconnect\code\kite_connect_api.py", line 59, in connect
+    self.kite = initialize_kite()
+  File "c:\Users\pkudithi\OneDrive - NVIDIA Corporation\Documents\GitHub\kiteconnect\code\kite_utils.py", line 115, in initialize_kite
+    kite = KiteConnect(api_key=config['api_key'])
+KeyError: 'api_key'
+
+2025-05-22 21:24:14,001 - __main__ - ERROR - Unexpected error: 'api_key'
+Traceback (most recent call last):
+  File "c:\Users\pkudithi\OneDrive - NVIDIA Corporation\Documents\GitHub\kiteconnect\code\test_one_company.py", line 25, in main
+    fall_buy = FallBuy(exchange="NSE", stock_name=trading_symbol)
+  File "c:\Users\pkudithi\OneDrive - NVIDIA Corporation\Documents\GitHub\kiteconnect\code\fall_buy.py", line 43, in __init__
+    self.kite_api.connect()
+  File "c:\Users\pkudithi\OneDrive - NVIDIA Corporation\Documents\GitHub\kiteconnect\code\kite_connect_api.py", line 59, in connect
+    self.kite = initialize_kite()
+  File "c:\Users\pkudithi\OneDrive - NVIDIA Corporation\Documents\GitHub\kiteconnect\code\kite_utils.py", line 115, in initialize_kite
+    kite = KiteConnect(api_key=config['api_key'])
+KeyError: 'api_key'
+
+2025-05-22 21:54:16,849 - breeze_sdk_api - INFO - Successfully initialized Breeze API with credentials
+2025-05-22 21:54:16,850 - __main__ - INFO - Successfully initialized Breeze API
+2025-05-22 21:54:17,047 - fall_buy - INFO - Successfully initialized and connected to Kite API
+2025-05-22 21:54:17,048 - fall_buy - ERROR - Missing required trading parameters: initial_quantity, fall_percentage, rise_percentage
+2025-05-22 21:54:17,049 - fall_buy - ERROR - Error loading trading parameters: Missing required trading parameters: initial_quantity, fall_percentage, rise_percentage
+Traceback (most recent call last):
+  File "c:\Users\pkudithi\OneDrive - NVIDIA Corporation\Documents\GitHub\kiteconnect\code\fall_buy.py", line 76, in _load_trading_params
+    raise ValueError(error_msg)
+ValueError: Missing required trading parameters: initial_quantity, fall_percentage, rise_percentage
+
+2025-05-22 21:54:17,050 - __main__ - ERROR - Failed to initialize FallBuy strategy: Missing required trading parameters: initial_quantity, fall_percentage, rise_percentage
+Traceback (most recent call last):
+  File "c:\Users\pkudithi\OneDrive - NVIDIA Corporation\Documents\GitHub\kiteconnect\code\test_one_company.py", line 25, in main
+    fall_buy = FallBuy(exchange="NSE", stock_name=trading_symbol)
+  File "c:\Users\pkudithi\OneDrive - NVIDIA Corporation\Documents\GitHub\kiteconnect\code\fall_buy.py", line 50, in __init__
+    self.trading_params = self._load_trading_params()
+  File "c:\Users\pkudithi\OneDrive - NVIDIA Corporation\Documents\GitHub\kiteconnect\code\fall_buy.py", line 76, in _load_trading_params
+    raise ValueError(error_msg)
+ValueError: Missing required trading parameters: initial_quantity, fall_percentage, rise_percentage
+
+2025-05-22 22:11:27,350 - breeze_sdk_api - INFO - Successfully initialized Breeze API with credentials
+2025-05-22 22:11:27,350 - __main__ - INFO - Successfully initialized Breeze API
+2025-05-22 22:11:27,495 - fall_buy - INFO - Successfully initialized and connected to Kite API
+2025-05-22 22:11:27,495 - fall_buy - ERROR - Missing required trading parameters: sell, buy, start_buy, linear_from
+2025-05-22 22:11:27,496 - fall_buy - ERROR - Error loading trading parameters: Missing required trading parameters: sell, buy, start_buy, linear_from
+Traceback (most recent call last):
+  File "c:\Users\pkudithi\OneDrive - NVIDIA Corporation\Documents\GitHub\kiteconnect\code\fall_buy.py", line 76, in _load_trading_params
+    raise ValueError(error_msg)
+ValueError: Missing required trading parameters: sell, buy, start_buy, linear_from
+
+2025-05-22 22:11:27,497 - __main__ - ERROR - Failed to initialize FallBuy strategy: Missing required trading parameters: sell, buy, start_buy, linear_from
+Traceback (most recent call last):
+  File "c:\Users\pkudithi\OneDrive - NVIDIA Corporation\Documents\GitHub\kiteconnect\code\test_one_company.py", line 25, in main
+    fall_buy = FallBuy(exchange="NSE", stock_name=trading_symbol)
+  File "c:\Users\pkudithi\OneDrive - NVIDIA Corporation\Documents\GitHub\kiteconnect\code\fall_buy.py", line 50, in __init__
+    self.trading_params = self._load_trading_params()
+  File "c:\Users\pkudithi\OneDrive - NVIDIA Corporation\Documents\GitHub\kiteconnect\code\fall_buy.py", line 76, in _load_trading_params
+    raise ValueError(error_msg)
+ValueError: Missing required trading parameters: sell, buy, start_buy, linear_from
+
+2025-05-22 22:13:32,662 - breeze_sdk_api - INFO - Successfully initialized Breeze API with credentials
+2025-05-22 22:13:32,663 - __main__ - INFO - Successfully initialized Breeze API
+2025-05-22 22:13:32,897 - fall_buy - INFO - Successfully initialized and connected to Kite API
+2025-05-22 22:13:32,898 - fall_buy - INFO - {'access_token': '5QDzRNW2EVM2Qarnbcbf8dFQjTcUp7I5', 'api_key': 'ldhfjwk4z3wn9v9d', 'api_secret': 'k8ri5fj6wtn404iqq3bmt5ntdplubua1', 'redirect_url': 'http://localhost:8000/login', 'request_token': None}
+2025-05-22 22:13:32,898 - fall_buy - ERROR - Missing required trading parameters: sell, buy, start_buy, linear_from
+2025-05-22 22:13:32,900 - fall_buy - ERROR - Error loading trading parameters: Missing required trading parameters: sell, buy, start_buy, linear_from
+Traceback (most recent call last):
+  File "c:\Users\pkudithi\OneDrive - NVIDIA Corporation\Documents\GitHub\kiteconnect\code\fall_buy.py", line 77, in _load_trading_params
+    raise ValueError(error_msg)
+ValueError: Missing required trading parameters: sell, buy, start_buy, linear_from
+
+2025-05-22 22:13:32,901 - __main__ - ERROR - Failed to initialize FallBuy strategy: Missing required trading parameters: sell, buy, start_buy, linear_from
+Traceback (most recent call last):
+  File "c:\Users\pkudithi\OneDrive - NVIDIA Corporation\Documents\GitHub\kiteconnect\code\test_one_company.py", line 25, in main
+    fall_buy = FallBuy(exchange="NSE", stock_name=trading_symbol)
+  File "c:\Users\pkudithi\OneDrive - NVIDIA Corporation\Documents\GitHub\kiteconnect\code\fall_buy.py", line 50, in __init__
+    self.trading_params = self._load_trading_params()
+  File "c:\Users\pkudithi\OneDrive - NVIDIA Corporation\Documents\GitHub\kiteconnect\code\fall_buy.py", line 77, in _load_trading_params
+    raise ValueError(error_msg)
+ValueError: Missing required trading parameters: sell, buy, start_buy, linear_from
+
+2025-05-22 22:18:45,772 - breeze_sdk_api - INFO - Successfully initialized Breeze API with credentials
+2025-05-22 22:18:45,772 - __main__ - INFO - Successfully initialized Breeze API
+2025-05-22 22:18:45,949 - fall_buy - INFO - Successfully initialized and connected to Kite API
+2025-05-22 22:18:45,950 - fall_buy - INFO - {'kite_connect': {'access_token': '5QDzRNW2EVM2Qarnbcbf8dFQjTcUp7I5', 'api_key': 'ldhfjwk4z3wn9v9d', 'api_secret': 'k8ri5fj6wtn404iqq3bmt5ntdplubua1', 'redirect_url': 'http://localhost:8000/login', 'request_token': None}, 'breeze_api': {'api_token': '3088X_y892P%7c#516`r8i9kx2K485&8', 'secret_token': '530zM488$968889l8rD9a7S35(2984w1', 'session_id': '51589037'}, 'stratergy': {'sell': 0.5, 'buy': 1, 'start_buy': 1, 'linear_from': 2}}
+2025-05-22 22:18:45,950 - fall_buy - INFO - Initialized FallBuy strategy for ITC on NSE
+2025-05-22 22:18:45,950 - __main__ - INFO - Successfully initialized FallBuy strategy
+2025-05-22 22:18:46,407 - __main__ - INFO - Kite account details retrieved successfully
+2025-05-22 22:18:46,426 - breeze_sdk_api - ERROR - Error getting token name: 'BreezeConnect' object has no attribute 'get_token_name'
+Traceback (most recent call last):
+  File "c:\Users\pkudithi\OneDrive - NVIDIA Corporation\Documents\GitHub\kiteconnect\code\breeze_sdk_api.py", line 265, in get_icici_token_name
+    token = self.breeze.get_token_name(stock_code)
+AttributeError: 'BreezeConnect' object has no attribute 'get_token_name'
+
+2025-05-22 22:18:46,427 - __main__ - ERROR - Error in main execution: 'BreezeConnect' object has no attribute 'get_token_name'
+Traceback (most recent call last):
+  File "c:\Users\pkudithi\OneDrive - NVIDIA Corporation\Documents\GitHub\kiteconnect\code\test_one_company.py", line 38, in main
+    stock_token = breeze_api.get_icici_token_name(trading_symbol)
+  File "c:\Users\pkudithi\OneDrive - NVIDIA Corporation\Documents\GitHub\kiteconnect\code\breeze_sdk_api.py", line 265, in get_icici_token_name
+    token = self.breeze.get_token_name(stock_code)
+AttributeError: 'BreezeConnect' object has no attribute 'get_token_name'
+
+2025-05-22 22:23:48,302 - breeze_sdk_api - INFO - Successfully initialized Breeze API with credentials
+2025-05-22 22:23:48,303 - __main__ - INFO - Successfully initialized Breeze API
+2025-05-22 22:23:48,514 - fall_buy - INFO - Successfully initialized and connected to Kite API
+2025-05-22 22:23:48,514 - fall_buy - INFO - {'kite_connect': {'access_token': '5QDzRNW2EVM2Qarnbcbf8dFQjTcUp7I5', 'api_key': 'ldhfjwk4z3wn9v9d', 'api_secret': 'k8ri5fj6wtn404iqq3bmt5ntdplubua1', 'redirect_url': 'http://localhost:8000/login', 'request_token': None}, 'breeze_api': {'api_token': '3088X_y892P%7c#516`r8i9kx2K485&8', 'secret_token': '530zM488$968889l8rD9a7S35(2984w1', 'session_id': '51589037'}, 'stratergy': {'sell': 0.5, 'buy': 1, 'start_buy': 1, 'linear_from': 2}}
+2025-05-22 22:23:48,515 - fall_buy - INFO - Initialized FallBuy strategy for ITC on NSE
+2025-05-22 22:23:48,517 - __main__ - INFO - Successfully initialized FallBuy strategy
+2025-05-22 22:23:49,028 - __main__ - INFO - Kite account details retrieved successfully
+2025-05-22 22:23:49,183 - breeze_sdk_api - INFO - Got token name for ITC: 4.2!1660
+2025-05-22 22:23:49,184 - __main__ - INFO - Stock token: 4.2!1660
+2025-05-22 22:23:49,184 - __main__ - INFO - Successfully set up tick handler
+2025-05-22 22:23:49,185 - breeze_sdk_api - ERROR - Error subscribing to feed: 'NoneType' object has no attribute 'subscribe'
+Traceback (most recent call last):
+  File "c:\Users\pkudithi\OneDrive - NVIDIA Corporation\Documents\GitHub\kiteconnect\code\breeze_sdk_api.py", line 223, in subscribe_to_stock_feed
+    self.ws.subscribe(stock_token)
+AttributeError: 'NoneType' object has no attribute 'subscribe'
+
+2025-05-22 22:23:49,185 - __main__ - ERROR - Error in main execution: 'NoneType' object has no attribute 'subscribe'
+Traceback (most recent call last):
+  File "c:\Users\pkudithi\OneDrive - NVIDIA Corporation\Documents\GitHub\kiteconnect\code\test_one_company.py", line 46, in main
+    breeze_api.subscribe_to_stock_feed(stock_token)
+  File "c:\Users\pkudithi\OneDrive - NVIDIA Corporation\Documents\GitHub\kiteconnect\code\breeze_sdk_api.py", line 223, in subscribe_to_stock_feed
+    self.ws.subscribe(stock_token)
+AttributeError: 'NoneType' object has no attribute 'subscribe'
+
+2025-05-22 22:26:14,009 - breeze_sdk_api - INFO - Successfully initialized Breeze API with credentials
+2025-05-22 22:26:14,010 - __main__ - INFO - Successfully initialized Breeze API
+2025-05-22 22:26:14,186 - fall_buy - INFO - Successfully initialized and connected to Kite API
+2025-05-22 22:26:14,186 - fall_buy - INFO - {'kite_connect': {'access_token': '5QDzRNW2EVM2Qarnbcbf8dFQjTcUp7I5', 'api_key': 'ldhfjwk4z3wn9v9d', 'api_secret': 'k8ri5fj6wtn404iqq3bmt5ntdplubua1', 'redirect_url': 'http://localhost:8000/login', 'request_token': None}, 'breeze_api': {'api_token': '3088X_y892P%7c#516`r8i9kx2K485&8', 'secret_token': '530zM488$968889l8rD9a7S35(2984w1', 'session_id': '51589037'}, 'stratergy': {'sell': 0.5, 'buy': 1, 'start_buy': 1, 'linear_from': 2}}
+2025-05-22 22:26:14,187 - fall_buy - INFO - Initialized FallBuy strategy for ITC on NSE
+2025-05-22 22:26:14,187 - __main__ - INFO - Successfully initialized FallBuy strategy
+2025-05-22 22:26:14,738 - __main__ - INFO - Kite account details retrieved successfully
+2025-05-22 22:26:14,739 - breeze_sdk_api - ERROR - Error getting token name: 'NoneType' object has no attribute 'get_names'
+Traceback (most recent call last):
+  File "c:\Users\pkudithi\OneDrive - NVIDIA Corporation\Documents\GitHub\kiteconnect\code\breeze_sdk_api.py", line 277, in get_icici_token_name
+    token = self.breeze.get_names(stock_code=stock_code, exchange_code="NSE")
+AttributeError: 'NoneType' object has no attribute 'get_names'
+
+2025-05-22 22:26:14,740 - __main__ - ERROR - Error in main execution: 'NoneType' object has no attribute 'get_names'
+Traceback (most recent call last):
+  File "c:\Users\pkudithi\OneDrive - NVIDIA Corporation\Documents\GitHub\kiteconnect\code\test_one_company.py", line 38, in main
+    stock_token = breeze_api.get_icici_token_name(trading_symbol)
+  File "c:\Users\pkudithi\OneDrive - NVIDIA Corporation\Documents\GitHub\kiteconnect\code\breeze_sdk_api.py", line 277, in get_icici_token_name
+    token = self.breeze.get_names(stock_code=stock_code, exchange_code="NSE")
+AttributeError: 'NoneType' object has no attribute 'get_names'
+
+2025-05-22 22:28:03,117 - breeze_sdk_api - INFO - Successfully initialized Breeze API with credentials
+2025-05-22 22:28:03,118 - __main__ - INFO - Successfully initialized Breeze API
+2025-05-22 22:28:03,325 - fall_buy - INFO - Successfully initialized and connected to Kite API
+2025-05-22 22:28:03,325 - fall_buy - INFO - {'kite_connect': {'access_token': '5QDzRNW2EVM2Qarnbcbf8dFQjTcUp7I5', 'api_key': 'ldhfjwk4z3wn9v9d', 'api_secret': 'k8ri5fj6wtn404iqq3bmt5ntdplubua1', 'redirect_url': 'http://localhost:8000/login', 'request_token': None}, 'breeze_api': {'api_token': '3088X_y892P%7c#516`r8i9kx2K485&8', 'secret_token': '530zM488$968889l8rD9a7S35(2984w1', 'session_id': '51589037'}, 'stratergy': {'sell': 0.5, 'buy': 1, 'start_buy': 1, 'linear_from': 2}}
+2025-05-22 22:28:03,326 - fall_buy - INFO - Initialized FallBuy strategy for ITC on NSE
+2025-05-22 22:28:03,326 - __main__ - INFO - Successfully initialized FallBuy strategy
+2025-05-22 22:28:03,920 - __main__ - INFO - Kite account details retrieved successfully
+2025-05-22 22:28:04,016 - breeze_sdk_api - INFO - Got token name for ITC: 4.2!1660
+2025-05-22 22:28:04,016 - __main__ - INFO - Stock token: 4.2!1660
+2025-05-22 22:28:04,017 - __main__ - INFO - Successfully set up tick handler
+2025-05-22 22:28:04,017 - breeze_sdk_api - ERROR - Error subscribing to feed: 'BreezeConnect' object has no attribute 'subscribe'
+Traceback (most recent call last):
+  File "c:\Users\pkudithi\OneDrive - NVIDIA Corporation\Documents\GitHub\kiteconnect\code\breeze_sdk_api.py", line 219, in subscribe_to_stock_feed
+    self.breeze.subscribe(stock_token)
+AttributeError: 'BreezeConnect' object has no attribute 'subscribe'
+
+2025-05-22 22:28:04,018 - __main__ - ERROR - Error in main execution: 'BreezeConnect' object has no attribute 'subscribe'
+Traceback (most recent call last):
+  File "c:\Users\pkudithi\OneDrive - NVIDIA Corporation\Documents\GitHub\kiteconnect\code\test_one_company.py", line 46, in main
+    breeze_api.subscribe_to_stock_feed(stock_token)
+  File "c:\Users\pkudithi\OneDrive - NVIDIA Corporation\Documents\GitHub\kiteconnect\code\breeze_sdk_api.py", line 219, in subscribe_to_stock_feed
+    self.breeze.subscribe(stock_token)
+AttributeError: 'BreezeConnect' object has no attribute 'subscribe'
+
+2025-05-22 22:32:04,277 - __main__ - ERROR - Failed to initialize Breeze API: quote_from_bytes() expected bytes
+Traceback (most recent call last):
+  File "c:\Users\pkudithi\OneDrive - NVIDIA Corporation\Documents\GitHub\kiteconnect\code\test_one_company.py", line 17, in main
+    breeze_api = BreezeApi(symbol=trading_symbol)
+  File "c:\Users\pkudithi\OneDrive - NVIDIA Corporation\Documents\GitHub\kiteconnect\code\breeze_sdk_api.py", line 64, in __init__
+    self.get_session_token()
+  File "c:\Users\pkudithi\OneDrive - NVIDIA Corporation\Documents\GitHub\kiteconnect\code\breeze_sdk_api.py", line 104, in get_session_token
+    urllib.parse.quote_plus(self.app_key))
+  File "C:\Users\pkudithi\AppData\Local\Programs\Python\Python310\lib\urllib\parse.py", line 886, in quote_plus
+    string = quote(string, safe + space, encoding, errors)
+  File "C:\Users\pkudithi\AppData\Local\Programs\Python\Python310\lib\urllib\parse.py", line 870, in quote
+    return quote_from_bytes(string, safe)
+  File "C:\Users\pkudithi\AppData\Local\Programs\Python\Python310\lib\urllib\parse.py", line 895, in quote_from_bytes
+    raise TypeError("quote_from_bytes() expected bytes")
+TypeError: quote_from_bytes() expected bytes
+
+2025-05-22 22:32:45,382 - __main__ - ERROR - Failed to initialize Breeze API: quote_from_bytes() expected bytes
+Traceback (most recent call last):
+  File "c:\Users\pkudithi\OneDrive - NVIDIA Corporation\Documents\GitHub\kiteconnect\code\test_one_company.py", line 17, in main
+    breeze_api = BreezeApi(symbol=trading_symbol)
+  File "c:\Users\pkudithi\OneDrive - NVIDIA Corporation\Documents\GitHub\kiteconnect\code\breeze_sdk_api.py", line 64, in __init__
+    self.get_session_token()
+  File "c:\Users\pkudithi\OneDrive - NVIDIA Corporation\Documents\GitHub\kiteconnect\code\breeze_sdk_api.py", line 104, in get_session_token
+    urllib.parse.quote_plus(self.app_key))
+  File "C:\Users\pkudithi\AppData\Local\Programs\Python\Python310\lib\urllib\parse.py", line 886, in quote_plus
+    string = quote(string, safe + space, encoding, errors)
+  File "C:\Users\pkudithi\AppData\Local\Programs\Python\Python310\lib\urllib\parse.py", line 870, in quote
+    return quote_from_bytes(string, safe)
+  File "C:\Users\pkudithi\AppData\Local\Programs\Python\Python310\lib\urllib\parse.py", line 895, in quote_from_bytes
+    raise TypeError("quote_from_bytes() expected bytes")
+TypeError: quote_from_bytes() expected bytes
+
+2025-05-22 22:32:58,436 - breeze_sdk_api - INFO - Successfully initialized Breeze API with credentials
+2025-05-22 22:32:58,436 - __main__ - INFO - Successfully initialized Breeze API
+2025-05-22 22:32:58,622 - fall_buy - INFO - Successfully initialized and connected to Kite API
+2025-05-22 22:32:58,622 - fall_buy - INFO - {'kite_connect': {'access_token': '5QDzRNW2EVM2Qarnbcbf8dFQjTcUp7I5', 'api_key': 'ldhfjwk4z3wn9v9d', 'api_secret': 'k8ri5fj6wtn404iqq3bmt5ntdplubua1', 'redirect_url': 'http://localhost:8000/login', 'request_token': None}, 'breeze_api': {'api_token': '3088X_y892P%7c#516`r8i9kx2K485&8', 'secret_token': '530zM488$968889l8rD9a7S35(2984w1', 'session_id': '51589037'}, 'stratergy': {'sell': 0.5, 'buy': 1, 'start_buy': 1, 'linear_from': 2}}
+2025-05-22 22:32:58,623 - fall_buy - INFO - Initialized FallBuy strategy for ITC on NSE
+2025-05-22 22:32:58,623 - __main__ - INFO - Successfully initialized FallBuy strategy
+2025-05-22 22:32:59,244 - __main__ - INFO - Kite account details retrieved successfully
+2025-05-22 22:32:59,356 - breeze_sdk_api - INFO - Got token name for ITC: 4.2!1660
+2025-05-22 22:32:59,357 - __main__ - INFO - Stock token: 4.2!1660
+2025-05-22 22:32:59,357 - __main__ - INFO - Successfully set up tick handler
+2025-05-22 22:32:59,358 - breeze_sdk_api - ERROR - Error subscribing to feed: name 'pro' is not defined
+Traceback (most recent call last):
+  File "c:\Users\pkudithi\OneDrive - NVIDIA Corporation\Documents\GitHub\kiteconnect\code\breeze_sdk_api.py", line 219, in subscribe_to_stock_feed
+    self.breeze.subscribe_feeds(stock_token, pro)
+NameError: name 'pro' is not defined
+
+2025-05-22 22:32:59,359 - __main__ - ERROR - Error in main execution: name 'pro' is not defined
+Traceback (most recent call last):
+  File "c:\Users\pkudithi\OneDrive - NVIDIA Corporation\Documents\GitHub\kiteconnect\code\test_one_company.py", line 46, in main
+    breeze_api.subscribe_to_stock_feed(stock_token)
+  File "c:\Users\pkudithi\OneDrive - NVIDIA Corporation\Documents\GitHub\kiteconnect\code\breeze_sdk_api.py", line 219, in subscribe_to_stock_feed
+    self.breeze.subscribe_feeds(stock_token, pro)
+NameError: name 'pro' is not defined
+
+2025-05-22 22:33:38,998 - breeze_sdk_api - INFO - Successfully initialized Breeze API with credentials
+2025-05-22 22:33:38,998 - __main__ - INFO - Successfully initialized Breeze API
+2025-05-22 22:33:39,214 - fall_buy - INFO - Successfully initialized and connected to Kite API
+2025-05-22 22:33:39,215 - fall_buy - INFO - {'kite_connect': {'access_token': '5QDzRNW2EVM2Qarnbcbf8dFQjTcUp7I5', 'api_key': 'ldhfjwk4z3wn9v9d', 'api_secret': 'k8ri5fj6wtn404iqq3bmt5ntdplubua1', 'redirect_url': 'http://localhost:8000/login', 'request_token': None}, 'breeze_api': {'api_token': '3088X_y892P%7c#516`r8i9kx2K485&8', 'secret_token': '530zM488$968889l8rD9a7S35(2984w1', 'session_id': '51589037'}, 'stratergy': {'sell': 0.5, 'buy': 1, 'start_buy': 1, 'linear_from': 2}}
+2025-05-22 22:33:39,215 - fall_buy - INFO - Initialized FallBuy strategy for ITC on NSE
+2025-05-22 22:33:39,216 - __main__ - INFO - Successfully initialized FallBuy strategy
+2025-05-22 22:33:39,716 - __main__ - INFO - Kite account details retrieved successfully
+2025-05-22 22:33:39,877 - breeze_sdk_api - INFO - Got token name for ITC: 4.2!1660
+2025-05-22 22:33:39,878 - __main__ - INFO - Stock token: 4.2!1660
+2025-05-22 22:33:39,878 - __main__ - INFO - Successfully set up tick handler
+2025-05-22 22:33:40,117 - breeze_sdk_api - INFO - Successfully connected to WebSocket
+2025-05-22 22:33:40,118 - __main__ - INFO - Connected to Breeze WebSocket for live data
+2025-05-22 22:34:33,442 - breeze_sdk_api - INFO - Successfully initialized Breeze API with credentials
+2025-05-22 22:34:33,442 - __main__ - INFO - Successfully initialized Breeze API
+2025-05-22 22:34:33,655 - fall_buy - INFO - Successfully initialized and connected to Kite API
+2025-05-22 22:34:33,655 - fall_buy - INFO - {'kite_connect': {'access_token': '5QDzRNW2EVM2Qarnbcbf8dFQjTcUp7I5', 'api_key': 'ldhfjwk4z3wn9v9d', 'api_secret': 'k8ri5fj6wtn404iqq3bmt5ntdplubua1', 'redirect_url': 'http://localhost:8000/login', 'request_token': None}, 'breeze_api': {'api_token': '3088X_y892P%7c#516`r8i9kx2K485&8', 'secret_token': '530zM488$968889l8rD9a7S35(2984w1', 'session_id': '51589037'}, 'stratergy': {'sell': 0.5, 'buy': 1, 'start_buy': 1, 'linear_from': 2}}
+2025-05-22 22:34:33,655 - fall_buy - INFO - Initialized FallBuy strategy for ITC on NSE
+2025-05-22 22:34:33,656 - __main__ - INFO - Successfully initialized FallBuy strategy
+2025-05-22 22:34:34,183 - __main__ - INFO - Kite account details retrieved successfully
+2025-05-22 22:34:34,310 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'ITC', 'isec_stock_code': 'ITC', 'isec_token': '1660', 'company name': 'ITC LIMITED', 'isec_token_level1': '4.1!1660', 'isec_token_level2': '4.2!1660'}
+2025-05-22 23:28:51,201 - breeze_sdk_api - INFO - Successfully initialized Breeze API with credentials
+2025-05-22 23:28:51,202 - __main__ - INFO - Successfully initialized Breeze API
+2025-05-22 23:28:51,378 - fall_buy - INFO - Successfully initialized and connected to Kite API
+2025-05-22 23:28:51,378 - fall_buy - INFO - {'kite_connect': {'access_token': '5QDzRNW2EVM2Qarnbcbf8dFQjTcUp7I5', 'api_key': 'ldhfjwk4z3wn9v9d', 'api_secret': 'k8ri5fj6wtn404iqq3bmt5ntdplubua1', 'redirect_url': 'http://localhost:8000/login', 'request_token': None}, 'breeze_api': {'api_token': '3088X_y892P%7c#516`r8i9kx2K485&8', 'secret_token': '530zM488$968889l8rD9a7S35(2984w1', 'session_id': '51589037'}, 'stratergy': {'sell': 0.5, 'buy': 1, 'start_buy': 1, 'linear_from': 2}}
+2025-05-22 23:28:51,378 - fall_buy - INFO - Initialized FallBuy strategy for ITC on NSE
+2025-05-22 23:28:51,378 - __main__ - INFO - Successfully initialized FallBuy strategy
+2025-05-22 23:28:51,997 - __main__ - INFO - Kite account details retrieved successfully
+2025-05-22 23:28:52,097 - breeze_sdk_api - INFO - token = {'exchange_code': 'NSE', 'exchange_stock_code': 'ITC', 'isec_stock_code': 'ITC', 'isec_token': '1660', 'company name': 'ITC LIMITED', 'isec_token_level1': '4.1!1660', 'isec_token_level2': '4.2!1660'}
+2025-05-22 23:28:52,098 - breeze_sdk_api - INFO - Got token name for ITC: 4.2!1660
+2025-05-22 23:28:52,098 - __main__ - INFO - Stock token: 4.2!1660
+2025-05-22 23:28:52,098 - __main__ - INFO - Successfully set up tick handler
+2025-05-22 23:28:52,241 - breeze_sdk_api - INFO - Successfully connected to WebSocket
+2025-05-22 23:28:52,241 - __main__ - INFO - Connected to Breeze WebSocket for live data

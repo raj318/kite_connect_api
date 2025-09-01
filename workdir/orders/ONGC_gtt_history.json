@@ -1,0 +1,85 @@
+{
+    "company_name": "ONGC",
+    "last_updated": "2025-06-30T09:42:57.241776",
+    "gtt_orders": [
+        {
+            "trigger_id": 278097454,
+            "trading_symbol": "ONGC",
+            "exchange": "NSE",
+            "transaction_type": "SELL",
+            "quantity": 1,
+            "price": 260.55,
+            "trigger_price": 0,
+            "order_type": "LIMIT",
+            "validity": "DAY",
+            "date_placed": "2025-06-30T09:42:57.241776",
+            "status": "active"
+        },
+        {
+            "trigger_id": 278075503,
+            "trading_symbol": "ONGC",
+            "exchange": "NSE",
+            "transaction_type": "BUY",
+            "quantity": 6,
+            "price": 228,
+            "trigger_price": 0,
+            "order_type": "LIMIT",
+            "validity": "DAY",
+            "date_placed": "2025-06-30T09:42:57.241776",
+            "status": "active"
+        },
+        {
+            "trigger_id": 278021230,
+            "trading_symbol": "ONGC",
+            "exchange": "NSE",
+            "transaction_type": "BUY",
+            "quantity": 5,
+            "price": 232.63,
+            "trigger_price": 0,
+            "order_type": "LIMIT",
+            "validity": "DAY",
+            "date_placed": "2025-06-30T09:42:57.241776",
+            "status": "active"
+        },
+        {
+            "trigger_id": 278021229,
+            "trading_symbol": "ONGC",
+            "exchange": "NSE",
+            "transaction_type": "BUY",
+            "quantity": 4,
+            "price": 234.96,
+            "trigger_price": 0,
+            "order_type": "LIMIT",
+            "validity": "DAY",
+            "date_placed": "2025-06-30T09:42:57.241776",
+            "status": "active"
+        },
+        {
+            "trigger_id": 278021228,
+            "trading_symbol": "ONGC",
+            "exchange": "NSE",
+            "transaction_type": "BUY",
+            "quantity": 3,
+            "price": 237.31,
+            "trigger_price": 0,
+            "order_type": "LIMIT",
+            "validity": "DAY",
+            "date_placed": "2025-06-30T09:42:57.241776",
+            "status": "active"
+        },
+        {
+            "trigger_id": 278021226,
+            "trading_symbol": "ONGC",
+            "exchange": "NSE",
+            "transaction_type": "BUY",
+            "quantity": 2,
+            "price": 239.69,
+            "trigger_price": 0,
+            "order_type": "LIMIT",
+            "validity": "DAY",
+            "date_placed": "2025-06-30T09:42:57.241776",
+            "status": "active"
+        }
+    ],
+    "total_orders": 6
+}

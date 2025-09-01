@@ -1,0 +1,73 @@
+{
+    "stock_name": "HINDALCO",
+    "exchange": "NSE",
+    "last_updated": "2025-05-29T15:30:09.969182",
+    "first_share_price": 665.75,
+    "placed_orders": [
+        {
+            "order_id": "250526120007108",
+            "quantity": 1,
+            "price": 665.75,
+            "date": "2025-05-26 09:30:17",
+            "type": "buy"
+        },
+        {
+            "order_id": "250526120019820",
+            "quantity": 4,
+            "price": 659,
+            "date": "2025-05-26 11:00:38",
+            "type": "buy"
+        },
+        {
+            "order_id": "250528120023567",
+            "quantity": 9,
+            "price": 651.8,
+            "date": "2025-05-28 11:42:19",
+            "type": "buy"
+        },
+        {
+            "order_id": "250530120006690",
+            "quantity": 4,
+            "price": 644.95,
+            "date": "2025-05-28 11:42:19",
+            "type": "buy"
+        },
+        {
+            "order_id": "250530120006690",
+            "quantity": 5,
+            "price": 638.5,
+            "date": "2025-05-28 11:42:19",
+            "type": "buy"
+        }
+    ],
+    "pending_orders": [],
+    "failed_orders": [
+        {
+            "order_id": "250529120004010",
+            "quantity": 4,
+            "price": 645.1,
+            "date": "2025-05-29 15:30:09",
+            "type": "buy",
+            "error": "Order cancelled due to market hours end"
+        }
+    ],
+    "history": [
+        [
+            {
+                "order_id": "250526120003157",
+                "quantity": 1,
+                "price": 659.05,
+                "date": "2025-05-26 09:17:51",
+                "type": "buy"
+            },
+            {
+                "order_id": "250526120007064",
+                "quantity": 1,
+                "price": 665.7,
+                "date": "2025-05-26 09:30:16",
+                "type": "sell"
+            }
+        ]
+    ],
+    "positions": []
+}
