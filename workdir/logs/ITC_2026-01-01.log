@@ -1,0 +1,189 @@
+2026-01-01 21:26:59,868 - __main__ - INFO - Using order_count from config: 10
+2026-01-01 21:26:59,868 - __main__ - INFO - Price difference configured: 0.5%
+2026-01-01 21:26:59,868 - __main__ - INFO - Start quantity configured: 24
+2026-01-01 21:26:59,868 - __main__ - INFO - Initializing Hybrid Order Scheduler for ITC
+2026-01-01 21:26:59,868 - __main__ - INFO - Order count: 10, Current price: Rs.362.00, Max quantity: 100
+2026-01-01 21:26:59,868 - __main__ - INFO - Price difference: 0.5%
+2026-01-01 21:26:59,869 - __main__ - INFO - Configuration loaded successfully
+2026-01-01 21:26:59,870 - __main__ - INFO - Starting hybrid order scheduling process
+2026-01-01 21:27:32,982 - __main__ - INFO - Using order_count from config: 10
+2026-01-01 21:27:32,983 - __main__ - INFO - Price difference configured: 0.5%
+2026-01-01 21:27:32,983 - __main__ - INFO - Start quantity configured: 24
+2026-01-01 21:27:32,983 - __main__ - INFO - Initializing Hybrid Order Scheduler for ITC
+2026-01-01 21:27:32,983 - __main__ - INFO - Order count: 10, Current price: Rs.362.00, Max quantity: 100
+2026-01-01 21:27:32,983 - __main__ - INFO - Price difference: 0.5%
+2026-01-01 21:27:32,983 - __main__ - INFO - Configuration loaded successfully
+2026-01-01 21:27:32,984 - __main__ - INFO - Starting hybrid order scheduling process
+2026-01-01 21:27:33,093 - __main__ - INFO - Successfully connected to Kite Connect
+2026-01-01 21:27:33,093 - __main__ - WARNING - pytz not available, assuming market is closed - will use LIMIT order for first order
+2026-01-01 21:27:33,093 - __main__ - INFO - Using provided current price as base: Rs.362.00
+2026-01-01 21:27:33,093 - __main__ - INFO - Market is closed - skipping first order and starting with GTT orders
+2026-01-01 21:27:33,093 - __main__ - INFO - Order 1: SKIPPED (Market closed - AMO not supported)
+2026-01-01 21:27:33,093 - __main__ - INFO - Order 2: Price: Rs.361.55, Trigger: Rs.361.19, Type: GTT ORDER, Quantity: 24, Value: Rs.8677.14
+2026-01-01 21:27:33,093 - __main__ - INFO - Order 3: Price: Rs.359.74, Trigger: Rs.359.38, Type: GTT ORDER, Quantity: 25, Value: Rs.8993.44
+2026-01-01 21:27:33,093 - __main__ - INFO - Order 4: Price: Rs.357.93, Trigger: Rs.357.57, Type: GTT ORDER, Quantity: 26, Value: Rs.9306.11
+2026-01-01 21:27:33,093 - __main__ - INFO - Order 5: Price: Rs.356.12, Trigger: Rs.355.76, Type: GTT ORDER, Quantity: 27, Value: Rs.9615.17
+2026-01-01 21:27:33,093 - __main__ - INFO - Order 6: Price: Rs.354.31, Trigger: Rs.353.95, Type: GTT ORDER, Quantity: 28, Value: Rs.9920.61
+2026-01-01 21:27:33,093 - __main__ - INFO - Order 7: Price: Rs.352.50, Trigger: Rs.352.15, Type: GTT ORDER, Quantity: 29, Value: Rs.10222.43
+2026-01-01 21:27:33,093 - __main__ - INFO - Order 8: Price: Rs.350.69, Trigger: Rs.350.34, Type: GTT ORDER, Quantity: 30, Value: Rs.10520.62
+2026-01-01 21:27:33,093 - __main__ - INFO - Order 9: Price: Rs.348.88, Trigger: Rs.348.53, Type: GTT ORDER, Quantity: 31, Value: Rs.10815.20
+2026-01-01 21:27:33,093 - __main__ - INFO - Order 10: Price: Rs.347.07, Trigger: Rs.346.72, Type: GTT ORDER, Quantity: 32, Value: Rs.11106.16
+2026-01-01 21:35:54,609 - __main__ - INFO - Order placement cancelled by user
+2026-01-01 21:35:57,076 - __main__ - INFO - Using order_count from config: 10
+2026-01-01 21:35:57,076 - __main__ - INFO - Price difference configured: 0.5%
+2026-01-01 21:35:57,076 - __main__ - INFO - Start quantity configured: 24
+2026-01-01 21:35:57,076 - __main__ - INFO - Initializing Hybrid Order Scheduler for ITC
+2026-01-01 21:35:57,077 - __main__ - INFO - Order count: 10, Current price: Rs.362.00, Max quantity: 100
+2026-01-01 21:35:57,077 - __main__ - INFO - Price difference: 0.5%
+2026-01-01 21:35:57,077 - __main__ - INFO - Configuration loaded successfully
+2026-01-01 21:35:57,078 - __main__ - INFO - Starting hybrid order scheduling process
+2026-01-01 21:35:57,220 - __main__ - INFO - Successfully connected to Kite Connect
+2026-01-01 21:35:57,220 - __main__ - WARNING - pytz not available, assuming market is closed - will use LIMIT order for first order
+2026-01-01 21:35:57,220 - __main__ - INFO - Using provided current price as base: Rs.362.00
+2026-01-01 21:35:57,220 - __main__ - INFO - Market is closed - skipping first order and starting with GTT orders
+2026-01-01 21:35:57,220 - __main__ - INFO - Order 1: SKIPPED (Market closed - AMO not supported)
+2026-01-01 21:35:57,220 - __main__ - INFO - Order 2: Price: Rs.361.55, Trigger: Rs.361.19, Type: GTT ORDER, Quantity: 24, Value: Rs.8677.14
+2026-01-01 21:35:57,220 - __main__ - INFO - Order 3: Price: Rs.359.74, Trigger: Rs.359.38, Type: GTT ORDER, Quantity: 25, Value: Rs.8993.44
+2026-01-01 21:35:57,220 - __main__ - INFO - Order 4: Price: Rs.357.93, Trigger: Rs.357.57, Type: GTT ORDER, Quantity: 26, Value: Rs.9306.11
+2026-01-01 21:35:57,220 - __main__ - INFO - Order 5: Price: Rs.356.12, Trigger: Rs.355.76, Type: GTT ORDER, Quantity: 27, Value: Rs.9615.17
+2026-01-01 21:35:57,220 - __main__ - INFO - Order 6: Price: Rs.354.31, Trigger: Rs.353.95, Type: GTT ORDER, Quantity: 28, Value: Rs.9920.61
+2026-01-01 21:35:57,220 - __main__ - INFO - Order 7: Price: Rs.352.50, Trigger: Rs.352.15, Type: GTT ORDER, Quantity: 29, Value: Rs.10222.43
+2026-01-01 21:35:57,220 - __main__ - INFO - Order 8: Price: Rs.350.69, Trigger: Rs.350.34, Type: GTT ORDER, Quantity: 30, Value: Rs.10520.62
+2026-01-01 21:35:57,220 - __main__ - INFO - Order 9: Price: Rs.348.88, Trigger: Rs.348.53, Type: GTT ORDER, Quantity: 31, Value: Rs.10815.20
+2026-01-01 21:35:57,220 - __main__ - INFO - Order 10: Price: Rs.347.07, Trigger: Rs.346.72, Type: GTT ORDER, Quantity: 32, Value: Rs.11106.16
+2026-01-01 21:37:07,398 - __main__ - INFO - Order placement cancelled by user
+2026-01-01 21:38:46,932 - __main__ - INFO - Using order_count from config: 10
+2026-01-01 21:38:46,932 - __main__ - INFO - Price difference configured: 0.5%
+2026-01-01 21:38:46,932 - __main__ - INFO - Start quantity configured: 24
+2026-01-01 21:38:46,932 - __main__ - INFO - Initializing Hybrid Order Scheduler for ITC
+2026-01-01 21:38:46,932 - __main__ - INFO - Order count: 10, Current price: Rs.362.00, Max quantity: 100
+2026-01-01 21:38:46,932 - __main__ - INFO - Price difference: 0.5%
+2026-01-01 21:38:46,933 - __main__ - INFO - Configuration loaded successfully
+2026-01-01 21:38:46,934 - __main__ - INFO - Starting hybrid order scheduling process
+2026-01-01 21:38:47,078 - __main__ - INFO - Successfully connected to Kite Connect
+2026-01-01 21:38:47,078 - __main__ - WARNING - pytz not available, assuming market is closed - will use LIMIT order for first order
+2026-01-01 21:38:47,078 - __main__ - INFO - Using provided current price as base: Rs.362.00
+2026-01-01 21:38:47,079 - __main__ - INFO - Market is closed - skipping first order and starting with GTT orders
+2026-01-01 21:38:47,079 - __main__ - INFO - Order 1: SKIPPED (Market closed - AMO not supported)
+2026-01-01 21:38:47,079 - __main__ - INFO - Order 2: Price: Rs.361.50, Trigger: Rs.361.20, Type: GTT ORDER, Quantity: 24, Value: Rs.8677.10
+2026-01-01 21:38:47,079 - __main__ - INFO - Order 3: Price: Rs.359.70, Trigger: Rs.359.40, Type: GTT ORDER, Quantity: 25, Value: Rs.8993.40
+2026-01-01 21:38:47,079 - __main__ - INFO - Order 4: Price: Rs.357.90, Trigger: Rs.357.60, Type: GTT ORDER, Quantity: 26, Value: Rs.9306.10
+2026-01-01 21:38:47,079 - __main__ - INFO - Order 5: Price: Rs.356.10, Trigger: Rs.355.80, Type: GTT ORDER, Quantity: 27, Value: Rs.9615.20
+2026-01-01 21:38:47,079 - __main__ - INFO - Order 6: Price: Rs.354.30, Trigger: Rs.354.00, Type: GTT ORDER, Quantity: 28, Value: Rs.9920.60
+2026-01-01 21:38:47,079 - __main__ - INFO - Order 7: Price: Rs.352.50, Trigger: Rs.352.10, Type: GTT ORDER, Quantity: 29, Value: Rs.10222.40
+2026-01-01 21:38:47,079 - __main__ - INFO - Order 8: Price: Rs.350.70, Trigger: Rs.350.30, Type: GTT ORDER, Quantity: 30, Value: Rs.10520.60
+2026-01-01 21:38:47,079 - __main__ - INFO - Order 9: Price: Rs.348.90, Trigger: Rs.348.50, Type: GTT ORDER, Quantity: 31, Value: Rs.10815.20
+2026-01-01 21:38:47,079 - __main__ - INFO - Order 10: Price: Rs.347.10, Trigger: Rs.346.70, Type: GTT ORDER, Quantity: 32, Value: Rs.11106.20
+2026-01-01 21:41:31,083 - __main__ - INFO - Order placement cancelled by user
+2026-01-01 21:41:39,265 - __main__ - INFO - Using order_count from config: 10
+2026-01-01 21:41:39,265 - __main__ - INFO - Price difference configured: 0.5%
+2026-01-01 21:41:39,265 - __main__ - INFO - Start quantity configured: 24
+2026-01-01 21:41:39,265 - __main__ - INFO - Initializing Hybrid Order Scheduler for ITC
+2026-01-01 21:41:39,265 - __main__ - INFO - Order count: 10, Current price: Rs.360.00, Max quantity: 100
+2026-01-01 21:41:39,265 - __main__ - INFO - Price difference: 0.5%
+2026-01-01 21:41:39,266 - __main__ - INFO - Configuration loaded successfully
+2026-01-01 21:41:39,266 - __main__ - INFO - Starting hybrid order scheduling process
+2026-01-01 21:41:39,400 - __main__ - INFO - Successfully connected to Kite Connect
+2026-01-01 21:41:39,400 - __main__ - WARNING - pytz not available, assuming market is closed - will use LIMIT order for first order
+2026-01-01 21:41:39,400 - __main__ - INFO - Using provided current price as base: Rs.360.00
+2026-01-01 21:41:39,400 - __main__ - INFO - Market is closed - skipping first order and starting with GTT orders
+2026-01-01 21:41:39,400 - __main__ - INFO - Order 1: SKIPPED (Market closed - AMO not supported)
+2026-01-01 21:41:39,400 - __main__ - INFO - Order 2: Price: Rs.359.60, Trigger: Rs.359.20, Type: GTT ORDER, Quantity: 24, Value: Rs.8629.20
+2026-01-01 21:41:39,400 - __main__ - INFO - Order 3: Price: Rs.357.80, Trigger: Rs.357.40, Type: GTT ORDER, Quantity: 25, Value: Rs.8943.80
+2026-01-01 21:41:39,401 - __main__ - INFO - Order 4: Price: Rs.355.90, Trigger: Rs.355.60, Type: GTT ORDER, Quantity: 26, Value: Rs.9254.70
+2026-01-01 21:41:39,401 - __main__ - INFO - Order 5: Price: Rs.354.10, Trigger: Rs.353.80, Type: GTT ORDER, Quantity: 27, Value: Rs.9562.00
+2026-01-01 21:41:39,401 - __main__ - INFO - Order 6: Price: Rs.352.40, Trigger: Rs.352.00, Type: GTT ORDER, Quantity: 28, Value: Rs.9865.80
+2026-01-01 21:41:39,401 - __main__ - INFO - Order 7: Price: Rs.350.60, Trigger: Rs.350.20, Type: GTT ORDER, Quantity: 29, Value: Rs.10166.00
+2026-01-01 21:41:39,401 - __main__ - INFO - Order 8: Price: Rs.348.80, Trigger: Rs.348.40, Type: GTT ORDER, Quantity: 30, Value: Rs.10462.50
+2026-01-01 21:41:39,401 - __main__ - INFO - Order 9: Price: Rs.346.90, Trigger: Rs.346.60, Type: GTT ORDER, Quantity: 31, Value: Rs.10755.40
+2026-01-01 21:41:39,401 - __main__ - INFO - Order 10: Price: Rs.345.10, Trigger: Rs.344.80, Type: GTT ORDER, Quantity: 32, Value: Rs.11044.80
+2026-01-01 21:52:18,442 - __main__ - INFO - Placing orders...
+2026-01-01 21:52:18,442 - __main__ - INFO - Skipping order 1 - Market closed, AMO not supported
+2026-01-01 21:52:18,442 - __main__ - INFO - Order 1 skipped successfully
+2026-01-01 21:52:18,442 - __main__ - INFO - Placing GTT order 2 for ITC
+2026-01-01 21:52:18,649 - __main__ - INFO - GTT order 2 placed successfully with trigger ID: 300372411
+2026-01-01 21:52:18,650 - __main__ - INFO - Placing GTT order 3 for ITC
+2026-01-01 21:52:18,853 - __main__ - INFO - GTT order 3 placed successfully with trigger ID: 300372412
+2026-01-01 21:52:18,853 - __main__ - INFO - Placing GTT order 4 for ITC
+2026-01-01 21:52:19,058 - __main__ - INFO - GTT order 4 placed successfully with trigger ID: 300372413
+2026-01-01 21:52:19,058 - __main__ - INFO - Placing GTT order 5 for ITC
+2026-01-01 21:52:19,262 - __main__ - INFO - GTT order 5 placed successfully with trigger ID: 300372414
+2026-01-01 21:52:19,262 - __main__ - INFO - Placing GTT order 6 for ITC
+2026-01-01 21:52:19,469 - __main__ - INFO - GTT order 6 placed successfully with trigger ID: 300372415
+2026-01-01 21:52:19,469 - __main__ - INFO - Placing GTT order 7 for ITC
+2026-01-01 21:52:19,656 - __main__ - INFO - GTT order 7 placed successfully with trigger ID: 300372416
+2026-01-01 21:52:19,656 - __main__ - INFO - Placing GTT order 8 for ITC
+2026-01-01 21:52:19,860 - __main__ - INFO - GTT order 8 placed successfully with trigger ID: 300372417
+2026-01-01 21:52:19,860 - __main__ - INFO - Placing GTT order 9 for ITC
+2026-01-01 21:52:20,057 - __main__ - INFO - GTT order 9 placed successfully with trigger ID: 300372418
+2026-01-01 21:52:20,057 - __main__ - INFO - Placing GTT order 10 for ITC
+2026-01-01 21:52:20,256 - __main__ - INFO - GTT order 10 placed successfully with trigger ID: 300372419
+2026-01-01 21:52:20,257 - __main__ - INFO - Order summary saved to workdir/orders/ITC_gtt_orders_20260101_215220.json
+2026-01-01 21:52:20,257 - __main__ - INFO - Hybrid order scheduling process completed successfully
+2026-01-01 22:08:28,778 - __main__ - INFO - Using order_count from config: 10
+2026-01-01 22:08:28,778 - __main__ - INFO - Price difference configured: 1.0%
+2026-01-01 22:08:28,778 - __main__ - INFO - Start quantity configured: 24
+2026-01-01 22:08:28,778 - __main__ - INFO - Initializing Hybrid Order Scheduler for ITC
+2026-01-01 22:08:28,778 - __main__ - INFO - Order count: 10, Current price: Rs.360.00, Max quantity: 100
+2026-01-01 22:08:28,778 - __main__ - INFO - Price difference: 1.0%
+2026-01-01 22:08:28,779 - __main__ - INFO - Configuration loaded successfully
+2026-01-01 22:08:28,779 - __main__ - INFO - Starting hybrid order scheduling process
+2026-01-01 22:08:28,914 - __main__ - INFO - Successfully connected to Kite Connect
+2026-01-01 22:08:28,914 - __main__ - WARNING - pytz not available, assuming market is closed - will use LIMIT order for first order
+2026-01-01 22:08:28,914 - __main__ - INFO - Using provided current price as base: Rs.360.00
+2026-01-01 22:08:28,914 - __main__ - INFO - Market is closed - skipping first order and starting with GTT orders
+2026-01-01 22:08:28,914 - __main__ - INFO - Order 1: SKIPPED (Market closed - AMO not supported)
+2026-01-01 22:08:28,914 - __main__ - INFO - Order 2: Price: Rs.359.10, Trigger: Rs.358.70, Type: GTT ORDER, Quantity: 24, Value: Rs.8618.40
+2026-01-01 22:08:28,914 - __main__ - INFO - Order 3: Price: Rs.355.50, Trigger: Rs.355.10, Type: GTT ORDER, Quantity: 25, Value: Rs.8887.50
+2026-01-01 22:08:28,914 - __main__ - INFO - Order 4: Price: Rs.351.90, Trigger: Rs.351.50, Type: GTT ORDER, Quantity: 26, Value: Rs.9149.40
+2026-01-01 22:08:28,914 - __main__ - INFO - Order 5: Price: Rs.348.30, Trigger: Rs.348.00, Type: GTT ORDER, Quantity: 27, Value: Rs.9404.10
+2026-01-01 22:08:28,914 - __main__ - INFO - Order 6: Price: Rs.344.70, Trigger: Rs.344.40, Type: GTT ORDER, Quantity: 28, Value: Rs.9651.60
+2026-01-01 22:08:28,914 - __main__ - INFO - Order 7: Price: Rs.341.10, Trigger: Rs.340.80, Type: GTT ORDER, Quantity: 29, Value: Rs.9891.90
+2026-01-01 22:08:28,914 - __main__ - INFO - Order 8: Price: Rs.337.50, Trigger: Rs.337.20, Type: GTT ORDER, Quantity: 30, Value: Rs.10125.00
+2026-01-01 22:08:28,914 - __main__ - INFO - Order 9: Price: Rs.333.90, Trigger: Rs.333.60, Type: GTT ORDER, Quantity: 31, Value: Rs.10350.90
+2026-01-01 22:08:28,914 - __main__ - INFO - Order 10: Price: Rs.330.30, Trigger: Rs.330.00, Type: GTT ORDER, Quantity: 32, Value: Rs.10569.60
+2026-01-01 22:08:55,416 - __main__ - INFO - Using order_count from config: 10
+2026-01-01 22:08:55,416 - __main__ - INFO - Price difference configured: 1.0%
+2026-01-01 22:08:55,416 - __main__ - INFO - Start quantity configured: 24
+2026-01-01 22:08:55,416 - __main__ - INFO - Initializing Hybrid Order Scheduler for ITC
+2026-01-01 22:08:55,416 - __main__ - INFO - Order count: 10, Current price: Rs.360.00, Max quantity: 100
+2026-01-01 22:08:55,416 - __main__ - INFO - Price difference: 1.0%
+2026-01-01 22:08:55,417 - __main__ - INFO - Configuration loaded successfully
+2026-01-01 22:08:55,417 - __main__ - INFO - Starting hybrid order scheduling process
+2026-01-01 22:08:55,548 - __main__ - INFO - Successfully connected to Kite Connect
+2026-01-01 22:08:55,548 - __main__ - WARNING - pytz not available, assuming market is closed - will use LIMIT order for first order
+2026-01-01 22:08:55,548 - __main__ - INFO - Using provided current price as base: Rs.360.00
+2026-01-01 22:08:55,548 - __main__ - INFO - Market is closed - skipping first order and starting with GTT orders
+2026-01-01 22:08:55,548 - __main__ - INFO - Order 1: SKIPPED (Market closed - AMO not supported)
+2026-01-01 22:08:55,548 - __main__ - INFO - Order 2: Price: Rs.359.10, Trigger: Rs.358.70, Type: GTT ORDER, Quantity: 24, Value: Rs.8618.40
+2026-01-01 22:08:55,548 - __main__ - INFO - Order 3: Price: Rs.355.50, Trigger: Rs.355.10, Type: GTT ORDER, Quantity: 25, Value: Rs.8887.50
+2026-01-01 22:08:55,548 - __main__ - INFO - Order 4: Price: Rs.351.90, Trigger: Rs.351.50, Type: GTT ORDER, Quantity: 26, Value: Rs.9149.40
+2026-01-01 22:08:55,548 - __main__ - INFO - Order 5: Price: Rs.348.30, Trigger: Rs.348.00, Type: GTT ORDER, Quantity: 27, Value: Rs.9404.10
+2026-01-01 22:08:55,548 - __main__ - INFO - Order 6: Price: Rs.344.70, Trigger: Rs.344.40, Type: GTT ORDER, Quantity: 28, Value: Rs.9651.60
+2026-01-01 22:08:55,548 - __main__ - INFO - Order 7: Price: Rs.341.10, Trigger: Rs.340.80, Type: GTT ORDER, Quantity: 29, Value: Rs.9891.90
+2026-01-01 22:08:55,548 - __main__ - INFO - Order 8: Price: Rs.337.50, Trigger: Rs.337.20, Type: GTT ORDER, Quantity: 30, Value: Rs.10125.00
+2026-01-01 22:08:55,548 - __main__ - INFO - Order 9: Price: Rs.333.90, Trigger: Rs.333.60, Type: GTT ORDER, Quantity: 31, Value: Rs.10350.90
+2026-01-01 22:08:55,548 - __main__ - INFO - Order 10: Price: Rs.330.30, Trigger: Rs.330.00, Type: GTT ORDER, Quantity: 32, Value: Rs.10569.60
+2026-01-01 22:08:58,920 - __main__ - INFO - Placing orders...
+2026-01-01 22:08:58,920 - __main__ - INFO - Skipping order 1 - Market closed, AMO not supported
+2026-01-01 22:08:58,920 - __main__ - INFO - Order 1 skipped successfully
+2026-01-01 22:08:58,920 - __main__ - INFO - Placing GTT order 2 for ITC
+2026-01-01 22:08:59,119 - __main__ - INFO - GTT order 2 placed successfully with trigger ID: 300373383
+2026-01-01 22:08:59,119 - __main__ - INFO - Placing GTT order 3 for ITC
+2026-01-01 22:08:59,312 - __main__ - INFO - GTT order 3 placed successfully with trigger ID: 300373384
+2026-01-01 22:08:59,312 - __main__ - INFO - Placing GTT order 4 for ITC
+2026-01-01 22:08:59,505 - __main__ - INFO - GTT order 4 placed successfully with trigger ID: 300373385
+2026-01-01 22:08:59,505 - __main__ - INFO - Placing GTT order 5 for ITC
+2026-01-01 22:08:59,700 - __main__ - INFO - GTT order 5 placed successfully with trigger ID: 300373386
+2026-01-01 22:08:59,700 - __main__ - INFO - Placing GTT order 6 for ITC
+2026-01-01 22:08:59,900 - __main__ - INFO - GTT order 6 placed successfully with trigger ID: 300373388
+2026-01-01 22:08:59,900 - __main__ - INFO - Placing GTT order 7 for ITC
+2026-01-01 22:09:00,087 - __main__ - INFO - GTT order 7 placed successfully with trigger ID: 300373389
+2026-01-01 22:09:00,087 - __main__ - INFO - Placing GTT order 8 for ITC
+2026-01-01 22:09:00,291 - __main__ - INFO - GTT order 8 placed successfully with trigger ID: 300373390
+2026-01-01 22:09:00,291 - __main__ - INFO - Placing GTT order 9 for ITC
+2026-01-01 22:09:00,514 - __main__ - INFO - GTT order 9 placed successfully with trigger ID: 300373391
+2026-01-01 22:09:00,514 - __main__ - INFO - Placing GTT order 10 for ITC
+2026-01-01 22:09:00,718 - __main__ - INFO - GTT order 10 placed successfully with trigger ID: 300373392
+2026-01-01 22:09:00,719 - __main__ - INFO - Order summary saved to workdir/orders/ITC_gtt_orders_20260101_220900.json
+2026-01-01 22:09:00,719 - __main__ - INFO - Hybrid order scheduling process completed successfully

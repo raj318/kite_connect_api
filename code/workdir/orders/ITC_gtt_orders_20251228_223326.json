@@ -1,0 +1,68 @@
+{
+  "company_symbol": "ITC",
+  "order_count": 5,
+  "actual_orders_placed": 4,
+  "quantity_strategy": "Progressive (2, 3, 4, 5, ...)",
+  "price_difference_percent": 0.3,
+  "order_strategy": "GTT orders starting from lower price (first order skipped due to market closed)",
+  "market_status": "CLOSED",
+  "max_quantity": 100,
+  "base_price": 403.7,
+  "total_quantity": 14,
+  "total_value": 5620.23,
+  "orders": [
+    {
+      "order_number": 1,
+      "order_price": 403.7,
+      "trigger_price": 403.29,
+      "quantity": 2,
+      "total_value": 807.39,
+      "order_type": "GTT",
+      "order_id": null,
+      "trigger_id": 299753075,
+      "status": "PLACED",
+      "timestamp": "2025-12-28T22:33:26.274807",
+      "original_order_number": 2
+    },
+    {
+      "order_number": 2,
+      "order_price": 402.49,
+      "trigger_price": 402.08,
+      "quantity": 3,
+      "total_value": 1207.45,
+      "order_type": "GTT",
+      "order_id": null,
+      "trigger_id": 299753076,
+      "status": "PLACED",
+      "timestamp": "2025-12-28T22:33:26.446931",
+      "original_order_number": 3
+    },
+    {
+      "order_number": 3,
+      "order_price": 401.27,
+      "trigger_price": 400.87,
+      "quantity": 4,
+      "total_value": 1605.09,
+      "order_type": "GTT",
+      "order_id": null,
+      "trigger_id": 299753078,
+      "status": "PLACED",
+      "timestamp": "2025-12-28T22:33:26.630035",
+      "original_order_number": 4
+    },
+    {
+      "order_number": 4,
+      "order_price": 400.06,
+      "trigger_price": 399.66,
+      "quantity": 5,
+      "total_value": 2000.3,
+      "order_type": "GTT",
+      "order_id": null,
+      "trigger_id": 299753080,
+      "status": "PLACED",
+      "timestamp": "2025-12-28T22:33:26.794529",
+      "original_order_number": 5
+    }
+  ],
+  "timestamp": "2025-12-28T22:33:26.794671"
+}

@@ -212,17 +212,17 @@ class HybridOrderScheduler:
                      order_type = 'GTT'
                      order_type_display = 'GTT ORDER'
                      price_decrease = i * (self.price_difference_percent / 100)  # 0.4%, 0.8%, 1.2%, etc.
-                     trigger_price = round(base_price * (1 - price_decrease) * 0.999, 2)  # 0.1% below order price
+                     trigger_price = round(base_price * (1 - price_decrease) * 0.999, 1)  # 0.1% below order price
                 
                 order_price = base_price * (1 - price_decrease)
                 progressive_quantity = min(self.start_quantity + i, self.max_quantity)
                 
                 order_details = {
                     'order_number': i + 1,
-                    'order_price': round(order_price, 2),
-                    'trigger_price': trigger_price,
+                    'order_price': round(order_price, 1),
+                    'trigger_price': round(trigger_price, 1),
                     'quantity': progressive_quantity,
-                    'total_value': round(order_price * progressive_quantity, 2),
+                    'total_value': round(order_price * progressive_quantity, 1),
                     'order_type': order_type
                 }
                 
@@ -248,10 +248,10 @@ class HybridOrderScheduler:
                     # First order: SKIPPED when market is closed
                     order_details = {
                         'order_number': i + 1,
-                        'order_price': round(base_price, 2),
+                        'order_price': round(base_price, 1),
                         'trigger_price': None,
                         'quantity': 1,
-                        'total_value': round(base_price, 2),
+                        'total_value': round(base_price, 1),
                         'order_type': 'SKIPPED',
                         'skip_reason': 'Market closed - AMO not supported'
                     }
@@ -262,14 +262,14 @@ class HybridOrderScheduler:
                     price_decrease = (i - 0.75) * (self.price_difference_percent / 100)  # 0.25%, 0.65%, 1.05%, etc.
                     order_price = base_price * (1 - price_decrease)
                     progressive_quantity = min(self.start_quantity + i - 1, self.max_quantity)  # Start from start_quantity for first GTT order
-                    trigger_price = round(order_price * 0.999, 2)  # 0.1% below order price
+                    trigger_price = round(order_price * 0.999, 1)  # 0.1% below order price
                     
                     order_details = {
                         'order_number': i + 1,
-                        'order_price': round(order_price, 2),
-                        'trigger_price': round(trigger_price, 2),
+                        'order_price': round(order_price, 1),
+                        'trigger_price': round(trigger_price, 1),
                         'quantity': progressive_quantity,
-                        'total_value': round(order_price * progressive_quantity, 2),
+                        'total_value': round(order_price * progressive_quantity, 1),
                         'order_type': 'GTT'
                     }
                     

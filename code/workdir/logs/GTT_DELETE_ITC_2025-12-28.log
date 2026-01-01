@@ -1,0 +1,52 @@
+2025-12-28 22:35:10,341 - __main__ - INFO - Initializing GTT Order Deleter for ITC
+2025-12-28 22:35:10,342 - __main__ - INFO - Configuration loaded successfully
+2025-12-28 22:35:10,343 - __main__ - INFO - Starting GTT order deletion process
+2025-12-28 22:35:10,461 - __main__ - INFO - Successfully connected to Kite Connect
+2025-12-28 22:35:10,580 - __main__ - INFO - Retrieved 9 total GTT orders
+2025-12-28 22:35:10,580 - __main__ - INFO - GTT Order 1: {'id': 299753123, 'user_id': 'OVF854', 'parent_trigger': None, 'type': 'single', 'created_at': '2025-12-28 22:34:12', 'updated_at': '2025-12-28 22:34:12', 'expires_at': '2026-12-28 22:34:12', 'status': 'active', 'condition': {'exchange': 'NSE', 'last_price': 399.91, 'tradingsymbol': 'ITC', 'trigger_values': [394.91], 'instrument_token': 424961}, 'orders': [{'exchange': 'NSE', 'tradingsymbol': 'ITC', 'product': 'CNC', 'order_type': 'LIMIT', 'transaction_type': 'BUY', 'quantity': 8, 'price': 395.31, 'result': None}], 'meta': {}}
+2025-12-28 22:35:10,580 - __main__ - INFO - GTT Order 2: {'id': 299753122, 'user_id': 'OVF854', 'parent_trigger': None, 'type': 'single', 'created_at': '2025-12-28 22:34:12', 'updated_at': '2025-12-28 22:34:12', 'expires_at': '2026-12-28 22:34:12', 'status': 'active', 'condition': {'exchange': 'NSE', 'last_price': 401.11, 'tradingsymbol': 'ITC', 'trigger_values': [396.11], 'instrument_token': 424961}, 'orders': [{'exchange': 'NSE', 'tradingsymbol': 'ITC', 'product': 'CNC', 'order_type': 'LIMIT', 'transaction_type': 'BUY', 'quantity': 7, 'price': 396.51, 'result': None}], 'meta': {}}
+2025-12-28 22:35:10,580 - __main__ - INFO - GTT Order 3: {'id': 299753121, 'user_id': 'OVF854', 'parent_trigger': None, 'type': 'single', 'created_at': '2025-12-28 22:34:12', 'updated_at': '2025-12-28 22:34:12', 'expires_at': '2026-12-28 22:34:12', 'status': 'active', 'condition': {'exchange': 'NSE', 'last_price': 402.31, 'tradingsymbol': 'ITC', 'trigger_values': [397.31], 'instrument_token': 424961}, 'orders': [{'exchange': 'NSE', 'tradingsymbol': 'ITC', 'product': 'CNC', 'order_type': 'LIMIT', 'transaction_type': 'BUY', 'quantity': 6, 'price': 397.7, 'result': None}], 'meta': {}}
+2025-12-28 22:35:10,580 - __main__ - INFO - GTT Order 4: {'id': 299753120, 'user_id': 'OVF854', 'parent_trigger': None, 'type': 'single', 'created_at': '2025-12-28 22:34:11', 'updated_at': '2025-12-28 22:34:11', 'expires_at': '2026-12-28 22:34:11', 'status': 'active', 'condition': {'exchange': 'NSE', 'last_price': 403.5, 'tradingsymbol': 'ITC', 'trigger_values': [398.5], 'instrument_token': 424961}, 'orders': [{'exchange': 'NSE', 'tradingsymbol': 'ITC', 'product': 'CNC', 'order_type': 'LIMIT', 'transaction_type': 'BUY', 'quantity': 5, 'price': 398.9, 'result': None}], 'meta': {}}
+2025-12-28 22:35:10,580 - __main__ - INFO - GTT Order 5: {'id': 299753080, 'user_id': 'OVF854', 'parent_trigger': None, 'type': 'single', 'created_at': '2025-12-28 22:33:26', 'updated_at': '2025-12-28 22:33:26', 'expires_at': '2026-12-28 22:33:26', 'status': 'active', 'condition': {'exchange': 'NSE', 'last_price': 404.66, 'tradingsymbol': 'ITC', 'trigger_values': [399.66], 'instrument_token': 424961}, 'orders': [{'exchange': 'NSE', 'tradingsymbol': 'ITC', 'product': 'CNC', 'order_type': 'LIMIT', 'transaction_type': 'BUY', 'quantity': 5, 'price': 400.06, 'result': None}], 'meta': {}}
+2025-12-28 22:35:10,580 - __main__ - INFO - GTT Order 6: {'id': 299753078, 'user_id': 'OVF854', 'parent_trigger': None, 'type': 'single', 'created_at': '2025-12-28 22:33:26', 'updated_at': '2025-12-28 22:33:26', 'expires_at': '2026-12-28 22:33:26', 'status': 'active', 'condition': {'exchange': 'NSE', 'last_price': 405.87, 'tradingsymbol': 'ITC', 'trigger_values': [400.87], 'instrument_token': 424961}, 'orders': [{'exchange': 'NSE', 'tradingsymbol': 'ITC', 'product': 'CNC', 'order_type': 'LIMIT', 'transaction_type': 'BUY', 'quantity': 4, 'price': 401.27, 'result': None}], 'meta': {}}
+2025-12-28 22:35:10,580 - __main__ - INFO - GTT Order 7: {'id': 299753076, 'user_id': 'OVF854', 'parent_trigger': None, 'type': 'single', 'created_at': '2025-12-28 22:33:26', 'updated_at': '2025-12-28 22:33:26', 'expires_at': '2026-12-28 22:33:26', 'status': 'active', 'condition': {'exchange': 'NSE', 'last_price': 407.08, 'tradingsymbol': 'ITC', 'trigger_values': [402.08], 'instrument_token': 424961}, 'orders': [{'exchange': 'NSE', 'tradingsymbol': 'ITC', 'product': 'CNC', 'order_type': 'LIMIT', 'transaction_type': 'BUY', 'quantity': 3, 'price': 402.49, 'result': None}], 'meta': {}}
+2025-12-28 22:35:10,580 - __main__ - INFO - GTT Order 8: {'id': 299753075, 'user_id': 'OVF854', 'parent_trigger': None, 'type': 'single', 'created_at': '2025-12-28 22:33:26', 'updated_at': '2025-12-28 22:33:26', 'expires_at': '2026-12-28 22:33:26', 'status': 'active', 'condition': {'exchange': 'NSE', 'last_price': 408.29, 'tradingsymbol': 'ITC', 'trigger_values': [403.29], 'instrument_token': 424961}, 'orders': [{'exchange': 'NSE', 'tradingsymbol': 'ITC', 'product': 'CNC', 'order_type': 'LIMIT', 'transaction_type': 'BUY', 'quantity': 2, 'price': 403.7, 'result': None}], 'meta': {}}
+2025-12-28 22:35:10,580 - __main__ - INFO - GTT Order 9: {'id': 285990355, 'user_id': 'OVF854', 'parent_trigger': None, 'type': 'single', 'created_at': '2025-09-02 16:38:56', 'updated_at': '2025-09-02 18:16:27', 'expires_at': '2026-09-02 16:38:56', 'status': 'active', 'condition': {'exchange': 'NSE', 'last_price': 311.75, 'tradingsymbol': 'JIOFIN', 'trigger_values': [330.1], 'instrument_token': 4644609}, 'orders': [{'exchange': 'NSE', 'tradingsymbol': 'JIOFIN', 'product': 'CNC', 'order_type': 'LIMIT', 'transaction_type': 'SELL', 'quantity': 173, 'price': 330, 'result': None}], 'meta': {}}
+2025-12-28 22:35:10,580 - __main__ - INFO - Order: Symbol=ITC, Status=ACTIVE, Company=ITC
+2025-12-28 22:35:10,580 - __main__ - INFO - ✅ Added active order for ITC (Status: ACTIVE)
+2025-12-28 22:35:10,580 - __main__ - INFO - Order: Symbol=ITC, Status=ACTIVE, Company=ITC
+2025-12-28 22:35:10,580 - __main__ - INFO - ✅ Added active order for ITC (Status: ACTIVE)
+2025-12-28 22:35:10,580 - __main__ - INFO - Order: Symbol=ITC, Status=ACTIVE, Company=ITC
+2025-12-28 22:35:10,580 - __main__ - INFO - ✅ Added active order for ITC (Status: ACTIVE)
+2025-12-28 22:35:10,580 - __main__ - INFO - Order: Symbol=ITC, Status=ACTIVE, Company=ITC
+2025-12-28 22:35:10,580 - __main__ - INFO - ✅ Added active order for ITC (Status: ACTIVE)
+2025-12-28 22:35:10,580 - __main__ - INFO - Order: Symbol=ITC, Status=ACTIVE, Company=ITC
+2025-12-28 22:35:10,580 - __main__ - INFO - ✅ Added active order for ITC (Status: ACTIVE)
+2025-12-28 22:35:10,580 - __main__ - INFO - Order: Symbol=ITC, Status=ACTIVE, Company=ITC
+2025-12-28 22:35:10,581 - __main__ - INFO - ✅ Added active order for ITC (Status: ACTIVE)
+2025-12-28 22:35:10,581 - __main__ - INFO - Order: Symbol=ITC, Status=ACTIVE, Company=ITC
+2025-12-28 22:35:10,581 - __main__ - INFO - ✅ Added active order for ITC (Status: ACTIVE)
+2025-12-28 22:35:10,581 - __main__ - INFO - Order: Symbol=ITC, Status=ACTIVE, Company=ITC
+2025-12-28 22:35:10,581 - __main__ - INFO - ✅ Added active order for ITC (Status: ACTIVE)
+2025-12-28 22:35:10,581 - __main__ - INFO - Order: Symbol=JIOFIN, Status=ACTIVE, Company=ITC
+2025-12-28 22:35:10,581 - __main__ - INFO - Found 8 active GTT orders for ITC
+2025-12-28 22:35:12,495 - __main__ - INFO - Starting deletion of GTT orders...
+2025-12-28 22:35:12,495 - __main__ - INFO - Starting deletion of 8 GTT orders for ITC
+2025-12-28 22:35:12,496 - __main__ - INFO - Deleting GTT order: Trigger ID 299753123, Symbol: ITC, Quantity: 0, Price: Rs.0.00
+2025-12-28 22:35:12,606 - __main__ - INFO - Successfully deleted GTT order with trigger ID: 299753123
+2025-12-28 22:35:12,606 - __main__ - INFO - Deleting GTT order: Trigger ID 299753122, Symbol: ITC, Quantity: 0, Price: Rs.0.00
+2025-12-28 22:35:12,707 - __main__ - INFO - Successfully deleted GTT order with trigger ID: 299753122
+2025-12-28 22:35:12,707 - __main__ - INFO - Deleting GTT order: Trigger ID 299753121, Symbol: ITC, Quantity: 0, Price: Rs.0.00
+2025-12-28 22:35:12,806 - __main__ - INFO - Successfully deleted GTT order with trigger ID: 299753121
+2025-12-28 22:35:12,806 - __main__ - INFO - Deleting GTT order: Trigger ID 299753120, Symbol: ITC, Quantity: 0, Price: Rs.0.00
+2025-12-28 22:35:12,914 - __main__ - INFO - Successfully deleted GTT order with trigger ID: 299753120
+2025-12-28 22:35:12,914 - __main__ - INFO - Deleting GTT order: Trigger ID 299753080, Symbol: ITC, Quantity: 0, Price: Rs.0.00
+2025-12-28 22:35:13,025 - __main__ - INFO - Successfully deleted GTT order with trigger ID: 299753080
+2025-12-28 22:35:13,025 - __main__ - INFO - Deleting GTT order: Trigger ID 299753078, Symbol: ITC, Quantity: 0, Price: Rs.0.00
+2025-12-28 22:35:13,135 - __main__ - INFO - Successfully deleted GTT order with trigger ID: 299753078
+2025-12-28 22:35:13,135 - __main__ - INFO - Deleting GTT order: Trigger ID 299753076, Symbol: ITC, Quantity: 0, Price: Rs.0.00
+2025-12-28 22:35:13,238 - __main__ - INFO - Successfully deleted GTT order with trigger ID: 299753076
+2025-12-28 22:35:13,238 - __main__ - INFO - Deleting GTT order: Trigger ID 299753075, Symbol: ITC, Quantity: 0, Price: Rs.0.00
+2025-12-28 22:35:13,337 - __main__ - INFO - Successfully deleted GTT order with trigger ID: 299753075
+2025-12-28 22:35:13,338 - __main__ - INFO - Deletion summary saved to workdir/orders/ITC_gtt_deletion_20251228_223513.json
+2025-12-28 22:35:13,338 - __main__ - INFO - GTT order deletion process completed successfully

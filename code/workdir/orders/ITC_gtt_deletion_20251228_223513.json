@@ -1,0 +1,69 @@
+{
+  "company_symbol": "ITC",
+  "operation": "GTT Order Deletion",
+  "timestamp": "2025-12-28T22:35:13.338084",
+  "results": {
+    "total_orders": 8,
+    "successful_deletions": 8,
+    "failed_deletions": 0,
+    "deleted_orders": [
+      {
+        "trigger_id": 299753123,
+        "symbol": "ITC",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2025-12-28T22:35:12.606814"
+      },
+      {
+        "trigger_id": 299753122,
+        "symbol": "ITC",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2025-12-28T22:35:12.707329"
+      },
+      {
+        "trigger_id": 299753121,
+        "symbol": "ITC",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2025-12-28T22:35:12.806492"
+      },
+      {
+        "trigger_id": 299753120,
+        "symbol": "ITC",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2025-12-28T22:35:12.914182"
+      },
+      {
+        "trigger_id": 299753080,
+        "symbol": "ITC",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2025-12-28T22:35:13.025281"
+      },
+      {
+        "trigger_id": 299753078,
+        "symbol": "ITC",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2025-12-28T22:35:13.135873"
+      },
+      {
+        "trigger_id": 299753076,
+        "symbol": "ITC",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2025-12-28T22:35:13.238312"
+      },
+      {
+        "trigger_id": 299753075,
+        "symbol": "ITC",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2025-12-28T22:35:13.338019"
+      }
+    ],
+    "failed_orders": []
+  }
+}
