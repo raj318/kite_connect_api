@@ -1,0 +1,33 @@
+2026-01-06 09:35:37,492 - __main__ - INFO - Initializing GTT Sell Order Scheduler for ONGC
+2026-01-06 09:35:37,492 - __main__ - INFO - Target net profit: 2.0%
+2026-01-06 09:35:37,492 - __main__ - INFO - Starting GTT sell order scheduling process
+2026-01-06 09:36:45,423 - __main__ - INFO - Initializing GTT Sell Order Scheduler for ONGC
+2026-01-06 09:36:45,424 - __main__ - INFO - Target net profit: 2.0%
+2026-01-06 09:36:45,424 - __main__ - INFO - Starting GTT sell order scheduling process
+2026-01-06 09:36:45,529 - __main__ - INFO - Successfully connected to Kite Connect
+2026-01-06 09:36:46,087 - __main__ - ERROR - GTT sell order scheduling failed: No holdings found for ONGC
+2026-01-06 09:36:46,087 - __main__ - ERROR - Error type: ValueError
+2026-01-06 09:37:05,687 - __main__ - INFO - Initializing GTT Sell Order Scheduler for ONGC
+2026-01-06 09:37:05,687 - __main__ - INFO - Target net profit: 2.0%
+2026-01-06 09:37:05,687 - __main__ - INFO - Starting GTT sell order scheduling process
+2026-01-06 09:37:19,924 - __main__ - INFO - Successfully connected to Kite Connect
+2026-01-06 09:37:20,931 - __main__ - ERROR - GTT sell order scheduling failed: No holdings found for ONGC
+2026-01-06 09:37:20,932 - __main__ - ERROR - Error type: ValueError
+2026-01-06 09:38:44,972 - __main__ - INFO - Initializing GTT Sell Order Scheduler for ONGC
+2026-01-06 09:38:44,972 - __main__ - INFO - Target net profit: 2.0%
+2026-01-06 09:38:44,973 - __main__ - INFO - Starting GTT sell order scheduling process
+2026-01-06 09:38:45,104 - __main__ - INFO - Successfully connected to Kite Connect
+2026-01-06 09:38:45,675 - __main__ - ERROR - GTT sell order scheduling failed: No holdings found for ONGC
+2026-01-06 09:38:45,675 - __main__ - ERROR - Error type: ValueError
+2026-01-06 09:49:12,763 - __main__ - INFO - Initializing GTT Sell Order Scheduler for ONGC
+2026-01-06 09:49:12,763 - __main__ - INFO - Target net profit: 2.0%
+2026-01-06 09:49:12,763 - __main__ - INFO - Starting GTT sell order scheduling process
+2026-01-06 09:49:12,903 - __main__ - INFO - Successfully connected to Kite Connect
+2026-01-06 09:49:13,628 - __main__ - ERROR - GTT sell order scheduling failed: No holdings found for ONGC
+2026-01-06 09:49:13,628 - __main__ - ERROR - Error type: ValueError
+2026-01-06 09:50:02,102 - __main__ - INFO - Initializing GTT Sell Order Scheduler for ONGC
+2026-01-06 09:50:02,102 - __main__ - INFO - Target net profit: 2.0%
+2026-01-06 09:50:02,102 - __main__ - INFO - Starting GTT sell order scheduling process
+2026-01-06 09:50:02,247 - __main__ - INFO - Successfully connected to Kite Connect
+2026-01-06 09:50:03,026 - __main__ - ERROR - GTT sell order scheduling failed: No holdings found for ONGC
+2026-01-06 09:50:03,026 - __main__ - ERROR - Error type: ValueError

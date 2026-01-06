@@ -1,0 +1,33 @@
+{
+  "company_symbol": "JIOFIN",
+  "order_type": "GTT_SELL",
+  "quantity": 180,
+  "average_buy_price": 321.39,
+  "sell_price": 325.25,
+  "trigger_price": 325.58,
+  "target_net_profit_percentage": 1.0,
+  "profit_analysis": {
+    "buy_value": 57850.2,
+    "sell_value": 58545.0,
+    "gross_profit": 694.8000000000029,
+    "gross_profit_percentage": 1.201033012850436,
+    "charges": {
+      "brokerage": 0.0,
+      "stt": 58.545,
+      "exchange_charges": 2.0198025,
+      "sebi_fees": 0.058545,
+      "dp_charges": 15.93,
+      "gst": 0.37410255,
+      "total_charges": 76.92745005,
+      "charges_per_share": 0.4273747225
+    },
+    "total_charges": 76.92745005,
+    "charges_percentage": 0.13297698201561967,
+    "net_profit": 617.8725499500028,
+    "net_profit_percentage": 1.0680560308348164,
+    "break_even_price": 321.8173747225
+  },
+  "trigger_id": 300604296,
+  "status": "PLACED",
+  "timestamp": "2026-01-04T23:18:34.415513"
+}

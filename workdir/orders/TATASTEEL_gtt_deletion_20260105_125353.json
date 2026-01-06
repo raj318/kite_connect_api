@@ -1,0 +1,111 @@
+{
+  "company_symbol": "TATASTEEL",
+  "operation": "GTT Order Deletion",
+  "timestamp": "2026-01-05T12:53:53.821466",
+  "results": {
+    "total_orders": 14,
+    "successful_deletions": 14,
+    "failed_deletions": 0,
+    "deleted_orders": [
+      {
+        "trigger_id": 300606186,
+        "symbol": "TATASTEEL",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-05T12:53:52.490932"
+      },
+      {
+        "trigger_id": 300606185,
+        "symbol": "TATASTEEL",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-05T12:53:52.589388"
+      },
+      {
+        "trigger_id": 300606184,
+        "symbol": "TATASTEEL",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-05T12:53:52.684777"
+      },
+      {
+        "trigger_id": 300606183,
+        "symbol": "TATASTEEL",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-05T12:53:52.789824"
+      },
+      {
+        "trigger_id": 300606182,
+        "symbol": "TATASTEEL",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-05T12:53:52.903562"
+      },
+      {
+        "trigger_id": 300606181,
+        "symbol": "TATASTEEL",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-05T12:53:53.011028"
+      },
+      {
+        "trigger_id": 300606180,
+        "symbol": "TATASTEEL",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-05T12:53:53.110278"
+      },
+      {
+        "trigger_id": 300606179,
+        "symbol": "TATASTEEL",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-05T12:53:53.215706"
+      },
+      {
+        "trigger_id": 300606178,
+        "symbol": "TATASTEEL",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-05T12:53:53.311350"
+      },
+      {
+        "trigger_id": 300606177,
+        "symbol": "TATASTEEL",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-05T12:53:53.418816"
+      },
+      {
+        "trigger_id": 300606176,
+        "symbol": "TATASTEEL",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-05T12:53:53.528172"
+      },
+      {
+        "trigger_id": 300606175,
+        "symbol": "TATASTEEL",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-05T12:53:53.628880"
+      },
+      {
+        "trigger_id": 300606174,
+        "symbol": "TATASTEEL",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-05T12:53:53.729176"
+      },
+      {
+        "trigger_id": 300606173,
+        "symbol": "TATASTEEL",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-05T12:53:53.821379"
+      }
+    ],
+    "failed_orders": []
+  }
+}

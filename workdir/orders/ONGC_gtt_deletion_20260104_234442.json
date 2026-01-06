@@ -1,0 +1,76 @@
+{
+  "company_symbol": "ONGC",
+  "operation": "GTT Order Deletion",
+  "timestamp": "2026-01-04T23:44:42.246583",
+  "results": {
+    "total_orders": 9,
+    "successful_deletions": 9,
+    "failed_deletions": 0,
+    "deleted_orders": [
+      {
+        "trigger_id": 300602435,
+        "symbol": "ONGC",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-04T23:44:41.414449"
+      },
+      {
+        "trigger_id": 300602434,
+        "symbol": "ONGC",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-04T23:44:41.522997"
+      },
+      {
+        "trigger_id": 300602432,
+        "symbol": "ONGC",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-04T23:44:41.640551"
+      },
+      {
+        "trigger_id": 300602431,
+        "symbol": "ONGC",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-04T23:44:41.741190"
+      },
+      {
+        "trigger_id": 300602430,
+        "symbol": "ONGC",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-04T23:44:41.840544"
+      },
+      {
+        "trigger_id": 300602429,
+        "symbol": "ONGC",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-04T23:44:41.945636"
+      },
+      {
+        "trigger_id": 300602428,
+        "symbol": "ONGC",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-04T23:44:42.043196"
+      },
+      {
+        "trigger_id": 300602426,
+        "symbol": "ONGC",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-04T23:44:42.139023"
+      },
+      {
+        "trigger_id": 300602425,
+        "symbol": "ONGC",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-04T23:44:42.246500"
+      }
+    ],
+    "failed_orders": []
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "company_symbol": "ITC",
+  "order_type": "GTT_SELL",
+  "quantity": 124,
+  "average_buy_price": 364.86,
+  "sell_price": 369.24,
+  "trigger_price": 369.61,
+  "target_net_profit_percentage": 1.0,
+  "profit_analysis": {
+    "buy_value": 45242.64,
+    "sell_value": 45785.76,
+    "gross_profit": 543.1200000000026,
+    "gross_profit_percentage": 1.2004604505837912,
+    "charges": {
+      "brokerage": 0.0,
+      "stt": 45.78576,
+      "exchange_charges": 1.57960872,
+      "sebi_fees": 0.04578576,
+      "dp_charges": 15.93,
+      "gst": 0.2925710064,
+      "total_charges": 63.63372548640001,
+      "charges_per_share": 0.5131752055354839
+    },
+    "total_charges": 63.63372548640001,
+    "charges_percentage": 0.14064989462683877,
+    "net_profit": 479.4862745136026,
+    "net_profit_percentage": 1.0598105559569526,
+    "break_even_price": 365.3731752055355
+  },
+  "trigger_id": 300604227,
+  "status": "PLACED",
+  "timestamp": "2026-01-04T23:17:04.098289"
+}

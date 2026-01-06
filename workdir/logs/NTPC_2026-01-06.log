@@ -1,0 +1,55 @@
+2026-01-06 12:44:41,490 - __main__ - INFO - Using max_fall_pct from config: 10.0
+2026-01-06 12:44:41,490 - __main__ - INFO - Using fall_power from config: 1.7
+2026-01-06 12:44:41,490 - __main__ - INFO - Using size_power from config: 1.6
+2026-01-06 12:44:41,490 - __main__ - INFO - Using size_multiplier from config: 3.8
+2026-01-06 12:44:41,490 - __main__ - INFO - Convex accumulation parameters:
+2026-01-06 12:44:41,490 - __main__ - INFO -   Steps: 11
+2026-01-06 12:44:41,490 - __main__ - INFO -   Base shares: 5
+2026-01-06 12:44:41,490 - __main__ - INFO -   Max fall: 10.0%
+2026-01-06 12:44:41,490 - __main__ - INFO -   Fall power: 1.7
+2026-01-06 12:44:41,490 - __main__ - INFO -   Size power: 1.6
+2026-01-06 12:44:41,490 - __main__ - INFO -   Size multiplier: 3.8
+2026-01-06 12:44:41,490 - __main__ - INFO - Initializing Convex Accumulation Order Scheduler for NTPC
+2026-01-06 12:44:41,490 - __main__ - INFO - Steps: 11, Current price: Rs.348.8
+2026-01-06 12:44:41,491 - __main__ - INFO - Configuration loaded successfully
+2026-01-06 12:44:41,492 - __main__ - INFO - Starting convex accumulation order scheduling process
+2026-01-06 12:44:41,622 - __main__ - INFO - Successfully connected to Kite Connect
+2026-01-06 12:44:41,622 - __main__ - WARNING - pytz not available, assuming market is closed - will skip first order
+2026-01-06 12:44:41,622 - __main__ - INFO - Using provided current price as base: Rs.348.8
+2026-01-06 12:44:41,622 - __main__ - INFO - Market is closed - skipping first order and starting with GTT orders
+2026-01-06 12:44:41,622 - __main__ - INFO - Order 1: SKIPPED (Market closed - AMO not supported)
+2026-01-06 12:44:41,622 - __main__ - INFO - Order 2: Price: Rs.348.1, Trigger: Rs.347.8, Type: GTT ORDER, Fall: 0.20%, Quantity: 5, Value: Rs.1740.5
+2026-01-06 12:44:41,622 - __main__ - INFO - Order 3: Price: Rs.346.5, Trigger: Rs.346.2, Type: GTT ORDER, Fall: 0.65%, Quantity: 6, Value: Rs.2079.0
+2026-01-06 12:44:41,622 - __main__ - INFO - Order 4: Price: Rs.344.3, Trigger: Rs.344.0, Type: GTT ORDER, Fall: 1.29%, Quantity: 8, Value: Rs.2754.4
+2026-01-06 12:44:41,622 - __main__ - INFO - Order 5: Price: Rs.341.5, Trigger: Rs.341.2, Type: GTT ORDER, Fall: 2.11%, Quantity: 9, Value: Rs.3073.5
+2026-01-06 12:44:41,623 - __main__ - INFO - Order 6: Price: Rs.338.1, Trigger: Rs.337.8, Type: GTT ORDER, Fall: 3.08%, Quantity: 11, Value: Rs.3719.1
+2026-01-06 12:44:41,623 - __main__ - INFO - Order 7: Price: Rs.334.2, Trigger: Rs.333.9, Type: GTT ORDER, Fall: 4.20%, Quantity: 13, Value: Rs.4344.6
+2026-01-06 12:44:41,623 - __main__ - INFO - Order 8: Price: Rs.329.8, Trigger: Rs.329.5, Type: GTT ORDER, Fall: 5.45%, Quantity: 16, Value: Rs.5276.8
+2026-01-06 12:44:41,623 - __main__ - INFO - Order 9: Price: Rs.324.9, Trigger: Rs.324.6, Type: GTT ORDER, Fall: 6.84%, Quantity: 18, Value: Rs.5848.2
+2026-01-06 12:44:41,623 - __main__ - INFO - Order 10: Price: Rs.319.6, Trigger: Rs.319.3, Type: GTT ORDER, Fall: 8.36%, Quantity: 21, Value: Rs.6711.6
+2026-01-06 12:44:41,623 - __main__ - INFO - Order 11: Price: Rs.313.9, Trigger: Rs.313.6, Type: GTT ORDER, Fall: 10.00%, Quantity: 24, Value: Rs.7533.6
+2026-01-06 12:44:50,726 - __main__ - INFO - Placing orders...
+2026-01-06 12:44:50,727 - __main__ - INFO - Skipping order 1 - Market closed, AMO not supported
+2026-01-06 12:44:50,727 - __main__ - INFO - Order 1 skipped successfully
+2026-01-06 12:44:50,727 - __main__ - INFO - Placing GTT order 2 for NTPC
+2026-01-06 12:44:50,898 - __main__ - INFO - GTT order 2 placed successfully with trigger ID: 300890280
+2026-01-06 12:44:50,898 - __main__ - INFO - Placing GTT order 3 for NTPC
+2026-01-06 12:44:51,059 - __main__ - INFO - GTT order 3 placed successfully with trigger ID: 300890281
+2026-01-06 12:44:51,060 - __main__ - INFO - Placing GTT order 4 for NTPC
+2026-01-06 12:44:51,253 - __main__ - INFO - GTT order 4 placed successfully with trigger ID: 300890282
+2026-01-06 12:44:51,254 - __main__ - INFO - Placing GTT order 5 for NTPC
+2026-01-06 12:44:51,421 - __main__ - INFO - GTT order 5 placed successfully with trigger ID: 300890283
+2026-01-06 12:44:51,421 - __main__ - INFO - Placing GTT order 6 for NTPC
+2026-01-06 12:44:51,596 - __main__ - INFO - GTT order 6 placed successfully with trigger ID: 300890285
+2026-01-06 12:44:51,596 - __main__ - INFO - Placing GTT order 7 for NTPC
+2026-01-06 12:44:51,762 - __main__ - INFO - GTT order 7 placed successfully with trigger ID: 300890286
+2026-01-06 12:44:51,762 - __main__ - INFO - Placing GTT order 8 for NTPC
+2026-01-06 12:44:51,939 - __main__ - INFO - GTT order 8 placed successfully with trigger ID: 300890288
+2026-01-06 12:44:51,939 - __main__ - INFO - Placing GTT order 9 for NTPC
+2026-01-06 12:44:52,114 - __main__ - INFO - GTT order 9 placed successfully with trigger ID: 300890290
+2026-01-06 12:44:52,114 - __main__ - INFO - Placing GTT order 10 for NTPC
+2026-01-06 12:44:52,316 - __main__ - INFO - GTT order 10 placed successfully with trigger ID: 300890291
+2026-01-06 12:44:52,316 - __main__ - INFO - Placing GTT order 11 for NTPC
+2026-01-06 12:44:52,528 - __main__ - INFO - GTT order 11 placed successfully with trigger ID: 300890292
+2026-01-06 12:44:52,529 - __main__ - INFO - Order summary saved to workdir/orders/NTPC_gtt_orders_20260106_124452.json
+2026-01-06 12:44:52,529 - __main__ - INFO - Convex accumulation order scheduling process completed successfully

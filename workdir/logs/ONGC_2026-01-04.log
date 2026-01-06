@@ -1,0 +1,145 @@
+2026-01-04 22:44:06,672 - __main__ - INFO - Price difference configured: 0.5%
+2026-01-04 22:44:06,672 - __main__ - INFO - Start quantity configured: 15
+2026-01-04 22:44:06,672 - __main__ - INFO - Initializing Hybrid Order Scheduler for ONGC
+2026-01-04 22:44:06,672 - __main__ - INFO - Order count: 15, Current price: Rs.241.46, Max quantity: 100
+2026-01-04 22:44:06,672 - __main__ - INFO - Price difference: 0.5%
+2026-01-04 22:44:06,674 - __main__ - INFO - Configuration loaded successfully
+2026-01-04 22:44:06,674 - __main__ - INFO - Starting hybrid order scheduling process
+2026-01-04 22:44:06,796 - __main__ - INFO - Successfully connected to Kite Connect
+2026-01-04 22:44:06,796 - __main__ - WARNING - pytz not available, assuming market is closed - will use LIMIT order for first order
+2026-01-04 22:44:06,796 - __main__ - INFO - Using provided current price as base: Rs.241.46
+2026-01-04 22:44:06,796 - __main__ - INFO - Market is closed - skipping first order and starting with GTT orders
+2026-01-04 22:44:06,796 - __main__ - INFO - Order 1: SKIPPED (Market closed - AMO not supported)
+2026-01-04 22:44:06,796 - __main__ - INFO - Order 2: Price: Rs.241.20, Trigger: Rs.240.90, Type: GTT ORDER, Quantity: 15, Value: Rs.3617.40
+2026-01-04 22:44:06,796 - __main__ - INFO - Order 3: Price: Rs.240.00, Trigger: Rs.239.70, Type: GTT ORDER, Quantity: 16, Value: Rs.3839.20
+2026-01-04 22:44:06,796 - __main__ - INFO - Order 4: Price: Rs.238.70, Trigger: Rs.238.50, Type: GTT ORDER, Quantity: 17, Value: Rs.4058.60
+2026-01-04 22:44:06,796 - __main__ - INFO - Order 5: Price: Rs.237.50, Trigger: Rs.237.30, Type: GTT ORDER, Quantity: 18, Value: Rs.4275.70
+2026-01-04 22:44:06,796 - __main__ - INFO - Order 6: Price: Rs.236.30, Trigger: Rs.236.10, Type: GTT ORDER, Quantity: 19, Value: Rs.4490.30
+2026-01-04 22:44:06,796 - __main__ - INFO - Order 7: Price: Rs.235.10, Trigger: Rs.234.90, Type: GTT ORDER, Quantity: 20, Value: Rs.4702.40
+2026-01-04 22:44:06,796 - __main__ - INFO - Order 8: Price: Rs.233.90, Trigger: Rs.233.70, Type: GTT ORDER, Quantity: 21, Value: Rs.4912.20
+2026-01-04 22:44:06,796 - __main__ - INFO - Order 9: Price: Rs.232.70, Trigger: Rs.232.50, Type: GTT ORDER, Quantity: 22, Value: Rs.5119.60
+2026-01-04 22:44:06,796 - __main__ - INFO - Order 10: Price: Rs.231.50, Trigger: Rs.231.30, Type: GTT ORDER, Quantity: 23, Value: Rs.5324.50
+2026-01-04 22:44:06,796 - __main__ - INFO - Order 11: Price: Rs.230.30, Trigger: Rs.230.10, Type: GTT ORDER, Quantity: 24, Value: Rs.5527.00
+2026-01-04 22:44:06,796 - __main__ - INFO - Order 12: Price: Rs.229.10, Trigger: Rs.228.90, Type: GTT ORDER, Quantity: 25, Value: Rs.5727.10
+2026-01-04 22:44:06,796 - __main__ - INFO - Order 13: Price: Rs.227.90, Trigger: Rs.227.60, Type: GTT ORDER, Quantity: 26, Value: Rs.5924.80
+2026-01-04 22:44:06,796 - __main__ - INFO - Order 14: Price: Rs.226.70, Trigger: Rs.226.40, Type: GTT ORDER, Quantity: 27, Value: Rs.6120.10
+2026-01-04 22:44:06,796 - __main__ - INFO - Order 15: Price: Rs.225.50, Trigger: Rs.225.20, Type: GTT ORDER, Quantity: 28, Value: Rs.6313.00
+2026-01-04 22:44:13,874 - __main__ - INFO - Order placement cancelled by user
+2026-01-04 22:44:17,326 - __main__ - INFO - Price difference configured: 0.5%
+2026-01-04 22:44:17,326 - __main__ - INFO - Start quantity configured: 10
+2026-01-04 22:44:17,326 - __main__ - INFO - Initializing Hybrid Order Scheduler for ONGC
+2026-01-04 22:44:17,326 - __main__ - INFO - Order count: 15, Current price: Rs.241.46, Max quantity: 100
+2026-01-04 22:44:17,326 - __main__ - INFO - Price difference: 0.5%
+2026-01-04 22:44:17,327 - __main__ - INFO - Configuration loaded successfully
+2026-01-04 22:44:17,327 - __main__ - INFO - Starting hybrid order scheduling process
+2026-01-04 22:44:17,454 - __main__ - INFO - Successfully connected to Kite Connect
+2026-01-04 22:44:17,454 - __main__ - WARNING - pytz not available, assuming market is closed - will use LIMIT order for first order
+2026-01-04 22:44:17,454 - __main__ - INFO - Using provided current price as base: Rs.241.46
+2026-01-04 22:44:17,454 - __main__ - INFO - Market is closed - skipping first order and starting with GTT orders
+2026-01-04 22:44:17,454 - __main__ - INFO - Order 1: SKIPPED (Market closed - AMO not supported)
+2026-01-04 22:44:17,454 - __main__ - INFO - Order 2: Price: Rs.241.20, Trigger: Rs.240.90, Type: GTT ORDER, Quantity: 10, Value: Rs.2411.60
+2026-01-04 22:44:17,454 - __main__ - INFO - Order 3: Price: Rs.240.00, Trigger: Rs.239.70, Type: GTT ORDER, Quantity: 11, Value: Rs.2639.50
+2026-01-04 22:44:17,455 - __main__ - INFO - Order 4: Price: Rs.238.70, Trigger: Rs.238.50, Type: GTT ORDER, Quantity: 12, Value: Rs.2864.90
+2026-01-04 22:44:17,455 - __main__ - INFO - Order 5: Price: Rs.237.50, Trigger: Rs.237.30, Type: GTT ORDER, Quantity: 13, Value: Rs.3088.00
+2026-01-04 22:44:17,455 - __main__ - INFO - Order 6: Price: Rs.236.30, Trigger: Rs.236.10, Type: GTT ORDER, Quantity: 14, Value: Rs.3308.60
+2026-01-04 22:44:17,455 - __main__ - INFO - Order 7: Price: Rs.235.10, Trigger: Rs.234.90, Type: GTT ORDER, Quantity: 15, Value: Rs.3526.80
+2026-01-04 22:44:17,455 - __main__ - INFO - Order 8: Price: Rs.233.90, Trigger: Rs.233.70, Type: GTT ORDER, Quantity: 16, Value: Rs.3742.60
+2026-01-04 22:44:17,455 - __main__ - INFO - Order 9: Price: Rs.232.70, Trigger: Rs.232.50, Type: GTT ORDER, Quantity: 17, Value: Rs.3956.00
+2026-01-04 22:44:17,455 - __main__ - INFO - Order 10: Price: Rs.231.50, Trigger: Rs.231.30, Type: GTT ORDER, Quantity: 18, Value: Rs.4167.00
+2026-01-04 22:44:17,455 - __main__ - INFO - Order 11: Price: Rs.230.30, Trigger: Rs.230.10, Type: GTT ORDER, Quantity: 19, Value: Rs.4375.60
+2026-01-04 22:44:17,455 - __main__ - INFO - Order 12: Price: Rs.229.10, Trigger: Rs.228.90, Type: GTT ORDER, Quantity: 20, Value: Rs.4581.70
+2026-01-04 22:44:17,455 - __main__ - INFO - Order 13: Price: Rs.227.90, Trigger: Rs.227.60, Type: GTT ORDER, Quantity: 21, Value: Rs.4785.40
+2026-01-04 22:44:17,455 - __main__ - INFO - Order 14: Price: Rs.226.70, Trigger: Rs.226.40, Type: GTT ORDER, Quantity: 22, Value: Rs.4986.80
+2026-01-04 22:44:17,455 - __main__ - INFO - Order 15: Price: Rs.225.50, Trigger: Rs.225.20, Type: GTT ORDER, Quantity: 23, Value: Rs.5185.70
+2026-01-04 22:45:14,006 - __main__ - INFO - Order placement cancelled by user
+2026-01-04 22:45:20,691 - __main__ - INFO - Price difference configured: 0.5%
+2026-01-04 22:45:20,691 - __main__ - INFO - Start quantity configured: 15
+2026-01-04 22:45:20,691 - __main__ - INFO - Initializing Hybrid Order Scheduler for ONGC
+2026-01-04 22:45:20,691 - __main__ - INFO - Order count: 10, Current price: Rs.241.46, Max quantity: 100
+2026-01-04 22:45:20,691 - __main__ - INFO - Price difference: 0.5%
+2026-01-04 22:45:20,692 - __main__ - INFO - Configuration loaded successfully
+2026-01-04 22:45:20,692 - __main__ - INFO - Starting hybrid order scheduling process
+2026-01-04 22:45:20,823 - __main__ - INFO - Successfully connected to Kite Connect
+2026-01-04 22:45:20,824 - __main__ - WARNING - pytz not available, assuming market is closed - will use LIMIT order for first order
+2026-01-04 22:45:20,824 - __main__ - INFO - Using provided current price as base: Rs.241.46
+2026-01-04 22:45:20,824 - __main__ - INFO - Market is closed - skipping first order and starting with GTT orders
+2026-01-04 22:45:20,824 - __main__ - INFO - Order 1: SKIPPED (Market closed - AMO not supported)
+2026-01-04 22:45:20,824 - __main__ - INFO - Order 2: Price: Rs.241.20, Trigger: Rs.240.90, Type: GTT ORDER, Quantity: 15, Value: Rs.3617.40
+2026-01-04 22:45:20,824 - __main__ - INFO - Order 3: Price: Rs.240.00, Trigger: Rs.239.70, Type: GTT ORDER, Quantity: 16, Value: Rs.3839.20
+2026-01-04 22:45:20,824 - __main__ - INFO - Order 4: Price: Rs.238.70, Trigger: Rs.238.50, Type: GTT ORDER, Quantity: 17, Value: Rs.4058.60
+2026-01-04 22:45:20,824 - __main__ - INFO - Order 5: Price: Rs.237.50, Trigger: Rs.237.30, Type: GTT ORDER, Quantity: 18, Value: Rs.4275.70
+2026-01-04 22:45:20,824 - __main__ - INFO - Order 6: Price: Rs.236.30, Trigger: Rs.236.10, Type: GTT ORDER, Quantity: 19, Value: Rs.4490.30
+2026-01-04 22:45:20,824 - __main__ - INFO - Order 7: Price: Rs.235.10, Trigger: Rs.234.90, Type: GTT ORDER, Quantity: 20, Value: Rs.4702.40
+2026-01-04 22:45:20,824 - __main__ - INFO - Order 8: Price: Rs.233.90, Trigger: Rs.233.70, Type: GTT ORDER, Quantity: 21, Value: Rs.4912.20
+2026-01-04 22:45:20,824 - __main__ - INFO - Order 9: Price: Rs.232.70, Trigger: Rs.232.50, Type: GTT ORDER, Quantity: 22, Value: Rs.5119.60
+2026-01-04 22:45:20,824 - __main__ - INFO - Order 10: Price: Rs.231.50, Trigger: Rs.231.30, Type: GTT ORDER, Quantity: 23, Value: Rs.5324.50
+2026-01-04 22:45:31,060 - __main__ - INFO - Price difference configured: 0.5%
+2026-01-04 22:45:31,060 - __main__ - INFO - Start quantity configured: 15
+2026-01-04 22:45:31,060 - __main__ - INFO - Initializing Hybrid Order Scheduler for ONGC
+2026-01-04 22:45:31,060 - __main__ - INFO - Order count: 11, Current price: Rs.241.46, Max quantity: 100
+2026-01-04 22:45:31,060 - __main__ - INFO - Price difference: 0.5%
+2026-01-04 22:45:31,061 - __main__ - INFO - Configuration loaded successfully
+2026-01-04 22:45:31,061 - __main__ - INFO - Starting hybrid order scheduling process
+2026-01-04 22:45:31,180 - __main__ - INFO - Successfully connected to Kite Connect
+2026-01-04 22:45:31,180 - __main__ - WARNING - pytz not available, assuming market is closed - will use LIMIT order for first order
+2026-01-04 22:45:31,180 - __main__ - INFO - Using provided current price as base: Rs.241.46
+2026-01-04 22:45:31,180 - __main__ - INFO - Market is closed - skipping first order and starting with GTT orders
+2026-01-04 22:45:31,180 - __main__ - INFO - Order 1: SKIPPED (Market closed - AMO not supported)
+2026-01-04 22:45:31,180 - __main__ - INFO - Order 2: Price: Rs.241.20, Trigger: Rs.240.90, Type: GTT ORDER, Quantity: 15, Value: Rs.3617.40
+2026-01-04 22:45:31,180 - __main__ - INFO - Order 3: Price: Rs.240.00, Trigger: Rs.239.70, Type: GTT ORDER, Quantity: 16, Value: Rs.3839.20
+2026-01-04 22:45:31,180 - __main__ - INFO - Order 4: Price: Rs.238.70, Trigger: Rs.238.50, Type: GTT ORDER, Quantity: 17, Value: Rs.4058.60
+2026-01-04 22:45:31,180 - __main__ - INFO - Order 5: Price: Rs.237.50, Trigger: Rs.237.30, Type: GTT ORDER, Quantity: 18, Value: Rs.4275.70
+2026-01-04 22:45:31,180 - __main__ - INFO - Order 6: Price: Rs.236.30, Trigger: Rs.236.10, Type: GTT ORDER, Quantity: 19, Value: Rs.4490.30
+2026-01-04 22:45:31,180 - __main__ - INFO - Order 7: Price: Rs.235.10, Trigger: Rs.234.90, Type: GTT ORDER, Quantity: 20, Value: Rs.4702.40
+2026-01-04 22:45:31,180 - __main__ - INFO - Order 8: Price: Rs.233.90, Trigger: Rs.233.70, Type: GTT ORDER, Quantity: 21, Value: Rs.4912.20
+2026-01-04 22:45:31,180 - __main__ - INFO - Order 9: Price: Rs.232.70, Trigger: Rs.232.50, Type: GTT ORDER, Quantity: 22, Value: Rs.5119.60
+2026-01-04 22:45:31,180 - __main__ - INFO - Order 10: Price: Rs.231.50, Trigger: Rs.231.30, Type: GTT ORDER, Quantity: 23, Value: Rs.5324.50
+2026-01-04 22:45:31,180 - __main__ - INFO - Order 11: Price: Rs.230.30, Trigger: Rs.230.10, Type: GTT ORDER, Quantity: 24, Value: Rs.5527.00
+2026-01-04 22:46:36,090 - __main__ - INFO - Price difference configured: 0.5%
+2026-01-04 22:46:36,090 - __main__ - INFO - Start quantity configured: 15
+2026-01-04 22:46:36,090 - __main__ - INFO - Initializing Hybrid Order Scheduler for ONGC
+2026-01-04 22:46:36,090 - __main__ - INFO - Order count: 11, Current price: Rs.242.00, Max quantity: 100
+2026-01-04 22:46:36,090 - __main__ - INFO - Price difference: 0.5%
+2026-01-04 22:46:36,091 - __main__ - INFO - Configuration loaded successfully
+2026-01-04 22:46:36,091 - __main__ - INFO - Starting hybrid order scheduling process
+2026-01-04 22:46:36,211 - __main__ - INFO - Successfully connected to Kite Connect
+2026-01-04 22:46:36,212 - __main__ - WARNING - pytz not available, assuming market is closed - will use LIMIT order for first order
+2026-01-04 22:46:36,212 - __main__ - INFO - Using provided current price as base: Rs.242.00
+2026-01-04 22:46:36,212 - __main__ - INFO - Market is closed - skipping first order and starting with GTT orders
+2026-01-04 22:46:36,212 - __main__ - INFO - Order 1: SKIPPED (Market closed - AMO not supported)
+2026-01-04 22:46:36,212 - __main__ - INFO - Order 2: Price: Rs.241.70, Trigger: Rs.241.50, Type: GTT ORDER, Quantity: 15, Value: Rs.3625.50
+2026-01-04 22:46:36,212 - __main__ - INFO - Order 3: Price: Rs.240.50, Trigger: Rs.240.20, Type: GTT ORDER, Quantity: 16, Value: Rs.3847.80
+2026-01-04 22:46:36,212 - __main__ - INFO - Order 4: Price: Rs.239.30, Trigger: Rs.239.00, Type: GTT ORDER, Quantity: 17, Value: Rs.4067.70
+2026-01-04 22:46:36,212 - __main__ - INFO - Order 5: Price: Rs.238.10, Trigger: Rs.237.80, Type: GTT ORDER, Quantity: 18, Value: Rs.4285.20
+2026-01-04 22:46:36,212 - __main__ - INFO - Order 6: Price: Rs.236.90, Trigger: Rs.236.60, Type: GTT ORDER, Quantity: 19, Value: Rs.4500.30
+2026-01-04 22:46:36,212 - __main__ - INFO - Order 7: Price: Rs.235.60, Trigger: Rs.235.40, Type: GTT ORDER, Quantity: 20, Value: Rs.4712.90
+2026-01-04 22:46:36,212 - __main__ - INFO - Order 8: Price: Rs.234.40, Trigger: Rs.234.20, Type: GTT ORDER, Quantity: 21, Value: Rs.4923.20
+2026-01-04 22:46:36,212 - __main__ - INFO - Order 9: Price: Rs.233.20, Trigger: Rs.233.00, Type: GTT ORDER, Quantity: 22, Value: Rs.5131.00
+2026-01-04 22:46:36,212 - __main__ - INFO - Order 10: Price: Rs.232.00, Trigger: Rs.231.80, Type: GTT ORDER, Quantity: 23, Value: Rs.5336.40
+2026-01-04 22:46:36,212 - __main__ - INFO - Order 11: Price: Rs.230.80, Trigger: Rs.230.60, Type: GTT ORDER, Quantity: 24, Value: Rs.5539.40
+2026-01-04 22:46:46,783 - __main__ - INFO - Placing orders...
+2026-01-04 22:46:46,783 - __main__ - INFO - Skipping order 1 - Market closed, AMO not supported
+2026-01-04 22:46:46,784 - __main__ - INFO - Order 1 skipped successfully
+2026-01-04 22:46:46,784 - __main__ - INFO - Placing GTT order 2 for ONGC
+2026-01-04 22:46:46,971 - __main__ - ERROR - Failed to place order 2 (GTT): Trigger already met.
+2026-01-04 22:46:46,971 - __main__ - ERROR - Order details: Price: Rs.241.70, Quantity: 15
+2026-01-04 22:46:46,972 - __main__ - INFO - Placing GTT order 3 for ONGC
+2026-01-04 22:46:47,179 - __main__ - INFO - GTT order 3 placed successfully with trigger ID: 300602425
+2026-01-04 22:46:47,179 - __main__ - INFO - Placing GTT order 4 for ONGC
+2026-01-04 22:46:47,374 - __main__ - INFO - GTT order 4 placed successfully with trigger ID: 300602426
+2026-01-04 22:46:47,374 - __main__ - INFO - Placing GTT order 5 for ONGC
+2026-01-04 22:46:47,568 - __main__ - INFO - GTT order 5 placed successfully with trigger ID: 300602428
+2026-01-04 22:46:47,568 - __main__ - INFO - Placing GTT order 6 for ONGC
+2026-01-04 22:46:47,773 - __main__ - INFO - GTT order 6 placed successfully with trigger ID: 300602429
+2026-01-04 22:46:47,773 - __main__ - INFO - Placing GTT order 7 for ONGC
+2026-01-04 22:46:47,950 - __main__ - INFO - GTT order 7 placed successfully with trigger ID: 300602430
+2026-01-04 22:46:47,950 - __main__ - INFO - Placing GTT order 8 for ONGC
+2026-01-04 22:46:48,149 - __main__ - INFO - GTT order 8 placed successfully with trigger ID: 300602431
+2026-01-04 22:46:48,149 - __main__ - INFO - Placing GTT order 9 for ONGC
+2026-01-04 22:46:48,352 - __main__ - INFO - GTT order 9 placed successfully with trigger ID: 300602432
+2026-01-04 22:46:48,352 - __main__ - INFO - Placing GTT order 10 for ONGC
+2026-01-04 22:46:48,541 - __main__ - INFO - GTT order 10 placed successfully with trigger ID: 300602434
+2026-01-04 22:46:48,541 - __main__ - INFO - Placing GTT order 11 for ONGC
+2026-01-04 22:46:48,740 - __main__ - INFO - GTT order 11 placed successfully with trigger ID: 300602435
+2026-01-04 22:46:48,741 - __main__ - INFO - Order summary saved to workdir/orders/ONGC_gtt_orders_20260104_224648.json
+2026-01-04 22:46:48,742 - __main__ - INFO - Hybrid order scheduling process completed successfully

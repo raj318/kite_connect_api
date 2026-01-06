@@ -1,0 +1,8 @@
+2026-01-04 23:13:34,078 - __main__ - INFO - Initializing GTT Sell Order Scheduler for ITC
+2026-01-04 23:13:34,078 - __main__ - INFO - Target net profit: 1.0%
+2026-01-04 23:13:34,078 - __main__ - INFO - Starting GTT sell order scheduling process
+2026-01-04 23:13:34,235 - __main__ - INFO - Successfully connected to Kite Connect
+2026-01-04 23:17:03,642 - __main__ - INFO - Placing GTT sell order...
+2026-01-04 23:17:04,001 - __main__ - WARNING - Could not fetch current price: Insufficient permission for that call.
+2026-01-04 23:17:04,098 - __main__ - INFO - GTT sell order placed successfully. Trigger ID: 300604227
+2026-01-04 23:17:04,098 - __main__ - INFO - GTT sell order scheduling process completed successfully

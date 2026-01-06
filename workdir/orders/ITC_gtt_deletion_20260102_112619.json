@@ -1,0 +1,48 @@
+{
+  "company_symbol": "ITC",
+  "operation": "GTT Order Deletion",
+  "timestamp": "2026-01-02T11:26:19.588254",
+  "results": {
+    "total_orders": 5,
+    "successful_deletions": 5,
+    "failed_deletions": 0,
+    "deleted_orders": [
+      {
+        "trigger_id": 300373392,
+        "symbol": "ITC",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-02T11:26:19.244581"
+      },
+      {
+        "trigger_id": 300373391,
+        "symbol": "ITC",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-02T11:26:19.332801"
+      },
+      {
+        "trigger_id": 300373390,
+        "symbol": "ITC",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-02T11:26:19.424178"
+      },
+      {
+        "trigger_id": 300373389,
+        "symbol": "ITC",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-02T11:26:19.509448"
+      },
+      {
+        "trigger_id": 300373388,
+        "symbol": "ITC",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-02T11:26:19.588189"
+      }
+    ],
+    "failed_orders": []
+  }
+}

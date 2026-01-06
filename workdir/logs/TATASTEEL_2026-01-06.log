@@ -1,0 +1,110 @@
+2026-01-06 12:41:01,292 - __main__ - INFO - Using max_fall_pct from config: 10.0
+2026-01-06 12:41:01,292 - __main__ - INFO - Using fall_power from config: 1.7
+2026-01-06 12:41:01,292 - __main__ - INFO - Using size_power from config: 1.6
+2026-01-06 12:41:01,292 - __main__ - INFO - Using size_multiplier from config: 3.8
+2026-01-06 12:41:01,292 - __main__ - INFO - Convex accumulation parameters:
+2026-01-06 12:41:01,292 - __main__ - INFO -   Steps: 16
+2026-01-06 12:41:01,292 - __main__ - INFO -   Base shares: 5
+2026-01-06 12:41:01,292 - __main__ - INFO -   Max fall: 10.0%
+2026-01-06 12:41:01,292 - __main__ - INFO -   Fall power: 1.7
+2026-01-06 12:41:01,292 - __main__ - INFO -   Size power: 1.6
+2026-01-06 12:41:01,292 - __main__ - INFO -   Size multiplier: 3.8
+2026-01-06 12:41:01,292 - __main__ - INFO - Initializing Convex Accumulation Order Scheduler for TATASTEEL
+2026-01-06 12:41:01,292 - __main__ - INFO - Steps: 16, Current price: Rs.187.3
+2026-01-06 12:41:01,293 - __main__ - INFO - Configuration loaded successfully
+2026-01-06 12:41:01,294 - __main__ - INFO - Starting convex accumulation order scheduling process
+2026-01-06 12:41:08,502 - __main__ - INFO - Successfully connected to Kite Connect
+2026-01-06 12:41:08,502 - __main__ - WARNING - pytz not available, assuming market is closed - will skip first order
+2026-01-06 12:41:08,502 - __main__ - INFO - Using provided current price as base: Rs.187.3
+2026-01-06 12:41:08,502 - __main__ - INFO - Market is closed - skipping first order and starting with GTT orders
+2026-01-06 12:41:08,502 - __main__ - INFO - Order 1: SKIPPED (Market closed - AMO not supported)
+2026-01-06 12:41:08,502 - __main__ - INFO - Order 2: Price: Rs.187.1, Trigger: Rs.186.9, Type: GTT ORDER, Fall: 0.10%, Quantity: 5, Value: Rs.935.5
+2026-01-06 12:41:08,502 - __main__ - INFO - Order 3: Price: Rs.186.7, Trigger: Rs.186.5, Type: GTT ORDER, Fall: 0.33%, Quantity: 6, Value: Rs.1120.2
+2026-01-06 12:41:08,502 - __main__ - INFO - Order 4: Price: Rs.186.1, Trigger: Rs.185.9, Type: GTT ORDER, Fall: 0.65%, Quantity: 6, Value: Rs.1116.6
+2026-01-06 12:41:08,502 - __main__ - INFO - Order 5: Price: Rs.185.3, Trigger: Rs.185.1, Type: GTT ORDER, Fall: 1.06%, Quantity: 7, Value: Rs.1297.1
+2026-01-06 12:41:08,502 - __main__ - INFO - Order 6: Price: Rs.184.4, Trigger: Rs.184.2, Type: GTT ORDER, Fall: 1.54%, Quantity: 8, Value: Rs.1475.2
+2026-01-06 12:41:08,502 - __main__ - INFO - Order 7: Price: Rs.183.4, Trigger: Rs.183.2, Type: GTT ORDER, Fall: 2.11%, Quantity: 9, Value: Rs.1650.6
+2026-01-06 12:41:08,502 - __main__ - INFO - Order 8: Price: Rs.182.2, Trigger: Rs.182.0, Type: GTT ORDER, Fall: 2.74%, Quantity: 11, Value: Rs.2004.2
+2026-01-06 12:41:08,502 - __main__ - INFO - Order 9: Price: Rs.180.9, Trigger: Rs.180.7, Type: GTT ORDER, Fall: 3.43%, Quantity: 12, Value: Rs.2170.8
+2026-01-06 12:41:08,502 - __main__ - INFO - Order 10: Price: Rs.179.4, Trigger: Rs.179.2, Type: GTT ORDER, Fall: 4.20%, Quantity: 13, Value: Rs.2332.2
+2026-01-06 12:41:08,502 - __main__ - INFO - Order 11: Price: Rs.177.9, Trigger: Rs.177.7, Type: GTT ORDER, Fall: 5.02%, Quantity: 15, Value: Rs.2668.5
+2026-01-06 12:41:08,502 - __main__ - INFO - Order 12: Price: Rs.176.2, Trigger: Rs.176.0, Type: GTT ORDER, Fall: 5.90%, Quantity: 17, Value: Rs.2995.4
+2026-01-06 12:41:08,502 - __main__ - INFO - Order 13: Price: Rs.174.5, Trigger: Rs.174.3, Type: GTT ORDER, Fall: 6.84%, Quantity: 18, Value: Rs.3141.0
+2026-01-06 12:41:08,502 - __main__ - INFO - Order 14: Price: Rs.172.6, Trigger: Rs.172.4, Type: GTT ORDER, Fall: 7.84%, Quantity: 20, Value: Rs.3452.0
+2026-01-06 12:41:08,502 - __main__ - INFO - Order 15: Price: Rs.170.6, Trigger: Rs.170.4, Type: GTT ORDER, Fall: 8.89%, Quantity: 22, Value: Rs.3753.2
+2026-01-06 12:41:08,502 - __main__ - INFO - Order 16: Price: Rs.168.6, Trigger: Rs.168.4, Type: GTT ORDER, Fall: 10.00%, Quantity: 24, Value: Rs.4046.4
+2026-01-06 12:41:53,684 - __main__ - INFO - Order placement cancelled by user
+2026-01-06 12:42:27,287 - __main__ - INFO - Using max_fall_pct from config: 10.0
+2026-01-06 12:42:27,287 - __main__ - INFO - Using fall_power from config: 1.7
+2026-01-06 12:42:27,287 - __main__ - INFO - Using size_power from config: 1.6
+2026-01-06 12:42:27,287 - __main__ - INFO - Using size_multiplier from config: 3.8
+2026-01-06 12:42:27,287 - __main__ - INFO - Convex accumulation parameters:
+2026-01-06 12:42:27,287 - __main__ - INFO -   Steps: 16
+2026-01-06 12:42:27,287 - __main__ - INFO -   Base shares: 6
+2026-01-06 12:42:27,287 - __main__ - INFO -   Max fall: 10.0%
+2026-01-06 12:42:27,287 - __main__ - INFO -   Fall power: 1.7
+2026-01-06 12:42:27,287 - __main__ - INFO -   Size power: 1.6
+2026-01-06 12:42:27,287 - __main__ - INFO -   Size multiplier: 3.8
+2026-01-06 12:42:27,287 - __main__ - INFO - Initializing Convex Accumulation Order Scheduler for TATASTEEL
+2026-01-06 12:42:27,287 - __main__ - INFO - Steps: 16, Current price: Rs.187.4
+2026-01-06 12:42:27,288 - __main__ - INFO - Configuration loaded successfully
+2026-01-06 12:42:27,289 - __main__ - INFO - Starting convex accumulation order scheduling process
+2026-01-06 12:42:34,424 - __main__ - INFO - Successfully connected to Kite Connect
+2026-01-06 12:42:34,425 - __main__ - WARNING - pytz not available, assuming market is closed - will skip first order
+2026-01-06 12:42:34,425 - __main__ - INFO - Using provided current price as base: Rs.187.4
+2026-01-06 12:42:34,425 - __main__ - INFO - Market is closed - skipping first order and starting with GTT orders
+2026-01-06 12:42:34,425 - __main__ - INFO - Order 1: SKIPPED (Market closed - AMO not supported)
+2026-01-06 12:42:34,425 - __main__ - INFO - Order 2: Price: Rs.187.2, Trigger: Rs.187.0, Type: GTT ORDER, Fall: 0.10%, Quantity: 6, Value: Rs.1123.2
+2026-01-06 12:42:34,425 - __main__ - INFO - Order 3: Price: Rs.186.8, Trigger: Rs.186.6, Type: GTT ORDER, Fall: 0.33%, Quantity: 7, Value: Rs.1307.6
+2026-01-06 12:42:34,425 - __main__ - INFO - Order 4: Price: Rs.186.2, Trigger: Rs.186.0, Type: GTT ORDER, Fall: 0.65%, Quantity: 8, Value: Rs.1489.6
+2026-01-06 12:42:34,425 - __main__ - INFO - Order 5: Price: Rs.185.4, Trigger: Rs.185.2, Type: GTT ORDER, Fall: 1.06%, Quantity: 9, Value: Rs.1668.6
+2026-01-06 12:42:34,425 - __main__ - INFO - Order 6: Price: Rs.184.5, Trigger: Rs.184.3, Type: GTT ORDER, Fall: 1.54%, Quantity: 10, Value: Rs.1845.0
+2026-01-06 12:42:34,425 - __main__ - INFO - Order 7: Price: Rs.183.5, Trigger: Rs.183.3, Type: GTT ORDER, Fall: 2.11%, Quantity: 11, Value: Rs.2018.5
+2026-01-06 12:42:34,425 - __main__ - INFO - Order 8: Price: Rs.182.3, Trigger: Rs.182.1, Type: GTT ORDER, Fall: 2.74%, Quantity: 13, Value: Rs.2369.9
+2026-01-06 12:42:34,425 - __main__ - INFO - Order 9: Price: Rs.181.0, Trigger: Rs.180.8, Type: GTT ORDER, Fall: 3.43%, Quantity: 14, Value: Rs.2534.0
+2026-01-06 12:42:34,425 - __main__ - INFO - Order 10: Price: Rs.179.5, Trigger: Rs.179.3, Type: GTT ORDER, Fall: 4.20%, Quantity: 16, Value: Rs.2872.0
+2026-01-06 12:42:34,425 - __main__ - INFO - Order 11: Price: Rs.178.0, Trigger: Rs.177.8, Type: GTT ORDER, Fall: 5.02%, Quantity: 18, Value: Rs.3204.0
+2026-01-06 12:42:34,425 - __main__ - INFO - Order 12: Price: Rs.176.3, Trigger: Rs.176.1, Type: GTT ORDER, Fall: 5.90%, Quantity: 20, Value: Rs.3526.0
+2026-01-06 12:42:34,426 - __main__ - INFO - Order 13: Price: Rs.174.6, Trigger: Rs.174.4, Type: GTT ORDER, Fall: 6.84%, Quantity: 22, Value: Rs.3841.2
+2026-01-06 12:42:34,426 - __main__ - INFO - Order 14: Price: Rs.172.7, Trigger: Rs.172.5, Type: GTT ORDER, Fall: 7.84%, Quantity: 24, Value: Rs.4144.8
+2026-01-06 12:42:34,426 - __main__ - INFO - Order 15: Price: Rs.170.7, Trigger: Rs.170.5, Type: GTT ORDER, Fall: 8.89%, Quantity: 26, Value: Rs.4438.2
+2026-01-06 12:42:34,426 - __main__ - INFO - Order 16: Price: Rs.168.7, Trigger: Rs.168.5, Type: GTT ORDER, Fall: 10.00%, Quantity: 29, Value: Rs.4892.3
+2026-01-06 12:42:41,900 - __main__ - INFO - Placing orders...
+2026-01-06 12:42:41,901 - __main__ - INFO - Skipping order 1 - Market closed, AMO not supported
+2026-01-06 12:42:41,901 - __main__ - INFO - Order 1 skipped successfully
+2026-01-06 12:42:41,901 - __main__ - INFO - Placing GTT order 2 for TATASTEEL
+2026-01-06 12:42:42,103 - __main__ - INFO - GTT order 2 placed successfully with trigger ID: 300889784
+2026-01-06 12:42:42,103 - __main__ - INFO - Placing GTT order 3 for TATASTEEL
+2026-01-06 12:42:42,326 - __main__ - INFO - GTT order 3 placed successfully with trigger ID: 300889786
+2026-01-06 12:42:42,326 - __main__ - INFO - Placing GTT order 4 for TATASTEEL
+2026-01-06 12:42:42,559 - __main__ - INFO - GTT order 4 placed successfully with trigger ID: 300889789
+2026-01-06 12:42:42,559 - __main__ - INFO - Placing GTT order 5 for TATASTEEL
+2026-01-06 12:42:42,774 - __main__ - INFO - GTT order 5 placed successfully with trigger ID: 300889790
+2026-01-06 12:42:42,774 - __main__ - INFO - Placing GTT order 6 for TATASTEEL
+2026-01-06 12:42:42,967 - __main__ - INFO - GTT order 6 placed successfully with trigger ID: 300889792
+2026-01-06 12:42:42,967 - __main__ - INFO - Placing GTT order 7 for TATASTEEL
+2026-01-06 12:42:43,123 - __main__ - INFO - GTT order 7 placed successfully with trigger ID: 300889794
+2026-01-06 12:42:43,124 - __main__ - INFO - Placing GTT order 8 for TATASTEEL
+2026-01-06 12:42:43,293 - __main__ - INFO - GTT order 8 placed successfully with trigger ID: 300889795
+2026-01-06 12:42:43,293 - __main__ - INFO - Placing GTT order 9 for TATASTEEL
+2026-01-06 12:42:43,459 - __main__ - INFO - GTT order 9 placed successfully with trigger ID: 300889796
+2026-01-06 12:42:43,459 - __main__ - INFO - Placing GTT order 10 for TATASTEEL
+2026-01-06 12:42:43,639 - __main__ - INFO - GTT order 10 placed successfully with trigger ID: 300889799
+2026-01-06 12:42:43,639 - __main__ - INFO - Placing GTT order 11 for TATASTEEL
+2026-01-06 12:42:43,808 - __main__ - INFO - GTT order 11 placed successfully with trigger ID: 300889800
+2026-01-06 12:42:43,809 - __main__ - INFO - Placing GTT order 12 for TATASTEEL
+2026-01-06 12:42:44,019 - __main__ - INFO - GTT order 12 placed successfully with trigger ID: 300889803
+2026-01-06 12:42:44,019 - __main__ - INFO - Placing GTT order 13 for TATASTEEL
+2026-01-06 12:42:44,192 - __main__ - INFO - GTT order 13 placed successfully with trigger ID: 300889806
+2026-01-06 12:42:44,192 - __main__ - INFO - Placing GTT order 14 for TATASTEEL
+2026-01-06 12:42:44,410 - __main__ - INFO - GTT order 14 placed successfully with trigger ID: 300889808
+2026-01-06 12:42:44,410 - __main__ - INFO - Placing GTT order 15 for TATASTEEL
+2026-01-06 12:42:44,631 - __main__ - INFO - GTT order 15 placed successfully with trigger ID: 300889809
+2026-01-06 12:42:44,631 - __main__ - INFO - Placing GTT order 16 for TATASTEEL
+2026-01-06 12:42:44,814 - __main__ - INFO - GTT order 16 placed successfully with trigger ID: 300889811
+2026-01-06 12:42:44,816 - __main__ - INFO - Order summary saved to workdir/orders/TATASTEEL_gtt_orders_20260106_124244.json
+2026-01-06 12:42:44,816 - __main__ - INFO - Convex accumulation order scheduling process completed successfully
+2026-01-06 14:05:50,910 - __main__ - INFO - Initializing GTT Sell Order Scheduler for TATASTEEL
+2026-01-06 14:05:50,910 - __main__ - INFO - Target net profit: 2.0%
+2026-01-06 14:05:50,910 - __main__ - INFO - Starting GTT sell order scheduling process
+2026-01-06 14:05:51,100 - __main__ - INFO - Successfully connected to Kite Connect
