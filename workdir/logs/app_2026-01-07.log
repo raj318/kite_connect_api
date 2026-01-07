@@ -1,0 +1,72 @@
+2026-01-07 10:32:03,966 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-07 10:32:03,967 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-07 10:32:03,968 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-07 10:32:04,095 - kite_utils - ERROR - Access token expired. Getting new token...
+2026-01-07 10:32:27,691 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-07 10:32:27,692 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-07 10:32:27,693 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-07 10:35:57,649 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-07 10:35:57,651 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-07 10:35:57,652 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-07 10:35:57,653 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-07 10:36:26,804 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-07 10:36:26,806 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-07 10:36:26,807 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-07 10:36:26,808 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-07 10:44:59,622 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-07 10:44:59,623 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-07 10:48:01,731 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-07 10:48:01,733 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-07 10:48:23,665 - kite_utils - ERROR - Error getting live data for TATASTEEL: Insufficient permission for that call.
+2026-01-07 10:50:12,473 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-07 10:50:12,474 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-07 10:50:18,472 - kite_utils - ERROR - Error getting live data for TATASTEEL: Insufficient permission for that call.
+2026-01-07 10:52:45,105 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-07 10:52:45,106 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-07 10:55:03,524 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-07 10:55:03,525 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-07 10:55:22,906 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-07 10:55:22,907 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-07 10:55:44,638 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-07 10:55:44,639 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-07 10:56:32,750 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-07 10:56:32,751 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-07 10:57:18,953 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-07 10:57:18,954 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-07 10:58:20,477 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-07 10:58:20,478 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-07 10:59:26,400 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-07 10:59:26,401 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-07 11:00:18,798 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-07 11:00:18,799 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-07 11:01:01,608 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-07 11:01:01,609 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-07 11:07:14,790 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-07 11:07:14,792 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-07 11:09:27,253 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-07 11:09:27,254 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-07 11:11:08,270 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-07 11:11:08,271 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-07 11:11:23,372 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-07 11:11:23,373 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-07 11:12:25,706 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-07 11:12:25,707 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-07 11:13:03,914 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-07 11:13:03,915 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-07 11:13:39,916 - kite_utils - ERROR - Error getting live data for NTPC: Insufficient permission for that call.
+2026-01-07 11:16:15,457 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-07 11:16:15,458 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-07 11:16:15,459 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-07 11:16:15,460 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-07 11:16:38,385 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-07 11:16:38,388 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-07 11:16:38,389 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-07 11:16:38,390 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-07 11:19:31,599 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-07 11:19:31,600 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-07 11:26:03,608 - kite_utils - ERROR - Error getting live data for TATASTEEL: Insufficient permission for that call.
+2026-01-07 11:36:01,816 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-07 11:36:01,818 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-07 11:36:39,868 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-07 11:36:39,869 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-07 11:36:43,664 - kite_utils - ERROR - Error getting live data for POWERGRID: Insufficient permission for that call.

@@ -174,12 +174,12 @@ def get_holdings_info(kite_api: KiteConnectAPI, company_symbol: str) -> Tuple[in
         total_quantity = 0
         total_value = 0.0
         symbol_upper = company_symbol.upper()
-
+        logging.info("Fetching holdings information...")
         # First try the helper which may return filtered holdings
         try:
             account_details = kite_api.get_account_details()
             holdings = account_details.get('holdings') or []
-            print(holdings)
+            logging.info(f"account holding = {holdings}")
         except Exception:
             holdings = []
 
@@ -193,9 +193,9 @@ def get_holdings_info(kite_api: KiteConnectAPI, company_symbol: str) -> Tuple[in
 
         # Filter holdings case-insensitively
         company_holdings = [h for h in (holdings or []) if h.get('tradingsymbol', '').upper() == symbol_upper]
-
+        logging.info(f"holdings = {company_holdings}")
         for holding in company_holdings:
-            qty = int(holding.get('quantity', 0) or 0)
+            qty = int(holding.get('quantity', 0) or holding.get('t1_quantity', 0) or 0)
             avg_price = float(holding.get('average_price', 0) or 0)
             if qty > 0:
                 total_quantity += qty
@@ -203,19 +203,23 @@ def get_holdings_info(kite_api: KiteConnectAPI, company_symbol: str) -> Tuple[in
                 if avg_price > 0:
                     total_value += qty * avg_price
 
+        logging.info(f"init total qunatity = {total_quantity}")
         # Also include positions (day and net) to capture trades executed today
         if hasattr(kite_api, 'kite') and kite_api.kite:
             try:
                 positions = kite_api.kite.positions() or {}
-                for key in ('day', 'net'):
-                    for position in positions.get(key, []) or []:
-                        if position.get('tradingsymbol', '').upper() == symbol_upper:
-                            qty = int(position.get('quantity', 0) or 0)
-                            avg = float(position.get('average_price', 0) or 0)
-                            if qty > 0:
-                                total_quantity += qty
-                                if avg > 0:
-                                    total_value += qty * avg
+                logging.info(f"positions = {positions}")
+                for position in positions.get('net', []) or []:
+                    print(f"\n pppposition = {position}\n")
+                    if position.get('tradingsymbol', '').upper() == symbol_upper:
+                        logging.info(f"total quantity in positions = {position.get('buy_quantity', 0)}")
+                        qty = int(position.get('buy_quantity', 0) or 0)
+                        avg = float(position.get('buy_price', 0) or 0)
+                        if qty > 0:
+                            total_quantity += qty
+                            if avg > 0:
+                                total_value += qty * avg
+                logging.info(f"After positions total qunatity = {total_quantity}")
             except Exception as e:
                 logging.warning(f"Could not fetch positions: {e}")
 
@@ -228,7 +232,7 @@ def get_holdings_info(kite_api: KiteConnectAPI, company_symbol: str) -> Tuple[in
                     logging.debug(f"Raw positions: {kite_api.kite.positions()}")
             except Exception:
                 pass
-
+        logging.info(f"total quantity = {total_quantity}")
         average_price = (total_value / total_quantity) if total_quantity > 0 else 0.0
         return total_quantity, round(average_price, 2)
 
@@ -399,9 +403,10 @@ class GTTSellOrderScheduler:
         
         # Calculate optimal sell price
         sell_price = calculate_optimal_sell_price(avg_price, sell_quantity, self.net_profit_percentage)
+        sell_price = round(sell_price, 1)
         
         # Calculate trigger price (0.1% above sell price for GTT)
-        trigger_price = round(sell_price * 1.001, 2)
+        trigger_price = round(sell_price * 1.001, 1)
         
         # Calculate profit analysis
         profit_analysis = calculate_profit_with_charges(avg_price, sell_price, sell_quantity)
@@ -460,7 +465,6 @@ class GTTSellOrderScheduler:
             
             # Get holdings and calculate prices
             quantity, avg_price, sell_price, trigger_price, profit_analysis = self.get_holdings_and_calculate_price()
-            print("testing")
             # Print summary
             print_order_summary(self.company_symbol, quantity, avg_price, sell_price, 
                               self.net_profit_percentage, profit_analysis)

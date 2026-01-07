@@ -1,0 +1,82 @@
+2026-01-07 10:35:57,650 - __main__ - INFO - Using max_fall_pct from config: 10.0
+2026-01-07 10:35:57,650 - __main__ - INFO - Using fall_power from config: 1.7
+2026-01-07 10:35:57,651 - __main__ - INFO - Using size_power from config: 1.6
+2026-01-07 10:35:57,651 - __main__ - INFO - Using size_multiplier from config: 3.8
+2026-01-07 10:35:57,651 - __main__ - INFO - Convex accumulation parameters:
+2026-01-07 10:35:57,651 - __main__ - INFO -   Steps: 10
+2026-01-07 10:35:57,651 - __main__ - INFO -   Base shares: 6
+2026-01-07 10:35:57,651 - __main__ - INFO -   Max fall: 10.0%
+2026-01-07 10:35:57,651 - __main__ - INFO -   Fall power: 1.7
+2026-01-07 10:35:57,651 - __main__ - INFO -   Size power: 1.6
+2026-01-07 10:35:57,651 - __main__ - INFO -   Size multiplier: 3.8
+2026-01-07 10:35:57,651 - __main__ - INFO - Initializing Convex Accumulation Order Scheduler for ONGC
+2026-01-07 10:35:57,651 - __main__ - INFO - Steps: 10, Current price: Rs.241.1
+2026-01-07 10:35:57,652 - __main__ - INFO - Configuration loaded successfully
+2026-01-07 10:35:57,653 - __main__ - INFO - Starting convex accumulation order scheduling process
+2026-01-07 10:35:57,793 - __main__ - INFO - Successfully connected to Kite Connect
+2026-01-07 10:35:57,793 - __main__ - WARNING - pytz not available, assuming market is closed - will skip first order
+2026-01-07 10:35:57,793 - __main__ - INFO - Using provided current price as base: Rs.241.1
+2026-01-07 10:35:57,793 - __main__ - INFO - Market is closed - skipping first order and starting with GTT orders
+2026-01-07 10:35:57,793 - __main__ - INFO - Order 1: SKIPPED (Market closed - AMO not supported)
+2026-01-07 10:35:57,793 - __main__ - INFO - Order 2: Price: Rs.240.5, Trigger: Rs.240.3, Type: GTT ORDER, Fall: 0.24%, Quantity: 7, Value: Rs.1683.5
+2026-01-07 10:35:57,793 - __main__ - INFO - Order 3: Price: Rs.239.2, Trigger: Rs.239.0, Type: GTT ORDER, Fall: 0.78%, Quantity: 8, Value: Rs.1913.6
+2026-01-07 10:35:57,793 - __main__ - INFO - Order 4: Price: Rs.237.4, Trigger: Rs.237.2, Type: GTT ORDER, Fall: 1.54%, Quantity: 10, Value: Rs.2374.0
+2026-01-07 10:35:57,793 - __main__ - INFO - Order 5: Price: Rs.235.0, Trigger: Rs.234.8, Type: GTT ORDER, Fall: 2.52%, Quantity: 12, Value: Rs.2820.0
+2026-01-07 10:35:57,793 - __main__ - INFO - Order 6: Price: Rs.232.2, Trigger: Rs.232.0, Type: GTT ORDER, Fall: 3.68%, Quantity: 15, Value: Rs.3483.0
+2026-01-07 10:35:57,793 - __main__ - INFO - Order 7: Price: Rs.229.0, Trigger: Rs.228.8, Type: GTT ORDER, Fall: 5.02%, Quantity: 18, Value: Rs.4122.0
+2026-01-07 10:35:57,793 - __main__ - INFO - Order 8: Price: Rs.225.4, Trigger: Rs.225.2, Type: GTT ORDER, Fall: 6.52%, Quantity: 21, Value: Rs.4733.4
+2026-01-07 10:35:57,793 - __main__ - INFO - Order 9: Price: Rs.221.4, Trigger: Rs.221.2, Type: GTT ORDER, Fall: 8.19%, Quantity: 25, Value: Rs.5535.0
+2026-01-07 10:35:57,793 - __main__ - INFO - Order 10: Price: Rs.217.0, Trigger: Rs.216.8, Type: GTT ORDER, Fall: 10.00%, Quantity: 29, Value: Rs.6293.0
+2026-01-07 10:36:17,550 - __main__ - INFO - Order placement cancelled by user
+2026-01-07 10:36:26,806 - __main__ - INFO - Using max_fall_pct from config: 10.0
+2026-01-07 10:36:26,806 - __main__ - INFO - Using fall_power from config: 1.7
+2026-01-07 10:36:26,806 - __main__ - INFO - Using size_power from config: 1.6
+2026-01-07 10:36:26,806 - __main__ - INFO - Using size_multiplier from config: 3.8
+2026-01-07 10:36:26,806 - __main__ - INFO - Convex accumulation parameters:
+2026-01-07 10:36:26,806 - __main__ - INFO -   Steps: 10
+2026-01-07 10:36:26,806 - __main__ - INFO -   Base shares: 5
+2026-01-07 10:36:26,806 - __main__ - INFO -   Max fall: 10.0%
+2026-01-07 10:36:26,806 - __main__ - INFO -   Fall power: 1.7
+2026-01-07 10:36:26,806 - __main__ - INFO -   Size power: 1.6
+2026-01-07 10:36:26,806 - __main__ - INFO -   Size multiplier: 3.8
+2026-01-07 10:36:26,806 - __main__ - INFO - Initializing Convex Accumulation Order Scheduler for ONGC
+2026-01-07 10:36:26,806 - __main__ - INFO - Steps: 10, Current price: Rs.241.1
+2026-01-07 10:36:26,807 - __main__ - INFO - Configuration loaded successfully
+2026-01-07 10:36:26,808 - __main__ - INFO - Starting convex accumulation order scheduling process
+2026-01-07 10:36:26,927 - __main__ - INFO - Successfully connected to Kite Connect
+2026-01-07 10:36:26,927 - __main__ - WARNING - pytz not available, assuming market is closed - will skip first order
+2026-01-07 10:36:26,927 - __main__ - INFO - Using provided current price as base: Rs.241.1
+2026-01-07 10:36:26,927 - __main__ - INFO - Market is closed - skipping first order and starting with GTT orders
+2026-01-07 10:36:26,927 - __main__ - INFO - Order 1: SKIPPED (Market closed - AMO not supported)
+2026-01-07 10:36:26,927 - __main__ - INFO - Order 2: Price: Rs.240.5, Trigger: Rs.240.3, Type: GTT ORDER, Fall: 0.24%, Quantity: 6, Value: Rs.1443.0
+2026-01-07 10:36:26,928 - __main__ - INFO - Order 3: Price: Rs.239.2, Trigger: Rs.239.0, Type: GTT ORDER, Fall: 0.78%, Quantity: 7, Value: Rs.1674.4
+2026-01-07 10:36:26,928 - __main__ - INFO - Order 4: Price: Rs.237.4, Trigger: Rs.237.2, Type: GTT ORDER, Fall: 1.54%, Quantity: 8, Value: Rs.1899.2
+2026-01-07 10:36:26,928 - __main__ - INFO - Order 5: Price: Rs.235.0, Trigger: Rs.234.8, Type: GTT ORDER, Fall: 2.52%, Quantity: 10, Value: Rs.2350.0
+2026-01-07 10:36:26,928 - __main__ - INFO - Order 6: Price: Rs.232.2, Trigger: Rs.232.0, Type: GTT ORDER, Fall: 3.68%, Quantity: 12, Value: Rs.2786.4
+2026-01-07 10:36:26,928 - __main__ - INFO - Order 7: Price: Rs.229.0, Trigger: Rs.228.8, Type: GTT ORDER, Fall: 5.02%, Quantity: 15, Value: Rs.3435.0
+2026-01-07 10:36:26,928 - __main__ - INFO - Order 8: Price: Rs.225.4, Trigger: Rs.225.2, Type: GTT ORDER, Fall: 6.52%, Quantity: 18, Value: Rs.4057.2
+2026-01-07 10:36:26,928 - __main__ - INFO - Order 9: Price: Rs.221.4, Trigger: Rs.221.2, Type: GTT ORDER, Fall: 8.19%, Quantity: 21, Value: Rs.4649.4
+2026-01-07 10:36:26,928 - __main__ - INFO - Order 10: Price: Rs.217.0, Trigger: Rs.216.8, Type: GTT ORDER, Fall: 10.00%, Quantity: 24, Value: Rs.5208.0
+2026-01-07 10:36:45,145 - __main__ - INFO - Placing orders...
+2026-01-07 10:36:45,146 - __main__ - INFO - Skipping order 1 - Market closed, AMO not supported
+2026-01-07 10:36:45,146 - __main__ - INFO - Order 1 skipped successfully
+2026-01-07 10:36:45,146 - __main__ - INFO - Placing GTT order 2 for ONGC
+2026-01-07 10:36:45,442 - __main__ - INFO - GTT order 2 placed successfully with trigger ID: 301039122
+2026-01-07 10:36:45,442 - __main__ - INFO - Placing GTT order 3 for ONGC
+2026-01-07 10:36:45,649 - __main__ - INFO - GTT order 3 placed successfully with trigger ID: 301039123
+2026-01-07 10:36:45,649 - __main__ - INFO - Placing GTT order 4 for ONGC
+2026-01-07 10:36:45,827 - __main__ - INFO - GTT order 4 placed successfully with trigger ID: 301039125
+2026-01-07 10:36:45,827 - __main__ - INFO - Placing GTT order 5 for ONGC
+2026-01-07 10:36:46,153 - __main__ - INFO - GTT order 5 placed successfully with trigger ID: 301039126
+2026-01-07 10:36:46,153 - __main__ - INFO - Placing GTT order 6 for ONGC
+2026-01-07 10:36:46,361 - __main__ - INFO - GTT order 6 placed successfully with trigger ID: 301039127
+2026-01-07 10:36:46,361 - __main__ - INFO - Placing GTT order 7 for ONGC
+2026-01-07 10:36:46,574 - __main__ - INFO - GTT order 7 placed successfully with trigger ID: 301039129
+2026-01-07 10:36:46,574 - __main__ - INFO - Placing GTT order 8 for ONGC
+2026-01-07 10:36:46,765 - __main__ - INFO - GTT order 8 placed successfully with trigger ID: 301039130
+2026-01-07 10:36:46,765 - __main__ - INFO - Placing GTT order 9 for ONGC
+2026-01-07 10:36:47,021 - __main__ - INFO - GTT order 9 placed successfully with trigger ID: 301039132
+2026-01-07 10:36:47,021 - __main__ - INFO - Placing GTT order 10 for ONGC
+2026-01-07 10:36:47,353 - __main__ - INFO - GTT order 10 placed successfully with trigger ID: 301039137
+2026-01-07 10:36:47,354 - __main__ - INFO - Order summary saved to workdir/orders/ONGC_gtt_orders_20260107_103647.json
+2026-01-07 10:36:47,355 - __main__ - INFO - Convex accumulation order scheduling process completed successfully

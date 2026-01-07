@@ -1,0 +1,89 @@
+2026-01-07 10:52:45,106 - __main__ - INFO - Initializing GTT Sell Order Scheduler for NTPC
+2026-01-07 10:52:45,106 - __main__ - INFO - Target net profit: 1.0%
+2026-01-07 10:52:45,106 - __main__ - INFO - Starting GTT sell order scheduling process
+2026-01-07 10:52:45,241 - __main__ - INFO - Successfully connected to Kite Connect
+2026-01-07 10:55:01,661 - __main__ - INFO - Order placement cancelled by user
+2026-01-07 10:55:03,525 - __main__ - INFO - Initializing GTT Sell Order Scheduler for NTPC
+2026-01-07 10:55:03,525 - __main__ - INFO - Target net profit: 1.0%
+2026-01-07 10:55:03,525 - __main__ - INFO - Starting GTT sell order scheduling process
+2026-01-07 10:55:03,651 - __main__ - INFO - Successfully connected to Kite Connect
+2026-01-07 10:55:11,251 - __main__ - ERROR - GTT sell order scheduling failed: name 'logger' is not defined
+2026-01-07 10:55:11,251 - __main__ - ERROR - Error type: NameError
+2026-01-07 10:55:22,907 - __main__ - INFO - Initializing GTT Sell Order Scheduler for NTPC
+2026-01-07 10:55:22,907 - __main__ - INFO - Target net profit: 1.0%
+2026-01-07 10:55:22,907 - __main__ - INFO - Starting GTT sell order scheduling process
+2026-01-07 10:55:23,071 - __main__ - INFO - Successfully connected to Kite Connect
+2026-01-07 10:55:42,206 - __main__ - INFO - Order placement cancelled by user
+2026-01-07 10:55:44,639 - __main__ - INFO - Initializing GTT Sell Order Scheduler for NTPC
+2026-01-07 10:55:44,639 - __main__ - INFO - Target net profit: 1.0%
+2026-01-07 10:55:44,639 - __main__ - INFO - Starting GTT sell order scheduling process
+2026-01-07 10:55:44,779 - __main__ - INFO - Successfully connected to Kite Connect
+2026-01-07 10:56:31,544 - __main__ - INFO - Order placement cancelled by user
+2026-01-07 10:56:32,751 - __main__ - INFO - Initializing GTT Sell Order Scheduler for NTPC
+2026-01-07 10:56:32,751 - __main__ - INFO - Target net profit: 1.0%
+2026-01-07 10:56:32,751 - __main__ - INFO - Starting GTT sell order scheduling process
+2026-01-07 10:56:32,866 - __main__ - INFO - Successfully connected to Kite Connect
+2026-01-07 10:57:16,722 - __main__ - INFO - Order placement cancelled by user
+2026-01-07 10:57:18,954 - __main__ - INFO - Initializing GTT Sell Order Scheduler for NTPC
+2026-01-07 10:57:18,954 - __main__ - INFO - Target net profit: 1.0%
+2026-01-07 10:57:18,954 - __main__ - INFO - Starting GTT sell order scheduling process
+2026-01-07 10:57:19,096 - __main__ - INFO - Successfully connected to Kite Connect
+2026-01-07 10:58:19,227 - __main__ - INFO - Order placement cancelled by user
+2026-01-07 10:58:20,478 - __main__ - INFO - Initializing GTT Sell Order Scheduler for NTPC
+2026-01-07 10:58:20,478 - __main__ - INFO - Target net profit: 1.0%
+2026-01-07 10:58:20,478 - __main__ - INFO - Starting GTT sell order scheduling process
+2026-01-07 10:58:20,595 - __main__ - INFO - Successfully connected to Kite Connect
+2026-01-07 10:59:24,945 - __main__ - INFO - Order placement cancelled by user
+2026-01-07 10:59:26,401 - __main__ - INFO - Initializing GTT Sell Order Scheduler for NTPC
+2026-01-07 10:59:26,401 - __main__ - INFO - Target net profit: 1.0%
+2026-01-07 10:59:26,401 - __main__ - INFO - Starting GTT sell order scheduling process
+2026-01-07 10:59:26,536 - __main__ - INFO - Successfully connected to Kite Connect
+2026-01-07 11:00:17,824 - __main__ - INFO - Order placement cancelled by user
+2026-01-07 11:00:18,799 - __main__ - INFO - Initializing GTT Sell Order Scheduler for NTPC
+2026-01-07 11:00:18,799 - __main__ - INFO - Target net profit: 1.0%
+2026-01-07 11:00:18,799 - __main__ - INFO - Starting GTT sell order scheduling process
+2026-01-07 11:00:18,936 - __main__ - INFO - Successfully connected to Kite Connect
+2026-01-07 11:01:00,262 - __main__ - INFO - Order placement cancelled by user
+2026-01-07 11:01:01,609 - __main__ - INFO - Initializing GTT Sell Order Scheduler for NTPC
+2026-01-07 11:01:01,609 - __main__ - INFO - Target net profit: 1.0%
+2026-01-07 11:01:01,609 - __main__ - INFO - Starting GTT sell order scheduling process
+2026-01-07 11:01:01,734 - __main__ - INFO - Successfully connected to Kite Connect
+2026-01-07 11:07:13,347 - __main__ - INFO - Order placement cancelled by user
+2026-01-07 11:07:14,791 - __main__ - INFO - Initializing GTT Sell Order Scheduler for NTPC
+2026-01-07 11:07:14,791 - __main__ - INFO - Target net profit: 1.0%
+2026-01-07 11:07:14,792 - __main__ - INFO - Starting GTT sell order scheduling process
+2026-01-07 11:07:14,928 - __main__ - INFO - Successfully connected to Kite Connect
+2026-01-07 11:07:15,747 - __main__ - ERROR - GTT sell order scheduling failed: No holdings found for NTPC
+2026-01-07 11:07:15,747 - __main__ - ERROR - Error type: ValueError
+2026-01-07 11:09:27,254 - __main__ - INFO - Initializing GTT Sell Order Scheduler for NTPC
+2026-01-07 11:09:27,254 - __main__ - INFO - Target net profit: 1.0%
+2026-01-07 11:09:27,254 - __main__ - INFO - Starting GTT sell order scheduling process
+2026-01-07 11:09:27,395 - __main__ - INFO - Successfully connected to Kite Connect
+2026-01-07 11:09:28,354 - __main__ - ERROR - GTT sell order scheduling failed: No holdings found for NTPC
+2026-01-07 11:09:28,354 - __main__ - ERROR - Error type: ValueError
+2026-01-07 11:11:08,271 - __main__ - INFO - Initializing GTT Sell Order Scheduler for NTPC
+2026-01-07 11:11:08,271 - __main__ - INFO - Target net profit: 1.0%
+2026-01-07 11:11:08,271 - __main__ - INFO - Starting GTT sell order scheduling process
+2026-01-07 11:11:08,837 - __main__ - INFO - Successfully connected to Kite Connect
+2026-01-07 11:11:18,459 - __main__ - ERROR - GTT sell order scheduling failed: No holdings found for NTPC
+2026-01-07 11:11:18,459 - __main__ - ERROR - Error type: ValueError
+2026-01-07 11:11:23,373 - __main__ - INFO - Initializing GTT Sell Order Scheduler for NTPC
+2026-01-07 11:11:23,373 - __main__ - INFO - Target net profit: 1.0%
+2026-01-07 11:11:23,373 - __main__ - INFO - Starting GTT sell order scheduling process
+2026-01-07 11:11:23,915 - __main__ - INFO - Successfully connected to Kite Connect
+2026-01-07 11:11:33,920 - __main__ - ERROR - GTT sell order scheduling failed: No holdings found for NTPC
+2026-01-07 11:11:33,920 - __main__ - ERROR - Error type: ValueError
+2026-01-07 11:12:25,707 - __main__ - INFO - Initializing GTT Sell Order Scheduler for NTPC
+2026-01-07 11:12:25,707 - __main__ - INFO - Target net profit: 1.0%
+2026-01-07 11:12:25,707 - __main__ - INFO - Starting GTT sell order scheduling process
+2026-01-07 11:12:26,231 - __main__ - INFO - Successfully connected to Kite Connect
+2026-01-07 11:12:27,893 - __main__ - ERROR - GTT sell order scheduling failed: No holdings found for NTPC
+2026-01-07 11:12:27,893 - __main__ - ERROR - Error type: ValueError
+2026-01-07 11:13:03,915 - __main__ - INFO - Initializing GTT Sell Order Scheduler for NTPC
+2026-01-07 11:13:03,915 - __main__ - INFO - Target net profit: 1.0%
+2026-01-07 11:13:03,915 - __main__ - INFO - Starting GTT sell order scheduling process
+2026-01-07 11:13:04,062 - __main__ - INFO - Successfully connected to Kite Connect
+2026-01-07 11:13:39,568 - __main__ - INFO - Placing GTT sell order...
+2026-01-07 11:13:39,916 - __main__ - WARNING - Could not fetch current price: Insufficient permission for that call.
+2026-01-07 11:13:40,029 - __main__ - INFO - GTT sell order placed successfully. Trigger ID: 301051372
+2026-01-07 11:13:40,030 - __main__ - INFO - GTT sell order scheduling process completed successfully
