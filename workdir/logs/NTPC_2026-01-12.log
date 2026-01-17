@@ -1,0 +1,18 @@
+2026-01-12 10:47:17,762 - __main__ - INFO - Initializing GTT Sell Order Scheduler for NTPC
+2026-01-12 10:47:17,762 - __main__ - INFO - Target net profit: 1.0%
+2026-01-12 10:47:17,762 - __main__ - INFO - Starting GTT sell order scheduling process
+2026-01-12 10:47:18,017 - __main__ - INFO - Successfully connected to Kite Connect
+2026-01-12 10:47:23,926 - __main__ - INFO - Placing GTT sell order...
+2026-01-12 10:47:24,540 - __main__ - WARNING - Could not fetch current price: Insufficient permission for that call.
+2026-01-12 10:47:24,812 - __main__ - INFO - GTT sell order placed successfully. Trigger ID: 301651407
+2026-01-12 10:47:24,813 - __main__ - INFO - GTT sell order scheduling process completed successfully
+2026-01-12 21:47:37,055 - __main__ - INFO - Initializing GTT Sell Order Scheduler for NTPC
+2026-01-12 21:47:37,055 - __main__ - INFO - Target net profit: 1.0%
+2026-01-12 21:47:37,055 - __main__ - INFO - Starting GTT sell order scheduling process
+2026-01-12 21:47:37,227 - __main__ - INFO - Successfully connected to Kite Connect
+2026-01-12 21:54:01,539 - __main__ - INFO - Order placement cancelled by user
+2026-01-12 22:02:14,108 - __main__ - INFO - Initializing GTT Sell Order Scheduler for NTPC
+2026-01-12 22:02:14,108 - __main__ - INFO - Target net profit: 1.0%
+2026-01-12 22:02:14,108 - __main__ - INFO - Starting GTT sell order scheduling process
+2026-01-12 22:02:14,261 - __main__ - INFO - Successfully connected to Kite Connect
+2026-01-14 11:25:07,692 - __main__ - INFO - Order placement cancelled by user

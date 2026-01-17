@@ -1,0 +1,192 @@
+2026-01-16 20:37:16,650 - __main__ - INFO - Price difference configured: 0.5%
+2026-01-16 20:37:16,650 - __main__ - INFO - Start quantity configured: 15
+2026-01-16 20:37:16,650 - __main__ - INFO - Initializing Hybrid Order Scheduler for POWERGRID
+2026-01-16 20:37:16,650 - __main__ - INFO - Order count: 10, Current price: Rs.256.00, Max quantity: 100
+2026-01-16 20:37:16,650 - __main__ - INFO - Price difference: 0.5%
+2026-01-16 20:37:16,651 - __main__ - INFO - Configuration loaded successfully
+2026-01-16 20:37:16,652 - __main__ - INFO - Starting hybrid order scheduling process
+2026-01-16 20:37:16,830 - __main__ - INFO - Successfully connected to Kite Connect
+2026-01-16 20:37:16,830 - __main__ - WARNING - pytz not available, assuming market is closed - will use LIMIT order for first order
+2026-01-16 20:37:16,830 - __main__ - INFO - Using provided current price as base: Rs.256.00
+2026-01-16 20:37:16,830 - __main__ - INFO - Market is closed - skipping first order and starting with GTT orders
+2026-01-16 20:37:16,830 - __main__ - INFO - Order 1: SKIPPED (Market closed - AMO not supported)
+2026-01-16 20:37:16,830 - __main__ - INFO - Order 2: Price: Rs.255.70, Trigger: Rs.255.40, Type: GTT ORDER, Quantity: 15, Value: Rs.3835.20
+2026-01-16 20:37:16,830 - __main__ - INFO - Order 3: Price: Rs.254.40, Trigger: Rs.254.10, Type: GTT ORDER, Quantity: 16, Value: Rs.4070.40
+2026-01-16 20:37:16,830 - __main__ - INFO - Order 4: Price: Rs.253.10, Trigger: Rs.252.90, Type: GTT ORDER, Quantity: 17, Value: Rs.4303.00
+2026-01-16 20:37:16,830 - __main__ - INFO - Order 5: Price: Rs.251.80, Trigger: Rs.251.60, Type: GTT ORDER, Quantity: 18, Value: Rs.4533.10
+2026-01-16 20:37:16,830 - __main__ - INFO - Order 6: Price: Rs.250.60, Trigger: Rs.250.30, Type: GTT ORDER, Quantity: 19, Value: Rs.4760.60
+2026-01-16 20:37:16,830 - __main__ - INFO - Order 7: Price: Rs.249.30, Trigger: Rs.249.00, Type: GTT ORDER, Quantity: 20, Value: Rs.4985.60
+2026-01-16 20:37:16,830 - __main__ - INFO - Order 8: Price: Rs.248.00, Trigger: Rs.247.80, Type: GTT ORDER, Quantity: 21, Value: Rs.5208.00
+2026-01-16 20:37:16,830 - __main__ - INFO - Order 9: Price: Rs.246.70, Trigger: Rs.246.50, Type: GTT ORDER, Quantity: 22, Value: Rs.5427.80
+2026-01-16 20:37:16,830 - __main__ - INFO - Order 10: Price: Rs.245.40, Trigger: Rs.245.20, Type: GTT ORDER, Quantity: 23, Value: Rs.5645.10
+2026-01-16 20:37:50,297 - __main__ - INFO - Order placement cancelled by user
+2026-01-16 20:38:12,947 - __main__ - INFO - Using max_fall_pct from config: 10.0
+2026-01-16 20:38:12,947 - __main__ - INFO - Using fall_power from config: 1.7
+2026-01-16 20:38:12,947 - __main__ - INFO - Using size_power from config: 1.6
+2026-01-16 20:38:12,947 - __main__ - INFO - Using size_multiplier from config: 3.8
+2026-01-16 20:38:12,947 - __main__ - INFO - Convex accumulation parameters:
+2026-01-16 20:38:12,947 - __main__ - INFO -   Steps: 10
+2026-01-16 20:38:12,947 - __main__ - INFO -   Base shares: 15
+2026-01-16 20:38:12,948 - __main__ - INFO -   Max fall: 10.0%
+2026-01-16 20:38:12,948 - __main__ - INFO -   Fall power: 1.7
+2026-01-16 20:38:12,948 - __main__ - INFO -   Size power: 1.6
+2026-01-16 20:38:12,948 - __main__ - INFO -   Size multiplier: 3.8
+2026-01-16 20:38:12,948 - __main__ - INFO - Initializing Convex Accumulation Order Scheduler for POWERGRID
+2026-01-16 20:38:12,948 - __main__ - INFO - Steps: 10, Current price: Rs.256.0
+2026-01-16 20:38:12,948 - __main__ - INFO - Configuration loaded successfully
+2026-01-16 20:38:12,949 - __main__ - INFO - Starting convex accumulation order scheduling process
+2026-01-16 20:38:13,113 - __main__ - INFO - Successfully connected to Kite Connect
+2026-01-16 20:38:13,113 - __main__ - WARNING - pytz not available, assuming market is closed - will skip first order
+2026-01-16 20:38:13,113 - __main__ - INFO - Using provided current price as base: Rs.256.0
+2026-01-16 20:38:13,113 - __main__ - INFO - Market is closed - skipping first order and starting with GTT orders
+2026-01-16 20:38:13,113 - __main__ - INFO - Order 1: SKIPPED (Market closed - AMO not supported)
+2026-01-16 20:38:13,113 - __main__ - INFO - Order 2: Price: Rs.255.4, Trigger: Rs.255.1, Type: GTT ORDER, Fall: 0.24%, Quantity: 17, Value: Rs.4341.8
+2026-01-16 20:38:13,113 - __main__ - INFO - Order 3: Price: Rs.254.0, Trigger: Rs.253.7, Type: GTT ORDER, Fall: 0.78%, Quantity: 20, Value: Rs.5080.0
+2026-01-16 20:38:13,113 - __main__ - INFO - Order 4: Price: Rs.252.0, Trigger: Rs.251.7, Type: GTT ORDER, Fall: 1.54%, Quantity: 25, Value: Rs.6300.0
+2026-01-16 20:38:13,113 - __main__ - INFO - Order 5: Price: Rs.249.6, Trigger: Rs.249.4, Type: GTT ORDER, Fall: 2.52%, Quantity: 31, Value: Rs.7737.6
+2026-01-16 20:38:13,113 - __main__ - INFO - Order 6: Price: Rs.246.6, Trigger: Rs.246.4, Type: GTT ORDER, Fall: 3.68%, Quantity: 37, Value: Rs.9124.2
+2026-01-16 20:38:13,113 - __main__ - INFO - Order 7: Price: Rs.243.2, Trigger: Rs.243.0, Type: GTT ORDER, Fall: 5.02%, Quantity: 45, Value: Rs.10944.0
+2026-01-16 20:38:13,113 - __main__ - INFO - Order 8: Price: Rs.239.3, Trigger: Rs.239.1, Type: GTT ORDER, Fall: 6.52%, Quantity: 53, Value: Rs.12682.9
+2026-01-16 20:38:13,113 - __main__ - INFO - Order 9: Price: Rs.235.0, Trigger: Rs.234.8, Type: GTT ORDER, Fall: 8.19%, Quantity: 62, Value: Rs.14570.0
+2026-01-16 20:38:13,113 - __main__ - INFO - Order 10: Price: Rs.230.4, Trigger: Rs.230.2, Type: GTT ORDER, Fall: 10.00%, Quantity: 72, Value: Rs.16588.8
+2026-01-16 20:38:43,557 - __main__ - INFO - Order placement cancelled by user
+2026-01-16 20:38:47,060 - __main__ - INFO - Price difference configured: 0.5%
+2026-01-16 20:38:47,061 - __main__ - INFO - Start quantity configured: 15
+2026-01-16 20:38:47,061 - __main__ - INFO - Initializing Hybrid Order Scheduler for POWERGRID
+2026-01-16 20:38:47,061 - __main__ - INFO - Order count: 10, Current price: Rs.256.00, Max quantity: 100
+2026-01-16 20:38:47,061 - __main__ - INFO - Price difference: 0.5%
+2026-01-16 20:38:47,061 - __main__ - INFO - Configuration loaded successfully
+2026-01-16 20:38:47,062 - __main__ - INFO - Starting hybrid order scheduling process
+2026-01-16 20:39:01,275 - __main__ - INFO - Successfully connected to Kite Connect
+2026-01-16 20:39:01,276 - __main__ - WARNING - pytz not available, assuming market is closed - will use LIMIT order for first order
+2026-01-16 20:39:01,276 - __main__ - INFO - Using provided current price as base: Rs.256.00
+2026-01-16 20:39:01,276 - __main__ - INFO - Market is closed - skipping first order and starting with GTT orders
+2026-01-16 20:39:01,276 - __main__ - INFO - Order 1: SKIPPED (Market closed - AMO not supported)
+2026-01-16 20:39:01,276 - __main__ - INFO - Order 2: Price: Rs.255.70, Trigger: Rs.255.40, Type: GTT ORDER, Quantity: 15, Value: Rs.3835.20
+2026-01-16 20:39:01,276 - __main__ - INFO - Order 3: Price: Rs.254.40, Trigger: Rs.254.10, Type: GTT ORDER, Quantity: 16, Value: Rs.4070.40
+2026-01-16 20:39:01,276 - __main__ - INFO - Order 4: Price: Rs.253.10, Trigger: Rs.252.90, Type: GTT ORDER, Quantity: 17, Value: Rs.4303.00
+2026-01-16 20:39:01,276 - __main__ - INFO - Order 5: Price: Rs.251.80, Trigger: Rs.251.60, Type: GTT ORDER, Quantity: 18, Value: Rs.4533.10
+2026-01-16 20:39:01,276 - __main__ - INFO - Order 6: Price: Rs.250.60, Trigger: Rs.250.30, Type: GTT ORDER, Quantity: 19, Value: Rs.4760.60
+2026-01-16 20:39:01,276 - __main__ - INFO - Order 7: Price: Rs.249.30, Trigger: Rs.249.00, Type: GTT ORDER, Quantity: 20, Value: Rs.4985.60
+2026-01-16 20:39:01,276 - __main__ - INFO - Order 8: Price: Rs.248.00, Trigger: Rs.247.80, Type: GTT ORDER, Quantity: 21, Value: Rs.5208.00
+2026-01-16 20:39:01,276 - __main__ - INFO - Order 9: Price: Rs.246.70, Trigger: Rs.246.50, Type: GTT ORDER, Quantity: 22, Value: Rs.5427.80
+2026-01-16 20:39:01,276 - __main__ - INFO - Order 10: Price: Rs.245.40, Trigger: Rs.245.20, Type: GTT ORDER, Quantity: 23, Value: Rs.5645.10
+2026-01-16 20:39:23,138 - __main__ - INFO - Order placement cancelled by user
+2026-01-16 20:39:34,245 - __main__ - INFO - Price difference configured: 0.5%
+2026-01-16 20:39:34,245 - __main__ - INFO - Start quantity configured: 15
+2026-01-16 20:39:34,245 - __main__ - INFO - Initializing Hybrid Order Scheduler for POWERGRID
+2026-01-16 20:39:34,245 - __main__ - INFO - Order count: 10, Current price: Rs.257.15, Max quantity: 100
+2026-01-16 20:39:34,245 - __main__ - INFO - Price difference: 0.5%
+2026-01-16 20:39:34,246 - __main__ - INFO - Configuration loaded successfully
+2026-01-16 20:39:34,247 - __main__ - INFO - Starting hybrid order scheduling process
+2026-01-16 20:39:34,402 - __main__ - INFO - Successfully connected to Kite Connect
+2026-01-16 20:39:34,402 - __main__ - WARNING - pytz not available, assuming market is closed - will use LIMIT order for first order
+2026-01-16 20:39:34,402 - __main__ - INFO - Using provided current price as base: Rs.257.15
+2026-01-16 20:39:34,403 - __main__ - INFO - Market is closed - skipping first order and starting with GTT orders
+2026-01-16 20:39:34,403 - __main__ - INFO - Order 1: SKIPPED (Market closed - AMO not supported)
+2026-01-16 20:39:34,403 - __main__ - INFO - Order 2: Price: Rs.256.80, Trigger: Rs.256.60, Type: GTT ORDER, Quantity: 15, Value: Rs.3852.40
+2026-01-16 20:39:34,403 - __main__ - INFO - Order 3: Price: Rs.255.50, Trigger: Rs.255.30, Type: GTT ORDER, Quantity: 16, Value: Rs.4088.70
+2026-01-16 20:39:34,403 - __main__ - INFO - Order 4: Price: Rs.254.30, Trigger: Rs.254.00, Type: GTT ORDER, Quantity: 17, Value: Rs.4322.40
+2026-01-16 20:39:34,403 - __main__ - INFO - Order 5: Price: Rs.253.00, Trigger: Rs.252.70, Type: GTT ORDER, Quantity: 18, Value: Rs.4553.50
+2026-01-16 20:39:34,403 - __main__ - INFO - Order 6: Price: Rs.251.70, Trigger: Rs.251.40, Type: GTT ORDER, Quantity: 19, Value: Rs.4782.00
+2026-01-16 20:39:34,403 - __main__ - INFO - Order 7: Price: Rs.250.40, Trigger: Rs.250.10, Type: GTT ORDER, Quantity: 20, Value: Rs.5008.00
+2026-01-16 20:39:34,403 - __main__ - INFO - Order 8: Price: Rs.249.10, Trigger: Rs.248.90, Type: GTT ORDER, Quantity: 21, Value: Rs.5231.40
+2026-01-16 20:39:34,403 - __main__ - INFO - Order 9: Price: Rs.247.80, Trigger: Rs.247.60, Type: GTT ORDER, Quantity: 22, Value: Rs.5452.20
+2026-01-16 20:39:34,403 - __main__ - INFO - Order 10: Price: Rs.246.50, Trigger: Rs.246.30, Type: GTT ORDER, Quantity: 23, Value: Rs.5670.50
+2026-01-16 21:10:25,669 - __main__ - INFO - Order placement cancelled by user
+2026-01-16 21:10:32,936 - __main__ - INFO - Using max_fall_pct from config: 10.0
+2026-01-16 21:10:32,936 - __main__ - INFO - Using fall_power from config: 1.7
+2026-01-16 21:10:32,936 - __main__ - INFO - Using size_power from config: 1.6
+2026-01-16 21:10:32,936 - __main__ - INFO - Using size_multiplier from config: 3.8
+2026-01-16 21:10:32,936 - __main__ - INFO - Convex accumulation parameters:
+2026-01-16 21:10:32,936 - __main__ - INFO -   Steps: 10
+2026-01-16 21:10:32,937 - __main__ - INFO -   Base shares: 15
+2026-01-16 21:10:32,937 - __main__ - INFO -   Max fall: 10.0%
+2026-01-16 21:10:32,937 - __main__ - INFO -   Fall power: 1.7
+2026-01-16 21:10:32,937 - __main__ - INFO -   Size power: 1.6
+2026-01-16 21:10:32,937 - __main__ - INFO -   Size multiplier: 3.8
+2026-01-16 21:10:32,937 - __main__ - INFO - Initializing Convex Accumulation Order Scheduler for POWERGRID
+2026-01-16 21:10:32,937 - __main__ - INFO - Steps: 10, Current price: Rs.256.0
+2026-01-16 21:10:32,937 - __main__ - INFO - Configuration loaded successfully
+2026-01-16 21:10:32,938 - __main__ - INFO - Starting convex accumulation order scheduling process
+2026-01-16 21:10:34,132 - __main__ - INFO - Successfully connected to Kite Connect
+2026-01-16 21:10:34,133 - __main__ - WARNING - pytz not available, assuming market is closed - will skip first order
+2026-01-16 21:10:34,133 - __main__ - INFO - Using provided current price as base: Rs.256.0
+2026-01-16 21:10:34,133 - __main__ - INFO - Market is closed - skipping first order and starting with GTT orders
+2026-01-16 21:10:34,133 - __main__ - INFO - Order 1: SKIPPED (Market closed - AMO not supported)
+2026-01-16 21:10:34,133 - __main__ - INFO - Order 2: Price: Rs.255.4, Trigger: Rs.255.1, Type: GTT ORDER, Fall: 0.24%, Quantity: 17, Value: Rs.4341.8
+2026-01-16 21:10:34,133 - __main__ - INFO - Order 3: Price: Rs.254.0, Trigger: Rs.253.7, Type: GTT ORDER, Fall: 0.78%, Quantity: 20, Value: Rs.5080.0
+2026-01-16 21:10:34,134 - __main__ - INFO - Order 4: Price: Rs.252.0, Trigger: Rs.251.7, Type: GTT ORDER, Fall: 1.54%, Quantity: 25, Value: Rs.6300.0
+2026-01-16 21:10:34,134 - __main__ - INFO - Order 5: Price: Rs.249.6, Trigger: Rs.249.4, Type: GTT ORDER, Fall: 2.52%, Quantity: 31, Value: Rs.7737.6
+2026-01-16 21:10:34,134 - __main__ - INFO - Order 6: Price: Rs.246.6, Trigger: Rs.246.4, Type: GTT ORDER, Fall: 3.68%, Quantity: 37, Value: Rs.9124.2
+2026-01-16 21:10:34,134 - __main__ - INFO - Order 7: Price: Rs.243.2, Trigger: Rs.243.0, Type: GTT ORDER, Fall: 5.02%, Quantity: 45, Value: Rs.10944.0
+2026-01-16 21:10:34,134 - __main__ - INFO - Order 8: Price: Rs.239.3, Trigger: Rs.239.1, Type: GTT ORDER, Fall: 6.52%, Quantity: 53, Value: Rs.12682.9
+2026-01-16 21:10:34,134 - __main__ - INFO - Order 9: Price: Rs.235.0, Trigger: Rs.234.8, Type: GTT ORDER, Fall: 8.19%, Quantity: 62, Value: Rs.14570.0
+2026-01-16 21:10:34,134 - __main__ - INFO - Order 10: Price: Rs.230.4, Trigger: Rs.230.2, Type: GTT ORDER, Fall: 10.00%, Quantity: 72, Value: Rs.16588.8
+2026-01-16 21:12:52,047 - __main__ - INFO - Order placement cancelled by user
+2026-01-16 21:12:55,525 - __main__ - INFO - Price difference configured: 0.5%
+2026-01-16 21:12:55,525 - __main__ - INFO - Start quantity configured: 15
+2026-01-16 21:12:55,525 - __main__ - INFO - Initializing Hybrid Order Scheduler for POWERGRID
+2026-01-16 21:12:55,525 - __main__ - INFO - Order count: 10, Current price: Rs.257.15, Max quantity: 100
+2026-01-16 21:12:55,525 - __main__ - INFO - Price difference: 0.5%
+2026-01-16 21:12:55,526 - __main__ - INFO - Configuration loaded successfully
+2026-01-16 21:12:55,527 - __main__ - INFO - Starting hybrid order scheduling process
+2026-01-16 21:12:55,714 - __main__ - INFO - Successfully connected to Kite Connect
+2026-01-16 21:12:55,714 - __main__ - WARNING - pytz not available, assuming market is closed - will use LIMIT order for first order
+2026-01-16 21:12:55,714 - __main__ - INFO - Using provided current price as base: Rs.257.15
+2026-01-16 21:12:55,714 - __main__ - INFO - Market is closed - skipping first order and starting with GTT orders
+2026-01-16 21:12:55,714 - __main__ - INFO - Order 1: SKIPPED (Market closed - AMO not supported)
+2026-01-16 21:12:55,714 - __main__ - INFO - Order 2: Price: Rs.256.80, Trigger: Rs.256.60, Type: GTT ORDER, Quantity: 15, Value: Rs.3852.40
+2026-01-16 21:12:55,714 - __main__ - INFO - Order 3: Price: Rs.255.50, Trigger: Rs.255.30, Type: GTT ORDER, Quantity: 16, Value: Rs.4088.70
+2026-01-16 21:12:55,714 - __main__ - INFO - Order 4: Price: Rs.254.30, Trigger: Rs.254.00, Type: GTT ORDER, Quantity: 17, Value: Rs.4322.40
+2026-01-16 21:12:55,714 - __main__ - INFO - Order 5: Price: Rs.253.00, Trigger: Rs.252.70, Type: GTT ORDER, Quantity: 18, Value: Rs.4553.50
+2026-01-16 21:12:55,714 - __main__ - INFO - Order 6: Price: Rs.251.70, Trigger: Rs.251.40, Type: GTT ORDER, Quantity: 19, Value: Rs.4782.00
+2026-01-16 21:12:55,714 - __main__ - INFO - Order 7: Price: Rs.250.40, Trigger: Rs.250.10, Type: GTT ORDER, Quantity: 20, Value: Rs.5008.00
+2026-01-16 21:12:55,714 - __main__ - INFO - Order 8: Price: Rs.249.10, Trigger: Rs.248.90, Type: GTT ORDER, Quantity: 21, Value: Rs.5231.40
+2026-01-16 21:12:55,714 - __main__ - INFO - Order 9: Price: Rs.247.80, Trigger: Rs.247.60, Type: GTT ORDER, Quantity: 22, Value: Rs.5452.20
+2026-01-16 21:12:55,714 - __main__ - INFO - Order 10: Price: Rs.246.50, Trigger: Rs.246.30, Type: GTT ORDER, Quantity: 23, Value: Rs.5670.50
+2026-01-16 21:13:06,247 - __main__ - INFO - Order placement cancelled by user
+2026-01-16 21:13:12,308 - __main__ - INFO - Price difference configured: 0.5%
+2026-01-16 21:13:12,308 - __main__ - INFO - Start quantity configured: 15
+2026-01-16 21:13:12,308 - __main__ - INFO - Initializing Hybrid Order Scheduler for POWERGRID
+2026-01-16 21:13:12,308 - __main__ - INFO - Order count: 10, Current price: Rs.256.15, Max quantity: 100
+2026-01-16 21:13:12,308 - __main__ - INFO - Price difference: 0.5%
+2026-01-16 21:13:12,309 - __main__ - INFO - Configuration loaded successfully
+2026-01-16 21:13:12,310 - __main__ - INFO - Starting hybrid order scheduling process
+2026-01-16 21:13:12,463 - __main__ - INFO - Successfully connected to Kite Connect
+2026-01-16 21:13:12,463 - __main__ - WARNING - pytz not available, assuming market is closed - will use LIMIT order for first order
+2026-01-16 21:13:12,463 - __main__ - INFO - Using provided current price as base: Rs.256.15
+2026-01-16 21:13:12,463 - __main__ - INFO - Market is closed - skipping first order and starting with GTT orders
+2026-01-16 21:13:12,463 - __main__ - INFO - Order 1: SKIPPED (Market closed - AMO not supported)
+2026-01-16 21:13:12,463 - __main__ - INFO - Order 2: Price: Rs.255.80, Trigger: Rs.255.60, Type: GTT ORDER, Quantity: 15, Value: Rs.3837.40
+2026-01-16 21:13:12,463 - __main__ - INFO - Order 3: Price: Rs.254.50, Trigger: Rs.254.30, Type: GTT ORDER, Quantity: 16, Value: Rs.4072.80
+2026-01-16 21:13:12,463 - __main__ - INFO - Order 4: Price: Rs.253.30, Trigger: Rs.253.00, Type: GTT ORDER, Quantity: 17, Value: Rs.4305.60
+2026-01-16 21:13:12,463 - __main__ - INFO - Order 5: Price: Rs.252.00, Trigger: Rs.251.70, Type: GTT ORDER, Quantity: 18, Value: Rs.4535.80
+2026-01-16 21:13:12,463 - __main__ - INFO - Order 6: Price: Rs.250.70, Trigger: Rs.250.50, Type: GTT ORDER, Quantity: 19, Value: Rs.4763.40
+2026-01-16 21:13:12,463 - __main__ - INFO - Order 7: Price: Rs.249.40, Trigger: Rs.249.20, Type: GTT ORDER, Quantity: 20, Value: Rs.4988.50
+2026-01-16 21:13:12,463 - __main__ - INFO - Order 8: Price: Rs.248.10, Trigger: Rs.247.90, Type: GTT ORDER, Quantity: 21, Value: Rs.5211.10
+2026-01-16 21:13:12,463 - __main__ - INFO - Order 9: Price: Rs.246.90, Trigger: Rs.246.60, Type: GTT ORDER, Quantity: 22, Value: Rs.5431.00
+2026-01-16 21:13:12,463 - __main__ - INFO - Order 10: Price: Rs.245.60, Trigger: Rs.245.30, Type: GTT ORDER, Quantity: 23, Value: Rs.5648.40
+2026-01-16 21:13:16,472 - __main__ - INFO - Placing orders...
+2026-01-16 21:13:16,472 - __main__ - INFO - Skipping order 1 - Market closed, AMO not supported
+2026-01-16 21:13:16,472 - __main__ - INFO - Order 1 skipped successfully
+2026-01-16 21:13:16,472 - __main__ - INFO - Placing GTT order 2 for POWERGRID
+2026-01-16 21:13:16,735 - __main__ - INFO - GTT order 2 placed successfully with trigger ID: 302341379
+2026-01-16 21:13:16,736 - __main__ - INFO - Placing GTT order 3 for POWERGRID
+2026-01-16 21:13:16,982 - __main__ - INFO - GTT order 3 placed successfully with trigger ID: 302341380
+2026-01-16 21:13:16,982 - __main__ - INFO - Placing GTT order 4 for POWERGRID
+2026-01-16 21:13:17,232 - __main__ - INFO - GTT order 4 placed successfully with trigger ID: 302341381
+2026-01-16 21:13:17,232 - __main__ - INFO - Placing GTT order 5 for POWERGRID
+2026-01-16 21:13:17,505 - __main__ - INFO - GTT order 5 placed successfully with trigger ID: 302341382
+2026-01-16 21:13:17,505 - __main__ - INFO - Placing GTT order 6 for POWERGRID
+2026-01-16 21:13:17,754 - __main__ - INFO - GTT order 6 placed successfully with trigger ID: 302341383
+2026-01-16 21:13:17,754 - __main__ - INFO - Placing GTT order 7 for POWERGRID
+2026-01-16 21:13:18,006 - __main__ - INFO - GTT order 7 placed successfully with trigger ID: 302341384
+2026-01-16 21:13:18,006 - __main__ - INFO - Placing GTT order 8 for POWERGRID
+2026-01-16 21:13:18,264 - __main__ - INFO - GTT order 8 placed successfully with trigger ID: 302341385
+2026-01-16 21:13:18,265 - __main__ - INFO - Placing GTT order 9 for POWERGRID
+2026-01-16 21:13:18,534 - __main__ - INFO - GTT order 9 placed successfully with trigger ID: 302341386
+2026-01-16 21:13:18,534 - __main__ - INFO - Placing GTT order 10 for POWERGRID
+2026-01-16 21:13:18,803 - __main__ - INFO - GTT order 10 placed successfully with trigger ID: 302341388
+2026-01-16 21:13:18,804 - __main__ - INFO - Order summary saved to workdir/orders/POWERGRID_gtt_orders_20260116_211318.json
+2026-01-16 21:13:18,804 - __main__ - INFO - Hybrid order scheduling process completed successfully

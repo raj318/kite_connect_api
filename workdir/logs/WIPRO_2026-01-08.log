@@ -1,0 +1,120 @@
+2026-01-08 15:48:37,727 - __main__ - INFO - Initializing GTT Sell Order Scheduler for WIPRO
+2026-01-08 15:48:37,727 - __main__ - INFO - Target net profit: 1.0%
+2026-01-08 15:48:37,727 - __main__ - INFO - Starting GTT sell order scheduling process
+2026-01-08 15:48:37,847 - __main__ - INFO - Successfully connected to Kite Connect
+2026-01-08 15:48:40,762 - __main__ - INFO - Placing GTT sell order...
+2026-01-08 15:48:41,826 - __main__ - WARNING - Could not fetch current price: Insufficient permission for that call.
+2026-01-08 15:48:42,044 - __main__ - INFO - GTT sell order placed successfully. Trigger ID: 301307021
+2026-01-08 15:48:42,045 - __main__ - INFO - GTT sell order scheduling process completed successfully
+2026-01-08 16:06:23,050 - __main__ - INFO - Using max_fall_pct from config: 10.0
+2026-01-08 16:06:23,050 - __main__ - INFO - Using fall_power from config: 1.7
+2026-01-08 16:06:23,050 - __main__ - INFO - Using size_power from config: 1.6
+2026-01-08 16:06:23,050 - __main__ - INFO - Using size_multiplier from config: 3.8
+2026-01-08 16:06:23,050 - __main__ - INFO - Convex accumulation parameters:
+2026-01-08 16:06:23,050 - __main__ - INFO -   Steps: 10
+2026-01-08 16:06:23,050 - __main__ - INFO -   Base shares: 5
+2026-01-08 16:06:23,050 - __main__ - INFO -   Max fall: 10.0%
+2026-01-08 16:06:23,050 - __main__ - INFO -   Fall power: 1.7
+2026-01-08 16:06:23,050 - __main__ - INFO -   Size power: 1.6
+2026-01-08 16:06:23,050 - __main__ - INFO -   Size multiplier: 3.8
+2026-01-08 16:06:23,050 - __main__ - INFO - Initializing Convex Accumulation Order Scheduler for WIPRO
+2026-01-08 16:06:23,050 - __main__ - INFO - Steps: 10, Current price: Rs.262.0
+2026-01-08 16:06:23,051 - __main__ - INFO - Configuration loaded successfully
+2026-01-08 16:06:23,051 - __main__ - INFO - Starting convex accumulation order scheduling process
+2026-01-08 16:06:23,234 - __main__ - INFO - Successfully connected to Kite Connect
+2026-01-08 16:06:23,234 - __main__ - WARNING - pytz not available, assuming market is closed - will skip first order
+2026-01-08 16:06:23,234 - __main__ - INFO - Using provided current price as base: Rs.262.0
+2026-01-08 16:06:23,234 - __main__ - INFO - Market is closed - skipping first order and starting with GTT orders
+2026-01-08 16:06:23,234 - __main__ - INFO - Order 1: SKIPPED (Market closed - AMO not supported)
+2026-01-08 16:06:23,234 - __main__ - INFO - Order 2: Price: Rs.261.4, Trigger: Rs.261.1, Type: GTT ORDER, Fall: 0.24%, Quantity: 6, Value: Rs.1568.4
+2026-01-08 16:06:23,234 - __main__ - INFO - Order 3: Price: Rs.260.0, Trigger: Rs.259.7, Type: GTT ORDER, Fall: 0.78%, Quantity: 7, Value: Rs.1820.0
+2026-01-08 16:06:23,234 - __main__ - INFO - Order 4: Price: Rs.258.0, Trigger: Rs.257.7, Type: GTT ORDER, Fall: 1.54%, Quantity: 8, Value: Rs.2064.0
+2026-01-08 16:06:23,234 - __main__ - INFO - Order 5: Price: Rs.255.4, Trigger: Rs.255.1, Type: GTT ORDER, Fall: 2.52%, Quantity: 10, Value: Rs.2554.0
+2026-01-08 16:06:23,234 - __main__ - INFO - Order 6: Price: Rs.252.4, Trigger: Rs.252.1, Type: GTT ORDER, Fall: 3.68%, Quantity: 12, Value: Rs.3028.8
+2026-01-08 16:06:23,234 - __main__ - INFO - Order 7: Price: Rs.248.8, Trigger: Rs.248.6, Type: GTT ORDER, Fall: 5.02%, Quantity: 15, Value: Rs.3732.0
+2026-01-08 16:06:23,234 - __main__ - INFO - Order 8: Price: Rs.244.9, Trigger: Rs.244.7, Type: GTT ORDER, Fall: 6.52%, Quantity: 18, Value: Rs.4408.2
+2026-01-08 16:06:23,234 - __main__ - INFO - Order 9: Price: Rs.240.6, Trigger: Rs.240.4, Type: GTT ORDER, Fall: 8.19%, Quantity: 21, Value: Rs.5052.6
+2026-01-08 16:06:23,234 - __main__ - INFO - Order 10: Price: Rs.235.8, Trigger: Rs.235.6, Type: GTT ORDER, Fall: 10.00%, Quantity: 24, Value: Rs.5659.2
+2026-01-08 16:06:29,163 - __main__ - INFO - Order placement cancelled by user
+2026-01-08 16:06:43,080 - __main__ - INFO - Using max_fall_pct from config: 10.0
+2026-01-08 16:06:43,081 - __main__ - INFO - Using fall_power from config: 1.7
+2026-01-08 16:06:43,081 - __main__ - INFO - Using size_power from config: 1.6
+2026-01-08 16:06:43,081 - __main__ - INFO - Using size_multiplier from config: 3.8
+2026-01-08 16:06:43,081 - __main__ - INFO - Convex accumulation parameters:
+2026-01-08 16:06:43,081 - __main__ - INFO -   Steps: 10
+2026-01-08 16:06:43,081 - __main__ - INFO -   Base shares: 5
+2026-01-08 16:06:43,081 - __main__ - INFO -   Max fall: 10.0%
+2026-01-08 16:06:43,081 - __main__ - INFO -   Fall power: 1.7
+2026-01-08 16:06:43,081 - __main__ - INFO -   Size power: 1.6
+2026-01-08 16:06:43,081 - __main__ - INFO -   Size multiplier: 3.8
+2026-01-08 16:06:43,081 - __main__ - INFO - Initializing Convex Accumulation Order Scheduler for WIPRO
+2026-01-08 16:06:43,081 - __main__ - INFO - Steps: 10, Current price: Rs.262.5
+2026-01-08 16:06:43,082 - __main__ - INFO - Configuration loaded successfully
+2026-01-08 16:06:43,082 - __main__ - INFO - Starting convex accumulation order scheduling process
+2026-01-08 16:06:43,215 - __main__ - INFO - Successfully connected to Kite Connect
+2026-01-08 16:06:43,216 - __main__ - WARNING - pytz not available, assuming market is closed - will skip first order
+2026-01-08 16:06:43,216 - __main__ - INFO - Using provided current price as base: Rs.262.5
+2026-01-08 16:06:43,216 - __main__ - INFO - Market is closed - skipping first order and starting with GTT orders
+2026-01-08 16:06:43,216 - __main__ - INFO - Order 1: SKIPPED (Market closed - AMO not supported)
+2026-01-08 16:06:43,216 - __main__ - INFO - Order 2: Price: Rs.261.9, Trigger: Rs.261.6, Type: GTT ORDER, Fall: 0.24%, Quantity: 6, Value: Rs.1571.4
+2026-01-08 16:06:43,216 - __main__ - INFO - Order 3: Price: Rs.260.5, Trigger: Rs.260.2, Type: GTT ORDER, Fall: 0.78%, Quantity: 7, Value: Rs.1823.5
+2026-01-08 16:06:43,216 - __main__ - INFO - Order 4: Price: Rs.258.4, Trigger: Rs.258.1, Type: GTT ORDER, Fall: 1.54%, Quantity: 8, Value: Rs.2067.2
+2026-01-08 16:06:43,216 - __main__ - INFO - Order 5: Price: Rs.255.9, Trigger: Rs.255.6, Type: GTT ORDER, Fall: 2.52%, Quantity: 10, Value: Rs.2559.0
+2026-01-08 16:06:43,216 - __main__ - INFO - Order 6: Price: Rs.252.8, Trigger: Rs.252.5, Type: GTT ORDER, Fall: 3.68%, Quantity: 12, Value: Rs.3033.6
+2026-01-08 16:06:43,216 - __main__ - INFO - Order 7: Price: Rs.249.3, Trigger: Rs.249.1, Type: GTT ORDER, Fall: 5.02%, Quantity: 15, Value: Rs.3739.5
+2026-01-08 16:06:43,216 - __main__ - INFO - Order 8: Price: Rs.245.4, Trigger: Rs.245.2, Type: GTT ORDER, Fall: 6.52%, Quantity: 18, Value: Rs.4417.2
+2026-01-08 16:06:43,216 - __main__ - INFO - Order 9: Price: Rs.241.0, Trigger: Rs.240.8, Type: GTT ORDER, Fall: 8.19%, Quantity: 21, Value: Rs.5061.0
+2026-01-08 16:06:43,216 - __main__ - INFO - Order 10: Price: Rs.236.2, Trigger: Rs.236.0, Type: GTT ORDER, Fall: 10.00%, Quantity: 24, Value: Rs.5668.8
+2026-01-08 16:06:47,264 - __main__ - INFO - Order placement cancelled by user
+2026-01-08 16:06:52,013 - __main__ - INFO - Using max_fall_pct from config: 10.0
+2026-01-08 16:06:52,013 - __main__ - INFO - Using fall_power from config: 1.7
+2026-01-08 16:06:52,013 - __main__ - INFO - Using size_power from config: 1.6
+2026-01-08 16:06:52,013 - __main__ - INFO - Using size_multiplier from config: 3.8
+2026-01-08 16:06:52,013 - __main__ - INFO - Convex accumulation parameters:
+2026-01-08 16:06:52,013 - __main__ - INFO -   Steps: 10
+2026-01-08 16:06:52,013 - __main__ - INFO -   Base shares: 5
+2026-01-08 16:06:52,013 - __main__ - INFO -   Max fall: 10.0%
+2026-01-08 16:06:52,013 - __main__ - INFO -   Fall power: 1.7
+2026-01-08 16:06:52,013 - __main__ - INFO -   Size power: 1.6
+2026-01-08 16:06:52,013 - __main__ - INFO -   Size multiplier: 3.8
+2026-01-08 16:06:52,013 - __main__ - INFO - Initializing Convex Accumulation Order Scheduler for WIPRO
+2026-01-08 16:06:52,013 - __main__ - INFO - Steps: 10, Current price: Rs.262.6
+2026-01-08 16:06:52,014 - __main__ - INFO - Configuration loaded successfully
+2026-01-08 16:06:52,015 - __main__ - INFO - Starting convex accumulation order scheduling process
+2026-01-08 16:06:52,148 - __main__ - INFO - Successfully connected to Kite Connect
+2026-01-08 16:06:52,148 - __main__ - WARNING - pytz not available, assuming market is closed - will skip first order
+2026-01-08 16:06:52,148 - __main__ - INFO - Using provided current price as base: Rs.262.6
+2026-01-08 16:06:52,148 - __main__ - INFO - Market is closed - skipping first order and starting with GTT orders
+2026-01-08 16:06:52,148 - __main__ - INFO - Order 1: SKIPPED (Market closed - AMO not supported)
+2026-01-08 16:06:52,148 - __main__ - INFO - Order 2: Price: Rs.262.0, Trigger: Rs.261.7, Type: GTT ORDER, Fall: 0.24%, Quantity: 6, Value: Rs.1572.0
+2026-01-08 16:06:52,148 - __main__ - INFO - Order 3: Price: Rs.260.6, Trigger: Rs.260.3, Type: GTT ORDER, Fall: 0.78%, Quantity: 7, Value: Rs.1824.2
+2026-01-08 16:06:52,148 - __main__ - INFO - Order 4: Price: Rs.258.5, Trigger: Rs.258.2, Type: GTT ORDER, Fall: 1.54%, Quantity: 8, Value: Rs.2068.0
+2026-01-08 16:06:52,148 - __main__ - INFO - Order 5: Price: Rs.256.0, Trigger: Rs.255.7, Type: GTT ORDER, Fall: 2.52%, Quantity: 10, Value: Rs.2560.0
+2026-01-08 16:06:52,148 - __main__ - INFO - Order 6: Price: Rs.252.9, Trigger: Rs.252.6, Type: GTT ORDER, Fall: 3.68%, Quantity: 12, Value: Rs.3034.8
+2026-01-08 16:06:52,148 - __main__ - INFO - Order 7: Price: Rs.249.4, Trigger: Rs.249.2, Type: GTT ORDER, Fall: 5.02%, Quantity: 15, Value: Rs.3741.0
+2026-01-08 16:06:52,148 - __main__ - INFO - Order 8: Price: Rs.245.5, Trigger: Rs.245.3, Type: GTT ORDER, Fall: 6.52%, Quantity: 18, Value: Rs.4419.0
+2026-01-08 16:06:52,148 - __main__ - INFO - Order 9: Price: Rs.241.1, Trigger: Rs.240.9, Type: GTT ORDER, Fall: 8.19%, Quantity: 21, Value: Rs.5063.1
+2026-01-08 16:06:52,149 - __main__ - INFO - Order 10: Price: Rs.236.3, Trigger: Rs.236.1, Type: GTT ORDER, Fall: 10.00%, Quantity: 24, Value: Rs.5671.2
+2026-01-08 16:06:57,142 - __main__ - INFO - Placing orders...
+2026-01-08 16:06:57,143 - __main__ - INFO - Skipping order 1 - Market closed, AMO not supported
+2026-01-08 16:06:57,143 - __main__ - INFO - Order 1 skipped successfully
+2026-01-08 16:06:57,143 - __main__ - INFO - Placing GTT order 2 for WIPRO
+2026-01-08 16:06:57,372 - __main__ - INFO - GTT order 2 placed successfully with trigger ID: 301308656
+2026-01-08 16:06:57,372 - __main__ - INFO - Placing GTT order 3 for WIPRO
+2026-01-08 16:06:57,532 - __main__ - INFO - GTT order 3 placed successfully with trigger ID: 301308657
+2026-01-08 16:06:57,532 - __main__ - INFO - Placing GTT order 4 for WIPRO
+2026-01-08 16:06:57,703 - __main__ - INFO - GTT order 4 placed successfully with trigger ID: 301308659
+2026-01-08 16:06:57,703 - __main__ - INFO - Placing GTT order 5 for WIPRO
+2026-01-08 16:06:57,921 - __main__ - INFO - GTT order 5 placed successfully with trigger ID: 301308660
+2026-01-08 16:06:57,921 - __main__ - INFO - Placing GTT order 6 for WIPRO
+2026-01-08 16:06:58,099 - __main__ - INFO - GTT order 6 placed successfully with trigger ID: 301308661
+2026-01-08 16:06:58,099 - __main__ - INFO - Placing GTT order 7 for WIPRO
+2026-01-08 16:06:58,268 - __main__ - INFO - GTT order 7 placed successfully with trigger ID: 301308662
+2026-01-08 16:06:58,268 - __main__ - INFO - Placing GTT order 8 for WIPRO
+2026-01-08 16:06:58,471 - __main__ - INFO - GTT order 8 placed successfully with trigger ID: 301308663
+2026-01-08 16:06:58,471 - __main__ - INFO - Placing GTT order 9 for WIPRO
+2026-01-08 16:06:58,654 - __main__ - INFO - GTT order 9 placed successfully with trigger ID: 301308664
+2026-01-08 16:06:58,654 - __main__ - INFO - Placing GTT order 10 for WIPRO
+2026-01-08 16:06:58,852 - __main__ - INFO - GTT order 10 placed successfully with trigger ID: 301308665
+2026-01-08 16:06:58,853 - __main__ - INFO - Order summary saved to workdir/orders/WIPRO_gtt_orders_20260108_160658.json
+2026-01-08 16:06:58,853 - __main__ - INFO - Convex accumulation order scheduling process completed successfully

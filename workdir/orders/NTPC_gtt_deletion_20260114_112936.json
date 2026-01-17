@@ -1,0 +1,41 @@
+{
+  "company_symbol": "NTPC",
+  "operation": "GTT Order Deletion",
+  "timestamp": "2026-01-14T11:29:36.727369",
+  "results": {
+    "total_orders": 4,
+    "successful_deletions": 4,
+    "failed_deletions": 0,
+    "deleted_orders": [
+      {
+        "trigger_id": 300890292,
+        "symbol": "NTPC",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-14T11:29:36.121338"
+      },
+      {
+        "trigger_id": 300890291,
+        "symbol": "NTPC",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-14T11:29:36.482849"
+      },
+      {
+        "trigger_id": 300890290,
+        "symbol": "NTPC",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-14T11:29:36.613169"
+      },
+      {
+        "trigger_id": 300890288,
+        "symbol": "NTPC",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-14T11:29:36.727301"
+      }
+    ],
+    "failed_orders": []
+  }
+}

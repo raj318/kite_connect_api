@@ -1,0 +1,8 @@
+2026-01-08 15:47:56,880 - __main__ - INFO - Initializing GTT Sell Order Scheduler for ONGC
+2026-01-08 15:47:56,880 - __main__ - INFO - Target net profit: 1.0%
+2026-01-08 15:47:56,880 - __main__ - INFO - Starting GTT sell order scheduling process
+2026-01-08 15:47:57,139 - __main__ - INFO - Successfully connected to Kite Connect
+2026-01-08 15:48:00,741 - __main__ - INFO - Placing GTT sell order...
+2026-01-08 15:48:01,110 - __main__ - WARNING - Could not fetch current price: Insufficient permission for that call.
+2026-01-08 15:48:01,189 - __main__ - INFO - GTT sell order placed successfully. Trigger ID: 301306936
+2026-01-08 15:48:01,189 - __main__ - INFO - GTT sell order scheduling process completed successfully

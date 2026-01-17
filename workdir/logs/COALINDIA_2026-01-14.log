@@ -1,0 +1,132 @@
+2026-01-14 11:44:41,171 - __main__ - INFO - Price difference configured: 0.5%
+2026-01-14 11:44:41,171 - __main__ - INFO - Start quantity configured: 3
+2026-01-14 11:44:41,171 - __main__ - INFO - Initializing Hybrid Order Scheduler for COALINDIA
+2026-01-14 11:44:41,171 - __main__ - INFO - Order count: 10, Current price: Rs.434.50, Max quantity: 100
+2026-01-14 11:44:41,171 - __main__ - INFO - Price difference: 0.5%
+2026-01-14 11:44:41,172 - __main__ - INFO - Configuration loaded successfully
+2026-01-14 11:44:41,173 - __main__ - INFO - Starting hybrid order scheduling process
+2026-01-14 11:44:41,324 - __main__ - INFO - Successfully connected to Kite Connect
+2026-01-14 11:44:41,324 - __main__ - WARNING - pytz not available, assuming market is closed - will use LIMIT order for first order
+2026-01-14 11:44:41,324 - __main__ - INFO - Using provided current price as base: Rs.434.50
+2026-01-14 11:44:41,324 - __main__ - INFO - Market is closed - skipping first order and starting with GTT orders
+2026-01-14 11:44:41,324 - __main__ - INFO - Order 1: SKIPPED (Market closed - AMO not supported)
+2026-01-14 11:44:41,324 - __main__ - INFO - Order 2: Price: Rs.434.00, Trigger: Rs.433.50, Type: GTT ORDER, Quantity: 3, Value: Rs.1301.90
+2026-01-14 11:44:41,324 - __main__ - INFO - Order 3: Price: Rs.431.80, Trigger: Rs.431.40, Type: GTT ORDER, Quantity: 4, Value: Rs.1727.10
+2026-01-14 11:44:41,324 - __main__ - INFO - Order 4: Price: Rs.429.60, Trigger: Rs.429.20, Type: GTT ORDER, Quantity: 5, Value: Rs.2148.10
+2026-01-14 11:44:41,324 - __main__ - INFO - Order 5: Price: Rs.427.40, Trigger: Rs.427.00, Type: GTT ORDER, Quantity: 6, Value: Rs.2564.60
+2026-01-14 11:44:41,324 - __main__ - INFO - Order 6: Price: Rs.425.30, Trigger: Rs.424.80, Type: GTT ORDER, Quantity: 7, Value: Rs.2976.90
+2026-01-14 11:44:41,324 - __main__ - INFO - Order 7: Price: Rs.423.10, Trigger: Rs.422.70, Type: GTT ORDER, Quantity: 8, Value: Rs.3384.80
+2026-01-14 11:44:41,325 - __main__ - INFO - Order 8: Price: Rs.420.90, Trigger: Rs.420.50, Type: GTT ORDER, Quantity: 9, Value: Rs.3788.30
+2026-01-14 11:44:41,325 - __main__ - INFO - Order 9: Price: Rs.418.70, Trigger: Rs.418.30, Type: GTT ORDER, Quantity: 10, Value: Rs.4187.50
+2026-01-14 11:44:41,325 - __main__ - INFO - Order 10: Price: Rs.416.60, Trigger: Rs.416.20, Type: GTT ORDER, Quantity: 11, Value: Rs.4582.30
+2026-01-14 11:44:56,749 - __main__ - INFO - Order placement cancelled by user
+2026-01-14 11:44:58,120 - __main__ - INFO - Price difference configured: 0.4%
+2026-01-14 11:44:58,120 - __main__ - INFO - Start quantity configured: 3
+2026-01-14 11:44:58,120 - __main__ - INFO - Initializing Hybrid Order Scheduler for COALINDIA
+2026-01-14 11:44:58,120 - __main__ - INFO - Order count: 10, Current price: Rs.434.50, Max quantity: 100
+2026-01-14 11:44:58,120 - __main__ - INFO - Price difference: 0.4%
+2026-01-14 11:44:58,121 - __main__ - INFO - Configuration loaded successfully
+2026-01-14 11:44:58,122 - __main__ - INFO - Starting hybrid order scheduling process
+2026-01-14 11:44:58,271 - __main__ - INFO - Successfully connected to Kite Connect
+2026-01-14 11:44:58,271 - __main__ - WARNING - pytz not available, assuming market is closed - will use LIMIT order for first order
+2026-01-14 11:44:58,271 - __main__ - INFO - Using provided current price as base: Rs.434.50
+2026-01-14 11:44:58,271 - __main__ - INFO - Market is closed - skipping first order and starting with GTT orders
+2026-01-14 11:44:58,271 - __main__ - INFO - Order 1: SKIPPED (Market closed - AMO not supported)
+2026-01-14 11:44:58,271 - __main__ - INFO - Order 2: Price: Rs.434.10, Trigger: Rs.433.60, Type: GTT ORDER, Quantity: 3, Value: Rs.1302.20
+2026-01-14 11:44:58,272 - __main__ - INFO - Order 3: Price: Rs.432.30, Trigger: Rs.431.90, Type: GTT ORDER, Quantity: 4, Value: Rs.1729.30
+2026-01-14 11:44:58,272 - __main__ - INFO - Order 4: Price: Rs.430.60, Trigger: Rs.430.20, Type: GTT ORDER, Quantity: 5, Value: Rs.2152.90
+2026-01-14 11:44:58,272 - __main__ - INFO - Order 5: Price: Rs.428.90, Trigger: Rs.428.40, Type: GTT ORDER, Quantity: 6, Value: Rs.2573.10
+2026-01-14 11:44:58,272 - __main__ - INFO - Order 6: Price: Rs.427.10, Trigger: Rs.426.70, Type: GTT ORDER, Quantity: 7, Value: Rs.2989.80
+2026-01-14 11:44:58,272 - __main__ - INFO - Order 7: Price: Rs.425.40, Trigger: Rs.425.00, Type: GTT ORDER, Quantity: 8, Value: Rs.3403.00
+2026-01-14 11:44:58,272 - __main__ - INFO - Order 8: Price: Rs.423.60, Trigger: Rs.423.20, Type: GTT ORDER, Quantity: 9, Value: Rs.3812.70
+2026-01-14 11:44:58,272 - __main__ - INFO - Order 9: Price: Rs.421.90, Trigger: Rs.421.50, Type: GTT ORDER, Quantity: 10, Value: Rs.4219.00
+2026-01-14 11:44:58,272 - __main__ - INFO - Order 10: Price: Rs.420.20, Trigger: Rs.419.70, Type: GTT ORDER, Quantity: 11, Value: Rs.4621.80
+2026-01-14 11:45:08,906 - __main__ - INFO - Order placement cancelled by user
+2026-01-14 11:45:11,059 - __main__ - INFO - Price difference configured: 0.4%
+2026-01-14 11:45:11,059 - __main__ - INFO - Start quantity configured: 4
+2026-01-14 11:45:11,059 - __main__ - INFO - Initializing Hybrid Order Scheduler for COALINDIA
+2026-01-14 11:45:11,059 - __main__ - INFO - Order count: 10, Current price: Rs.434.50, Max quantity: 100
+2026-01-14 11:45:11,059 - __main__ - INFO - Price difference: 0.4%
+2026-01-14 11:45:11,060 - __main__ - INFO - Configuration loaded successfully
+2026-01-14 11:45:11,061 - __main__ - INFO - Starting hybrid order scheduling process
+2026-01-14 11:45:11,203 - __main__ - INFO - Successfully connected to Kite Connect
+2026-01-14 11:45:11,203 - __main__ - WARNING - pytz not available, assuming market is closed - will use LIMIT order for first order
+2026-01-14 11:45:11,203 - __main__ - INFO - Using provided current price as base: Rs.434.50
+2026-01-14 11:45:11,203 - __main__ - INFO - Market is closed - skipping first order and starting with GTT orders
+2026-01-14 11:45:11,203 - __main__ - INFO - Order 1: SKIPPED (Market closed - AMO not supported)
+2026-01-14 11:45:11,203 - __main__ - INFO - Order 2: Price: Rs.434.10, Trigger: Rs.433.60, Type: GTT ORDER, Quantity: 4, Value: Rs.1736.30
+2026-01-14 11:45:11,203 - __main__ - INFO - Order 3: Price: Rs.432.30, Trigger: Rs.431.90, Type: GTT ORDER, Quantity: 5, Value: Rs.2161.60
+2026-01-14 11:45:11,203 - __main__ - INFO - Order 4: Price: Rs.430.60, Trigger: Rs.430.20, Type: GTT ORDER, Quantity: 6, Value: Rs.2583.50
+2026-01-14 11:45:11,203 - __main__ - INFO - Order 5: Price: Rs.428.90, Trigger: Rs.428.40, Type: GTT ORDER, Quantity: 7, Value: Rs.3002.00
+2026-01-14 11:45:11,203 - __main__ - INFO - Order 6: Price: Rs.427.10, Trigger: Rs.426.70, Type: GTT ORDER, Quantity: 8, Value: Rs.3416.90
+2026-01-14 11:45:11,204 - __main__ - INFO - Order 7: Price: Rs.425.40, Trigger: Rs.425.00, Type: GTT ORDER, Quantity: 9, Value: Rs.3828.40
+2026-01-14 11:45:11,204 - __main__ - INFO - Order 8: Price: Rs.423.60, Trigger: Rs.423.20, Type: GTT ORDER, Quantity: 10, Value: Rs.4236.40
+2026-01-14 11:45:11,204 - __main__ - INFO - Order 9: Price: Rs.421.90, Trigger: Rs.421.50, Type: GTT ORDER, Quantity: 11, Value: Rs.4640.90
+2026-01-14 11:45:11,204 - __main__ - INFO - Order 10: Price: Rs.420.20, Trigger: Rs.419.70, Type: GTT ORDER, Quantity: 12, Value: Rs.5041.90
+2026-01-14 11:45:28,059 - __main__ - INFO - Order placement cancelled by user
+2026-01-14 11:45:33,463 - __main__ - INFO - Price difference configured: 0.4%
+2026-01-14 11:45:33,463 - __main__ - INFO - Start quantity configured: 4
+2026-01-14 11:45:33,463 - __main__ - INFO - Initializing Hybrid Order Scheduler for COALINDIA
+2026-01-14 11:45:33,463 - __main__ - INFO - Order count: 10, Current price: Rs.435.00, Max quantity: 100
+2026-01-14 11:45:33,463 - __main__ - INFO - Price difference: 0.4%
+2026-01-14 11:45:33,464 - __main__ - INFO - Configuration loaded successfully
+2026-01-14 11:45:33,465 - __main__ - INFO - Starting hybrid order scheduling process
+2026-01-14 11:45:33,610 - __main__ - INFO - Successfully connected to Kite Connect
+2026-01-14 11:45:33,611 - __main__ - WARNING - pytz not available, assuming market is closed - will use LIMIT order for first order
+2026-01-14 11:45:33,611 - __main__ - INFO - Using provided current price as base: Rs.435.00
+2026-01-14 11:45:33,611 - __main__ - INFO - Market is closed - skipping first order and starting with GTT orders
+2026-01-14 11:45:33,611 - __main__ - INFO - Order 1: SKIPPED (Market closed - AMO not supported)
+2026-01-14 11:45:33,611 - __main__ - INFO - Order 2: Price: Rs.434.60, Trigger: Rs.434.10, Type: GTT ORDER, Quantity: 4, Value: Rs.1738.30
+2026-01-14 11:45:33,611 - __main__ - INFO - Order 3: Price: Rs.432.80, Trigger: Rs.432.40, Type: GTT ORDER, Quantity: 5, Value: Rs.2164.10
+2026-01-14 11:45:33,611 - __main__ - INFO - Order 4: Price: Rs.431.10, Trigger: Rs.430.70, Type: GTT ORDER, Quantity: 6, Value: Rs.2586.50
+2026-01-14 11:45:33,611 - __main__ - INFO - Order 5: Price: Rs.429.30, Trigger: Rs.428.90, Type: GTT ORDER, Quantity: 7, Value: Rs.3005.40
+2026-01-14 11:45:33,611 - __main__ - INFO - Order 6: Price: Rs.427.60, Trigger: Rs.427.20, Type: GTT ORDER, Quantity: 8, Value: Rs.3420.80
+2026-01-14 11:45:33,611 - __main__ - INFO - Order 7: Price: Rs.425.90, Trigger: Rs.425.40, Type: GTT ORDER, Quantity: 9, Value: Rs.3832.80
+2026-01-14 11:45:33,611 - __main__ - INFO - Order 8: Price: Rs.424.10, Trigger: Rs.423.70, Type: GTT ORDER, Quantity: 10, Value: Rs.4241.20
+2026-01-14 11:45:33,611 - __main__ - INFO - Order 9: Price: Rs.422.40, Trigger: Rs.422.00, Type: GTT ORDER, Quantity: 11, Value: Rs.4646.20
+2026-01-14 11:45:33,611 - __main__ - INFO - Order 10: Price: Rs.420.60, Trigger: Rs.420.20, Type: GTT ORDER, Quantity: 12, Value: Rs.5047.70
+2026-01-14 11:45:45,283 - __main__ - INFO - Order placement cancelled by user
+2026-01-14 11:45:47,829 - __main__ - INFO - Price difference configured: 0.4%
+2026-01-14 11:45:47,829 - __main__ - INFO - Start quantity configured: 5
+2026-01-14 11:45:47,829 - __main__ - INFO - Initializing Hybrid Order Scheduler for COALINDIA
+2026-01-14 11:45:47,829 - __main__ - INFO - Order count: 10, Current price: Rs.435.00, Max quantity: 100
+2026-01-14 11:45:47,829 - __main__ - INFO - Price difference: 0.4%
+2026-01-14 11:45:47,830 - __main__ - INFO - Configuration loaded successfully
+2026-01-14 11:45:47,831 - __main__ - INFO - Starting hybrid order scheduling process
+2026-01-14 11:45:47,993 - __main__ - INFO - Successfully connected to Kite Connect
+2026-01-14 11:45:47,993 - __main__ - WARNING - pytz not available, assuming market is closed - will use LIMIT order for first order
+2026-01-14 11:45:47,993 - __main__ - INFO - Using provided current price as base: Rs.435.00
+2026-01-14 11:45:47,993 - __main__ - INFO - Market is closed - skipping first order and starting with GTT orders
+2026-01-14 11:45:47,993 - __main__ - INFO - Order 1: SKIPPED (Market closed - AMO not supported)
+2026-01-14 11:45:47,993 - __main__ - INFO - Order 2: Price: Rs.434.60, Trigger: Rs.434.10, Type: GTT ORDER, Quantity: 5, Value: Rs.2172.80
+2026-01-14 11:45:47,993 - __main__ - INFO - Order 3: Price: Rs.432.80, Trigger: Rs.432.40, Type: GTT ORDER, Quantity: 6, Value: Rs.2596.90
+2026-01-14 11:45:47,993 - __main__ - INFO - Order 4: Price: Rs.431.10, Trigger: Rs.430.70, Type: GTT ORDER, Quantity: 7, Value: Rs.3017.60
+2026-01-14 11:45:47,993 - __main__ - INFO - Order 5: Price: Rs.429.30, Trigger: Rs.428.90, Type: GTT ORDER, Quantity: 8, Value: Rs.3434.80
+2026-01-14 11:45:47,993 - __main__ - INFO - Order 6: Price: Rs.427.60, Trigger: Rs.427.20, Type: GTT ORDER, Quantity: 9, Value: Rs.3848.40
+2026-01-14 11:45:47,993 - __main__ - INFO - Order 7: Price: Rs.425.90, Trigger: Rs.425.40, Type: GTT ORDER, Quantity: 10, Value: Rs.4258.60
+2026-01-14 11:45:47,993 - __main__ - INFO - Order 8: Price: Rs.424.10, Trigger: Rs.423.70, Type: GTT ORDER, Quantity: 11, Value: Rs.4665.40
+2026-01-14 11:45:47,993 - __main__ - INFO - Order 9: Price: Rs.422.40, Trigger: Rs.422.00, Type: GTT ORDER, Quantity: 12, Value: Rs.5068.60
+2026-01-14 11:45:47,993 - __main__ - INFO - Order 10: Price: Rs.420.60, Trigger: Rs.420.20, Type: GTT ORDER, Quantity: 13, Value: Rs.5468.40
+2026-01-14 11:45:53,544 - __main__ - INFO - Placing orders...
+2026-01-14 11:45:53,545 - __main__ - INFO - Skipping order 1 - Market closed, AMO not supported
+2026-01-14 11:45:53,545 - __main__ - INFO - Order 1 skipped successfully
+2026-01-14 11:45:53,545 - __main__ - INFO - Placing GTT order 2 for COALINDIA
+2026-01-14 11:45:53,799 - __main__ - INFO - GTT order 2 placed successfully with trigger ID: 302061785
+2026-01-14 11:45:53,799 - __main__ - INFO - Placing GTT order 3 for COALINDIA
+2026-01-14 11:45:54,090 - __main__ - INFO - GTT order 3 placed successfully with trigger ID: 302061787
+2026-01-14 11:45:54,090 - __main__ - INFO - Placing GTT order 4 for COALINDIA
+2026-01-14 11:45:54,552 - __main__ - INFO - GTT order 4 placed successfully with trigger ID: 302061788
+2026-01-14 11:45:54,552 - __main__ - INFO - Placing GTT order 5 for COALINDIA
+2026-01-14 11:45:54,792 - __main__ - INFO - GTT order 5 placed successfully with trigger ID: 302061790
+2026-01-14 11:45:54,792 - __main__ - INFO - Placing GTT order 6 for COALINDIA
+2026-01-14 11:45:55,706 - __main__ - INFO - GTT order 6 placed successfully with trigger ID: 302061794
+2026-01-14 11:45:55,706 - __main__ - INFO - Placing GTT order 7 for COALINDIA
+2026-01-14 11:45:55,924 - __main__ - INFO - GTT order 7 placed successfully with trigger ID: 302061797
+2026-01-14 11:45:55,924 - __main__ - INFO - Placing GTT order 8 for COALINDIA
+2026-01-14 11:45:57,183 - __main__ - INFO - GTT order 8 placed successfully with trigger ID: 302061802
+2026-01-14 11:45:57,183 - __main__ - INFO - Placing GTT order 9 for COALINDIA
+2026-01-14 11:45:58,644 - __main__ - INFO - GTT order 9 placed successfully with trigger ID: 302061811
+2026-01-14 11:45:58,644 - __main__ - INFO - Placing GTT order 10 for COALINDIA
+2026-01-14 11:45:58,867 - __main__ - INFO - GTT order 10 placed successfully with trigger ID: 302061812
+2026-01-14 11:45:58,868 - __main__ - INFO - Order summary saved to workdir/orders/COALINDIA_gtt_orders_20260114_114558.json
+2026-01-14 11:45:58,868 - __main__ - INFO - Hybrid order scheduling process completed successfully

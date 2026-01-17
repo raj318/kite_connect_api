@@ -70,3 +70,18 @@
 2026-01-07 11:36:39,868 - kite_utils - INFO - Using config file at: config/config.yaml
 2026-01-07 11:36:39,869 - kite_utils - INFO - Using config file at: config/config.yaml
 2026-01-07 11:36:43,664 - kite_utils - ERROR - Error getting live data for POWERGRID: Insufficient permission for that call.
+2026-01-07 16:08:26,178 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-07 16:08:26,179 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-07 16:08:26,588 - kite_utils - ERROR - Access token expired. Getting new token...
+2026-01-07 16:08:45,497 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-07 16:08:45,499 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-07 16:08:49,918 - kite_utils - ERROR - Error getting live data for POWERGRID: Insufficient permission for that call.
+2026-01-07 16:09:14,199 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-07 16:09:14,200 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-07 16:11:04,889 - kite_utils - ERROR - Error getting live data for TATASTEEL: Insufficient permission for that call.
+2026-01-07 16:11:15,599 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-07 16:11:15,600 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-07 16:11:19,340 - kite_utils - ERROR - Error getting live data for ONGC: Insufficient permission for that call.
+2026-01-07 16:11:27,517 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-07 16:11:27,518 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-07 16:11:30,956 - kite_utils - ERROR - Error getting live data for NTPC: Insufficient permission for that call.

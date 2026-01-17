@@ -97,3 +97,14 @@
 2026-01-07 11:36:43,664 - __main__ - WARNING - Could not fetch current price: Insufficient permission for that call.
 2026-01-07 11:36:43,826 - __main__ - INFO - GTT sell order placed successfully. Trigger ID: 301058007
 2026-01-07 11:36:43,827 - __main__ - INFO - GTT sell order scheduling process completed successfully
+2026-01-07 16:08:26,179 - __main__ - INFO - Initializing GTT Sell Order Scheduler for POWERGRID
+2026-01-07 16:08:26,179 - __main__ - INFO - Target net profit: 1.0%
+2026-01-07 16:08:26,179 - __main__ - INFO - Starting GTT sell order scheduling process
+2026-01-07 16:08:45,498 - __main__ - INFO - Initializing GTT Sell Order Scheduler for POWERGRID
+2026-01-07 16:08:45,498 - __main__ - INFO - Target net profit: 1.0%
+2026-01-07 16:08:45,499 - __main__ - INFO - Starting GTT sell order scheduling process
+2026-01-07 16:08:45,597 - __main__ - INFO - Successfully connected to Kite Connect
+2026-01-07 16:08:49,630 - __main__ - INFO - Placing GTT sell order...
+2026-01-07 16:08:49,918 - __main__ - WARNING - Could not fetch current price: Insufficient permission for that call.
+2026-01-07 16:08:50,017 - __main__ - INFO - GTT sell order placed successfully. Trigger ID: 301118522
+2026-01-07 16:08:50,017 - __main__ - INFO - GTT sell order scheduling process completed successfully

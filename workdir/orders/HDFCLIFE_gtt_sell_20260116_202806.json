@@ -1,0 +1,33 @@
+{
+  "company_symbol": "HDFCLIFE",
+  "order_type": "GTT_SELL",
+  "quantity": 29,
+  "average_buy_price": 731.54,
+  "sell_price": 740.3,
+  "trigger_price": 741.0,
+  "target_net_profit_percentage": 1.0,
+  "profit_analysis": {
+    "buy_value": 21214.66,
+    "sell_value": 21468.699999999997,
+    "gross_profit": 254.03999999999724,
+    "gross_profit_percentage": 1.1974738223473638,
+    "charges": {
+      "brokerage": 0.0,
+      "stt": 21.4687,
+      "exchange_charges": 0.7406701499999999,
+      "sebi_fees": 0.021468699999999997,
+      "dp_charges": 15.93,
+      "gst": 0.13718499299999998,
+      "total_charges": 38.298023842999996,
+      "charges_per_share": 1.3206215118275861
+    },
+    "total_charges": 38.298023842999996,
+    "charges_percentage": 0.1805262202788072,
+    "net_profit": 215.74197615699723,
+    "net_profit_percentage": 1.0169476020685564,
+    "break_even_price": 732.8606215118275
+  },
+  "trigger_id": null,
+  "status": "CALCULATED",
+  "timestamp": "2026-01-16T20:28:06.704209"
+}

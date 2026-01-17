@@ -87,3 +87,11 @@
 2026-01-07 11:13:39,916 - __main__ - WARNING - Could not fetch current price: Insufficient permission for that call.
 2026-01-07 11:13:40,029 - __main__ - INFO - GTT sell order placed successfully. Trigger ID: 301051372
 2026-01-07 11:13:40,030 - __main__ - INFO - GTT sell order scheduling process completed successfully
+2026-01-07 16:11:27,518 - __main__ - INFO - Initializing GTT Sell Order Scheduler for NTPC
+2026-01-07 16:11:27,518 - __main__ - INFO - Target net profit: 1.0%
+2026-01-07 16:11:27,518 - __main__ - INFO - Starting GTT sell order scheduling process
+2026-01-07 16:11:27,682 - __main__ - INFO - Successfully connected to Kite Connect
+2026-01-07 16:11:30,655 - __main__ - INFO - Placing GTT sell order...
+2026-01-07 16:11:30,957 - __main__ - WARNING - Could not fetch current price: Insufficient permission for that call.
+2026-01-07 16:11:31,066 - __main__ - INFO - GTT sell order placed successfully. Trigger ID: 301118723
+2026-01-07 16:11:31,066 - __main__ - INFO - GTT sell order scheduling process completed successfully

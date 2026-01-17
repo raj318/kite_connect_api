@@ -1,0 +1,48 @@
+{
+  "company_symbol": "TATASTEEL",
+  "operation": "GTT Order Deletion",
+  "timestamp": "2026-01-14T11:30:03.314107",
+  "results": {
+    "total_orders": 5,
+    "successful_deletions": 5,
+    "failed_deletions": 0,
+    "deleted_orders": [
+      {
+        "trigger_id": 300889811,
+        "symbol": "TATASTEEL",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-14T11:30:02.804226"
+      },
+      {
+        "trigger_id": 300889809,
+        "symbol": "TATASTEEL",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-14T11:30:02.923608"
+      },
+      {
+        "trigger_id": 300889808,
+        "symbol": "TATASTEEL",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-14T11:30:03.041984"
+      },
+      {
+        "trigger_id": 300889806,
+        "symbol": "TATASTEEL",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-14T11:30:03.176821"
+      },
+      {
+        "trigger_id": 300889803,
+        "symbol": "TATASTEEL",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-14T11:30:03.314041"
+      }
+    ],
+    "failed_orders": []
+  }
+}

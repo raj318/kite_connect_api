@@ -1,0 +1,23 @@
+2026-01-16 12:25:29,431 - __main__ - INFO - Initializing GTT Sell Order Scheduler for HDFCLIFE
+2026-01-16 12:25:29,431 - __main__ - INFO - Target net profit: 1.0%
+2026-01-16 12:25:29,431 - __main__ - INFO - Starting GTT sell order scheduling process
+2026-01-16 12:25:29,568 - __main__ - INFO - Successfully connected to Kite Connect
+2026-01-16 12:25:36,564 - __main__ - INFO - Placing GTT sell order...
+2026-01-16 12:25:36,935 - __main__ - WARNING - Could not fetch current price: Insufficient permission for that call.
+2026-01-16 12:25:37,038 - __main__ - ERROR - Failed to place GTT sell order: Trigger price was too close to the last price. (difference should be more than 0.25%)
+2026-01-16 12:25:37,038 - __main__ - ERROR - GTT sell order scheduling failed: Trigger price was too close to the last price. (difference should be more than 0.25%)
+2026-01-16 12:25:37,038 - __main__ - ERROR - Error type: InputException
+2026-01-16 12:57:34,858 - __main__ - INFO - Initializing GTT Sell Order Scheduler for HDFCLIFE
+2026-01-16 12:57:34,858 - __main__ - INFO - Target net profit: 1.0%
+2026-01-16 12:57:34,858 - __main__ - INFO - Starting GTT sell order scheduling process
+2026-01-16 12:57:34,997 - __main__ - INFO - Successfully connected to Kite Connect
+2026-01-16 12:57:39,160 - __main__ - INFO - Placing GTT sell order...
+2026-01-16 12:57:39,494 - __main__ - WARNING - Could not fetch current price: Insufficient permission for that call.
+2026-01-16 12:57:39,588 - __main__ - ERROR - Failed to place GTT sell order: Trigger price was too close to the last price. (difference should be more than 0.25%)
+2026-01-16 12:57:39,588 - __main__ - ERROR - GTT sell order scheduling failed: Trigger price was too close to the last price. (difference should be more than 0.25%)
+2026-01-16 12:57:39,588 - __main__ - ERROR - Error type: InputException
+2026-01-16 12:57:43,553 - __main__ - INFO - Initializing GTT Sell Order Scheduler for HDFCLIFE
+2026-01-16 12:57:43,553 - __main__ - INFO - Target net profit: 1.0%
+2026-01-16 12:57:43,553 - __main__ - INFO - Starting GTT sell order scheduling process
+2026-01-16 12:57:43,664 - __main__ - INFO - Successfully connected to Kite Connect
+2026-01-16 20:28:06,702 - __main__ - INFO - Order placement cancelled by user

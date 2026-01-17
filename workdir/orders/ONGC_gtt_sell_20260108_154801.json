@@ -1,0 +1,33 @@
+{
+  "company_symbol": "ONGC",
+  "order_type": "GTT_SELL",
+  "quantity": 68,
+  "average_buy_price": 235.19,
+  "sell_price": 238.0,
+  "trigger_price": 238.2,
+  "target_net_profit_percentage": 1.0,
+  "profit_analysis": {
+    "buy_value": 15992.92,
+    "sell_value": 16184.0,
+    "gross_profit": 191.07999999999993,
+    "gross_profit_percentage": 1.1947786895701342,
+    "charges": {
+      "brokerage": 0.0,
+      "stt": 16.184,
+      "exchange_charges": 0.558348,
+      "sebi_fees": 0.016184,
+      "dp_charges": 15.93,
+      "gst": 0.10341575999999998,
+      "total_charges": 32.79194775999999,
+      "charges_per_share": 0.4822345258823528
+    },
+    "total_charges": 32.79194775999999,
+    "charges_percentage": 0.20504040387871628,
+    "net_profit": 158.28805223999993,
+    "net_profit_percentage": 0.989738285691418,
+    "break_even_price": 235.67223452588235
+  },
+  "trigger_id": 301306936,
+  "status": "PLACED",
+  "timestamp": "2026-01-08T15:48:01.189455"
+}

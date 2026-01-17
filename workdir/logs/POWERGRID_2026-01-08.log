@@ -1,0 +1,8 @@
+2026-01-08 15:47:36,984 - __main__ - INFO - Initializing GTT Sell Order Scheduler for POWERGRID
+2026-01-08 15:47:36,984 - __main__ - INFO - Target net profit: 1.0%
+2026-01-08 15:47:36,984 - __main__ - INFO - Starting GTT sell order scheduling process
+2026-01-08 15:47:37,105 - __main__ - INFO - Successfully connected to Kite Connect
+2026-01-08 15:47:39,412 - __main__ - INFO - Placing GTT sell order...
+2026-01-08 15:47:39,954 - __main__ - WARNING - Could not fetch current price: Insufficient permission for that call.
+2026-01-08 15:47:40,077 - __main__ - INFO - GTT sell order placed successfully. Trigger ID: 301306891
+2026-01-08 15:47:40,077 - __main__ - INFO - GTT sell order scheduling process completed successfully

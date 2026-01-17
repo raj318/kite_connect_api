@@ -175,13 +175,16 @@ def get_holdings_info(kite_api: KiteConnectAPI, company_symbol: str) -> Tuple[in
         total_value = 0.0
         symbol_upper = company_symbol.upper()
         logging.info("Fetching holdings information...")
-        # First try the helper which may return filtered holdings
+
+        # Try to get holdings and positions via helper
         try:
             account_details = kite_api.get_account_details()
             holdings = account_details.get('holdings') or []
+            account_positions = account_details.get('positions') or []
             logging.info(f"account holding = {holdings}")
         except Exception:
             holdings = []
+            account_positions = []
 
         # If holdings empty, try raw API call
         if not holdings and hasattr(kite_api, 'kite') and getattr(kite_api.kite, 'holdings', None):
@@ -191,47 +194,62 @@ def get_holdings_info(kite_api: KiteConnectAPI, company_symbol: str) -> Tuple[in
             except Exception as e:
                 logging.warning(f"Could not fetch raw holdings: {e}")
 
-        # Filter holdings case-insensitively
+        # Sum allocated and t1 quantities separately and add both
         company_holdings = [h for h in (holdings or []) if h.get('tradingsymbol', '').upper() == symbol_upper]
         logging.info(f"holdings = {company_holdings}")
-        for holding in company_holdings:
-            qty = int(holding.get('quantity', 0) or holding.get('t1_quantity', 0) or 0)
-            avg_price = float(holding.get('average_price', 0) or 0)
-            if qty > 0:
-                total_quantity += qty
-                # Use available avg_price if present; otherwise skip adding value (positions may supply price)
-                if avg_price > 0:
-                    total_value += qty * avg_price
 
-        logging.info(f"init total qunatity = {total_quantity}")
+        allocated_total = 0
+        t1_total = 0
+        for holding in company_holdings:
+            allocated = int(holding.get('quantity') or 0)
+            t1 = int(holding.get('t1_quantity') or 0)
+            avg_price = float(holding.get('average_price') or 0)
+            allocated_total += allocated
+            t1_total += t1
+            if avg_price > 0:
+                # Use the average price for both allocated and t1 quantities
+                total_value += (allocated + t1) * avg_price
+
+        total_quantity += allocated_total + t1_total
+        logging.info(f"holdings allocated={allocated_total}, t1={t1_total}, subtotal={total_quantity}")
+
         # Also include positions (day and net) to capture trades executed today
-        if hasattr(kite_api, 'kite') and kite_api.kite:
+        pos_total = 0
+        positions = []
+        # Prefer positions returned by account_details if present
+        if account_positions:
+            positions = account_positions
+        else:
             try:
-                positions = kite_api.kite.positions() or {}
-                logging.info(f"positions = {positions}")
-                for position in positions.get('net', []) or []:
-                    print(f"\n pppposition = {position}\n")
-                    if position.get('tradingsymbol', '').upper() == symbol_upper:
-                        logging.info(f"total quantity in positions = {position.get('buy_quantity', 0)}")
-                        qty = int(position.get('buy_quantity', 0) or 0)
-                        avg = float(position.get('buy_price', 0) or 0)
-                        if qty > 0:
-                            total_quantity += qty
-                            if avg > 0:
-                                total_value += qty * avg
-                logging.info(f"After positions total qunatity = {total_quantity}")
+                positions_resp = kite_api.kite.positions() or {}
+                # Combine 'net' and 'day' lists to be thorough
+                positions = (positions_resp.get('net') or []) + (positions_resp.get('day') or [])
             except Exception as e:
                 logging.warning(f"Could not fetch positions: {e}")
+
+        logging.info(f"positions = {positions}")
+        for position in positions or []:
+            if position.get('tradingsymbol', '').upper() == symbol_upper:
+                # prefer net_quantity, otherwise use buy_quantity
+                qty = int(position.get('net_quantity') or position.get('buy_quantity') or 0)
+                avg = float(position.get('average_price') or position.get('buy_price') or 0)
+                if qty > 0:
+                    pos_total += qty
+                    if avg > 0:
+                        total_value += qty * avg
+
+        total_quantity += pos_total
+        logging.info(f"positions_total={pos_total}, total_quantity={total_quantity}")
 
         # If still zero, log details to help debugging
         if total_quantity == 0:
             logging.debug(f"Holdings list: {holdings}")
-            # Try to show positions raw for debugging
             try:
                 if hasattr(kite_api, 'kite') and kite_api.kite:
                     logging.debug(f"Raw positions: {kite_api.kite.positions()}")
             except Exception:
                 pass
+
         logging.info(f"total quantity = {total_quantity}")
         average_price = (total_value / total_quantity) if total_quantity > 0 else 0.0
         return total_quantity, round(average_price, 2)

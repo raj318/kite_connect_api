@@ -28,3 +28,11 @@
 2026-01-07 11:26:03,608 - __main__ - WARNING - Could not fetch current price: Insufficient permission for that call.
 2026-01-07 11:26:03,720 - __main__ - INFO - GTT sell order placed successfully. Trigger ID: 301055153
 2026-01-07 11:26:03,720 - __main__ - INFO - GTT sell order scheduling process completed successfully
+2026-01-07 16:09:14,200 - __main__ - INFO - Initializing GTT Sell Order Scheduler for TATASTEEL
+2026-01-07 16:09:14,200 - __main__ - INFO - Target net profit: 1.0%
+2026-01-07 16:09:14,200 - __main__ - INFO - Starting GTT sell order scheduling process
+2026-01-07 16:09:14,346 - __main__ - INFO - Successfully connected to Kite Connect
+2026-01-07 16:11:04,415 - __main__ - INFO - Placing GTT sell order...
+2026-01-07 16:11:04,890 - __main__ - WARNING - Could not fetch current price: Insufficient permission for that call.
+2026-01-07 16:11:05,070 - __main__ - INFO - GTT sell order placed successfully. Trigger ID: 301118687
+2026-01-07 16:11:05,070 - __main__ - INFO - GTT sell order scheduling process completed successfully

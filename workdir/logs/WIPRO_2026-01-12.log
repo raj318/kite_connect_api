@@ -1,0 +1,29 @@
+2026-01-12 10:25:02,903 - __main__ - INFO - Initializing GTT Sell Order Scheduler for WIPRO
+2026-01-12 10:25:02,903 - __main__ - INFO - Target net profit: 1.0%
+2026-01-12 10:25:02,903 - __main__ - INFO - Starting GTT sell order scheduling process
+2026-01-12 10:25:21,288 - __main__ - INFO - Initializing GTT Sell Order Scheduler for WIPRO
+2026-01-12 10:25:21,288 - __main__ - INFO - Target net profit: 1.0%
+2026-01-12 10:25:21,288 - __main__ - INFO - Starting GTT sell order scheduling process
+2026-01-12 10:25:21,558 - __main__ - INFO - Successfully connected to Kite Connect
+2026-01-12 10:35:28,301 - __main__ - INFO - Order placement cancelled by user
+2026-01-12 10:35:29,596 - __main__ - INFO - Initializing GTT Sell Order Scheduler for WIPRO
+2026-01-12 10:35:29,596 - __main__ - INFO - Target net profit: 1.0%
+2026-01-12 10:35:29,596 - __main__ - INFO - Starting GTT sell order scheduling process
+2026-01-12 10:35:29,993 - __main__ - INFO - Successfully connected to Kite Connect
+2026-01-12 10:45:30,733 - __main__ - INFO - Order placement cancelled by user
+2026-01-12 10:45:31,992 - __main__ - INFO - Initializing GTT Sell Order Scheduler for WIPRO
+2026-01-12 10:45:31,992 - __main__ - INFO - Target net profit: 1.0%
+2026-01-12 10:45:31,992 - __main__ - INFO - Starting GTT sell order scheduling process
+2026-01-12 10:45:32,334 - __main__ - INFO - Successfully connected to Kite Connect
+2026-01-12 10:45:38,470 - __main__ - INFO - Placing GTT sell order...
+2026-01-12 10:45:39,136 - __main__ - WARNING - Could not fetch current price: Insufficient permission for that call.
+2026-01-12 10:45:39,410 - __main__ - INFO - GTT sell order placed successfully. Trigger ID: 301650651
+2026-01-12 10:45:39,411 - __main__ - INFO - GTT sell order scheduling process completed successfully
+2026-01-12 21:57:39,442 - __main__ - INFO - Initializing GTT Sell Order Scheduler for WIPRO
+2026-01-12 21:57:39,442 - __main__ - INFO - Target net profit: 1.0%
+2026-01-12 21:57:39,442 - __main__ - INFO - Starting GTT sell order scheduling process
+2026-01-12 21:57:39,568 - __main__ - INFO - Successfully connected to Kite Connect
+2026-01-12 21:57:46,946 - __main__ - INFO - Placing GTT sell order...
+2026-01-12 21:57:47,229 - __main__ - WARNING - Could not fetch current price: Insufficient permission for that call.
+2026-01-12 21:57:47,329 - __main__ - INFO - GTT sell order placed successfully. Trigger ID: 301781262
+2026-01-12 21:57:47,330 - __main__ - INFO - GTT sell order scheduling process completed successfully

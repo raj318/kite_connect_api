@@ -80,3 +80,11 @@
 2026-01-07 10:36:47,353 - __main__ - INFO - GTT order 10 placed successfully with trigger ID: 301039137
 2026-01-07 10:36:47,354 - __main__ - INFO - Order summary saved to workdir/orders/ONGC_gtt_orders_20260107_103647.json
 2026-01-07 10:36:47,355 - __main__ - INFO - Convex accumulation order scheduling process completed successfully
+2026-01-07 16:11:15,600 - __main__ - INFO - Initializing GTT Sell Order Scheduler for ONGC
+2026-01-07 16:11:15,600 - __main__ - INFO - Target net profit: 1.0%
+2026-01-07 16:11:15,600 - __main__ - INFO - Starting GTT sell order scheduling process
+2026-01-07 16:11:15,796 - __main__ - INFO - Successfully connected to Kite Connect
+2026-01-07 16:11:18,959 - __main__ - INFO - Placing GTT sell order...
+2026-01-07 16:11:19,341 - __main__ - WARNING - Could not fetch current price: Insufficient permission for that call.
+2026-01-07 16:11:19,502 - __main__ - INFO - GTT sell order placed successfully. Trigger ID: 301118706
+2026-01-07 16:11:19,504 - __main__ - INFO - GTT sell order scheduling process completed successfully

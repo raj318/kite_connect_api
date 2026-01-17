@@ -1,0 +1,33 @@
+{
+  "company_symbol": "WIPRO",
+  "order_type": "GTT_SELL",
+  "quantity": 12,
+  "average_buy_price": 260.91,
+  "sell_price": 265.1,
+  "trigger_price": 265.4,
+  "target_net_profit_percentage": 1.0,
+  "profit_analysis": {
+    "buy_value": 3130.92,
+    "sell_value": 3181.2000000000003,
+    "gross_profit": 50.2800000000002,
+    "gross_profit_percentage": 1.6059177494155137,
+    "charges": {
+      "brokerage": 0.0,
+      "stt": 3.1812000000000005,
+      "exchange_charges": 0.1097514,
+      "sebi_fees": 0.0031812,
+      "dp_charges": 15.93,
+      "gst": 0.020327868,
+      "total_charges": 19.244460468,
+      "charges_per_share": 1.603705039
+    },
+    "total_charges": 19.244460468,
+    "charges_percentage": 0.6146583262427656,
+    "net_profit": 31.0355395320002,
+    "net_profit_percentage": 0.991259423172748,
+    "break_even_price": 262.513705039
+  },
+  "trigger_id": null,
+  "status": "CALCULATED",
+  "timestamp": "2026-01-12T10:35:28.302501"
+}

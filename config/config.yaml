@@ -3,11 +3,11 @@ breeze_api:
   secret_token: 530zM488$968889l8rD9a7S35(2984w1
   session_id: 52167302
 kite_connect:
-  access_token: 6HOo1GuCgQFlbDQFZ5cWjnJ6PqgNzqTu
+  access_token: WQI7Jbs2ItkpM8gBOdU86L2cFOHa5hTv
   api_key: ldhfjwk4z3wn9v9d
   api_secret: k8ri5fj6wtn404iqq3bmt5ntdplubua1
   redirect_url: http://localhost:8000/login
-  request_token: pbl7Vxpwerwm0vckBXuIekYheQNDvyZw
+  request_token: EPcZBLSMKV1CEFyxggABrE6bHyH4UW8M
 stratergy:
   buy: 0.3
   linear_from: 1

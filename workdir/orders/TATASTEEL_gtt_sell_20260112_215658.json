@@ -1,0 +1,33 @@
+{
+  "company_symbol": "TATASTEEL",
+  "order_type": "GTT_SELL",
+  "quantity": 117,
+  "average_buy_price": 182.1,
+  "sell_price": 184.3,
+  "trigger_price": 184.5,
+  "target_net_profit_percentage": 1.0,
+  "profit_analysis": {
+    "buy_value": 21305.7,
+    "sell_value": 21563.100000000002,
+    "gross_profit": 257.40000000000146,
+    "gross_profit_percentage": 1.2081274025260915,
+    "charges": {
+      "brokerage": 0.0,
+      "stt": 21.563100000000002,
+      "exchange_charges": 0.7439269500000001,
+      "sebi_fees": 0.0215631,
+      "dp_charges": 15.93,
+      "gst": 0.13778820900000002,
+      "total_charges": 38.396378259,
+      "charges_per_share": 0.32817417315384617
+    },
+    "total_charges": 38.396378259,
+    "charges_percentage": 0.1802164597220462,
+    "net_profit": 219.00362174100144,
+    "net_profit_percentage": 1.027910942804045,
+    "break_even_price": 182.42817417315385
+  },
+  "trigger_id": 301781198,
+  "status": "PLACED",
+  "timestamp": "2026-01-12T21:56:58.946113"
+}

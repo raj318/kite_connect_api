@@ -1,0 +1,67 @@
+2026-01-14 11:27:33,683 - __main__ - INFO - Using max_fall_pct from config: 10.0
+2026-01-14 11:27:33,683 - __main__ - INFO - Using fall_power from config: 1.7
+2026-01-14 11:27:33,683 - __main__ - INFO - Using size_power from config: 1.6
+2026-01-14 11:27:33,683 - __main__ - INFO - Using size_multiplier from config: 3.8
+2026-01-14 11:27:33,683 - __main__ - INFO - Convex accumulation parameters:
+2026-01-14 11:27:33,683 - __main__ - INFO -   Steps: 10
+2026-01-14 11:27:33,683 - __main__ - INFO -   Base shares: 5
+2026-01-14 11:27:33,683 - __main__ - INFO -   Max fall: 10.0%
+2026-01-14 11:27:33,683 - __main__ - INFO -   Fall power: 1.7
+2026-01-14 11:27:33,683 - __main__ - INFO -   Size power: 1.6
+2026-01-14 11:27:33,683 - __main__ - INFO -   Size multiplier: 3.8
+2026-01-14 11:27:33,683 - __main__ - INFO - Initializing Convex Accumulation Order Scheduler for ONGC
+2026-01-14 11:27:33,683 - __main__ - INFO - Steps: 10, Current price: Rs.250.1
+2026-01-14 11:27:33,684 - __main__ - INFO - Configuration loaded successfully
+2026-01-14 11:27:33,685 - __main__ - INFO - Starting convex accumulation order scheduling process
+2026-01-14 11:28:05,226 - __main__ - INFO - Using max_fall_pct from config: 10.0
+2026-01-14 11:28:05,226 - __main__ - INFO - Using fall_power from config: 1.7
+2026-01-14 11:28:05,226 - __main__ - INFO - Using size_power from config: 1.6
+2026-01-14 11:28:05,226 - __main__ - INFO - Using size_multiplier from config: 3.8
+2026-01-14 11:28:05,226 - __main__ - INFO - Convex accumulation parameters:
+2026-01-14 11:28:05,226 - __main__ - INFO -   Steps: 10
+2026-01-14 11:28:05,226 - __main__ - INFO -   Base shares: 5
+2026-01-14 11:28:05,226 - __main__ - INFO -   Max fall: 10.0%
+2026-01-14 11:28:05,226 - __main__ - INFO -   Fall power: 1.7
+2026-01-14 11:28:05,227 - __main__ - INFO -   Size power: 1.6
+2026-01-14 11:28:05,227 - __main__ - INFO -   Size multiplier: 3.8
+2026-01-14 11:28:05,227 - __main__ - INFO - Initializing Convex Accumulation Order Scheduler for ONGC
+2026-01-14 11:28:05,227 - __main__ - INFO - Steps: 10, Current price: Rs.250.1
+2026-01-14 11:28:05,227 - __main__ - INFO - Configuration loaded successfully
+2026-01-14 11:28:05,228 - __main__ - INFO - Starting convex accumulation order scheduling process
+2026-01-14 11:28:05,350 - __main__ - INFO - Successfully connected to Kite Connect
+2026-01-14 11:28:05,350 - __main__ - WARNING - pytz not available, assuming market is closed - will skip first order
+2026-01-14 11:28:05,350 - __main__ - INFO - Using provided current price as base: Rs.250.1
+2026-01-14 11:28:05,350 - __main__ - INFO - Market is closed - skipping first order and starting with GTT orders
+2026-01-14 11:28:05,350 - __main__ - INFO - Order 1: SKIPPED (Market closed - AMO not supported)
+2026-01-14 11:28:05,350 - __main__ - INFO - Order 2: Price: Rs.249.5, Trigger: Rs.249.3, Type: GTT ORDER, Fall: 0.24%, Quantity: 6, Value: Rs.1497.0
+2026-01-14 11:28:05,350 - __main__ - INFO - Order 3: Price: Rs.248.2, Trigger: Rs.248.0, Type: GTT ORDER, Fall: 0.78%, Quantity: 7, Value: Rs.1737.4
+2026-01-14 11:28:05,350 - __main__ - INFO - Order 4: Price: Rs.246.2, Trigger: Rs.246.0, Type: GTT ORDER, Fall: 1.54%, Quantity: 8, Value: Rs.1969.6
+2026-01-14 11:28:05,350 - __main__ - INFO - Order 5: Price: Rs.243.8, Trigger: Rs.243.6, Type: GTT ORDER, Fall: 2.52%, Quantity: 10, Value: Rs.2438.0
+2026-01-14 11:28:05,351 - __main__ - INFO - Order 6: Price: Rs.240.9, Trigger: Rs.240.7, Type: GTT ORDER, Fall: 3.68%, Quantity: 12, Value: Rs.2890.8
+2026-01-14 11:28:05,351 - __main__ - INFO - Order 7: Price: Rs.237.6, Trigger: Rs.237.4, Type: GTT ORDER, Fall: 5.02%, Quantity: 15, Value: Rs.3564.0
+2026-01-14 11:28:05,351 - __main__ - INFO - Order 8: Price: Rs.233.8, Trigger: Rs.233.6, Type: GTT ORDER, Fall: 6.52%, Quantity: 18, Value: Rs.4208.4
+2026-01-14 11:28:05,351 - __main__ - INFO - Order 9: Price: Rs.229.6, Trigger: Rs.229.4, Type: GTT ORDER, Fall: 8.19%, Quantity: 21, Value: Rs.4821.6
+2026-01-14 11:28:05,351 - __main__ - INFO - Order 10: Price: Rs.225.1, Trigger: Rs.224.9, Type: GTT ORDER, Fall: 10.00%, Quantity: 24, Value: Rs.5402.4
+2026-01-14 11:28:57,468 - __main__ - INFO - Placing orders...
+2026-01-14 11:28:57,468 - __main__ - INFO - Skipping order 1 - Market closed, AMO not supported
+2026-01-14 11:28:57,468 - __main__ - INFO - Order 1 skipped successfully
+2026-01-14 11:28:57,468 - __main__ - INFO - Placing GTT order 2 for ONGC
+2026-01-14 11:28:58,001 - __main__ - INFO - GTT order 2 placed successfully with trigger ID: 302056204
+2026-01-14 11:28:58,002 - __main__ - INFO - Placing GTT order 3 for ONGC
+2026-01-14 11:28:58,222 - __main__ - INFO - GTT order 3 placed successfully with trigger ID: 302056206
+2026-01-14 11:28:58,222 - __main__ - INFO - Placing GTT order 4 for ONGC
+2026-01-14 11:28:59,478 - __main__ - INFO - GTT order 4 placed successfully with trigger ID: 302056222
+2026-01-14 11:28:59,478 - __main__ - INFO - Placing GTT order 5 for ONGC
+2026-01-14 11:28:59,687 - __main__ - INFO - GTT order 5 placed successfully with trigger ID: 302056224
+2026-01-14 11:28:59,687 - __main__ - INFO - Placing GTT order 6 for ONGC
+2026-01-14 11:28:59,924 - __main__ - INFO - GTT order 6 placed successfully with trigger ID: 302056225
+2026-01-14 11:28:59,924 - __main__ - INFO - Placing GTT order 7 for ONGC
+2026-01-14 11:29:01,397 - __main__ - INFO - GTT order 7 placed successfully with trigger ID: 302056235
+2026-01-14 11:29:01,397 - __main__ - INFO - Placing GTT order 8 for ONGC
+2026-01-14 11:29:01,626 - __main__ - INFO - GTT order 8 placed successfully with trigger ID: 302056236
+2026-01-14 11:29:01,626 - __main__ - INFO - Placing GTT order 9 for ONGC
+2026-01-14 11:29:02,101 - __main__ - INFO - GTT order 9 placed successfully with trigger ID: 302056239
+2026-01-14 11:29:02,102 - __main__ - INFO - Placing GTT order 10 for ONGC
+2026-01-14 11:29:02,787 - __main__ - INFO - GTT order 10 placed successfully with trigger ID: 302056242
+2026-01-14 11:29:02,789 - __main__ - INFO - Order summary saved to workdir/orders/ONGC_gtt_orders_20260114_112902.json
+2026-01-14 11:29:02,790 - __main__ - INFO - Convex accumulation order scheduling process completed successfully

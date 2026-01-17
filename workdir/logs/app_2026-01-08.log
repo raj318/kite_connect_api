@@ -1,0 +1,30 @@
+2026-01-08 15:46:54,709 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-08 15:46:54,710 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-08 15:46:54,814 - kite_utils - ERROR - Access token expired. Getting new token...
+2026-01-08 15:47:20,878 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-08 15:47:20,879 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-08 15:47:29,194 - kite_utils - ERROR - Error getting live data for NTPC: Insufficient permission for that call.
+2026-01-08 15:47:36,983 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-08 15:47:36,984 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-08 15:47:39,954 - kite_utils - ERROR - Error getting live data for POWERGRID: Insufficient permission for that call.
+2026-01-08 15:47:56,879 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-08 15:47:56,880 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-08 15:48:01,110 - kite_utils - ERROR - Error getting live data for ONGC: Insufficient permission for that call.
+2026-01-08 15:48:25,961 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-08 15:48:25,962 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-08 15:48:28,970 - kite_utils - ERROR - Error getting live data for TATASTEEL: Insufficient permission for that call.
+2026-01-08 15:48:37,726 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-08 15:48:37,727 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-08 15:48:41,826 - kite_utils - ERROR - Error getting live data for WIPRO: Insufficient permission for that call.
+2026-01-08 16:06:23,049 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-08 16:06:23,050 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-08 16:06:23,051 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-08 16:06:23,051 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-08 16:06:43,080 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-08 16:06:43,081 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-08 16:06:43,082 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-08 16:06:43,082 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-08 16:06:52,012 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-08 16:06:52,013 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-08 16:06:52,014 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-08 16:06:52,015 - kite_utils - INFO - Using config file at: config/config.yaml
