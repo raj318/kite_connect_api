@@ -1,0 +1,76 @@
+{
+  "company_symbol": "DRREDDY",
+  "operation": "GTT Order Deletion",
+  "timestamp": "2026-01-29T15:30:49.204380",
+  "results": {
+    "total_orders": 9,
+    "successful_deletions": 9,
+    "failed_deletions": 0,
+    "deleted_orders": [
+      {
+        "trigger_id": 304120230,
+        "symbol": "DRREDDY",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-29T15:30:48.041544"
+      },
+      {
+        "trigger_id": 304120125,
+        "symbol": "DRREDDY",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-29T15:30:48.163625"
+      },
+      {
+        "trigger_id": 304120123,
+        "symbol": "DRREDDY",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-29T15:30:48.281898"
+      },
+      {
+        "trigger_id": 304120121,
+        "symbol": "DRREDDY",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-29T15:30:48.385418"
+      },
+      {
+        "trigger_id": 304120119,
+        "symbol": "DRREDDY",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-29T15:30:48.474608"
+      },
+      {
+        "trigger_id": 304120116,
+        "symbol": "DRREDDY",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-29T15:30:48.596404"
+      },
+      {
+        "trigger_id": 304120115,
+        "symbol": "DRREDDY",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-29T15:30:49.016571"
+      },
+      {
+        "trigger_id": 304120111,
+        "symbol": "DRREDDY",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-29T15:30:49.097194"
+      },
+      {
+        "trigger_id": 304120104,
+        "symbol": "DRREDDY",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-29T15:30:49.204304"
+      }
+    ],
+    "failed_orders": []
+  }
+}

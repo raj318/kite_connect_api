@@ -1,0 +1,41 @@
+{
+  "company_symbol": "POWERGRID",
+  "operation": "GTT Order Deletion",
+  "timestamp": "2026-01-29T09:41:06.861815",
+  "results": {
+    "total_orders": 4,
+    "successful_deletions": 4,
+    "failed_deletions": 0,
+    "deleted_orders": [
+      {
+        "trigger_id": 301052660,
+        "symbol": "POWERGRID",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-29T09:41:06.582267"
+      },
+      {
+        "trigger_id": 301052657,
+        "symbol": "POWERGRID",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-29T09:41:06.681259"
+      },
+      {
+        "trigger_id": 301052654,
+        "symbol": "POWERGRID",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-29T09:41:06.776194"
+      },
+      {
+        "trigger_id": 301052653,
+        "symbol": "POWERGRID",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-29T09:41:06.861747"
+      }
+    ],
+    "failed_orders": []
+  }
+}

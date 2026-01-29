@@ -1,0 +1,33 @@
+{
+  "company_symbol": "COALINDIA",
+  "order_type": "GTT_SELL",
+  "quantity": 166,
+  "average_buy_price": 421.61,
+  "sell_price": 426.7,
+  "trigger_price": 427.1,
+  "target_net_profit_percentage": 1.0,
+  "profit_analysis": {
+    "buy_value": 69987.26000000001,
+    "sell_value": 70832.2,
+    "gross_profit": 844.9399999999878,
+    "gross_profit_percentage": 1.2072768672469643,
+    "charges": {
+      "brokerage": 0.0,
+      "stt": 70.8322,
+      "exchange_charges": 2.4437108999999997,
+      "sebi_fees": 0.0708322,
+      "dp_charges": 15.93,
+      "gst": 0.4526177579999999,
+      "total_charges": 89.729360858,
+      "charges_per_share": 0.5405383184216868
+    },
+    "total_charges": 89.729360858,
+    "charges_percentage": 0.12820813510630363,
+    "net_profit": 755.2106391419877,
+    "net_profit_percentage": 1.0790687321406605,
+    "break_even_price": 422.1505383184217
+  },
+  "trigger_id": null,
+  "status": "CALCULATED",
+  "timestamp": "2026-01-27T09:54:00.529443"
+}

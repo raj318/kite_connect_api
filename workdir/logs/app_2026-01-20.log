@@ -1,0 +1,38 @@
+2026-01-20 10:49:57,575 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-20 10:49:57,576 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-20 10:49:57,576 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-20 10:49:58,774 - kite_utils - ERROR - Access token expired. Getting new token...
+2026-01-20 10:50:22,927 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-20 10:50:22,928 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-20 10:50:22,929 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-20 12:37:13,162 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-20 12:37:13,163 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-20 12:37:13,164 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-20 12:37:13,165 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-20 12:38:17,489 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-20 12:38:17,490 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-20 12:38:17,491 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-20 12:38:17,492 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-20 12:38:33,966 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-20 12:38:33,967 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-20 12:38:33,968 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-20 12:38:33,969 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-20 12:39:02,711 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-20 12:39:02,712 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-20 12:39:02,713 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-20 12:39:02,713 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-20 12:39:25,893 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-20 12:39:25,894 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-20 12:39:25,895 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-20 12:39:25,896 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-20 18:13:15,417 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-20 18:13:15,418 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-20 18:13:39,068 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-20 18:13:39,069 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-20 18:13:42,678 - kite_utils - ERROR - Error getting live data for ONGC: Insufficient permission for that call.
+2026-01-20 18:14:03,563 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-20 18:14:03,564 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-20 18:14:07,186 - kite_utils - ERROR - Error getting live data for POWERGRID: Insufficient permission for that call.
+2026-01-20 18:14:45,373 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-20 18:14:45,375 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-20 18:15:11,796 - kite_utils - ERROR - Error getting live data for COALINDIA: Insufficient permission for that call.

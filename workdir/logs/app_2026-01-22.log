@@ -1,0 +1,12 @@
+2026-01-22 10:59:27,498 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-22 10:59:27,500 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-22 10:59:27,650 - kite_utils - ERROR - Access token expired. Getting new token...
+2026-01-22 10:59:44,703 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-22 10:59:44,704 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-22 10:59:58,528 - kite_utils - ERROR - Error getting live data for COALINDIA: Insufficient permission for that call.
+2026-01-22 11:01:26,847 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-22 11:01:26,848 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-22 11:01:31,148 - kite_utils - ERROR - Error getting live data for POWERGRID: Insufficient permission for that call.
+2026-01-22 11:01:51,462 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-22 11:01:51,463 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-22 11:01:55,865 - kite_utils - ERROR - Error getting live data for ONGC: Insufficient permission for that call.

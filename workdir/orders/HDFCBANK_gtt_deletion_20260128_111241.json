@@ -1,0 +1,76 @@
+{
+  "company_symbol": "HDFCBANK",
+  "operation": "GTT Order Deletion",
+  "timestamp": "2026-01-28T11:12:41.988388",
+  "results": {
+    "total_orders": 9,
+    "successful_deletions": 9,
+    "failed_deletions": 0,
+    "deleted_orders": [
+      {
+        "trigger_id": 303878337,
+        "symbol": "HDFCBANK",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-28T11:12:41.202850"
+      },
+      {
+        "trigger_id": 303878332,
+        "symbol": "HDFCBANK",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-28T11:12:41.304161"
+      },
+      {
+        "trigger_id": 303878328,
+        "symbol": "HDFCBANK",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-28T11:12:41.395535"
+      },
+      {
+        "trigger_id": 303878327,
+        "symbol": "HDFCBANK",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-28T11:12:41.493285"
+      },
+      {
+        "trigger_id": 303878325,
+        "symbol": "HDFCBANK",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-28T11:12:41.590528"
+      },
+      {
+        "trigger_id": 303878322,
+        "symbol": "HDFCBANK",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-28T11:12:41.684914"
+      },
+      {
+        "trigger_id": 303878319,
+        "symbol": "HDFCBANK",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-28T11:12:41.781622"
+      },
+      {
+        "trigger_id": 303878317,
+        "symbol": "HDFCBANK",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-28T11:12:41.897607"
+      },
+      {
+        "trigger_id": 303878315,
+        "symbol": "HDFCBANK",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-28T11:12:41.988315"
+      }
+    ],
+    "failed_orders": []
+  }
+}

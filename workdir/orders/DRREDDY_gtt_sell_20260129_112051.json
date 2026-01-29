@@ -1,0 +1,33 @@
+{
+  "company_symbol": "DRREDDY",
+  "order_type": "GTT_SELL",
+  "quantity": 10,
+  "average_buy_price": 1205.7,
+  "sell_price": 1220.7,
+  "trigger_price": 1221.2,
+  "target_net_profit_percentage": 1.0,
+  "profit_analysis": {
+    "buy_value": 12057.0,
+    "sell_value": 12207.0,
+    "gross_profit": 150.0,
+    "gross_profit_percentage": 1.244090569793481,
+    "charges": {
+      "brokerage": 0.0,
+      "stt": 12.207,
+      "exchange_charges": 0.4211415,
+      "sebi_fees": 0.012206999999999999,
+      "dp_charges": 15.93,
+      "gst": 0.07800273,
+      "total_charges": 28.648351230000003,
+      "charges_per_share": 2.864835123
+    },
+    "total_charges": 28.648351230000003,
+    "charges_percentage": 0.23760762403582983,
+    "net_profit": 121.35164877,
+    "net_profit_percentage": 1.006482945757651,
+    "break_even_price": 1208.564835123
+  },
+  "trigger_id": 304120230,
+  "status": "PLACED",
+  "timestamp": "2026-01-29T11:20:51.568136"
+}

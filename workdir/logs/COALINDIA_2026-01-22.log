@@ -1,0 +1,12 @@
+2026-01-22 10:59:27,499 - __main__ - INFO - Initializing GTT Sell Order Scheduler for COALINDIA
+2026-01-22 10:59:27,499 - __main__ - INFO - Target net profit: 1.0%
+2026-01-22 10:59:27,499 - __main__ - INFO - Starting GTT sell order scheduling process
+2026-01-22 10:59:44,704 - __main__ - INFO - Initializing GTT Sell Order Scheduler for COALINDIA
+2026-01-22 10:59:44,704 - __main__ - INFO - Target net profit: 1.0%
+2026-01-22 10:59:44,704 - __main__ - INFO - Starting GTT sell order scheduling process
+2026-01-22 10:59:44,845 - __main__ - INFO - Successfully connected to Kite Connect
+2026-01-22 10:59:58,191 - __main__ - INFO - Placing GTT sell order...
+2026-01-22 10:59:58,528 - __main__ - WARNING - Could not fetch current price: Insufficient permission for that call.
+2026-01-22 10:59:58,653 - __main__ - ERROR - Failed to place GTT sell order: Trigger price was too close to the last price. (difference should be more than 0.25%)
+2026-01-22 10:59:58,653 - __main__ - ERROR - GTT sell order scheduling failed: Trigger price was too close to the last price. (difference should be more than 0.25%)
+2026-01-22 10:59:58,654 - __main__ - ERROR - Error type: InputException

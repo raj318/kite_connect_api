@@ -1,0 +1,8 @@
+2026-01-28 09:19:29,196 - __main__ - INFO - Initializing GTT Sell Order Scheduler for BEL
+2026-01-28 09:19:29,196 - __main__ - INFO - Target net profit: 1.0%
+2026-01-28 09:19:29,196 - __main__ - INFO - Starting GTT sell order scheduling process
+2026-01-28 09:19:56,173 - __main__ - INFO - Initializing GTT Sell Order Scheduler for BEL
+2026-01-28 09:19:56,173 - __main__ - INFO - Target net profit: 1.0%
+2026-01-28 09:19:56,173 - __main__ - INFO - Starting GTT sell order scheduling process
+2026-01-28 09:19:56,313 - __main__ - INFO - Successfully connected to Kite Connect
+2026-01-28 09:44:55,332 - __main__ - INFO - Order placement cancelled by user

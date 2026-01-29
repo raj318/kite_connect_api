@@ -1,0 +1,33 @@
+{
+  "company_symbol": "BAJFINANCE",
+  "order_type": "GTT_SELL",
+  "quantity": 12,
+  "average_buy_price": 913.25,
+  "sell_price": 924.2,
+  "trigger_price": 925.1,
+  "target_net_profit_percentage": 1.0,
+  "profit_analysis": {
+    "buy_value": 10959.0,
+    "sell_value": 11090.400000000001,
+    "gross_profit": 131.40000000000146,
+    "gross_profit_percentage": 1.1990145086230628,
+    "charges": {
+      "brokerage": 0.0,
+      "stt": 11.090400000000002,
+      "exchange_charges": 0.38261880000000004,
+      "sebi_fees": 0.0110904,
+      "dp_charges": 15.93,
+      "gst": 0.070867656,
+      "total_charges": 27.484976856000003,
+      "charges_per_share": 2.2904147380000004
+    },
+    "total_charges": 27.484976856000003,
+    "charges_percentage": 0.2507982193265809,
+    "net_profit": 103.91502314400145,
+    "net_profit_percentage": 0.9482162892964819,
+    "break_even_price": 915.540414738
+  },
+  "trigger_id": null,
+  "status": "CALCULATED",
+  "timestamp": "2026-01-27T20:46:05.114111"
+}

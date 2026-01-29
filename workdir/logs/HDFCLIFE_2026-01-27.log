@@ -1,0 +1,100 @@
+2026-01-27 13:16:29,796 - __main__ - INFO - Using max_fall_pct from config: 10.0
+2026-01-27 13:16:29,796 - __main__ - INFO - Using fall_power from config: 1.7
+2026-01-27 13:16:29,796 - __main__ - INFO - Using size_power from config: 1.6
+2026-01-27 13:16:29,796 - __main__ - INFO - Using size_multiplier from config: 3.8
+2026-01-27 13:16:29,796 - __main__ - INFO - Convex accumulation parameters:
+2026-01-27 13:16:29,796 - __main__ - INFO -   Steps: 10
+2026-01-27 13:16:29,796 - __main__ - INFO -   Base shares: 3
+2026-01-27 13:16:29,796 - __main__ - INFO -   Max fall: 10.0%
+2026-01-27 13:16:29,796 - __main__ - INFO -   Fall power: 1.7
+2026-01-27 13:16:29,796 - __main__ - INFO -   Size power: 1.6
+2026-01-27 13:16:29,796 - __main__ - INFO -   Size multiplier: 3.8
+2026-01-27 13:16:29,796 - __main__ - INFO - Initializing Convex Accumulation Order Scheduler for HDFCLIFE
+2026-01-27 13:16:29,796 - __main__ - INFO - Steps: 10, Current price: Rs.717.0
+2026-01-27 13:16:29,797 - __main__ - INFO - Configuration loaded successfully
+2026-01-27 13:16:29,797 - __main__ - INFO - Starting convex accumulation order scheduling process
+2026-01-27 13:16:29,923 - __main__ - INFO - Successfully connected to Kite Connect
+2026-01-27 13:16:29,924 - __main__ - WARNING - pytz not available, assuming market is closed - will skip first order
+2026-01-27 13:16:29,924 - __main__ - INFO - Using provided current price as base: Rs.717.0
+2026-01-27 13:16:29,924 - __main__ - INFO - Market is closed - skipping first order and starting with GTT orders
+2026-01-27 13:16:29,924 - __main__ - INFO - Order 1: SKIPPED (Market closed - AMO not supported)
+2026-01-27 13:16:29,924 - __main__ - INFO - Order 2: Price: Rs.715.3, Trigger: Rs.714.6, Type: GTT ORDER, Fall: 0.24%, Quantity: 3, Value: Rs.2145.9
+2026-01-27 13:16:29,924 - __main__ - INFO - Order 3: Price: Rs.711.4, Trigger: Rs.710.7, Type: GTT ORDER, Fall: 0.78%, Quantity: 4, Value: Rs.2845.6
+2026-01-27 13:16:29,924 - __main__ - INFO - Order 4: Price: Rs.705.9, Trigger: Rs.705.2, Type: GTT ORDER, Fall: 1.54%, Quantity: 5, Value: Rs.3529.5
+2026-01-27 13:16:29,924 - __main__ - INFO - Order 5: Price: Rs.698.9, Trigger: Rs.698.2, Type: GTT ORDER, Fall: 2.52%, Quantity: 6, Value: Rs.4193.4
+2026-01-27 13:16:29,924 - __main__ - INFO - Order 6: Price: Rs.690.6, Trigger: Rs.689.9, Type: GTT ORDER, Fall: 3.68%, Quantity: 7, Value: Rs.4834.2
+2026-01-27 13:16:29,924 - __main__ - INFO - Order 7: Price: Rs.681.0, Trigger: Rs.680.3, Type: GTT ORDER, Fall: 5.02%, Quantity: 9, Value: Rs.6129.0
+2026-01-27 13:16:29,924 - __main__ - INFO - Order 8: Price: Rs.670.2, Trigger: Rs.669.5, Type: GTT ORDER, Fall: 6.52%, Quantity: 11, Value: Rs.7372.2
+2026-01-27 13:16:29,924 - __main__ - INFO - Order 9: Price: Rs.658.3, Trigger: Rs.657.6, Type: GTT ORDER, Fall: 8.19%, Quantity: 12, Value: Rs.7899.6
+2026-01-27 13:16:29,924 - __main__ - INFO - Order 10: Price: Rs.645.3, Trigger: Rs.644.7, Type: GTT ORDER, Fall: 10.00%, Quantity: 14, Value: Rs.9034.2
+2026-01-27 13:17:25,091 - __main__ - INFO - Order placement cancelled by user
+2026-01-27 13:17:30,111 - __main__ - INFO - Using max_fall_pct from config: 10.0
+2026-01-27 13:17:30,111 - __main__ - INFO - Using fall_power from config: 1.7
+2026-01-27 13:17:30,111 - __main__ - INFO - Using size_power from config: 1.6
+2026-01-27 13:17:30,111 - __main__ - INFO - Using size_multiplier from config: 3.8
+2026-01-27 13:17:30,111 - __main__ - INFO - Convex accumulation parameters:
+2026-01-27 13:17:30,111 - __main__ - INFO -   Steps: 10
+2026-01-27 13:17:30,111 - __main__ - INFO -   Base shares: 3
+2026-01-27 13:17:30,111 - __main__ - INFO -   Max fall: 10.0%
+2026-01-27 13:17:30,111 - __main__ - INFO -   Fall power: 1.7
+2026-01-27 13:17:30,111 - __main__ - INFO -   Size power: 1.6
+2026-01-27 13:17:30,111 - __main__ - INFO -   Size multiplier: 3.8
+2026-01-27 13:17:30,111 - __main__ - INFO - Initializing Convex Accumulation Order Scheduler for HDFCLIFE
+2026-01-27 13:17:30,111 - __main__ - INFO - Steps: 10, Current price: Rs.717.5
+2026-01-27 13:17:30,112 - __main__ - INFO - Configuration loaded successfully
+2026-01-27 13:17:30,113 - __main__ - INFO - Starting convex accumulation order scheduling process
+2026-01-27 13:17:30,225 - __main__ - INFO - Successfully connected to Kite Connect
+2026-01-27 13:17:30,225 - __main__ - WARNING - pytz not available, assuming market is closed - will skip first order
+2026-01-27 13:17:30,225 - __main__ - INFO - Using provided current price as base: Rs.717.5
+2026-01-27 13:17:30,226 - __main__ - INFO - Market is closed - skipping first order and starting with GTT orders
+2026-01-27 13:17:30,226 - __main__ - INFO - Order 1: SKIPPED (Market closed - AMO not supported)
+2026-01-27 13:17:30,226 - __main__ - INFO - Order 2: Price: Rs.715.8, Trigger: Rs.715.1, Type: GTT ORDER, Fall: 0.24%, Quantity: 3, Value: Rs.2147.4
+2026-01-27 13:17:30,226 - __main__ - INFO - Order 3: Price: Rs.711.9, Trigger: Rs.711.2, Type: GTT ORDER, Fall: 0.78%, Quantity: 4, Value: Rs.2847.6
+2026-01-27 13:17:30,226 - __main__ - INFO - Order 4: Price: Rs.706.4, Trigger: Rs.705.7, Type: GTT ORDER, Fall: 1.54%, Quantity: 5, Value: Rs.3532.0
+2026-01-27 13:17:30,226 - __main__ - INFO - Order 5: Price: Rs.699.4, Trigger: Rs.698.7, Type: GTT ORDER, Fall: 2.52%, Quantity: 6, Value: Rs.4196.4
+2026-01-27 13:17:30,226 - __main__ - INFO - Order 6: Price: Rs.691.1, Trigger: Rs.690.4, Type: GTT ORDER, Fall: 3.68%, Quantity: 7, Value: Rs.4837.7
+2026-01-27 13:17:30,226 - __main__ - INFO - Order 7: Price: Rs.681.5, Trigger: Rs.680.8, Type: GTT ORDER, Fall: 5.02%, Quantity: 9, Value: Rs.6133.5
+2026-01-27 13:17:30,226 - __main__ - INFO - Order 8: Price: Rs.670.7, Trigger: Rs.670.0, Type: GTT ORDER, Fall: 6.52%, Quantity: 11, Value: Rs.7377.7
+2026-01-27 13:17:30,226 - __main__ - INFO - Order 9: Price: Rs.658.8, Trigger: Rs.658.1, Type: GTT ORDER, Fall: 8.19%, Quantity: 12, Value: Rs.7905.6
+2026-01-27 13:17:30,226 - __main__ - INFO - Order 10: Price: Rs.645.8, Trigger: Rs.645.2, Type: GTT ORDER, Fall: 10.00%, Quantity: 14, Value: Rs.9041.2
+2026-01-27 13:17:43,579 - __main__ - INFO - Placing orders...
+2026-01-27 13:17:43,579 - __main__ - INFO - Skipping order 1 - Market closed, AMO not supported
+2026-01-27 13:17:43,579 - __main__ - INFO - Order 1 skipped successfully
+2026-01-27 13:17:43,579 - __main__ - INFO - Placing GTT order 2 for HDFCLIFE
+2026-01-27 13:17:43,781 - __main__ - INFO - GTT order 2 placed successfully with trigger ID: 303735055
+2026-01-27 13:17:43,781 - __main__ - INFO - Placing GTT order 3 for HDFCLIFE
+2026-01-27 13:17:43,950 - __main__ - INFO - GTT order 3 placed successfully with trigger ID: 303735057
+2026-01-27 13:17:43,950 - __main__ - INFO - Placing GTT order 4 for HDFCLIFE
+2026-01-27 13:17:44,157 - __main__ - INFO - GTT order 4 placed successfully with trigger ID: 303735058
+2026-01-27 13:17:44,157 - __main__ - INFO - Placing GTT order 5 for HDFCLIFE
+2026-01-27 13:17:44,353 - __main__ - INFO - GTT order 5 placed successfully with trigger ID: 303735059
+2026-01-27 13:17:44,353 - __main__ - INFO - Placing GTT order 6 for HDFCLIFE
+2026-01-27 13:17:44,541 - __main__ - INFO - GTT order 6 placed successfully with trigger ID: 303735061
+2026-01-27 13:17:44,541 - __main__ - INFO - Placing GTT order 7 for HDFCLIFE
+2026-01-27 13:17:44,728 - __main__ - INFO - GTT order 7 placed successfully with trigger ID: 303735063
+2026-01-27 13:17:44,728 - __main__ - INFO - Placing GTT order 8 for HDFCLIFE
+2026-01-27 13:17:44,932 - __main__ - INFO - GTT order 8 placed successfully with trigger ID: 303735065
+2026-01-27 13:17:44,932 - __main__ - INFO - Placing GTT order 9 for HDFCLIFE
+2026-01-27 13:17:45,108 - __main__ - INFO - GTT order 9 placed successfully with trigger ID: 303735067
+2026-01-27 13:17:45,108 - __main__ - INFO - Placing GTT order 10 for HDFCLIFE
+2026-01-27 13:17:45,277 - __main__ - INFO - GTT order 10 placed successfully with trigger ID: 303735069
+2026-01-27 13:17:45,278 - __main__ - INFO - Order summary saved to workdir/orders/HDFCLIFE_gtt_orders_20260127_131745.json
+2026-01-27 13:17:45,278 - __main__ - INFO - Convex accumulation order scheduling process completed successfully
+2026-01-27 15:18:27,371 - __main__ - INFO - Initializing GTT Sell Order Scheduler for HDFCLIFE
+2026-01-27 15:18:27,371 - __main__ - INFO - Target net profit: 1.0%
+2026-01-27 15:18:27,371 - __main__ - INFO - Starting GTT sell order scheduling process
+2026-01-27 15:18:27,513 - __main__ - INFO - Successfully connected to Kite Connect
+2026-01-27 15:18:30,575 - __main__ - INFO - Placing GTT sell order...
+2026-01-27 15:18:30,827 - __main__ - WARNING - Could not fetch current price: Insufficient permission for that call.
+2026-01-27 15:18:30,946 - __main__ - ERROR - Failed to place GTT sell order: Trigger price was too close to the last price. (difference should be more than 0.25%)
+2026-01-27 15:18:30,946 - __main__ - ERROR - GTT sell order scheduling failed: Trigger price was too close to the last price. (difference should be more than 0.25%)
+2026-01-27 15:18:30,946 - __main__ - ERROR - Error type: InputException
+2026-01-27 20:53:57,250 - __main__ - INFO - Initializing GTT Sell Order Scheduler for HDFCLIFE
+2026-01-27 20:53:57,250 - __main__ - INFO - Target net profit: 1.0%
+2026-01-27 20:53:57,250 - __main__ - INFO - Starting GTT sell order scheduling process
+2026-01-27 20:53:57,383 - __main__ - INFO - Successfully connected to Kite Connect
+2026-01-27 20:55:15,731 - __main__ - INFO - Order placement cancelled by user
+2026-01-27 20:55:20,002 - __main__ - INFO - Initializing GTT Sell Order Scheduler for HDFCLIFE
+2026-01-27 20:55:20,002 - __main__ - INFO - Target net profit: 1.5%
+2026-01-27 20:55:20,002 - __main__ - INFO - Starting GTT sell order scheduling process
+2026-01-27 20:55:20,121 - __main__ - INFO - Successfully connected to Kite Connect

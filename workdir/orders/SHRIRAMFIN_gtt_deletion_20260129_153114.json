@@ -1,0 +1,69 @@
+{
+  "company_symbol": "SHRIRAMFIN",
+  "operation": "GTT Order Deletion",
+  "timestamp": "2026-01-29T15:31:14.951547",
+  "results": {
+    "total_orders": 8,
+    "successful_deletions": 8,
+    "failed_deletions": 0,
+    "deleted_orders": [
+      {
+        "trigger_id": 304140925,
+        "symbol": "SHRIRAMFIN",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-29T15:31:14.142947"
+      },
+      {
+        "trigger_id": 304085221,
+        "symbol": "SHRIRAMFIN",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-29T15:31:14.245698"
+      },
+      {
+        "trigger_id": 304085220,
+        "symbol": "SHRIRAMFIN",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-29T15:31:14.379745"
+      },
+      {
+        "trigger_id": 304085216,
+        "symbol": "SHRIRAMFIN",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-29T15:31:14.493913"
+      },
+      {
+        "trigger_id": 304085214,
+        "symbol": "SHRIRAMFIN",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-29T15:31:14.618305"
+      },
+      {
+        "trigger_id": 304085213,
+        "symbol": "SHRIRAMFIN",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-29T15:31:14.738131"
+      },
+      {
+        "trigger_id": 304085208,
+        "symbol": "SHRIRAMFIN",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-29T15:31:14.849473"
+      },
+      {
+        "trigger_id": 304085207,
+        "symbol": "SHRIRAMFIN",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-29T15:31:14.951403"
+      }
+    ],
+    "failed_orders": []
+  }
+}

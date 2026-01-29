@@ -1,0 +1,78 @@
+{
+  "company_symbol": "BEL",
+  "operation": "GTT Order Deletion",
+  "timestamp": "2026-01-29T11:07:44.267018",
+  "results": {
+    "total_orders": 9,
+    "successful_deletions": 8,
+    "failed_deletions": 1,
+    "deleted_orders": [
+      {
+        "trigger_id": 304075531,
+        "symbol": "BEL",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-29T11:07:43.602875"
+      },
+      {
+        "trigger_id": 304075530,
+        "symbol": "BEL",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-29T11:07:43.696583"
+      },
+      {
+        "trigger_id": 304075526,
+        "symbol": "BEL",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-29T11:07:43.793009"
+      },
+      {
+        "trigger_id": 304075523,
+        "symbol": "BEL",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-29T11:07:43.880735"
+      },
+      {
+        "trigger_id": 304075519,
+        "symbol": "BEL",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-29T11:07:43.979817"
+      },
+      {
+        "trigger_id": 304075515,
+        "symbol": "BEL",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-29T11:07:44.076923"
+      },
+      {
+        "trigger_id": 304075512,
+        "symbol": "BEL",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-29T11:07:44.160855"
+      },
+      {
+        "trigger_id": 304075508,
+        "symbol": "BEL",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-29T11:07:44.266938"
+      }
+    ],
+    "failed_orders": [
+      {
+        "trigger_id": 304105559,
+        "symbol": "BEL",
+        "quantity": 0,
+        "price": 0.0,
+        "error": "Deletion failed",
+        "timestamp": "2026-01-29T11:07:43.505810"
+      }
+    ]
+  }
+}

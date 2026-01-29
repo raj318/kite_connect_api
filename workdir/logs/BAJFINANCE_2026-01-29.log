@@ -1,0 +1,176 @@
+2026-01-29 09:53:23,575 - __main__ - INFO - Using steps from config: 10
+2026-01-29 09:53:23,575 - __main__ - INFO - Using max_fall_pct from config: 10.0
+2026-01-29 09:53:23,575 - __main__ - INFO - Using fall_power from config: 1.7
+2026-01-29 09:53:23,575 - __main__ - INFO - Using size_power from config: 1.6
+2026-01-29 09:53:23,575 - __main__ - INFO - Using size_multiplier from config: 3.8
+2026-01-29 09:53:23,575 - __main__ - INFO - Convex accumulation parameters:
+2026-01-29 09:53:23,575 - __main__ - INFO -   Steps: 10
+2026-01-29 09:53:23,575 - __main__ - INFO -   Base shares: 10
+2026-01-29 09:53:23,575 - __main__ - INFO -   Max fall: 10.0%
+2026-01-29 09:53:23,575 - __main__ - INFO -   Fall power: 1.7
+2026-01-29 09:53:23,575 - __main__ - INFO -   Size power: 1.6
+2026-01-29 09:53:23,575 - __main__ - INFO -   Size multiplier: 3.8
+2026-01-29 09:53:23,575 - __main__ - INFO - Initializing Convex Accumulation Order Scheduler for BAJFINANCE
+2026-01-29 09:53:23,576 - __main__ - INFO - Steps: 10, Current price: Rs.932.0
+2026-01-29 09:53:23,576 - __main__ - INFO - Configuration loaded successfully
+2026-01-29 09:53:23,577 - __main__ - INFO - Starting convex accumulation order scheduling process
+2026-01-29 09:53:23,707 - __main__ - INFO - Successfully connected to Kite Connect
+2026-01-29 09:53:23,707 - __main__ - WARNING - pytz not available, assuming market is closed - will skip first order
+2026-01-29 09:53:23,707 - __main__ - INFO - Using provided current price as base: Rs.932.0
+2026-01-29 09:53:23,707 - __main__ - INFO - Market is closed - skipping first order and starting with GTT orders
+2026-01-29 09:53:23,707 - __main__ - INFO - Order 1: SKIPPED (Market closed - AMO not supported)
+2026-01-29 09:53:23,707 - __main__ - INFO - Order 2: Price: Rs.929.8, Trigger: Rs.928.9, Type: GTT ORDER, Fall: 0.24%, Quantity: 11, Value: Rs.10227.8
+2026-01-29 09:53:23,707 - __main__ - INFO - Order 3: Price: Rs.924.8, Trigger: Rs.923.9, Type: GTT ORDER, Fall: 0.78%, Quantity: 13, Value: Rs.12022.4
+2026-01-29 09:53:23,707 - __main__ - INFO - Order 4: Price: Rs.917.6, Trigger: Rs.916.7, Type: GTT ORDER, Fall: 1.54%, Quantity: 17, Value: Rs.15599.2
+2026-01-29 09:53:23,707 - __main__ - INFO - Order 5: Price: Rs.908.5, Trigger: Rs.907.6, Type: GTT ORDER, Fall: 2.52%, Quantity: 20, Value: Rs.18170.0
+2026-01-29 09:53:23,707 - __main__ - INFO - Order 6: Price: Rs.897.7, Trigger: Rs.896.8, Type: GTT ORDER, Fall: 3.68%, Quantity: 25, Value: Rs.22442.5
+2026-01-29 09:53:23,707 - __main__ - INFO - Order 7: Price: Rs.885.2, Trigger: Rs.884.3, Type: GTT ORDER, Fall: 5.02%, Quantity: 30, Value: Rs.26556.0
+2026-01-29 09:53:23,707 - __main__ - INFO - Order 8: Price: Rs.871.2, Trigger: Rs.870.3, Type: GTT ORDER, Fall: 6.52%, Quantity: 35, Value: Rs.30492.0
+2026-01-29 09:53:23,707 - __main__ - INFO - Order 9: Price: Rs.855.7, Trigger: Rs.854.8, Type: GTT ORDER, Fall: 8.19%, Quantity: 41, Value: Rs.35083.7
+2026-01-29 09:53:23,707 - __main__ - INFO - Order 10: Price: Rs.838.8, Trigger: Rs.838.0, Type: GTT ORDER, Fall: 10.00%, Quantity: 48, Value: Rs.40262.4
+2026-01-29 09:53:33,883 - __main__ - INFO - Order placement cancelled by user
+2026-01-29 09:53:39,251 - __main__ - INFO - Using steps from config: 10
+2026-01-29 09:53:39,251 - __main__ - INFO - Using max_fall_pct from config: 10.0
+2026-01-29 09:53:39,251 - __main__ - INFO - Using fall_power from config: 1.7
+2026-01-29 09:53:39,251 - __main__ - INFO - Using size_power from config: 1.6
+2026-01-29 09:53:39,251 - __main__ - INFO - Using size_multiplier from config: 3.8
+2026-01-29 09:53:39,251 - __main__ - INFO - Convex accumulation parameters:
+2026-01-29 09:53:39,251 - __main__ - INFO -   Steps: 10
+2026-01-29 09:53:39,251 - __main__ - INFO -   Base shares: 10
+2026-01-29 09:53:39,251 - __main__ - INFO -   Max fall: 10.0%
+2026-01-29 09:53:39,251 - __main__ - INFO -   Fall power: 1.7
+2026-01-29 09:53:39,251 - __main__ - INFO -   Size power: 1.6
+2026-01-29 09:53:39,251 - __main__ - INFO -   Size multiplier: 3.8
+2026-01-29 09:53:39,252 - __main__ - INFO - Initializing Convex Accumulation Order Scheduler for BAJFINANCE
+2026-01-29 09:53:39,252 - __main__ - INFO - Steps: 10, Current price: Rs.933.0
+2026-01-29 09:53:39,252 - __main__ - INFO - Configuration loaded successfully
+2026-01-29 09:53:39,253 - __main__ - INFO - Starting convex accumulation order scheduling process
+2026-01-29 09:53:39,392 - __main__ - INFO - Successfully connected to Kite Connect
+2026-01-29 09:53:39,392 - __main__ - WARNING - pytz not available, assuming market is closed - will skip first order
+2026-01-29 09:53:39,392 - __main__ - INFO - Using provided current price as base: Rs.933.0
+2026-01-29 09:53:39,392 - __main__ - INFO - Market is closed - skipping first order and starting with GTT orders
+2026-01-29 09:53:39,392 - __main__ - INFO - Order 1: SKIPPED (Market closed - AMO not supported)
+2026-01-29 09:53:39,392 - __main__ - INFO - Order 2: Price: Rs.930.8, Trigger: Rs.929.9, Type: GTT ORDER, Fall: 0.24%, Quantity: 11, Value: Rs.10238.8
+2026-01-29 09:53:39,392 - __main__ - INFO - Order 3: Price: Rs.925.8, Trigger: Rs.924.9, Type: GTT ORDER, Fall: 0.78%, Quantity: 13, Value: Rs.12035.4
+2026-01-29 09:53:39,392 - __main__ - INFO - Order 4: Price: Rs.918.6, Trigger: Rs.917.7, Type: GTT ORDER, Fall: 1.54%, Quantity: 17, Value: Rs.15616.2
+2026-01-29 09:53:39,392 - __main__ - INFO - Order 5: Price: Rs.909.5, Trigger: Rs.908.6, Type: GTT ORDER, Fall: 2.52%, Quantity: 20, Value: Rs.18190.0
+2026-01-29 09:53:39,392 - __main__ - INFO - Order 6: Price: Rs.898.7, Trigger: Rs.897.8, Type: GTT ORDER, Fall: 3.68%, Quantity: 25, Value: Rs.22467.5
+2026-01-29 09:53:39,392 - __main__ - INFO - Order 7: Price: Rs.886.2, Trigger: Rs.885.3, Type: GTT ORDER, Fall: 5.02%, Quantity: 30, Value: Rs.26586.0
+2026-01-29 09:53:39,392 - __main__ - INFO - Order 8: Price: Rs.872.1, Trigger: Rs.871.2, Type: GTT ORDER, Fall: 6.52%, Quantity: 35, Value: Rs.30523.5
+2026-01-29 09:53:39,392 - __main__ - INFO - Order 9: Price: Rs.856.6, Trigger: Rs.855.7, Type: GTT ORDER, Fall: 8.19%, Quantity: 41, Value: Rs.35120.6
+2026-01-29 09:53:39,392 - __main__ - INFO - Order 10: Price: Rs.839.7, Trigger: Rs.838.9, Type: GTT ORDER, Fall: 10.00%, Quantity: 48, Value: Rs.40305.6
+2026-01-29 09:53:52,662 - __main__ - INFO - Order placement cancelled by user
+2026-01-29 09:54:04,387 - __main__ - INFO - Using steps from config: 10
+2026-01-29 09:54:04,387 - __main__ - INFO - Using max_fall_pct from config: 10.0
+2026-01-29 09:54:04,387 - __main__ - INFO - Using fall_power from config: 1.7
+2026-01-29 09:54:04,387 - __main__ - INFO - Using size_power from config: 1.6
+2026-01-29 09:54:04,387 - __main__ - INFO - Using size_multiplier from config: 3.8
+2026-01-29 09:54:04,387 - __main__ - INFO - Convex accumulation parameters:
+2026-01-29 09:54:04,387 - __main__ - INFO -   Steps: 10
+2026-01-29 09:54:04,387 - __main__ - INFO -   Base shares: 10
+2026-01-29 09:54:04,387 - __main__ - INFO -   Max fall: 10.0%
+2026-01-29 09:54:04,387 - __main__ - INFO -   Fall power: 1.7
+2026-01-29 09:54:04,387 - __main__ - INFO -   Size power: 1.6
+2026-01-29 09:54:04,387 - __main__ - INFO -   Size multiplier: 3.8
+2026-01-29 09:54:04,387 - __main__ - INFO - Initializing Convex Accumulation Order Scheduler for BAJFINANCE
+2026-01-29 09:54:04,387 - __main__ - INFO - Steps: 10, Current price: Rs.935.0
+2026-01-29 09:54:04,388 - __main__ - INFO - Configuration loaded successfully
+2026-01-29 09:54:04,389 - __main__ - INFO - Starting convex accumulation order scheduling process
+2026-01-29 09:54:04,509 - __main__ - INFO - Successfully connected to Kite Connect
+2026-01-29 09:54:04,509 - __main__ - WARNING - pytz not available, assuming market is closed - will skip first order
+2026-01-29 09:54:04,509 - __main__ - INFO - Using provided current price as base: Rs.935.0
+2026-01-29 09:54:04,509 - __main__ - INFO - Market is closed - skipping first order and starting with GTT orders
+2026-01-29 09:54:04,509 - __main__ - INFO - Order 1: SKIPPED (Market closed - AMO not supported)
+2026-01-29 09:54:04,509 - __main__ - INFO - Order 2: Price: Rs.932.8, Trigger: Rs.931.9, Type: GTT ORDER, Fall: 0.24%, Quantity: 11, Value: Rs.10260.8
+2026-01-29 09:54:04,509 - __main__ - INFO - Order 3: Price: Rs.927.7, Trigger: Rs.926.8, Type: GTT ORDER, Fall: 0.78%, Quantity: 13, Value: Rs.12060.1
+2026-01-29 09:54:04,509 - __main__ - INFO - Order 4: Price: Rs.920.6, Trigger: Rs.919.7, Type: GTT ORDER, Fall: 1.54%, Quantity: 17, Value: Rs.15650.2
+2026-01-29 09:54:04,509 - __main__ - INFO - Order 5: Price: Rs.911.4, Trigger: Rs.910.5, Type: GTT ORDER, Fall: 2.52%, Quantity: 20, Value: Rs.18228.0
+2026-01-29 09:54:04,509 - __main__ - INFO - Order 6: Price: Rs.900.6, Trigger: Rs.899.7, Type: GTT ORDER, Fall: 3.68%, Quantity: 25, Value: Rs.22515.0
+2026-01-29 09:54:04,509 - __main__ - INFO - Order 7: Price: Rs.888.1, Trigger: Rs.887.2, Type: GTT ORDER, Fall: 5.02%, Quantity: 30, Value: Rs.26643.0
+2026-01-29 09:54:04,509 - __main__ - INFO - Order 8: Price: Rs.874.0, Trigger: Rs.873.1, Type: GTT ORDER, Fall: 6.52%, Quantity: 35, Value: Rs.30590.0
+2026-01-29 09:54:04,510 - __main__ - INFO - Order 9: Price: Rs.858.5, Trigger: Rs.857.6, Type: GTT ORDER, Fall: 8.19%, Quantity: 41, Value: Rs.35198.5
+2026-01-29 09:54:04,510 - __main__ - INFO - Order 10: Price: Rs.841.5, Trigger: Rs.840.7, Type: GTT ORDER, Fall: 10.00%, Quantity: 48, Value: Rs.40392.0
+2026-01-29 09:54:12,432 - __main__ - INFO - Order placement cancelled by user
+2026-01-29 09:54:16,556 - __main__ - INFO - Using steps from config: 10
+2026-01-29 09:54:16,556 - __main__ - INFO - Using max_fall_pct from config: 10.0
+2026-01-29 09:54:16,556 - __main__ - INFO - Using fall_power from config: 1.7
+2026-01-29 09:54:16,556 - __main__ - INFO - Using size_power from config: 1.6
+2026-01-29 09:54:16,556 - __main__ - INFO - Using size_multiplier from config: 3.8
+2026-01-29 09:54:16,556 - __main__ - INFO - Convex accumulation parameters:
+2026-01-29 09:54:16,556 - __main__ - INFO -   Steps: 10
+2026-01-29 09:54:16,556 - __main__ - INFO -   Base shares: 10
+2026-01-29 09:54:16,556 - __main__ - INFO -   Max fall: 10.0%
+2026-01-29 09:54:16,556 - __main__ - INFO -   Fall power: 1.7
+2026-01-29 09:54:16,556 - __main__ - INFO -   Size power: 1.6
+2026-01-29 09:54:16,556 - __main__ - INFO -   Size multiplier: 3.8
+2026-01-29 09:54:16,556 - __main__ - INFO - Initializing Convex Accumulation Order Scheduler for BAJFINANCE
+2026-01-29 09:54:16,556 - __main__ - INFO - Steps: 10, Current price: Rs.934.0
+2026-01-29 09:54:16,557 - __main__ - INFO - Configuration loaded successfully
+2026-01-29 09:54:16,558 - __main__ - INFO - Starting convex accumulation order scheduling process
+2026-01-29 09:54:16,680 - __main__ - INFO - Successfully connected to Kite Connect
+2026-01-29 09:54:16,680 - __main__ - WARNING - pytz not available, assuming market is closed - will skip first order
+2026-01-29 09:54:16,680 - __main__ - INFO - Using provided current price as base: Rs.934.0
+2026-01-29 09:54:16,680 - __main__ - INFO - Market is closed - skipping first order and starting with GTT orders
+2026-01-29 09:54:16,680 - __main__ - INFO - Order 1: SKIPPED (Market closed - AMO not supported)
+2026-01-29 09:54:16,680 - __main__ - INFO - Order 2: Price: Rs.931.8, Trigger: Rs.930.9, Type: GTT ORDER, Fall: 0.24%, Quantity: 11, Value: Rs.10249.8
+2026-01-29 09:54:16,681 - __main__ - INFO - Order 3: Price: Rs.926.8, Trigger: Rs.925.9, Type: GTT ORDER, Fall: 0.78%, Quantity: 13, Value: Rs.12048.4
+2026-01-29 09:54:16,681 - __main__ - INFO - Order 4: Price: Rs.919.6, Trigger: Rs.918.7, Type: GTT ORDER, Fall: 1.54%, Quantity: 17, Value: Rs.15633.2
+2026-01-29 09:54:16,681 - __main__ - INFO - Order 5: Price: Rs.910.5, Trigger: Rs.909.6, Type: GTT ORDER, Fall: 2.52%, Quantity: 20, Value: Rs.18210.0
+2026-01-29 09:54:16,681 - __main__ - INFO - Order 6: Price: Rs.899.6, Trigger: Rs.898.7, Type: GTT ORDER, Fall: 3.68%, Quantity: 25, Value: Rs.22490.0
+2026-01-29 09:54:16,681 - __main__ - INFO - Order 7: Price: Rs.887.1, Trigger: Rs.886.2, Type: GTT ORDER, Fall: 5.02%, Quantity: 30, Value: Rs.26613.0
+2026-01-29 09:54:16,681 - __main__ - INFO - Order 8: Price: Rs.873.1, Trigger: Rs.872.2, Type: GTT ORDER, Fall: 6.52%, Quantity: 35, Value: Rs.30558.5
+2026-01-29 09:54:16,681 - __main__ - INFO - Order 9: Price: Rs.857.5, Trigger: Rs.856.6, Type: GTT ORDER, Fall: 8.19%, Quantity: 41, Value: Rs.35157.5
+2026-01-29 09:54:16,681 - __main__ - INFO - Order 10: Price: Rs.840.6, Trigger: Rs.839.8, Type: GTT ORDER, Fall: 10.00%, Quantity: 48, Value: Rs.40348.8
+2026-01-29 09:54:25,719 - __main__ - INFO - Placing orders...
+2026-01-29 09:54:25,720 - __main__ - INFO - Skipping order 1 - Market closed, AMO not supported
+2026-01-29 09:54:25,720 - __main__ - INFO - Order 1 skipped successfully
+2026-01-29 09:54:25,720 - __main__ - INFO - Placing GTT order 2 for BAJFINANCE
+2026-01-29 09:54:25,893 - __main__ - ERROR - Failed to place order 2 (GTT): Trigger already met.
+2026-01-29 09:54:25,894 - __main__ - ERROR - Order details: Price: Rs.931.8, Quantity: 11
+2026-01-29 09:54:25,895 - __main__ - INFO - Placing GTT order 3 for BAJFINANCE
+2026-01-29 09:54:26,056 - __main__ - INFO - GTT order 3 placed successfully with trigger ID: 304078711
+2026-01-29 09:54:26,056 - __main__ - INFO - Placing GTT order 4 for BAJFINANCE
+2026-01-29 09:54:26,273 - __main__ - INFO - GTT order 4 placed successfully with trigger ID: 304078718
+2026-01-29 09:54:26,273 - __main__ - INFO - Placing GTT order 5 for BAJFINANCE
+2026-01-29 09:54:26,483 - __main__ - INFO - GTT order 5 placed successfully with trigger ID: 304078720
+2026-01-29 09:54:26,483 - __main__ - INFO - Placing GTT order 6 for BAJFINANCE
+2026-01-29 09:54:26,669 - __main__ - INFO - GTT order 6 placed successfully with trigger ID: 304078721
+2026-01-29 09:54:26,669 - __main__ - INFO - Placing GTT order 7 for BAJFINANCE
+2026-01-29 09:54:26,873 - __main__ - INFO - GTT order 7 placed successfully with trigger ID: 304078722
+2026-01-29 09:54:26,873 - __main__ - INFO - Placing GTT order 8 for BAJFINANCE
+2026-01-29 09:54:27,048 - __main__ - INFO - GTT order 8 placed successfully with trigger ID: 304078726
+2026-01-29 09:54:27,048 - __main__ - INFO - Placing GTT order 9 for BAJFINANCE
+2026-01-29 09:54:27,226 - __main__ - INFO - GTT order 9 placed successfully with trigger ID: 304078728
+2026-01-29 09:54:27,226 - __main__ - INFO - Placing GTT order 10 for BAJFINANCE
+2026-01-29 09:54:27,454 - __main__ - INFO - GTT order 10 placed successfully with trigger ID: 304078732
+2026-01-29 09:54:27,455 - __main__ - INFO - Order summary saved to workdir/orders/BAJFINANCE_gtt_orders_20260129_095427.json
+2026-01-29 09:54:27,455 - __main__ - INFO - Convex accumulation order scheduling process completed successfully
+2026-01-29 10:49:21,944 - __main__ - INFO - Initializing GTT Sell Order Scheduler for BAJFINANCE
+2026-01-29 10:49:21,944 - __main__ - INFO - Target net profit: 1.0%
+2026-01-29 10:49:21,944 - __main__ - INFO - Starting GTT sell order scheduling process
+2026-01-29 10:49:22,085 - __main__ - INFO - Successfully connected to Kite Connect
+2026-01-29 10:49:22,085 - __main__ - INFO - Checking for existing GTT SELL orders for BAJFINANCE...
+2026-01-29 10:49:22,374 - __main__ - INFO - No existing SELL GTT orders found for BAJFINANCE
+2026-01-29 10:49:42,424 - __main__ - INFO - Placing GTT sell order...
+2026-01-29 10:49:42,671 - __main__ - WARNING - Could not fetch current price: Insufficient permission for that call.
+2026-01-29 10:49:42,672 - __main__ - INFO - Placing GTT order (attempt 1): sell_price=938.7, trigger_price=939.2, current_price=938.2
+2026-01-29 10:49:42,766 - __main__ - ERROR - Attempt 1 failed: Trigger price was too close to the last price. (difference should be more than 0.25%)
+2026-01-29 10:49:42,766 - __main__ - WARNING - Trigger price too close to last price. Retrying (attempt 2)...
+2026-01-29 10:49:42,766 - __main__ - INFO - New prices - sell=939.17, trigger=939.67, price_increase=0.47
+2026-01-29 10:49:42,768 - __main__ - INFO - Placing GTT order (attempt 2): sell_price=939.17, trigger_price=939.67, current_price=938.2
+2026-01-29 10:49:42,871 - __main__ - ERROR - Attempt 2 failed: Trigger price was too close to the last price. (difference should be more than 0.25%)
+2026-01-29 10:49:42,871 - __main__ - WARNING - Trigger price too close to last price. Retrying (attempt 3)...
+2026-01-29 10:49:42,872 - __main__ - INFO - New prices - sell=939.64, trigger=940.14, price_increase=0.47
+2026-01-29 10:49:42,873 - __main__ - INFO - Placing GTT order (attempt 3): sell_price=939.64, trigger_price=940.14, current_price=938.2
+2026-01-29 10:49:42,953 - __main__ - ERROR - Attempt 3 failed: Trigger price was too close to the last price. (difference should be more than 0.25%)
+2026-01-29 10:49:42,953 - __main__ - WARNING - Trigger price too close to last price. Retrying (attempt 4)...
+2026-01-29 10:49:42,953 - __main__ - INFO - New prices - sell=940.11, trigger=940.61, price_increase=0.47
+2026-01-29 10:49:42,954 - __main__ - INFO - Placing GTT order (attempt 4): sell_price=940.11, trigger_price=940.61, current_price=938.2
+2026-01-29 10:49:43,034 - __main__ - INFO - GTT sell order placed successfully on attempt 4. Trigger ID: 304105746
+2026-01-29 10:49:43,034 - __main__ - INFO - GTT sell order scheduling process completed successfully
+2026-01-29 11:13:19,386 - __main__ - INFO - Initializing GTT Sell Order Scheduler for BAJFINANCE
+2026-01-29 11:13:19,386 - __main__ - INFO - Target net profit: 1.0%
+2026-01-29 11:13:19,386 - __main__ - INFO - Starting GTT sell order scheduling process
+2026-01-29 11:13:19,516 - __main__ - INFO - Successfully connected to Kite Connect
+2026-01-29 11:13:19,516 - __main__ - INFO - Checking for existing GTT SELL orders for BAJFINANCE...
+2026-01-29 11:13:27,254 - __main__ - INFO - User chose not to delete existing orders. Cancelling new order placement.

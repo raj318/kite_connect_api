@@ -1,0 +1,41 @@
+{
+  "company_symbol": "ONGC",
+  "operation": "GTT Order Deletion",
+  "timestamp": "2026-01-27T10:46:11.472030",
+  "results": {
+    "total_orders": 4,
+    "successful_deletions": 4,
+    "failed_deletions": 0,
+    "deleted_orders": [
+      {
+        "trigger_id": 302056242,
+        "symbol": "ONGC",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-27T10:46:11.170339"
+      },
+      {
+        "trigger_id": 302056239,
+        "symbol": "ONGC",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-27T10:46:11.272007"
+      },
+      {
+        "trigger_id": 302056236,
+        "symbol": "ONGC",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-27T10:46:11.363705"
+      },
+      {
+        "trigger_id": 302056235,
+        "symbol": "ONGC",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-27T10:46:11.471947"
+      }
+    ],
+    "failed_orders": []
+  }
+}

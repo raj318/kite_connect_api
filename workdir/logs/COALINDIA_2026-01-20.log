@@ -1,0 +1,550 @@
+2026-01-20 12:37:13,163 - __main__ - INFO - Price difference configured: 0.5%
+2026-01-20 12:37:13,163 - __main__ - INFO - Start quantity configured: 15
+2026-01-20 12:37:13,163 - __main__ - INFO - Initializing Hybrid Order Scheduler for COALINDIA
+2026-01-20 12:37:13,163 - __main__ - INFO - Order count: 419, Current price: Rs.10.00, Max quantity: 100
+2026-01-20 12:37:13,163 - __main__ - INFO - Price difference: 0.5%
+2026-01-20 12:37:13,164 - __main__ - INFO - Configuration loaded successfully
+2026-01-20 12:37:13,165 - __main__ - INFO - Starting hybrid order scheduling process
+2026-01-20 12:37:13,469 - __main__ - INFO - Successfully connected to Kite Connect
+2026-01-20 12:37:13,469 - __main__ - WARNING - pytz not available, assuming market is closed - will use LIMIT order for first order
+2026-01-20 12:37:13,470 - __main__ - INFO - Using provided current price as base: Rs.10.00
+2026-01-20 12:37:13,470 - __main__ - INFO - Market is closed - skipping first order and starting with GTT orders
+2026-01-20 12:37:13,470 - __main__ - INFO - Order 1: SKIPPED (Market closed - AMO not supported)
+2026-01-20 12:37:13,470 - __main__ - INFO - Order 2: Price: Rs.10.00, Trigger: Rs.10.00, Type: GTT ORDER, Quantity: 15, Value: Rs.149.80
+2026-01-20 12:37:13,470 - __main__ - INFO - Order 3: Price: Rs.9.90, Trigger: Rs.9.90, Type: GTT ORDER, Quantity: 16, Value: Rs.159.00
+2026-01-20 12:37:13,470 - __main__ - INFO - Order 4: Price: Rs.9.90, Trigger: Rs.9.90, Type: GTT ORDER, Quantity: 17, Value: Rs.168.10
+2026-01-20 12:37:13,470 - __main__ - INFO - Order 5: Price: Rs.9.80, Trigger: Rs.9.80, Type: GTT ORDER, Quantity: 18, Value: Rs.177.10
+2026-01-20 12:37:13,470 - __main__ - INFO - Order 6: Price: Rs.9.80, Trigger: Rs.9.80, Type: GTT ORDER, Quantity: 19, Value: Rs.186.00
+2026-01-20 12:37:13,470 - __main__ - INFO - Order 7: Price: Rs.9.70, Trigger: Rs.9.70, Type: GTT ORDER, Quantity: 20, Value: Rs.194.80
+2026-01-20 12:37:13,470 - __main__ - INFO - Order 8: Price: Rs.9.70, Trigger: Rs.9.70, Type: GTT ORDER, Quantity: 21, Value: Rs.203.40
+2026-01-20 12:37:13,471 - __main__ - INFO - Order 9: Price: Rs.9.60, Trigger: Rs.9.60, Type: GTT ORDER, Quantity: 22, Value: Rs.212.00
+2026-01-20 12:37:13,471 - __main__ - INFO - Order 10: Price: Rs.9.60, Trigger: Rs.9.60, Type: GTT ORDER, Quantity: 23, Value: Rs.220.50
+2026-01-20 12:37:13,471 - __main__ - INFO - Order 11: Price: Rs.9.50, Trigger: Rs.9.50, Type: GTT ORDER, Quantity: 24, Value: Rs.228.90
+2026-01-20 12:37:13,471 - __main__ - INFO - Order 12: Price: Rs.9.50, Trigger: Rs.9.50, Type: GTT ORDER, Quantity: 25, Value: Rs.237.20
+2026-01-20 12:37:13,471 - __main__ - INFO - Order 13: Price: Rs.9.40, Trigger: Rs.9.40, Type: GTT ORDER, Quantity: 26, Value: Rs.245.40
+2026-01-20 12:37:13,471 - __main__ - INFO - Order 14: Price: Rs.9.40, Trigger: Rs.9.40, Type: GTT ORDER, Quantity: 27, Value: Rs.253.50
+2026-01-20 12:37:13,471 - __main__ - INFO - Order 15: Price: Rs.9.30, Trigger: Rs.9.30, Type: GTT ORDER, Quantity: 28, Value: Rs.261.40
+2026-01-20 12:37:13,471 - __main__ - INFO - Order 16: Price: Rs.9.30, Trigger: Rs.9.30, Type: GTT ORDER, Quantity: 29, Value: Rs.269.30
+2026-01-20 12:37:13,471 - __main__ - INFO - Order 17: Price: Rs.9.20, Trigger: Rs.9.20, Type: GTT ORDER, Quantity: 30, Value: Rs.277.10
+2026-01-20 12:37:13,471 - __main__ - INFO - Order 18: Price: Rs.9.20, Trigger: Rs.9.20, Type: GTT ORDER, Quantity: 31, Value: Rs.284.80
+2026-01-20 12:37:13,471 - __main__ - INFO - Order 19: Price: Rs.9.10, Trigger: Rs.9.10, Type: GTT ORDER, Quantity: 32, Value: Rs.292.40
+2026-01-20 12:37:13,471 - __main__ - INFO - Order 20: Price: Rs.9.10, Trigger: Rs.9.10, Type: GTT ORDER, Quantity: 33, Value: Rs.299.90
+2026-01-20 12:37:13,471 - __main__ - INFO - Order 21: Price: Rs.9.00, Trigger: Rs.9.00, Type: GTT ORDER, Quantity: 34, Value: Rs.307.30
+2026-01-20 12:37:13,471 - __main__ - INFO - Order 22: Price: Rs.9.00, Trigger: Rs.9.00, Type: GTT ORDER, Quantity: 35, Value: Rs.314.60
+2026-01-20 12:37:13,471 - __main__ - INFO - Order 23: Price: Rs.8.90, Trigger: Rs.8.90, Type: GTT ORDER, Quantity: 36, Value: Rs.321.80
+2026-01-20 12:37:13,471 - __main__ - INFO - Order 24: Price: Rs.8.90, Trigger: Rs.8.90, Type: GTT ORDER, Quantity: 37, Value: Rs.328.80
+2026-01-20 12:37:13,471 - __main__ - INFO - Order 25: Price: Rs.8.80, Trigger: Rs.8.80, Type: GTT ORDER, Quantity: 38, Value: Rs.335.80
+2026-01-20 12:37:13,471 - __main__ - INFO - Order 26: Price: Rs.8.80, Trigger: Rs.8.80, Type: GTT ORDER, Quantity: 39, Value: Rs.342.70
+2026-01-20 12:37:13,471 - __main__ - INFO - Order 27: Price: Rs.8.70, Trigger: Rs.8.70, Type: GTT ORDER, Quantity: 40, Value: Rs.349.50
+2026-01-20 12:37:13,471 - __main__ - INFO - Order 28: Price: Rs.8.70, Trigger: Rs.8.70, Type: GTT ORDER, Quantity: 41, Value: Rs.356.20
+2026-01-20 12:37:13,471 - __main__ - INFO - Order 29: Price: Rs.8.60, Trigger: Rs.8.60, Type: GTT ORDER, Quantity: 42, Value: Rs.362.80
+2026-01-20 12:37:13,471 - __main__ - INFO - Order 30: Price: Rs.8.60, Trigger: Rs.8.60, Type: GTT ORDER, Quantity: 43, Value: Rs.369.30
+2026-01-20 12:37:13,471 - __main__ - INFO - Order 31: Price: Rs.8.50, Trigger: Rs.8.50, Type: GTT ORDER, Quantity: 44, Value: Rs.375.60
+2026-01-20 12:37:13,472 - __main__ - INFO - Order 32: Price: Rs.8.50, Trigger: Rs.8.50, Type: GTT ORDER, Quantity: 45, Value: Rs.381.90
+2026-01-20 12:37:13,472 - __main__ - INFO - Order 33: Price: Rs.8.40, Trigger: Rs.8.40, Type: GTT ORDER, Quantity: 46, Value: Rs.388.10
+2026-01-20 12:37:13,472 - __main__ - INFO - Order 34: Price: Rs.8.40, Trigger: Rs.8.40, Type: GTT ORDER, Quantity: 47, Value: Rs.394.20
+2026-01-20 12:37:13,472 - __main__ - INFO - Order 35: Price: Rs.8.30, Trigger: Rs.8.30, Type: GTT ORDER, Quantity: 48, Value: Rs.400.20
+2026-01-20 12:37:13,472 - __main__ - INFO - Order 36: Price: Rs.8.30, Trigger: Rs.8.30, Type: GTT ORDER, Quantity: 49, Value: Rs.406.10
+2026-01-20 12:37:13,472 - __main__ - INFO - Order 37: Price: Rs.8.20, Trigger: Rs.8.20, Type: GTT ORDER, Quantity: 50, Value: Rs.411.90
+2026-01-20 12:37:13,472 - __main__ - INFO - Order 38: Price: Rs.8.20, Trigger: Rs.8.20, Type: GTT ORDER, Quantity: 51, Value: Rs.417.60
+2026-01-20 12:37:13,472 - __main__ - INFO - Order 39: Price: Rs.8.10, Trigger: Rs.8.10, Type: GTT ORDER, Quantity: 52, Value: Rs.423.10
+2026-01-20 12:37:13,472 - __main__ - INFO - Order 40: Price: Rs.8.10, Trigger: Rs.8.10, Type: GTT ORDER, Quantity: 53, Value: Rs.428.60
+2026-01-20 12:37:13,472 - __main__ - INFO - Order 41: Price: Rs.8.00, Trigger: Rs.8.00, Type: GTT ORDER, Quantity: 54, Value: Rs.434.00
+2026-01-20 12:37:13,472 - __main__ - INFO - Order 42: Price: Rs.8.00, Trigger: Rs.8.00, Type: GTT ORDER, Quantity: 55, Value: Rs.439.30
+2026-01-20 12:37:13,472 - __main__ - INFO - Order 43: Price: Rs.7.90, Trigger: Rs.7.90, Type: GTT ORDER, Quantity: 56, Value: Rs.444.50
+2026-01-20 12:37:13,472 - __main__ - INFO - Order 44: Price: Rs.7.90, Trigger: Rs.7.90, Type: GTT ORDER, Quantity: 57, Value: Rs.449.60
+2026-01-20 12:37:13,472 - __main__ - INFO - Order 45: Price: Rs.7.80, Trigger: Rs.7.80, Type: GTT ORDER, Quantity: 58, Value: Rs.454.60
+2026-01-20 12:37:13,472 - __main__ - INFO - Order 46: Price: Rs.7.80, Trigger: Rs.7.80, Type: GTT ORDER, Quantity: 59, Value: Rs.459.50
+2026-01-20 12:37:13,472 - __main__ - INFO - Order 47: Price: Rs.7.70, Trigger: Rs.7.70, Type: GTT ORDER, Quantity: 60, Value: Rs.464.20
+2026-01-20 12:37:13,472 - __main__ - INFO - Order 48: Price: Rs.7.70, Trigger: Rs.7.70, Type: GTT ORDER, Quantity: 61, Value: Rs.468.90
+2026-01-20 12:37:13,472 - __main__ - INFO - Order 49: Price: Rs.7.60, Trigger: Rs.7.60, Type: GTT ORDER, Quantity: 62, Value: Rs.473.50
+2026-01-20 12:37:13,472 - __main__ - INFO - Order 50: Price: Rs.7.60, Trigger: Rs.7.60, Type: GTT ORDER, Quantity: 63, Value: Rs.478.00
+2026-01-20 12:37:13,472 - __main__ - INFO - Order 51: Price: Rs.7.50, Trigger: Rs.7.50, Type: GTT ORDER, Quantity: 64, Value: Rs.482.40
+2026-01-20 12:37:13,472 - __main__ - INFO - Order 52: Price: Rs.7.50, Trigger: Rs.7.50, Type: GTT ORDER, Quantity: 65, Value: Rs.486.70
+2026-01-20 12:37:13,472 - __main__ - INFO - Order 53: Price: Rs.7.40, Trigger: Rs.7.40, Type: GTT ORDER, Quantity: 66, Value: Rs.490.90
+2026-01-20 12:37:13,472 - __main__ - INFO - Order 54: Price: Rs.7.40, Trigger: Rs.7.40, Type: GTT ORDER, Quantity: 67, Value: Rs.495.00
+2026-01-20 12:37:13,472 - __main__ - INFO - Order 55: Price: Rs.7.30, Trigger: Rs.7.30, Type: GTT ORDER, Quantity: 68, Value: Rs.499.00
+2026-01-20 12:37:13,472 - __main__ - INFO - Order 56: Price: Rs.7.30, Trigger: Rs.7.30, Type: GTT ORDER, Quantity: 69, Value: Rs.502.80
+2026-01-20 12:37:13,472 - __main__ - INFO - Order 57: Price: Rs.7.20, Trigger: Rs.7.20, Type: GTT ORDER, Quantity: 70, Value: Rs.506.60
+2026-01-20 12:37:13,472 - __main__ - INFO - Order 58: Price: Rs.7.20, Trigger: Rs.7.20, Type: GTT ORDER, Quantity: 71, Value: Rs.510.30
+2026-01-20 12:37:13,473 - __main__ - INFO - Order 59: Price: Rs.7.10, Trigger: Rs.7.10, Type: GTT ORDER, Quantity: 72, Value: Rs.513.90
+2026-01-20 12:37:13,473 - __main__ - INFO - Order 60: Price: Rs.7.10, Trigger: Rs.7.10, Type: GTT ORDER, Quantity: 73, Value: Rs.517.40
+2026-01-20 12:37:13,473 - __main__ - INFO - Order 61: Price: Rs.7.00, Trigger: Rs.7.00, Type: GTT ORDER, Quantity: 74, Value: Rs.520.80
+2026-01-20 12:37:13,473 - __main__ - INFO - Order 62: Price: Rs.7.00, Trigger: Rs.7.00, Type: GTT ORDER, Quantity: 75, Value: Rs.524.10
+2026-01-20 12:37:13,473 - __main__ - INFO - Order 63: Price: Rs.6.90, Trigger: Rs.6.90, Type: GTT ORDER, Quantity: 76, Value: Rs.527.20
+2026-01-20 12:37:13,473 - __main__ - INFO - Order 64: Price: Rs.6.90, Trigger: Rs.6.90, Type: GTT ORDER, Quantity: 77, Value: Rs.530.30
+2026-01-20 12:37:13,473 - __main__ - INFO - Order 65: Price: Rs.6.80, Trigger: Rs.6.80, Type: GTT ORDER, Quantity: 78, Value: Rs.533.30
+2026-01-20 12:37:13,473 - __main__ - INFO - Order 66: Price: Rs.6.80, Trigger: Rs.6.80, Type: GTT ORDER, Quantity: 79, Value: Rs.536.20
+2026-01-20 12:37:13,473 - __main__ - INFO - Order 67: Price: Rs.6.70, Trigger: Rs.6.70, Type: GTT ORDER, Quantity: 80, Value: Rs.539.00
+2026-01-20 12:37:13,473 - __main__ - INFO - Order 68: Price: Rs.6.70, Trigger: Rs.6.70, Type: GTT ORDER, Quantity: 81, Value: Rs.541.70
+2026-01-20 12:37:13,473 - __main__ - INFO - Order 69: Price: Rs.6.60, Trigger: Rs.6.60, Type: GTT ORDER, Quantity: 82, Value: Rs.544.30
+2026-01-20 12:37:13,473 - __main__ - INFO - Order 70: Price: Rs.6.60, Trigger: Rs.6.60, Type: GTT ORDER, Quantity: 83, Value: Rs.546.80
+2026-01-20 12:37:13,473 - __main__ - INFO - Order 71: Price: Rs.6.50, Trigger: Rs.6.50, Type: GTT ORDER, Quantity: 84, Value: Rs.549.20
+2026-01-20 12:37:13,473 - __main__ - INFO - Order 72: Price: Rs.6.50, Trigger: Rs.6.50, Type: GTT ORDER, Quantity: 85, Value: Rs.551.40
+2026-01-20 12:37:13,473 - __main__ - INFO - Order 73: Price: Rs.6.40, Trigger: Rs.6.40, Type: GTT ORDER, Quantity: 86, Value: Rs.553.60
+2026-01-20 12:37:13,473 - __main__ - INFO - Order 74: Price: Rs.6.40, Trigger: Rs.6.40, Type: GTT ORDER, Quantity: 87, Value: Rs.555.70
+2026-01-20 12:37:13,473 - __main__ - INFO - Order 75: Price: Rs.6.30, Trigger: Rs.6.30, Type: GTT ORDER, Quantity: 88, Value: Rs.557.70
+2026-01-20 12:37:13,473 - __main__ - INFO - Order 76: Price: Rs.6.30, Trigger: Rs.6.30, Type: GTT ORDER, Quantity: 89, Value: Rs.559.60
+2026-01-20 12:37:13,473 - __main__ - INFO - Order 77: Price: Rs.6.20, Trigger: Rs.6.20, Type: GTT ORDER, Quantity: 90, Value: Rs.561.40
+2026-01-20 12:37:13,473 - __main__ - INFO - Order 78: Price: Rs.6.20, Trigger: Rs.6.20, Type: GTT ORDER, Quantity: 91, Value: Rs.563.10
+2026-01-20 12:37:13,473 - __main__ - INFO - Order 79: Price: Rs.6.10, Trigger: Rs.6.10, Type: GTT ORDER, Quantity: 92, Value: Rs.564.60
+2026-01-20 12:37:13,473 - __main__ - INFO - Order 80: Price: Rs.6.10, Trigger: Rs.6.10, Type: GTT ORDER, Quantity: 93, Value: Rs.566.10
+2026-01-20 12:37:13,473 - __main__ - INFO - Order 81: Price: Rs.6.00, Trigger: Rs.6.00, Type: GTT ORDER, Quantity: 94, Value: Rs.567.50
+2026-01-20 12:37:13,473 - __main__ - INFO - Order 82: Price: Rs.6.00, Trigger: Rs.6.00, Type: GTT ORDER, Quantity: 95, Value: Rs.568.80
+2026-01-20 12:37:13,473 - __main__ - INFO - Order 83: Price: Rs.5.90, Trigger: Rs.5.90, Type: GTT ORDER, Quantity: 96, Value: Rs.570.00
+2026-01-20 12:37:13,473 - __main__ - INFO - Order 84: Price: Rs.5.90, Trigger: Rs.5.90, Type: GTT ORDER, Quantity: 97, Value: Rs.571.10
+2026-01-20 12:37:13,473 - __main__ - INFO - Order 85: Price: Rs.5.80, Trigger: Rs.5.80, Type: GTT ORDER, Quantity: 98, Value: Rs.572.10
+2026-01-20 12:37:13,474 - __main__ - INFO - Order 86: Price: Rs.5.80, Trigger: Rs.5.80, Type: GTT ORDER, Quantity: 99, Value: Rs.573.00
+2026-01-20 12:37:13,474 - __main__ - INFO - Order 87: Price: Rs.5.70, Trigger: Rs.5.70, Type: GTT ORDER, Quantity: 100, Value: Rs.573.80
+2026-01-20 12:37:13,474 - __main__ - INFO - Order 88: Price: Rs.5.70, Trigger: Rs.5.70, Type: GTT ORDER, Quantity: 100, Value: Rs.568.80
+2026-01-20 12:37:13,474 - __main__ - INFO - Order 89: Price: Rs.5.60, Trigger: Rs.5.60, Type: GTT ORDER, Quantity: 100, Value: Rs.563.70
+2026-01-20 12:37:13,474 - __main__ - INFO - Order 90: Price: Rs.5.60, Trigger: Rs.5.60, Type: GTT ORDER, Quantity: 100, Value: Rs.558.80
+2026-01-20 12:37:13,474 - __main__ - INFO - Order 91: Price: Rs.5.50, Trigger: Rs.5.50, Type: GTT ORDER, Quantity: 100, Value: Rs.553.80
+2026-01-20 12:37:13,474 - __main__ - INFO - Order 92: Price: Rs.5.50, Trigger: Rs.5.50, Type: GTT ORDER, Quantity: 100, Value: Rs.548.80
+2026-01-20 12:37:13,474 - __main__ - INFO - Order 93: Price: Rs.5.40, Trigger: Rs.5.40, Type: GTT ORDER, Quantity: 100, Value: Rs.543.80
+2026-01-20 12:37:13,474 - __main__ - INFO - Order 94: Price: Rs.5.40, Trigger: Rs.5.40, Type: GTT ORDER, Quantity: 100, Value: Rs.538.80
+2026-01-20 12:37:13,474 - __main__ - INFO - Order 95: Price: Rs.5.30, Trigger: Rs.5.30, Type: GTT ORDER, Quantity: 100, Value: Rs.533.80
+2026-01-20 12:37:13,474 - __main__ - INFO - Order 96: Price: Rs.5.30, Trigger: Rs.5.30, Type: GTT ORDER, Quantity: 100, Value: Rs.528.80
+2026-01-20 12:37:13,474 - __main__ - INFO - Order 97: Price: Rs.5.20, Trigger: Rs.5.20, Type: GTT ORDER, Quantity: 100, Value: Rs.523.70
+2026-01-20 12:37:13,474 - __main__ - INFO - Order 98: Price: Rs.5.20, Trigger: Rs.5.20, Type: GTT ORDER, Quantity: 100, Value: Rs.518.80
+2026-01-20 12:37:13,474 - __main__ - INFO - Order 99: Price: Rs.5.10, Trigger: Rs.5.10, Type: GTT ORDER, Quantity: 100, Value: Rs.513.70
+2026-01-20 12:37:13,474 - __main__ - INFO - Order 100: Price: Rs.5.10, Trigger: Rs.5.10, Type: GTT ORDER, Quantity: 100, Value: Rs.508.80
+2026-01-20 12:37:13,474 - __main__ - INFO - Order 101: Price: Rs.5.00, Trigger: Rs.5.00, Type: GTT ORDER, Quantity: 100, Value: Rs.503.70
+2026-01-20 12:37:13,474 - __main__ - INFO - Order 102: Price: Rs.5.00, Trigger: Rs.5.00, Type: GTT ORDER, Quantity: 100, Value: Rs.498.80
+2026-01-20 12:37:13,474 - __main__ - INFO - Order 103: Price: Rs.4.90, Trigger: Rs.4.90, Type: GTT ORDER, Quantity: 100, Value: Rs.493.80
+2026-01-20 12:37:13,474 - __main__ - INFO - Order 104: Price: Rs.4.90, Trigger: Rs.4.90, Type: GTT ORDER, Quantity: 100, Value: Rs.488.80
+2026-01-20 12:37:13,474 - __main__ - INFO - Order 105: Price: Rs.4.80, Trigger: Rs.4.80, Type: GTT ORDER, Quantity: 100, Value: Rs.483.80
+2026-01-20 12:37:13,474 - __main__ - INFO - Order 106: Price: Rs.4.80, Trigger: Rs.4.80, Type: GTT ORDER, Quantity: 100, Value: Rs.478.70
+2026-01-20 12:37:13,474 - __main__ - INFO - Order 107: Price: Rs.4.70, Trigger: Rs.4.70, Type: GTT ORDER, Quantity: 100, Value: Rs.473.80
+2026-01-20 12:37:13,474 - __main__ - INFO - Order 108: Price: Rs.4.70, Trigger: Rs.4.70, Type: GTT ORDER, Quantity: 100, Value: Rs.468.80
+2026-01-20 12:37:13,475 - __main__ - INFO - Order 109: Price: Rs.4.60, Trigger: Rs.4.60, Type: GTT ORDER, Quantity: 100, Value: Rs.463.80
+2026-01-20 12:37:13,475 - __main__ - INFO - Order 110: Price: Rs.4.60, Trigger: Rs.4.60, Type: GTT ORDER, Quantity: 100, Value: Rs.458.80
+2026-01-20 12:37:13,475 - __main__ - INFO - Order 111: Price: Rs.4.50, Trigger: Rs.4.50, Type: GTT ORDER, Quantity: 100, Value: Rs.453.70
+2026-01-20 12:37:13,475 - __main__ - INFO - Order 112: Price: Rs.4.50, Trigger: Rs.4.50, Type: GTT ORDER, Quantity: 100, Value: Rs.448.80
+2026-01-20 12:37:13,476 - __main__ - INFO - Order 113: Price: Rs.4.40, Trigger: Rs.4.40, Type: GTT ORDER, Quantity: 100, Value: Rs.443.80
+2026-01-20 12:37:13,476 - __main__ - INFO - Order 114: Price: Rs.4.40, Trigger: Rs.4.40, Type: GTT ORDER, Quantity: 100, Value: Rs.438.70
+2026-01-20 12:37:13,476 - __main__ - INFO - Order 115: Price: Rs.4.30, Trigger: Rs.4.30, Type: GTT ORDER, Quantity: 100, Value: Rs.433.70
+2026-01-20 12:37:13,476 - __main__ - INFO - Order 116: Price: Rs.4.30, Trigger: Rs.4.30, Type: GTT ORDER, Quantity: 100, Value: Rs.428.70
+2026-01-20 12:37:13,476 - __main__ - INFO - Order 117: Price: Rs.4.20, Trigger: Rs.4.20, Type: GTT ORDER, Quantity: 100, Value: Rs.423.80
+2026-01-20 12:37:13,476 - __main__ - INFO - Order 118: Price: Rs.4.20, Trigger: Rs.4.20, Type: GTT ORDER, Quantity: 100, Value: Rs.418.80
+2026-01-20 12:37:13,476 - __main__ - INFO - Order 119: Price: Rs.4.10, Trigger: Rs.4.10, Type: GTT ORDER, Quantity: 100, Value: Rs.413.70
+2026-01-20 12:37:13,476 - __main__ - INFO - Order 120: Price: Rs.4.10, Trigger: Rs.4.10, Type: GTT ORDER, Quantity: 100, Value: Rs.408.70
+2026-01-20 12:37:13,476 - __main__ - INFO - Order 121: Price: Rs.4.00, Trigger: Rs.4.00, Type: GTT ORDER, Quantity: 100, Value: Rs.403.70
+2026-01-20 12:37:13,476 - __main__ - INFO - Order 122: Price: Rs.4.00, Trigger: Rs.4.00, Type: GTT ORDER, Quantity: 100, Value: Rs.398.70
+2026-01-20 12:37:13,476 - __main__ - INFO - Order 123: Price: Rs.3.90, Trigger: Rs.3.90, Type: GTT ORDER, Quantity: 100, Value: Rs.393.70
+2026-01-20 12:37:13,476 - __main__ - INFO - Order 124: Price: Rs.3.90, Trigger: Rs.3.90, Type: GTT ORDER, Quantity: 100, Value: Rs.388.80
+2026-01-20 12:37:13,476 - __main__ - INFO - Order 125: Price: Rs.3.80, Trigger: Rs.3.80, Type: GTT ORDER, Quantity: 100, Value: Rs.383.80
+2026-01-20 12:37:13,476 - __main__ - INFO - Order 126: Price: Rs.3.80, Trigger: Rs.3.80, Type: GTT ORDER, Quantity: 100, Value: Rs.378.80
+2026-01-20 12:37:13,476 - __main__ - INFO - Order 127: Price: Rs.3.70, Trigger: Rs.3.70, Type: GTT ORDER, Quantity: 100, Value: Rs.373.80
+2026-01-20 12:37:13,477 - __main__ - INFO - Order 128: Price: Rs.3.70, Trigger: Rs.3.70, Type: GTT ORDER, Quantity: 100, Value: Rs.368.80
+2026-01-20 12:37:13,477 - __main__ - INFO - Order 129: Price: Rs.3.60, Trigger: Rs.3.60, Type: GTT ORDER, Quantity: 100, Value: Rs.363.80
+2026-01-20 12:37:13,477 - __main__ - INFO - Order 130: Price: Rs.3.60, Trigger: Rs.3.60, Type: GTT ORDER, Quantity: 100, Value: Rs.358.80
+2026-01-20 12:37:13,477 - __main__ - INFO - Order 131: Price: Rs.3.50, Trigger: Rs.3.50, Type: GTT ORDER, Quantity: 100, Value: Rs.353.80
+2026-01-20 12:37:13,477 - __main__ - INFO - Order 132: Price: Rs.3.50, Trigger: Rs.3.50, Type: GTT ORDER, Quantity: 100, Value: Rs.348.80
+2026-01-20 12:37:13,477 - __main__ - INFO - Order 133: Price: Rs.3.40, Trigger: Rs.3.40, Type: GTT ORDER, Quantity: 100, Value: Rs.343.80
+2026-01-20 12:37:13,477 - __main__ - INFO - Order 134: Price: Rs.3.40, Trigger: Rs.3.40, Type: GTT ORDER, Quantity: 100, Value: Rs.338.80
+2026-01-20 12:37:13,477 - __main__ - INFO - Order 135: Price: Rs.3.30, Trigger: Rs.3.30, Type: GTT ORDER, Quantity: 100, Value: Rs.333.80
+2026-01-20 12:37:13,477 - __main__ - INFO - Order 136: Price: Rs.3.30, Trigger: Rs.3.30, Type: GTT ORDER, Quantity: 100, Value: Rs.328.70
+2026-01-20 12:37:13,477 - __main__ - INFO - Order 137: Price: Rs.3.20, Trigger: Rs.3.20, Type: GTT ORDER, Quantity: 100, Value: Rs.323.80
+2026-01-20 12:37:13,477 - __main__ - INFO - Order 138: Price: Rs.3.20, Trigger: Rs.3.20, Type: GTT ORDER, Quantity: 100, Value: Rs.318.80
+2026-01-20 12:37:13,477 - __main__ - INFO - Order 139: Price: Rs.3.10, Trigger: Rs.3.10, Type: GTT ORDER, Quantity: 100, Value: Rs.313.80
+2026-01-20 12:37:13,477 - __main__ - INFO - Order 140: Price: Rs.3.10, Trigger: Rs.3.10, Type: GTT ORDER, Quantity: 100, Value: Rs.308.70
+2026-01-20 12:37:13,477 - __main__ - INFO - Order 141: Price: Rs.3.00, Trigger: Rs.3.00, Type: GTT ORDER, Quantity: 100, Value: Rs.303.70
+2026-01-20 12:37:13,477 - __main__ - INFO - Order 142: Price: Rs.3.00, Trigger: Rs.3.00, Type: GTT ORDER, Quantity: 100, Value: Rs.298.80
+2026-01-20 12:37:13,477 - __main__ - INFO - Order 143: Price: Rs.2.90, Trigger: Rs.2.90, Type: GTT ORDER, Quantity: 100, Value: Rs.293.70
+2026-01-20 12:37:13,477 - __main__ - INFO - Order 144: Price: Rs.2.90, Trigger: Rs.2.90, Type: GTT ORDER, Quantity: 100, Value: Rs.288.70
+2026-01-20 12:37:13,477 - __main__ - INFO - Order 145: Price: Rs.2.80, Trigger: Rs.2.80, Type: GTT ORDER, Quantity: 100, Value: Rs.283.70
+2026-01-20 12:37:13,477 - __main__ - INFO - Order 146: Price: Rs.2.80, Trigger: Rs.2.80, Type: GTT ORDER, Quantity: 100, Value: Rs.278.70
+2026-01-20 12:37:13,477 - __main__ - INFO - Order 147: Price: Rs.2.70, Trigger: Rs.2.70, Type: GTT ORDER, Quantity: 100, Value: Rs.273.70
+2026-01-20 12:37:13,477 - __main__ - INFO - Order 148: Price: Rs.2.70, Trigger: Rs.2.70, Type: GTT ORDER, Quantity: 100, Value: Rs.268.70
+2026-01-20 12:37:13,477 - __main__ - INFO - Order 149: Price: Rs.2.60, Trigger: Rs.2.60, Type: GTT ORDER, Quantity: 100, Value: Rs.263.80
+2026-01-20 12:37:13,477 - __main__ - INFO - Order 150: Price: Rs.2.60, Trigger: Rs.2.60, Type: GTT ORDER, Quantity: 100, Value: Rs.258.80
+2026-01-20 12:37:13,477 - __main__ - INFO - Order 151: Price: Rs.2.50, Trigger: Rs.2.50, Type: GTT ORDER, Quantity: 100, Value: Rs.253.80
+2026-01-20 12:37:13,478 - __main__ - INFO - Order 152: Price: Rs.2.50, Trigger: Rs.2.50, Type: GTT ORDER, Quantity: 100, Value: Rs.248.80
+2026-01-20 12:37:13,478 - __main__ - INFO - Order 153: Price: Rs.2.40, Trigger: Rs.2.40, Type: GTT ORDER, Quantity: 100, Value: Rs.243.80
+2026-01-20 12:37:13,478 - __main__ - INFO - Order 154: Price: Rs.2.40, Trigger: Rs.2.40, Type: GTT ORDER, Quantity: 100, Value: Rs.238.80
+2026-01-20 12:37:13,478 - __main__ - INFO - Order 155: Price: Rs.2.30, Trigger: Rs.2.30, Type: GTT ORDER, Quantity: 100, Value: Rs.233.80
+2026-01-20 12:37:13,478 - __main__ - INFO - Order 156: Price: Rs.2.30, Trigger: Rs.2.30, Type: GTT ORDER, Quantity: 100, Value: Rs.228.80
+2026-01-20 12:37:13,478 - __main__ - INFO - Order 157: Price: Rs.2.20, Trigger: Rs.2.20, Type: GTT ORDER, Quantity: 100, Value: Rs.223.70
+2026-01-20 12:37:13,478 - __main__ - INFO - Order 158: Price: Rs.2.20, Trigger: Rs.2.20, Type: GTT ORDER, Quantity: 100, Value: Rs.218.80
+2026-01-20 12:37:13,478 - __main__ - INFO - Order 159: Price: Rs.2.10, Trigger: Rs.2.10, Type: GTT ORDER, Quantity: 100, Value: Rs.213.80
+2026-01-20 12:37:13,478 - __main__ - INFO - Order 160: Price: Rs.2.10, Trigger: Rs.2.10, Type: GTT ORDER, Quantity: 100, Value: Rs.208.80
+2026-01-20 12:37:13,478 - __main__ - INFO - Order 161: Price: Rs.2.00, Trigger: Rs.2.00, Type: GTT ORDER, Quantity: 100, Value: Rs.203.70
+2026-01-20 12:37:13,478 - __main__ - INFO - Order 162: Price: Rs.2.00, Trigger: Rs.2.00, Type: GTT ORDER, Quantity: 100, Value: Rs.198.70
+2026-01-20 12:37:13,478 - __main__ - INFO - Order 163: Price: Rs.1.90, Trigger: Rs.1.90, Type: GTT ORDER, Quantity: 100, Value: Rs.193.70
+2026-01-20 12:37:13,478 - __main__ - INFO - Order 164: Price: Rs.1.90, Trigger: Rs.1.90, Type: GTT ORDER, Quantity: 100, Value: Rs.188.70
+2026-01-20 12:37:13,478 - __main__ - INFO - Order 165: Price: Rs.1.80, Trigger: Rs.1.80, Type: GTT ORDER, Quantity: 100, Value: Rs.183.70
+2026-01-20 12:37:13,478 - __main__ - INFO - Order 166: Price: Rs.1.80, Trigger: Rs.1.80, Type: GTT ORDER, Quantity: 100, Value: Rs.178.70
+2026-01-20 12:37:13,478 - __main__ - INFO - Order 167: Price: Rs.1.70, Trigger: Rs.1.70, Type: GTT ORDER, Quantity: 100, Value: Rs.173.70
+2026-01-20 12:37:13,478 - __main__ - INFO - Order 168: Price: Rs.1.70, Trigger: Rs.1.70, Type: GTT ORDER, Quantity: 100, Value: Rs.168.70
+2026-01-20 12:37:13,478 - __main__ - INFO - Order 169: Price: Rs.1.60, Trigger: Rs.1.60, Type: GTT ORDER, Quantity: 100, Value: Rs.163.70
+2026-01-20 12:37:13,478 - __main__ - INFO - Order 170: Price: Rs.1.60, Trigger: Rs.1.60, Type: GTT ORDER, Quantity: 100, Value: Rs.158.70
+2026-01-20 12:37:13,478 - __main__ - INFO - Order 171: Price: Rs.1.50, Trigger: Rs.1.50, Type: GTT ORDER, Quantity: 100, Value: Rs.153.70
+2026-01-20 12:37:13,478 - __main__ - INFO - Order 172: Price: Rs.1.50, Trigger: Rs.1.50, Type: GTT ORDER, Quantity: 100, Value: Rs.148.70
+2026-01-20 12:37:13,478 - __main__ - INFO - Order 173: Price: Rs.1.40, Trigger: Rs.1.40, Type: GTT ORDER, Quantity: 100, Value: Rs.143.70
+2026-01-20 12:37:13,478 - __main__ - INFO - Order 174: Price: Rs.1.40, Trigger: Rs.1.40, Type: GTT ORDER, Quantity: 100, Value: Rs.138.70
+2026-01-20 12:37:13,478 - __main__ - INFO - Order 175: Price: Rs.1.30, Trigger: Rs.1.30, Type: GTT ORDER, Quantity: 100, Value: Rs.133.80
+2026-01-20 12:37:13,478 - __main__ - INFO - Order 176: Price: Rs.1.30, Trigger: Rs.1.30, Type: GTT ORDER, Quantity: 100, Value: Rs.128.80
+2026-01-20 12:37:13,478 - __main__ - INFO - Order 177: Price: Rs.1.20, Trigger: Rs.1.20, Type: GTT ORDER, Quantity: 100, Value: Rs.123.80
+2026-01-20 12:37:13,478 - __main__ - INFO - Order 178: Price: Rs.1.20, Trigger: Rs.1.20, Type: GTT ORDER, Quantity: 100, Value: Rs.118.80
+2026-01-20 12:37:13,478 - __main__ - INFO - Order 179: Price: Rs.1.10, Trigger: Rs.1.10, Type: GTT ORDER, Quantity: 100, Value: Rs.113.80
+2026-01-20 12:37:13,478 - __main__ - INFO - Order 180: Price: Rs.1.10, Trigger: Rs.1.10, Type: GTT ORDER, Quantity: 100, Value: Rs.108.80
+2026-01-20 12:37:13,478 - __main__ - INFO - Order 181: Price: Rs.1.00, Trigger: Rs.1.00, Type: GTT ORDER, Quantity: 100, Value: Rs.103.80
+2026-01-20 12:37:13,478 - __main__ - INFO - Order 182: Price: Rs.1.00, Trigger: Rs.1.00, Type: GTT ORDER, Quantity: 100, Value: Rs.98.80
+2026-01-20 12:37:13,478 - __main__ - INFO - Order 183: Price: Rs.0.90, Trigger: Rs.0.90, Type: GTT ORDER, Quantity: 100, Value: Rs.93.80
+2026-01-20 12:37:13,478 - __main__ - INFO - Order 184: Price: Rs.0.90, Trigger: Rs.0.90, Type: GTT ORDER, Quantity: 100, Value: Rs.88.80
+2026-01-20 12:37:13,478 - __main__ - INFO - Order 185: Price: Rs.0.80, Trigger: Rs.0.80, Type: GTT ORDER, Quantity: 100, Value: Rs.83.70
+2026-01-20 12:37:13,478 - __main__ - INFO - Order 186: Price: Rs.0.80, Trigger: Rs.0.80, Type: GTT ORDER, Quantity: 100, Value: Rs.78.70
+2026-01-20 12:37:13,478 - __main__ - INFO - Order 187: Price: Rs.0.70, Trigger: Rs.0.70, Type: GTT ORDER, Quantity: 100, Value: Rs.73.70
+2026-01-20 12:37:13,478 - __main__ - INFO - Order 188: Price: Rs.0.70, Trigger: Rs.0.70, Type: GTT ORDER, Quantity: 100, Value: Rs.68.70
+2026-01-20 12:37:13,479 - __main__ - INFO - Order 189: Price: Rs.0.60, Trigger: Rs.0.60, Type: GTT ORDER, Quantity: 100, Value: Rs.63.70
+2026-01-20 12:37:13,479 - __main__ - INFO - Order 190: Price: Rs.0.60, Trigger: Rs.0.60, Type: GTT ORDER, Quantity: 100, Value: Rs.58.70
+2026-01-20 12:37:13,479 - __main__ - INFO - Order 191: Price: Rs.0.50, Trigger: Rs.0.50, Type: GTT ORDER, Quantity: 100, Value: Rs.53.70
+2026-01-20 12:37:13,479 - __main__ - INFO - Order 192: Price: Rs.0.50, Trigger: Rs.0.50, Type: GTT ORDER, Quantity: 100, Value: Rs.48.70
+2026-01-20 12:37:13,479 - __main__ - INFO - Order 193: Price: Rs.0.40, Trigger: Rs.0.40, Type: GTT ORDER, Quantity: 100, Value: Rs.43.70
+2026-01-20 12:37:13,479 - __main__ - INFO - Order 194: Price: Rs.0.40, Trigger: Rs.0.40, Type: GTT ORDER, Quantity: 100, Value: Rs.38.70
+2026-01-20 12:37:13,479 - __main__ - INFO - Order 195: Price: Rs.0.30, Trigger: Rs.0.30, Type: GTT ORDER, Quantity: 100, Value: Rs.33.70
+2026-01-20 12:37:13,479 - __main__ - INFO - Order 196: Price: Rs.0.30, Trigger: Rs.0.30, Type: GTT ORDER, Quantity: 100, Value: Rs.28.70
+2026-01-20 12:37:13,479 - __main__ - INFO - Order 197: Price: Rs.0.20, Trigger: Rs.0.20, Type: GTT ORDER, Quantity: 100, Value: Rs.23.70
+2026-01-20 12:37:13,479 - __main__ - INFO - Order 198: Price: Rs.0.20, Trigger: Rs.0.20, Type: GTT ORDER, Quantity: 100, Value: Rs.18.70
+2026-01-20 12:37:13,479 - __main__ - INFO - Order 199: Price: Rs.0.10, Trigger: Rs.0.10, Type: GTT ORDER, Quantity: 100, Value: Rs.13.70
+2026-01-20 12:37:13,479 - __main__ - INFO - Order 200: Price: Rs.0.10, Trigger: Rs.0.10, Type: GTT ORDER, Quantity: 100, Value: Rs.8.70
+2026-01-20 12:37:13,479 - __main__ - INFO - Order 201: Price: Rs.0.00, Trigger: Rs.0.00, Type: GTT ORDER, Quantity: 100, Value: Rs.3.80
+2026-01-20 12:37:13,479 - __main__ - INFO - Order 202: Price: Rs.-0.00, Trigger: Rs.-0.00, Type: GTT ORDER, Quantity: 100, Value: Rs.-1.20
+2026-01-20 12:37:13,479 - __main__ - INFO - Order 203: Price: Rs.-0.10, Trigger: Rs.-0.10, Type: GTT ORDER, Quantity: 100, Value: Rs.-6.30
+2026-01-20 12:37:13,479 - __main__ - INFO - Order 204: Price: Rs.-0.10, Trigger: Rs.-0.10, Type: GTT ORDER, Quantity: 100, Value: Rs.-11.20
+2026-01-20 12:37:13,479 - __main__ - INFO - Order 205: Price: Rs.-0.20, Trigger: Rs.-0.20, Type: GTT ORDER, Quantity: 100, Value: Rs.-16.30
+2026-01-20 12:37:13,479 - __main__ - INFO - Order 206: Price: Rs.-0.20, Trigger: Rs.-0.20, Type: GTT ORDER, Quantity: 100, Value: Rs.-21.20
+2026-01-20 12:37:13,479 - __main__ - INFO - Order 207: Price: Rs.-0.30, Trigger: Rs.-0.30, Type: GTT ORDER, Quantity: 100, Value: Rs.-26.30
+2026-01-20 12:37:13,479 - __main__ - INFO - Order 208: Price: Rs.-0.30, Trigger: Rs.-0.30, Type: GTT ORDER, Quantity: 100, Value: Rs.-31.20
+2026-01-20 12:37:13,479 - __main__ - INFO - Order 209: Price: Rs.-0.40, Trigger: Rs.-0.40, Type: GTT ORDER, Quantity: 100, Value: Rs.-36.30
+2026-01-20 12:37:13,479 - __main__ - INFO - Order 210: Price: Rs.-0.40, Trigger: Rs.-0.40, Type: GTT ORDER, Quantity: 100, Value: Rs.-41.30
+2026-01-20 12:37:13,479 - __main__ - INFO - Order 211: Price: Rs.-0.50, Trigger: Rs.-0.50, Type: GTT ORDER, Quantity: 100, Value: Rs.-46.30
+2026-01-20 12:37:13,479 - __main__ - INFO - Order 212: Price: Rs.-0.50, Trigger: Rs.-0.50, Type: GTT ORDER, Quantity: 100, Value: Rs.-51.30
+2026-01-20 12:37:13,479 - __main__ - INFO - Order 213: Price: Rs.-0.60, Trigger: Rs.-0.60, Type: GTT ORDER, Quantity: 100, Value: Rs.-56.20
+2026-01-20 12:37:13,479 - __main__ - INFO - Order 214: Price: Rs.-0.60, Trigger: Rs.-0.60, Type: GTT ORDER, Quantity: 100, Value: Rs.-61.30
+2026-01-20 12:37:13,479 - __main__ - INFO - Order 215: Price: Rs.-0.70, Trigger: Rs.-0.70, Type: GTT ORDER, Quantity: 100, Value: Rs.-66.20
+2026-01-20 12:37:13,479 - __main__ - INFO - Order 216: Price: Rs.-0.70, Trigger: Rs.-0.70, Type: GTT ORDER, Quantity: 100, Value: Rs.-71.30
+2026-01-20 12:37:13,479 - __main__ - INFO - Order 217: Price: Rs.-0.80, Trigger: Rs.-0.80, Type: GTT ORDER, Quantity: 100, Value: Rs.-76.20
+2026-01-20 12:37:13,480 - __main__ - INFO - Order 218: Price: Rs.-0.80, Trigger: Rs.-0.80, Type: GTT ORDER, Quantity: 100, Value: Rs.-81.30
+2026-01-20 12:37:13,480 - __main__ - INFO - Order 219: Price: Rs.-0.90, Trigger: Rs.-0.90, Type: GTT ORDER, Quantity: 100, Value: Rs.-86.20
+2026-01-20 12:37:13,480 - __main__ - INFO - Order 220: Price: Rs.-0.90, Trigger: Rs.-0.90, Type: GTT ORDER, Quantity: 100, Value: Rs.-91.30
+2026-01-20 12:37:13,480 - __main__ - INFO - Order 221: Price: Rs.-1.00, Trigger: Rs.-1.00, Type: GTT ORDER, Quantity: 100, Value: Rs.-96.20
+2026-01-20 12:37:13,480 - __main__ - INFO - Order 222: Price: Rs.-1.00, Trigger: Rs.-1.00, Type: GTT ORDER, Quantity: 100, Value: Rs.-101.30
+2026-01-20 12:37:13,480 - __main__ - INFO - Order 223: Price: Rs.-1.10, Trigger: Rs.-1.10, Type: GTT ORDER, Quantity: 100, Value: Rs.-106.20
+2026-01-20 12:37:13,480 - __main__ - INFO - Order 224: Price: Rs.-1.10, Trigger: Rs.-1.10, Type: GTT ORDER, Quantity: 100, Value: Rs.-111.30
+2026-01-20 12:37:13,480 - __main__ - INFO - Order 225: Price: Rs.-1.20, Trigger: Rs.-1.20, Type: GTT ORDER, Quantity: 100, Value: Rs.-116.20
+2026-01-20 12:37:13,480 - __main__ - INFO - Order 226: Price: Rs.-1.20, Trigger: Rs.-1.20, Type: GTT ORDER, Quantity: 100, Value: Rs.-121.30
+2026-01-20 12:37:13,480 - __main__ - INFO - Order 227: Price: Rs.-1.30, Trigger: Rs.-1.30, Type: GTT ORDER, Quantity: 100, Value: Rs.-126.20
+2026-01-20 12:37:13,480 - __main__ - INFO - Order 228: Price: Rs.-1.30, Trigger: Rs.-1.30, Type: GTT ORDER, Quantity: 100, Value: Rs.-131.30
+2026-01-20 12:37:13,480 - __main__ - INFO - Order 229: Price: Rs.-1.40, Trigger: Rs.-1.40, Type: GTT ORDER, Quantity: 100, Value: Rs.-136.20
+2026-01-20 12:37:13,480 - __main__ - INFO - Order 230: Price: Rs.-1.40, Trigger: Rs.-1.40, Type: GTT ORDER, Quantity: 100, Value: Rs.-141.30
+2026-01-20 12:37:13,480 - __main__ - INFO - Order 231: Price: Rs.-1.50, Trigger: Rs.-1.50, Type: GTT ORDER, Quantity: 100, Value: Rs.-146.20
+2026-01-20 12:37:13,480 - __main__ - INFO - Order 232: Price: Rs.-1.50, Trigger: Rs.-1.50, Type: GTT ORDER, Quantity: 100, Value: Rs.-151.30
+2026-01-20 12:37:13,481 - __main__ - INFO - Order 233: Price: Rs.-1.60, Trigger: Rs.-1.60, Type: GTT ORDER, Quantity: 100, Value: Rs.-156.20
+2026-01-20 12:37:13,481 - __main__ - INFO - Order 234: Price: Rs.-1.60, Trigger: Rs.-1.60, Type: GTT ORDER, Quantity: 100, Value: Rs.-161.30
+2026-01-20 12:37:13,481 - __main__ - INFO - Order 235: Price: Rs.-1.70, Trigger: Rs.-1.70, Type: GTT ORDER, Quantity: 100, Value: Rs.-166.20
+2026-01-20 12:37:13,481 - __main__ - INFO - Order 236: Price: Rs.-1.70, Trigger: Rs.-1.70, Type: GTT ORDER, Quantity: 100, Value: Rs.-171.30
+2026-01-20 12:37:13,481 - __main__ - INFO - Order 237: Price: Rs.-1.80, Trigger: Rs.-1.80, Type: GTT ORDER, Quantity: 100, Value: Rs.-176.30
+2026-01-20 12:37:13,481 - __main__ - INFO - Order 238: Price: Rs.-1.80, Trigger: Rs.-1.80, Type: GTT ORDER, Quantity: 100, Value: Rs.-181.30
+2026-01-20 12:37:13,481 - __main__ - INFO - Order 239: Price: Rs.-1.90, Trigger: Rs.-1.90, Type: GTT ORDER, Quantity: 100, Value: Rs.-186.30
+2026-01-20 12:37:13,481 - __main__ - INFO - Order 240: Price: Rs.-1.90, Trigger: Rs.-1.90, Type: GTT ORDER, Quantity: 100, Value: Rs.-191.20
+2026-01-20 12:37:13,481 - __main__ - INFO - Order 241: Price: Rs.-2.00, Trigger: Rs.-2.00, Type: GTT ORDER, Quantity: 100, Value: Rs.-196.30
+2026-01-20 12:37:13,481 - __main__ - INFO - Order 242: Price: Rs.-2.00, Trigger: Rs.-2.00, Type: GTT ORDER, Quantity: 100, Value: Rs.-201.20
+2026-01-20 12:37:13,481 - __main__ - INFO - Order 243: Price: Rs.-2.10, Trigger: Rs.-2.10, Type: GTT ORDER, Quantity: 100, Value: Rs.-206.30
+2026-01-20 12:37:13,481 - __main__ - INFO - Order 244: Price: Rs.-2.10, Trigger: Rs.-2.10, Type: GTT ORDER, Quantity: 100, Value: Rs.-211.20
+2026-01-20 12:37:13,481 - __main__ - INFO - Order 245: Price: Rs.-2.20, Trigger: Rs.-2.20, Type: GTT ORDER, Quantity: 100, Value: Rs.-216.30
+2026-01-20 12:37:13,481 - __main__ - INFO - Order 246: Price: Rs.-2.20, Trigger: Rs.-2.20, Type: GTT ORDER, Quantity: 100, Value: Rs.-221.20
+2026-01-20 12:37:13,481 - __main__ - INFO - Order 247: Price: Rs.-2.30, Trigger: Rs.-2.30, Type: GTT ORDER, Quantity: 100, Value: Rs.-226.30
+2026-01-20 12:37:13,481 - __main__ - INFO - Order 248: Price: Rs.-2.30, Trigger: Rs.-2.30, Type: GTT ORDER, Quantity: 100, Value: Rs.-231.20
+2026-01-20 12:37:13,481 - __main__ - INFO - Order 249: Price: Rs.-2.40, Trigger: Rs.-2.40, Type: GTT ORDER, Quantity: 100, Value: Rs.-236.30
+2026-01-20 12:37:13,481 - __main__ - INFO - Order 250: Price: Rs.-2.40, Trigger: Rs.-2.40, Type: GTT ORDER, Quantity: 100, Value: Rs.-241.20
+2026-01-20 12:37:13,481 - __main__ - INFO - Order 251: Price: Rs.-2.50, Trigger: Rs.-2.50, Type: GTT ORDER, Quantity: 100, Value: Rs.-246.30
+2026-01-20 12:37:13,481 - __main__ - INFO - Order 252: Price: Rs.-2.50, Trigger: Rs.-2.50, Type: GTT ORDER, Quantity: 100, Value: Rs.-251.20
+2026-01-20 12:37:13,481 - __main__ - INFO - Order 253: Price: Rs.-2.60, Trigger: Rs.-2.60, Type: GTT ORDER, Quantity: 100, Value: Rs.-256.30
+2026-01-20 12:37:13,481 - __main__ - INFO - Order 254: Price: Rs.-2.60, Trigger: Rs.-2.60, Type: GTT ORDER, Quantity: 100, Value: Rs.-261.20
+2026-01-20 12:37:13,481 - __main__ - INFO - Order 255: Price: Rs.-2.70, Trigger: Rs.-2.70, Type: GTT ORDER, Quantity: 100, Value: Rs.-266.30
+2026-01-20 12:37:13,481 - __main__ - INFO - Order 256: Price: Rs.-2.70, Trigger: Rs.-2.70, Type: GTT ORDER, Quantity: 100, Value: Rs.-271.20
+2026-01-20 12:37:13,481 - __main__ - INFO - Order 257: Price: Rs.-2.80, Trigger: Rs.-2.80, Type: GTT ORDER, Quantity: 100, Value: Rs.-276.30
+2026-01-20 12:37:13,481 - __main__ - INFO - Order 258: Price: Rs.-2.80, Trigger: Rs.-2.80, Type: GTT ORDER, Quantity: 100, Value: Rs.-281.20
+2026-01-20 12:37:13,481 - __main__ - INFO - Order 259: Price: Rs.-2.90, Trigger: Rs.-2.90, Type: GTT ORDER, Quantity: 100, Value: Rs.-286.30
+2026-01-20 12:37:13,481 - __main__ - INFO - Order 260: Price: Rs.-2.90, Trigger: Rs.-2.90, Type: GTT ORDER, Quantity: 100, Value: Rs.-291.20
+2026-01-20 12:37:13,481 - __main__ - INFO - Order 261: Price: Rs.-3.00, Trigger: Rs.-3.00, Type: GTT ORDER, Quantity: 100, Value: Rs.-296.30
+2026-01-20 12:37:13,482 - __main__ - INFO - Order 262: Price: Rs.-3.00, Trigger: Rs.-3.00, Type: GTT ORDER, Quantity: 100, Value: Rs.-301.20
+2026-01-20 12:37:13,482 - __main__ - INFO - Order 263: Price: Rs.-3.10, Trigger: Rs.-3.10, Type: GTT ORDER, Quantity: 100, Value: Rs.-306.30
+2026-01-20 12:37:13,482 - __main__ - INFO - Order 264: Price: Rs.-3.10, Trigger: Rs.-3.10, Type: GTT ORDER, Quantity: 100, Value: Rs.-311.20
+2026-01-20 12:37:13,482 - __main__ - INFO - Order 265: Price: Rs.-3.20, Trigger: Rs.-3.20, Type: GTT ORDER, Quantity: 100, Value: Rs.-316.20
+2026-01-20 12:37:13,482 - __main__ - INFO - Order 266: Price: Rs.-3.20, Trigger: Rs.-3.20, Type: GTT ORDER, Quantity: 100, Value: Rs.-321.30
+2026-01-20 12:37:13,482 - __main__ - INFO - Order 267: Price: Rs.-3.30, Trigger: Rs.-3.30, Type: GTT ORDER, Quantity: 100, Value: Rs.-326.20
+2026-01-20 12:37:13,482 - __main__ - INFO - Order 268: Price: Rs.-3.30, Trigger: Rs.-3.30, Type: GTT ORDER, Quantity: 100, Value: Rs.-331.30
+2026-01-20 12:37:13,482 - __main__ - INFO - Order 269: Price: Rs.-3.40, Trigger: Rs.-3.40, Type: GTT ORDER, Quantity: 100, Value: Rs.-336.20
+2026-01-20 12:37:13,482 - __main__ - INFO - Order 270: Price: Rs.-3.40, Trigger: Rs.-3.40, Type: GTT ORDER, Quantity: 100, Value: Rs.-341.30
+2026-01-20 12:37:13,482 - __main__ - INFO - Order 271: Price: Rs.-3.50, Trigger: Rs.-3.50, Type: GTT ORDER, Quantity: 100, Value: Rs.-346.20
+2026-01-20 12:37:13,482 - __main__ - INFO - Order 272: Price: Rs.-3.50, Trigger: Rs.-3.50, Type: GTT ORDER, Quantity: 100, Value: Rs.-351.30
+2026-01-20 12:37:13,482 - __main__ - INFO - Order 273: Price: Rs.-3.60, Trigger: Rs.-3.60, Type: GTT ORDER, Quantity: 100, Value: Rs.-356.20
+2026-01-20 12:37:13,482 - __main__ - INFO - Order 274: Price: Rs.-3.60, Trigger: Rs.-3.60, Type: GTT ORDER, Quantity: 100, Value: Rs.-361.30
+2026-01-20 12:37:13,482 - __main__ - INFO - Order 275: Price: Rs.-3.70, Trigger: Rs.-3.70, Type: GTT ORDER, Quantity: 100, Value: Rs.-366.20
+2026-01-20 12:37:13,482 - __main__ - INFO - Order 276: Price: Rs.-3.70, Trigger: Rs.-3.70, Type: GTT ORDER, Quantity: 100, Value: Rs.-371.30
+2026-01-20 12:37:13,482 - __main__ - INFO - Order 277: Price: Rs.-3.80, Trigger: Rs.-3.80, Type: GTT ORDER, Quantity: 100, Value: Rs.-376.20
+2026-01-20 12:37:13,482 - __main__ - INFO - Order 278: Price: Rs.-3.80, Trigger: Rs.-3.80, Type: GTT ORDER, Quantity: 100, Value: Rs.-381.30
+2026-01-20 12:37:13,482 - __main__ - INFO - Order 279: Price: Rs.-3.90, Trigger: Rs.-3.90, Type: GTT ORDER, Quantity: 100, Value: Rs.-386.20
+2026-01-20 12:37:13,482 - __main__ - INFO - Order 280: Price: Rs.-3.90, Trigger: Rs.-3.90, Type: GTT ORDER, Quantity: 100, Value: Rs.-391.30
+2026-01-20 12:37:13,482 - __main__ - INFO - Order 281: Price: Rs.-4.00, Trigger: Rs.-4.00, Type: GTT ORDER, Quantity: 100, Value: Rs.-396.20
+2026-01-20 12:37:13,482 - __main__ - INFO - Order 282: Price: Rs.-4.00, Trigger: Rs.-4.00, Type: GTT ORDER, Quantity: 100, Value: Rs.-401.30
+2026-01-20 12:37:13,482 - __main__ - INFO - Order 283: Price: Rs.-4.10, Trigger: Rs.-4.10, Type: GTT ORDER, Quantity: 100, Value: Rs.-406.20
+2026-01-20 12:37:13,482 - __main__ - INFO - Order 284: Price: Rs.-4.10, Trigger: Rs.-4.10, Type: GTT ORDER, Quantity: 100, Value: Rs.-411.30
+2026-01-20 12:37:13,482 - __main__ - INFO - Order 285: Price: Rs.-4.20, Trigger: Rs.-4.20, Type: GTT ORDER, Quantity: 100, Value: Rs.-416.20
+2026-01-20 12:37:13,482 - __main__ - INFO - Order 286: Price: Rs.-4.20, Trigger: Rs.-4.20, Type: GTT ORDER, Quantity: 100, Value: Rs.-421.30
+2026-01-20 12:37:13,482 - __main__ - INFO - Order 287: Price: Rs.-4.30, Trigger: Rs.-4.30, Type: GTT ORDER, Quantity: 100, Value: Rs.-426.20
+2026-01-20 12:37:13,482 - __main__ - INFO - Order 288: Price: Rs.-4.30, Trigger: Rs.-4.30, Type: GTT ORDER, Quantity: 100, Value: Rs.-431.30
+2026-01-20 12:37:13,482 - __main__ - INFO - Order 289: Price: Rs.-4.40, Trigger: Rs.-4.40, Type: GTT ORDER, Quantity: 100, Value: Rs.-436.30
+2026-01-20 12:37:13,482 - __main__ - INFO - Order 290: Price: Rs.-4.40, Trigger: Rs.-4.40, Type: GTT ORDER, Quantity: 100, Value: Rs.-441.20
+2026-01-20 12:37:13,482 - __main__ - INFO - Order 291: Price: Rs.-4.50, Trigger: Rs.-4.50, Type: GTT ORDER, Quantity: 100, Value: Rs.-446.30
+2026-01-20 12:37:13,482 - __main__ - INFO - Order 292: Price: Rs.-4.50, Trigger: Rs.-4.50, Type: GTT ORDER, Quantity: 100, Value: Rs.-451.20
+2026-01-20 12:37:13,482 - __main__ - INFO - Order 293: Price: Rs.-4.60, Trigger: Rs.-4.60, Type: GTT ORDER, Quantity: 100, Value: Rs.-456.20
+2026-01-20 12:37:13,482 - __main__ - INFO - Order 294: Price: Rs.-4.60, Trigger: Rs.-4.60, Type: GTT ORDER, Quantity: 100, Value: Rs.-461.20
+2026-01-20 12:37:13,482 - __main__ - INFO - Order 295: Price: Rs.-4.70, Trigger: Rs.-4.70, Type: GTT ORDER, Quantity: 100, Value: Rs.-466.30
+2026-01-20 12:37:13,482 - __main__ - INFO - Order 296: Price: Rs.-4.70, Trigger: Rs.-4.70, Type: GTT ORDER, Quantity: 100, Value: Rs.-471.20
+2026-01-20 12:37:13,482 - __main__ - INFO - Order 297: Price: Rs.-4.80, Trigger: Rs.-4.80, Type: GTT ORDER, Quantity: 100, Value: Rs.-476.30
+2026-01-20 12:37:13,483 - __main__ - INFO - Order 298: Price: Rs.-4.80, Trigger: Rs.-4.80, Type: GTT ORDER, Quantity: 100, Value: Rs.-481.20
+2026-01-20 12:37:13,483 - __main__ - INFO - Order 299: Price: Rs.-4.90, Trigger: Rs.-4.90, Type: GTT ORDER, Quantity: 100, Value: Rs.-486.30
+2026-01-20 12:37:13,483 - __main__ - INFO - Order 300: Price: Rs.-4.90, Trigger: Rs.-4.90, Type: GTT ORDER, Quantity: 100, Value: Rs.-491.20
+2026-01-20 12:37:13,483 - __main__ - INFO - Order 301: Price: Rs.-5.00, Trigger: Rs.-5.00, Type: GTT ORDER, Quantity: 100, Value: Rs.-496.30
+2026-01-20 12:37:13,483 - __main__ - INFO - Order 302: Price: Rs.-5.00, Trigger: Rs.-5.00, Type: GTT ORDER, Quantity: 100, Value: Rs.-501.20
+2026-01-20 12:37:13,483 - __main__ - INFO - Order 303: Price: Rs.-5.10, Trigger: Rs.-5.10, Type: GTT ORDER, Quantity: 100, Value: Rs.-506.30
+2026-01-20 12:37:13,483 - __main__ - INFO - Order 304: Price: Rs.-5.10, Trigger: Rs.-5.10, Type: GTT ORDER, Quantity: 100, Value: Rs.-511.20
+2026-01-20 12:37:13,483 - __main__ - INFO - Order 305: Price: Rs.-5.20, Trigger: Rs.-5.20, Type: GTT ORDER, Quantity: 100, Value: Rs.-516.30
+2026-01-20 12:37:13,483 - __main__ - INFO - Order 306: Price: Rs.-5.20, Trigger: Rs.-5.20, Type: GTT ORDER, Quantity: 100, Value: Rs.-521.20
+2026-01-20 12:37:13,483 - __main__ - INFO - Order 307: Price: Rs.-5.30, Trigger: Rs.-5.30, Type: GTT ORDER, Quantity: 100, Value: Rs.-526.30
+2026-01-20 12:37:13,483 - __main__ - INFO - Order 308: Price: Rs.-5.30, Trigger: Rs.-5.30, Type: GTT ORDER, Quantity: 100, Value: Rs.-531.20
+2026-01-20 12:37:13,483 - __main__ - INFO - Order 309: Price: Rs.-5.40, Trigger: Rs.-5.40, Type: GTT ORDER, Quantity: 100, Value: Rs.-536.30
+2026-01-20 12:37:13,483 - __main__ - INFO - Order 310: Price: Rs.-5.40, Trigger: Rs.-5.40, Type: GTT ORDER, Quantity: 100, Value: Rs.-541.20
+2026-01-20 12:37:13,483 - __main__ - INFO - Order 311: Price: Rs.-5.50, Trigger: Rs.-5.50, Type: GTT ORDER, Quantity: 100, Value: Rs.-546.30
+2026-01-20 12:37:13,483 - __main__ - INFO - Order 312: Price: Rs.-5.50, Trigger: Rs.-5.50, Type: GTT ORDER, Quantity: 100, Value: Rs.-551.20
+2026-01-20 12:37:13,483 - __main__ - INFO - Order 313: Price: Rs.-5.60, Trigger: Rs.-5.60, Type: GTT ORDER, Quantity: 100, Value: Rs.-556.30
+2026-01-20 12:37:13,483 - __main__ - INFO - Order 314: Price: Rs.-5.60, Trigger: Rs.-5.60, Type: GTT ORDER, Quantity: 100, Value: Rs.-561.30
+2026-01-20 12:37:13,483 - __main__ - INFO - Order 315: Price: Rs.-5.70, Trigger: Rs.-5.70, Type: GTT ORDER, Quantity: 100, Value: Rs.-566.30
+2026-01-20 12:37:13,483 - __main__ - INFO - Order 316: Price: Rs.-5.70, Trigger: Rs.-5.70, Type: GTT ORDER, Quantity: 100, Value: Rs.-571.20
+2026-01-20 12:37:13,483 - __main__ - INFO - Order 317: Price: Rs.-5.80, Trigger: Rs.-5.80, Type: GTT ORDER, Quantity: 100, Value: Rs.-576.20
+2026-01-20 12:37:13,483 - __main__ - INFO - Order 318: Price: Rs.-5.80, Trigger: Rs.-5.80, Type: GTT ORDER, Quantity: 100, Value: Rs.-581.20
+2026-01-20 12:37:13,483 - __main__ - INFO - Order 319: Price: Rs.-5.90, Trigger: Rs.-5.90, Type: GTT ORDER, Quantity: 100, Value: Rs.-586.20
+2026-01-20 12:37:13,483 - __main__ - INFO - Order 320: Price: Rs.-5.90, Trigger: Rs.-5.90, Type: GTT ORDER, Quantity: 100, Value: Rs.-591.20
+2026-01-20 12:37:13,483 - __main__ - INFO - Order 321: Price: Rs.-6.00, Trigger: Rs.-6.00, Type: GTT ORDER, Quantity: 100, Value: Rs.-596.20
+2026-01-20 12:37:13,483 - __main__ - INFO - Order 322: Price: Rs.-6.00, Trigger: Rs.-6.00, Type: GTT ORDER, Quantity: 100, Value: Rs.-601.30
+2026-01-20 12:37:13,483 - __main__ - INFO - Order 323: Price: Rs.-6.10, Trigger: Rs.-6.10, Type: GTT ORDER, Quantity: 100, Value: Rs.-606.20
+2026-01-20 12:37:13,483 - __main__ - INFO - Order 324: Price: Rs.-6.10, Trigger: Rs.-6.10, Type: GTT ORDER, Quantity: 100, Value: Rs.-611.30
+2026-01-20 12:37:13,483 - __main__ - INFO - Order 325: Price: Rs.-6.20, Trigger: Rs.-6.20, Type: GTT ORDER, Quantity: 100, Value: Rs.-616.20
+2026-01-20 12:37:13,483 - __main__ - INFO - Order 326: Price: Rs.-6.20, Trigger: Rs.-6.20, Type: GTT ORDER, Quantity: 100, Value: Rs.-621.20
+2026-01-20 12:37:13,483 - __main__ - INFO - Order 327: Price: Rs.-6.30, Trigger: Rs.-6.30, Type: GTT ORDER, Quantity: 100, Value: Rs.-626.20
+2026-01-20 12:37:13,483 - __main__ - INFO - Order 328: Price: Rs.-6.30, Trigger: Rs.-6.30, Type: GTT ORDER, Quantity: 100, Value: Rs.-631.30
+2026-01-20 12:37:13,483 - __main__ - INFO - Order 329: Price: Rs.-6.40, Trigger: Rs.-6.40, Type: GTT ORDER, Quantity: 100, Value: Rs.-636.20
+2026-01-20 12:37:13,483 - __main__ - INFO - Order 330: Price: Rs.-6.40, Trigger: Rs.-6.40, Type: GTT ORDER, Quantity: 100, Value: Rs.-641.30
+2026-01-20 12:37:13,483 - __main__ - INFO - Order 331: Price: Rs.-6.50, Trigger: Rs.-6.50, Type: GTT ORDER, Quantity: 100, Value: Rs.-646.20
+2026-01-20 12:37:13,483 - __main__ - INFO - Order 332: Price: Rs.-6.50, Trigger: Rs.-6.50, Type: GTT ORDER, Quantity: 100, Value: Rs.-651.30
+2026-01-20 12:37:13,483 - __main__ - INFO - Order 333: Price: Rs.-6.60, Trigger: Rs.-6.60, Type: GTT ORDER, Quantity: 100, Value: Rs.-656.20
+2026-01-20 12:37:13,483 - __main__ - INFO - Order 334: Price: Rs.-6.60, Trigger: Rs.-6.60, Type: GTT ORDER, Quantity: 100, Value: Rs.-661.30
+2026-01-20 12:37:13,483 - __main__ - INFO - Order 335: Price: Rs.-6.70, Trigger: Rs.-6.70, Type: GTT ORDER, Quantity: 100, Value: Rs.-666.20
+2026-01-20 12:37:13,484 - __main__ - INFO - Order 336: Price: Rs.-6.70, Trigger: Rs.-6.70, Type: GTT ORDER, Quantity: 100, Value: Rs.-671.30
+2026-01-20 12:37:13,484 - __main__ - INFO - Order 337: Price: Rs.-6.80, Trigger: Rs.-6.80, Type: GTT ORDER, Quantity: 100, Value: Rs.-676.20
+2026-01-20 12:37:13,484 - __main__ - INFO - Order 338: Price: Rs.-6.80, Trigger: Rs.-6.80, Type: GTT ORDER, Quantity: 100, Value: Rs.-681.30
+2026-01-20 12:37:13,484 - __main__ - INFO - Order 339: Price: Rs.-6.90, Trigger: Rs.-6.90, Type: GTT ORDER, Quantity: 100, Value: Rs.-686.30
+2026-01-20 12:37:13,484 - __main__ - INFO - Order 340: Price: Rs.-6.90, Trigger: Rs.-6.90, Type: GTT ORDER, Quantity: 100, Value: Rs.-691.30
+2026-01-20 12:37:13,484 - __main__ - INFO - Order 341: Price: Rs.-7.00, Trigger: Rs.-7.00, Type: GTT ORDER, Quantity: 100, Value: Rs.-696.20
+2026-01-20 12:37:13,484 - __main__ - INFO - Order 342: Price: Rs.-7.00, Trigger: Rs.-7.00, Type: GTT ORDER, Quantity: 100, Value: Rs.-701.20
+2026-01-20 12:37:13,484 - __main__ - INFO - Order 343: Price: Rs.-7.10, Trigger: Rs.-7.10, Type: GTT ORDER, Quantity: 100, Value: Rs.-706.20
+2026-01-20 12:37:13,484 - __main__ - INFO - Order 344: Price: Rs.-7.10, Trigger: Rs.-7.10, Type: GTT ORDER, Quantity: 100, Value: Rs.-711.20
+2026-01-20 12:37:13,484 - __main__ - INFO - Order 345: Price: Rs.-7.20, Trigger: Rs.-7.20, Type: GTT ORDER, Quantity: 100, Value: Rs.-716.20
+2026-01-20 12:37:13,484 - __main__ - INFO - Order 346: Price: Rs.-7.20, Trigger: Rs.-7.20, Type: GTT ORDER, Quantity: 100, Value: Rs.-721.20
+2026-01-20 12:37:13,484 - __main__ - INFO - Order 347: Price: Rs.-7.30, Trigger: Rs.-7.30, Type: GTT ORDER, Quantity: 100, Value: Rs.-726.30
+2026-01-20 12:37:13,484 - __main__ - INFO - Order 348: Price: Rs.-7.30, Trigger: Rs.-7.30, Type: GTT ORDER, Quantity: 100, Value: Rs.-731.20
+2026-01-20 12:37:13,484 - __main__ - INFO - Order 349: Price: Rs.-7.40, Trigger: Rs.-7.40, Type: GTT ORDER, Quantity: 100, Value: Rs.-736.30
+2026-01-20 12:37:13,484 - __main__ - INFO - Order 350: Price: Rs.-7.40, Trigger: Rs.-7.40, Type: GTT ORDER, Quantity: 100, Value: Rs.-741.20
+2026-01-20 12:37:13,484 - __main__ - INFO - Order 351: Price: Rs.-7.50, Trigger: Rs.-7.50, Type: GTT ORDER, Quantity: 100, Value: Rs.-746.20
+2026-01-20 12:37:13,484 - __main__ - INFO - Order 352: Price: Rs.-7.50, Trigger: Rs.-7.50, Type: GTT ORDER, Quantity: 100, Value: Rs.-751.20
+2026-01-20 12:37:13,484 - __main__ - INFO - Order 353: Price: Rs.-7.60, Trigger: Rs.-7.60, Type: GTT ORDER, Quantity: 100, Value: Rs.-756.30
+2026-01-20 12:37:13,484 - __main__ - INFO - Order 354: Price: Rs.-7.60, Trigger: Rs.-7.60, Type: GTT ORDER, Quantity: 100, Value: Rs.-761.20
+2026-01-20 12:37:13,484 - __main__ - INFO - Order 355: Price: Rs.-7.70, Trigger: Rs.-7.70, Type: GTT ORDER, Quantity: 100, Value: Rs.-766.30
+2026-01-20 12:37:13,484 - __main__ - INFO - Order 356: Price: Rs.-7.70, Trigger: Rs.-7.70, Type: GTT ORDER, Quantity: 100, Value: Rs.-771.20
+2026-01-20 12:37:13,484 - __main__ - INFO - Order 357: Price: Rs.-7.80, Trigger: Rs.-7.80, Type: GTT ORDER, Quantity: 100, Value: Rs.-776.30
+2026-01-20 12:37:13,484 - __main__ - INFO - Order 358: Price: Rs.-7.80, Trigger: Rs.-7.80, Type: GTT ORDER, Quantity: 100, Value: Rs.-781.20
+2026-01-20 12:37:13,484 - __main__ - INFO - Order 359: Price: Rs.-7.90, Trigger: Rs.-7.90, Type: GTT ORDER, Quantity: 100, Value: Rs.-786.30
+2026-01-20 12:37:13,485 - __main__ - INFO - Order 360: Price: Rs.-7.90, Trigger: Rs.-7.90, Type: GTT ORDER, Quantity: 100, Value: Rs.-791.20
+2026-01-20 12:37:13,485 - __main__ - INFO - Order 361: Price: Rs.-8.00, Trigger: Rs.-8.00, Type: GTT ORDER, Quantity: 100, Value: Rs.-796.30
+2026-01-20 12:37:13,485 - __main__ - INFO - Order 362: Price: Rs.-8.00, Trigger: Rs.-8.00, Type: GTT ORDER, Quantity: 100, Value: Rs.-801.20
+2026-01-20 12:37:13,485 - __main__ - INFO - Order 363: Price: Rs.-8.10, Trigger: Rs.-8.10, Type: GTT ORDER, Quantity: 100, Value: Rs.-806.30
+2026-01-20 12:37:13,485 - __main__ - INFO - Order 364: Price: Rs.-8.10, Trigger: Rs.-8.10, Type: GTT ORDER, Quantity: 100, Value: Rs.-811.30
+2026-01-20 12:37:13,485 - __main__ - INFO - Order 365: Price: Rs.-8.20, Trigger: Rs.-8.20, Type: GTT ORDER, Quantity: 100, Value: Rs.-816.30
+2026-01-20 12:37:13,485 - __main__ - INFO - Order 366: Price: Rs.-8.20, Trigger: Rs.-8.20, Type: GTT ORDER, Quantity: 100, Value: Rs.-821.20
+2026-01-20 12:37:13,486 - __main__ - INFO - Order 367: Price: Rs.-8.30, Trigger: Rs.-8.30, Type: GTT ORDER, Quantity: 100, Value: Rs.-826.20
+2026-01-20 12:37:13,486 - __main__ - INFO - Order 368: Price: Rs.-8.30, Trigger: Rs.-8.30, Type: GTT ORDER, Quantity: 100, Value: Rs.-831.20
+2026-01-20 12:37:13,486 - __main__ - INFO - Order 369: Price: Rs.-8.40, Trigger: Rs.-8.40, Type: GTT ORDER, Quantity: 100, Value: Rs.-836.20
+2026-01-20 12:37:13,486 - __main__ - INFO - Order 370: Price: Rs.-8.40, Trigger: Rs.-8.40, Type: GTT ORDER, Quantity: 100, Value: Rs.-841.30
+2026-01-20 12:37:13,486 - __main__ - INFO - Order 371: Price: Rs.-8.50, Trigger: Rs.-8.50, Type: GTT ORDER, Quantity: 100, Value: Rs.-846.20
+2026-01-20 12:37:13,486 - __main__ - INFO - Order 372: Price: Rs.-8.50, Trigger: Rs.-8.50, Type: GTT ORDER, Quantity: 100, Value: Rs.-851.30
+2026-01-20 12:37:13,486 - __main__ - INFO - Order 373: Price: Rs.-8.60, Trigger: Rs.-8.60, Type: GTT ORDER, Quantity: 100, Value: Rs.-856.20
+2026-01-20 12:37:13,486 - __main__ - INFO - Order 374: Price: Rs.-8.60, Trigger: Rs.-8.60, Type: GTT ORDER, Quantity: 100, Value: Rs.-861.30
+2026-01-20 12:37:13,486 - __main__ - INFO - Order 375: Price: Rs.-8.70, Trigger: Rs.-8.70, Type: GTT ORDER, Quantity: 100, Value: Rs.-866.20
+2026-01-20 12:37:13,486 - __main__ - INFO - Order 376: Price: Rs.-8.70, Trigger: Rs.-8.70, Type: GTT ORDER, Quantity: 100, Value: Rs.-871.20
+2026-01-20 12:37:13,486 - __main__ - INFO - Order 377: Price: Rs.-8.80, Trigger: Rs.-8.80, Type: GTT ORDER, Quantity: 100, Value: Rs.-876.20
+2026-01-20 12:37:13,486 - __main__ - INFO - Order 378: Price: Rs.-8.80, Trigger: Rs.-8.80, Type: GTT ORDER, Quantity: 100, Value: Rs.-881.20
+2026-01-20 12:37:13,486 - __main__ - INFO - Order 379: Price: Rs.-8.90, Trigger: Rs.-8.90, Type: GTT ORDER, Quantity: 100, Value: Rs.-886.30
+2026-01-20 12:37:13,486 - __main__ - INFO - Order 380: Price: Rs.-8.90, Trigger: Rs.-8.90, Type: GTT ORDER, Quantity: 100, Value: Rs.-891.30
+2026-01-20 12:37:13,486 - __main__ - INFO - Order 381: Price: Rs.-9.00, Trigger: Rs.-9.00, Type: GTT ORDER, Quantity: 100, Value: Rs.-896.20
+2026-01-20 12:37:13,486 - __main__ - INFO - Order 382: Price: Rs.-9.00, Trigger: Rs.-9.00, Type: GTT ORDER, Quantity: 100, Value: Rs.-901.30
+2026-01-20 12:37:13,486 - __main__ - INFO - Order 383: Price: Rs.-9.10, Trigger: Rs.-9.10, Type: GTT ORDER, Quantity: 100, Value: Rs.-906.20
+2026-01-20 12:37:13,486 - __main__ - INFO - Order 384: Price: Rs.-9.10, Trigger: Rs.-9.10, Type: GTT ORDER, Quantity: 100, Value: Rs.-911.30
+2026-01-20 12:37:13,486 - __main__ - INFO - Order 385: Price: Rs.-9.20, Trigger: Rs.-9.20, Type: GTT ORDER, Quantity: 100, Value: Rs.-916.20
+2026-01-20 12:37:13,486 - __main__ - INFO - Order 386: Price: Rs.-9.20, Trigger: Rs.-9.20, Type: GTT ORDER, Quantity: 100, Value: Rs.-921.30
+2026-01-20 12:37:13,486 - __main__ - INFO - Order 387: Price: Rs.-9.30, Trigger: Rs.-9.30, Type: GTT ORDER, Quantity: 100, Value: Rs.-926.20
+2026-01-20 12:37:13,486 - __main__ - INFO - Order 388: Price: Rs.-9.30, Trigger: Rs.-9.30, Type: GTT ORDER, Quantity: 100, Value: Rs.-931.30
+2026-01-20 12:37:13,486 - __main__ - INFO - Order 389: Price: Rs.-9.40, Trigger: Rs.-9.40, Type: GTT ORDER, Quantity: 100, Value: Rs.-936.30
+2026-01-20 12:37:13,486 - __main__ - INFO - Order 390: Price: Rs.-9.40, Trigger: Rs.-9.40, Type: GTT ORDER, Quantity: 100, Value: Rs.-941.30
+2026-01-20 12:37:13,486 - __main__ - INFO - Order 391: Price: Rs.-9.50, Trigger: Rs.-9.50, Type: GTT ORDER, Quantity: 100, Value: Rs.-946.20
+2026-01-20 12:37:13,486 - __main__ - INFO - Order 392: Price: Rs.-9.50, Trigger: Rs.-9.50, Type: GTT ORDER, Quantity: 100, Value: Rs.-951.30
+2026-01-20 12:37:13,486 - __main__ - INFO - Order 393: Price: Rs.-9.60, Trigger: Rs.-9.60, Type: GTT ORDER, Quantity: 100, Value: Rs.-956.20
+2026-01-20 12:37:13,486 - __main__ - INFO - Order 394: Price: Rs.-9.60, Trigger: Rs.-9.60, Type: GTT ORDER, Quantity: 100, Value: Rs.-961.20
+2026-01-20 12:37:13,486 - __main__ - INFO - Order 395: Price: Rs.-9.70, Trigger: Rs.-9.70, Type: GTT ORDER, Quantity: 100, Value: Rs.-966.30
+2026-01-20 12:37:13,486 - __main__ - INFO - Order 396: Price: Rs.-9.70, Trigger: Rs.-9.70, Type: GTT ORDER, Quantity: 100, Value: Rs.-971.20
+2026-01-20 12:37:13,486 - __main__ - INFO - Order 397: Price: Rs.-9.80, Trigger: Rs.-9.80, Type: GTT ORDER, Quantity: 100, Value: Rs.-976.30
+2026-01-20 12:37:13,487 - __main__ - INFO - Order 398: Price: Rs.-9.80, Trigger: Rs.-9.80, Type: GTT ORDER, Quantity: 100, Value: Rs.-981.20
+2026-01-20 12:37:13,487 - __main__ - INFO - Order 399: Price: Rs.-9.90, Trigger: Rs.-9.90, Type: GTT ORDER, Quantity: 100, Value: Rs.-986.30
+2026-01-20 12:37:13,487 - __main__ - INFO - Order 400: Price: Rs.-9.90, Trigger: Rs.-9.90, Type: GTT ORDER, Quantity: 100, Value: Rs.-991.20
+2026-01-20 12:37:13,487 - __main__ - INFO - Order 401: Price: Rs.-10.00, Trigger: Rs.-10.00, Type: GTT ORDER, Quantity: 100, Value: Rs.-996.20
+2026-01-20 12:37:13,487 - __main__ - INFO - Order 402: Price: Rs.-10.00, Trigger: Rs.-10.00, Type: GTT ORDER, Quantity: 100, Value: Rs.-1001.30
+2026-01-20 12:37:13,487 - __main__ - INFO - Order 403: Price: Rs.-10.10, Trigger: Rs.-10.10, Type: GTT ORDER, Quantity: 100, Value: Rs.-1006.20
+2026-01-20 12:37:13,487 - __main__ - INFO - Order 404: Price: Rs.-10.10, Trigger: Rs.-10.10, Type: GTT ORDER, Quantity: 100, Value: Rs.-1011.30
+2026-01-20 12:37:13,487 - __main__ - INFO - Order 405: Price: Rs.-10.20, Trigger: Rs.-10.20, Type: GTT ORDER, Quantity: 100, Value: Rs.-1016.20
+2026-01-20 12:37:13,487 - __main__ - INFO - Order 406: Price: Rs.-10.20, Trigger: Rs.-10.20, Type: GTT ORDER, Quantity: 100, Value: Rs.-1021.30
+2026-01-20 12:37:13,487 - __main__ - INFO - Order 407: Price: Rs.-10.30, Trigger: Rs.-10.30, Type: GTT ORDER, Quantity: 100, Value: Rs.-1026.20
+2026-01-20 12:37:13,487 - __main__ - INFO - Order 408: Price: Rs.-10.30, Trigger: Rs.-10.30, Type: GTT ORDER, Quantity: 100, Value: Rs.-1031.20
+2026-01-20 12:37:13,487 - __main__ - INFO - Order 409: Price: Rs.-10.40, Trigger: Rs.-10.40, Type: GTT ORDER, Quantity: 100, Value: Rs.-1036.20
+2026-01-20 12:37:13,487 - __main__ - INFO - Order 410: Price: Rs.-10.40, Trigger: Rs.-10.40, Type: GTT ORDER, Quantity: 100, Value: Rs.-1041.30
+2026-01-20 12:37:13,487 - __main__ - INFO - Order 411: Price: Rs.-10.50, Trigger: Rs.-10.50, Type: GTT ORDER, Quantity: 100, Value: Rs.-1046.30
+2026-01-20 12:37:13,487 - __main__ - INFO - Order 412: Price: Rs.-10.50, Trigger: Rs.-10.50, Type: GTT ORDER, Quantity: 100, Value: Rs.-1051.20
+2026-01-20 12:37:13,487 - __main__ - INFO - Order 413: Price: Rs.-10.60, Trigger: Rs.-10.60, Type: GTT ORDER, Quantity: 100, Value: Rs.-1056.20
+2026-01-20 12:37:13,487 - __main__ - INFO - Order 414: Price: Rs.-10.60, Trigger: Rs.-10.60, Type: GTT ORDER, Quantity: 100, Value: Rs.-1061.30
+2026-01-20 12:37:13,487 - __main__ - INFO - Order 415: Price: Rs.-10.70, Trigger: Rs.-10.70, Type: GTT ORDER, Quantity: 100, Value: Rs.-1066.30
+2026-01-20 12:37:13,487 - __main__ - INFO - Order 416: Price: Rs.-10.70, Trigger: Rs.-10.70, Type: GTT ORDER, Quantity: 100, Value: Rs.-1071.20
+2026-01-20 12:37:13,487 - __main__ - INFO - Order 417: Price: Rs.-10.80, Trigger: Rs.-10.80, Type: GTT ORDER, Quantity: 100, Value: Rs.-1076.20
+2026-01-20 12:37:13,487 - __main__ - INFO - Order 418: Price: Rs.-10.80, Trigger: Rs.-10.80, Type: GTT ORDER, Quantity: 100, Value: Rs.-1081.20
+2026-01-20 12:37:13,487 - __main__ - INFO - Order 419: Price: Rs.-10.90, Trigger: Rs.-10.90, Type: GTT ORDER, Quantity: 100, Value: Rs.-1086.20
+2026-01-20 12:37:40,928 - __main__ - INFO - Order placement cancelled by user
+2026-01-20 12:38:17,490 - __main__ - INFO - Price difference configured: 0.5%
+2026-01-20 12:38:17,490 - __main__ - INFO - Start quantity configured: 15
+2026-01-20 12:38:17,490 - __main__ - INFO - Initializing Hybrid Order Scheduler for COALINDIA
+2026-01-20 12:38:17,490 - __main__ - INFO - Order count: 10, Current price: Rs.419.00, Max quantity: 100
+2026-01-20 12:38:17,490 - __main__ - INFO - Price difference: 0.5%
+2026-01-20 12:38:17,491 - __main__ - INFO - Configuration loaded successfully
+2026-01-20 12:38:17,492 - __main__ - INFO - Starting hybrid order scheduling process
+2026-01-20 12:38:17,652 - __main__ - INFO - Successfully connected to Kite Connect
+2026-01-20 12:38:17,652 - __main__ - WARNING - pytz not available, assuming market is closed - will use LIMIT order for first order
+2026-01-20 12:38:17,652 - __main__ - INFO - Using provided current price as base: Rs.419.00
+2026-01-20 12:38:17,652 - __main__ - INFO - Market is closed - skipping first order and starting with GTT orders
+2026-01-20 12:38:17,652 - __main__ - INFO - Order 1: SKIPPED (Market closed - AMO not supported)
+2026-01-20 12:38:17,652 - __main__ - INFO - Order 2: Price: Rs.418.50, Trigger: Rs.418.10, Type: GTT ORDER, Quantity: 15, Value: Rs.6277.10
+2026-01-20 12:38:17,652 - __main__ - INFO - Order 3: Price: Rs.416.40, Trigger: Rs.416.00, Type: GTT ORDER, Quantity: 16, Value: Rs.6662.10
+2026-01-20 12:38:17,652 - __main__ - INFO - Order 4: Price: Rs.414.30, Trigger: Rs.413.90, Type: GTT ORDER, Quantity: 17, Value: Rs.7042.90
+2026-01-20 12:38:17,652 - __main__ - INFO - Order 5: Price: Rs.412.20, Trigger: Rs.411.80, Type: GTT ORDER, Quantity: 18, Value: Rs.7419.40
+2026-01-20 12:38:17,652 - __main__ - INFO - Order 6: Price: Rs.410.10, Trigger: Rs.409.70, Type: GTT ORDER, Quantity: 19, Value: Rs.7791.80
+2026-01-20 12:38:17,652 - __main__ - INFO - Order 7: Price: Rs.408.00, Trigger: Rs.407.60, Type: GTT ORDER, Quantity: 20, Value: Rs.8160.00
+2026-01-20 12:38:17,652 - __main__ - INFO - Order 8: Price: Rs.405.90, Trigger: Rs.405.50, Type: GTT ORDER, Quantity: 21, Value: Rs.8524.00
+2026-01-20 12:38:17,652 - __main__ - INFO - Order 9: Price: Rs.403.80, Trigger: Rs.403.40, Type: GTT ORDER, Quantity: 22, Value: Rs.8883.80
+2026-01-20 12:38:17,652 - __main__ - INFO - Order 10: Price: Rs.401.70, Trigger: Rs.401.30, Type: GTT ORDER, Quantity: 23, Value: Rs.9239.50
+2026-01-20 12:38:22,677 - __main__ - INFO - Order placement cancelled by user
+2026-01-20 12:38:33,967 - __main__ - INFO - Price difference configured: 0.5%
+2026-01-20 12:38:33,967 - __main__ - INFO - Start quantity configured: 15
+2026-01-20 12:38:33,967 - __main__ - INFO - Initializing Hybrid Order Scheduler for COALINDIA
+2026-01-20 12:38:33,967 - __main__ - INFO - Order count: 10, Current price: Rs.419.00, Max quantity: 100
+2026-01-20 12:38:33,967 - __main__ - INFO - Price difference: 0.5%
+2026-01-20 12:38:33,968 - __main__ - INFO - Configuration loaded successfully
+2026-01-20 12:38:33,969 - __main__ - INFO - Starting hybrid order scheduling process
+2026-01-20 12:38:48,145 - __main__ - INFO - Successfully connected to Kite Connect
+2026-01-20 12:38:48,146 - __main__ - WARNING - pytz not available, assuming market is closed - will use LIMIT order for first order
+2026-01-20 12:38:48,146 - __main__ - INFO - Using provided current price as base: Rs.419.00
+2026-01-20 12:38:48,146 - __main__ - INFO - Market is closed - skipping first order and starting with GTT orders
+2026-01-20 12:38:48,146 - __main__ - INFO - Order 1: SKIPPED (Market closed - AMO not supported)
+2026-01-20 12:38:48,146 - __main__ - INFO - Order 2: Price: Rs.418.50, Trigger: Rs.418.10, Type: GTT ORDER, Quantity: 15, Value: Rs.6277.10
+2026-01-20 12:38:48,146 - __main__ - INFO - Order 3: Price: Rs.416.40, Trigger: Rs.416.00, Type: GTT ORDER, Quantity: 16, Value: Rs.6662.10
+2026-01-20 12:38:48,146 - __main__ - INFO - Order 4: Price: Rs.414.30, Trigger: Rs.413.90, Type: GTT ORDER, Quantity: 17, Value: Rs.7042.90
+2026-01-20 12:38:48,146 - __main__ - INFO - Order 5: Price: Rs.412.20, Trigger: Rs.411.80, Type: GTT ORDER, Quantity: 18, Value: Rs.7419.40
+2026-01-20 12:38:48,146 - __main__ - INFO - Order 6: Price: Rs.410.10, Trigger: Rs.409.70, Type: GTT ORDER, Quantity: 19, Value: Rs.7791.80
+2026-01-20 12:38:48,146 - __main__ - INFO - Order 7: Price: Rs.408.00, Trigger: Rs.407.60, Type: GTT ORDER, Quantity: 20, Value: Rs.8160.00
+2026-01-20 12:38:48,146 - __main__ - INFO - Order 8: Price: Rs.405.90, Trigger: Rs.405.50, Type: GTT ORDER, Quantity: 21, Value: Rs.8524.00
+2026-01-20 12:38:48,146 - __main__ - INFO - Order 9: Price: Rs.403.80, Trigger: Rs.403.40, Type: GTT ORDER, Quantity: 22, Value: Rs.8883.80
+2026-01-20 12:38:48,146 - __main__ - INFO - Order 10: Price: Rs.401.70, Trigger: Rs.401.30, Type: GTT ORDER, Quantity: 23, Value: Rs.9239.50
+2026-01-20 12:38:57,337 - __main__ - INFO - Order placement cancelled by user
+2026-01-20 12:39:02,712 - __main__ - INFO - Price difference configured: 0.5%
+2026-01-20 12:39:02,712 - __main__ - INFO - Start quantity configured: 15
+2026-01-20 12:39:02,712 - __main__ - INFO - Initializing Hybrid Order Scheduler for COALINDIA
+2026-01-20 12:39:02,712 - __main__ - INFO - Order count: 10, Current price: Rs.418.00, Max quantity: 100
+2026-01-20 12:39:02,712 - __main__ - INFO - Price difference: 0.5%
+2026-01-20 12:39:02,713 - __main__ - INFO - Configuration loaded successfully
+2026-01-20 12:39:02,713 - __main__ - INFO - Starting hybrid order scheduling process
+2026-01-20 12:39:02,867 - __main__ - INFO - Successfully connected to Kite Connect
+2026-01-20 12:39:02,867 - __main__ - WARNING - pytz not available, assuming market is closed - will use LIMIT order for first order
+2026-01-20 12:39:02,867 - __main__ - INFO - Using provided current price as base: Rs.418.00
+2026-01-20 12:39:02,867 - __main__ - INFO - Market is closed - skipping first order and starting with GTT orders
+2026-01-20 12:39:02,867 - __main__ - INFO - Order 1: SKIPPED (Market closed - AMO not supported)
+2026-01-20 12:39:02,867 - __main__ - INFO - Order 2: Price: Rs.417.50, Trigger: Rs.417.10, Type: GTT ORDER, Quantity: 15, Value: Rs.6262.20
+2026-01-20 12:39:02,867 - __main__ - INFO - Order 3: Price: Rs.415.40, Trigger: Rs.415.00, Type: GTT ORDER, Quantity: 16, Value: Rs.6646.20
+2026-01-20 12:39:02,867 - __main__ - INFO - Order 4: Price: Rs.413.30, Trigger: Rs.412.90, Type: GTT ORDER, Quantity: 17, Value: Rs.7026.10
+2026-01-20 12:39:02,867 - __main__ - INFO - Order 5: Price: Rs.411.20, Trigger: Rs.410.80, Type: GTT ORDER, Quantity: 18, Value: Rs.7401.70
+2026-01-20 12:39:02,867 - __main__ - INFO - Order 6: Price: Rs.409.10, Trigger: Rs.408.70, Type: GTT ORDER, Quantity: 19, Value: Rs.7773.20
+2026-01-20 12:39:02,868 - __main__ - INFO - Order 7: Price: Rs.407.00, Trigger: Rs.406.60, Type: GTT ORDER, Quantity: 20, Value: Rs.8140.50
+2026-01-20 12:39:02,868 - __main__ - INFO - Order 8: Price: Rs.404.90, Trigger: Rs.404.50, Type: GTT ORDER, Quantity: 21, Value: Rs.8503.70
+2026-01-20 12:39:02,868 - __main__ - INFO - Order 9: Price: Rs.402.80, Trigger: Rs.402.40, Type: GTT ORDER, Quantity: 22, Value: Rs.8862.60
+2026-01-20 12:39:02,868 - __main__ - INFO - Order 10: Price: Rs.400.80, Trigger: Rs.400.40, Type: GTT ORDER, Quantity: 23, Value: Rs.9217.40
+2026-01-20 12:39:22,904 - __main__ - INFO - Order placement cancelled by user
+2026-01-20 12:39:25,894 - __main__ - INFO - Price difference configured: 0.5%
+2026-01-20 12:39:25,894 - __main__ - INFO - Start quantity configured: 16
+2026-01-20 12:39:25,894 - __main__ - INFO - Initializing Hybrid Order Scheduler for COALINDIA
+2026-01-20 12:39:25,894 - __main__ - INFO - Order count: 10, Current price: Rs.418.00, Max quantity: 100
+2026-01-20 12:39:25,894 - __main__ - INFO - Price difference: 0.5%
+2026-01-20 12:39:25,895 - __main__ - INFO - Configuration loaded successfully
+2026-01-20 12:39:25,896 - __main__ - INFO - Starting hybrid order scheduling process
+2026-01-20 12:39:26,067 - __main__ - INFO - Successfully connected to Kite Connect
+2026-01-20 12:39:26,068 - __main__ - WARNING - pytz not available, assuming market is closed - will use LIMIT order for first order
+2026-01-20 12:39:26,068 - __main__ - INFO - Using provided current price as base: Rs.418.00
+2026-01-20 12:39:26,068 - __main__ - INFO - Market is closed - skipping first order and starting with GTT orders
+2026-01-20 12:39:26,068 - __main__ - INFO - Order 1: SKIPPED (Market closed - AMO not supported)
+2026-01-20 12:39:26,068 - __main__ - INFO - Order 2: Price: Rs.417.50, Trigger: Rs.417.10, Type: GTT ORDER, Quantity: 16, Value: Rs.6679.60
+2026-01-20 12:39:26,068 - __main__ - INFO - Order 3: Price: Rs.415.40, Trigger: Rs.415.00, Type: GTT ORDER, Quantity: 17, Value: Rs.7061.60
+2026-01-20 12:39:26,068 - __main__ - INFO - Order 4: Price: Rs.413.30, Trigger: Rs.412.90, Type: GTT ORDER, Quantity: 18, Value: Rs.7439.40
+2026-01-20 12:39:26,068 - __main__ - INFO - Order 5: Price: Rs.411.20, Trigger: Rs.410.80, Type: GTT ORDER, Quantity: 19, Value: Rs.7812.90
+2026-01-20 12:39:26,068 - __main__ - INFO - Order 6: Price: Rs.409.10, Trigger: Rs.408.70, Type: GTT ORDER, Quantity: 20, Value: Rs.8182.40
+2026-01-20 12:39:26,068 - __main__ - INFO - Order 7: Price: Rs.407.00, Trigger: Rs.406.60, Type: GTT ORDER, Quantity: 21, Value: Rs.8547.60
+2026-01-20 12:39:26,068 - __main__ - INFO - Order 8: Price: Rs.404.90, Trigger: Rs.404.50, Type: GTT ORDER, Quantity: 22, Value: Rs.8908.60
+2026-01-20 12:39:26,068 - __main__ - INFO - Order 9: Price: Rs.402.80, Trigger: Rs.402.40, Type: GTT ORDER, Quantity: 23, Value: Rs.9265.50
+2026-01-20 12:39:26,068 - __main__ - INFO - Order 10: Price: Rs.400.80, Trigger: Rs.400.40, Type: GTT ORDER, Quantity: 24, Value: Rs.9618.20
+2026-01-20 12:39:37,394 - __main__ - INFO - Placing orders...
+2026-01-20 12:39:37,395 - __main__ - INFO - Skipping order 1 - Market closed, AMO not supported
+2026-01-20 12:39:37,395 - __main__ - INFO - Order 1 skipped successfully
+2026-01-20 12:39:37,395 - __main__ - INFO - Placing GTT order 2 for COALINDIA
+2026-01-20 12:39:37,798 - __main__ - INFO - GTT order 2 placed successfully with trigger ID: 302718009
+2026-01-20 12:39:37,798 - __main__ - INFO - Placing GTT order 3 for COALINDIA
+2026-01-20 12:39:38,068 - __main__ - INFO - GTT order 3 placed successfully with trigger ID: 302718012
+2026-01-20 12:39:38,068 - __main__ - INFO - Placing GTT order 4 for COALINDIA
+2026-01-20 12:39:38,323 - __main__ - INFO - GTT order 4 placed successfully with trigger ID: 302718014
+2026-01-20 12:39:38,324 - __main__ - INFO - Placing GTT order 5 for COALINDIA
+2026-01-20 12:39:38,585 - __main__ - INFO - GTT order 5 placed successfully with trigger ID: 302718016
+2026-01-20 12:39:38,585 - __main__ - INFO - Placing GTT order 6 for COALINDIA
+2026-01-20 12:39:38,844 - __main__ - INFO - GTT order 6 placed successfully with trigger ID: 302718017
+2026-01-20 12:39:38,844 - __main__ - INFO - Placing GTT order 7 for COALINDIA
+2026-01-20 12:39:39,093 - __main__ - INFO - GTT order 7 placed successfully with trigger ID: 302718019
+2026-01-20 12:39:39,093 - __main__ - INFO - Placing GTT order 8 for COALINDIA
+2026-01-20 12:39:39,368 - __main__ - INFO - GTT order 8 placed successfully with trigger ID: 302718021
+2026-01-20 12:39:39,368 - __main__ - INFO - Placing GTT order 9 for COALINDIA
+2026-01-20 12:39:39,635 - __main__ - INFO - GTT order 9 placed successfully with trigger ID: 302718024
+2026-01-20 12:39:39,635 - __main__ - INFO - Placing GTT order 10 for COALINDIA
+2026-01-20 12:39:39,904 - __main__ - INFO - GTT order 10 placed successfully with trigger ID: 302718026
+2026-01-20 12:39:39,905 - __main__ - INFO - Order summary saved to workdir/orders/COALINDIA_gtt_orders_20260120_123939.json
+2026-01-20 12:39:39,905 - __main__ - INFO - Hybrid order scheduling process completed successfully
+2026-01-20 18:14:45,374 - __main__ - INFO - Initializing GTT Sell Order Scheduler for COALINDIA
+2026-01-20 18:14:45,375 - __main__ - INFO - Target net profit: 1.0%
+2026-01-20 18:14:45,375 - __main__ - INFO - Starting GTT sell order scheduling process
+2026-01-20 18:14:45,527 - __main__ - INFO - Successfully connected to Kite Connect
+2026-01-20 18:15:11,389 - __main__ - INFO - Placing GTT sell order...
+2026-01-20 18:15:11,796 - __main__ - WARNING - Could not fetch current price: Insufficient permission for that call.
+2026-01-20 18:15:11,926 - __main__ - ERROR - Failed to place GTT sell order: Trigger price was too close to the last price. (difference should be more than 0.25%)
+2026-01-20 18:15:11,926 - __main__ - ERROR - GTT sell order scheduling failed: Trigger price was too close to the last price. (difference should be more than 0.25%)
+2026-01-20 18:15:11,926 - __main__ - ERROR - Error type: InputException

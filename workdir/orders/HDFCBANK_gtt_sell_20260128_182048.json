@@ -1,0 +1,33 @@
+{
+  "company_symbol": "HDFCBANK",
+  "order_type": "GTT_SELL",
+  "quantity": 11,
+  "average_buy_price": 930.01,
+  "sell_price": 946.4,
+  "trigger_price": 946.9,
+  "target_net_profit_percentage": 1.5,
+  "profit_analysis": {
+    "buy_value": 10230.11,
+    "sell_value": 10410.4,
+    "gross_profit": 180.28999999999905,
+    "gross_profit_percentage": 1.7623466414339535,
+    "charges": {
+      "brokerage": 0.0,
+      "stt": 10.4104,
+      "exchange_charges": 0.35915879999999994,
+      "sebi_fees": 0.010410399999999998,
+      "dp_charges": 15.93,
+      "gst": 0.06652245599999998,
+      "total_charges": 26.776491655999997,
+      "charges_per_share": 2.434226514181818
+    },
+    "total_charges": 26.776491655999997,
+    "charges_percentage": 0.2617419720413563,
+    "net_profit": 153.51350834399906,
+    "net_profit_percentage": 1.5006046693925974,
+    "break_even_price": 932.4442265141818
+  },
+  "trigger_id": 303996648,
+  "status": "PLACED",
+  "timestamp": "2026-01-28T18:20:48.650446"
+}

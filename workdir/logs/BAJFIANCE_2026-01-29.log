@@ -1,0 +1,8 @@
+2026-01-29 11:13:08,117 - __main__ - INFO - Initializing GTT Sell Order Scheduler for BAJFIANCE
+2026-01-29 11:13:08,117 - __main__ - INFO - Target net profit: 1.0%
+2026-01-29 11:13:08,117 - __main__ - INFO - Starting GTT sell order scheduling process
+2026-01-29 11:13:08,241 - __main__ - INFO - Successfully connected to Kite Connect
+2026-01-29 11:13:08,241 - __main__ - INFO - Checking for existing GTT SELL orders for BAJFIANCE...
+2026-01-29 11:13:08,339 - __main__ - INFO - No existing SELL GTT orders found for BAJFIANCE
+2026-01-29 11:13:09,168 - __main__ - ERROR - GTT sell order scheduling failed: No holdings found for BAJFIANCE
+2026-01-29 11:13:09,168 - __main__ - ERROR - Error type: ValueError

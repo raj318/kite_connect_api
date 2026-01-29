@@ -1,0 +1,33 @@
+{
+  "company_symbol": "POWERGRID",
+  "order_type": "GTT_SELL",
+  "quantity": 133,
+  "average_buy_price": 257.32,
+  "sell_price": 260.4,
+  "trigger_price": 260.7,
+  "target_net_profit_percentage": 1.0,
+  "profit_analysis": {
+    "buy_value": 34223.56,
+    "sell_value": 34633.2,
+    "gross_profit": 409.6399999999994,
+    "gross_profit_percentage": 1.1969532100108797,
+    "charges": {
+      "brokerage": 0.0,
+      "stt": 34.633199999999995,
+      "exchange_charges": 1.1948454,
+      "sebi_fees": 0.034633199999999996,
+      "dp_charges": 15.93,
+      "gst": 0.22130614799999998,
+      "total_charges": 52.01398474799999,
+      "charges_per_share": 0.3910825920902255
+    },
+    "total_charges": 52.01398474799999,
+    "charges_percentage": 0.151982975318757,
+    "net_profit": 357.62601525199943,
+    "net_profit_percentage": 1.0449702346921228,
+    "break_even_price": 257.71108259209024
+  },
+  "trigger_id": 303196400,
+  "status": "PLACED",
+  "timestamp": "2026-01-22T11:01:31.298124"
+}

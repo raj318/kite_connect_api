@@ -1,0 +1,255 @@
+2026-01-28 09:48:05,548 - __main__ - INFO - Price difference configured: 0.5%
+2026-01-28 09:48:05,548 - __main__ - INFO - Start quantity configured: 4
+2026-01-28 09:48:05,548 - __main__ - INFO - Initializing Hybrid Order Scheduler for HDFCBANK
+2026-01-28 09:48:05,548 - __main__ - INFO - Order count: 10, Current price: Rs.934.50, Max quantity: 100
+2026-01-28 09:48:05,548 - __main__ - INFO - Price difference: 0.5%
+2026-01-28 09:48:05,549 - __main__ - INFO - Configuration loaded successfully
+2026-01-28 09:48:05,550 - __main__ - INFO - Starting hybrid order scheduling process
+2026-01-28 09:48:05,692 - __main__ - INFO - Successfully connected to Kite Connect
+2026-01-28 09:48:05,692 - __main__ - WARNING - pytz not available, assuming market is closed - will use LIMIT order for first order
+2026-01-28 09:48:05,692 - __main__ - INFO - Using provided current price as base: Rs.934.50
+2026-01-28 09:48:05,692 - __main__ - INFO - Market is closed - skipping first order and starting with GTT orders
+2026-01-28 09:48:05,692 - __main__ - INFO - Order 1: SKIPPED (Market closed - AMO not supported)
+2026-01-28 09:48:05,692 - __main__ - INFO - Order 2: Price: Rs.933.30, Trigger: Rs.932.40, Type: GTT ORDER, Quantity: 4, Value: Rs.3733.30
+2026-01-28 09:48:05,692 - __main__ - INFO - Order 3: Price: Rs.928.70, Trigger: Rs.927.70, Type: GTT ORDER, Quantity: 5, Value: Rs.4643.30
+2026-01-28 09:48:05,693 - __main__ - INFO - Order 4: Price: Rs.924.00, Trigger: Rs.923.10, Type: GTT ORDER, Quantity: 6, Value: Rs.5543.90
+2026-01-28 09:48:05,693 - __main__ - INFO - Order 5: Price: Rs.919.30, Trigger: Rs.918.40, Type: GTT ORDER, Quantity: 7, Value: Rs.6435.20
+2026-01-28 09:48:05,693 - __main__ - INFO - Order 6: Price: Rs.914.60, Trigger: Rs.913.70, Type: GTT ORDER, Quantity: 8, Value: Rs.7317.10
+2026-01-28 09:48:05,693 - __main__ - INFO - Order 7: Price: Rs.910.00, Trigger: Rs.909.10, Type: GTT ORDER, Quantity: 9, Value: Rs.8189.70
+2026-01-28 09:48:05,693 - __main__ - INFO - Order 8: Price: Rs.905.30, Trigger: Rs.904.40, Type: GTT ORDER, Quantity: 10, Value: Rs.9053.00
+2026-01-28 09:48:05,693 - __main__ - INFO - Order 9: Price: Rs.900.60, Trigger: Rs.899.70, Type: GTT ORDER, Quantity: 11, Value: Rs.9906.90
+2026-01-28 09:48:05,693 - __main__ - INFO - Order 10: Price: Rs.896.00, Trigger: Rs.895.10, Type: GTT ORDER, Quantity: 12, Value: Rs.10751.40
+2026-01-28 09:48:11,697 - __main__ - INFO - Placing orders...
+2026-01-28 09:48:11,697 - __main__ - INFO - Skipping order 1 - Market closed, AMO not supported
+2026-01-28 09:48:11,697 - __main__ - INFO - Order 1 skipped successfully
+2026-01-28 09:48:11,697 - __main__ - INFO - Placing GTT order 2 for HDFCBANK
+2026-01-28 09:48:11,945 - __main__ - INFO - GTT order 2 placed successfully with trigger ID: 303878315
+2026-01-28 09:48:11,945 - __main__ - INFO - Placing GTT order 3 for HDFCBANK
+2026-01-28 09:48:12,115 - __main__ - INFO - GTT order 3 placed successfully with trigger ID: 303878317
+2026-01-28 09:48:12,115 - __main__ - INFO - Placing GTT order 4 for HDFCBANK
+2026-01-28 09:48:12,303 - __main__ - INFO - GTT order 4 placed successfully with trigger ID: 303878319
+2026-01-28 09:48:12,304 - __main__ - INFO - Placing GTT order 5 for HDFCBANK
+2026-01-28 09:48:12,482 - __main__ - INFO - GTT order 5 placed successfully with trigger ID: 303878322
+2026-01-28 09:48:12,482 - __main__ - INFO - Placing GTT order 6 for HDFCBANK
+2026-01-28 09:48:12,684 - __main__ - INFO - GTT order 6 placed successfully with trigger ID: 303878325
+2026-01-28 09:48:12,684 - __main__ - INFO - Placing GTT order 7 for HDFCBANK
+2026-01-28 09:48:12,900 - __main__ - INFO - GTT order 7 placed successfully with trigger ID: 303878327
+2026-01-28 09:48:12,900 - __main__ - INFO - Placing GTT order 8 for HDFCBANK
+2026-01-28 09:48:13,081 - __main__ - INFO - GTT order 8 placed successfully with trigger ID: 303878328
+2026-01-28 09:48:13,081 - __main__ - INFO - Placing GTT order 9 for HDFCBANK
+2026-01-28 09:48:13,279 - __main__ - INFO - GTT order 9 placed successfully with trigger ID: 303878332
+2026-01-28 09:48:13,279 - __main__ - INFO - Placing GTT order 10 for HDFCBANK
+2026-01-28 09:48:13,473 - __main__ - INFO - GTT order 10 placed successfully with trigger ID: 303878337
+2026-01-28 09:48:13,474 - __main__ - INFO - Order summary saved to workdir/orders/HDFCBANK_gtt_orders_20260128_094813.json
+2026-01-28 09:48:13,474 - __main__ - INFO - Hybrid order scheduling process completed successfully
+2026-01-28 13:36:01,271 - __main__ - INFO - Price difference configured: 0.5%
+2026-01-28 13:36:01,271 - __main__ - INFO - Start quantity configured: 6
+2026-01-28 13:36:01,271 - __main__ - INFO - Initializing Hybrid Order Scheduler for HDFCBANK
+2026-01-28 13:36:01,271 - __main__ - INFO - Order count: 10, Current price: Rs.931.00, Max quantity: 100
+2026-01-28 13:36:01,271 - __main__ - INFO - Price difference: 0.5%
+2026-01-28 13:36:01,272 - __main__ - INFO - Configuration loaded successfully
+2026-01-28 13:36:01,273 - __main__ - INFO - Starting hybrid order scheduling process
+2026-01-28 13:36:01,382 - __main__ - INFO - Successfully connected to Kite Connect
+2026-01-28 13:36:01,382 - __main__ - WARNING - pytz not available, assuming market is closed - will use LIMIT order for first order
+2026-01-28 13:36:01,382 - __main__ - INFO - Using provided current price as base: Rs.931.00
+2026-01-28 13:36:01,382 - __main__ - INFO - Market is closed - skipping first order and starting with GTT orders
+2026-01-28 13:36:01,382 - __main__ - INFO - Order 1: SKIPPED (Market closed - AMO not supported)
+2026-01-28 13:36:01,382 - __main__ - INFO - Order 2: Price: Rs.929.80, Trigger: Rs.928.90, Type: GTT ORDER, Quantity: 6, Value: Rs.5579.00
+2026-01-28 13:36:01,382 - __main__ - INFO - Order 3: Price: Rs.925.20, Trigger: Rs.924.30, Type: GTT ORDER, Quantity: 7, Value: Rs.6476.30
+2026-01-28 13:36:01,382 - __main__ - INFO - Order 4: Price: Rs.920.50, Trigger: Rs.919.60, Type: GTT ORDER, Quantity: 8, Value: Rs.7364.20
+2026-01-28 13:36:01,382 - __main__ - INFO - Order 5: Price: Rs.915.90, Trigger: Rs.915.00, Type: GTT ORDER, Quantity: 9, Value: Rs.8242.80
+2026-01-28 13:36:01,382 - __main__ - INFO - Order 6: Price: Rs.911.20, Trigger: Rs.910.30, Type: GTT ORDER, Quantity: 10, Value: Rs.9112.20
+2026-01-28 13:36:01,382 - __main__ - INFO - Order 7: Price: Rs.906.60, Trigger: Rs.905.70, Type: GTT ORDER, Quantity: 11, Value: Rs.9972.20
+2026-01-28 13:36:01,382 - __main__ - INFO - Order 8: Price: Rs.901.90, Trigger: Rs.901.00, Type: GTT ORDER, Quantity: 12, Value: Rs.10822.90
+2026-01-28 13:36:01,382 - __main__ - INFO - Order 9: Price: Rs.897.30, Trigger: Rs.896.40, Type: GTT ORDER, Quantity: 13, Value: Rs.11664.30
+2026-01-28 13:36:01,382 - __main__ - INFO - Order 10: Price: Rs.892.60, Trigger: Rs.891.70, Type: GTT ORDER, Quantity: 14, Value: Rs.12496.30
+2026-01-28 13:36:12,544 - __main__ - INFO - Placing orders...
+2026-01-28 13:36:12,544 - __main__ - INFO - Skipping order 1 - Market closed, AMO not supported
+2026-01-28 13:36:12,545 - __main__ - INFO - Order 1 skipped successfully
+2026-01-28 13:36:12,545 - __main__ - INFO - Placing GTT order 2 for HDFCBANK
+2026-01-28 13:36:12,721 - __main__ - INFO - GTT order 2 placed successfully with trigger ID: 303949059
+2026-01-28 13:36:12,721 - __main__ - INFO - Placing GTT order 3 for HDFCBANK
+2026-01-28 13:36:12,898 - __main__ - INFO - GTT order 3 placed successfully with trigger ID: 303949062
+2026-01-28 13:36:12,898 - __main__ - INFO - Placing GTT order 4 for HDFCBANK
+2026-01-28 13:36:13,097 - __main__ - INFO - GTT order 4 placed successfully with trigger ID: 303949066
+2026-01-28 13:36:13,097 - __main__ - INFO - Placing GTT order 5 for HDFCBANK
+2026-01-28 13:36:13,288 - __main__ - INFO - GTT order 5 placed successfully with trigger ID: 303949071
+2026-01-28 13:36:13,288 - __main__ - INFO - Placing GTT order 6 for HDFCBANK
+2026-01-28 13:36:13,459 - __main__ - INFO - GTT order 6 placed successfully with trigger ID: 303949073
+2026-01-28 13:36:13,459 - __main__ - INFO - Placing GTT order 7 for HDFCBANK
+2026-01-28 13:36:13,660 - __main__ - INFO - GTT order 7 placed successfully with trigger ID: 303949074
+2026-01-28 13:36:13,660 - __main__ - INFO - Placing GTT order 8 for HDFCBANK
+2026-01-28 13:36:13,858 - __main__ - INFO - GTT order 8 placed successfully with trigger ID: 303949076
+2026-01-28 13:36:13,858 - __main__ - INFO - Placing GTT order 9 for HDFCBANK
+2026-01-28 13:36:14,052 - __main__ - INFO - GTT order 9 placed successfully with trigger ID: 303949078
+2026-01-28 13:36:14,053 - __main__ - INFO - Placing GTT order 10 for HDFCBANK
+2026-01-28 13:36:14,247 - __main__ - INFO - GTT order 10 placed successfully with trigger ID: 303949081
+2026-01-28 13:36:14,248 - __main__ - INFO - Order summary saved to workdir/orders/HDFCBANK_gtt_orders_20260128_133614.json
+2026-01-28 13:36:14,248 - __main__ - INFO - Hybrid order scheduling process completed successfully
+2026-01-28 17:35:15,292 - __main__ - INFO - Initializing GTT Sell Order Scheduler for HDFCBANK
+2026-01-28 17:35:15,292 - __main__ - INFO - Target net profit: 1.0%
+2026-01-28 17:35:15,292 - __main__ - INFO - Starting GTT sell order scheduling process
+2026-01-28 17:35:15,435 - __main__ - INFO - Successfully connected to Kite Connect
+2026-01-28 17:35:15,435 - __main__ - INFO - Checking for existing GTT SELL orders for HDFCBANK...
+2026-01-28 17:35:15,570 - __main__ - INFO - No existing SELL GTT orders found for HDFCBANK
+2026-01-28 17:54:09,203 - __main__ - INFO - Order placement cancelled by user
+2026-01-28 17:54:10,711 - __main__ - INFO - Initializing GTT Sell Order Scheduler for HDFCBANK
+2026-01-28 17:54:10,711 - __main__ - INFO - Target net profit: 1.0%
+2026-01-28 17:54:10,711 - __main__ - INFO - Starting GTT sell order scheduling process
+2026-01-28 17:54:10,894 - __main__ - INFO - Successfully connected to Kite Connect
+2026-01-28 17:54:10,894 - __main__ - INFO - Checking for existing GTT SELL orders for HDFCBANK...
+2026-01-28 17:54:10,997 - __main__ - INFO - No existing SELL GTT orders found for HDFCBANK
+2026-01-28 17:57:42,811 - __main__ - INFO - Order placement cancelled by user
+2026-01-28 17:57:44,044 - __main__ - INFO - Initializing GTT Sell Order Scheduler for HDFCBANK
+2026-01-28 17:57:44,044 - __main__ - INFO - Target net profit: 1.0%
+2026-01-28 17:57:44,044 - __main__ - INFO - Starting GTT sell order scheduling process
+2026-01-28 17:57:44,190 - __main__ - INFO - Successfully connected to Kite Connect
+2026-01-28 17:57:44,190 - __main__ - INFO - Checking for existing GTT SELL orders for HDFCBANK...
+2026-01-28 17:57:44,344 - __main__ - INFO - No existing SELL GTT orders found for HDFCBANK
+2026-01-28 17:57:50,016 - __main__ - INFO - Placing GTT sell order...
+2026-01-28 17:57:50,271 - __main__ - WARNING - Could not fetch current price: Insufficient permission for that call.
+2026-01-28 17:57:50,364 - __main__ - ERROR - Failed to place GTT sell order: Trigger price was too close to the last price. (difference should be more than 0.25%)
+2026-01-28 17:57:50,364 - __main__ - ERROR - GTT sell order scheduling failed: Trigger price was too close to the last price. (difference should be more than 0.25%)
+2026-01-28 17:57:50,364 - __main__ - ERROR - Error type: InputException
+2026-01-28 18:00:18,703 - __main__ - INFO - Initializing GTT Sell Order Scheduler for HDFCBANK
+2026-01-28 18:00:18,703 - __main__ - INFO - Target net profit: 1.0%
+2026-01-28 18:00:18,703 - __main__ - INFO - Starting GTT sell order scheduling process
+2026-01-28 18:00:18,836 - __main__ - INFO - Successfully connected to Kite Connect
+2026-01-28 18:00:18,836 - __main__ - INFO - Checking for existing GTT SELL orders for HDFCBANK...
+2026-01-28 18:00:18,986 - __main__ - INFO - No existing SELL GTT orders found for HDFCBANK
+2026-01-28 18:00:22,262 - __main__ - INFO - Placing GTT sell order...
+2026-01-28 18:00:22,589 - __main__ - WARNING - Could not fetch current price: Insufficient permission for that call.
+2026-01-28 18:00:22,686 - __main__ - WARNING - Trigger price too close to last price (attempt 1/3)
+2026-01-28 18:00:22,686 - __main__ - INFO - Retrying with increased price: sell_price=941.85, trigger_price=942.79
+2026-01-28 18:00:22,777 - __main__ - WARNING - Trigger price too close to last price (attempt 2/3)
+2026-01-28 18:00:22,777 - __main__ - INFO - Retrying with increased price: sell_price=941.9, trigger_price=942.84
+2026-01-28 18:00:22,867 - __main__ - ERROR - Failed to place GTT order after 3 retries: Trigger price was too close to the last price. (difference should be more than 0.25%)
+2026-01-28 18:00:22,867 - __main__ - ERROR - Failed to place GTT sell order: Trigger price was too close to the last price. (difference should be more than 0.25%)
+2026-01-28 18:00:22,867 - __main__ - ERROR - GTT sell order scheduling failed: Trigger price was too close to the last price. (difference should be more than 0.25%)
+2026-01-28 18:00:22,867 - __main__ - ERROR - Error type: InputException
+2026-01-28 18:13:27,109 - __main__ - INFO - Initializing GTT Sell Order Scheduler for HDFCBANK
+2026-01-28 18:13:27,109 - __main__ - INFO - Target net profit: 1.0%
+2026-01-28 18:13:27,109 - __main__ - INFO - Starting GTT sell order scheduling process
+2026-01-28 18:13:27,302 - __main__ - INFO - Successfully connected to Kite Connect
+2026-01-28 18:13:27,302 - __main__ - INFO - Checking for existing GTT SELL orders for HDFCBANK...
+2026-01-28 18:13:27,415 - __main__ - INFO - No existing SELL GTT orders found for HDFCBANK
+2026-01-28 18:13:31,445 - __main__ - INFO - Placing GTT sell order...
+2026-01-28 18:13:31,735 - __main__ - WARNING - Could not fetch current price: Insufficient permission for that call.
+2026-01-28 18:13:31,736 - __main__ - INFO - Placing GTT order (attempt 1): sell_price=941.8, trigger_price=942.7, current_price=941.7
+2026-01-28 18:13:31,831 - __main__ - ERROR - Attempt 1 failed: Trigger price was too close to the last price. (difference should be more than 0.25%)
+2026-01-28 18:13:31,831 - __main__ - WARNING - Trigger price too close to last price. Retrying (attempt 2)...
+2026-01-28 18:13:31,831 - __main__ - INFO - New prices - sell=942.27, trigger=943.21, price_increase=0.47
+2026-01-28 18:13:31,832 - __main__ - INFO - Placing GTT order (attempt 2): sell_price=942.27, trigger_price=943.21, current_price=941.7
+2026-01-28 18:13:31,948 - __main__ - ERROR - Attempt 2 failed: Trigger price was too close to the last price. (difference should be more than 0.25%)
+2026-01-28 18:13:31,948 - __main__ - WARNING - Trigger price too close to last price. Retrying (attempt 3)...
+2026-01-28 18:13:31,948 - __main__ - INFO - New prices - sell=942.74, trigger=943.68, price_increase=0.47
+2026-01-28 18:13:31,949 - __main__ - INFO - Placing GTT order (attempt 3): sell_price=942.74, trigger_price=943.68, current_price=941.7
+2026-01-28 18:13:32,052 - __main__ - ERROR - Attempt 3 failed: Trigger price was too close to the last price. (difference should be more than 0.25%)
+2026-01-28 18:13:32,052 - __main__ - WARNING - Trigger price too close to last price. Retrying (attempt 4)...
+2026-01-28 18:13:32,052 - __main__ - INFO - New prices - sell=943.21, trigger=944.15, price_increase=0.47
+2026-01-28 18:13:32,053 - __main__ - INFO - Placing GTT order (attempt 4): sell_price=943.21, trigger_price=944.15, current_price=941.7
+2026-01-28 18:13:32,153 - __main__ - INFO - GTT sell order placed successfully on attempt 4. Trigger ID: 303996174
+2026-01-28 18:13:32,154 - __main__ - INFO - GTT sell order scheduling process completed successfully
+2026-01-28 18:19:41,301 - __main__ - INFO - Initializing GTT Sell Order Scheduler for HDFCBANK
+2026-01-28 18:19:41,301 - __main__ - INFO - Target net profit: 1.0%
+2026-01-28 18:19:41,301 - __main__ - INFO - Starting GTT sell order scheduling process
+2026-01-28 18:19:41,502 - __main__ - INFO - Successfully connected to Kite Connect
+2026-01-28 18:19:41,502 - __main__ - INFO - Checking for existing GTT SELL orders for HDFCBANK...
+2026-01-28 18:19:48,443 - __main__ - INFO - Deleted GTT order 303996174
+2026-01-28 18:19:48,443 - __main__ - INFO - Successfully deleted all 1 existing SELL orders
+2026-01-28 18:19:53,549 - __main__ - INFO - Order placement cancelled by user
+2026-01-28 18:20:07,562 - __main__ - INFO - Initializing GTT Sell Order Scheduler for HDFCBANK
+2026-01-28 18:20:07,562 - __main__ - INFO - Target net profit: 1.0%
+2026-01-28 18:20:07,562 - __main__ - INFO - Starting GTT sell order scheduling process
+2026-01-28 18:20:07,688 - __main__ - INFO - Successfully connected to Kite Connect
+2026-01-28 18:20:07,688 - __main__ - INFO - Checking for existing GTT SELL orders for HDFCBANK...
+2026-01-28 18:20:07,795 - __main__ - INFO - No existing SELL GTT orders found for HDFCBANK
+2026-01-28 18:20:10,383 - __main__ - INFO - Placing GTT sell order...
+2026-01-28 18:20:10,678 - __main__ - WARNING - Could not fetch current price: Insufficient permission for that call.
+2026-01-28 18:20:10,679 - __main__ - INFO - Placing GTT order (attempt 1): sell_price=941.8, trigger_price=942.3, current_price=941.3
+2026-01-28 18:20:10,781 - __main__ - ERROR - Attempt 1 failed: Trigger price was too close to the last price. (difference should be more than 0.25%)
+2026-01-28 18:20:10,781 - __main__ - WARNING - Trigger price too close to last price. Retrying (attempt 2)...
+2026-01-28 18:20:10,781 - __main__ - INFO - New prices - sell=942.27, trigger=942.77, price_increase=0.47
+2026-01-28 18:20:10,782 - __main__ - INFO - Placing GTT order (attempt 2): sell_price=942.27, trigger_price=942.77, current_price=941.3
+2026-01-28 18:20:10,885 - __main__ - ERROR - Attempt 2 failed: Trigger price was too close to the last price. (difference should be more than 0.25%)
+2026-01-28 18:20:10,885 - __main__ - WARNING - Trigger price too close to last price. Retrying (attempt 3)...
+2026-01-28 18:20:10,885 - __main__ - INFO - New prices - sell=942.74, trigger=943.24, price_increase=0.47
+2026-01-28 18:20:10,886 - __main__ - INFO - Placing GTT order (attempt 3): sell_price=942.74, trigger_price=943.24, current_price=941.3
+2026-01-28 18:20:10,969 - __main__ - ERROR - Attempt 3 failed: Trigger price was too close to the last price. (difference should be more than 0.25%)
+2026-01-28 18:20:10,969 - __main__ - WARNING - Trigger price too close to last price. Retrying (attempt 4)...
+2026-01-28 18:20:10,969 - __main__ - INFO - New prices - sell=943.21, trigger=943.71, price_increase=0.47
+2026-01-28 18:20:10,969 - __main__ - INFO - Placing GTT order (attempt 4): sell_price=943.21, trigger_price=943.71, current_price=941.3
+2026-01-28 18:20:11,051 - __main__ - INFO - GTT sell order placed successfully on attempt 4. Trigger ID: 303996609
+2026-01-28 18:20:11,052 - __main__ - INFO - GTT sell order scheduling process completed successfully
+2026-01-28 18:20:22,002 - __main__ - INFO - Initializing GTT Sell Order Scheduler for HDFCBANK
+2026-01-28 18:20:22,002 - __main__ - INFO - Target net profit: 1.5%
+2026-01-28 18:20:22,002 - __main__ - INFO - Starting GTT sell order scheduling process
+2026-01-28 18:20:22,167 - __main__ - INFO - Successfully connected to Kite Connect
+2026-01-28 18:20:22,167 - __main__ - INFO - Checking for existing GTT SELL orders for HDFCBANK...
+2026-01-28 18:20:38,811 - __main__ - INFO - Deleted GTT order 303996609
+2026-01-28 18:20:38,811 - __main__ - INFO - Successfully deleted all 1 existing SELL orders
+2026-01-28 18:20:47,827 - __main__ - INFO - Placing GTT sell order...
+2026-01-28 18:20:48,080 - __main__ - WARNING - Could not fetch current price: Insufficient permission for that call.
+2026-01-28 18:20:48,081 - __main__ - INFO - Placing GTT order (attempt 1): sell_price=946.4, trigger_price=946.9, current_price=945.9
+2026-01-28 18:20:48,188 - __main__ - ERROR - Attempt 1 failed: Trigger price was too close to the last price. (difference should be more than 0.25%)
+2026-01-28 18:20:48,188 - __main__ - WARNING - Trigger price too close to last price. Retrying (attempt 2)...
+2026-01-28 18:20:48,188 - __main__ - INFO - New prices - sell=946.87, trigger=947.37, price_increase=0.47
+2026-01-28 18:20:48,189 - __main__ - INFO - Placing GTT order (attempt 2): sell_price=946.87, trigger_price=947.37, current_price=945.9
+2026-01-28 18:20:48,287 - __main__ - ERROR - Attempt 2 failed: Trigger price was too close to the last price. (difference should be more than 0.25%)
+2026-01-28 18:20:48,287 - __main__ - WARNING - Trigger price too close to last price. Retrying (attempt 3)...
+2026-01-28 18:20:48,287 - __main__ - INFO - New prices - sell=947.34, trigger=947.84, price_increase=0.47
+2026-01-28 18:20:48,288 - __main__ - INFO - Placing GTT order (attempt 3): sell_price=947.34, trigger_price=947.84, current_price=945.9
+2026-01-28 18:20:48,530 - __main__ - ERROR - Attempt 3 failed: Trigger price was too close to the last price. (difference should be more than 0.25%)
+2026-01-28 18:20:48,530 - __main__ - WARNING - Trigger price too close to last price. Retrying (attempt 4)...
+2026-01-28 18:20:48,530 - __main__ - INFO - New prices - sell=947.81, trigger=948.31, price_increase=0.47
+2026-01-28 18:20:48,532 - __main__ - INFO - Placing GTT order (attempt 4): sell_price=947.81, trigger_price=948.31, current_price=945.9
+2026-01-28 18:20:48,650 - __main__ - INFO - GTT sell order placed successfully on attempt 4. Trigger ID: 303996648
+2026-01-28 18:20:48,650 - __main__ - INFO - GTT sell order scheduling process completed successfully
+2026-01-28 18:21:02,226 - __main__ - INFO - Initializing GTT Sell Order Scheduler for HDFCBANK
+2026-01-28 18:21:02,226 - __main__ - INFO - Target net profit: 1.0%
+2026-01-28 18:21:02,226 - __main__ - INFO - Starting GTT sell order scheduling process
+2026-01-28 18:21:02,392 - __main__ - INFO - Successfully connected to Kite Connect
+2026-01-28 18:21:02,392 - __main__ - INFO - Checking for existing GTT SELL orders for HDFCBANK...
+2026-01-28 18:21:05,500 - __main__ - INFO - Deleted GTT order 303996648
+2026-01-28 18:21:05,501 - __main__ - INFO - Successfully deleted all 1 existing SELL orders
+2026-01-28 18:21:08,376 - __main__ - INFO - Placing GTT sell order...
+2026-01-28 18:21:08,690 - __main__ - WARNING - Could not fetch current price: Insufficient permission for that call.
+2026-01-28 18:21:08,692 - __main__ - INFO - Placing GTT order (attempt 1): sell_price=941.8, trigger_price=942.3, current_price=941.3
+2026-01-28 18:21:08,776 - __main__ - ERROR - Attempt 1 failed: Trigger price was too close to the last price. (difference should be more than 0.25%)
+2026-01-28 18:21:08,776 - __main__ - WARNING - Trigger price too close to last price. Retrying (attempt 2)...
+2026-01-28 18:21:08,776 - __main__ - INFO - New prices - sell=942.27, trigger=942.77, price_increase=0.47
+2026-01-28 18:21:08,777 - __main__ - INFO - Placing GTT order (attempt 2): sell_price=942.27, trigger_price=942.77, current_price=941.3
+2026-01-28 18:21:08,879 - __main__ - ERROR - Attempt 2 failed: Trigger price was too close to the last price. (difference should be more than 0.25%)
+2026-01-28 18:21:08,879 - __main__ - WARNING - Trigger price too close to last price. Retrying (attempt 3)...
+2026-01-28 18:21:08,879 - __main__ - INFO - New prices - sell=942.74, trigger=943.24, price_increase=0.47
+2026-01-28 18:21:08,880 - __main__ - INFO - Placing GTT order (attempt 3): sell_price=942.74, trigger_price=943.24, current_price=941.3
+2026-01-28 18:21:08,967 - __main__ - ERROR - Attempt 3 failed: Trigger price was too close to the last price. (difference should be more than 0.25%)
+2026-01-28 18:21:08,967 - __main__ - WARNING - Trigger price too close to last price. Retrying (attempt 4)...
+2026-01-28 18:21:08,967 - __main__ - INFO - New prices - sell=943.21, trigger=943.71, price_increase=0.47
+2026-01-28 18:21:08,968 - __main__ - INFO - Placing GTT order (attempt 4): sell_price=943.21, trigger_price=943.71, current_price=941.3
+2026-01-28 18:21:09,099 - __main__ - INFO - GTT sell order placed successfully on attempt 4. Trigger ID: 303996667
+2026-01-28 18:21:09,100 - __main__ - INFO - GTT sell order scheduling process completed successfully
+2026-01-28 18:26:52,663 - __main__ - INFO - Initializing GTT Sell Order Scheduler for HDFCBANK
+2026-01-28 18:26:52,664 - __main__ - INFO - Target net profit: 1.0%
+2026-01-28 18:26:52,664 - __main__ - INFO - Starting GTT sell order scheduling process
+2026-01-28 18:26:52,831 - __main__ - INFO - Successfully connected to Kite Connect
+2026-01-28 18:26:52,831 - __main__ - INFO - Checking for existing GTT SELL orders for HDFCBANK...
+2026-01-28 18:26:58,428 - __main__ - INFO - Deleted GTT order 303996667
+2026-01-28 18:26:58,428 - __main__ - INFO - Successfully deleted all 1 existing SELL orders
+2026-01-28 18:27:06,910 - __main__ - INFO - Placing GTT sell order...
+2026-01-28 18:27:07,211 - __main__ - WARNING - Could not fetch current price: Insufficient permission for that call.
+2026-01-28 18:27:07,212 - __main__ - INFO - Placing GTT order (attempt 1): sell_price=941.8, trigger_price=942.3, current_price=941.3
+2026-01-28 18:27:07,305 - __main__ - ERROR - Attempt 1 failed: Trigger price was too close to the last price. (difference should be more than 0.25%)
+2026-01-28 18:27:07,305 - __main__ - WARNING - Trigger price too close to last price. Retrying (attempt 2)...
+2026-01-28 18:27:07,305 - __main__ - INFO - New prices - sell=942.27, trigger=942.77, price_increase=0.47
+2026-01-28 18:27:07,306 - __main__ - INFO - Placing GTT order (attempt 2): sell_price=942.27, trigger_price=942.77, current_price=941.3
+2026-01-28 18:27:07,429 - __main__ - ERROR - Attempt 2 failed: Trigger price was too close to the last price. (difference should be more than 0.25%)
+2026-01-28 18:27:07,429 - __main__ - WARNING - Trigger price too close to last price. Retrying (attempt 3)...
+2026-01-28 18:27:07,429 - __main__ - INFO - New prices - sell=942.74, trigger=943.24, price_increase=0.47
+2026-01-28 18:27:07,430 - __main__ - INFO - Placing GTT order (attempt 3): sell_price=942.74, trigger_price=943.24, current_price=941.3
+2026-01-28 18:27:07,547 - __main__ - ERROR - Attempt 3 failed: Trigger price was too close to the last price. (difference should be more than 0.25%)
+2026-01-28 18:27:07,547 - __main__ - WARNING - Trigger price too close to last price. Retrying (attempt 4)...
+2026-01-28 18:27:07,547 - __main__ - INFO - New prices - sell=943.21, trigger=943.71, price_increase=0.47
+2026-01-28 18:27:07,548 - __main__ - INFO - Placing GTT order (attempt 4): sell_price=943.21, trigger_price=943.71, current_price=941.3
+2026-01-28 18:27:07,675 - __main__ - INFO - GTT sell order placed successfully on attempt 4. Trigger ID: 303997004
+2026-01-28 18:27:07,676 - __main__ - INFO - GTT sell order scheduling process completed successfully

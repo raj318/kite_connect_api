@@ -1,0 +1,95 @@
+2026-01-26 12:09:09,130 - __main__ - INFO - Price difference configured: 0.5%
+2026-01-26 12:09:09,130 - __main__ - INFO - Start quantity configured: 2
+2026-01-26 12:09:09,130 - __main__ - INFO - Initializing Hybrid Order Scheduler for HINDALCO
+2026-01-26 12:09:09,130 - __main__ - INFO - Order count: 10, Current price: Rs.952.00, Max quantity: 100
+2026-01-26 12:09:09,130 - __main__ - INFO - Price difference: 0.5%
+2026-01-26 12:09:09,130 - __main__ - INFO - Configuration loaded successfully
+2026-01-26 12:09:09,131 - __main__ - INFO - Starting hybrid order scheduling process
+2026-01-26 12:09:32,789 - __main__ - INFO - Price difference configured: 0.5%
+2026-01-26 12:09:32,789 - __main__ - INFO - Start quantity configured: 2
+2026-01-26 12:09:32,789 - __main__ - INFO - Initializing Hybrid Order Scheduler for HINDALCO
+2026-01-26 12:09:32,789 - __main__ - INFO - Order count: 10, Current price: Rs.952.00, Max quantity: 100
+2026-01-26 12:09:32,789 - __main__ - INFO - Price difference: 0.5%
+2026-01-26 12:09:32,789 - __main__ - INFO - Configuration loaded successfully
+2026-01-26 12:09:32,790 - __main__ - INFO - Starting hybrid order scheduling process
+2026-01-26 12:09:32,888 - __main__ - INFO - Successfully connected to Kite Connect
+2026-01-26 12:09:32,888 - __main__ - WARNING - pytz not available, assuming market is closed - will use LIMIT order for first order
+2026-01-26 12:09:32,888 - __main__ - INFO - Using provided current price as base: Rs.952.00
+2026-01-26 12:09:32,888 - __main__ - INFO - Market is closed - skipping first order and starting with GTT orders
+2026-01-26 12:09:32,888 - __main__ - INFO - Order 1: SKIPPED (Market closed - AMO not supported)
+2026-01-26 12:09:32,888 - __main__ - INFO - Order 2: Price: Rs.950.80, Trigger: Rs.949.90, Type: GTT ORDER, Quantity: 2, Value: Rs.1901.60
+2026-01-26 12:09:32,888 - __main__ - INFO - Order 3: Price: Rs.946.10, Trigger: Rs.945.10, Type: GTT ORDER, Quantity: 3, Value: Rs.2838.20
+2026-01-26 12:09:32,888 - __main__ - INFO - Order 4: Price: Rs.941.30, Trigger: Rs.940.30, Type: GTT ORDER, Quantity: 4, Value: Rs.3765.20
+2026-01-26 12:09:32,888 - __main__ - INFO - Order 5: Price: Rs.936.50, Trigger: Rs.935.60, Type: GTT ORDER, Quantity: 5, Value: Rs.4682.60
+2026-01-26 12:09:32,888 - __main__ - INFO - Order 6: Price: Rs.931.80, Trigger: Rs.930.80, Type: GTT ORDER, Quantity: 6, Value: Rs.5590.60
+2026-01-26 12:09:32,888 - __main__ - INFO - Order 7: Price: Rs.927.00, Trigger: Rs.926.10, Type: GTT ORDER, Quantity: 7, Value: Rs.6489.10
+2026-01-26 12:09:32,888 - __main__ - INFO - Order 8: Price: Rs.922.20, Trigger: Rs.921.30, Type: GTT ORDER, Quantity: 8, Value: Rs.7378.00
+2026-01-26 12:09:32,888 - __main__ - INFO - Order 9: Price: Rs.917.50, Trigger: Rs.916.60, Type: GTT ORDER, Quantity: 9, Value: Rs.8257.40
+2026-01-26 12:09:32,888 - __main__ - INFO - Order 10: Price: Rs.912.70, Trigger: Rs.911.80, Type: GTT ORDER, Quantity: 10, Value: Rs.9127.30
+2026-01-26 12:10:38,865 - __main__ - INFO - Order placement cancelled by user
+2026-01-26 12:11:50,122 - __main__ - INFO - Price difference configured: 0.5%
+2026-01-26 12:11:50,122 - __main__ - INFO - Start quantity configured: 2
+2026-01-26 12:11:50,122 - __main__ - INFO - Initializing Hybrid Order Scheduler for HINDALCO
+2026-01-26 12:11:50,122 - __main__ - INFO - Order count: 10, Current price: Rs.952.50, Max quantity: 100
+2026-01-26 12:11:50,122 - __main__ - INFO - Price difference: 0.5%
+2026-01-26 12:11:50,123 - __main__ - INFO - Configuration loaded successfully
+2026-01-26 12:11:50,123 - __main__ - INFO - Starting hybrid order scheduling process
+2026-01-26 12:11:50,251 - __main__ - INFO - Successfully connected to Kite Connect
+2026-01-26 12:11:50,251 - __main__ - WARNING - pytz not available, assuming market is closed - will use LIMIT order for first order
+2026-01-26 12:11:50,252 - __main__ - INFO - Using provided current price as base: Rs.952.50
+2026-01-26 12:11:50,252 - __main__ - INFO - Market is closed - skipping first order and starting with GTT orders
+2026-01-26 12:11:50,252 - __main__ - INFO - Order 1: SKIPPED (Market closed - AMO not supported)
+2026-01-26 12:11:50,252 - __main__ - INFO - Order 2: Price: Rs.951.30, Trigger: Rs.950.40, Type: GTT ORDER, Quantity: 2, Value: Rs.1902.60
+2026-01-26 12:11:50,252 - __main__ - INFO - Order 3: Price: Rs.946.50, Trigger: Rs.945.60, Type: GTT ORDER, Quantity: 3, Value: Rs.2839.60
+2026-01-26 12:11:50,252 - __main__ - INFO - Order 4: Price: Rs.941.80, Trigger: Rs.940.80, Type: GTT ORDER, Quantity: 4, Value: Rs.3767.10
+2026-01-26 12:11:50,252 - __main__ - INFO - Order 5: Price: Rs.937.00, Trigger: Rs.936.10, Type: GTT ORDER, Quantity: 5, Value: Rs.4685.10
+2026-01-26 12:11:50,252 - __main__ - INFO - Order 6: Price: Rs.932.30, Trigger: Rs.931.30, Type: GTT ORDER, Quantity: 6, Value: Rs.5593.60
+2026-01-26 12:11:50,252 - __main__ - INFO - Order 7: Price: Rs.927.50, Trigger: Rs.926.60, Type: GTT ORDER, Quantity: 7, Value: Rs.6492.50
+2026-01-26 12:11:50,252 - __main__ - INFO - Order 8: Price: Rs.922.70, Trigger: Rs.921.80, Type: GTT ORDER, Quantity: 8, Value: Rs.7381.90
+2026-01-26 12:11:50,252 - __main__ - INFO - Order 9: Price: Rs.918.00, Trigger: Rs.917.10, Type: GTT ORDER, Quantity: 9, Value: Rs.8261.70
+2026-01-26 12:11:50,252 - __main__ - INFO - Order 10: Price: Rs.913.20, Trigger: Rs.912.30, Type: GTT ORDER, Quantity: 10, Value: Rs.9132.10
+2026-01-26 12:12:03,815 - __main__ - INFO - Order placement cancelled by user
+2026-01-26 12:12:19,638 - __main__ - INFO - Price difference configured: 0.5%
+2026-01-26 12:12:19,638 - __main__ - INFO - Start quantity configured: 2
+2026-01-26 12:12:19,638 - __main__ - INFO - Initializing Hybrid Order Scheduler for HINDALCO
+2026-01-26 12:12:19,638 - __main__ - INFO - Order count: 10, Current price: Rs.952.50, Max quantity: 100
+2026-01-26 12:12:19,638 - __main__ - INFO - Price difference: 0.5%
+2026-01-26 12:12:19,639 - __main__ - INFO - Configuration loaded successfully
+2026-01-26 12:12:19,640 - __main__ - INFO - Starting hybrid order scheduling process
+2026-01-26 12:12:19,771 - __main__ - INFO - Successfully connected to Kite Connect
+2026-01-26 12:12:19,772 - __main__ - WARNING - pytz not available, assuming market is closed - will use LIMIT order for first order
+2026-01-26 12:12:19,772 - __main__ - INFO - Using provided current price as base: Rs.952.50
+2026-01-26 12:12:19,772 - __main__ - INFO - Market is closed - skipping first order and starting with GTT orders
+2026-01-26 12:12:19,772 - __main__ - INFO - Order 1: SKIPPED (Market closed - AMO not supported)
+2026-01-26 12:12:19,772 - __main__ - INFO - Order 2: Price: Rs.951.30, Trigger: Rs.950.40, Type: GTT ORDER, Quantity: 2, Value: Rs.1902.60
+2026-01-26 12:12:19,772 - __main__ - INFO - Order 3: Price: Rs.946.50, Trigger: Rs.945.60, Type: GTT ORDER, Quantity: 3, Value: Rs.2839.60
+2026-01-26 12:12:19,772 - __main__ - INFO - Order 4: Price: Rs.941.80, Trigger: Rs.940.80, Type: GTT ORDER, Quantity: 4, Value: Rs.3767.10
+2026-01-26 12:12:19,772 - __main__ - INFO - Order 5: Price: Rs.937.00, Trigger: Rs.936.10, Type: GTT ORDER, Quantity: 5, Value: Rs.4685.10
+2026-01-26 12:12:19,772 - __main__ - INFO - Order 6: Price: Rs.932.30, Trigger: Rs.931.30, Type: GTT ORDER, Quantity: 6, Value: Rs.5593.60
+2026-01-26 12:12:19,772 - __main__ - INFO - Order 7: Price: Rs.927.50, Trigger: Rs.926.60, Type: GTT ORDER, Quantity: 7, Value: Rs.6492.50
+2026-01-26 12:12:19,772 - __main__ - INFO - Order 8: Price: Rs.922.70, Trigger: Rs.921.80, Type: GTT ORDER, Quantity: 8, Value: Rs.7381.90
+2026-01-26 12:12:19,772 - __main__ - INFO - Order 9: Price: Rs.918.00, Trigger: Rs.917.10, Type: GTT ORDER, Quantity: 9, Value: Rs.8261.70
+2026-01-26 12:12:19,772 - __main__ - INFO - Order 10: Price: Rs.913.20, Trigger: Rs.912.30, Type: GTT ORDER, Quantity: 10, Value: Rs.9132.10
+2026-01-26 12:13:07,198 - __main__ - INFO - Placing orders...
+2026-01-26 12:13:07,199 - __main__ - INFO - Skipping order 1 - Market closed, AMO not supported
+2026-01-26 12:13:07,199 - __main__ - INFO - Order 1 skipped successfully
+2026-01-26 12:13:07,199 - __main__ - INFO - Placing GTT order 2 for HINDALCO
+2026-01-26 12:13:07,381 - __main__ - INFO - GTT order 2 placed successfully with trigger ID: 303575945
+2026-01-26 12:13:07,381 - __main__ - INFO - Placing GTT order 3 for HINDALCO
+2026-01-26 12:13:07,596 - __main__ - INFO - GTT order 3 placed successfully with trigger ID: 303575946
+2026-01-26 12:13:07,596 - __main__ - INFO - Placing GTT order 4 for HINDALCO
+2026-01-26 12:13:07,812 - __main__ - INFO - GTT order 4 placed successfully with trigger ID: 303575947
+2026-01-26 12:13:07,812 - __main__ - INFO - Placing GTT order 5 for HINDALCO
+2026-01-26 12:13:08,008 - __main__ - INFO - GTT order 5 placed successfully with trigger ID: 303575948
+2026-01-26 12:13:08,009 - __main__ - INFO - Placing GTT order 6 for HINDALCO
+2026-01-26 12:13:08,203 - __main__ - INFO - GTT order 6 placed successfully with trigger ID: 303575949
+2026-01-26 12:13:08,203 - __main__ - INFO - Placing GTT order 7 for HINDALCO
+2026-01-26 12:13:08,429 - __main__ - INFO - GTT order 7 placed successfully with trigger ID: 303575950
+2026-01-26 12:13:08,429 - __main__ - INFO - Placing GTT order 8 for HINDALCO
+2026-01-26 12:13:08,612 - __main__ - INFO - GTT order 8 placed successfully with trigger ID: 303575951
+2026-01-26 12:13:08,612 - __main__ - INFO - Placing GTT order 9 for HINDALCO
+2026-01-26 12:13:08,789 - __main__ - INFO - GTT order 9 placed successfully with trigger ID: 303575952
+2026-01-26 12:13:08,789 - __main__ - INFO - Placing GTT order 10 for HINDALCO
+2026-01-26 12:13:08,965 - __main__ - INFO - GTT order 10 placed successfully with trigger ID: 303575953
+2026-01-26 12:13:08,966 - __main__ - INFO - Order summary saved to workdir/orders/HINDALCO_gtt_orders_20260126_121308.json
+2026-01-26 12:13:08,966 - __main__ - INFO - Hybrid order scheduling process completed successfully

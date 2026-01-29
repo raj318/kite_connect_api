@@ -1,0 +1,112 @@
+2026-01-29 10:04:12,647 - __main__ - INFO - Using steps from config: 10
+2026-01-29 10:04:12,647 - __main__ - INFO - Using max_fall_pct from config: 10.0
+2026-01-29 10:04:12,647 - __main__ - INFO - Using fall_power from config: 1.7
+2026-01-29 10:04:12,647 - __main__ - INFO - Using size_power from config: 1.6
+2026-01-29 10:04:12,647 - __main__ - INFO - Using size_multiplier from config: 3.8
+2026-01-29 10:04:12,647 - __main__ - INFO - Convex accumulation parameters:
+2026-01-29 10:04:12,647 - __main__ - INFO -   Steps: 10
+2026-01-29 10:04:12,647 - __main__ - INFO -   Base shares: 10
+2026-01-29 10:04:12,647 - __main__ - INFO -   Max fall: 10.0%
+2026-01-29 10:04:12,647 - __main__ - INFO -   Fall power: 1.7
+2026-01-29 10:04:12,647 - __main__ - INFO -   Size power: 1.6
+2026-01-29 10:04:12,647 - __main__ - INFO -   Size multiplier: 3.8
+2026-01-29 10:04:12,647 - __main__ - INFO - Initializing Convex Accumulation Order Scheduler for SHRIRAMFIN
+2026-01-29 10:04:12,647 - __main__ - INFO - Steps: 10, Current price: Rs.1023.0
+2026-01-29 10:04:12,648 - __main__ - INFO - Configuration loaded successfully
+2026-01-29 10:04:12,649 - __main__ - INFO - Starting convex accumulation order scheduling process
+2026-01-29 10:04:12,777 - __main__ - INFO - Successfully connected to Kite Connect
+2026-01-29 10:04:12,777 - __main__ - WARNING - pytz not available, assuming market is closed - will skip first order
+2026-01-29 10:04:12,778 - __main__ - INFO - Using provided current price as base: Rs.1023.0
+2026-01-29 10:04:12,778 - __main__ - INFO - Market is closed - skipping first order and starting with GTT orders
+2026-01-29 10:04:12,778 - __main__ - INFO - Order 1: SKIPPED (Market closed - AMO not supported)
+2026-01-29 10:04:12,778 - __main__ - INFO - Order 2: Price: Rs.1020.6, Trigger: Rs.1019.6, Type: GTT ORDER, Fall: 0.24%, Quantity: 11, Value: Rs.11226.6
+2026-01-29 10:04:12,778 - __main__ - INFO - Order 3: Price: Rs.1015.1, Trigger: Rs.1014.1, Type: GTT ORDER, Fall: 0.78%, Quantity: 13, Value: Rs.13196.3
+2026-01-29 10:04:12,778 - __main__ - INFO - Order 4: Price: Rs.1007.2, Trigger: Rs.1006.2, Type: GTT ORDER, Fall: 1.54%, Quantity: 17, Value: Rs.17122.4
+2026-01-29 10:04:12,778 - __main__ - INFO - Order 5: Price: Rs.997.2, Trigger: Rs.996.2, Type: GTT ORDER, Fall: 2.52%, Quantity: 20, Value: Rs.19944.0
+2026-01-29 10:04:12,778 - __main__ - INFO - Order 6: Price: Rs.985.3, Trigger: Rs.984.3, Type: GTT ORDER, Fall: 3.68%, Quantity: 25, Value: Rs.24632.5
+2026-01-29 10:04:12,778 - __main__ - INFO - Order 7: Price: Rs.971.7, Trigger: Rs.970.7, Type: GTT ORDER, Fall: 5.02%, Quantity: 30, Value: Rs.29151.0
+2026-01-29 10:04:12,778 - __main__ - INFO - Order 8: Price: Rs.956.3, Trigger: Rs.955.3, Type: GTT ORDER, Fall: 6.52%, Quantity: 35, Value: Rs.33470.5
+2026-01-29 10:04:12,778 - __main__ - INFO - Order 9: Price: Rs.939.3, Trigger: Rs.938.4, Type: GTT ORDER, Fall: 8.19%, Quantity: 41, Value: Rs.38511.3
+2026-01-29 10:04:12,778 - __main__ - INFO - Order 10: Price: Rs.920.7, Trigger: Rs.919.8, Type: GTT ORDER, Fall: 10.00%, Quantity: 48, Value: Rs.44193.6
+2026-01-29 10:04:17,409 - __main__ - INFO - Order placement cancelled by user
+2026-01-29 10:04:21,472 - __main__ - INFO - Using steps from config: 10
+2026-01-29 10:04:21,472 - __main__ - INFO - Using max_fall_pct from config: 10.0
+2026-01-29 10:04:21,472 - __main__ - INFO - Using fall_power from config: 1.7
+2026-01-29 10:04:21,472 - __main__ - INFO - Using size_power from config: 1.6
+2026-01-29 10:04:21,472 - __main__ - INFO - Using size_multiplier from config: 3.8
+2026-01-29 10:04:21,472 - __main__ - INFO - Convex accumulation parameters:
+2026-01-29 10:04:21,472 - __main__ - INFO -   Steps: 10
+2026-01-29 10:04:21,472 - __main__ - INFO -   Base shares: 10
+2026-01-29 10:04:21,472 - __main__ - INFO -   Max fall: 10.0%
+2026-01-29 10:04:21,472 - __main__ - INFO -   Fall power: 1.7
+2026-01-29 10:04:21,472 - __main__ - INFO -   Size power: 1.6
+2026-01-29 10:04:21,472 - __main__ - INFO -   Size multiplier: 3.8
+2026-01-29 10:04:21,472 - __main__ - INFO - Initializing Convex Accumulation Order Scheduler for SHRIRAMFIN
+2026-01-29 10:04:21,472 - __main__ - INFO - Steps: 10, Current price: Rs.1025.0
+2026-01-29 10:04:21,473 - __main__ - INFO - Configuration loaded successfully
+2026-01-29 10:04:21,474 - __main__ - INFO - Starting convex accumulation order scheduling process
+2026-01-29 10:04:21,601 - __main__ - INFO - Successfully connected to Kite Connect
+2026-01-29 10:04:21,601 - __main__ - WARNING - pytz not available, assuming market is closed - will skip first order
+2026-01-29 10:04:21,601 - __main__ - INFO - Using provided current price as base: Rs.1025.0
+2026-01-29 10:04:21,601 - __main__ - INFO - Market is closed - skipping first order and starting with GTT orders
+2026-01-29 10:04:21,601 - __main__ - INFO - Order 1: SKIPPED (Market closed - AMO not supported)
+2026-01-29 10:04:21,601 - __main__ - INFO - Order 2: Price: Rs.1022.6, Trigger: Rs.1021.6, Type: GTT ORDER, Fall: 0.24%, Quantity: 11, Value: Rs.11248.6
+2026-01-29 10:04:21,601 - __main__ - INFO - Order 3: Price: Rs.1017.1, Trigger: Rs.1016.1, Type: GTT ORDER, Fall: 0.78%, Quantity: 13, Value: Rs.13222.3
+2026-01-29 10:04:21,601 - __main__ - INFO - Order 4: Price: Rs.1009.2, Trigger: Rs.1008.2, Type: GTT ORDER, Fall: 1.54%, Quantity: 17, Value: Rs.17156.4
+2026-01-29 10:04:21,601 - __main__ - INFO - Order 5: Price: Rs.999.2, Trigger: Rs.998.2, Type: GTT ORDER, Fall: 2.52%, Quantity: 20, Value: Rs.19984.0
+2026-01-29 10:04:21,601 - __main__ - INFO - Order 6: Price: Rs.987.3, Trigger: Rs.986.3, Type: GTT ORDER, Fall: 3.68%, Quantity: 25, Value: Rs.24682.5
+2026-01-29 10:04:21,601 - __main__ - INFO - Order 7: Price: Rs.973.6, Trigger: Rs.972.6, Type: GTT ORDER, Fall: 5.02%, Quantity: 30, Value: Rs.29208.0
+2026-01-29 10:04:21,601 - __main__ - INFO - Order 8: Price: Rs.958.1, Trigger: Rs.957.1, Type: GTT ORDER, Fall: 6.52%, Quantity: 35, Value: Rs.33533.5
+2026-01-29 10:04:21,601 - __main__ - INFO - Order 9: Price: Rs.941.1, Trigger: Rs.940.2, Type: GTT ORDER, Fall: 8.19%, Quantity: 41, Value: Rs.38585.1
+2026-01-29 10:04:21,601 - __main__ - INFO - Order 10: Price: Rs.922.5, Trigger: Rs.921.6, Type: GTT ORDER, Fall: 10.00%, Quantity: 48, Value: Rs.44280.0
+2026-01-29 10:04:48,996 - __main__ - INFO - Placing orders...
+2026-01-29 10:04:48,997 - __main__ - INFO - Skipping order 1 - Market closed, AMO not supported
+2026-01-29 10:04:48,997 - __main__ - INFO - Order 1 skipped successfully
+2026-01-29 10:04:48,997 - __main__ - INFO - Placing GTT order 2 for SHRIRAMFIN
+2026-01-29 10:04:49,181 - __main__ - ERROR - Failed to place order 2 (GTT): Trigger already met.
+2026-01-29 10:04:49,181 - __main__ - ERROR - Order details: Price: Rs.1022.6, Quantity: 11
+2026-01-29 10:04:49,183 - __main__ - INFO - Placing GTT order 3 for SHRIRAMFIN
+2026-01-29 10:04:49,411 - __main__ - INFO - GTT order 3 placed successfully with trigger ID: 304085205
+2026-01-29 10:04:49,411 - __main__ - INFO - Placing GTT order 4 for SHRIRAMFIN
+2026-01-29 10:04:49,597 - __main__ - INFO - GTT order 4 placed successfully with trigger ID: 304085207
+2026-01-29 10:04:49,597 - __main__ - INFO - Placing GTT order 5 for SHRIRAMFIN
+2026-01-29 10:04:49,790 - __main__ - INFO - GTT order 5 placed successfully with trigger ID: 304085208
+2026-01-29 10:04:49,790 - __main__ - INFO - Placing GTT order 6 for SHRIRAMFIN
+2026-01-29 10:04:49,972 - __main__ - INFO - GTT order 6 placed successfully with trigger ID: 304085213
+2026-01-29 10:04:49,972 - __main__ - INFO - Placing GTT order 7 for SHRIRAMFIN
+2026-01-29 10:04:50,127 - __main__ - INFO - GTT order 7 placed successfully with trigger ID: 304085214
+2026-01-29 10:04:50,127 - __main__ - INFO - Placing GTT order 8 for SHRIRAMFIN
+2026-01-29 10:04:50,295 - __main__ - INFO - GTT order 8 placed successfully with trigger ID: 304085216
+2026-01-29 10:04:50,295 - __main__ - INFO - Placing GTT order 9 for SHRIRAMFIN
+2026-01-29 10:04:50,486 - __main__ - INFO - GTT order 9 placed successfully with trigger ID: 304085220
+2026-01-29 10:04:50,486 - __main__ - INFO - Placing GTT order 10 for SHRIRAMFIN
+2026-01-29 10:04:50,673 - __main__ - INFO - GTT order 10 placed successfully with trigger ID: 304085221
+2026-01-29 10:04:50,673 - __main__ - INFO - Order summary saved to workdir/orders/SHRIRAMFIN_gtt_orders_20260129_100450.json
+2026-01-29 10:04:50,674 - __main__ - INFO - Convex accumulation order scheduling process completed successfully
+2026-01-29 12:22:19,286 - __main__ - INFO - Initializing GTT Sell Order Scheduler for SHRIRAMFIN
+2026-01-29 12:22:19,286 - __main__ - INFO - Target net profit: 1.0%
+2026-01-29 12:22:19,286 - __main__ - INFO - Starting GTT sell order scheduling process
+2026-01-29 12:22:19,425 - __main__ - INFO - Successfully connected to Kite Connect
+2026-01-29 12:22:19,425 - __main__ - INFO - Checking for existing GTT SELL orders for SHRIRAMFIN...
+2026-01-29 12:22:19,497 - __main__ - INFO - No existing SELL GTT orders found for SHRIRAMFIN
+2026-01-29 12:22:39,853 - __main__ - INFO - Placing GTT sell order...
+2026-01-29 12:22:40,123 - __main__ - WARNING - Could not fetch current price: Insufficient permission for that call.
+2026-01-29 12:22:40,125 - __main__ - INFO - Placing GTT order (attempt 1): sell_price=1028.4, trigger_price=1028.9, current_price=1027.9
+2026-01-29 12:22:40,220 - __main__ - ERROR - Attempt 1 failed: Trigger price was too close to the last price. (difference should be more than 0.25%)
+2026-01-29 12:22:40,220 - __main__ - WARNING - Trigger price too close to last price. Retrying (attempt 2)...
+2026-01-29 12:22:40,220 - __main__ - INFO - New prices - sell=1028.91, trigger=1029.41, price_increase=0.51
+2026-01-29 12:22:40,221 - __main__ - INFO - Placing GTT order (attempt 2): sell_price=1028.91, trigger_price=1029.41, current_price=1027.9
+2026-01-29 12:22:40,313 - __main__ - ERROR - Attempt 2 failed: Trigger price was too close to the last price. (difference should be more than 0.25%)
+2026-01-29 12:22:40,313 - __main__ - WARNING - Trigger price too close to last price. Retrying (attempt 3)...
+2026-01-29 12:22:40,313 - __main__ - INFO - New prices - sell=1029.42, trigger=1029.92, price_increase=0.51
+2026-01-29 12:22:40,314 - __main__ - INFO - Placing GTT order (attempt 3): sell_price=1029.42, trigger_price=1029.92, current_price=1027.9
+2026-01-29 12:22:40,400 - __main__ - ERROR - Attempt 3 failed: Trigger price was too close to the last price. (difference should be more than 0.25%)
+2026-01-29 12:22:40,401 - __main__ - WARNING - Trigger price too close to last price. Retrying (attempt 4)...
+2026-01-29 12:22:40,401 - __main__ - INFO - New prices - sell=1029.93, trigger=1030.43, price_increase=0.51
+2026-01-29 12:22:40,402 - __main__ - INFO - Placing GTT order (attempt 4): sell_price=1029.93, trigger_price=1030.43, current_price=1027.9
+2026-01-29 12:22:40,488 - __main__ - ERROR - Attempt 4 failed: Trigger price was too close to the last price. (difference should be more than 0.25%)
+2026-01-29 12:22:40,488 - __main__ - WARNING - Trigger price too close to last price. Retrying (attempt 5)...
+2026-01-29 12:22:40,488 - __main__ - INFO - New prices - sell=1030.44, trigger=1030.94, price_increase=0.51
+2026-01-29 12:22:40,490 - __main__ - INFO - Placing GTT order (attempt 5): sell_price=1030.44, trigger_price=1030.94, current_price=1027.9
+2026-01-29 12:22:40,572 - __main__ - INFO - GTT sell order placed successfully on attempt 5. Trigger ID: 304140925
+2026-01-29 12:22:40,573 - __main__ - INFO - GTT sell order scheduling process completed successfully

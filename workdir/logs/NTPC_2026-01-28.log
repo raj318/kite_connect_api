@@ -1,0 +1,66 @@
+2026-01-28 14:27:51,413 - __main__ - INFO - Price difference configured: 0.5%
+2026-01-28 14:27:51,413 - __main__ - INFO - Start quantity configured: 6
+2026-01-28 14:27:51,413 - __main__ - INFO - Initializing Hybrid Order Scheduler for NTPC
+2026-01-28 14:27:51,413 - __main__ - INFO - Order count: 10, Current price: Rs.348.87, Max quantity: 100
+2026-01-28 14:27:51,413 - __main__ - INFO - Price difference: 0.5%
+2026-01-28 14:27:51,413 - __main__ - INFO - Configuration loaded successfully
+2026-01-28 14:27:51,414 - __main__ - INFO - Starting hybrid order scheduling process
+2026-01-28 14:27:51,545 - __main__ - INFO - Successfully connected to Kite Connect
+2026-01-28 14:27:51,545 - __main__ - WARNING - pytz not available, assuming market is closed - will use LIMIT order for first order
+2026-01-28 14:27:51,545 - __main__ - INFO - Using provided current price as base: Rs.348.87
+2026-01-28 14:27:51,545 - __main__ - INFO - Market is closed - skipping first order and starting with GTT orders
+2026-01-28 14:27:51,545 - __main__ - INFO - Order 1: SKIPPED (Market closed - AMO not supported)
+2026-01-28 14:27:51,545 - __main__ - INFO - Order 2: Price: Rs.348.40, Trigger: Rs.348.10, Type: GTT ORDER, Quantity: 6, Value: Rs.2090.60
+2026-01-28 14:27:51,545 - __main__ - INFO - Order 3: Price: Rs.346.70, Trigger: Rs.346.30, Type: GTT ORDER, Quantity: 7, Value: Rs.2426.80
+2026-01-28 14:27:51,545 - __main__ - INFO - Order 4: Price: Rs.344.90, Trigger: Rs.344.60, Type: GTT ORDER, Quantity: 8, Value: Rs.2759.60
+2026-01-28 14:27:51,545 - __main__ - INFO - Order 5: Price: Rs.343.20, Trigger: Rs.342.90, Type: GTT ORDER, Quantity: 9, Value: Rs.3088.80
+2026-01-28 14:27:51,545 - __main__ - INFO - Order 6: Price: Rs.341.50, Trigger: Rs.341.10, Type: GTT ORDER, Quantity: 10, Value: Rs.3414.60
+2026-01-28 14:27:51,545 - __main__ - INFO - Order 7: Price: Rs.339.70, Trigger: Rs.339.40, Type: GTT ORDER, Quantity: 11, Value: Rs.3736.80
+2026-01-28 14:27:51,545 - __main__ - INFO - Order 8: Price: Rs.338.00, Trigger: Rs.337.60, Type: GTT ORDER, Quantity: 12, Value: Rs.4055.60
+2026-01-28 14:27:51,545 - __main__ - INFO - Order 9: Price: Rs.336.20, Trigger: Rs.335.90, Type: GTT ORDER, Quantity: 13, Value: Rs.4370.90
+2026-01-28 14:27:51,545 - __main__ - INFO - Order 10: Price: Rs.334.50, Trigger: Rs.334.10, Type: GTT ORDER, Quantity: 14, Value: Rs.4682.70
+2026-01-28 14:27:56,359 - __main__ - INFO - Order placement cancelled by user
+2026-01-28 14:28:05,741 - __main__ - INFO - Price difference configured: 0.5%
+2026-01-28 14:28:05,741 - __main__ - INFO - Start quantity configured: 6
+2026-01-28 14:28:05,741 - __main__ - INFO - Initializing Hybrid Order Scheduler for NTPC
+2026-01-28 14:28:05,741 - __main__ - INFO - Order count: 10, Current price: Rs.348.87, Max quantity: 100
+2026-01-28 14:28:05,741 - __main__ - INFO - Price difference: 0.5%
+2026-01-28 14:28:05,742 - __main__ - INFO - Configuration loaded successfully
+2026-01-28 14:28:05,742 - __main__ - INFO - Starting hybrid order scheduling process
+2026-01-28 14:28:05,855 - __main__ - INFO - Successfully connected to Kite Connect
+2026-01-28 14:28:05,855 - __main__ - WARNING - pytz not available, assuming market is closed - will use LIMIT order for first order
+2026-01-28 14:28:05,855 - __main__ - INFO - Using provided current price as base: Rs.348.87
+2026-01-28 14:28:05,855 - __main__ - INFO - Market is closed - skipping first order and starting with GTT orders
+2026-01-28 14:28:05,855 - __main__ - INFO - Order 1: SKIPPED (Market closed - AMO not supported)
+2026-01-28 14:28:05,855 - __main__ - INFO - Order 2: Price: Rs.348.40, Trigger: Rs.348.10, Type: GTT ORDER, Quantity: 6, Value: Rs.2090.60
+2026-01-28 14:28:05,855 - __main__ - INFO - Order 3: Price: Rs.346.70, Trigger: Rs.346.30, Type: GTT ORDER, Quantity: 7, Value: Rs.2426.80
+2026-01-28 14:28:05,855 - __main__ - INFO - Order 4: Price: Rs.344.90, Trigger: Rs.344.60, Type: GTT ORDER, Quantity: 8, Value: Rs.2759.60
+2026-01-28 14:28:05,855 - __main__ - INFO - Order 5: Price: Rs.343.20, Trigger: Rs.342.90, Type: GTT ORDER, Quantity: 9, Value: Rs.3088.80
+2026-01-28 14:28:05,855 - __main__ - INFO - Order 6: Price: Rs.341.50, Trigger: Rs.341.10, Type: GTT ORDER, Quantity: 10, Value: Rs.3414.60
+2026-01-28 14:28:05,855 - __main__ - INFO - Order 7: Price: Rs.339.70, Trigger: Rs.339.40, Type: GTT ORDER, Quantity: 11, Value: Rs.3736.80
+2026-01-28 14:28:05,855 - __main__ - INFO - Order 8: Price: Rs.338.00, Trigger: Rs.337.60, Type: GTT ORDER, Quantity: 12, Value: Rs.4055.60
+2026-01-28 14:28:05,855 - __main__ - INFO - Order 9: Price: Rs.336.20, Trigger: Rs.335.90, Type: GTT ORDER, Quantity: 13, Value: Rs.4370.90
+2026-01-28 14:28:05,855 - __main__ - INFO - Order 10: Price: Rs.334.50, Trigger: Rs.334.10, Type: GTT ORDER, Quantity: 14, Value: Rs.4682.70
+2026-01-28 14:28:07,536 - __main__ - INFO - Placing orders...
+2026-01-28 14:28:07,536 - __main__ - INFO - Skipping order 1 - Market closed, AMO not supported
+2026-01-28 14:28:07,537 - __main__ - INFO - Order 1 skipped successfully
+2026-01-28 14:28:07,537 - __main__ - INFO - Placing GTT order 2 for NTPC
+2026-01-28 14:28:07,747 - __main__ - INFO - GTT order 2 placed successfully with trigger ID: 303962683
+2026-01-28 14:28:07,747 - __main__ - INFO - Placing GTT order 3 for NTPC
+2026-01-28 14:28:07,958 - __main__ - INFO - GTT order 3 placed successfully with trigger ID: 303962684
+2026-01-28 14:28:07,958 - __main__ - INFO - Placing GTT order 4 for NTPC
+2026-01-28 14:28:08,132 - __main__ - INFO - GTT order 4 placed successfully with trigger ID: 303962685
+2026-01-28 14:28:08,132 - __main__ - INFO - Placing GTT order 5 for NTPC
+2026-01-28 14:28:08,305 - __main__ - INFO - GTT order 5 placed successfully with trigger ID: 303962686
+2026-01-28 14:28:08,305 - __main__ - INFO - Placing GTT order 6 for NTPC
+2026-01-28 14:28:08,491 - __main__ - INFO - GTT order 6 placed successfully with trigger ID: 303962687
+2026-01-28 14:28:08,491 - __main__ - INFO - Placing GTT order 7 for NTPC
+2026-01-28 14:28:08,659 - __main__ - INFO - GTT order 7 placed successfully with trigger ID: 303962688
+2026-01-28 14:28:08,659 - __main__ - INFO - Placing GTT order 8 for NTPC
+2026-01-28 14:28:08,826 - __main__ - INFO - GTT order 8 placed successfully with trigger ID: 303962691
+2026-01-28 14:28:08,826 - __main__ - INFO - Placing GTT order 9 for NTPC
+2026-01-28 14:28:08,999 - __main__ - INFO - GTT order 9 placed successfully with trigger ID: 303962692
+2026-01-28 14:28:08,999 - __main__ - INFO - Placing GTT order 10 for NTPC
+2026-01-28 14:28:09,177 - __main__ - INFO - GTT order 10 placed successfully with trigger ID: 303962693
+2026-01-28 14:28:09,177 - __main__ - INFO - Order summary saved to workdir/orders/NTPC_gtt_orders_20260128_142809.json
+2026-01-28 14:28:09,177 - __main__ - INFO - Hybrid order scheduling process completed successfully

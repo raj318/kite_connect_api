@@ -1,0 +1,40 @@
+2026-01-29 10:06:15,994 - __main__ - INFO - Initializing GTT Sell Order Scheduler for COALINDIA
+2026-01-29 10:06:15,995 - __main__ - INFO - Target net profit: 1.0%
+2026-01-29 10:06:15,995 - __main__ - INFO - Starting GTT sell order scheduling process
+2026-01-29 10:06:16,099 - __main__ - INFO - Successfully connected to Kite Connect
+2026-01-29 10:06:16,099 - __main__ - INFO - Checking for existing GTT SELL orders for COALINDIA...
+2026-01-29 10:06:16,178 - __main__ - INFO - No existing SELL GTT orders found for COALINDIA
+2026-01-29 10:06:26,487 - __main__ - INFO - Order placement cancelled by user
+2026-01-29 10:06:29,449 - __main__ - INFO - Initializing GTT Sell Order Scheduler for COALINDIA
+2026-01-29 10:06:29,449 - __main__ - INFO - Target net profit: 1.4%
+2026-01-29 10:06:29,449 - __main__ - INFO - Starting GTT sell order scheduling process
+2026-01-29 10:06:29,552 - __main__ - INFO - Successfully connected to Kite Connect
+2026-01-29 10:06:29,553 - __main__ - INFO - Checking for existing GTT SELL orders for COALINDIA...
+2026-01-29 10:06:29,631 - __main__ - INFO - No existing SELL GTT orders found for COALINDIA
+2026-01-29 10:06:36,075 - __main__ - INFO - Placing GTT sell order...
+2026-01-29 10:06:36,309 - __main__ - WARNING - Could not fetch current price: Insufficient permission for that call.
+2026-01-29 10:06:36,309 - __main__ - INFO - Placing GTT order (attempt 1): sell_price=448.2, trigger_price=448.7, current_price=447.7
+2026-01-29 10:06:36,406 - __main__ - ERROR - Attempt 1 failed: Trigger price was too close to the last price. (difference should be more than 0.25%)
+2026-01-29 10:06:36,406 - __main__ - WARNING - Trigger price too close to last price. Retrying (attempt 2)...
+2026-01-29 10:06:36,406 - __main__ - INFO - New prices - sell=448.42, trigger=448.92, price_increase=0.22
+2026-01-29 10:06:36,407 - __main__ - INFO - Placing GTT order (attempt 2): sell_price=448.42, trigger_price=448.92, current_price=447.7
+2026-01-29 10:06:36,493 - __main__ - INFO - GTT sell order placed successfully on attempt 2. Trigger ID: 304086146
+2026-01-29 10:06:36,494 - __main__ - INFO - GTT sell order scheduling process completed successfully
+2026-01-29 11:07:53,977 - __main__ - INFO - Initializing GTT Sell Order Scheduler for COALINDIA
+2026-01-29 11:07:53,977 - __main__ - INFO - Target net profit: 1.0%
+2026-01-29 11:07:53,977 - __main__ - INFO - Starting GTT sell order scheduling process
+2026-01-29 11:07:54,110 - __main__ - INFO - Successfully connected to Kite Connect
+2026-01-29 11:07:54,110 - __main__ - INFO - Checking for existing GTT SELL orders for COALINDIA...
+2026-01-29 11:07:54,210 - __main__ - INFO - No existing SELL GTT orders found for COALINDIA
+2026-01-29 11:12:12,263 - __main__ - INFO - Placing GTT sell order...
+2026-01-29 11:12:12,552 - __main__ - WARNING - Could not fetch current price: Insufficient permission for that call.
+2026-01-29 11:12:12,553 - __main__ - INFO - Placing GTT order (attempt 1): sell_price=446.4, trigger_price=446.9, current_price=445.9
+2026-01-29 11:12:12,650 - __main__ - ERROR - Attempt 1 failed: Trigger price was too close to the last price. (difference should be more than 0.25%)
+2026-01-29 11:12:12,650 - __main__ - WARNING - Trigger price too close to last price. Retrying (attempt 2)...
+2026-01-29 11:12:12,650 - __main__ - INFO - New prices - sell=446.62, trigger=447.12, price_increase=0.22
+2026-01-29 11:12:12,651 - __main__ - INFO - Placing GTT order (attempt 2): sell_price=446.62, trigger_price=447.12, current_price=445.9
+2026-01-29 11:12:12,736 - __main__ - ERROR - Attempt 2 failed: Trigger already met.
+2026-01-29 11:12:12,736 - __main__ - ERROR - Failed to place GTT sell order: Trigger already met.
+2026-01-29 11:12:12,736 - __main__ - ERROR - Failed to place GTT sell order: Trigger already met.
+2026-01-29 11:12:12,736 - __main__ - ERROR - GTT sell order scheduling failed: Trigger already met.
+2026-01-29 11:12:12,736 - __main__ - ERROR - Error type: InputException

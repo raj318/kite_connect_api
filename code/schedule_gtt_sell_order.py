@@ -11,14 +11,17 @@ It:
 5. Asks for approval before placing the GTT order
 
 Usage:
-    python schedule_gtt_sell_order.py <company_symbol> <net_profit_percentage> [--quantity N] [--yes]
+    python schedule_gtt_sell_order.py <company_symbol> <net_profit_percentage> [--quantity N] [--yes] [--charge-mode delivery|intraday]
 
 Examples:
     python schedule_gtt_sell_order.py ITC 2.5
     # Places GTT sell order to achieve 2.5% net profit on all ITC holdings
     
-    python schedule_gtt_sell_order.py RELIANCE 3.0 --quantity 10
+    python schedule_gtt_sell_order.py RELIANCE 3.0 --quantity 10 --charge-mode intraday
     # Places GTT sell order for 10 shares of RELIANCE to achieve 3% net profit
+
+    python schedule_gtt_sell_order.py HDFCBANK 0.6 --charge-mode intraday
+    # Same-day (intraday) charges, target 0.6% net profit
     
     python schedule_gtt_sell_order.py TCS 2.0 --yes
     # Auto-confirms and places order without prompting
@@ -33,9 +36,9 @@ from kite_connect_api import KiteConnectAPI
 from kite_utils import setup_logger, load_config
 
 
-def calculate_zerodha_charges(sell_value: float, quantity: int) -> dict:
+def calculate_zerodha_charges(sell_value: float, quantity: int, charge_mode: str = "delivery") -> dict:
     """
-    Calculate all Zerodha charges for equity delivery sell orders
+    Calculate Zerodha charges for equity sell orders
     
     Parameters:
     - sell_value: Total sell value (price * quantity)
@@ -44,29 +47,39 @@ def calculate_zerodha_charges(sell_value: float, quantity: int) -> dict:
     Returns:
     Dictionary containing all charges and total charges
     """
-    # Zerodha Equity Delivery Sell-Side Charges
-    brokerage = 0.00  # Zero for equity delivery
-    
-    # STT (Securities Transaction Tax): 0.1% of Sell Value
-    stt = sell_value * 0.001
-    
-    # Exchange Transaction Charges (NSE Equity): 0.00345% of Sell Value
-    exchange_charges = sell_value * 0.0000345
-    
-    # SEBI Turnover Fees: 0.0001% of Sell Value
-    sebi_fees = sell_value * 0.000001
-    
-    # DP (Depository Participant) Charges: ₹13.5 + 18% GST = ₹15.93
-    dp_charges = 15.93
-    
-    # GST: 18% on (Exchange Transaction Charges + SEBI Turnover Fees)
-    gst_base = exchange_charges + sebi_fees
-    gst = gst_base * 0.18
+    mode = (charge_mode or "delivery").lower()
+
+    # Common charges (sell-side)
+    exchange_charges = sell_value * 0.0000345  # NSE Equity: 0.00345%
+    sebi_fees = sell_value * 0.000001  # 0.0001%
+
+    if mode == "intraday":
+        # Intraday (same-day) sell-side charges
+        # Brokerage: 0.03% or ₹20 per order, whichever is lower
+        brokerage = min(sell_value * 0.0003, 20.0)
+        # STT: 0.025% on sell side
+        stt = sell_value * 0.00025
+        # No DP charges for intraday
+        dp_charges = 0.0
+        # GST: 18% on (brokerage + exchange + sebi)
+        gst_base = brokerage + exchange_charges + sebi_fees
+        gst = gst_base * 0.18
+    else:
+        # Delivery (different-day) sell-side charges
+        brokerage = 0.00
+        # STT: 0.1% on sell side
+        stt = sell_value * 0.001
+        # DP charges: ₹13.5 + 18% GST = ₹15.93
+        dp_charges = 15.93
+        # GST: 18% on (exchange + sebi)
+        gst_base = exchange_charges + sebi_fees
+        gst = gst_base * 0.18
     
     # Calculate total charges
     total_charges = brokerage + stt + exchange_charges + sebi_fees + dp_charges + gst
     
     return {
+        'charge_mode': mode,
         'brokerage': brokerage,
         'stt': stt,
         'exchange_charges': exchange_charges,
@@ -78,7 +91,7 @@ def calculate_zerodha_charges(sell_value: float, quantity: int) -> dict:
     }
 
 
-def calculate_profit_with_charges(buy_price: float, sell_price: float, quantity: int) -> dict:
+def calculate_profit_with_charges(buy_price: float, sell_price: float, quantity: int, charge_mode: str = "delivery") -> dict:
     """
     Calculate profit after considering all Zerodha charges
     
@@ -96,7 +109,7 @@ def calculate_profit_with_charges(buy_price: float, sell_price: float, quantity:
     gross_profit = sell_value - buy_value
     
     # Calculate charges
-    charges = calculate_zerodha_charges(sell_value, quantity)
+    charges = calculate_zerodha_charges(sell_value, quantity, charge_mode=charge_mode)
     total_charges = charges['total_charges']
     
     # Calculate net profit
@@ -121,9 +134,10 @@ def calculate_profit_with_charges(buy_price: float, sell_price: float, quantity:
     }
 
 
-def calculate_optimal_sell_price(buy_price: float, quantity: int, target_net_profit_percentage: float) -> float:
+def calculate_optimal_sell_price(buy_price: float, quantity: int, target_net_profit_percentage: float, charge_mode: str = "delivery") -> float:
     """
-    Calculate the optimal sell price to achieve target net profit percentage after charges
+    Calculate the optimal sell price to achieve target net profit percentage after charges.
+    Ensures net profit is >= target (never below).
     
     Parameters:
     - buy_price: Average buy price per share
@@ -131,32 +145,47 @@ def calculate_optimal_sell_price(buy_price: float, quantity: int, target_net_pro
     - target_net_profit_percentage: Target net profit percentage
     
     Returns:
-    Optimal sell price per share
+    Optimal sell price per share that achieves at least the target net profit
     """
     # Start with a reasonable guess
     sell_price = buy_price * (1 + target_net_profit_percentage / 100)
     
     # Iteratively find the optimal price
-    max_iterations = 50
-    tolerance = 0.01  # 0.01% tolerance
+    max_iterations = 100
+    tolerance = 0.001  # 0.001% tolerance for convergence
+    adjustment_rate = 0.0001  # Finer adjustment (0.01%)
+    
+    last_price = sell_price
+    converged = False
     
     for iteration in range(max_iterations):
-        profit_analysis = calculate_profit_with_charges(buy_price, sell_price, quantity)
+        profit_analysis = calculate_profit_with_charges(buy_price, sell_price, quantity, charge_mode=charge_mode)
         current_net_profit_percentage = profit_analysis['net_profit_percentage']
         
-        # Check if we're close enough to target
+        # Check if we've converged (within tolerance)
         if abs(current_net_profit_percentage - target_net_profit_percentage) <= tolerance:
+            converged = True
             break
         
         # Adjust sell price based on difference
         if current_net_profit_percentage < target_net_profit_percentage:
             # Need higher profit, increase sell price
-            sell_price *= 1.001  # Increase by 0.1%
+            sell_price *= (1 + adjustment_rate)
         else:
-            # Too much profit, decrease sell price
-            sell_price *= 0.999  # Decrease by 0.1%
+            # Too much profit, decrease sell price (but keep moving down carefully)
+            sell_price *= (1 - adjustment_rate)
+        
+        last_price = sell_price
     
-    return round(sell_price, 2)
+    # Final check: ensure we don't round down below target
+    final_analysis = calculate_profit_with_charges(buy_price, round(sell_price, 2), quantity, charge_mode=charge_mode)
+    if final_analysis['net_profit_percentage'] < target_net_profit_percentage:
+        # If rounding down causes us to miss target, round up to next paisa
+        sell_price = round(sell_price + 0.01, 2)
+    else:
+        sell_price = round(sell_price, 2)
+    
+    return sell_price
 
 
 def get_holdings_info(kite_api: KiteConnectAPI, company_symbol: str) -> Tuple[int, float]:
@@ -260,7 +289,8 @@ def get_holdings_info(kite_api: KiteConnectAPI, company_symbol: str) -> Tuple[in
 
 
 def print_order_summary(company_symbol: str, quantity: int, avg_price: float, 
-                       sell_price: float, target_profit_pct: float, profit_analysis: dict) -> None:
+                       sell_price: float, target_profit_pct: float, profit_analysis: dict,
+                       charge_mode: str) -> None:
     """
     Print a detailed summary of the GTT sell order
     
@@ -283,6 +313,7 @@ def print_order_summary(company_symbol: str, quantity: int, avg_price: float,
     print(f"  Total Buy Value: ₹{profit_analysis['buy_value']:,.2f}")
     
     print(f"\nSell Order Details:")
+    print(f"  Charge Mode: {charge_mode}")
     print(f"  Sell Price: ₹{sell_price:.2f}")
     print(f"  Quantity: {quantity:,} shares")
     print(f"  Total Sell Value: ₹{profit_analysis['sell_value']:,.2f}")
@@ -363,7 +394,8 @@ def save_order_details(company_symbol: str, quantity: int, avg_price: float,
 class GTTSellOrderScheduler:
     """Class to schedule GTT sell orders based on target net profit"""
     
-    def __init__(self, company_symbol: str, net_profit_percentage: float, quantity: Optional[int] = None):
+    def __init__(self, company_symbol: str, net_profit_percentage: float, quantity: Optional[int] = None,
+                 charge_mode: str = "delivery"):
         """
         Initialize the GTT Sell Order Scheduler
         
@@ -375,6 +407,7 @@ class GTTSellOrderScheduler:
         self.company_symbol = company_symbol.upper()
         self.net_profit_percentage = net_profit_percentage
         self.requested_quantity = quantity
+        self.charge_mode = (charge_mode or "delivery").lower()
         
         self.logger = setup_logger(__name__, self.company_symbol)
         
@@ -383,6 +416,7 @@ class GTTSellOrderScheduler:
         
         self.logger.info(f"Initializing GTT Sell Order Scheduler for {self.company_symbol}")
         self.logger.info(f"Target net profit: {net_profit_percentage}%")
+        self.logger.info(f"Charge mode: {self.charge_mode}")
         if quantity:
             self.logger.info(f"Requested quantity: {quantity} shares")
     
@@ -394,6 +428,100 @@ class GTTSellOrderScheduler:
         except Exception as e:
             self.logger.error(f"Failed to connect to Kite Connect: {e}")
             raise
+    
+    def check_and_handle_existing_sell_orders(self, auto_confirm: bool = False) -> bool:
+        """
+        Check for existing GTT SELL orders for the company.
+        If found, ask user to delete them or proceed.
+        
+        Parameters:
+        - auto_confirm: If True, automatically proceed without prompting
+        
+        Returns:
+        - bool: True if can proceed, False if user cancelled
+        """
+        try:
+            self.logger.info(f"Checking for existing GTT SELL orders for {self.company_symbol}...")
+            
+            # Get all GTT orders
+            gtt_orders = self.kite_api.get_gtt_orders()
+            
+            # Filter for SELL orders of this company
+            existing_sell_orders = []
+            for order in gtt_orders:
+                try:
+                    trading_symbol = order.get('condition', {}).get('tradingsymbol', '').upper()
+                    transaction_type = order.get('orders', [{}])[0].get('transaction_type', '').upper()
+                    status = order.get('status', 'UNKNOWN').upper()
+                    
+                    if trading_symbol == self.company_symbol and transaction_type == 'SELL' and status in ['ACTIVE', 'PENDING']:
+                        existing_sell_orders.append(order)
+                except Exception:
+                    continue
+            
+            if not existing_sell_orders:
+                self.logger.info(f"No existing SELL GTT orders found for {self.company_symbol}")
+                print(f"\n✓ No existing SELL GTT orders found for {self.company_symbol}")
+                return True
+            
+            # Found existing orders - ask user
+            print(f"\n⚠️  Found {len(existing_sell_orders)} existing SELL GTT order(s) for {self.company_symbol}:")
+            for i, order in enumerate(existing_sell_orders, 1):
+                trigger_id = order.get('id')
+                price = order.get('orders', [{}])[0].get('price', 'N/A')
+                quantity = order.get('orders', [{}])[0].get('quantity', 'N/A')
+                status = order.get('status', 'UNKNOWN')
+                print(f"  {i}. Trigger ID: {trigger_id}, Price: {price}, Qty: {quantity}, Status: {status}")
+            
+            if auto_confirm:
+                # Auto delete existing orders
+                self.logger.info(f"Auto-mode: Deleting {len(existing_sell_orders)} existing SELL orders")
+                print(f"\nDeleting {len(existing_sell_orders)} existing SELL order(s)...")
+                for order in existing_sell_orders:
+                    trigger_id = order.get('id')
+                    try:
+                        self.kite_api.delete_gtt_order(trigger_id)
+                        self.logger.info(f"Deleted GTT order {trigger_id}")
+                        print(f"  ✓ Deleted order {trigger_id}")
+                    except Exception as e:
+                        self.logger.error(f"Failed to delete GTT order {trigger_id}: {e}")
+                        print(f"  ✗ Failed to delete order {trigger_id}: {e}")
+                return True
+            else:
+                # Ask user to confirm deletion
+                confirm = input(f"\nDelete these {len(existing_sell_orders)} existing SELL order(s) and place new one? (yes/no): ").strip().lower()
+                if confirm not in ['yes', 'y']:
+                    self.logger.info("User chose not to delete existing orders. Cancelling new order placement.")
+                    print("Cancelled. Keeping existing orders.")
+                    return False
+                
+                # Delete existing orders
+                print(f"Deleting {len(existing_sell_orders)} existing SELL order(s)...")
+                deleted_count = 0
+                for order in existing_sell_orders:
+                    trigger_id = order.get('id')
+                    try:
+                        self.kite_api.delete_gtt_order(trigger_id)
+                        self.logger.info(f"Deleted GTT order {trigger_id}")
+                        print(f"  ✓ Deleted order {trigger_id}")
+                        deleted_count += 1
+                    except Exception as e:
+                        self.logger.error(f"Failed to delete GTT order {trigger_id}: {e}")
+                        print(f"  ✗ Failed to delete order {trigger_id}: {e}")
+                
+                if deleted_count == len(existing_sell_orders):
+                    self.logger.info(f"Successfully deleted all {deleted_count} existing SELL orders")
+                    print(f"\n✓ Successfully deleted all {deleted_count} order(s). Proceeding with new order...")
+                    return True
+                else:
+                    self.logger.warning(f"Could only delete {deleted_count} of {len(existing_sell_orders)} orders")
+                    print(f"\n⚠️  Could only delete {deleted_count} of {len(existing_sell_orders)} orders. Please try again.")
+                    return False
+                
+        except Exception as e:
+            self.logger.error(f"Error checking/handling existing orders: {e}")
+            print(f"Error checking existing orders: {e}")
+            return False
     
     def get_holdings_and_calculate_price(self) -> Tuple[int, float, float, float, dict]:
         """
@@ -420,20 +548,21 @@ class GTTSellOrderScheduler:
             raise ValueError(f"Invalid quantity: {sell_quantity}")
         
         # Calculate optimal sell price
-        sell_price = calculate_optimal_sell_price(avg_price, sell_quantity, self.net_profit_percentage)
+        sell_price = calculate_optimal_sell_price(avg_price, sell_quantity, self.net_profit_percentage, charge_mode=self.charge_mode)
         sell_price = round(sell_price, 1)
         
-        # Calculate trigger price (0.1% above sell price for GTT)
-        trigger_price = round(sell_price * 1.001, 1)
+        # Calculate trigger price (fixed 0.50 rupees above sell price)
+        trigger_price = round(sell_price + 0.50, 2)
         
         # Calculate profit analysis
-        profit_analysis = calculate_profit_with_charges(avg_price, sell_price, sell_quantity)
+        profit_analysis = calculate_profit_with_charges(avg_price, sell_price, sell_quantity, charge_mode=self.charge_mode)
         
         return sell_quantity, avg_price, sell_price, trigger_price, profit_analysis
     
     def place_gtt_sell_order(self, quantity: int, sell_price: float, trigger_price: float) -> str:
         """
-        Place GTT sell order
+        Place GTT sell order. Retries with increased price until successful or hits safety limit (30 retries).
+        Keeps increasing price by 1 rupee each retry to exceed 0.25% trigger difference requirement.
         
         Parameters:
         - quantity: Number of shares to sell
@@ -453,22 +582,69 @@ class GTTSellOrderScheduler:
                 self.logger.warning(f"Could not fetch current price: {e}")
                 current_price = trigger_price - 1.0  # Fallback
             
-            # Place GTT sell order
-            trigger_id = self.kite_api.place_gtt_order(
-                trading_symbol=self.company_symbol,
-                exchange="NSE",
-                transaction_type="SELL",
-                quantity=quantity,
-                price=sell_price,
-                trigger_price=trigger_price,
-                order_type="LIMIT",
-                validity="DAY",
-                current_price=current_price
-            )
+            # Place GTT sell order with retry logic - keep trying until successful
+            max_retries = 30  # Safety limit to prevent infinite loops
+            retry_count = 0
+            current_sell_price = sell_price
+            current_trigger_price = trigger_price
             
-            self.logger.info(f"GTT sell order placed successfully. Trigger ID: {trigger_id}")
-            return trigger_id
-            
+            while True:
+                try:
+                    self.logger.info(f"Placing GTT order (attempt {retry_count + 1}): sell_price={current_sell_price}, trigger_price={current_trigger_price}, current_price={current_price}")
+                    
+                    trigger_id = self.kite_api.place_gtt_order(
+                        trading_symbol=self.company_symbol,
+                        exchange="NSE",
+                        transaction_type="SELL",
+                        quantity=quantity,
+                        price=current_sell_price,
+                        trigger_price=current_trigger_price,
+                        order_type="LIMIT",
+                        validity="DAY",
+                        current_price=current_price
+                    )
+                    
+                    # Success!
+                    if retry_count > 0:
+                        self.logger.info(f"GTT sell order placed successfully on attempt {retry_count + 1}. Trigger ID: {trigger_id}")
+                        print(f"\n✓ GTT order placed successfully after {retry_count} retry/retries!")
+                    else:
+                        self.logger.info(f"GTT sell order placed successfully. Trigger ID: {trigger_id}")
+                        print(f"\n✓ GTT order placed successfully!")
+                    
+                    return trigger_id
+                    
+                except Exception as e:
+                    error_str = str(e).lower()
+                    self.logger.error(f"Attempt {retry_count + 1} failed: {e}")
+                    
+                    # Check if error is about trigger price being too close
+                    if "trigger price" in error_str and "too close" in error_str:
+                        
+                        # Check if we've hit safety limit
+                        if retry_count >= max_retries:
+                            self.logger.error(f"Reached maximum retry limit of {max_retries}. Giving up.")
+                            print(f"\n✗ Failed after {max_retries} retry attempts. Trigger price requirement cannot be met.")
+                            raise Exception(f"Failed to place GTT order after {max_retries} retries: {e}")
+                        
+                        # Increase price by 0.05% of current price (scales with stock price)
+                        price_increase = round(current_sell_price * 0.0005, 2)  # 0.05% increase
+                        current_sell_price = round(current_sell_price + price_increase, 2)
+                        current_trigger_price = round(current_sell_price + 0.50, 2)  # Fixed 0.50 rupees above sell price
+                        
+                        retry_count += 1
+                        
+                        self.logger.warning(f"Trigger price too close to last price. Retrying (attempt {retry_count + 1})...")
+                        self.logger.info(f"New prices - sell={current_sell_price}, trigger={current_trigger_price}, price_increase={price_increase}")
+                        print(f"⚠️  Attempt {retry_count}: Trigger too close. Trying price Rs.{current_sell_price:.2f} (+{price_increase:.2f})...")
+                        
+                        # Continue the loop to retry
+                        continue
+                    else:
+                        # Not a trigger price error - raise immediately
+                        self.logger.error(f"Failed to place GTT sell order: {e}")
+                        raise
+                        
         except Exception as e:
             self.logger.error(f"Failed to place GTT sell order: {e}")
             raise
@@ -481,11 +657,16 @@ class GTTSellOrderScheduler:
             # Connect to Kite
             self.connect_to_kite()
             
+            # Check for existing sell orders and handle deletion
+            if not self.check_and_handle_existing_sell_orders(auto_confirm=auto_confirm):
+                print("Order placement cancelled.")
+                return
+            
             # Get holdings and calculate prices
             quantity, avg_price, sell_price, trigger_price, profit_analysis = self.get_holdings_and_calculate_price()
             # Print summary
             print_order_summary(self.company_symbol, quantity, avg_price, sell_price, 
-                              self.net_profit_percentage, profit_analysis)
+                              self.net_profit_percentage, profit_analysis, self.charge_mode)
             
             # Show profit in rupees
             net_profit_rupees = profit_analysis['net_profit']
@@ -549,6 +730,13 @@ def main():
         default=None,
         help='Quantity to sell (default: all holdings)'
     )
+
+    parser.add_argument(
+        '--charge-mode',
+        choices=['delivery', 'intraday'],
+        default='delivery',
+        help='Charge mode: delivery (different-day) or intraday (same-day). Default: delivery'
+    )
     
     parser.add_argument(
         '--yes', '-y',
@@ -572,7 +760,8 @@ def main():
         scheduler = GTTSellOrderScheduler(
             company_symbol=args.company_symbol,
             net_profit_percentage=args.net_profit_percentage,
-            quantity=args.quantity
+            quantity=args.quantity,
+            charge_mode=args.charge_mode
         )
         
         scheduler.run(auto_confirm=args.yes)

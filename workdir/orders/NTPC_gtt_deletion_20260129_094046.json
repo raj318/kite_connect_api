@@ -1,0 +1,69 @@
+{
+  "company_symbol": "NTPC",
+  "operation": "GTT Order Deletion",
+  "timestamp": "2026-01-29T09:40:46.854322",
+  "results": {
+    "total_orders": 8,
+    "successful_deletions": 8,
+    "failed_deletions": 0,
+    "deleted_orders": [
+      {
+        "trigger_id": 303962693,
+        "symbol": "NTPC",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-29T09:40:46.218006"
+      },
+      {
+        "trigger_id": 303962692,
+        "symbol": "NTPC",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-29T09:40:46.308392"
+      },
+      {
+        "trigger_id": 303962691,
+        "symbol": "NTPC",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-29T09:40:46.403430"
+      },
+      {
+        "trigger_id": 303962688,
+        "symbol": "NTPC",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-29T09:40:46.493849"
+      },
+      {
+        "trigger_id": 303962687,
+        "symbol": "NTPC",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-29T09:40:46.573287"
+      },
+      {
+        "trigger_id": 303962686,
+        "symbol": "NTPC",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-29T09:40:46.672743"
+      },
+      {
+        "trigger_id": 303962685,
+        "symbol": "NTPC",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-29T09:40:46.774143"
+      },
+      {
+        "trigger_id": 303962684,
+        "symbol": "NTPC",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-29T09:40:46.854245"
+      }
+    ],
+    "failed_orders": []
+  }
+}

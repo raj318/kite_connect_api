@@ -1,0 +1,33 @@
+{
+  "company_symbol": "HINDALCO",
+  "order_type": "GTT_SELL",
+  "quantity": 21,
+  "average_buy_price": 1019.78,
+  "sell_price": 1031.8,
+  "trigger_price": 1032.3,
+  "target_net_profit_percentage": 1.0,
+  "profit_analysis": {
+    "buy_value": 21415.38,
+    "sell_value": 21667.8,
+    "gross_profit": 252.41999999999825,
+    "gross_profit_percentage": 1.1786855988546467,
+    "charges": {
+      "brokerage": 0.0,
+      "stt": 21.6678,
+      "exchange_charges": 0.7475390999999999,
+      "sebi_fees": 0.021667799999999997,
+      "dp_charges": 15.93,
+      "gst": 0.13845724199999998,
+      "total_charges": 38.505464142,
+      "charges_per_share": 1.8335935305714286
+    },
+    "total_charges": 38.505464142,
+    "charges_percentage": 0.1798028526320803,
+    "net_profit": 213.91453585799826,
+    "net_profit_percentage": 0.9988827462225665,
+    "break_even_price": 1021.6135935305714
+  },
+  "trigger_id": 304117657,
+  "status": "PLACED",
+  "timestamp": "2026-01-29T11:15:00.337577"
+}

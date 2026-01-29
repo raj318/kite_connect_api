@@ -1,0 +1,76 @@
+{
+  "company_symbol": "COALINDIA",
+  "operation": "GTT Order Deletion",
+  "timestamp": "2026-01-29T13:42:35.073137",
+  "results": {
+    "total_orders": 9,
+    "successful_deletions": 9,
+    "failed_deletions": 0,
+    "deleted_orders": [
+      {
+        "trigger_id": 303924125,
+        "symbol": "COALINDIA",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-29T13:42:34.235027"
+      },
+      {
+        "trigger_id": 303924122,
+        "symbol": "COALINDIA",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-29T13:42:34.314510"
+      },
+      {
+        "trigger_id": 303924121,
+        "symbol": "COALINDIA",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-29T13:42:34.394194"
+      },
+      {
+        "trigger_id": 303924119,
+        "symbol": "COALINDIA",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-29T13:42:34.522916"
+      },
+      {
+        "trigger_id": 303924118,
+        "symbol": "COALINDIA",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-29T13:42:34.638276"
+      },
+      {
+        "trigger_id": 303924116,
+        "symbol": "COALINDIA",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-29T13:42:34.736165"
+      },
+      {
+        "trigger_id": 303924115,
+        "symbol": "COALINDIA",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-29T13:42:34.813772"
+      },
+      {
+        "trigger_id": 303924113,
+        "symbol": "COALINDIA",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-29T13:42:34.921064"
+      },
+      {
+        "trigger_id": 303924111,
+        "symbol": "COALINDIA",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-29T13:42:35.072993"
+      }
+    ],
+    "failed_orders": []
+  }
+}

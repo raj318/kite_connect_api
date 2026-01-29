@@ -1,0 +1,76 @@
+{
+  "company_symbol": "HINDALCO",
+  "operation": "GTT Order Deletion",
+  "timestamp": "2026-01-29T15:31:27.412398",
+  "results": {
+    "total_orders": 9,
+    "successful_deletions": 9,
+    "failed_deletions": 0,
+    "deleted_orders": [
+      {
+        "trigger_id": 304117657,
+        "symbol": "HINDALCO",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-29T15:31:26.584647"
+      },
+      {
+        "trigger_id": 304109308,
+        "symbol": "HINDALCO",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-29T15:31:26.676689"
+      },
+      {
+        "trigger_id": 304109302,
+        "symbol": "HINDALCO",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-29T15:31:26.777559"
+      },
+      {
+        "trigger_id": 304109299,
+        "symbol": "HINDALCO",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-29T15:31:26.874606"
+      },
+      {
+        "trigger_id": 304109297,
+        "symbol": "HINDALCO",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-29T15:31:26.965707"
+      },
+      {
+        "trigger_id": 304109296,
+        "symbol": "HINDALCO",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-29T15:31:27.080256"
+      },
+      {
+        "trigger_id": 304109293,
+        "symbol": "HINDALCO",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-29T15:31:27.186561"
+      },
+      {
+        "trigger_id": 304109288,
+        "symbol": "HINDALCO",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-29T15:31:27.299707"
+      },
+      {
+        "trigger_id": 304109287,
+        "symbol": "HINDALCO",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-29T15:31:27.412313"
+      }
+    ],
+    "failed_orders": []
+  }
+}

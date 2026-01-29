@@ -1,0 +1,69 @@
+{
+  "company_symbol": "HDFCLIFE",
+  "operation": "GTT Order Deletion",
+  "timestamp": "2026-01-29T15:32:23.595456",
+  "results": {
+    "total_orders": 8,
+    "successful_deletions": 8,
+    "failed_deletions": 0,
+    "deleted_orders": [
+      {
+        "trigger_id": 303735069,
+        "symbol": "HDFCLIFE",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-29T15:32:22.853774"
+      },
+      {
+        "trigger_id": 303735067,
+        "symbol": "HDFCLIFE",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-29T15:32:22.969131"
+      },
+      {
+        "trigger_id": 303735065,
+        "symbol": "HDFCLIFE",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-29T15:32:23.073686"
+      },
+      {
+        "trigger_id": 303735063,
+        "symbol": "HDFCLIFE",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-29T15:32:23.178124"
+      },
+      {
+        "trigger_id": 303735061,
+        "symbol": "HDFCLIFE",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-29T15:32:23.262737"
+      },
+      {
+        "trigger_id": 303735059,
+        "symbol": "HDFCLIFE",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-29T15:32:23.372049"
+      },
+      {
+        "trigger_id": 303735058,
+        "symbol": "HDFCLIFE",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-29T15:32:23.480286"
+      },
+      {
+        "trigger_id": 303735057,
+        "symbol": "HDFCLIFE",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-29T15:32:23.595399"
+      }
+    ],
+    "failed_orders": []
+  }
+}

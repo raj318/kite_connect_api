@@ -1,0 +1,142 @@
+2026-01-29 11:20:01,610 - __main__ - INFO - Using steps from config: 10
+2026-01-29 11:20:01,610 - __main__ - INFO - Using max_fall_pct from config: 10.0
+2026-01-29 11:20:01,610 - __main__ - INFO - Using fall_power from config: 1.7
+2026-01-29 11:20:01,610 - __main__ - INFO - Using size_power from config: 1.6
+2026-01-29 11:20:01,610 - __main__ - INFO - Using size_multiplier from config: 3.8
+2026-01-29 11:20:01,610 - __main__ - INFO - Convex accumulation parameters:
+2026-01-29 11:20:01,610 - __main__ - INFO -   Steps: 10
+2026-01-29 11:20:01,610 - __main__ - INFO -   Base shares: 10
+2026-01-29 11:20:01,610 - __main__ - INFO -   Max fall: 10.0%
+2026-01-29 11:20:01,610 - __main__ - INFO -   Fall power: 1.7
+2026-01-29 11:20:01,610 - __main__ - INFO -   Size power: 1.6
+2026-01-29 11:20:01,610 - __main__ - INFO -   Size multiplier: 3.8
+2026-01-29 11:20:01,610 - __main__ - INFO - Initializing Convex Accumulation Order Scheduler for DRREDDY
+2026-01-29 11:20:01,610 - __main__ - INFO - Steps: 10, Current price: Rs.1205.9
+2026-01-29 11:20:01,611 - __main__ - INFO - Configuration loaded successfully
+2026-01-29 11:20:01,612 - __main__ - INFO - Starting convex accumulation order scheduling process
+2026-01-29 11:20:01,765 - __main__ - INFO - Successfully connected to Kite Connect
+2026-01-29 11:20:01,765 - __main__ - WARNING - pytz not available, assuming market is closed - will skip first order
+2026-01-29 11:20:01,765 - __main__ - INFO - Using provided current price as base: Rs.1205.9
+2026-01-29 11:20:01,766 - __main__ - INFO - Market is closed - skipping first order and starting with GTT orders
+2026-01-29 11:20:01,766 - __main__ - INFO - Order 1: SKIPPED (Market closed - AMO not supported)
+2026-01-29 11:20:01,766 - __main__ - INFO - Order 2: Price: Rs.1203.0, Trigger: Rs.1201.8, Type: GTT ORDER, Fall: 0.24%, Quantity: 11, Value: Rs.13233.0
+2026-01-29 11:20:01,766 - __main__ - INFO - Order 3: Price: Rs.1196.5, Trigger: Rs.1195.3, Type: GTT ORDER, Fall: 0.78%, Quantity: 13, Value: Rs.15554.5
+2026-01-29 11:20:01,766 - __main__ - INFO - Order 4: Price: Rs.1187.3, Trigger: Rs.1186.1, Type: GTT ORDER, Fall: 1.54%, Quantity: 17, Value: Rs.20184.1
+2026-01-29 11:20:01,766 - __main__ - INFO - Order 5: Price: Rs.1175.5, Trigger: Rs.1174.3, Type: GTT ORDER, Fall: 2.52%, Quantity: 20, Value: Rs.23510.0
+2026-01-29 11:20:01,766 - __main__ - INFO - Order 6: Price: Rs.1161.5, Trigger: Rs.1160.3, Type: GTT ORDER, Fall: 3.68%, Quantity: 25, Value: Rs.29037.5
+2026-01-29 11:20:01,766 - __main__ - INFO - Order 7: Price: Rs.1145.4, Trigger: Rs.1144.3, Type: GTT ORDER, Fall: 5.02%, Quantity: 30, Value: Rs.34362.0
+2026-01-29 11:20:01,766 - __main__ - INFO - Order 8: Price: Rs.1127.2, Trigger: Rs.1126.1, Type: GTT ORDER, Fall: 6.52%, Quantity: 35, Value: Rs.39452.0
+2026-01-29 11:20:01,766 - __main__ - INFO - Order 9: Price: Rs.1107.2, Trigger: Rs.1106.1, Type: GTT ORDER, Fall: 8.19%, Quantity: 41, Value: Rs.45395.2
+2026-01-29 11:20:01,766 - __main__ - INFO - Order 10: Price: Rs.1085.3, Trigger: Rs.1084.2, Type: GTT ORDER, Fall: 10.00%, Quantity: 48, Value: Rs.52094.4
+2026-01-29 11:20:09,240 - __main__ - INFO - Order placement cancelled by user
+2026-01-29 11:20:16,599 - __main__ - INFO - Using steps from config: 10
+2026-01-29 11:20:16,599 - __main__ - INFO - Using max_fall_pct from config: 10.0
+2026-01-29 11:20:16,599 - __main__ - INFO - Using fall_power from config: 1.7
+2026-01-29 11:20:16,600 - __main__ - INFO - Using size_power from config: 1.6
+2026-01-29 11:20:16,600 - __main__ - INFO - Using size_multiplier from config: 3.8
+2026-01-29 11:20:16,600 - __main__ - INFO - Convex accumulation parameters:
+2026-01-29 11:20:16,600 - __main__ - INFO -   Steps: 10
+2026-01-29 11:20:16,600 - __main__ - INFO -   Base shares: 10
+2026-01-29 11:20:16,600 - __main__ - INFO -   Max fall: 10.0%
+2026-01-29 11:20:16,600 - __main__ - INFO -   Fall power: 1.7
+2026-01-29 11:20:16,600 - __main__ - INFO -   Size power: 1.6
+2026-01-29 11:20:16,600 - __main__ - INFO -   Size multiplier: 3.8
+2026-01-29 11:20:16,600 - __main__ - INFO - Initializing Convex Accumulation Order Scheduler for DRREDDY
+2026-01-29 11:20:16,600 - __main__ - INFO - Steps: 10, Current price: Rs.1206.5
+2026-01-29 11:20:16,601 - __main__ - INFO - Configuration loaded successfully
+2026-01-29 11:20:16,601 - __main__ - INFO - Starting convex accumulation order scheduling process
+2026-01-29 11:20:16,734 - __main__ - INFO - Successfully connected to Kite Connect
+2026-01-29 11:20:16,734 - __main__ - WARNING - pytz not available, assuming market is closed - will skip first order
+2026-01-29 11:20:16,734 - __main__ - INFO - Using provided current price as base: Rs.1206.5
+2026-01-29 11:20:16,734 - __main__ - INFO - Market is closed - skipping first order and starting with GTT orders
+2026-01-29 11:20:16,735 - __main__ - INFO - Order 1: SKIPPED (Market closed - AMO not supported)
+2026-01-29 11:20:16,735 - __main__ - INFO - Order 2: Price: Rs.1203.6, Trigger: Rs.1202.4, Type: GTT ORDER, Fall: 0.24%, Quantity: 11, Value: Rs.13239.6
+2026-01-29 11:20:16,735 - __main__ - INFO - Order 3: Price: Rs.1197.1, Trigger: Rs.1195.9, Type: GTT ORDER, Fall: 0.78%, Quantity: 13, Value: Rs.15562.3
+2026-01-29 11:20:16,735 - __main__ - INFO - Order 4: Price: Rs.1187.9, Trigger: Rs.1186.7, Type: GTT ORDER, Fall: 1.54%, Quantity: 17, Value: Rs.20194.3
+2026-01-29 11:20:16,735 - __main__ - INFO - Order 5: Price: Rs.1176.1, Trigger: Rs.1174.9, Type: GTT ORDER, Fall: 2.52%, Quantity: 20, Value: Rs.23522.0
+2026-01-29 11:20:16,735 - __main__ - INFO - Order 6: Price: Rs.1162.1, Trigger: Rs.1160.9, Type: GTT ORDER, Fall: 3.68%, Quantity: 25, Value: Rs.29052.5
+2026-01-29 11:20:16,735 - __main__ - INFO - Order 7: Price: Rs.1145.9, Trigger: Rs.1144.8, Type: GTT ORDER, Fall: 5.02%, Quantity: 30, Value: Rs.34377.0
+2026-01-29 11:20:16,735 - __main__ - INFO - Order 8: Price: Rs.1127.8, Trigger: Rs.1126.7, Type: GTT ORDER, Fall: 6.52%, Quantity: 35, Value: Rs.39473.0
+2026-01-29 11:20:16,735 - __main__ - INFO - Order 9: Price: Rs.1107.7, Trigger: Rs.1106.6, Type: GTT ORDER, Fall: 8.19%, Quantity: 41, Value: Rs.45415.7
+2026-01-29 11:20:16,735 - __main__ - INFO - Order 10: Price: Rs.1085.9, Trigger: Rs.1084.8, Type: GTT ORDER, Fall: 10.00%, Quantity: 48, Value: Rs.52123.2
+2026-01-29 11:20:20,207 - __main__ - INFO - Order placement cancelled by user
+2026-01-29 11:20:29,414 - __main__ - INFO - Using steps from config: 10
+2026-01-29 11:20:29,414 - __main__ - INFO - Using max_fall_pct from config: 10.0
+2026-01-29 11:20:29,414 - __main__ - INFO - Using fall_power from config: 1.7
+2026-01-29 11:20:29,414 - __main__ - INFO - Using size_power from config: 1.6
+2026-01-29 11:20:29,414 - __main__ - INFO - Using size_multiplier from config: 3.8
+2026-01-29 11:20:29,414 - __main__ - INFO - Convex accumulation parameters:
+2026-01-29 11:20:29,414 - __main__ - INFO -   Steps: 10
+2026-01-29 11:20:29,414 - __main__ - INFO -   Base shares: 10
+2026-01-29 11:20:29,414 - __main__ - INFO -   Max fall: 10.0%
+2026-01-29 11:20:29,414 - __main__ - INFO -   Fall power: 1.7
+2026-01-29 11:20:29,414 - __main__ - INFO -   Size power: 1.6
+2026-01-29 11:20:29,414 - __main__ - INFO -   Size multiplier: 3.8
+2026-01-29 11:20:29,414 - __main__ - INFO - Initializing Convex Accumulation Order Scheduler for DRREDDY
+2026-01-29 11:20:29,414 - __main__ - INFO - Steps: 10, Current price: Rs.1206.5
+2026-01-29 11:20:29,415 - __main__ - INFO - Configuration loaded successfully
+2026-01-29 11:20:29,416 - __main__ - INFO - Starting convex accumulation order scheduling process
+2026-01-29 11:20:29,555 - __main__ - INFO - Successfully connected to Kite Connect
+2026-01-29 11:20:29,555 - __main__ - WARNING - pytz not available, assuming market is closed - will skip first order
+2026-01-29 11:20:29,555 - __main__ - INFO - Using provided current price as base: Rs.1206.5
+2026-01-29 11:20:29,555 - __main__ - INFO - Market is closed - skipping first order and starting with GTT orders
+2026-01-29 11:20:29,556 - __main__ - INFO - Order 1: SKIPPED (Market closed - AMO not supported)
+2026-01-29 11:20:29,556 - __main__ - INFO - Order 2: Price: Rs.1203.6, Trigger: Rs.1202.4, Type: GTT ORDER, Fall: 0.24%, Quantity: 11, Value: Rs.13239.6
+2026-01-29 11:20:29,556 - __main__ - INFO - Order 3: Price: Rs.1197.1, Trigger: Rs.1195.9, Type: GTT ORDER, Fall: 0.78%, Quantity: 13, Value: Rs.15562.3
+2026-01-29 11:20:29,556 - __main__ - INFO - Order 4: Price: Rs.1187.9, Trigger: Rs.1186.7, Type: GTT ORDER, Fall: 1.54%, Quantity: 17, Value: Rs.20194.3
+2026-01-29 11:20:29,556 - __main__ - INFO - Order 5: Price: Rs.1176.1, Trigger: Rs.1174.9, Type: GTT ORDER, Fall: 2.52%, Quantity: 20, Value: Rs.23522.0
+2026-01-29 11:20:29,556 - __main__ - INFO - Order 6: Price: Rs.1162.1, Trigger: Rs.1160.9, Type: GTT ORDER, Fall: 3.68%, Quantity: 25, Value: Rs.29052.5
+2026-01-29 11:20:29,556 - __main__ - INFO - Order 7: Price: Rs.1145.9, Trigger: Rs.1144.8, Type: GTT ORDER, Fall: 5.02%, Quantity: 30, Value: Rs.34377.0
+2026-01-29 11:20:29,556 - __main__ - INFO - Order 8: Price: Rs.1127.8, Trigger: Rs.1126.7, Type: GTT ORDER, Fall: 6.52%, Quantity: 35, Value: Rs.39473.0
+2026-01-29 11:20:29,556 - __main__ - INFO - Order 9: Price: Rs.1107.7, Trigger: Rs.1106.6, Type: GTT ORDER, Fall: 8.19%, Quantity: 41, Value: Rs.45415.7
+2026-01-29 11:20:29,556 - __main__ - INFO - Order 10: Price: Rs.1085.9, Trigger: Rs.1084.8, Type: GTT ORDER, Fall: 10.00%, Quantity: 48, Value: Rs.52123.2
+2026-01-29 11:20:33,220 - __main__ - INFO - Placing orders...
+2026-01-29 11:20:33,221 - __main__ - INFO - Skipping order 1 - Market closed, AMO not supported
+2026-01-29 11:20:33,221 - __main__ - INFO - Order 1 skipped successfully
+2026-01-29 11:20:33,221 - __main__ - INFO - Placing GTT order 2 for DRREDDY
+2026-01-29 11:20:33,422 - __main__ - INFO - GTT order 2 placed successfully with trigger ID: 304120101
+2026-01-29 11:20:33,422 - __main__ - INFO - Placing GTT order 3 for DRREDDY
+2026-01-29 11:20:33,596 - __main__ - INFO - GTT order 3 placed successfully with trigger ID: 304120104
+2026-01-29 11:20:33,596 - __main__ - INFO - Placing GTT order 4 for DRREDDY
+2026-01-29 11:20:33,786 - __main__ - INFO - GTT order 4 placed successfully with trigger ID: 304120111
+2026-01-29 11:20:33,786 - __main__ - INFO - Placing GTT order 5 for DRREDDY
+2026-01-29 11:20:33,986 - __main__ - INFO - GTT order 5 placed successfully with trigger ID: 304120115
+2026-01-29 11:20:33,986 - __main__ - INFO - Placing GTT order 6 for DRREDDY
+2026-01-29 11:20:34,199 - __main__ - INFO - GTT order 6 placed successfully with trigger ID: 304120116
+2026-01-29 11:20:34,199 - __main__ - INFO - Placing GTT order 7 for DRREDDY
+2026-01-29 11:20:34,376 - __main__ - INFO - GTT order 7 placed successfully with trigger ID: 304120119
+2026-01-29 11:20:34,376 - __main__ - INFO - Placing GTT order 8 for DRREDDY
+2026-01-29 11:20:34,571 - __main__ - INFO - GTT order 8 placed successfully with trigger ID: 304120121
+2026-01-29 11:20:34,571 - __main__ - INFO - Placing GTT order 9 for DRREDDY
+2026-01-29 11:20:34,754 - __main__ - INFO - GTT order 9 placed successfully with trigger ID: 304120123
+2026-01-29 11:20:34,754 - __main__ - INFO - Placing GTT order 10 for DRREDDY
+2026-01-29 11:20:34,947 - __main__ - INFO - GTT order 10 placed successfully with trigger ID: 304120125
+2026-01-29 11:20:34,948 - __main__ - INFO - Order summary saved to workdir/orders/DRREDDY_gtt_orders_20260129_112034.json
+2026-01-29 11:20:34,948 - __main__ - INFO - Convex accumulation order scheduling process completed successfully
+2026-01-29 11:20:45,991 - __main__ - INFO - Initializing GTT Sell Order Scheduler for DRREDDY
+2026-01-29 11:20:45,991 - __main__ - INFO - Target net profit: 1.0%
+2026-01-29 11:20:45,991 - __main__ - INFO - Starting GTT sell order scheduling process
+2026-01-29 11:20:46,124 - __main__ - INFO - Successfully connected to Kite Connect
+2026-01-29 11:20:46,124 - __main__ - INFO - Checking for existing GTT SELL orders for DRREDDY...
+2026-01-29 11:20:46,203 - __main__ - INFO - No existing SELL GTT orders found for DRREDDY
+2026-01-29 11:20:50,770 - __main__ - INFO - Placing GTT sell order...
+2026-01-29 11:20:51,070 - __main__ - WARNING - Could not fetch current price: Insufficient permission for that call.
+2026-01-29 11:20:51,071 - __main__ - INFO - Placing GTT order (attempt 1): sell_price=1220.7, trigger_price=1221.2, current_price=1220.2
+2026-01-29 11:20:51,186 - __main__ - ERROR - Attempt 1 failed: Trigger price was too close to the last price. (difference should be more than 0.25%)
+2026-01-29 11:20:51,186 - __main__ - WARNING - Trigger price too close to last price. Retrying (attempt 2)...
+2026-01-29 11:20:51,186 - __main__ - INFO - New prices - sell=1221.31, trigger=1221.81, price_increase=0.61
+2026-01-29 11:20:51,187 - __main__ - INFO - Placing GTT order (attempt 2): sell_price=1221.31, trigger_price=1221.81, current_price=1220.2
+2026-01-29 11:20:51,291 - __main__ - ERROR - Attempt 2 failed: Trigger price was too close to the last price. (difference should be more than 0.25%)
+2026-01-29 11:20:51,291 - __main__ - WARNING - Trigger price too close to last price. Retrying (attempt 3)...
+2026-01-29 11:20:51,291 - __main__ - INFO - New prices - sell=1221.92, trigger=1222.42, price_increase=0.61
+2026-01-29 11:20:51,293 - __main__ - INFO - Placing GTT order (attempt 3): sell_price=1221.92, trigger_price=1222.42, current_price=1220.2
+2026-01-29 11:20:51,387 - __main__ - ERROR - Attempt 3 failed: Trigger price was too close to the last price. (difference should be more than 0.25%)
+2026-01-29 11:20:51,387 - __main__ - WARNING - Trigger price too close to last price. Retrying (attempt 4)...
+2026-01-29 11:20:51,387 - __main__ - INFO - New prices - sell=1222.53, trigger=1223.03, price_increase=0.61
+2026-01-29 11:20:51,388 - __main__ - INFO - Placing GTT order (attempt 4): sell_price=1222.53, trigger_price=1223.03, current_price=1220.2
+2026-01-29 11:20:51,472 - __main__ - ERROR - Attempt 4 failed: Trigger price was too close to the last price. (difference should be more than 0.25%)
+2026-01-29 11:20:51,472 - __main__ - WARNING - Trigger price too close to last price. Retrying (attempt 5)...
+2026-01-29 11:20:51,472 - __main__ - INFO - New prices - sell=1223.14, trigger=1223.64, price_increase=0.61
+2026-01-29 11:20:51,473 - __main__ - INFO - Placing GTT order (attempt 5): sell_price=1223.14, trigger_price=1223.64, current_price=1220.2
+2026-01-29 11:20:51,567 - __main__ - INFO - GTT sell order placed successfully on attempt 5. Trigger ID: 304120230
+2026-01-29 11:20:51,568 - __main__ - INFO - GTT sell order scheduling process completed successfully

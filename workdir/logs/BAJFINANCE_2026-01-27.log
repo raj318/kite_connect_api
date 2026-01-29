@@ -1,0 +1,128 @@
+2026-01-27 13:24:06,339 - __main__ - INFO - Using order_count from config: 10
+2026-01-27 13:24:06,339 - __main__ - INFO - Price difference configured: 0.5%
+2026-01-27 13:24:06,339 - __main__ - INFO - Start quantity configured: 3
+2026-01-27 13:24:06,339 - __main__ - INFO - Initializing Hybrid Order Scheduler for BAJFINANCE
+2026-01-27 13:24:06,339 - __main__ - INFO - Order count: 10, Current price: Rs.919.00, Max quantity: 100
+2026-01-27 13:24:06,339 - __main__ - INFO - Price difference: 0.5%
+2026-01-27 13:24:06,340 - __main__ - INFO - Configuration loaded successfully
+2026-01-27 13:24:06,341 - __main__ - INFO - Starting hybrid order scheduling process
+2026-01-27 13:24:06,476 - __main__ - INFO - Successfully connected to Kite Connect
+2026-01-27 13:24:06,476 - __main__ - WARNING - pytz not available, assuming market is closed - will use LIMIT order for first order
+2026-01-27 13:24:06,476 - __main__ - INFO - Using provided current price as base: Rs.919.00
+2026-01-27 13:24:06,476 - __main__ - INFO - Market is closed - skipping first order and starting with GTT orders
+2026-01-27 13:24:06,476 - __main__ - INFO - Order 1: SKIPPED (Market closed - AMO not supported)
+2026-01-27 13:24:06,476 - __main__ - INFO - Order 2: Price: Rs.917.90, Trigger: Rs.916.90, Type: GTT ORDER, Quantity: 3, Value: Rs.2753.60
+2026-01-27 13:24:06,476 - __main__ - INFO - Order 3: Price: Rs.913.30, Trigger: Rs.912.30, Type: GTT ORDER, Quantity: 4, Value: Rs.3653.00
+2026-01-27 13:24:06,476 - __main__ - INFO - Order 4: Price: Rs.908.70, Trigger: Rs.907.80, Type: GTT ORDER, Quantity: 5, Value: Rs.4543.30
+2026-01-27 13:24:06,476 - __main__ - INFO - Order 5: Price: Rs.904.10, Trigger: Rs.903.20, Type: GTT ORDER, Quantity: 6, Value: Rs.5424.40
+2026-01-27 13:24:06,476 - __main__ - INFO - Order 6: Price: Rs.899.50, Trigger: Rs.898.60, Type: GTT ORDER, Quantity: 7, Value: Rs.6296.30
+2026-01-27 13:24:06,476 - __main__ - INFO - Order 7: Price: Rs.894.90, Trigger: Rs.894.00, Type: GTT ORDER, Quantity: 8, Value: Rs.7159.00
+2026-01-27 13:24:06,476 - __main__ - INFO - Order 8: Price: Rs.890.30, Trigger: Rs.889.40, Type: GTT ORDER, Quantity: 9, Value: Rs.8012.50
+2026-01-27 13:24:06,476 - __main__ - INFO - Order 9: Price: Rs.885.70, Trigger: Rs.884.80, Type: GTT ORDER, Quantity: 10, Value: Rs.8856.90
+2026-01-27 13:24:06,476 - __main__ - INFO - Order 10: Price: Rs.881.10, Trigger: Rs.880.20, Type: GTT ORDER, Quantity: 11, Value: Rs.9692.00
+2026-01-27 13:24:15,219 - __main__ - INFO - Order placement cancelled by user
+2026-01-27 13:24:19,286 - __main__ - INFO - Using order_count from config: 10
+2026-01-27 13:24:19,286 - __main__ - INFO - Price difference configured: 0.5%
+2026-01-27 13:24:19,286 - __main__ - INFO - Start quantity configured: 3
+2026-01-27 13:24:19,286 - __main__ - INFO - Initializing Hybrid Order Scheduler for BAJFINANCE
+2026-01-27 13:24:19,286 - __main__ - INFO - Order count: 10, Current price: Rs.920.00, Max quantity: 100
+2026-01-27 13:24:19,286 - __main__ - INFO - Price difference: 0.5%
+2026-01-27 13:24:19,287 - __main__ - INFO - Configuration loaded successfully
+2026-01-27 13:24:19,288 - __main__ - INFO - Starting hybrid order scheduling process
+2026-01-27 13:24:19,416 - __main__ - INFO - Successfully connected to Kite Connect
+2026-01-27 13:24:19,416 - __main__ - WARNING - pytz not available, assuming market is closed - will use LIMIT order for first order
+2026-01-27 13:24:19,416 - __main__ - INFO - Using provided current price as base: Rs.920.00
+2026-01-27 13:24:19,416 - __main__ - INFO - Market is closed - skipping first order and starting with GTT orders
+2026-01-27 13:24:19,416 - __main__ - INFO - Order 1: SKIPPED (Market closed - AMO not supported)
+2026-01-27 13:24:19,416 - __main__ - INFO - Order 2: Price: Rs.918.90, Trigger: Rs.917.90, Type: GTT ORDER, Quantity: 3, Value: Rs.2756.60
+2026-01-27 13:24:19,416 - __main__ - INFO - Order 3: Price: Rs.914.20, Trigger: Rs.913.30, Type: GTT ORDER, Quantity: 4, Value: Rs.3657.00
+2026-01-27 13:24:19,416 - __main__ - INFO - Order 4: Price: Rs.909.60, Trigger: Rs.908.70, Type: GTT ORDER, Quantity: 5, Value: Rs.4548.20
+2026-01-27 13:24:19,416 - __main__ - INFO - Order 5: Price: Rs.905.10, Trigger: Rs.904.10, Type: GTT ORDER, Quantity: 6, Value: Rs.5430.30
+2026-01-27 13:24:19,416 - __main__ - INFO - Order 6: Price: Rs.900.50, Trigger: Rs.899.50, Type: GTT ORDER, Quantity: 7, Value: Rs.6303.20
+2026-01-27 13:24:19,416 - __main__ - INFO - Order 7: Price: Rs.895.90, Trigger: Rs.895.00, Type: GTT ORDER, Quantity: 8, Value: Rs.7166.80
+2026-01-27 13:24:19,416 - __main__ - INFO - Order 8: Price: Rs.891.20, Trigger: Rs.890.40, Type: GTT ORDER, Quantity: 9, Value: Rs.8021.20
+2026-01-27 13:24:19,416 - __main__ - INFO - Order 9: Price: Rs.886.60, Trigger: Rs.885.80, Type: GTT ORDER, Quantity: 10, Value: Rs.8866.50
+2026-01-27 13:24:19,417 - __main__ - INFO - Order 10: Price: Rs.882.00, Trigger: Rs.881.20, Type: GTT ORDER, Quantity: 11, Value: Rs.9702.50
+2026-01-27 13:24:42,073 - __main__ - INFO - Order placement cancelled by user
+2026-01-27 13:24:46,452 - __main__ - INFO - Using order_count from config: 10
+2026-01-27 13:24:46,452 - __main__ - INFO - Price difference configured: 0.5%
+2026-01-27 13:24:46,452 - __main__ - INFO - Start quantity configured: 3
+2026-01-27 13:24:46,452 - __main__ - INFO - Initializing Hybrid Order Scheduler for BAJFINANCE
+2026-01-27 13:24:46,453 - __main__ - INFO - Order count: 10, Current price: Rs.921.00, Max quantity: 100
+2026-01-27 13:24:46,453 - __main__ - INFO - Price difference: 0.5%
+2026-01-27 13:24:46,454 - __main__ - INFO - Configuration loaded successfully
+2026-01-27 13:24:46,454 - __main__ - INFO - Starting hybrid order scheduling process
+2026-01-27 13:24:46,573 - __main__ - INFO - Successfully connected to Kite Connect
+2026-01-27 13:24:46,573 - __main__ - WARNING - pytz not available, assuming market is closed - will use LIMIT order for first order
+2026-01-27 13:24:46,573 - __main__ - INFO - Using provided current price as base: Rs.921.00
+2026-01-27 13:24:46,573 - __main__ - INFO - Market is closed - skipping first order and starting with GTT orders
+2026-01-27 13:24:46,573 - __main__ - INFO - Order 1: SKIPPED (Market closed - AMO not supported)
+2026-01-27 13:24:46,573 - __main__ - INFO - Order 2: Price: Rs.919.80, Trigger: Rs.918.90, Type: GTT ORDER, Quantity: 3, Value: Rs.2759.50
+2026-01-27 13:24:46,573 - __main__ - INFO - Order 3: Price: Rs.915.20, Trigger: Rs.914.30, Type: GTT ORDER, Quantity: 4, Value: Rs.3661.00
+2026-01-27 13:24:46,573 - __main__ - INFO - Order 4: Price: Rs.910.60, Trigger: Rs.909.70, Type: GTT ORDER, Quantity: 5, Value: Rs.4553.20
+2026-01-27 13:24:46,573 - __main__ - INFO - Order 5: Price: Rs.906.00, Trigger: Rs.905.10, Type: GTT ORDER, Quantity: 6, Value: Rs.5436.20
+2026-01-27 13:24:46,573 - __main__ - INFO - Order 6: Price: Rs.901.40, Trigger: Rs.900.50, Type: GTT ORDER, Quantity: 7, Value: Rs.6310.00
+2026-01-27 13:24:46,573 - __main__ - INFO - Order 7: Price: Rs.896.80, Trigger: Rs.895.90, Type: GTT ORDER, Quantity: 8, Value: Rs.7174.60
+2026-01-27 13:24:46,573 - __main__ - INFO - Order 8: Price: Rs.892.20, Trigger: Rs.891.30, Type: GTT ORDER, Quantity: 9, Value: Rs.8030.00
+2026-01-27 13:24:46,573 - __main__ - INFO - Order 9: Price: Rs.887.60, Trigger: Rs.886.70, Type: GTT ORDER, Quantity: 10, Value: Rs.8876.10
+2026-01-27 13:24:46,573 - __main__ - INFO - Order 10: Price: Rs.883.00, Trigger: Rs.882.10, Type: GTT ORDER, Quantity: 11, Value: Rs.9713.10
+2026-01-27 13:24:58,705 - __main__ - INFO - Order placement cancelled by user
+2026-01-27 13:25:04,006 - __main__ - INFO - Using order_count from config: 10
+2026-01-27 13:25:04,006 - __main__ - INFO - Price difference configured: 0.5%
+2026-01-27 13:25:04,006 - __main__ - INFO - Start quantity configured: 3
+2026-01-27 13:25:04,006 - __main__ - INFO - Initializing Hybrid Order Scheduler for BAJFINANCE
+2026-01-27 13:25:04,006 - __main__ - INFO - Order count: 10, Current price: Rs.920.50, Max quantity: 100
+2026-01-27 13:25:04,006 - __main__ - INFO - Price difference: 0.5%
+2026-01-27 13:25:04,006 - __main__ - INFO - Configuration loaded successfully
+2026-01-27 13:25:04,007 - __main__ - INFO - Starting hybrid order scheduling process
+2026-01-27 13:25:04,119 - __main__ - INFO - Successfully connected to Kite Connect
+2026-01-27 13:25:04,119 - __main__ - WARNING - pytz not available, assuming market is closed - will use LIMIT order for first order
+2026-01-27 13:25:04,119 - __main__ - INFO - Using provided current price as base: Rs.920.50
+2026-01-27 13:25:04,119 - __main__ - INFO - Market is closed - skipping first order and starting with GTT orders
+2026-01-27 13:25:04,119 - __main__ - INFO - Order 1: SKIPPED (Market closed - AMO not supported)
+2026-01-27 13:25:04,119 - __main__ - INFO - Order 2: Price: Rs.919.30, Trigger: Rs.918.40, Type: GTT ORDER, Quantity: 3, Value: Rs.2758.00
+2026-01-27 13:25:04,119 - __main__ - INFO - Order 3: Price: Rs.914.70, Trigger: Rs.913.80, Type: GTT ORDER, Quantity: 4, Value: Rs.3659.00
+2026-01-27 13:25:04,119 - __main__ - INFO - Order 4: Price: Rs.910.10, Trigger: Rs.909.20, Type: GTT ORDER, Quantity: 5, Value: Rs.4550.70
+2026-01-27 13:25:04,119 - __main__ - INFO - Order 5: Price: Rs.905.50, Trigger: Rs.904.60, Type: GTT ORDER, Quantity: 6, Value: Rs.5433.30
+2026-01-27 13:25:04,119 - __main__ - INFO - Order 6: Price: Rs.900.90, Trigger: Rs.900.00, Type: GTT ORDER, Quantity: 7, Value: Rs.6306.60
+2026-01-27 13:25:04,119 - __main__ - INFO - Order 7: Price: Rs.896.30, Trigger: Rs.895.40, Type: GTT ORDER, Quantity: 8, Value: Rs.7170.70
+2026-01-27 13:25:04,119 - __main__ - INFO - Order 8: Price: Rs.891.70, Trigger: Rs.890.80, Type: GTT ORDER, Quantity: 9, Value: Rs.8025.60
+2026-01-27 13:25:04,119 - __main__ - INFO - Order 9: Price: Rs.887.10, Trigger: Rs.886.20, Type: GTT ORDER, Quantity: 10, Value: Rs.8871.30
+2026-01-27 13:25:04,119 - __main__ - INFO - Order 10: Price: Rs.882.50, Trigger: Rs.881.60, Type: GTT ORDER, Quantity: 11, Value: Rs.9707.80
+2026-01-27 13:25:40,642 - __main__ - INFO - Placing orders...
+2026-01-27 13:25:40,642 - __main__ - INFO - Skipping order 1 - Market closed, AMO not supported
+2026-01-27 13:25:40,642 - __main__ - INFO - Order 1 skipped successfully
+2026-01-27 13:25:40,642 - __main__ - INFO - Placing GTT order 2 for BAJFINANCE
+2026-01-27 13:25:40,844 - __main__ - INFO - GTT order 2 placed successfully with trigger ID: 303737160
+2026-01-27 13:25:40,845 - __main__ - INFO - Placing GTT order 3 for BAJFINANCE
+2026-01-27 13:25:41,045 - __main__ - INFO - GTT order 3 placed successfully with trigger ID: 303737161
+2026-01-27 13:25:41,045 - __main__ - INFO - Placing GTT order 4 for BAJFINANCE
+2026-01-27 13:25:41,224 - __main__ - INFO - GTT order 4 placed successfully with trigger ID: 303737162
+2026-01-27 13:25:41,224 - __main__ - INFO - Placing GTT order 5 for BAJFINANCE
+2026-01-27 13:25:41,410 - __main__ - INFO - GTT order 5 placed successfully with trigger ID: 303737163
+2026-01-27 13:25:41,410 - __main__ - INFO - Placing GTT order 6 for BAJFINANCE
+2026-01-27 13:25:41,628 - __main__ - INFO - GTT order 6 placed successfully with trigger ID: 303737165
+2026-01-27 13:25:41,629 - __main__ - INFO - Placing GTT order 7 for BAJFINANCE
+2026-01-27 13:25:41,833 - __main__ - INFO - GTT order 7 placed successfully with trigger ID: 303737166
+2026-01-27 13:25:41,833 - __main__ - INFO - Placing GTT order 8 for BAJFINANCE
+2026-01-27 13:25:42,014 - __main__ - INFO - GTT order 8 placed successfully with trigger ID: 303737171
+2026-01-27 13:25:42,014 - __main__ - INFO - Placing GTT order 9 for BAJFINANCE
+2026-01-27 13:25:42,226 - __main__ - INFO - GTT order 9 placed successfully with trigger ID: 303737172
+2026-01-27 13:25:42,226 - __main__ - INFO - Placing GTT order 10 for BAJFINANCE
+2026-01-27 13:25:42,401 - __main__ - INFO - GTT order 10 placed successfully with trigger ID: 303737175
+2026-01-27 13:25:42,402 - __main__ - INFO - Order summary saved to workdir/orders/BAJFINANCE_gtt_orders_20260127_132542.json
+2026-01-27 13:25:42,402 - __main__ - INFO - Hybrid order scheduling process completed successfully
+2026-01-27 15:20:27,019 - __main__ - INFO - Initializing GTT Sell Order Scheduler for BAJFINANCE
+2026-01-27 15:20:27,019 - __main__ - INFO - Target net profit: 1.0%
+2026-01-27 15:20:27,019 - __main__ - INFO - Starting GTT sell order scheduling process
+2026-01-27 15:20:27,201 - __main__ - INFO - Successfully connected to Kite Connect
+2026-01-27 20:46:05,112 - __main__ - INFO - Order placement cancelled by user
+2026-01-27 20:46:33,295 - __main__ - INFO - Initializing GTT Sell Order Scheduler for BAJFINANCE
+2026-01-27 20:46:33,295 - __main__ - INFO - Target net profit: 1.0%
+2026-01-27 20:46:33,295 - __main__ - INFO - Starting GTT sell order scheduling process
+2026-01-27 20:46:33,411 - __main__ - INFO - Successfully connected to Kite Connect
+2026-01-27 20:46:36,616 - __main__ - INFO - Placing GTT sell order...
+2026-01-27 20:46:36,866 - __main__ - WARNING - Could not fetch current price: Insufficient permission for that call.
+2026-01-27 20:46:36,950 - __main__ - ERROR - Failed to place GTT sell order: Trigger price was too close to the last price. (difference should be more than 0.25%)
+2026-01-27 20:46:36,950 - __main__ - ERROR - GTT sell order scheduling failed: Trigger price was too close to the last price. (difference should be more than 0.25%)
+2026-01-27 20:46:36,950 - __main__ - ERROR - Error type: InputException

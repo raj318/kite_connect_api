@@ -1,0 +1,41 @@
+{
+  "company_symbol": "HDFCLIFE",
+  "operation": "GTT Order Deletion",
+  "timestamp": "2026-01-20T10:50:40.784714",
+  "results": {
+    "total_orders": 4,
+    "successful_deletions": 4,
+    "failed_deletions": 0,
+    "deleted_orders": [
+      {
+        "trigger_id": 302061049,
+        "symbol": "HDFCLIFE",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-20T10:50:40.391763"
+      },
+      {
+        "trigger_id": 302061045,
+        "symbol": "HDFCLIFE",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-20T10:50:40.521399"
+      },
+      {
+        "trigger_id": 302061044,
+        "symbol": "HDFCLIFE",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-20T10:50:40.653995"
+      },
+      {
+        "trigger_id": 302061039,
+        "symbol": "HDFCLIFE",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-20T10:50:40.784581"
+      }
+    ],
+    "failed_orders": []
+  }
+}

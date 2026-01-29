@@ -1,0 +1,55 @@
+{
+  "company_symbol": "BAJFINANCE",
+  "operation": "GTT Order Deletion",
+  "timestamp": "2026-01-28T09:49:21.119025",
+  "results": {
+    "total_orders": 6,
+    "successful_deletions": 6,
+    "failed_deletions": 0,
+    "deleted_orders": [
+      {
+        "trigger_id": 303737175,
+        "symbol": "BAJFINANCE",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-28T09:49:20.651006"
+      },
+      {
+        "trigger_id": 303737172,
+        "symbol": "BAJFINANCE",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-28T09:49:20.735858"
+      },
+      {
+        "trigger_id": 303737171,
+        "symbol": "BAJFINANCE",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-28T09:49:20.820319"
+      },
+      {
+        "trigger_id": 303737166,
+        "symbol": "BAJFINANCE",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-28T09:49:20.909239"
+      },
+      {
+        "trigger_id": 303737165,
+        "symbol": "BAJFINANCE",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-28T09:49:21.013560"
+      },
+      {
+        "trigger_id": 303737163,
+        "symbol": "BAJFINANCE",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-28T09:49:21.118947"
+      }
+    ],
+    "failed_orders": []
+  }
+}

@@ -1,0 +1,87 @@
+2026-01-28 09:19:29,195 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-28 09:19:29,197 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-28 09:19:29,298 - kite_utils - ERROR - Access token expired. Getting new token...
+2026-01-28 09:19:56,172 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-28 09:19:56,173 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-28 09:46:56,304 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-28 09:46:56,306 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-28 09:46:56,306 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-28 09:46:56,307 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-28 09:48:05,547 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-28 09:48:05,548 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-28 09:48:05,549 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-28 09:48:05,550 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-28 09:49:06,320 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-28 09:49:06,321 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-28 09:49:06,321 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-28 09:49:18,752 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-28 09:49:18,753 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-28 09:49:18,754 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-28 10:00:01,173 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-28 10:00:01,174 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-28 10:00:13,969 - kite_utils - ERROR - Error getting live data for HINDALCO: Insufficient permission for that call.
+2026-01-28 10:00:19,539 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-28 10:00:19,540 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-28 10:00:25,306 - kite_utils - ERROR - Error getting live data for HINDALCO: Insufficient permission for that call.
+2026-01-28 11:12:39,369 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-28 11:12:39,370 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-28 11:12:39,371 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-28 11:13:00,867 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-28 11:13:00,868 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-28 11:13:00,868 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-28 11:55:11,896 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-28 11:55:11,897 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-28 11:55:11,898 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-28 11:55:11,899 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-28 11:55:26,703 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-28 11:55:26,704 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-28 11:55:26,705 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-28 11:55:26,706 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-28 13:36:01,270 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-28 13:36:01,271 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-28 13:36:01,272 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-28 13:36:01,273 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-28 13:36:59,922 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-28 13:36:59,923 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-28 13:36:59,923 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-28 13:39:24,004 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-28 13:39:24,005 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-28 13:39:24,006 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-28 14:27:51,412 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-28 14:27:51,413 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-28 14:27:51,413 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-28 14:27:51,414 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-28 14:28:05,740 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-28 14:28:05,741 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-28 14:28:05,742 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-28 14:28:05,742 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-28 17:35:15,291 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-28 17:35:15,293 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-28 17:54:10,710 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-28 17:54:10,711 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-28 17:57:44,043 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-28 17:57:44,044 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-28 17:57:50,271 - kite_utils - ERROR - Error getting live data for HDFCBANK: Insufficient permission for that call.
+2026-01-28 18:00:18,702 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-28 18:00:18,703 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-28 18:00:22,588 - kite_utils - ERROR - Error getting live data for HDFCBANK: Insufficient permission for that call.
+2026-01-28 18:13:27,108 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-28 18:13:27,109 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-28 18:13:31,735 - kite_utils - ERROR - Error getting live data for HDFCBANK: Insufficient permission for that call.
+2026-01-28 18:19:41,300 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-28 18:19:41,301 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-28 18:20:07,561 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-28 18:20:07,562 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-28 18:20:10,678 - kite_utils - ERROR - Error getting live data for HDFCBANK: Insufficient permission for that call.
+2026-01-28 18:20:22,001 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-28 18:20:22,002 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-28 18:20:48,080 - kite_utils - ERROR - Error getting live data for HDFCBANK: Insufficient permission for that call.
+2026-01-28 18:21:02,225 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-28 18:21:02,226 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-28 18:21:08,689 - kite_utils - ERROR - Error getting live data for HDFCBANK: Insufficient permission for that call.
+2026-01-28 18:26:52,663 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-28 18:26:52,664 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-28 18:27:07,211 - kite_utils - ERROR - Error getting live data for HDFCBANK: Insufficient permission for that call.
+2026-01-28 19:21:45,207 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-28 19:21:45,208 - kite_utils - INFO - Using config file at: config/config.yaml
+2026-01-28 19:21:48,536 - kite_utils - ERROR - Error getting live data for COALINDIA: Insufficient permission for that call.
