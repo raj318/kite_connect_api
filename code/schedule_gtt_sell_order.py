@@ -290,9 +290,9 @@ def get_holdings_info(kite_api: KiteConnectAPI, company_symbol: str) -> Tuple[in
 
 def print_order_summary(company_symbol: str, quantity: int, avg_price: float, 
                        sell_price: float, target_profit_pct: float, profit_analysis: dict,
-                       charge_mode: str) -> None:
+                       charge_mode: str, comparison_analysis: Optional[dict] = None) -> None:
     """
-    Print a detailed summary of the GTT sell order
+    Print a detailed summary of the GTT sell order with comparison of both charge modes
     
     Parameters:
     - company_symbol: Trading symbol
@@ -300,7 +300,9 @@ def print_order_summary(company_symbol: str, quantity: int, avg_price: float,
     - avg_price: Average buy price
     - sell_price: Calculated sell price
     - target_profit_pct: Target profit percentage
-    - profit_analysis: Profit analysis dictionary
+    - profit_analysis: Profit analysis dictionary (for selected charge mode)
+    - charge_mode: Selected charge mode (delivery or intraday)
+    - comparison_analysis: Optional profit analysis for comparison mode
     """
     print("\n" + "="*80)
     print(f"GTT SELL ORDER SUMMARY FOR {company_symbol}")
@@ -312,7 +314,7 @@ def print_order_summary(company_symbol: str, quantity: int, avg_price: float,
     print(f"  Average Buy Price: ₹{avg_price:.2f}")
     print(f"  Total Buy Value: ₹{profit_analysis['buy_value']:,.2f}")
     
-    print(f"\nSell Order Details:")
+    print(f"\nSell Order Details (Using {charge_mode.upper()} Charges):")
     print(f"  Charge Mode: {charge_mode}")
     print(f"  Sell Price: ₹{sell_price:.2f}")
     print(f"  Quantity: {quantity:,} shares")
@@ -325,7 +327,7 @@ def print_order_summary(company_symbol: str, quantity: int, avg_price: float,
     print(f"  Net Profit: ₹{profit_analysis['net_profit']:,.2f} ({profit_analysis['net_profit_percentage']:.2f}%)")
     print(f"  Break-even Price: ₹{profit_analysis['break_even_price']:.2f}")
     
-    print(f"\nCharge Breakdown:")
+    print(f"\nCharge Breakdown ({charge_mode.upper()}):")
     charges = profit_analysis['charges']
     print(f"  Brokerage: ₹{charges['brokerage']:.2f}")
     print(f"  STT: ₹{charges['stt']:.2f}")
@@ -335,6 +337,36 @@ def print_order_summary(company_symbol: str, quantity: int, avg_price: float,
     print(f"  GST: ₹{charges['gst']:.2f}")
     print(f"  Total Charges: ₹{charges['total_charges']:.2f}")
     print(f"  Charges per Share: ₹{charges['charges_per_share']:.2f}")
+    
+    # Show comparison with other charge mode
+    if comparison_analysis:
+        comparison_mode = 'intraday' if charge_mode == 'delivery' else 'delivery'
+        # Calculate sell price for target profit with comparison mode
+        comparison_sell_price = calculate_optimal_sell_price(avg_price, quantity, target_profit_pct, charge_mode=comparison_mode)
+        comparison_sell_price = round(comparison_sell_price, 1)
+        
+        print(f"\n" + "-"*80)
+        print(f"COMPARISON: {comparison_mode.upper()} CHARGES")
+        print("-"*80)
+        print(f"  Sell Price for {target_profit_pct}% profit ({comparison_mode}): ₹{comparison_sell_price:.2f}")
+        print(f"  Total Sell Value: ₹{comparison_analysis['sell_value']:,.2f}")
+        print(f"  Gross Profit: ₹{comparison_analysis['gross_profit']:,.2f} ({comparison_analysis['gross_profit_percentage']:.2f}%)")
+        print(f"  Total Charges: ₹{comparison_analysis['total_charges']:,.2f} ({comparison_analysis['charges_percentage']:.2f}%)")
+        print(f"  Net Profit: ₹{comparison_analysis['net_profit']:,.2f} ({comparison_analysis['net_profit_percentage']:.2f}%)")
+        
+        comp_charges = comparison_analysis['charges']
+        print(f"\n  Charge Breakdown ({comparison_mode.upper()}):") 
+        print(f"    STT: ₹{comp_charges['stt']:.2f}")
+        print(f"    DP Charges: ₹{comp_charges['dp_charges']:.2f}")
+        print(f"    Brokerage: ₹{comp_charges['brokerage']:.2f}")
+        print(f"    Total: ₹{comp_charges['total_charges']:.2f}")
+        
+        price_diff = abs(comparison_sell_price - sell_price)
+        charge_diff = abs(comparison_analysis['total_charges'] - profit_analysis['total_charges'])
+        print(f"\n  💡 COMPARISON:")
+        print(f"    {charge_mode.upper()}: Sell at ₹{sell_price:.2f} (Charges: ₹{profit_analysis['total_charges']:.2f})")
+        print(f"    {comparison_mode.upper()}: Sell at ₹{comparison_sell_price:.2f} (Charges: ₹{comparison_analysis['total_charges']:.2f})")
+        print(f"    Price difference: ₹{price_diff:.2f} | Charge difference: ₹{charge_diff:.2f}")
     
     print("\n" + "="*80)
 
@@ -523,12 +555,12 @@ class GTTSellOrderScheduler:
             print(f"Error checking existing orders: {e}")
             return False
     
-    def get_holdings_and_calculate_price(self) -> Tuple[int, float, float, float, dict]:
+    def get_holdings_and_calculate_price(self) -> Tuple[int, float, float, float, dict, dict]:
         """
-        Get holdings info and calculate required sell price
+        Get holdings info and calculate required sell price for both charge modes
         
         Returns:
-        Tuple of (quantity, avg_price, sell_price, trigger_price, profit_analysis)
+        Tuple of (quantity, avg_price, sell_price, trigger_price, profit_analysis, comparison_analysis)
         """
         # Get holdings information
         total_quantity, avg_price = get_holdings_info(self.kite_api, self.company_symbol)
@@ -547,17 +579,23 @@ class GTTSellOrderScheduler:
         if sell_quantity <= 0:
             raise ValueError(f"Invalid quantity: {sell_quantity}")
         
-        # Calculate optimal sell price
+        # Calculate optimal sell price for selected charge mode
         sell_price = calculate_optimal_sell_price(avg_price, sell_quantity, self.net_profit_percentage, charge_mode=self.charge_mode)
         sell_price = round(sell_price, 1)
         
         # Calculate trigger price (fixed 0.50 rupees above sell price)
         trigger_price = round(sell_price + 0.50, 2)
         
-        # Calculate profit analysis
+        # Calculate profit analysis for selected charge mode
         profit_analysis = calculate_profit_with_charges(avg_price, sell_price, sell_quantity, charge_mode=self.charge_mode)
         
-        return sell_quantity, avg_price, sell_price, trigger_price, profit_analysis
+        # Also calculate for comparison mode (opposite of selected)
+        comparison_mode = 'intraday' if self.charge_mode == 'delivery' else 'delivery'
+        comparison_sell_price = calculate_optimal_sell_price(avg_price, sell_quantity, self.net_profit_percentage, charge_mode=comparison_mode)
+        comparison_sell_price = round(comparison_sell_price, 1)
+        comparison_analysis = calculate_profit_with_charges(avg_price, comparison_sell_price, sell_quantity, charge_mode=comparison_mode)
+        
+        return sell_quantity, avg_price, sell_price, trigger_price, profit_analysis, comparison_analysis
     
     def place_gtt_sell_order(self, quantity: int, sell_price: float, trigger_price: float) -> str:
         """
@@ -649,6 +687,41 @@ class GTTSellOrderScheduler:
             self.logger.error(f"Failed to place GTT sell order: {e}")
             raise
     
+    def place_normal_sell_order(self, quantity: int, sell_price: float) -> str:
+        """
+        Place a normal (market/limit) sell order that executes immediately.
+        Used for intraday same-day selling.
+        
+        Parameters:
+        - quantity: Number of shares to sell
+        - sell_price: Sell price per share (limit price)
+        
+        Returns:
+        Order ID
+        """
+        try:
+            self.logger.info(f"Placing normal SELL order: quantity={quantity}, price={sell_price}")
+            
+            # Place normal sell order as LIMIT order
+            order_id = self.kite_api.place_order(
+                trading_symbol=self.company_symbol,
+                exchange="NSE",
+                transaction_type="SELL",
+                quantity=quantity,
+                order_type="LIMIT",
+                product="MIS",  # Intraday product
+                price=sell_price
+            )
+            
+            self.logger.info(f"Normal sell order placed successfully. Order ID: {order_id}")
+            print(f"\n✓ Normal sell order placed successfully!")
+            
+            return order_id
+            
+        except Exception as e:
+            self.logger.error(f"Failed to place normal sell order: {e}")
+            raise
+    
     def run(self, auto_confirm: bool = False) -> None:
         """Execute the complete GTT sell order scheduling process"""
         try:
@@ -663,40 +736,182 @@ class GTTSellOrderScheduler:
                 return
             
             # Get holdings and calculate prices
-            quantity, avg_price, sell_price, trigger_price, profit_analysis = self.get_holdings_and_calculate_price()
-            # Print summary
+            quantity, avg_price, sell_price, trigger_price, profit_analysis, comparison_analysis = self.get_holdings_and_calculate_price()
+            
+            # Calculate prices for both modes for reference
+            delivery_sell_price = sell_price if self.charge_mode == 'delivery' else calculate_optimal_sell_price(avg_price, quantity, self.net_profit_percentage, charge_mode='delivery')
+            delivery_sell_price = round(delivery_sell_price, 1)
+            intraday_sell_price = sell_price if self.charge_mode == 'intraday' else calculate_optimal_sell_price(avg_price, quantity, self.net_profit_percentage, charge_mode='intraday')
+            intraday_sell_price = round(intraday_sell_price, 1)
+            
+            # Print summary with comparison
             print_order_summary(self.company_symbol, quantity, avg_price, sell_price, 
-                              self.net_profit_percentage, profit_analysis, self.charge_mode)
+                              self.net_profit_percentage, profit_analysis, self.charge_mode, comparison_analysis)
             
             # Show profit in rupees
             net_profit_rupees = profit_analysis['net_profit']
             print(f"\n💰 NET PROFIT: ₹{net_profit_rupees:,.2f}")
             print(f"   (Target: {self.net_profit_percentage}% net profit)")
             
-            # Ask for confirmation
+            # Ask user which order type to place
+            print(f"\n" + "="*80)
+            print("SELECT ORDER TYPE:")
+            print("="*80)
+            print(f"Option 1: INTRADAY (Normal Market Order) - Executes immediately")
+            print(f"          └─ Sell Price: ₹{intraday_sell_price:.2f}")
+            print(f"          └─ Lower charges: STT 0.025%, Brokerage 0.03%")
+            print(f"\nOption 2: DELIVERY (GTT Order) - Triggers at specified price")
+            print(f"          └─ Sell Price: ₹{delivery_sell_price:.2f} (Trigger: ₹{round(delivery_sell_price + 0.50, 2):.2f})")
+            print(f"          └─ Higher charges: STT 0.1%, DP ₹15.93")
+            print(f"\nOption 3: BOTH ORDERS - Intraday market + Delivery GTT")
+            print(f"          └─ Intraday: ₹{intraday_sell_price:.2f} (executes now)")
+            print(f"          └─ Delivery: ₹{delivery_sell_price:.2f} (triggers when price reaches ₹{round(delivery_sell_price + 0.50, 2):.2f})")
+            print(f"\nOption 4: Cancel")
+            print("="*80)
+            
             if not auto_confirm:
-                confirm = input("\nDo you want to proceed with placing this GTT sell order? (yes/no): ").strip().lower()
-                if confirm not in ['yes', 'y']:
-                    self.logger.info("Order placement cancelled by user")
-                    print("Order placement cancelled.")
-                    # Save calculated order even if not placed
-                    save_order_details(self.company_symbol, quantity, avg_price, sell_price, 
-                                     trigger_price, self.net_profit_percentage, profit_analysis)
+                choice = input("\nEnter your choice (1/2/3/4): ").strip()
+            else:
+                choice = "2"  # Default to delivery GTT in auto mode
+            
+            if choice == "1":
+                # Place normal intraday order
+                self.logger.info("User selected: Intraday normal order")
+                print("\n📊 Placing INTRADAY NORMAL SELL ORDER...")
+                
+                # Get intraday analysis
+                intraday_analysis = calculate_profit_with_charges(avg_price, intraday_sell_price, quantity, charge_mode='intraday')
+                
+                # Confirm before placing
+                if not auto_confirm:
+                    confirm = input(f"\nPlace order: SELL {quantity} shares @ ₹{intraday_sell_price:.2f}? (yes/no): ").strip().lower()
+                    if confirm not in ['yes', 'y']:
+                        self.logger.info("Intraday order placement cancelled by user")
+                        print("Intraday order cancelled.")
+                        return
+                
+                # Place normal order
+                order_id = self.place_normal_sell_order(quantity, intraday_sell_price)
+                
+                # Save order details
+                save_order_details(self.company_symbol, quantity, avg_price, intraday_sell_price, 
+                                 intraday_sell_price, self.net_profit_percentage, intraday_analysis, order_id)
+                
+                print(f"\n✅ Intraday order placed successfully!")
+                print(f"   Order ID: {order_id}")
+                print(f"   Order Type: Normal Market Order (MIS)")
+                print(f"   Execution: Immediate at market")
+                
+                self.logger.info("Intraday normal sell order completed successfully")
+                
+            elif choice == "2":
+                # Place GTT delivery order
+                self.logger.info("User selected: Delivery GTT order")
+                print("\n⏰ Placing DELIVERY GTT SELL ORDER...")
+                
+                delivery_trigger_price = round(delivery_sell_price + 0.50, 2)
+                delivery_analysis = calculate_profit_with_charges(avg_price, delivery_sell_price, quantity, charge_mode='delivery')
+                
+                # Confirm before placing
+                if not auto_confirm:
+                    confirm = input(f"\nPlace order: GTT SELL {quantity} shares @ ₹{delivery_sell_price:.2f} (Trigger: ₹{delivery_trigger_price:.2f})? (yes/no): ").strip().lower()
+                    if confirm not in ['yes', 'y']:
+                        self.logger.info("GTT order placement cancelled by user")
+                        print("GTT order cancelled.")
+                        return
+                
+                # Place GTT order
+                trigger_id = self.place_gtt_sell_order(quantity, delivery_sell_price, delivery_trigger_price)
+                
+                # Save order details
+                save_order_details(self.company_symbol, quantity, avg_price, delivery_sell_price, 
+                                 delivery_trigger_price, self.net_profit_percentage, delivery_analysis, trigger_id)
+                
+                print(f"\n✅ GTT sell order placed successfully!")
+                print(f"   Trigger ID: {trigger_id}")
+                print(f"   Order Type: GTT (Good Till Triggered)")
+                print(f"   Order will execute when price reaches ₹{delivery_trigger_price:.2f}")
+                
+                self.logger.info("GTT sell order scheduling process completed successfully")
+                
+            elif choice == "3":
+                # Place BOTH orders
+                self.logger.info("User selected: Both intraday and delivery orders")
+                print("\n🔄 Placing BOTH INTRADAY + DELIVERY GTT ORDERS...")
+                
+                # Get analyses
+                intraday_analysis = calculate_profit_with_charges(avg_price, intraday_sell_price, quantity, charge_mode='intraday')
+                delivery_trigger_price = round(delivery_sell_price + 0.50, 2)
+                delivery_analysis = calculate_profit_with_charges(avg_price, delivery_sell_price, quantity, charge_mode='delivery')
+                
+                # Confirm before placing both
+                if not auto_confirm:
+                    print(f"\nYou are about to place TWO orders:")
+                    print(f"  1. INTRADAY: SELL {quantity} shares @ ₹{intraday_sell_price:.2f} (executes now)")
+                    print(f"  2. DELIVERY: GTT SELL {quantity} shares @ ₹{delivery_sell_price:.2f} (trigger: ₹{delivery_trigger_price:.2f})")
+                    confirm = input(f"\nProceed with BOTH orders? (yes/no): ").strip().lower()
+                    if confirm not in ['yes', 'y']:
+                        self.logger.info("Both orders placement cancelled by user")
+                        print("Order placement cancelled.")
+                        return
+                
+                # Place intraday order first
+                print("\n📊 Placing INTRADAY order...")
+                try:
+                    intraday_order_id = self.place_normal_sell_order(quantity, intraday_sell_price)
+                    save_order_details(self.company_symbol, quantity, avg_price, intraday_sell_price, 
+                                     intraday_sell_price, self.net_profit_percentage, intraday_analysis, intraday_order_id)
+                    print(f"   ✓ Intraday Order ID: {intraday_order_id}")
+                except Exception as e:
+                    self.logger.error(f"Failed to place intraday order: {e}")
+                    print(f"   ✗ Intraday order failed: {e}")
                     return
-            
-            # Place GTT order
-            self.logger.info("Placing GTT sell order...")
-            trigger_id = self.place_gtt_sell_order(quantity, sell_price, trigger_price)
-            
-            # Save order details
-            save_order_details(self.company_symbol, quantity, avg_price, sell_price, 
-                             trigger_price, self.net_profit_percentage, profit_analysis, trigger_id)
-            
-            print(f"\n✅ GTT sell order placed successfully!")
-            print(f"   Trigger ID: {trigger_id}")
-            print(f"   Order will execute when price reaches ₹{trigger_price:.2f}")
-            
-            self.logger.info("GTT sell order scheduling process completed successfully")
+                
+                # Place GTT delivery order second
+                print("\n⏰ Placing DELIVERY GTT order...")
+                try:
+                    trigger_id = self.place_gtt_sell_order(quantity, delivery_sell_price, delivery_trigger_price)
+                    save_order_details(self.company_symbol, quantity, avg_price, delivery_sell_price, 
+                                     delivery_trigger_price, self.net_profit_percentage, delivery_analysis, trigger_id)
+                    print(f"   ✓ GTT Trigger ID: {trigger_id}")
+                except Exception as e:
+                    self.logger.error(f"Failed to place GTT order: {e}")
+                    print(f"   ✗ GTT order failed: {e}")
+                    return
+                
+                # Summary
+                print(f"\n" + "="*80)
+                print(f"✅ BOTH ORDERS PLACED SUCCESSFULLY!")
+                print("="*80)
+                print(f"\n📊 INTRADAY ORDER (Executes immediately)")
+                print(f"   Order ID: {intraday_order_id}")
+                print(f"   Quantity: {quantity} shares @ ₹{intraday_sell_price:.2f}")
+                print(f"   Charges: ₹{intraday_analysis['total_charges']:.2f}")
+                print(f"   Net Profit: ₹{intraday_analysis['net_profit']:.2f} ({intraday_analysis['net_profit_percentage']:.2f}%)")
+                
+                print(f"\n⏰ DELIVERY GTT ORDER (Triggers when price reaches ₹{delivery_trigger_price:.2f})")
+                print(f"   Trigger ID: {trigger_id}")
+                print(f"   Quantity: {quantity} shares @ ₹{delivery_sell_price:.2f}")
+                print(f"   Charges: ₹{delivery_analysis['total_charges']:.2f}")
+                print(f"   Net Profit: ₹{delivery_analysis['net_profit']:.2f} ({delivery_analysis['net_profit_percentage']:.2f}%)")
+                
+                print(f"\n💡 STRATEGY:")
+                print(f"   • Intraday executes immediately → Locks in ₹{intraday_analysis['net_profit']:.2f}")
+                print(f"   • GTT waits for better price → Additional ₹{delivery_analysis['net_profit']:.2f} if triggered")
+                print(f"   • Total potential profit: ₹{(intraday_analysis['net_profit'] + delivery_analysis['net_profit']):.2f}")
+                print("="*80)
+                
+                self.logger.info("Both orders placed successfully")
+                
+            elif choice == "4":
+                self.logger.info("User cancelled order placement")
+                print("Order placement cancelled.")
+                return
+                
+            else:
+                print("Invalid choice. Order placement cancelled.")
+                self.logger.warning("Invalid choice entered by user")
+                return
             
         except Exception as e:
             error_msg = str(e)

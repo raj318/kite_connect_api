@@ -1,0 +1,18 @@
+2026-01-30 11:27:50,020 - __main__ - INFO - Initializing GTT Sell Order Scheduler for WIPRO
+2026-01-30 11:27:50,020 - __main__ - INFO - Target net profit: 1.0%
+2026-01-30 11:27:50,020 - __main__ - INFO - Charge mode: delivery
+2026-01-30 11:27:50,020 - __main__ - INFO - Starting GTT sell order scheduling process
+2026-01-30 11:27:50,156 - __main__ - INFO - Successfully connected to Kite Connect
+2026-01-30 11:27:50,156 - __main__ - INFO - Checking for existing GTT SELL orders for WIPRO...
+2026-01-30 11:27:50,255 - __main__ - INFO - No existing SELL GTT orders found for WIPRO
+2026-01-30 11:27:51,129 - __main__ - ERROR - GTT sell order scheduling failed: No holdings found for WIPRO
+2026-01-30 11:27:51,129 - __main__ - ERROR - Error type: ValueError
+2026-01-30 11:27:55,755 - __main__ - INFO - Initializing GTT Sell Order Scheduler for WIPRO
+2026-01-30 11:27:55,755 - __main__ - INFO - Target net profit: 1.0%
+2026-01-30 11:27:55,755 - __main__ - INFO - Charge mode: delivery
+2026-01-30 11:27:55,755 - __main__ - INFO - Starting GTT sell order scheduling process
+2026-01-30 11:27:55,990 - __main__ - INFO - Successfully connected to Kite Connect
+2026-01-30 11:27:55,990 - __main__ - INFO - Checking for existing GTT SELL orders for WIPRO...
+2026-01-30 11:27:56,090 - __main__ - INFO - No existing SELL GTT orders found for WIPRO
+2026-01-30 11:27:56,966 - __main__ - ERROR - GTT sell order scheduling failed: No holdings found for WIPRO
+2026-01-30 11:27:56,966 - __main__ - ERROR - Error type: ValueError

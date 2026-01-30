@@ -1,0 +1,188 @@
+{
+  "company_symbol": "JSWSTEEL",
+  "operation": "GTT Order Deletion",
+  "timestamp": "2026-01-30T12:30:45.672611",
+  "results": {
+    "total_orders": 25,
+    "successful_deletions": 25,
+    "failed_deletions": 0,
+    "deleted_orders": [
+      {
+        "trigger_id": 304365735,
+        "symbol": "JSWSTEEL",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-30T12:30:43.086593"
+      },
+      {
+        "trigger_id": 304365733,
+        "symbol": "JSWSTEEL",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-30T12:30:43.186905"
+      },
+      {
+        "trigger_id": 304365730,
+        "symbol": "JSWSTEEL",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-30T12:30:43.281694"
+      },
+      {
+        "trigger_id": 304365728,
+        "symbol": "JSWSTEEL",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-30T12:30:43.385220"
+      },
+      {
+        "trigger_id": 304365725,
+        "symbol": "JSWSTEEL",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-30T12:30:43.477610"
+      },
+      {
+        "trigger_id": 304359245,
+        "symbol": "JSWSTEEL",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-30T12:30:43.595075"
+      },
+      {
+        "trigger_id": 304359244,
+        "symbol": "JSWSTEEL",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-30T12:30:43.722620"
+      },
+      {
+        "trigger_id": 304359243,
+        "symbol": "JSWSTEEL",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-30T12:30:43.823305"
+      },
+      {
+        "trigger_id": 304359241,
+        "symbol": "JSWSTEEL",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-30T12:30:43.916046"
+      },
+      {
+        "trigger_id": 304359239,
+        "symbol": "JSWSTEEL",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-30T12:30:44.033898"
+      },
+      {
+        "trigger_id": 304358787,
+        "symbol": "JSWSTEEL",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-30T12:30:44.125479"
+      },
+      {
+        "trigger_id": 304358785,
+        "symbol": "JSWSTEEL",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-30T12:30:44.217252"
+      },
+      {
+        "trigger_id": 304358783,
+        "symbol": "JSWSTEEL",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-30T12:30:44.322942"
+      },
+      {
+        "trigger_id": 304358780,
+        "symbol": "JSWSTEEL",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-30T12:30:44.448203"
+      },
+      {
+        "trigger_id": 304358779,
+        "symbol": "JSWSTEEL",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-30T12:30:44.552166"
+      },
+      {
+        "trigger_id": 304355802,
+        "symbol": "JSWSTEEL",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-30T12:30:44.676364"
+      },
+      {
+        "trigger_id": 304355800,
+        "symbol": "JSWSTEEL",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-30T12:30:44.786316"
+      },
+      {
+        "trigger_id": 304355799,
+        "symbol": "JSWSTEEL",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-30T12:30:44.925246"
+      },
+      {
+        "trigger_id": 304355798,
+        "symbol": "JSWSTEEL",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-30T12:30:45.027715"
+      },
+      {
+        "trigger_id": 304355797,
+        "symbol": "JSWSTEEL",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-30T12:30:45.125217"
+      },
+      {
+        "trigger_id": 304354038,
+        "symbol": "JSWSTEEL",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-30T12:30:45.267969"
+      },
+      {
+        "trigger_id": 304354037,
+        "symbol": "JSWSTEEL",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-30T12:30:45.369811"
+      },
+      {
+        "trigger_id": 304354036,
+        "symbol": "JSWSTEEL",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-30T12:30:45.472656"
+      },
+      {
+        "trigger_id": 304354034,
+        "symbol": "JSWSTEEL",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-30T12:30:45.575661"
+      },
+      {
+        "trigger_id": 304354032,
+        "symbol": "JSWSTEEL",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-30T12:30:45.672535"
+      }
+    ],
+    "failed_orders": []
+  }
+}

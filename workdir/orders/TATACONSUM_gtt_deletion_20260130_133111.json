@@ -1,0 +1,76 @@
+{
+  "company_symbol": "TATACONSUM",
+  "operation": "GTT Order Deletion",
+  "timestamp": "2026-01-30T13:31:11.598068",
+  "results": {
+    "total_orders": 9,
+    "successful_deletions": 9,
+    "failed_deletions": 0,
+    "deleted_orders": [
+      {
+        "trigger_id": 304387086,
+        "symbol": "TATACONSUM",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-30T13:31:10.816075"
+      },
+      {
+        "trigger_id": 304385632,
+        "symbol": "TATACONSUM",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-30T13:31:10.920755"
+      },
+      {
+        "trigger_id": 304385630,
+        "symbol": "TATACONSUM",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-30T13:31:11.028382"
+      },
+      {
+        "trigger_id": 304385629,
+        "symbol": "TATACONSUM",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-30T13:31:11.121671"
+      },
+      {
+        "trigger_id": 304385628,
+        "symbol": "TATACONSUM",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-30T13:31:11.218237"
+      },
+      {
+        "trigger_id": 304385627,
+        "symbol": "TATACONSUM",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-30T13:31:11.305715"
+      },
+      {
+        "trigger_id": 304385625,
+        "symbol": "TATACONSUM",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-30T13:31:11.401108"
+      },
+      {
+        "trigger_id": 304385623,
+        "symbol": "TATACONSUM",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-30T13:31:11.478180"
+      },
+      {
+        "trigger_id": 304385622,
+        "symbol": "TATACONSUM",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-30T13:31:11.598011"
+      }
+    ],
+    "failed_orders": []
+  }
+}

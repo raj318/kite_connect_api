@@ -1,0 +1,84 @@
+2026-01-30 08:25:49,999 - __main__ - INFO - Initializing GTT Sell Order Scheduler for NTPC
+2026-01-30 08:25:49,999 - __main__ - INFO - Target net profit: 1.0%
+2026-01-30 08:25:49,999 - __main__ - INFO - Charge mode: delivery
+2026-01-30 08:25:49,999 - __main__ - INFO - Starting GTT sell order scheduling process
+2026-01-30 08:25:50,107 - __main__ - INFO - Successfully connected to Kite Connect
+2026-01-30 08:25:50,107 - __main__ - INFO - Checking for existing GTT SELL orders for NTPC...
+2026-01-30 08:25:50,190 - __main__ - INFO - No existing SELL GTT orders found for NTPC
+2026-01-30 08:25:59,513 - __main__ - INFO - Placing GTT sell order...
+2026-01-30 08:25:59,767 - __main__ - WARNING - Could not fetch current price: Insufficient permission for that call.
+2026-01-30 08:25:59,768 - __main__ - INFO - Placing GTT order (attempt 1): sell_price=354.7, trigger_price=355.2, current_price=354.2
+2026-01-30 08:25:59,848 - __main__ - ERROR - Attempt 1 failed: Trigger already met.
+2026-01-30 08:25:59,848 - __main__ - ERROR - Failed to place GTT sell order: Trigger already met.
+2026-01-30 08:25:59,848 - __main__ - ERROR - Failed to place GTT sell order: Trigger already met.
+2026-01-30 08:25:59,848 - __main__ - ERROR - GTT sell order scheduling failed: Trigger already met.
+2026-01-30 08:25:59,848 - __main__ - ERROR - Error type: InputException
+2026-01-30 08:26:07,415 - __main__ - INFO - Initializing GTT Sell Order Scheduler for NTPC
+2026-01-30 08:26:07,415 - __main__ - INFO - Target net profit: 1.2%
+2026-01-30 08:26:07,415 - __main__ - INFO - Charge mode: delivery
+2026-01-30 08:26:07,415 - __main__ - INFO - Starting GTT sell order scheduling process
+2026-01-30 08:26:07,528 - __main__ - INFO - Successfully connected to Kite Connect
+2026-01-30 08:26:07,528 - __main__ - INFO - Checking for existing GTT SELL orders for NTPC...
+2026-01-30 08:26:07,603 - __main__ - INFO - No existing SELL GTT orders found for NTPC
+2026-01-30 08:26:10,505 - __main__ - INFO - Placing GTT sell order...
+2026-01-30 08:26:10,721 - __main__ - WARNING - Could not fetch current price: Insufficient permission for that call.
+2026-01-30 08:26:10,722 - __main__ - INFO - Placing GTT order (attempt 1): sell_price=355.4, trigger_price=355.9, current_price=354.9
+2026-01-30 08:26:10,798 - __main__ - ERROR - Attempt 1 failed: Trigger already met.
+2026-01-30 08:26:10,798 - __main__ - ERROR - Failed to place GTT sell order: Trigger already met.
+2026-01-30 08:26:10,798 - __main__ - ERROR - Failed to place GTT sell order: Trigger already met.
+2026-01-30 08:26:10,798 - __main__ - ERROR - GTT sell order scheduling failed: Trigger already met.
+2026-01-30 08:26:10,798 - __main__ - ERROR - Error type: InputException
+2026-01-30 08:26:14,537 - __main__ - INFO - Initializing GTT Sell Order Scheduler for NTPC
+2026-01-30 08:26:14,537 - __main__ - INFO - Target net profit: 1.4%
+2026-01-30 08:26:14,537 - __main__ - INFO - Charge mode: delivery
+2026-01-30 08:26:14,537 - __main__ - INFO - Starting GTT sell order scheduling process
+2026-01-30 08:26:14,650 - __main__ - INFO - Successfully connected to Kite Connect
+2026-01-30 08:26:14,651 - __main__ - INFO - Checking for existing GTT SELL orders for NTPC...
+2026-01-30 08:26:14,726 - __main__ - INFO - No existing SELL GTT orders found for NTPC
+2026-01-30 08:26:17,238 - __main__ - INFO - Placing GTT sell order...
+2026-01-30 08:26:17,504 - __main__ - WARNING - Could not fetch current price: Insufficient permission for that call.
+2026-01-30 08:26:17,505 - __main__ - INFO - Placing GTT order (attempt 1): sell_price=356.1, trigger_price=356.6, current_price=355.6
+2026-01-30 08:26:17,580 - __main__ - ERROR - Attempt 1 failed: Trigger already met.
+2026-01-30 08:26:17,580 - __main__ - ERROR - Failed to place GTT sell order: Trigger already met.
+2026-01-30 08:26:17,580 - __main__ - ERROR - Failed to place GTT sell order: Trigger already met.
+2026-01-30 08:26:17,580 - __main__ - ERROR - GTT sell order scheduling failed: Trigger already met.
+2026-01-30 08:26:17,581 - __main__ - ERROR - Error type: InputException
+2026-01-30 08:26:20,312 - __main__ - INFO - Initializing GTT Sell Order Scheduler for NTPC
+2026-01-30 08:26:20,312 - __main__ - INFO - Target net profit: 1.5%
+2026-01-30 08:26:20,312 - __main__ - INFO - Charge mode: delivery
+2026-01-30 08:26:20,312 - __main__ - INFO - Starting GTT sell order scheduling process
+2026-01-30 08:26:20,424 - __main__ - INFO - Successfully connected to Kite Connect
+2026-01-30 08:26:20,424 - __main__ - INFO - Checking for existing GTT SELL orders for NTPC...
+2026-01-30 08:26:20,495 - __main__ - INFO - No existing SELL GTT orders found for NTPC
+2026-01-30 08:26:23,200 - __main__ - INFO - Placing GTT sell order...
+2026-01-30 08:26:23,456 - __main__ - WARNING - Could not fetch current price: Insufficient permission for that call.
+2026-01-30 08:26:23,456 - __main__ - INFO - Placing GTT order (attempt 1): sell_price=356.4, trigger_price=356.9, current_price=355.9
+2026-01-30 08:26:23,532 - __main__ - ERROR - Attempt 1 failed: Trigger already met.
+2026-01-30 08:26:23,532 - __main__ - ERROR - Failed to place GTT sell order: Trigger already met.
+2026-01-30 08:26:23,532 - __main__ - ERROR - Failed to place GTT sell order: Trigger already met.
+2026-01-30 08:26:23,532 - __main__ - ERROR - GTT sell order scheduling failed: Trigger already met.
+2026-01-30 08:26:23,532 - __main__ - ERROR - Error type: InputException
+2026-01-30 10:58:16,038 - __main__ - INFO - Initializing GTT Sell Order Scheduler for NTPC
+2026-01-30 10:58:16,039 - __main__ - INFO - Target net profit: 1.5%
+2026-01-30 10:58:16,039 - __main__ - INFO - Charge mode: delivery
+2026-01-30 10:58:16,039 - __main__ - INFO - Starting GTT sell order scheduling process
+2026-01-30 10:58:16,181 - __main__ - INFO - Successfully connected to Kite Connect
+2026-01-30 10:58:16,181 - __main__ - INFO - Checking for existing GTT SELL orders for NTPC...
+2026-01-30 10:58:16,275 - __main__ - INFO - No existing SELL GTT orders found for NTPC
+2026-01-30 10:58:28,012 - __main__ - INFO - Order placement cancelled by user
+2026-01-30 10:58:30,456 - __main__ - INFO - Initializing GTT Sell Order Scheduler for NTPC
+2026-01-30 10:58:30,456 - __main__ - INFO - Target net profit: 2.0%
+2026-01-30 10:58:30,456 - __main__ - INFO - Charge mode: delivery
+2026-01-30 10:58:30,456 - __main__ - INFO - Starting GTT sell order scheduling process
+2026-01-30 10:58:30,583 - __main__ - INFO - Successfully connected to Kite Connect
+2026-01-30 10:58:30,583 - __main__ - INFO - Checking for existing GTT SELL orders for NTPC...
+2026-01-30 10:58:30,683 - __main__ - INFO - No existing SELL GTT orders found for NTPC
+2026-01-30 11:02:06,860 - __main__ - INFO - Order placement cancelled by user
+2026-01-30 11:02:09,674 - __main__ - INFO - Initializing GTT Sell Order Scheduler for NTPC
+2026-01-30 11:02:09,674 - __main__ - INFO - Target net profit: 1.0%
+2026-01-30 11:02:09,674 - __main__ - INFO - Charge mode: delivery
+2026-01-30 11:02:09,674 - __main__ - INFO - Starting GTT sell order scheduling process
+2026-01-30 11:02:09,789 - __main__ - INFO - Successfully connected to Kite Connect
+2026-01-30 11:02:09,789 - __main__ - INFO - Checking for existing GTT SELL orders for NTPC...
+2026-01-30 11:02:09,882 - __main__ - INFO - No existing SELL GTT orders found for NTPC
+2026-01-30 11:02:21,516 - __main__ - INFO - Order placement cancelled by user

@@ -1,0 +1,34 @@
+{
+  "company_symbol": "SHRIRAMFIN",
+  "order_type": "GTT_SELL",
+  "quantity": 6,
+  "average_buy_price": 1019.9,
+  "sell_price": 1033.8,
+  "trigger_price": 1034.3,
+  "target_net_profit_percentage": 1.0,
+  "profit_analysis": {
+    "buy_value": 6119.4,
+    "sell_value": 6202.799999999999,
+    "gross_profit": 83.39999999999964,
+    "gross_profit_percentage": 1.3628787135993665,
+    "charges": {
+      "charge_mode": "delivery",
+      "brokerage": 0.0,
+      "stt": 6.202799999999999,
+      "exchange_charges": 0.21399659999999995,
+      "sebi_fees": 0.006202799999999999,
+      "dp_charges": 15.93,
+      "gst": 0.03963589199999999,
+      "total_charges": 22.392635291999998,
+      "charges_per_share": 3.7321058819999995
+    },
+    "total_charges": 22.392635291999998,
+    "charges_percentage": 0.3659286088832238,
+    "net_profit": 61.00736470799964,
+    "net_profit_percentage": 0.9969501047161428,
+    "break_even_price": 1023.632105882
+  },
+  "trigger_id": 304438436,
+  "status": "PLACED",
+  "timestamp": "2026-01-30T17:08:41.365086"
+}

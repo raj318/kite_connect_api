@@ -1,0 +1,29 @@
+2026-01-30 11:27:27,230 - __main__ - INFO - Initializing GTT Sell Order Scheduler for JIOFIN
+2026-01-30 11:27:27,231 - __main__ - INFO - Target net profit: 1.0%
+2026-01-30 11:27:27,231 - __main__ - INFO - Charge mode: delivery
+2026-01-30 11:27:27,231 - __main__ - INFO - Starting GTT sell order scheduling process
+2026-01-30 11:27:27,366 - __main__ - INFO - Successfully connected to Kite Connect
+2026-01-30 11:27:27,366 - __main__ - INFO - Checking for existing GTT SELL orders for JIOFIN...
+2026-01-30 11:27:27,579 - __main__ - INFO - Deleted GTT order 300604296
+2026-01-30 11:27:27,579 - __main__ - INFO - Successfully deleted all 1 existing SELL orders
+2026-01-30 11:27:28,142 - __main__ - INFO - User selected: Delivery GTT order
+2026-01-30 11:27:28,142 - __main__ - ERROR - GTT sell order scheduling failed: EOF when reading a line
+2026-01-30 11:27:28,142 - __main__ - ERROR - Error type: EOFError
+2026-01-30 11:29:34,911 - __main__ - INFO - Initializing GTT Sell Order Scheduler for JIOFIN
+2026-01-30 11:29:34,911 - __main__ - INFO - Target net profit: 1.0%
+2026-01-30 11:29:34,911 - __main__ - INFO - Charge mode: delivery
+2026-01-30 11:29:34,911 - __main__ - INFO - Starting GTT sell order scheduling process
+2026-01-30 11:29:35,040 - __main__ - INFO - Successfully connected to Kite Connect
+2026-01-30 11:29:35,040 - __main__ - INFO - Checking for existing GTT SELL orders for JIOFIN...
+2026-01-30 11:29:35,119 - __main__ - INFO - No existing SELL GTT orders found for JIOFIN
+2026-01-30 11:29:35,716 - __main__ - INFO - User selected: Delivery GTT order
+2026-01-30 11:29:35,946 - __main__ - WARNING - Could not fetch current price: Insufficient permission for that call.
+2026-01-30 11:29:35,947 - __main__ - INFO - Placing GTT order (attempt 1): sell_price=325.1, trigger_price=325.6, current_price=324.6
+2026-01-30 11:29:36,060 - __main__ - INFO - GTT sell order placed successfully. Trigger ID: 304358196
+2026-01-30 11:29:36,060 - __main__ - INFO - GTT sell order scheduling process completed successfully
+2026-01-30 11:42:18,126 - __main__ - INFO - Initializing GTT Sell Order Scheduler for JIOFIN
+2026-01-30 11:42:18,126 - __main__ - INFO - Target net profit: 1.0%
+2026-01-30 11:42:18,127 - __main__ - INFO - Charge mode: delivery
+2026-01-30 11:42:18,127 - __main__ - INFO - Starting GTT sell order scheduling process
+2026-01-30 11:42:18,252 - __main__ - INFO - Successfully connected to Kite Connect
+2026-01-30 11:42:18,252 - __main__ - INFO - Checking for existing GTT SELL orders for JIOFIN...

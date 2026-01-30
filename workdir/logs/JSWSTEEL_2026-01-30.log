@@ -1,0 +1,22 @@
+2026-01-30 11:23:49,856 - __main__ - INFO - Initializing GTT Sell Order Scheduler for JSWSTEEL
+2026-01-30 11:23:49,856 - __main__ - INFO - Target net profit: 1.0%
+2026-01-30 11:23:49,856 - __main__ - INFO - Charge mode: delivery
+2026-01-30 11:23:49,856 - __main__ - INFO - Starting GTT sell order scheduling process
+2026-01-30 11:23:49,990 - __main__ - INFO - Successfully connected to Kite Connect
+2026-01-30 11:23:49,990 - __main__ - INFO - Checking for existing GTT SELL orders for JSWSTEEL...
+2026-01-30 11:23:50,070 - __main__ - INFO - No existing SELL GTT orders found for JSWSTEEL
+2026-01-30 11:30:25,614 - __main__ - INFO - Order placement cancelled by user
+2026-01-30 11:30:27,427 - __main__ - INFO - Initializing GTT Sell Order Scheduler for JSWSTEEL
+2026-01-30 11:30:27,427 - __main__ - INFO - Target net profit: 1.0%
+2026-01-30 11:30:27,427 - __main__ - INFO - Charge mode: delivery
+2026-01-30 11:30:27,427 - __main__ - INFO - Starting GTT sell order scheduling process
+2026-01-30 11:30:27,594 - __main__ - INFO - Successfully connected to Kite Connect
+2026-01-30 11:30:27,594 - __main__ - INFO - Checking for existing GTT SELL orders for JSWSTEEL...
+2026-01-30 11:30:27,681 - __main__ - INFO - No existing SELL GTT orders found for JSWSTEEL
+2026-01-30 11:42:40,805 - __main__ - INFO - Initializing GTT Sell Order Scheduler for JSWSTEEL
+2026-01-30 11:42:40,805 - __main__ - INFO - Target net profit: 1.0%
+2026-01-30 11:42:40,805 - __main__ - INFO - Charge mode: delivery
+2026-01-30 11:42:40,806 - __main__ - INFO - Starting GTT sell order scheduling process
+2026-01-30 11:42:40,924 - __main__ - INFO - Successfully connected to Kite Connect
+2026-01-30 11:42:40,924 - __main__ - INFO - Checking for existing GTT SELL orders for JSWSTEEL...
+2026-01-30 11:42:41,018 - __main__ - INFO - No existing SELL GTT orders found for JSWSTEEL

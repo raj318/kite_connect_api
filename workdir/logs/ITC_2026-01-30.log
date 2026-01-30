@@ -1,0 +1,7 @@
+2026-01-30 11:27:16,376 - __main__ - INFO - Initializing GTT Sell Order Scheduler for ITC
+2026-01-30 11:27:16,376 - __main__ - INFO - Target net profit: 1.0%
+2026-01-30 11:27:16,376 - __main__ - INFO - Charge mode: delivery
+2026-01-30 11:27:16,376 - __main__ - INFO - Starting GTT sell order scheduling process
+2026-01-30 11:27:16,512 - __main__ - INFO - Successfully connected to Kite Connect
+2026-01-30 11:27:16,512 - __main__ - INFO - Checking for existing GTT SELL orders for ITC...
+2026-01-30 11:27:16,611 - __main__ - INFO - User chose not to delete existing orders. Cancelling new order placement.

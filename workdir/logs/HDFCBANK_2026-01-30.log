@@ -1,0 +1,25 @@
+2026-01-30 08:24:32,408 - __main__ - INFO - Initializing GTT Sell Order Scheduler for HDFCBANK
+2026-01-30 08:24:32,408 - __main__ - INFO - Target net profit: 1.0%
+2026-01-30 08:24:32,408 - __main__ - INFO - Charge mode: delivery
+2026-01-30 08:24:32,408 - __main__ - INFO - Starting GTT sell order scheduling process
+2026-01-30 08:24:32,531 - __main__ - INFO - Successfully connected to Kite Connect
+2026-01-30 08:24:32,531 - __main__ - INFO - Checking for existing GTT SELL orders for HDFCBANK...
+2026-01-30 08:24:42,246 - __main__ - INFO - Deleted GTT order 303997004
+2026-01-30 08:24:42,246 - __main__ - INFO - Successfully deleted all 1 existing SELL orders
+2026-01-30 08:25:30,555 - __main__ - INFO - Placing GTT sell order...
+2026-01-30 08:25:30,794 - __main__ - WARNING - Could not fetch current price: Insufficient permission for that call.
+2026-01-30 08:25:30,795 - __main__ - INFO - Placing GTT order (attempt 1): sell_price=941.8, trigger_price=942.3, current_price=941.3
+2026-01-30 08:25:30,879 - __main__ - ERROR - Attempt 1 failed: Trigger price was too close to the last price. (difference should be more than 0.25%)
+2026-01-30 08:25:30,879 - __main__ - WARNING - Trigger price too close to last price. Retrying (attempt 2)...
+2026-01-30 08:25:30,879 - __main__ - INFO - New prices - sell=942.27, trigger=942.77, price_increase=0.47
+2026-01-30 08:25:30,880 - __main__ - INFO - Placing GTT order (attempt 2): sell_price=942.27, trigger_price=942.77, current_price=941.3
+2026-01-30 08:25:30,955 - __main__ - ERROR - Attempt 2 failed: Trigger price was too close to the last price. (difference should be more than 0.25%)
+2026-01-30 08:25:30,955 - __main__ - WARNING - Trigger price too close to last price. Retrying (attempt 3)...
+2026-01-30 08:25:30,955 - __main__ - INFO - New prices - sell=942.74, trigger=943.24, price_increase=0.47
+2026-01-30 08:25:30,956 - __main__ - INFO - Placing GTT order (attempt 3): sell_price=942.74, trigger_price=943.24, current_price=941.3
+2026-01-30 08:25:31,028 - __main__ - ERROR - Attempt 3 failed: Trigger price was too close to the last price. (difference should be more than 0.25%)
+2026-01-30 08:25:31,028 - __main__ - WARNING - Trigger price too close to last price. Retrying (attempt 4)...
+2026-01-30 08:25:31,028 - __main__ - INFO - New prices - sell=943.21, trigger=943.71, price_increase=0.47
+2026-01-30 08:25:31,029 - __main__ - INFO - Placing GTT order (attempt 4): sell_price=943.21, trigger_price=943.71, current_price=941.3
+2026-01-30 08:25:31,117 - __main__ - INFO - GTT sell order placed successfully on attempt 4. Trigger ID: 304269899
+2026-01-30 08:25:31,118 - __main__ - INFO - GTT sell order scheduling process completed successfully

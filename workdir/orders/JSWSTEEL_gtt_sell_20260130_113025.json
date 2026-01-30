@@ -1,0 +1,34 @@
+{
+  "company_symbol": "JSWSTEEL",
+  "order_type": "GTT_SELL",
+  "quantity": 5,
+  "average_buy_price": 1212.0,
+  "sell_price": 1228.5,
+  "trigger_price": 1229.0,
+  "target_net_profit_percentage": 1.0,
+  "profit_analysis": {
+    "buy_value": 6060.0,
+    "sell_value": 6142.5,
+    "gross_profit": 82.5,
+    "gross_profit_percentage": 1.3613861386138615,
+    "charges": {
+      "charge_mode": "delivery",
+      "brokerage": 0.0,
+      "stt": 6.1425,
+      "exchange_charges": 0.21191625,
+      "sebi_fees": 0.0061424999999999995,
+      "dp_charges": 15.93,
+      "gst": 0.039250574999999996,
+      "total_charges": 22.329809325,
+      "charges_per_share": 4.465961865
+    },
+    "total_charges": 22.329809325,
+    "charges_percentage": 0.3684787017326733,
+    "net_profit": 60.170190675,
+    "net_profit_percentage": 0.9929074368811882,
+    "break_even_price": 1216.465961865
+  },
+  "trigger_id": null,
+  "status": "CALCULATED",
+  "timestamp": "2026-01-30T11:30:25.615092"
+}

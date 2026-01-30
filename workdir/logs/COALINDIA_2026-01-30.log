@@ -1,0 +1,28 @@
+2026-01-30 08:22:06,491 - __main__ - INFO - Initializing GTT Sell Order Scheduler for COALINDIA
+2026-01-30 08:22:06,491 - __main__ - INFO - Target net profit: 1.0%
+2026-01-30 08:22:06,491 - __main__ - INFO - Charge mode: delivery
+2026-01-30 08:22:06,491 - __main__ - INFO - Starting GTT sell order scheduling process
+2026-01-30 08:22:32,309 - __main__ - INFO - Initializing GTT Sell Order Scheduler for COALINDIA
+2026-01-30 08:22:32,309 - __main__ - INFO - Target net profit: 1.0%
+2026-01-30 08:22:32,309 - __main__ - INFO - Charge mode: delivery
+2026-01-30 08:22:32,309 - __main__ - INFO - Starting GTT sell order scheduling process
+2026-01-30 08:22:32,408 - __main__ - INFO - Successfully connected to Kite Connect
+2026-01-30 08:22:32,408 - __main__ - INFO - Checking for existing GTT SELL orders for COALINDIA...
+2026-01-30 08:22:32,490 - __main__ - INFO - No existing SELL GTT orders found for COALINDIA
+2026-01-30 08:24:21,165 - __main__ - INFO - Order placement cancelled by user
+2026-01-30 11:02:56,018 - __main__ - INFO - Initializing GTT Sell Order Scheduler for COALINDIA
+2026-01-30 11:02:56,018 - __main__ - INFO - Target net profit: 1.0%
+2026-01-30 11:02:56,018 - __main__ - INFO - Charge mode: delivery
+2026-01-30 11:02:56,018 - __main__ - INFO - Starting GTT sell order scheduling process
+2026-01-30 11:02:56,150 - __main__ - INFO - Successfully connected to Kite Connect
+2026-01-30 11:02:56,150 - __main__ - INFO - Checking for existing GTT SELL orders for COALINDIA...
+2026-01-30 11:02:56,246 - __main__ - INFO - No existing SELL GTT orders found for COALINDIA
+2026-01-30 11:14:05,166 - __main__ - INFO - Placing GTT sell order...
+2026-01-30 11:14:05,455 - __main__ - WARNING - Could not fetch current price: Insufficient permission for that call.
+2026-01-30 11:14:05,456 - __main__ - INFO - Placing GTT order (attempt 1): sell_price=446.4, trigger_price=446.9, current_price=445.9
+2026-01-30 11:14:05,552 - __main__ - ERROR - Attempt 1 failed: Trigger price was too close to the last price. (difference should be more than 0.25%)
+2026-01-30 11:14:05,552 - __main__ - WARNING - Trigger price too close to last price. Retrying (attempt 2)...
+2026-01-30 11:14:05,552 - __main__ - INFO - New prices - sell=446.62, trigger=447.12, price_increase=0.22
+2026-01-30 11:14:05,553 - __main__ - INFO - Placing GTT order (attempt 2): sell_price=446.62, trigger_price=447.12, current_price=445.9
+2026-01-30 11:14:05,660 - __main__ - INFO - GTT sell order placed successfully on attempt 2. Trigger ID: 304353271
+2026-01-30 11:14:05,662 - __main__ - INFO - GTT sell order scheduling process completed successfully

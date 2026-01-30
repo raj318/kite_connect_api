@@ -1,0 +1,177 @@
+2026-01-30 11:14:42,237 - __main__ - INFO - Using steps from config: 10
+2026-01-30 11:14:42,237 - __main__ - INFO - Using max_fall_pct from config: 10.0
+2026-01-30 11:14:42,237 - __main__ - INFO - Using fall_power from config: 1.7
+2026-01-30 11:14:42,237 - __main__ - INFO - Using size_power from config: 1.6
+2026-01-30 11:14:42,237 - __main__ - INFO - Using size_multiplier from config: 3.8
+2026-01-30 11:14:42,237 - __main__ - INFO - Convex accumulation parameters:
+2026-01-30 11:14:42,237 - __main__ - INFO -   Steps: 10
+2026-01-30 11:14:42,237 - __main__ - INFO -   Base shares: 5
+2026-01-30 11:14:42,238 - __main__ - INFO -   Max fall: 10.0%
+2026-01-30 11:14:42,238 - __main__ - INFO -   Fall power: 1.7
+2026-01-30 11:14:42,238 - __main__ - INFO -   Size power: 1.6
+2026-01-30 11:14:42,238 - __main__ - INFO -   Size multiplier: 3.8
+2026-01-30 11:14:42,238 - __main__ - INFO - Initializing Convex Accumulation Order Scheduler for HINDALCO
+2026-01-30 11:14:42,238 - __main__ - INFO - Steps: 10, Current price: Rs.968.0
+2026-01-30 11:14:42,238 - __main__ - INFO - Configuration loaded successfully
+2026-01-30 11:14:42,239 - __main__ - INFO - Starting convex accumulation order scheduling process
+2026-01-30 11:14:42,368 - __main__ - INFO - Successfully connected to Kite Connect
+2026-01-30 11:14:42,368 - __main__ - WARNING - pytz not available, assuming market is closed - will skip first order
+2026-01-30 11:14:42,368 - __main__ - INFO - Using provided current price as base: Rs.968.0
+2026-01-30 11:14:42,368 - __main__ - INFO - Market is closed - skipping first order and starting with GTT orders
+2026-01-30 11:14:42,368 - __main__ - INFO - Order 1: SKIPPED (Market closed - AMO not supported)
+2026-01-30 11:14:42,368 - __main__ - INFO - Order 2: Price: Rs.965.7, Trigger: Rs.964.7, Type: GTT ORDER, Fall: 0.24%, Quantity: 6, Value: Rs.5794.2
+2026-01-30 11:14:42,368 - __main__ - INFO - Order 3: Price: Rs.960.5, Trigger: Rs.959.5, Type: GTT ORDER, Fall: 0.78%, Quantity: 7, Value: Rs.6723.5
+2026-01-30 11:14:42,368 - __main__ - INFO - Order 4: Price: Rs.953.0, Trigger: Rs.952.0, Type: GTT ORDER, Fall: 1.54%, Quantity: 8, Value: Rs.7624.0
+2026-01-30 11:14:42,368 - __main__ - INFO - Order 5: Price: Rs.943.6, Trigger: Rs.942.7, Type: GTT ORDER, Fall: 2.52%, Quantity: 10, Value: Rs.9436.0
+2026-01-30 11:14:42,368 - __main__ - INFO - Order 6: Price: Rs.932.4, Trigger: Rs.931.5, Type: GTT ORDER, Fall: 3.68%, Quantity: 12, Value: Rs.11188.8
+2026-01-30 11:14:42,368 - __main__ - INFO - Order 7: Price: Rs.919.4, Trigger: Rs.918.5, Type: GTT ORDER, Fall: 5.02%, Quantity: 15, Value: Rs.13791.0
+2026-01-30 11:14:42,368 - __main__ - INFO - Order 8: Price: Rs.904.9, Trigger: Rs.904.0, Type: GTT ORDER, Fall: 6.52%, Quantity: 18, Value: Rs.16288.2
+2026-01-30 11:14:42,368 - __main__ - INFO - Order 9: Price: Rs.888.8, Trigger: Rs.887.9, Type: GTT ORDER, Fall: 8.19%, Quantity: 21, Value: Rs.18664.8
+2026-01-30 11:14:42,368 - __main__ - INFO - Order 10: Price: Rs.871.2, Trigger: Rs.870.3, Type: GTT ORDER, Fall: 10.00%, Quantity: 24, Value: Rs.20908.8
+2026-01-30 11:14:46,227 - __main__ - INFO - Order placement cancelled by user
+2026-01-30 11:14:50,295 - __main__ - INFO - Using steps from config: 10
+2026-01-30 11:14:50,295 - __main__ - INFO - Using max_fall_pct from config: 10.0
+2026-01-30 11:14:50,295 - __main__ - INFO - Using fall_power from config: 1.7
+2026-01-30 11:14:50,295 - __main__ - INFO - Using size_power from config: 1.6
+2026-01-30 11:14:50,295 - __main__ - INFO - Using size_multiplier from config: 3.8
+2026-01-30 11:14:50,295 - __main__ - INFO - Convex accumulation parameters:
+2026-01-30 11:14:50,295 - __main__ - INFO -   Steps: 10
+2026-01-30 11:14:50,295 - __main__ - INFO -   Base shares: 5
+2026-01-30 11:14:50,295 - __main__ - INFO -   Max fall: 10.0%
+2026-01-30 11:14:50,295 - __main__ - INFO -   Fall power: 1.7
+2026-01-30 11:14:50,295 - __main__ - INFO -   Size power: 1.6
+2026-01-30 11:14:50,295 - __main__ - INFO -   Size multiplier: 3.8
+2026-01-30 11:14:50,295 - __main__ - INFO - Initializing Convex Accumulation Order Scheduler for HINDALCO
+2026-01-30 11:14:50,295 - __main__ - INFO - Steps: 10, Current price: Rs.969.0
+2026-01-30 11:14:50,296 - __main__ - INFO - Configuration loaded successfully
+2026-01-30 11:14:50,297 - __main__ - INFO - Starting convex accumulation order scheduling process
+2026-01-30 11:14:50,431 - __main__ - INFO - Successfully connected to Kite Connect
+2026-01-30 11:14:50,431 - __main__ - WARNING - pytz not available, assuming market is closed - will skip first order
+2026-01-30 11:14:50,431 - __main__ - INFO - Using provided current price as base: Rs.969.0
+2026-01-30 11:14:50,431 - __main__ - INFO - Market is closed - skipping first order and starting with GTT orders
+2026-01-30 11:14:50,431 - __main__ - INFO - Order 1: SKIPPED (Market closed - AMO not supported)
+2026-01-30 11:14:50,431 - __main__ - INFO - Order 2: Price: Rs.966.7, Trigger: Rs.965.7, Type: GTT ORDER, Fall: 0.24%, Quantity: 6, Value: Rs.5800.2
+2026-01-30 11:14:50,431 - __main__ - INFO - Order 3: Price: Rs.961.5, Trigger: Rs.960.5, Type: GTT ORDER, Fall: 0.78%, Quantity: 7, Value: Rs.6730.5
+2026-01-30 11:14:50,431 - __main__ - INFO - Order 4: Price: Rs.954.0, Trigger: Rs.953.0, Type: GTT ORDER, Fall: 1.54%, Quantity: 8, Value: Rs.7632.0
+2026-01-30 11:14:50,431 - __main__ - INFO - Order 5: Price: Rs.944.6, Trigger: Rs.943.7, Type: GTT ORDER, Fall: 2.52%, Quantity: 10, Value: Rs.9446.0
+2026-01-30 11:14:50,432 - __main__ - INFO - Order 6: Price: Rs.933.3, Trigger: Rs.932.4, Type: GTT ORDER, Fall: 3.68%, Quantity: 12, Value: Rs.11199.6
+2026-01-30 11:14:50,432 - __main__ - INFO - Order 7: Price: Rs.920.4, Trigger: Rs.919.5, Type: GTT ORDER, Fall: 5.02%, Quantity: 15, Value: Rs.13806.0
+2026-01-30 11:14:50,432 - __main__ - INFO - Order 8: Price: Rs.905.8, Trigger: Rs.904.9, Type: GTT ORDER, Fall: 6.52%, Quantity: 18, Value: Rs.16304.4
+2026-01-30 11:14:50,432 - __main__ - INFO - Order 9: Price: Rs.889.7, Trigger: Rs.888.8, Type: GTT ORDER, Fall: 8.19%, Quantity: 21, Value: Rs.18683.7
+2026-01-30 11:14:50,432 - __main__ - INFO - Order 10: Price: Rs.872.1, Trigger: Rs.871.2, Type: GTT ORDER, Fall: 10.00%, Quantity: 24, Value: Rs.20930.4
+2026-01-30 11:14:55,057 - __main__ - INFO - Order placement cancelled by user
+2026-01-30 11:14:59,992 - __main__ - INFO - Using steps from config: 10
+2026-01-30 11:14:59,992 - __main__ - INFO - Using max_fall_pct from config: 10.0
+2026-01-30 11:14:59,992 - __main__ - INFO - Using fall_power from config: 1.7
+2026-01-30 11:14:59,992 - __main__ - INFO - Using size_power from config: 1.6
+2026-01-30 11:14:59,992 - __main__ - INFO - Using size_multiplier from config: 3.8
+2026-01-30 11:14:59,992 - __main__ - INFO - Convex accumulation parameters:
+2026-01-30 11:14:59,992 - __main__ - INFO -   Steps: 10
+2026-01-30 11:14:59,992 - __main__ - INFO -   Base shares: 5
+2026-01-30 11:14:59,992 - __main__ - INFO -   Max fall: 10.0%
+2026-01-30 11:14:59,992 - __main__ - INFO -   Fall power: 1.7
+2026-01-30 11:14:59,992 - __main__ - INFO -   Size power: 1.6
+2026-01-30 11:14:59,992 - __main__ - INFO -   Size multiplier: 3.8
+2026-01-30 11:14:59,992 - __main__ - INFO - Initializing Convex Accumulation Order Scheduler for HINDALCO
+2026-01-30 11:14:59,992 - __main__ - INFO - Steps: 10, Current price: Rs.970.0
+2026-01-30 11:14:59,993 - __main__ - INFO - Configuration loaded successfully
+2026-01-30 11:14:59,994 - __main__ - INFO - Starting convex accumulation order scheduling process
+2026-01-30 11:15:00,127 - __main__ - INFO - Successfully connected to Kite Connect
+2026-01-30 11:15:00,127 - __main__ - WARNING - pytz not available, assuming market is closed - will skip first order
+2026-01-30 11:15:00,127 - __main__ - INFO - Using provided current price as base: Rs.970.0
+2026-01-30 11:15:00,127 - __main__ - INFO - Market is closed - skipping first order and starting with GTT orders
+2026-01-30 11:15:00,128 - __main__ - INFO - Order 1: SKIPPED (Market closed - AMO not supported)
+2026-01-30 11:15:00,128 - __main__ - INFO - Order 2: Price: Rs.967.7, Trigger: Rs.966.7, Type: GTT ORDER, Fall: 0.24%, Quantity: 6, Value: Rs.5806.2
+2026-01-30 11:15:00,128 - __main__ - INFO - Order 3: Price: Rs.962.5, Trigger: Rs.961.5, Type: GTT ORDER, Fall: 0.78%, Quantity: 7, Value: Rs.6737.5
+2026-01-30 11:15:00,128 - __main__ - INFO - Order 4: Price: Rs.955.0, Trigger: Rs.954.0, Type: GTT ORDER, Fall: 1.54%, Quantity: 8, Value: Rs.7640.0
+2026-01-30 11:15:00,128 - __main__ - INFO - Order 5: Price: Rs.945.6, Trigger: Rs.944.7, Type: GTT ORDER, Fall: 2.52%, Quantity: 10, Value: Rs.9456.0
+2026-01-30 11:15:00,128 - __main__ - INFO - Order 6: Price: Rs.934.3, Trigger: Rs.933.4, Type: GTT ORDER, Fall: 3.68%, Quantity: 12, Value: Rs.11211.6
+2026-01-30 11:15:00,128 - __main__ - INFO - Order 7: Price: Rs.921.3, Trigger: Rs.920.4, Type: GTT ORDER, Fall: 5.02%, Quantity: 15, Value: Rs.13819.5
+2026-01-30 11:15:00,128 - __main__ - INFO - Order 8: Price: Rs.906.7, Trigger: Rs.905.8, Type: GTT ORDER, Fall: 6.52%, Quantity: 18, Value: Rs.16320.6
+2026-01-30 11:15:00,128 - __main__ - INFO - Order 9: Price: Rs.890.6, Trigger: Rs.889.7, Type: GTT ORDER, Fall: 8.19%, Quantity: 21, Value: Rs.18702.6
+2026-01-30 11:15:00,128 - __main__ - INFO - Order 10: Price: Rs.873.0, Trigger: Rs.872.1, Type: GTT ORDER, Fall: 10.00%, Quantity: 24, Value: Rs.20952.0
+2026-01-30 11:15:10,864 - __main__ - INFO - Placing orders...
+2026-01-30 11:15:10,864 - __main__ - INFO - Skipping order 1 - Market closed, AMO not supported
+2026-01-30 11:15:10,864 - __main__ - INFO - Order 1 skipped successfully
+2026-01-30 11:15:10,864 - __main__ - INFO - Placing GTT order 2 for HINDALCO
+2026-01-30 11:15:11,063 - __main__ - INFO - GTT order 2 placed successfully with trigger ID: 304353605
+2026-01-30 11:15:11,063 - __main__ - INFO - Placing GTT order 3 for HINDALCO
+2026-01-30 11:15:11,287 - __main__ - INFO - GTT order 3 placed successfully with trigger ID: 304353606
+2026-01-30 11:15:11,287 - __main__ - INFO - Placing GTT order 4 for HINDALCO
+2026-01-30 11:15:11,529 - __main__ - INFO - GTT order 4 placed successfully with trigger ID: 304353610
+2026-01-30 11:15:11,529 - __main__ - INFO - Placing GTT order 5 for HINDALCO
+2026-01-30 11:15:11,749 - __main__ - INFO - GTT order 5 placed successfully with trigger ID: 304353612
+2026-01-30 11:15:11,749 - __main__ - INFO - Placing GTT order 6 for HINDALCO
+2026-01-30 11:15:11,944 - __main__ - INFO - GTT order 6 placed successfully with trigger ID: 304353614
+2026-01-30 11:15:11,945 - __main__ - INFO - Placing GTT order 7 for HINDALCO
+2026-01-30 11:15:12,127 - __main__ - INFO - GTT order 7 placed successfully with trigger ID: 304353615
+2026-01-30 11:15:12,127 - __main__ - INFO - Placing GTT order 8 for HINDALCO
+2026-01-30 11:15:12,366 - __main__ - INFO - GTT order 8 placed successfully with trigger ID: 304353616
+2026-01-30 11:15:12,367 - __main__ - INFO - Placing GTT order 9 for HINDALCO
+2026-01-30 11:15:12,548 - __main__ - INFO - GTT order 9 placed successfully with trigger ID: 304353617
+2026-01-30 11:15:12,549 - __main__ - INFO - Placing GTT order 10 for HINDALCO
+2026-01-30 11:15:12,739 - __main__ - INFO - GTT order 10 placed successfully with trigger ID: 304353619
+2026-01-30 11:15:12,739 - __main__ - INFO - Order summary saved to workdir/orders/HINDALCO_gtt_orders_20260130_111512.json
+2026-01-30 11:15:12,739 - __main__ - INFO - Convex accumulation order scheduling process completed successfully
+2026-01-30 11:17:52,173 - __main__ - INFO - Initializing GTT Sell Order Scheduler for HINDALCO
+2026-01-30 11:17:52,173 - __main__ - INFO - Target net profit: 1.0%
+2026-01-30 11:17:52,173 - __main__ - INFO - Charge mode: delivery
+2026-01-30 11:17:52,173 - __main__ - INFO - Starting GTT sell order scheduling process
+2026-01-30 11:17:52,308 - __main__ - INFO - Successfully connected to Kite Connect
+2026-01-30 11:17:52,309 - __main__ - INFO - Checking for existing GTT SELL orders for HINDALCO...
+2026-01-30 11:17:52,400 - __main__ - INFO - No existing SELL GTT orders found for HINDALCO
+2026-01-30 11:18:41,117 - __main__ - INFO - Placing GTT sell order...
+2026-01-30 11:18:41,405 - __main__ - WARNING - Could not fetch current price: Insufficient permission for that call.
+2026-01-30 11:18:41,406 - __main__ - INFO - Placing GTT order (attempt 1): sell_price=979.2, trigger_price=979.7, current_price=978.7
+2026-01-30 11:18:41,486 - __main__ - ERROR - Attempt 1 failed: Trigger price was too close to the last price. (difference should be more than 0.25%)
+2026-01-30 11:18:41,486 - __main__ - WARNING - Trigger price too close to last price. Retrying (attempt 2)...
+2026-01-30 11:18:41,486 - __main__ - INFO - New prices - sell=979.69, trigger=980.19, price_increase=0.49
+2026-01-30 11:18:41,487 - __main__ - INFO - Placing GTT order (attempt 2): sell_price=979.69, trigger_price=980.19, current_price=978.7
+2026-01-30 11:18:41,577 - __main__ - ERROR - Attempt 2 failed: Trigger price was too close to the last price. (difference should be more than 0.25%)
+2026-01-30 11:18:41,577 - __main__ - WARNING - Trigger price too close to last price. Retrying (attempt 3)...
+2026-01-30 11:18:41,577 - __main__ - INFO - New prices - sell=980.18, trigger=980.68, price_increase=0.49
+2026-01-30 11:18:41,578 - __main__ - INFO - Placing GTT order (attempt 3): sell_price=980.18, trigger_price=980.68, current_price=978.7
+2026-01-30 11:18:41,673 - __main__ - ERROR - Attempt 3 failed: Trigger price was too close to the last price. (difference should be more than 0.25%)
+2026-01-30 11:18:41,673 - __main__ - WARNING - Trigger price too close to last price. Retrying (attempt 4)...
+2026-01-30 11:18:41,673 - __main__ - INFO - New prices - sell=980.67, trigger=981.17, price_increase=0.49
+2026-01-30 11:18:41,674 - __main__ - INFO - Placing GTT order (attempt 4): sell_price=980.67, trigger_price=981.17, current_price=978.7
+2026-01-30 11:18:41,758 - __main__ - INFO - GTT sell order placed successfully on attempt 4. Trigger ID: 304354838
+2026-01-30 11:18:41,759 - __main__ - INFO - GTT sell order scheduling process completed successfully
+2026-01-30 11:23:37,288 - __main__ - INFO - Initializing GTT Sell Order Scheduler for HINDALCO
+2026-01-30 11:23:37,288 - __main__ - INFO - Target net profit: 1.0%
+2026-01-30 11:23:37,288 - __main__ - INFO - Charge mode: delivery
+2026-01-30 11:23:37,288 - __main__ - INFO - Starting GTT sell order scheduling process
+2026-01-30 11:23:37,416 - __main__ - INFO - Successfully connected to Kite Connect
+2026-01-30 11:23:37,416 - __main__ - INFO - Checking for existing GTT SELL orders for HINDALCO...
+2026-01-30 11:23:42,853 - __main__ - INFO - User chose not to delete existing orders. Cancelling new order placement.
+2026-01-30 11:24:37,591 - __main__ - INFO - Initializing GTT Sell Order Scheduler for HINDALCO
+2026-01-30 11:24:37,591 - __main__ - INFO - Target net profit: 1.0%
+2026-01-30 11:24:37,591 - __main__ - INFO - Charge mode: delivery
+2026-01-30 11:24:37,591 - __main__ - INFO - Starting GTT sell order scheduling process
+2026-01-30 11:24:37,725 - __main__ - INFO - Successfully connected to Kite Connect
+2026-01-30 11:24:37,725 - __main__ - INFO - Checking for existing GTT SELL orders for HINDALCO...
+2026-01-30 11:24:37,839 - __main__ - INFO - Auto-mode: Deleting 1 existing SELL orders
+2026-01-30 11:24:37,956 - __main__ - INFO - Deleted GTT order 304354838
+2026-01-30 11:24:38,539 - __main__ - INFO - Placing GTT sell order...
+2026-01-30 11:24:38,810 - __main__ - WARNING - Could not fetch current price: Insufficient permission for that call.
+2026-01-30 11:24:38,811 - __main__ - INFO - Placing GTT order (attempt 1): sell_price=979.2, trigger_price=979.7, current_price=978.7
+2026-01-30 11:24:38,900 - __main__ - ERROR - Attempt 1 failed: Trigger price was too close to the last price. (difference should be more than 0.25%)
+2026-01-30 11:24:38,900 - __main__ - WARNING - Trigger price too close to last price. Retrying (attempt 2)...
+2026-01-30 11:24:38,900 - __main__ - INFO - New prices - sell=979.69, trigger=980.19, price_increase=0.49
+2026-01-30 11:24:38,902 - __main__ - INFO - Placing GTT order (attempt 2): sell_price=979.69, trigger_price=980.19, current_price=978.7
+2026-01-30 11:24:39,012 - __main__ - ERROR - Attempt 2 failed: Trigger price was too close to the last price. (difference should be more than 0.25%)
+2026-01-30 11:24:39,012 - __main__ - WARNING - Trigger price too close to last price. Retrying (attempt 3)...
+2026-01-30 11:24:39,012 - __main__ - INFO - New prices - sell=980.18, trigger=980.68, price_increase=0.49
+2026-01-30 11:24:39,013 - __main__ - INFO - Placing GTT order (attempt 3): sell_price=980.18, trigger_price=980.68, current_price=978.7
+2026-01-30 11:24:39,125 - __main__ - ERROR - Attempt 3 failed: Trigger price was too close to the last price. (difference should be more than 0.25%)
+2026-01-30 11:24:39,125 - __main__ - WARNING - Trigger price too close to last price. Retrying (attempt 4)...
+2026-01-30 11:24:39,125 - __main__ - INFO - New prices - sell=980.67, trigger=981.17, price_increase=0.49
+2026-01-30 11:24:39,126 - __main__ - INFO - Placing GTT order (attempt 4): sell_price=980.67, trigger_price=981.17, current_price=978.7
+2026-01-30 11:24:39,213 - __main__ - INFO - GTT sell order placed successfully on attempt 4. Trigger ID: 304356614
+2026-01-30 11:24:39,213 - __main__ - INFO - GTT sell order scheduling process completed successfully
+2026-01-30 11:42:23,947 - __main__ - INFO - Initializing GTT Sell Order Scheduler for HINDALCO
+2026-01-30 11:42:23,947 - __main__ - INFO - Target net profit: 1.0%
+2026-01-30 11:42:23,947 - __main__ - INFO - Charge mode: delivery
+2026-01-30 11:42:23,947 - __main__ - INFO - Starting GTT sell order scheduling process
+2026-01-30 11:42:24,084 - __main__ - INFO - Successfully connected to Kite Connect
+2026-01-30 11:42:24,084 - __main__ - INFO - Checking for existing GTT SELL orders for HINDALCO...
