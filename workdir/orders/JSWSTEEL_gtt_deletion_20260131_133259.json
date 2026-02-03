@@ -1,0 +1,90 @@
+{
+  "company_symbol": "JSWSTEEL",
+  "operation": "GTT Order Deletion",
+  "timestamp": "2026-01-31T13:32:59.212137",
+  "results": {
+    "total_orders": 11,
+    "successful_deletions": 11,
+    "failed_deletions": 0,
+    "deleted_orders": [
+      {
+        "trigger_id": 304483907,
+        "symbol": "JSWSTEEL",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-31T13:32:58.233388"
+      },
+      {
+        "trigger_id": 304483844,
+        "symbol": "JSWSTEEL",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-31T13:32:58.327740"
+      },
+      {
+        "trigger_id": 304394890,
+        "symbol": "JSWSTEEL",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-31T13:32:58.432501"
+      },
+      {
+        "trigger_id": 304392588,
+        "symbol": "JSWSTEEL",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-31T13:32:58.538329"
+      },
+      {
+        "trigger_id": 304392586,
+        "symbol": "JSWSTEEL",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-31T13:32:58.644345"
+      },
+      {
+        "trigger_id": 304392585,
+        "symbol": "JSWSTEEL",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-31T13:32:58.746215"
+      },
+      {
+        "trigger_id": 304392584,
+        "symbol": "JSWSTEEL",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-31T13:32:58.864002"
+      },
+      {
+        "trigger_id": 304392582,
+        "symbol": "JSWSTEEL",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-31T13:32:58.945256"
+      },
+      {
+        "trigger_id": 304392581,
+        "symbol": "JSWSTEEL",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-31T13:32:59.036332"
+      },
+      {
+        "trigger_id": 304392580,
+        "symbol": "JSWSTEEL",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-31T13:32:59.124711"
+      },
+      {
+        "trigger_id": 304392577,
+        "symbol": "JSWSTEEL",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-31T13:32:59.212084"
+      }
+    ],
+    "failed_orders": []
+  }
+}

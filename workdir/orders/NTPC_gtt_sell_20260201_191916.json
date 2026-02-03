@@ -1,0 +1,34 @@
+{
+  "company_symbol": "NTPC",
+  "order_type": "GTT_SELL",
+  "quantity": 12,
+  "average_buy_price": 343.4,
+  "sell_price": 348.5,
+  "trigger_price": 349.0,
+  "target_net_profit_percentage": 1.0,
+  "profit_analysis": {
+    "buy_value": 4120.799999999999,
+    "sell_value": 4182.0,
+    "gross_profit": 61.20000000000073,
+    "gross_profit_percentage": 1.4851485148515031,
+    "charges": {
+      "charge_mode": "delivery",
+      "brokerage": 0.0,
+      "stt": 4.182,
+      "exchange_charges": 0.144279,
+      "sebi_fees": 0.004182,
+      "dp_charges": 15.93,
+      "gst": 0.026722979999999997,
+      "total_charges": 20.28718398,
+      "charges_per_share": 1.6905986649999998
+    },
+    "total_charges": 20.28718398,
+    "charges_percentage": 0.4923117836342458,
+    "net_profit": 40.91281602000073,
+    "net_profit_percentage": 0.9928367312172572,
+    "break_even_price": 345.09059866499996
+  },
+  "trigger_id": 304765320,
+  "status": "PLACED",
+  "timestamp": "2026-02-01T19:19:16.825012"
+}

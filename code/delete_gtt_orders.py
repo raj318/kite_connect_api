@@ -26,18 +26,25 @@ from kite_utils import setup_logger, load_config
 class GTTOrderDeleter:
     """Class to delete all active GTT orders for a given company"""
     
-    def __init__(self, company_symbol: str):
+    def __init__(self, company_symbol: str, transaction_type: str = None):
         """
         Initialize the GTT Order Deleter
         
         Parameters:
         - company_symbol: Trading symbol of the company (e.g., "ITC", "RELIANCE")
+        - transaction_type: Filter by transaction type ('BUY', 'SELL', or None for all)
         """
         self.company_symbol = company_symbol.upper()
+        self.transaction_type = transaction_type.upper() if transaction_type else None
         
         # Setup logging
-        self.logger = setup_logger(__name__, f"GTT_DELETE_{self.company_symbol}")
-        self.logger.info(f"Initializing GTT Order Deleter for {self.company_symbol}")
+        filter_text = f"_{self.transaction_type}" if self.transaction_type else ""
+        self.logger = setup_logger(__name__, f"GTT_DELETE_{self.company_symbol}{filter_text}")
+        
+        if self.transaction_type:
+            self.logger.info(f"Initializing GTT Order Deleter for {self.company_symbol} (Type: {self.transaction_type})")
+        else:
+            self.logger.info(f"Initializing GTT Order Deleter for {self.company_symbol}")
         
         # Test config loading first
         try:
@@ -87,18 +94,34 @@ class GTTOrderDeleter:
                 
                 status = order.get('status', '').upper()
                 
-                self.logger.info(f"Order: Symbol={symbol}, Status={status}, Company={self.company_symbol}")
+                # Get transaction type from multiple possible locations
+                transaction_type = (
+                    order.get('type', '') or  # Direct field
+                    order.get('condition', {}).get('transaction_type', '') or  # Nested under condition
+                    order.get('orders', [{}])[0].get('transaction_type', '') if order.get('orders') else ''  # In orders array
+                ).upper()
+                
+                self.logger.info(f"Order: Symbol={symbol}, Status={status}, Type={transaction_type}, Company={self.company_symbol}")
                 
                 # Consider these statuses as "active" GTT orders
                 active_statuses = ['ACTIVE', 'PENDING', 'OPEN']
                 
-                if symbol == self.company_symbol and status in active_statuses:
+                # Check if order matches all criteria
+                matches_symbol = symbol == self.company_symbol
+                matches_status = status in active_statuses
+                matches_type = (not self.transaction_type) or (transaction_type == self.transaction_type)
+                
+                if matches_symbol and matches_status and matches_type:
                     company_orders.append(order)
-                    self.logger.info(f"✅ Added active order for {symbol} (Status: {status})")
+                    type_info = f" (Type: {transaction_type})" if transaction_type else ""
+                    self.logger.info(f"✅ Added active order for {symbol} (Status: {status}){type_info}")
+                elif matches_symbol and matches_status:
+                    self.logger.info(f"⚠️  Found {symbol} order but type is '{transaction_type}' (filtered out)")
                 elif symbol == self.company_symbol:
                     self.logger.info(f"⚠️  Found {symbol} order but status is '{status}' (not active)")
             
-            self.logger.info(f"Found {len(company_orders)} active GTT orders for {self.company_symbol}")
+            filter_text = f" (Type: {self.transaction_type})" if self.transaction_type else ""
+            self.logger.info(f"Found {len(company_orders)} active GTT orders for {self.company_symbol}{filter_text}")
             return company_orders
             
         except Exception as e:
@@ -312,15 +335,18 @@ class GTTOrderDeleter:
             # Get active GTT orders
             gtt_orders = self.get_active_gtt_orders()
             
+            filter_text = f" ({self.transaction_type} only)" if self.transaction_type else ""
+            
             if not gtt_orders:
-                print(f"\nNo active GTT orders found for {self.company_symbol}")
+                print(f"\nNo active GTT orders found for {self.company_symbol}{filter_text}")
                 return
             
             # Confirm deletion with user
-            print(f"\nFound {len(gtt_orders)} active GTT orders for {self.company_symbol}")
-            print("\n⚠️  WARNING: This will permanently delete all GTT orders for this company!")
+            print(f"\nFound {len(gtt_orders)} active GTT orders for {self.company_symbol}{filter_text}")
+            warning_text = f" ({self.transaction_type} orders only)" if self.transaction_type else ""
+            print(f"\n⚠️  WARNING: This will permanently delete GTT orders{warning_text} for this company!")
             
-            confirm = input(f"\nDo you want to proceed with deleting all GTT orders for {self.company_symbol}? (yes/no): ").strip().lower()
+            confirm = input(f"\nDo you want to proceed with deleting these GTT orders for {self.company_symbol}? (yes/no): ").strip().lower()
             if confirm not in ['yes', 'y']:
                 self.logger.info("GTT order deletion cancelled by user")
                 print("GTT order deletion cancelled.")
@@ -357,11 +383,38 @@ def main():
         help='Trading symbol of the company (e.g., ITC, RELIANCE, TCS)'
     )
     
+    parser.add_argument(
+        '--only_buy',
+        action='store_true',
+        help='Delete only BUY GTT orders'
+    )
+    
+    parser.add_argument(
+        '--only_sell',
+        action='store_true',
+        help='Delete only SELL GTT orders'
+    )
+    
     args = parser.parse_args()
+    
+    # Validate that both filters are not used together
+    if args.only_buy and args.only_sell:
+        print("Error: Cannot use both --only_buy and --only_sell flags together")
+        sys.exit(1)
+    
+    # Determine transaction type filter
+    transaction_type = None
+    if args.only_buy:
+        transaction_type = 'BUY'
+    elif args.only_sell:
+        transaction_type = 'SELL'
     
     try:
         # Create and run deleter
-        deleter = GTTOrderDeleter(company_symbol=args.company_symbol)
+        deleter = GTTOrderDeleter(
+            company_symbol=args.company_symbol,
+            transaction_type=transaction_type
+        )
         deleter.run()
         
     except KeyboardInterrupt:

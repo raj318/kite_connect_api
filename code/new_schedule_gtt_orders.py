@@ -227,6 +227,85 @@ class HybridOrderScheduler:
         self.kite_api = KiteConnectAPI(self.company_symbol)
         self.gtt_orders = []
         
+    def get_last_order_file(self) -> Optional[Dict[str, Any]]:
+        """
+        Find and read the most recent order file for this company
+        
+        Returns:
+        Dictionary with last order details or None if not found
+        """
+        try:
+            import json
+            import os
+            import glob
+            
+            orders_dir = os.path.join('workdir', 'orders')
+            if not os.path.exists(orders_dir):
+                return None
+            
+            # Find all order files for this company
+            pattern = os.path.join(orders_dir, f'{self.company_symbol}_gtt_orders_*.json')
+            order_files = glob.glob(pattern)
+            
+            if not order_files:
+                self.logger.info(f"No previous order files found for {self.company_symbol}")
+                return None
+            
+            # Get the most recent file
+            latest_file = max(order_files, key=os.path.getctime)
+            self.logger.info(f"Found last order file: {latest_file}")
+            
+            # Read the file
+            with open(latest_file, 'r') as f:
+                data = json.load(f)
+            
+            return data
+            
+        except Exception as e:
+            self.logger.warning(f"Could not read last order file: {e}")
+            return None
+    
+    def calculate_continuation_price(self, last_orders: Dict[str, Any]) -> float:
+        """
+        Calculate the starting price for continuation orders
+        
+        Parameters:
+        - last_orders: Dictionary containing previous order details
+        
+        Returns:
+        Starting price for new orders (lowest price from last batch)
+        """
+        try:
+            orders = last_orders.get('orders', [])
+            if not orders:
+                return None
+            
+            # Filter out skipped orders and find lowest price
+            valid_orders = [
+                o for o in orders 
+                if o.get('order_type') not in ['SKIPPED'] and o.get('order_price')
+            ]
+            
+            if not valid_orders:
+                return None
+            
+            # Get the lowest order price from last batch
+            lowest_price = min(o['order_price'] for o in valid_orders)
+            
+            self.logger.info(f"Last batch had {len(valid_orders)} orders")
+            self.logger.info(f"Lowest price in last batch: Rs.{lowest_price:.1f}")
+            
+            # Start new orders slightly below the lowest price from last batch
+            # Use 99.9% of lowest price to ensure continuation
+            continuation_price = lowest_price * 0.999
+            
+            self.logger.info(f"Continuation starting price: Rs.{continuation_price:.1f}")
+            return continuation_price
+            
+        except Exception as e:
+            self.logger.error(f"Error calculating continuation price: {e}")
+            return None
+        
     def connect_to_kite(self) -> None:
         """Establish connection to Kite Connect"""
         try:
@@ -749,8 +828,17 @@ def main():
     
     parser.add_argument(
         'current_price',
+        nargs='?',
         type=float,
-        help='Current price of the stock (base price for the first order)'
+        default=None,
+        help='Current price of the stock (base price for the first order). Not required with --continue flag.'
+    )
+    
+    parser.add_argument(
+        '--continue',
+        dest='continue_orders',
+        action='store_true',
+        help='Continue from last placed orders (starts from lowest price of previous batch)'
     )
     
     parser.add_argument(
@@ -791,11 +879,61 @@ def main():
     args = parser.parse_args()
     
     try:
+        # Handle continuation mode
+        current_price = args.current_price
+        
+        if args.continue_orders:
+            print("\n🔄 CONTINUATION MODE ENABLED")
+            print("Looking for previous orders to continue from...\n")
+            
+            # Create temporary scheduler to access methods
+            temp_scheduler = HybridOrderScheduler(
+                company_symbol=args.company_symbol,
+                steps=args.steps or 10,
+                current_price=100.0,  # Temporary value
+                base_shares=args.base_shares,
+                max_fall_pct=args.max_fall_pct,
+                fall_power=args.fall_power,
+                size_power=args.size_power,
+                size_multiplier=args.size_multiplier
+            )
+            
+            # Get last order file
+            last_orders = temp_scheduler.get_last_order_file()
+            
+            if not last_orders:
+                print(f"❌ No previous orders found for {args.company_symbol}")
+                print("Cannot use --continue without previous order history.")
+                print("\nPlease run without --continue flag and provide current_price.")
+                sys.exit(1)
+            
+            # Calculate continuation price
+            continuation_price = temp_scheduler.calculate_continuation_price(last_orders)
+            
+            if not continuation_price:
+                print("❌ Could not calculate continuation price from last orders")
+                sys.exit(1)
+            
+            current_price = continuation_price
+            
+            print(f"✅ Found previous orders for {args.company_symbol}")
+            print(f"   Last batch: {last_orders.get('order_count', 0)} orders")
+            print(f"   Base price: Rs.{last_orders.get('base_price', 0):.2f}")
+            print(f"\n📊 New orders will start from: Rs.{current_price:.2f}")
+            print(f"   (Continuing below the lowest price from last batch)\n")
+            
+        elif current_price is None:
+            print("\n❌ Error: current_price is required when not using --continue flag")
+            print("\nUsage:")
+            print("  Normal mode:        python new_schedule_gtt_orders.py SYMBOL [steps] PRICE")
+            print("  Continuation mode:  python new_schedule_gtt_orders.py SYMBOL --continue\n")
+            sys.exit(1)
+        
         # Create and run scheduler
         scheduler = HybridOrderScheduler(
             company_symbol=args.company_symbol,
             steps=args.steps,
-            current_price=args.current_price,
+            current_price=current_price,
             base_shares=args.base_shares,
             max_fall_pct=args.max_fall_pct,
             fall_power=args.fall_power,

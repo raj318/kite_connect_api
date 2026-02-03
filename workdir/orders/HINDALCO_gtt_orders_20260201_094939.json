@@ -1,0 +1,81 @@
+{
+  "company_symbol": "HINDALCO",
+  "order_count": 6,
+  "actual_orders_placed": 5,
+  "quantity_strategy": "Progressive (20, 21, 22, 23, ...)",
+  "price_difference_percent": 1,
+  "order_strategy": "GTT orders starting from lower price (first order skipped due to market closed)",
+  "market_status": "CLOSED",
+  "max_quantity": 100,
+  "base_price": 905.7,
+  "total_quantity": 110,
+  "total_value": 97541.9,
+  "orders": [
+    {
+      "order_number": 1,
+      "order_price": 905.7,
+      "trigger_price": 904.8,
+      "quantity": 20,
+      "total_value": 18114.6,
+      "order_type": "GTT",
+      "order_id": null,
+      "trigger_id": 304579334,
+      "status": "PLACED",
+      "timestamp": "2026-02-01T09:49:39.236453",
+      "original_order_number": 2
+    },
+    {
+      "order_number": 2,
+      "order_price": 896.7,
+      "trigger_price": 895.8,
+      "quantity": 21,
+      "total_value": 18829.7,
+      "order_type": "GTT",
+      "order_id": null,
+      "trigger_id": 304579337,
+      "status": "PLACED",
+      "timestamp": "2026-02-01T09:49:39.406183",
+      "original_order_number": 3
+    },
+    {
+      "order_number": 3,
+      "order_price": 887.6,
+      "trigger_price": 886.7,
+      "quantity": 22,
+      "total_value": 19526.5,
+      "order_type": "GTT",
+      "order_id": null,
+      "trigger_id": 304579339,
+      "status": "PLACED",
+      "timestamp": "2026-02-01T09:49:39.567197",
+      "original_order_number": 4
+    },
+    {
+      "order_number": 4,
+      "order_price": 878.5,
+      "trigger_price": 877.6,
+      "quantity": 23,
+      "total_value": 20205.3,
+      "order_type": "GTT",
+      "order_id": null,
+      "trigger_id": 304579343,
+      "status": "PLACED",
+      "timestamp": "2026-02-01T09:49:39.747774",
+      "original_order_number": 5
+    },
+    {
+      "order_number": 5,
+      "order_price": 869.4,
+      "trigger_price": 868.5,
+      "quantity": 24,
+      "total_value": 20865.8,
+      "order_type": "GTT",
+      "order_id": null,
+      "trigger_id": 304579346,
+      "status": "PLACED",
+      "timestamp": "2026-02-01T09:49:39.908387",
+      "original_order_number": 6
+    }
+  ],
+  "timestamp": "2026-02-01T09:49:39.908543"
+}

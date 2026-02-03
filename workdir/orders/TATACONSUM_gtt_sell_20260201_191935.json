@@ -1,0 +1,34 @@
+{
+  "company_symbol": "TATACONSUM",
+  "order_type": "GTT_SELL",
+  "quantity": 22,
+  "average_buy_price": 1103.99,
+  "sell_price": 1116.9,
+  "trigger_price": 1117.4,
+  "target_net_profit_percentage": 1.0,
+  "profit_analysis": {
+    "buy_value": 24287.78,
+    "sell_value": 24571.800000000003,
+    "gross_profit": 284.0200000000041,
+    "gross_profit_percentage": 1.1693946503138783,
+    "charges": {
+      "charge_mode": "delivery",
+      "brokerage": 0.0,
+      "stt": 24.571800000000003,
+      "exchange_charges": 0.8477271000000001,
+      "sebi_fees": 0.0245718,
+      "dp_charges": 15.93,
+      "gst": 0.157013802,
+      "total_charges": 41.53111270200001,
+      "charges_per_share": 1.8877778500909095
+    },
+    "total_charges": 41.53111270200001,
+    "charges_percentage": 0.17099591935533018,
+    "net_profit": 242.48888729800407,
+    "net_profit_percentage": 0.9983987309585483,
+    "break_even_price": 1105.877777850091
+  },
+  "trigger_id": 304765360,
+  "status": "PLACED",
+  "timestamp": "2026-02-01T19:19:35.684289"
+}

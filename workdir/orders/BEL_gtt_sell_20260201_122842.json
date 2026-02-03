@@ -1,0 +1,34 @@
+{
+  "company_symbol": "BEL",
+  "order_type": "GTT_SELL",
+  "quantity": 122,
+  "average_buy_price": 426.61,
+  "sell_price": 429.3,
+  "trigger_price": 429.8,
+  "target_net_profit_percentage": 0.5,
+  "profit_analysis": {
+    "buy_value": 52046.42,
+    "sell_value": 52374.6,
+    "gross_profit": 328.1800000000003,
+    "gross_profit_percentage": 0.6305524952532764,
+    "charges": {
+      "charge_mode": "delivery",
+      "brokerage": 0.0,
+      "stt": 52.3746,
+      "exchange_charges": 1.8069236999999998,
+      "sebi_fees": 0.05237459999999999,
+      "dp_charges": 15.93,
+      "gst": 0.33467369399999997,
+      "total_charges": 70.498571994,
+      "charges_per_share": 0.5778571474918033
+    },
+    "total_charges": 70.498571994,
+    "charges_percentage": 0.13545325882932968,
+    "net_profit": 257.68142800600026,
+    "net_profit_percentage": 0.4950992364239467,
+    "break_even_price": 427.1878571474918
+  },
+  "trigger_id": 304656052,
+  "status": "PLACED",
+  "timestamp": "2026-02-01T12:28:42.816567"
+}

@@ -1,0 +1,83 @@
+{
+  "company_symbol": "BAJFINANCE",
+  "operation": "GTT Order Deletion",
+  "timestamp": "2026-01-31T13:33:33.922266",
+  "results": {
+    "total_orders": 10,
+    "successful_deletions": 10,
+    "failed_deletions": 0,
+    "deleted_orders": [
+      {
+        "trigger_id": 304483909,
+        "symbol": "BAJFINANCE",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-31T13:33:33.012627"
+      },
+      {
+        "trigger_id": 304483847,
+        "symbol": "BAJFINANCE",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-31T13:33:33.102342"
+      },
+      {
+        "trigger_id": 304416005,
+        "symbol": "BAJFINANCE",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-31T13:33:33.209389"
+      },
+      {
+        "trigger_id": 304416003,
+        "symbol": "BAJFINANCE",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-31T13:33:33.306703"
+      },
+      {
+        "trigger_id": 304416002,
+        "symbol": "BAJFINANCE",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-31T13:33:33.467694"
+      },
+      {
+        "trigger_id": 304416001,
+        "symbol": "BAJFINANCE",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-31T13:33:33.593171"
+      },
+      {
+        "trigger_id": 304416000,
+        "symbol": "BAJFINANCE",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-31T13:33:33.693031"
+      },
+      {
+        "trigger_id": 304415999,
+        "symbol": "BAJFINANCE",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-31T13:33:33.767987"
+      },
+      {
+        "trigger_id": 304415997,
+        "symbol": "BAJFINANCE",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-31T13:33:33.841699"
+      },
+      {
+        "trigger_id": 304415996,
+        "symbol": "BAJFINANCE",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-31T13:33:33.922207"
+      }
+    ],
+    "failed_orders": []
+  }
+}

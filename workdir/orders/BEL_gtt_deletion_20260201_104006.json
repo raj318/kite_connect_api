@@ -1,0 +1,34 @@
+{
+  "company_symbol": "BEL",
+  "operation": "GTT Order Deletion",
+  "timestamp": "2026-02-01T10:40:06.008472",
+  "results": {
+    "total_orders": 3,
+    "successful_deletions": 3,
+    "failed_deletions": 0,
+    "deleted_orders": [
+      {
+        "trigger_id": 304486384,
+        "symbol": "BEL",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-02-01T10:40:05.807587"
+      },
+      {
+        "trigger_id": 304486383,
+        "symbol": "BEL",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-02-01T10:40:05.924131"
+      },
+      {
+        "trigger_id": 304486382,
+        "symbol": "BEL",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-02-01T10:40:06.008389"
+      }
+    ],
+    "failed_orders": []
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "company_symbol": "NTPC",
+  "operation": "GTT Order Deletion",
+  "timestamp": "2026-01-31T13:33:55.735642",
+  "results": {
+    "total_orders": 11,
+    "successful_deletions": 11,
+    "failed_deletions": 0,
+    "deleted_orders": [
+      {
+        "trigger_id": 304483911,
+        "symbol": "NTPC",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-31T13:33:54.829067"
+      },
+      {
+        "trigger_id": 304483850,
+        "symbol": "NTPC",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-31T13:33:54.907555"
+      },
+      {
+        "trigger_id": 304419277,
+        "symbol": "NTPC",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-31T13:33:54.989153"
+      },
+      {
+        "trigger_id": 304419273,
+        "symbol": "NTPC",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-31T13:33:55.070108"
+      },
+      {
+        "trigger_id": 304419271,
+        "symbol": "NTPC",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-31T13:33:55.186658"
+      },
+      {
+        "trigger_id": 304419269,
+        "symbol": "NTPC",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-31T13:33:55.273207"
+      },
+      {
+        "trigger_id": 304419268,
+        "symbol": "NTPC",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-31T13:33:55.351710"
+      },
+      {
+        "trigger_id": 304419267,
+        "symbol": "NTPC",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-31T13:33:55.438950"
+      },
+      {
+        "trigger_id": 304419265,
+        "symbol": "NTPC",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-31T13:33:55.541172"
+      },
+      {
+        "trigger_id": 304419263,
+        "symbol": "NTPC",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-31T13:33:55.627948"
+      },
+      {
+        "trigger_id": 304419261,
+        "symbol": "NTPC",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-31T13:33:55.735570"
+      }
+    ],
+    "failed_orders": []
+  }
+}

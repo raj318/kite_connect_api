@@ -1,0 +1,68 @@
+{
+  "company_symbol": "BAJFINANCE",
+  "order_count": 5,
+  "actual_orders_placed": 4,
+  "quantity_strategy": "Progressive (11, 12, 13, 14, ...)",
+  "price_difference_percent": 0.8,
+  "order_strategy": "GTT orders starting from lower price (first order skipped due to market closed)",
+  "market_status": "CLOSED",
+  "max_quantity": 100,
+  "base_price": 893.2,
+  "total_quantity": 50,
+  "total_value": 44087.7,
+  "orders": [
+    {
+      "order_number": 1,
+      "order_price": 893.2,
+      "trigger_price": 892.3,
+      "quantity": 11,
+      "total_value": 9825.3,
+      "order_type": "GTT",
+      "order_id": null,
+      "trigger_id": 304870456,
+      "status": "PLACED",
+      "timestamp": "2026-02-02T10:04:36.690153",
+      "original_order_number": 2
+    },
+    {
+      "order_number": 2,
+      "order_price": 886.0,
+      "trigger_price": 885.2,
+      "quantity": 12,
+      "total_value": 10632.6,
+      "order_type": "GTT",
+      "order_id": null,
+      "trigger_id": 304870463,
+      "status": "PLACED",
+      "timestamp": "2026-02-02T10:04:36.888587",
+      "original_order_number": 3
+    },
+    {
+      "order_number": 3,
+      "order_price": 878.9,
+      "trigger_price": 878.0,
+      "quantity": 13,
+      "total_value": 11425.6,
+      "order_type": "GTT",
+      "order_id": null,
+      "trigger_id": 304870467,
+      "status": "PLACED",
+      "timestamp": "2026-02-02T10:04:37.079261",
+      "original_order_number": 4
+    },
+    {
+      "order_number": 4,
+      "order_price": 871.7,
+      "trigger_price": 870.9,
+      "quantity": 14,
+      "total_value": 12204.2,
+      "order_type": "GTT",
+      "order_id": null,
+      "trigger_id": 304870471,
+      "status": "PLACED",
+      "timestamp": "2026-02-02T10:04:37.290608",
+      "original_order_number": 5
+    }
+  ],
+  "timestamp": "2026-02-02T10:04:37.290759"
+}

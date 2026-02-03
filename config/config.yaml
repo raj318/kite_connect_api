@@ -3,16 +3,16 @@ breeze_api:
   secret_token: 530zM488$968889l8rD9a7S35(2984w1
   session_id: 52167302
 kite_connect:
-  access_token: Nqy6jOnLZiYzQ5Qk1GJGmQkEPRZPudvZ
-  api_key: ldhfjwk4z3wn9v9d
-  api_secret: k8ri5fj6wtn404iqq3bmt5ntdplubua1
-  redirect_url: http://localhost:8000/login
-  request_token: 2TJHjy5eaZQRTk3NvCPMS9cv5O96rdGQ
+  access_token: SCOcspjGd25jIdl11KGqdAXoYCI4xZEm
+  api_key: 8sz8fobmr85h3enx
+  api_secret: c5167i9z99eu0okvg35s7bjrjfngsk9r
+  redirect_url: http://localhost:8080/callback
+  request_token: d3sx6CVVKyZQGGgMhSmiYdLcLZk7zB7X
 stratergy:
   buy: 0.3
   linear_from: 1
   order_count: 10
-  price_difference_percent: 0.5
+  price_difference_percent: 1
   sell: 0.5
   start_buy: 1
   start_quantity: 1

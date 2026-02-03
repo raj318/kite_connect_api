@@ -1,0 +1,90 @@
+{
+  "company_symbol": "TATACONSUM",
+  "operation": "GTT Order Deletion",
+  "timestamp": "2026-01-31T13:33:15.170947",
+  "results": {
+    "total_orders": 11,
+    "successful_deletions": 11,
+    "failed_deletions": 0,
+    "deleted_orders": [
+      {
+        "trigger_id": 304483908,
+        "symbol": "TATACONSUM",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-31T13:33:14.202575"
+      },
+      {
+        "trigger_id": 304483845,
+        "symbol": "TATACONSUM",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-31T13:33:14.297317"
+      },
+      {
+        "trigger_id": 304394892,
+        "symbol": "TATACONSUM",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-31T13:33:14.375252"
+      },
+      {
+        "trigger_id": 304392603,
+        "symbol": "TATACONSUM",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-31T13:33:14.491354"
+      },
+      {
+        "trigger_id": 304392601,
+        "symbol": "TATACONSUM",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-31T13:33:14.579770"
+      },
+      {
+        "trigger_id": 304392600,
+        "symbol": "TATACONSUM",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-31T13:33:14.702415"
+      },
+      {
+        "trigger_id": 304392599,
+        "symbol": "TATACONSUM",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-31T13:33:14.812576"
+      },
+      {
+        "trigger_id": 304392598,
+        "symbol": "TATACONSUM",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-31T13:33:14.894248"
+      },
+      {
+        "trigger_id": 304392597,
+        "symbol": "TATACONSUM",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-31T13:33:14.998921"
+      },
+      {
+        "trigger_id": 304392594,
+        "symbol": "TATACONSUM",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-31T13:33:15.091045"
+      },
+      {
+        "trigger_id": 304392593,
+        "symbol": "TATACONSUM",
+        "quantity": 0,
+        "price": 0.0,
+        "timestamp": "2026-01-31T13:33:15.170888"
+      }
+    ],
+    "failed_orders": []
+  }
+}
